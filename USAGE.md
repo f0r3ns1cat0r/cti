@@ -5,7 +5,7 @@
 >
 > We have unified our STIX 2.0 and STIX 2.1 representations into a single specification.
 > For the most up-to-date information about the structure and format of our published STIX files,
-> see the [ATT&CK Data Model Specification](https://mitre-attack.github.io/attack-data-model/schemas/changelog-schema).
+> see the [ATT&CK Data Model Specification](https://mitre-attack.github.io/attack-data-model/schemas/).
 >
 > This document focuses on practical usage examples and Python recipes for working with ATT&CK data. For detailed information about object types, fields, and relationships, please refer to the specification linked above.
 
