@@ -2,9 +2,11 @@
 
 > [!IMPORTANT]
 > **Documentation Notice**
-> 
-> We have unified our STIX 2.0 and STIX 2.1 representations into a single specification. For the most up-to-date information about the structure and format of our published STIX files, see the [ATT&CK Data Model Specification](https://github.com/mitre-attack/attack-data-model/blob/main/docs/SPEC.md).
-> 
+>
+> We have unified our STIX 2.0 and STIX 2.1 representations into a single specification.
+> For the most up-to-date information about the structure and format of our published STIX files,
+> see the [ATT&CK Data Model Specification](https://mitre-attack.github.io/attack-data-model/schemas/changelog-schema).
+>
 > This document focuses on practical usage examples and Python recipes for working with ATT&CK data. For detailed information about object types, fields, and relationships, please refer to the specification linked above.
 
 This document describes how to query and manipulate ATT&CK data from either this repository or the ATT&CK TAXII server using Python.
@@ -61,7 +63,7 @@ ATT&CK uses a mix of predefined and custom STIX objects to implement ATT&CK conc
 ## Accessing ATT&CK data in python
 
 There are several ways to acquire the ATT&CK data in Python. All of them will provide an object
-implementing the DataStore API and can be used interchangeably with the recipes provided in the [Python recipes](#Python-Recipes) section.
+implementing the DataStore API and can be used interchangeably with the recipes provided in the [Python recipes](#python-recipes) section.
 
 This section utilizes the [stix2 python library](https://github.com/oasis-open/cti-python-stix2). Please refer to the [STIX2 Python API Documentation](https://stix2.readthedocs.io/en/latest/) for more information on how to work with STIX programmatically.
 
@@ -143,11 +145,11 @@ Some users may instead prefer to access "live" ATT&CK content over the internet.
 
 Users can access the ATT&CK data from the official ATT&CK TAXII server. In TAXII, the ATT&CK domains are represented as collections with static IDs:
 
-| domain | collection ID |
-|:-------|:--------------|
+| domain              | collection ID                          |
+|:--------------------|:---------------------------------------|
 | `enterprise-attack` | `95ecc380-afe9-11e4-9b6c-751b66dd541e` |
-| `mobile-attack` | `2f669986-b40b-4423-b720-4396ca6a462b` |
-| `ics-attack` | `02c3ef24-9cd4-48f3-a99f-b74ce24f1d34` |
+| `mobile-attack`     | `2f669986-b40b-4423-b720-4396ca6a462b` |
+| `ics-attack`        | `02c3ef24-9cd4-48f3-a99f-b74ce24f1d34` |
 
 You can also get a list of available collection from the server directly:
 
@@ -245,7 +247,7 @@ You can then use this CompositeDataSource just as you would the DataSource for a
 
 ## Python recipes
 
-Below are example python recipes which can be used to work with ATT&CK data. They assume the existence of an object implementing the DataStore API. Any of the methods outlined in the [Accessing ATT&CK data in python](#accessing-ATTCK-Data-in-Python) section should provide an object implementing this API.
+Below are example python recipes which can be used to work with ATT&CK data. They assume the existence of an object implementing the DataStore API. Any of the methods outlined in the [Accessing ATT&CK data in python](#accessing-attck-data-in-python) section should provide an object implementing this API.
 
 This section utilizes the [stix2 python library](https://github.com/oasis-open/cti-python-stix2). Please refer to the [STIX2 Python API Documentation](https://stix2.readthedocs.io/en/latest/) for more information on how to work with STIX programmatically. See also the section on [Requirements and imports](#requirements-and-imports).
 
@@ -282,7 +284,7 @@ t1134 = src.query([
 ])[0]
 ```
 
-The old 1:1 mitigations causing this issue are deprecated, so you can also filter them out that way — see [Removing revoked and deprecated objects](#Removing-revoked-and-deprecated-objects).
+The old 1:1 mitigations causing this issue are deprecated, so you can also filter them out that way — see [Removing revoked and deprecated objects](#removing-revoked-and-deprecated-objects).
 
 #### By name
 
@@ -321,7 +323,7 @@ get_group_by_alias(src, 'Cozy Bear')
 
 The recipes in this section address how to query the dataset for multiple objects.
 
-&#9888; When working with queries to return objects based on a set of characteristics, it is likely that you'll end up with a few objects which are no longer maintained by ATT&CK. These are objects marked as deprecated or revoked. We keep these outdated objects around so that workflows depending on them don't break, but we recommend you avoid using them when possible. Please see the section [Working with deprecated and revoked objects](#Working-with-deprecated-and-revoked-objects) for more information.
+&#9888; When working with queries to return objects based on a set of characteristics, it is likely that you'll end up with a few objects which are no longer maintained by ATT&CK. These are objects marked as deprecated or revoked. We keep these outdated objects around so that workflows depending on them don't break, but we recommend you avoid using them when possible. Please see the section [Working with deprecated and revoked objects](#working-with-deprecated-and-revoked-objects) for more information.
 
 #### Objects by type
 
