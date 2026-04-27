@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c778afb1-6cd3-4eb8-9462-bd338a28e5d8",
+    "id": "bundle--e05e76cd-913e-4d46-a912-9a444d895e3f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--3723c7a3-2ea7-455f-aec5-29300cb7ae64",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-03-09T17:32:52.483Z",
             "name": "Analytic 1669",
-            "description": "Mobile security products can often alert the user if their device is vulnerable to known exploits.",
+            "description": "A defender correlates navigation to external web content in a browser or embedded WebView with immediate script-heavy or exploit-preparation network activity, followed by abnormal browser/WebView process behavior, suspicious file or download artifacts, or rapid post-visit capability shifts such as new package install attempts, overlay prompts, permission requests, or outbound command traffic inconsistent with normal browsing.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,12 +34,61 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--85a533a4-5fa4-4dba-b45d-f0717bedd6e6",
-                    "name": "Sensor Health",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "android:MDMLog",
+                    "channel": "New permission prompt, package install attempt, accessibility/overlay special access request, or other post-browse capability escalation following browser/WebView activity"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Browser/WebView framework usage indicating external URL load, script execution enablement, file download initiation, intent handoff, or package install prompt sequence"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "NSM:Flow",
+                    "channel": "Application-layer web traffic showing suspicious redirect chains, iframe/ad-tech cascades, user-agent or environment fingerprinting requests, or staged payload retrieval after page visit"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Browser/WebView process creates downloaded payloads, temporary files, dropped archives, or unusual cached web artifacts shortly after visiting external content"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3d20385b-24ef-40e1-9f56-f39750379077",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Browser or WebView-hosting application brought to foreground and navigates to external content, followed by abnormal state transition, crash, restart, or process spawn behavior"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "NavigationToExploitWindow",
+                    "description": "Time window used to correlate web navigation with redirects, fingerprinting, downloads, or post-visit capability changes."
+                },
+                {
+                    "field": "AllowedBrowserApps",
+                    "description": "Allow-list of expected browsers or sanctioned WebView-hosting apps used in the enterprise."
+                },
+                {
+                    "field": "RedirectChainThreshold",
+                    "description": "Threshold for suspicious number of redirects or cross-domain hops during a single browsing session."
+                },
+                {
+                    "field": "NewDomainBurstThreshold",
+                    "description": "Threshold for the number of newly observed domains contacted in a short browsing window."
+                },
+                {
+                    "field": "DownloadArtifactThreshold",
+                    "description": "Threshold for suspicious downloaded or cached artifacts created after navigation."
+                },
+                {
+                    "field": "PostVisitCapabilityShiftRequired",
+                    "description": "Determines whether to require a new install/prompt/permission/overlay event after browsing to raise confidence."
+                },
+                {
+                    "field": "AllowedAdTechDomains",
+                    "description": "Baseline of normal advertising/CDN/tracking domains to reduce false positives from legitimate browsing."
+                }
+            ]
         }
     ]
 }

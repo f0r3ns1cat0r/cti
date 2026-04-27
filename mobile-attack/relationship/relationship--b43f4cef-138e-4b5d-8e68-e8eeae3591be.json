@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c7eddae3-4f44-48db-b056-9346d7fe8539",
+    "id": "bundle--7e6f1713-fa15-4a63-93b2-d596fa54bf69",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--b43f4cef-138e-4b5d-8e68-e8eeae3591be",
             "created": "2021-02-17T20:43:52.337Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lookout FrozenCell",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--68285b64-80ce-45ac-9b76-751d43c293c9",
+    "id": "bundle--bd597006-b9c7-45fd-9c48-913941231bf3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--de37eb78-5f35-4327-99d0-ad6546ab0fb6",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-03-09T17:36:14.306Z",
             "name": "Analytic 1670",
-            "description": "Mobile security products can often alert the user if their device is vulnerable to known exploits.",
+            "description": "A defender correlates Safari or embedded web content navigation with short-lived but abnormal web session behavior such as staged redirects, environment fingerprinting, or exploit-preparation fetches, followed by browser/WebView instability, unusual file handling, profile/download prompts, or near-term changes in device or application behavior inconsistent with normal browsing.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,12 +34,56 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--85a533a4-5fa4-4dba-b45d-f0717bedd6e6",
-                    "name": "Sensor Health",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "NSM:Flow",
+                    "channel": "Application-layer web traffic showing suspicious redirect chains, iframe/ad-tech cascades, user-agent or environment fingerprinting requests, or staged payload retrieval after page visit"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Browser/WebView process creates downloaded payloads, temporary files, dropped archives, or unusual cached web artifacts shortly after visiting external content"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3d20385b-24ef-40e1-9f56-f39750379077",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Browser or WebView-hosting application brought to foreground and navigates to external content, followed by abnormal state transition, crash, restart, or process spawn behavior"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "iOS:MDMLog",
+                    "channel": "Post-browse configuration profile prompt, managed/unmanaged app handoff anomaly, or compliance-relevant state change shortly after browser activity"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "NavigationToExploitWindow",
+                    "description": "Time window linking Safari/WebView navigation to redirects, downloads, crashes, or post-visit state changes."
+                },
+                {
+                    "field": "AllowedBrowserApps",
+                    "description": "Allow-list of expected browsers and sanctioned embedded web container apps."
+                },
+                {
+                    "field": "RedirectChainThreshold",
+                    "description": "Threshold for suspicious redirect depth or cross-domain chaining."
+                },
+                {
+                    "field": "FingerprintingRequestThreshold",
+                    "description": "Threshold for suspicious browser/environment enumeration requests during browsing session."
+                },
+                {
+                    "field": "DownloadArtifactThreshold",
+                    "description": "Threshold for suspicious downloaded files, profiles, or cached artifacts created after page visit."
+                },
+                {
+                    "field": "PostVisitBehaviorShiftThreshold",
+                    "description": "Threshold for abnormal changes in app/device behavior after browsing, such as repeated browser crashes or unexpected handoffs."
+                },
+                {
+                    "field": "AllowedAdTechDomains",
+                    "description": "Baseline of expected ad-tech, CDN, and analytics domains to suppress benign browsing noise."
+                }
+            ]
         }
     ]
 }

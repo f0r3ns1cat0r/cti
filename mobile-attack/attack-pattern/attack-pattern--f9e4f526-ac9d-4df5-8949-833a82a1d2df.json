@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aef6d84e-0a18-4269-ae66-0a336ccdd55f",
+    "id": "bundle--552494da-82b2-4c38-a0d6-0c69475a83d1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,7 +22,6 @@
             "name": "Malicious or Vulnerable Built-in Device Functionality",
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "mobile-attack"
             ],

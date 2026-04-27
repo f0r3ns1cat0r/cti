@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--79df2601-3d99-4751-8a00-340debe9f376",
+    "id": "bundle--5b1abc51-fee2-4da4-bf15-327121c5b3b0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--e8c77126-5279-4c39-ad84-87e4ab8ce37f",
             "created": "2024-02-20T23:46:03.419Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "lookout_bouldspy_0423",

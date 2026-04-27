@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e3f8bc3a-c498-48bc-a988-9ed61684111a",
+    "id": "bundle--a04e2554-4b2d-47c3-9b0c-97d22de85644",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--13efc415-5e17-4a16-81c2-64e74815907f",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "PaloAlto-XcodeGhost",

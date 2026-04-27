@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--96edc70e-d394-48d7-8542-ea7b6363745c",
+    "id": "bundle--a71900b0-ba6b-447f-bca7-0b86a0260bc8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,7 +22,6 @@
             "name": "App Delivered via Web Download",
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "mobile-attack"
             ],

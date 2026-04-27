@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3234368c-efc4-46a7-a45a-17ec22b31de6",
+    "id": "bundle--3ce5d761-da9f-4cc4-a9c4-29136a866774",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--ee4ce869-6b88-46f8-829a-9838f7607a8f",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-02-23T17:50:48.706Z",
             "name": "Analytic 1755",
-            "description": "Network traffic analysis could reveal patterns of compromise if devices attempt to access unusual targets or resources. \nApplication vetting may be able to identify applications that perform [Discovery](https://attack.mitre.org/tactics/TA0032) or utilize existing connectivity to remotely access hosts within an internal enterprise network. ",
+            "description": "Defender observes a mobile device initiating abnormal or exploit-like network interactions with internal or remote services, followed by process-level instability, privilege boundary shifts, or unexpected execution behaviors indicative of service exploitation outcomes.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -33,16 +35,29 @@
             "x_mitre_log_source_references": [
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
-                    "name": "Network Traffic",
-                    "channel": "None"
+                    "name": "NSM:Connections",
+                    "channel": "Outbound connections to internal enterprise services exhibiting anomalous protocol behavior, malformed sessions, or exploit-consistent traffic patterns"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--764ee29e-48d6-4934-8e6b-7a606aaaafc0",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--85a533a4-5fa4-4dba-b45d-f0717bedd6e6",
+                    "name": "AndroidLogs:Crash",
+                    "channel": "Application or system process crash/restart patterns temporally associated with remote service communications"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "ProtocolAnomalyThreshold",
+                    "description": "Defines deviation tolerance for malformed or exploit-like protocol behavior"
+                },
+                {
+                    "field": "CrashCorrelationWindow",
+                    "description": "Temporal linkage between suspicious network activity and process instability"
+                },
+                {
+                    "field": "EnterpriseServiceBaseline",
+                    "description": "Environment-specific baseline of expected internal service communications"
+                }
+            ]
         }
     ]
 }

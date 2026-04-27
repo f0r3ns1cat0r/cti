@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e1eaa09c-04eb-4120-a744-2d97bf7d6d25",
+    "id": "bundle--de150efc-c4b7-44da-afe9-13bec0dd929e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--52a370ec-dca2-45e0-bba7-7384816945e8",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-03-11T16:02:58.868Z",
             "name": "Analytic 1723",
-            "description": "Mobile security products can often alert the user if their device is vulnerable to known exploits.",
+            "description": "A lock-state transition telemetry, special access or privileged interaction capability, security-sensitive framework use, and immediate downstream activity while the user-interaction context is weak or inconsistent. This yields stronger coverage on Android than iOS.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,12 +34,55 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--85a533a4-5fa4-4dba-b45d-f0717bedd6e6",
-                    "name": "Sensor Health",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--6c62144a-cd5c-401c-ada9-58c4c74cd9d2",
+                    "name": "android:MDMLog",
+                    "channel": "Biometric, credential, lockscreen, trust-agent, Smart Lock, or device-admin-related protected device configuration changed"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "android:MDMLog",
+                    "channel": "Application gains or is observed with elevated interaction capability such as accessibility, overlay, device admin, notification access, or other authentication-adjacent special access"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "pplication or service remains active, foregrounds, or overlays during device locked state or immediately at unlock transition with weak recent user interaction context"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Maximum allowed time between locked-state boundary, suspicious app/framework activity, and unlock transition."
+                },
+                {
+                    "field": "AllowedAppList",
+                    "description": "Approved apps permitted to hold accessibility, overlay, device-admin, or other authentication-adjacent special access."
+                },
+                {
+                    "field": "ForegroundStateRequired",
+                    "description": "Whether a benign authentication-adjacent app is expected to be visible in the foreground during unlock-related operations."
+                },
+                {
+                    "field": "RecentUserInteractionWindow",
+                    "description": "Time threshold for treating the unlock as user-driven based on touch, motion, or interaction context."
+                },
+                {
+                    "field": "ExpectedUnlockPopulation",
+                    "description": "User or device groups expected to use alternative lockscreen workflows, enterprise trust agents, or kiosk-like modes."
+                },
+                {
+                    "field": "TrustedDestinationAllowList",
+                    "description": "Expected destinations contacted immediately after legitimate unlock by enterprise apps."
+                },
+                {
+                    "field": "UplinkBytesThreshold",
+                    "description": "Threshold for suspicious immediate post-unlock outbound traffic."
+                },
+                {
+                    "field": "SensorUseAllowList",
+                    "description": "Apps expected to access camera or other sensors near the authentication boundary."
+                }
+            ]
         }
     ]
 }

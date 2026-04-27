@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--93c950ee-9acb-42cf-bbcd-309dc69214ab",
+    "id": "bundle--57caa329-6253-455c-82ab-0a093b78e333",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--1f1d8e33-293a-4ceb-a91c-0cf71c6805ea",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-03-18T16:14:55.614Z",
             "name": "Analytic 1816",
-            "description": "Application vetting services may provide a list of connections made or received by an application, or a list of domains contacted by the application.\nMany properly configured firewalls may naturally block bidirectional command and control traffic.",
+            "description": "The defender correlates repeated inbound retrieval and outbound submission activity by the same Android app identity to the same legitimate public web-service class within a short operational window, where the two-way exchange is inconsistent with the app's approved role, interaction model, or background behavior baseline. The strongest Android evidence is app-attributed communication to collaboration, social, cloud storage, code-hosting, messaging, or generic HTTPS platforms where requests that retrieve content are followed by app-attributed posts, uploads, document updates, API writes, or repeated small bidirectional exchanges, especially when they occur while the app is backgrounded, while the device is locked, without recent user interaction, or shortly after local staging or protected-resource access.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,17 +34,85 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--764ee29e-48d6-4934-8e6b-7a606aaaafc0",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "VPN:MobileProxy",
+                    "channel": "App-attributed session to public web-service domain included inbound content retrieval followed by outbound POST, PUT, upload, comment, message send, document update, or API write to same service class within TimeWindow"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--181a9f8c-c780-4f1f-91a8-edb770e904ba",
-                    "name": "Network Traffic",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "VPN:MobileProxy",
+                    "channel": "Repeated alternating inbound and outbound sessions to same public web-service domain or API endpoint occurred from same app identity with stable recurrence interval"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "VPN:MobileProxy",
+                    "channel": "Outbound write operation to public web-service domain occurred after small inbound response retrieval from same domain or service class without preceding user-visible foreground activity"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "AppState=background when bidirectional exchange with public web-service domain began and no foreground transition occurred between retrieval and outbound write"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "DeviceLockState=locked during inbound retrieval and subsequent outbound write sequence to public web-service platform"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "LastUserInteractionDelta exceeded threshold before retrieve-then-write exchange to public web-service domain from same app identity"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Burst write to cache, buffer, temp, staging, or export path occurred between inbound retrieval and outbound write to same public web-service class"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Background work scheduler, job execution, foreground-service start, or persistent service activation immediately preceded retrieve-then-write exchange with public web-service platform"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "android:MDMLog",
+                    "channel": "App identity performing bidirectional exchange was unmanaged, outside approved app baseline, or not permitted to use detected public web-service class for read/write operations"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Correlation window between retrieval and outbound write over the same web-service class."
+                },
+                {
+                    "field": "AllowedAppList",
+                    "description": "Approved app identities vary by organization, business unit, and device group."
+                },
+                {
+                    "field": "AllowedServiceClasses",
+                    "description": "Some apps legitimately perform read/write operations against collaboration, storage, or messaging services."
+                },
+                {
+                    "field": "AllowedReadWriteMappings",
+                    "description": "Defines which apps are expected to both retrieve and submit content to a given public service class."
+                },
+                {
+                    "field": "RecentUserInteractionWindow",
+                    "description": "Defines how close the bidirectional exchange must be to user activity to be considered expected."
+                },
+                {
+                    "field": "BeaconIntervalTolerance",
+                    "description": "Allowed recurrence interval for repeated bidirectional exchanges varies by app type."
+                },
+                {
+                    "field": "ForegroundStateRequired",
+                    "description": "Some apps should only perform read/write web interactions while foregrounded."
+                },
+                {
+                    "field": "InboundOutboundRatioThreshold",
+                    "description": "Expected ratio of response size to outbound write size varies by legitimate app workflow."
+                }
+            ]
         }
     ]
 }

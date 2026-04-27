@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f7925db3-22de-41e1-a1d1-72d6d7b3f436",
+    "id": "bundle--4c93f54a-d20e-4353-b878-7d421684945d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--068c3d23-8aa2-48e9-acb3-c72651c94f0b",
             "created": "2024-03-28T18:03:23.922Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "trendmicro_strongpity",

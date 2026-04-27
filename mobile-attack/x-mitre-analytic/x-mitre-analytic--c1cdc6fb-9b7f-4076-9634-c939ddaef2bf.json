@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--feb4a529-3577-42c3-8a0d-4d5abacc5313",
+    "id": "bundle--041b4f36-9c19-4e8b-8763-51b8bad83a51",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--c1cdc6fb-9b7f-4076-9634-c939ddaef2bf",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-03-12T17:37:17.976Z",
             "name": "Analytic 1697",
-            "description": "Usage of insecure or malicious third-party libraries could be detected by application vetting services. Malicious software development tools could be detected by enterprises that deploy endpoint protection software on computers that are used to develop mobile apps. Application vetting could detect the usage of insecure or malicious third-party libraries.",
+            "description": "An app or app update arrives through an expected delivery path or presents as a known legitimate package identity, but its post-install or post-update behavior materially changes in ways inconsistent with its historical role. The defender correlates package identity and install/update context, newly expanded capability state, changed runtime framework use, new sensor or storage behaviors, and new network destinations shortly after installation or update to identify likely supply-chain compromise rather than ordinary malicious sideloading or unrelated post-compromise activity.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,12 +34,60 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--5ae32c6a-2d12-4b8f-81ca-f862f2be0962",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--6c62144a-cd5c-401c-ada9-58c4c74cd9d2",
+                    "name": "android:MDMLog",
+                    "channel": "Managed app catalog, enterprise update policy, or trusted distribution posture remains unchanged while a known app exhibits materially different post-update behavior"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "android:MDMLog",
+                    "channel": "Known application or newly updated version declares, gains, or activates expanded storage, sensor, communications, accessibility, or device-management capability inconsistent with prior baseline or app role"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Updated or newly delivered application becomes active, launches background services, or executes shortly after install/update with minimal user interaction inconsistent with baseline"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Known application begins first-seen or expanded use of content providers, account services, accessibility, package services, cryptographic routines, dynamic loading, or other framework interactions after update/install"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Maximum span between app install/update event and first suspicious post-delivery behavior."
+                },
+                {
+                    "field": "AllowedAppList",
+                    "description": "Approved apps expected to change permissions, add services, or contact new destinations because of legitimate feature releases."
+                },
+                {
+                    "field": "AllowedVersionChangeWindow",
+                    "description": "Grace period after a documented app release during which some behavior drift may be expected."
+                },
+                {
+                    "field": "ForegroundStateRequired",
+                    "description": "Whether certain behaviors should only be considered suspicious when they occur without visible user interaction."
+                },
+                {
+                    "field": "RecentUserInteractionWindow",
+                    "description": "Threshold for determining whether immediate post-update activity was user-driven or autonomous."
+                },
+                {
+                    "field": "DestinationAllowList",
+                    "description": "Expected new destinations, APIs, CDNs, or telemetry endpoints associated with approved app updates."
+                },
+                {
+                    "field": "CapabilityDriftThreshold",
+                    "description": "Threshold for how many newly added or newly exercised permissions/capabilities are considered abnormal for a known app."
+                },
+                {
+                    "field": "BehaviorBaselinePopulation",
+                    "description": "Population of prior devices, versions, or user cohorts used to baseline normal app behavior."
+                }
+            ]
         }
     ]
 }

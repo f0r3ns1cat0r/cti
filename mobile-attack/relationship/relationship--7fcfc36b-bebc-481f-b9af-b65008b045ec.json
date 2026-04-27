@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--99ae6558-3840-4d3d-b0e2-c85071073462",
+    "id": "bundle--c373957d-d7d3-4387-9020-ded2784a1138",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--7fcfc36b-bebc-481f-b9af-b65008b045ec",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "BankInfoSecurity-BackDoor",

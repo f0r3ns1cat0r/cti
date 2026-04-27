@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e9399da8-ed48-4749-8902-b909d01b2fbf",
+    "id": "bundle--710644bb-3e80-4bbc-ba7a-c0652d4adf83",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--f6be418e-3fed-4026-b665-f055465c7359",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-04-24T20:30:39.616Z",
             "name": "Analytic 1712",
-            "description": "Mobile security products can detect which applications can request device administrator permissions. Application vetting services could be extra scrutinous of applications that request device administrator permissions.\nThe user can view applications with administrator access through the device settings, and may also notice if user data is inexplicably missing. ",
+            "description": "Correlates (1) application access to or staging of local files likely to be of operational, evidentiary, or user value, (2) deletion of those files or wipe-like destructive actions through ordinary storage access, administrative controls, or privileged/rooted paths, and (3) continued app or device activity after deletion, including cleanup, concealment, or outbound transfer. The defender observes a causal chain where files are first accessed or prepared, then removed, and device-side behavior continues after evidence or data is gone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -33,16 +35,51 @@
             "x_mitre_log_source_references": [
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "name": "android:MDMLog",
+                    "channel": "application holds device administrator, device owner, or other managed authority capable of wipe or destructive device-level action before bulk file loss or wipe event"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--56c2b384-77f8-461f-a71a-76f7888ebfb6",
-                    "name": "User Interface",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "android:MDMLog",
+                    "channel": "device posture indicates rooted, compromised, or non-compliant state before protected or atypical filesystem deletion activity"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--e905dad2-00d6-477c-97e8-800427abd0e8",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "application deletes, truncates, or removes user, operational, or evidence-bearing files after prior access or staging and before later continued execution or communication"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "application invokes file-management, package, storage, or administrative wipe operations immediately before loss of expected local files or file collections"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Correlation window between file access or staging, deletion event, and subsequent activity"
+                },
+                {
+                    "field": "FileScopeSet",
+                    "description": "File paths, storage scopes, and data classes monitored for suspicious deletion, such as documents, databases, media, email stores, or update artifacts"
+                },
+                {
+                    "field": "DeletionVolumeThreshold",
+                    "description": "Threshold for number, size, or concentration of deleted files required before escalation"
+                },
+                {
+                    "field": "AllowedCleanupApps",
+                    "description": "Legitimate applications expected to rotate, purge, or clean up files in the environment"
+                },
+                {
+                    "field": "ProtectedRoleSet",
+                    "description": "Administrative or rooted control paths that materially increase destructive file deletion capability"
+                },
+                {
+                    "field": "UplinkBytesThreshold",
+                    "description": "Outbound traffic threshold used to distinguish exfiltration-linked cleanup from benign maintenance activity"
+                }
+            ]
         }
     ]
 }

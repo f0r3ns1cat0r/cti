@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--40be9ca6-7b27-427a-aba9-214bc54b4b7a",
+    "id": "bundle--c82f28d5-a0ca-4f40-b412-c84029596826",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--cd440baa-9989-486e-b34b-d9469ffc79a5",
             "created": "2024-03-26T19:35:37.865Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "sophos_android_apt_spyware",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8c0aaf1c-015b-44e9-bc9c-19af8b124151",
+    "id": "bundle--413a409e-a1af-4405-b554-c89f7b460248",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--2d6f830f-411c-48e5-8b7e-6d9e01244070",
             "created": "2025-10-08T20:13:43.780Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ThreatFabric_Chameleon_Dec2023",

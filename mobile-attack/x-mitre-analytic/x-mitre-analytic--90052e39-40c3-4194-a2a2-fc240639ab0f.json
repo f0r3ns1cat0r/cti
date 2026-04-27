@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d222bf8d-8979-4d22-b907-e858d861d93c",
+    "id": "bundle--dbe1f646-7a13-4838-9401-8347254ccfbc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--90052e39-40c3-4194-a2a2-fc240639ab0f",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-04-13T18:04:23.913Z",
             "name": "Analytic 1800",
-            "description": "Mobile threat defense agents could detect unauthorized operating system modifications by using attestation. ",
+            "description": "Correlates (1) modification or replacement of system runtime libraries or API resolution paths, (2) repeated invocation of hijacked APIs across multiple applications, and (3) inconsistent or suppressed outputs from those APIs compared to expected OS-enforced behavior. The defender observes a causal chain where system-level API behavior is altered, resulting in multiple applications exhibiting consistent anomalies in sensor access, permission checks, or system state reporting.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,12 +34,34 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--85a533a4-5fa4-4dba-b45d-f0717bedd6e6",
-                    "name": "Sensor Health",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "multiple applications invoking core system APIs (e.g., sensor, permission, telephony) with abnormal or inconsistent return values across apps within short interval"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "device integrity degradation + root detected or system partition modification affecting runtime libraries (e.g., /system/lib*, /vendor/lib*)"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Correlation window across multiple applications invoking affected APIs"
+                },
+                {
+                    "field": "SensitiveAPISet",
+                    "description": "Set of APIs monitored for integrity (e.g., location, telephony, permission checks)"
+                },
+                {
+                    "field": "CrossAppConsistencyThreshold",
+                    "description": "Number of applications required to exhibit anomalous API behavior to trigger detection"
+                },
+                {
+                    "field": "ExpectedAPIBaseline",
+                    "description": "Baseline of expected API return values or behavior patterns per device state"
+                }
+            ]
         }
     ]
 }

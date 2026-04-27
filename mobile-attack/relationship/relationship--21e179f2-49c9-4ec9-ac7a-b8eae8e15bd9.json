@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8cae4817-14dd-417b-adb3-f068b55ef649",
+    "id": "bundle--5f33b5f3-ddb8-4d23-89fe-15fc15f49d90",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--21e179f2-49c9-4ec9-ac7a-b8eae8e15bd9",
             "created": "2020-07-20T13:27:33.509Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos-WolfRAT",

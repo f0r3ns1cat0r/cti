@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--36d74324-7790-4851-a400-9040c09d703e",
+    "id": "bundle--db542c45-e8f6-4e1b-a8d0-af83052e1f7a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,26 +8,23 @@
             "id": "x-mitre-analytic--007a370c-be77-49c9-9ca3-25d50de35864",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
                     "url": "https://attack.mitre.org/detectionstrategies/DET0654#AN1740",
                     "external_id": "AN1740"
-                },
-                {
-                    "source_name": "Android-VerifiedBoot",
-                    "description": "Android. (n.d.). Verified Boot. Retrieved December 21, 2016.",
-                    "url": "https://source.android.com/security/verifiedboot/"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2025-12-04T17:05:14.687Z",
             "name": "Analytic 1740",
-            "description": "On Android, Verified Boot can detect unauthorized modifications to the system partition.(Citation: Android-VerifiedBoot) Android's SafetyNet API provides remote attestation capabilities, which could potentially be used to identify and respond to compromise devices. Samsung Knox provides a similar remote attestation capability on supported Samsung devices. ",
+            "description": "Correlates unauthorized alterations to launchd configuration (LaunchDaemons/LaunchAgents plists), background execution entitlements, or sideloaded app containers with suspicious auto-start behavior during device boot or user unlock. From the defender\u2019s view this shows up as new or modified plist files in launchd directories, launchd starting binaries from non-Apple or non-AppStore locations, and apps with unexpected background modes that remain active immediately after boot/unlock.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -37,12 +34,39 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--85a533a4-5fa4-4dba-b45d-f0717bedd6e6",
-                    "name": "Sensor Health",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--84572de3-9583-4c73-aabd-06ea88123dd8",
+                    "name": "iOS:unifiedlog",
+                    "channel": "Creation or modification of LaunchDaemon or LaunchAgent plist in /System/Library/LaunchDaemons, /Library/LaunchDaemons, or /Library/LaunchAgents"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3d20385b-24ef-40e1-9f56-f39750379077",
+                    "name": "iOS:unifiedlog",
+                    "channel": "launchd invocation of binary from non-Apple, non-AppStore, or sideloaded location during boot or shortly after unlock"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--613788f2-ad72-43f5-b5f7-a93e2adc70fa",
+                    "name": "iOS:unifiedlog",
+                    "channel": "Application gaining or using unexpected background execution entitlements or modes"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "JailbreakIndicators",
+                    "description": "List of filesystem paths or process names that identify intentionally jailbroken lab devices and should be handled differently."
+                },
+                {
+                    "field": "LaunchdWhitelist",
+                    "description": "Organization-specific list of allowed launchd job labels and binary paths."
+                },
+                {
+                    "field": "AllowedBackgroundModes",
+                    "description": "Per-app allow list for background execution modes (for example, VOIP, location) to reduce noise."
+                },
+                {
+                    "field": "BootUnlockWindow",
+                    "description": "Time window after boot or unlock within which unexpected launchd auto-starts are considered high risk."
+                }
+            ]
         }
     ]
 }

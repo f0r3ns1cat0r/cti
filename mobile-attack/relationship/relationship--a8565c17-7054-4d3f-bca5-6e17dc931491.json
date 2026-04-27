@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--98b9ef9e-888c-4d82-812f-5eb446df9bfe",
+    "id": "bundle--84d9f241-a7af-47f2-8dc0-8d000c78d0e1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--a8565c17-7054-4d3f-bca5-6e17dc931491",
             "created": "2023-03-03T16:20:08.033Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "paloalto_yispecter_1015",

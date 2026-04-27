@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0b743780-efaa-46a1-9df4-d275be166863",
+    "id": "bundle--a6731169-7492-42fa-8237-7f64b1fae970",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--f34fef81-f714-4e26-ae99-3c970959cd0d",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-03-04T23:47:29.735Z",
             "name": "Analytic 1777",
-            "description": "In both Android (6.0 and up) and iOS, the user can view which applications have the permission to access the device location through the device settings screen and revoke permissions as necessary. \nAndroid applications requesting the `ACCESS_COARSE_LOCATION`, `ACCESS_FINE_LOCATION`, or `ACCESS_BACKGROUND_LOCATION` permissions and iOS applications including the `NSLocationWhenInUseUsageDescription`, `NSLocationAlwaysAndWhenInUseUsageDescription`, and/or `NSLocationAlwaysUsageDescription` keys in their `Info.plist` file could be scrutinized during the application vetting process. ",
+            "description": "Defender correlates an application\u2019s location authorization level (When-In-Use vs Always) and entitlement posture with observed location sensor activity that occurs without proximate user interaction, including background updates, followed by periodic outbound network sessions aligned to location update timing\u2014suggesting covert or policy-violating location tracking.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,17 +34,30 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--56c2b384-77f8-461f-a71a-76f7888ebfb6",
-                    "name": "User Interface",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "iOS:unifiedlog",
+                    "channel": "Application activates CoreLocation services or CLLocationManager APIs"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "name": "iOS:MDMLog",
+                    "channel": "App installed with location usage declarations (WhenInUse/Always usage description) and granted authorization level via managed policy state"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "ForegroundLocationExpectation",
+                    "description": "Defines legitimate location usage relative to app state"
+                },
+                {
+                    "field": "LocationAccessDurationThreshold",
+                    "description": "Baseline deviation tolerance for sustained location tracking"
+                },
+                {
+                    "field": "LocationToTransmissionWindow",
+                    "description": "Temporal threshold linking location access to network activity"
+                }
+            ]
         }
     ]
 }

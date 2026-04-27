@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9ec564ee-174e-4151-8ebd-612f711bf066",
+    "id": "bundle--fdec48be-1f48-488c-9406-a78b86f26bd8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--d7ae7fb1-c363-4969-a4af-e2dd44a3c064",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lookout-PegasusAndroid",

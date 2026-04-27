@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--61d26ba6-38b3-4ea2-b167-33ad7f3a345b",
+    "id": "bundle--e8ac3644-8916-4ef6-a08d-9a145a342918",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--36cb5f92-996c-42f4-be7e-43c5e21eee2e",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-02-18T18:06:39.579Z",
             "name": "Analytic 1788",
-            "description": "On Android, the user is presented with a permissions popup when an application requests access to external device storage.",
+            "description": "Defender observes an app (package/UID) issuing high-rate directory or content-index enumerations against external/shared storage or other apps\u2019 Documents/Media providers (logcat:ContentResolver, logcat:StorageAccessFramework), followed within a short window by bulk READ handles or stat/list calls over many distinct paths (logcat:FileIO). Activity occurs without foreground UI or exceeds typical per-app baseline, indicating automated file/dir discovery rather than user-driven browsing. Correlate on package/UID/profile and time proximity.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,12 +34,52 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--e2f72131-14d1-411f-8e8c-aa3453dd5456",
-                    "name": "User Interface",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "android:logcat",
+                    "channel": "query() against MediaStore/DocumentsContract URIs (Images/Video/Audio/Downloads/DocumentTree)"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9c2fa0ae-7abc-485a-97f6-699e3b6cf9fa",
+                    "name": "android:logcat",
+                    "channel": "ACTION_OPEN_DOCUMENT_TREE / ACTION_OPEN_DOCUMENT invoked without user gesture or repeatedly in background"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--235b7491-2d2b-4617-9a52-3c0783680f71",
+                    "name": "android:logcat",
+                    "channel": "READ/LIST/STAT of /sdcard|/storage/emulated/0|/Android/media|/Documents with >N distinct paths in TimeWindow"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "android:logcat",
+                    "channel": "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE permission present or toggled at runtime"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindowSeconds",
+                    "description": "Time window to correlate API queries with file listings (e.g., 30\u2013300s)."
+                },
+                {
+                    "field": "MinDistinctPaths",
+                    "description": "Minimum unique paths accessed to qualify as discovery (e.g., \u226550)."
+                },
+                {
+                    "field": "BackgroundOnly",
+                    "description": "Require app to be backgrounded to reduce user-driven noise."
+                },
+                {
+                    "field": "TargetPathRegex",
+                    "description": "Scope to enterprise-relevant locations (e.g., /Documents, /Android/media/<corp>)."
+                },
+                {
+                    "field": "AllowlistedPackages",
+                    "description": "Backup/DLP/security apps expected to enumerate broadly."
+                },
+                {
+                    "field": "ProfileScope",
+                    "description": "Limit to Work Profile to reduce personal data noise."
+                }
+            ]
         }
     ]
 }

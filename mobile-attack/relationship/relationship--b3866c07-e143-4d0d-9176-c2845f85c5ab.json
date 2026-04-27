@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--da52f451-52f4-49e2-9030-9c4b7ebfad5b",
+    "id": "bundle--1de1f59d-ae9b-4bb9-83c6-64ef672713ab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--b3866c07-e143-4d0d-9176-c2845f85c5ab",
             "created": "2023-01-18T19:58:21.223Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "nccgroup_sharkbot_0322",

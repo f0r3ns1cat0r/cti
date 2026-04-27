@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f5f24947-b12c-4698-965a-d54af48d7286",
+    "id": "bundle--93d31820-c38f-4ee0-a923-ba4f69232e9a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--8f22a4ce-f075-4343-acb0-1d45c56e91e8",
             "created": "2022-03-30T18:06:21.355Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec-iOSProfile2",

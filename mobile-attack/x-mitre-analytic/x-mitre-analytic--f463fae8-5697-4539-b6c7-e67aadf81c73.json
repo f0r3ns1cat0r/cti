@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3bb4b020-dbce-4b0f-ae8f-8a142a01f5de",
+    "id": "bundle--eec8fa9e-2022-4592-a8e1-7256af23c562",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--f463fae8-5697-4539-b6c7-e67aadf81c73",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2025-12-04T17:12:06.342Z",
             "name": "Analytic 1758",
-            "description": "Mobile security products can potentially utilize device APIs to determine if a device has been rooted or jailbroken.\nApplication vetting services could potentially determine if an application contains code designed to exploit vulnerabilities.",
+            "description": "From the defender\u2019s perspective, this strategy correlates signals that a previously unprivileged Android app or process has gained higher privileges through exploitation rather than normal OS or MDM flows. \nObservable behaviors include: \n(1) unprivileged app processes issuing sensitive syscalls or accessing privileged device interfaces, \n(2) bursts of SELinux denials followed by an unexpected domain or permission change, \n(3) creation of new processes running with system or root UID whose lineage traces back to an app sandbox path, and \n(4) crashes or abnormal restarts of privileged system services followed shortly by a new connection or binder interaction from the same low-privileged app. The focus is on unusual privilege transitions, anomalous process ancestry, and OS security policy violations, not on specific exploit binaries or CVE signatures.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -33,16 +35,42 @@
             "x_mitre_log_source_references": [
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--85a533a4-5fa4-4dba-b45d-f0717bedd6e6",
-                    "name": "Sensor Health",
-                    "channel": "None"
+                    "name": "AndroidLogs:Crash",
+                    "channel": "Crash or abnormal restart of privileged system services (for example, system_server, mediaserver, installd) followed shortly by new privileged process activity or binder connections from a single app UID"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--5ae32c6a-2d12-4b8f-81ca-f862f2be0962",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "AndroidLogs:Kernel",
+                    "channel": "Unprivileged app process (app UID, non-system) invoking sensitive syscalls or device interfaces associated with privilege escalation (setuid, ptrace, perf_event_open, vulnerable drivers)"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3d20385b-24ef-40e1-9f56-f39750379077",
+                    "name": "AndroidLogs:Framework",
+                    "channel": "Creation of a new process running as system or root UID whose executable path resides under an app container path (for example, /data/app or /data/user/0/<pkg>), or whose parent process originates from an app sandbox"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Correlation window (for example, 60\u2013300 seconds) between SELinux events, crashes, and privilege changes to reduce noise while still capturing exploit chains."
+                },
+                {
+                    "field": "AppUidRange",
+                    "description": "UID ranges that represent unprivileged application accounts in a specific Android OEM or enterprise deployment."
+                },
+                {
+                    "field": "SensitiveSyscalls",
+                    "description": "List of syscalls considered indicative of privilege escalation attempts; may vary by kernel version, OEM drivers, and threat model."
+                },
+                {
+                    "field": "PrivilegedServices",
+                    "description": "Set of high-value Android system services where crashes or restarts are particularly suspicious (for example, system_server, mediaserver)."
+                },
+                {
+                    "field": "PrivilegedUids",
+                    "description": "Enterprise-defined mapping of UIDs considered elevated (for example, root, system, radio) for alert scoping."
+                }
+            ]
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f0ab09ba-b59d-450c-b12e-833e06a6655d",
+    "id": "bundle--4a86ad21-f452-46d0-8807-3c511fe6b6ae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--b2120e89-a453-4575-8458-7700ea59f85a",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -23,11 +24,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-02-24T17:54:57.531Z",
             "name": "Analytic 1753",
-            "description": "Network carriers may be able to use firewalls, Intrusion Detection Systems (IDS), or Intrusion Prevention Systems (IPS) to detect and/or block SS7 exploitation.(Citation: CSRIC5-WG10-FinalReport) The CSRIC also suggests threat information sharing between telecommunications industry members.",
+            "description": "Defender observes anomalous signaling network queries targeting subscriber information associated with a device, including unexpected routing requests, location information exchanges, or node-origin inconsistencies indicative of SS7 signaling abuse. (Citation: CSRIC5-WG10-FinalReport) The CSRIC also suggests threat information sharing between telecommunications industry members.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -37,12 +39,30 @@
             ],
             "x_mitre_log_source_references": [
                 {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "TelecomLogs:SS7Signaling",
+                    "channel": "Subscriber information queries, routing requests, or location update messages with anomalous node identifiers or unexpected origin patterns"
+                },
+                {
                     "x_mitre_data_component_ref": "x-mitre-data-component--a7f22107-02e5-4982-9067-6625d4a1765a",
-                    "name": "Network Traffic",
-                    "channel": "None"
+                    "name": "TelecomLogs:MobilityEvents",
+                    "channel": "Unexpected location resolution events or abnormal subscriber tracking requests"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "NodeIdentityDeviationThreshold",
+                    "description": "Defines acceptable variance for signaling node identifiers"
+                },
+                {
+                    "field": "SubscriberQueryFrequencyThreshold",
+                    "description": "Baseline-dependent threshold for excessive subscriber queries"
+                },
+                {
+                    "field": "GeographicRoutingDeviation",
+                    "description": "Expected signaling path vs observed routing anomalies"
+                }
+            ]
         }
     ]
 }

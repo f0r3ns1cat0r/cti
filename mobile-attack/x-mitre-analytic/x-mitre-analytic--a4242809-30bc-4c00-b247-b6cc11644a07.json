@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--835c0275-2b59-4b2c-b9e6-e60d849ca811",
+    "id": "bundle--9c9edc95-b226-4a75-a303-fed6714cbec2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,26 +8,23 @@
             "id": "x-mitre-analytic--a4242809-30bc-4c00-b247-b6cc11644a07",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
                     "url": "https://attack.mitre.org/detectionstrategies/DET0655#AN1741",
                     "external_id": "AN1741"
-                },
-                {
-                    "source_name": "Samsung Knox Mobile Threat Defense",
-                    "description": "Samsung Knox Partner Program. (n.d.). Knox for Mobile Threat Defense. Retrieved March 30, 2022.",
-                    "url": "https://partner.samsungknox.com/mtd"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-04-09T20:26:15.372Z",
             "name": "Analytic 1741",
-            "description": "Command-line activities can potentially be detected through Mobile Threat Defense (MTD) integrations with lower-level OS APIs. This could grant the MTD agents access to running processes and their parameters, potentially detecting unwanted or malicious shells.\nMobile Threat Defense (MTD) with lower-level OS APIs integrations may have access to newly created processes and their parameters, potentially detecting unwanted or malicious shells.\nApplication vetting services could detect the invocations of methods that could be used to execute shell commands.(Citation: Samsung Knox Mobile Threat Defense)\nMobile Threat Defense (MTD) with lower-level OS APIs integrations may have access to running processes and their parameters, potentially detecting unwanted or malicious shells.",
+            "description": "The defender correlates app-driven shell or command execution setup with subsequent process creation, command invocation, or script-driven follow-on behavior under the same app context, especially when command execution occurs from background state, without recent user interaction, or immediately after payload retrieval or local staging. The analytic prioritizes Android-observable control-plane effects: Java Runtime or similar command-execution method use, shell or sh-like process creation, command parameter visibility where available, and immediate file or network effects produced by the interpreter.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -37,27 +34,46 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--685f917a-e95e-4ba0-ade1-c7d354dae6e0",
-                    "name": "Command",
-                    "channel": "None"
-                },
-                {
                     "x_mitre_data_component_ref": "x-mitre-data-component--3d20385b-24ef-40e1-9f56-f39750379077",
-                    "name": "Process",
-                    "channel": "None"
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application invokes Runtime.exec, ProcessBuilder, JNI-backed command launcher, or equivalent command-execution bridge immediately before shell or command process creation"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--5ae32c6a-2d12-4b8f-81ca-f862f2be0962",
-                    "name": "Application Vetting",
-                    "channel": "None"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--ee575f4a-2d4f-48f6-b18b-89067760adc1",
-                    "name": "Process",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--685f917a-e95e-4ba0-ade1-c7d354dae6e0",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application spawns shell, command interpreter, or command-executing child process with arguments during command-execution phase"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Correlation window between command-launch method use, process creation, and follow-on file or network effects"
+                },
+                {
+                    "field": "AllowedAppList",
+                    "description": "Apps legitimately expected to run shell-like or administrative commands, such as enterprise support tools, terminal apps, approved EMM agents, or developer tooling"
+                },
+                {
+                    "field": "AllowedProcessPatterns",
+                    "description": "Expected command interpreters, process names, or parent-child execution chains for approved apps"
+                },
+                {
+                    "field": "ForegroundStateRequired",
+                    "description": "Whether command execution should occur only during active user-driven workflows"
+                },
+                {
+                    "field": "CommandArgumentRiskPatterns",
+                    "description": "Environment-specific list of suspicious command arguments, redirection usage, chaining operators, or shell-control syntax"
+                },
+                {
+                    "field": "PostExecutionWriteThreshold",
+                    "description": "Minimum number or size of file artifacts created after interpreter execution to increase confidence"
+                },
+                {
+                    "field": "UplinkBytesThreshold",
+                    "description": "Minimum outbound volume after command execution to treat network behavior as meaningful"
+                }
+            ]
         }
     ]
 }

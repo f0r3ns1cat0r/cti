@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--675c91b9-b5d4-43be-ac45-0d106fc2da6c",
+    "id": "bundle--a387199c-7989-4b56-9c52-45aa3980aa91",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--6e3a93db-d2a6-43b7-9aa6-4dcf972f5e53",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-02-24T17:34:54.559Z",
             "name": "Analytic 1821",
-            "description": "Google sends a notification to the device when Android Device Manager is used to locate it. Additionally, Google provides the ability for users to view their general account activity and alerts users when their credentials have been used on a new device. Apple iCloud also provides notifications to users of account activity such as when credentials have been used. ",
+            "description": "Defender observes anomalous authentication or session activity targeting remote device management services followed by device-tracking queries, device-state requests, or remote actions inconsistent with established user-device relationships or operational patterns.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,12 +34,30 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--bf0ff551-a5a7-40e5-bff9-f9405011b1f4",
-                    "name": "User Interface",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--a953ca55-921a-44f7-9b8d-3d40141aa17e",
+                    "name": "saas:MDM",
+                    "channel": "Authentication events to Apple iCloud or enterprise device management services"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--8c826308-2760-492f-9e36-4f0f7e23bcac",
+                    "name": "saas:MDM",
+                    "channel": "Device lookup, location query, or remote management operation"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "UserDeviceRelationshipDeviation",
+                    "description": "Defines acceptable deviation from known user-device mappings"
+                },
+                {
+                    "field": "SessionAnomalyThreshold",
+                    "description": "Baseline deviation tolerance for management sessions"
+                },
+                {
+                    "field": "QueryFrequencyThreshold",
+                    "description": "Threshold for excessive device tracking or lookup activity"
+                }
+            ]
         }
     ]
 }

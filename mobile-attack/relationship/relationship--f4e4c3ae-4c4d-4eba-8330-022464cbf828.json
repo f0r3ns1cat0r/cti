@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5f21d8b6-4649-4935-99e3-b6d535444759",
+    "id": "bundle--1764c0b6-ae21-4de0-af71-13abcfcef59f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--f4e4c3ae-4c4d-4eba-8330-022464cbf828",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "PaloAlto-SpyDealer",

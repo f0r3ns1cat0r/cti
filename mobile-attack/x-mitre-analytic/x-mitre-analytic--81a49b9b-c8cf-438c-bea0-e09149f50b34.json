@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ca40d8a7-c049-4909-94cd-0b2d9e807f27",
+    "id": "bundle--e6c2679e-1f3d-4060-bed9-640297a7a12c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--81a49b9b-c8cf-438c-bea0-e09149f50b34",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-03-11T16:09:37.177Z",
             "name": "Analytic 1724",
-            "description": "Mobile security products can often alert the user if their device is vulnerable to known exploits.",
+            "description": "Defender correlates an iOS-specific reduced-confidence chain where a supervised or managed device transitions from locked or inactive state to interactive or application-active state with weak evidence of expected user authentication, often accompanied by abnormal protected posture change, trust-state change, unexpected app wake, sensor use, or immediate downstream communication. Because direct visibility into lockscreen bypass mechanics on iOS is limited, the analytic prioritizes strong device-state effects and post-unlock behavior rather than pretending to observe the exact bypass method.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,12 +34,50 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--85a533a4-5fa4-4dba-b45d-f0717bedd6e6",
-                    "name": "Sensor Health",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--6c62144a-cd5c-401c-ada9-58c4c74cd9d2",
+                    "name": "iOS:MDMLog",
+                    "channel": "Passcode, biometrics, attention-aware authentication, or supervised-device lock policy changed in a way that weakens or alters the authentication boundary"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application wakes, becomes active, refreshes, or foregrounds immediately after locked or inactive state transition with weak recent user interaction"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Maximum allowed span between locked or inactive device state, suspicious app/service activity, and interactive transition."
+                },
+                {
+                    "field": "AllowedAppList",
+                    "description": "Apps allowed to wake, foreground, or access protected resources near legitimate authentication events."
+                },
+                {
+                    "field": "SupervisedOnly",
+                    "description": "Whether the analytic should only apply to supervised devices with high-confidence MDM policy telemetry."
+                },
+                {
+                    "field": "RecentUserInteractionWindow",
+                    "description": "Time threshold for treating the transition as expected and user-driven."
+                },
+                {
+                    "field": "ExpectedUnlockPopulation",
+                    "description": "User or device groups expected to use atypical enterprise lockscreen workflows, kiosk-like modes, or accessibility accommodations."
+                },
+                {
+                    "field": "SensorUseAllowList",
+                    "description": "Apps expected to access camera or biometric-adjacent resources near the authentication boundary."
+                },
+                {
+                    "field": "TrustedDestinationAllowList",
+                    "description": "Expected destinations contacted immediately after legitimate app activation post-authentication."
+                },
+                {
+                    "field": "UplinkBytesThreshold",
+                    "description": "Threshold for suspicious immediate outbound traffic after suspicious unlock-adjacent activity."
+                }
+            ]
         }
     ]
 }

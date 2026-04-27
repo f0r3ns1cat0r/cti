@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b00833c4-bf2e-4b2d-8c93-49f059e00919",
+    "id": "bundle--bd0c601e-af4e-4bd3-a8fa-fe15dc8125ae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--983ae9ea-a125-498a-862d-00d5bed2087a",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-04-08T20:08:28.641Z",
             "name": "Analytic 1840",
-            "description": "Accessing data from the local system can be difficult to detect, and therefore enterprises may be better served focusing on detection at other stages of adversarial behavior.",
+            "description": "The defender correlates newly granted or recently exercised storage- or privilege-relevant access with burst reads of local files, local databases, or protected records from operating-system or external-storage locations, especially when the reads are inconsistent with app role, occur in background or locked-device context, or are followed by temporary data staging or network transmission. The analytic emphasizes Android-specific observables such as external storage access, app-private database reads where visible to the sensor, and repeated enumeration/read activity against local paths associated with media, tokens, caches, or exported application data.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -30,7 +32,53 @@
             "x_mitre_platforms": [
                 "Android"
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_log_source_references": [
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "android:MDMLog",
+                    "channel": "Managed app granted or retaining storage-related or elevated access inconsistent with declared function prior to local data access activity"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application queries or opens multiple local SQLite or app-associated database stores containing records unrelated to the app's declared function during the collection phase"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--235b7491-2d2b-4617-9a52-3c0783680f71",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application performs burst reads across local system paths, external storage, media directories, cache locations, or local database files within a short interval as the primary collection phase"
+                }
+            ],
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Correlation window between permission state, local data reads, optional staging, and outbound transfer"
+                },
+                {
+                    "field": "AllowedAppList",
+                    "description": "Apps legitimately expected to read local files or databases such as backup, sync, file manager, security, or media management apps"
+                },
+                {
+                    "field": "AllowedPathList",
+                    "description": "Expected local paths, storage roots, and database locations for legitimate app behavior"
+                },
+                {
+                    "field": "ForegroundStateRequired",
+                    "description": "Whether sensitive local data access should happen only during active user-driven workflows"
+                },
+                {
+                    "field": "BurstReadThreshold",
+                    "description": "Minimum number of file or record reads within a short interval required to indicate suspicious collection"
+                },
+                {
+                    "field": "SensitivePathPatterns",
+                    "description": "Environment-specific list of high-value local paths such as external media roots, app export folders, token stores, or browser data locations"
+                },
+                {
+                    "field": "UplinkBytesThreshold",
+                    "description": "Minimum upload size expected if collection is followed by exfiltration"
+                }
+            ]
         }
     ]
 }

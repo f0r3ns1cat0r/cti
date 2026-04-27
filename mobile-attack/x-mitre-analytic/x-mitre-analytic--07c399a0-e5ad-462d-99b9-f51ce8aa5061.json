@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--34a4e555-57a4-4baf-97a1-4e1a6c638270",
+    "id": "bundle--43523289-1c1f-4d8e-9b8c-f5cf464b9ff1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--07c399a0-e5ad-462d-99b9-f51ce8aa5061",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-04-09T17:06:45.192Z",
             "name": "Analytic 1829",
-            "description": "Scheduling tasks/jobs can be difficult to detect, and therefore enterprises may be better served focusing on detection at other stages of adversarial behavior.",
+            "description": "The defender correlates creation or registration of deferred, repeating, or constraint-based background work with later task execution in the same app context, especially when the task executes without recent user interaction, from background state, or with follow-on file, sensor, or network behavior inconsistent with the app's declared role. The analytic prioritizes Android-observable control-plane effects: WorkManager enqueue operations, JobScheduler or AlarmManager scheduling, later wake or execution of the scheduled work, and post-trigger activity such as network sessions, local staging, or sensor access.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -30,7 +32,48 @@
             "x_mitre_platforms": [
                 "Android"
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_log_source_references": [
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application enqueues WorkManager work request or schedules JobScheduler or AlarmManager task with delay, periodic interval, or execution constraints during the persistence/execution setup phase"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--f42df6f0-6395-4f0c-9376-525a031f00c3",
+                    "name": "MobiledEDR:telemetry",
+                    "channel": "Scheduled task execution creates cache, staged payload, local output, or collected data artifact immediately after wake or job trigger"
+                }
+            ],
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Correlation window between task registration and later execution, and between execution and follow-on behavior"
+                },
+                {
+                    "field": "AllowedAppList",
+                    "description": "Apps legitimately expected to use WorkManager, JobScheduler, or AlarmManager such as mail, sync, backup, calendar, or enterprise management apps"
+                },
+                {
+                    "field": "AllowedConstraintProfiles",
+                    "description": "Expected charging, network, idle, or timing constraints for legitimate scheduled work"
+                },
+                {
+                    "field": "AllowedScheduleIntervals",
+                    "description": "Expected delay or periodic interval ranges for legitimate app behavior"
+                },
+                {
+                    "field": "ForegroundStateRequired",
+                    "description": "Whether follow-on activity from a scheduled task should only occur during active user-driven workflows for a given app"
+                },
+                {
+                    "field": "TriggerToNetworkWindow",
+                    "description": "Maximum expected delay between scheduled job trigger and outbound communication"
+                },
+                {
+                    "field": "UplinkBytesThreshold",
+                    "description": "Minimum outbound volume after scheduled execution to treat network behavior as meaningful"
+                }
+            ]
         }
     ]
 }

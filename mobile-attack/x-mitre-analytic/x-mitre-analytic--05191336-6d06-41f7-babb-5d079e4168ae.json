@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1974e29a-93e3-4484-9808-b332911eb9b9",
+    "id": "bundle--f0146712-6583-405d-bc60-fc23cccefbbb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--05191336-6d06-41f7-babb-5d079e4168ae",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-04-06T16:02:58.850Z",
             "name": "Analytic 1725",
-            "description": "Application vetting services can detect certificate pinning by examining an application\u2019s `network_security_config.xml` file, although this behavior can be benign.",
+            "description": "The defender correlates application TLS trust customization activity with subsequent outbound encrypted sessions that bypass enterprise interception visibility or fail only under enterprise inspection conditions. The analytic looks for an app establishing its own certificate or public-key trust logic, then initiating HTTPS sessions to destinations not aligned with approved app behavior, especially from background state or without recent user interaction. Higher-confidence observations come from Android runtime/framework telemetry showing custom trust manager, certificate validation override, or pin validation logic immediately preceding network connection attempts, combined with network evidence of failed-inspection patterns or opaque direct TLS sessions.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,12 +34,57 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--613788f2-ad72-43f5-b5f7-a93e2adc70fa",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application invokes custom TLS trust evaluation logic or pin validation routines (e.g., custom TrustManager, HostnameVerifier override, certificate/public key comparison) immediately before outbound TLS session establishment"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "TLS trust customization and outbound HTTPS session occur while app_state=background or device_locked=true or recent_user_interaction=false"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "android:MDMLog",
+                    "channel": "Managed app with undeclared secure transport behavior or app category mismatch initiates opaque TLS communications inconsistent with enterprise policy baseline"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "NSM:Flow",
+                    "channel": "Application initiates HTTPS connection with repeated certificate validation failure under enterprise proxy followed by direct network retry or stable opaque TLS communication to same endpoint within correlation window"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "NSM:Inspection",
+                    "channel": "TLS session from mobile app fails, resets, or refuses enterprise interception while same destination/app pair repeatedly establishes direct encrypted communication pattern consistent with pinned certificate/public-key validation"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Correlation window between trust customization activity and outbound TLS connection"
+                },
+                {
+                    "field": "AllowedAppList",
+                    "description": "Apps legitimately expected to implement SSL pinning such as banking, enterprise auth, or secure messaging apps"
+                },
+                {
+                    "field": "AllowedDestinationList",
+                    "description": "Approved domains, IPs, and service endpoints for managed applications"
+                },
+                {
+                    "field": "ForegroundStateRequired",
+                    "description": "Whether the application is expected to establish pinned sessions only during active user-driven workflows"
+                },
+                {
+                    "field": "InspectionFailureThreshold",
+                    "description": "Number of repeated inspection failures or certificate mismatch events before escalating"
+                },
+                {
+                    "field": "RetryPatternWindow",
+                    "description": "Time tolerance for inspection failure followed by retry/direct connection pattern"
+                }
+            ]
         }
     ]
 }

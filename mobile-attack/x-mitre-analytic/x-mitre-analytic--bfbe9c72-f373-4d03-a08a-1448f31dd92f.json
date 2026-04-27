@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--562a0449-d0ea-4560-8a5b-6781850d36c8",
+    "id": "bundle--95738215-0dc7-4525-99a0-ed82f97f4a1e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--bfbe9c72-f373-4d03-a08a-1448f31dd92f",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-03-11T16:29:42.519Z",
             "name": "Analytic 1713",
-            "description": "Unexpected loss of radio signal could indicate that a device is being actively jammed.",
+            "description": "Defender correlates an Android-specific causal chain where device connectivity degrades or oscillates across one or more radios, applications lose or repeatedly reattempt network access, and the radio or network failure pattern is inconsistent with ordinary mobility, coverage transition, or user-initiated airplane mode behavior. The defender correlates radio state, connectivity framework behavior, application state, network session failures, and location/network-provider degradation to distinguish network denial effects from routine weak-signal conditions.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,12 +34,65 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--bf0ff551-a5a7-40e5-bff9-f9405011b1f4",
-                    "name": "User Interface",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--56c2b384-77f8-461f-a71a-76f7888ebfb6",
+                    "name": "android:MDMLog",
+                    "channel": "No user-initiated airplane mode, radio disablement, or managed network setting change occurred during repeated connectivity degradation"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--6c62144a-cd5c-401c-ada9-58c4c74cd9d2",
+                    "name": "android:MDMLog",
+                    "channel": "Managed Wi-Fi, VPN, cellular, or location-related policy state remains unchanged while network capability degrades"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Foreground or background applications remain active while network-dependent activity stalls, retries, or transitions into repeated failure state"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Connectivity manager, telephony, Wi-Fi, network callback, or location-provider framework reports repeated unavailable, disconnected, suspended, or degraded state transitions"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "App with network-, telephony-, Wi-Fi-, or location-adjacent capability is impacted by abrupt repeated service loss while permissions remain unchanged"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Maximum span for correlating connectivity degradation, application retry behavior, and network-session failure into a single denial event."
+                },
+                {
+                    "field": "ExpectedMobilityPopulation",
+                    "description": "Users or device populations expected to move through low-coverage zones or transit environments that naturally cause network oscillation."
+                },
+                {
+                    "field": "AllowedAppList",
+                    "description": "Apps expected to generate frequent retry behavior or maintain persistent sessions under ordinary weak-signal conditions."
+                },
+                {
+                    "field": "ForegroundStateRequired",
+                    "description": "Whether impacted applications are expected to be actively visible to the user for the analytic to carry high confidence."
+                },
+                {
+                    "field": "RecentUserInteractionWindow",
+                    "description": "Time threshold for determining whether connectivity degradation occurred during active device use versus idle background operation."
+                },
+                {
+                    "field": "FailureBurstThreshold",
+                    "description": "Threshold for repeated disconnects, resets, DNS failures, or transport failures within the correlation window."
+                },
+                {
+                    "field": "LocationProviderDependencyList",
+                    "description": "Apps or services expected to rely on GPS or network-based location and therefore likely to exhibit secondary degradation during jamming."
+                },
+                {
+                    "field": "ExpectedCoverageZones",
+                    "description": "Known sites or geographies with weak legitimate coverage that should be baseline-adjusted."
+                }
+            ]
         }
     ]
 }

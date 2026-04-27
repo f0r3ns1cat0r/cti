@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--37682424-1b47-4eec-b994-0199ab869255",
+    "id": "bundle--68b9572e-de87-4982-ac90-2bb20aaf709a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--1f3c9114-ac86-4c1f-bb64-fb94d65ac78c",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-04-06T15:51:25.896Z",
             "name": "Analytic 1762",
-            "description": "Since data encryption is a common practice in many legitimate applications and uses standard programming language-specific APIs, encrypting data for command and control communication is regarded as undetectable to the user.",
+            "description": "An application generates, imports, or accesses asymmetric keypairs (e.g., RSA/ECC), uses a public key to encrypt outbound data or establish encrypted sessions, and transmits resulting ciphertext in structured communication patterns. Detection correlates keypair lifecycle activity + asymmetric crypto API usage + data transformation + background execution context + network transmission, especially when inconsistent with expected application functionality.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -30,7 +32,55 @@
             "x_mitre_platforms": [
                 "Android"
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_log_source_references": [
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "App invokes asymmetric cryptographic operations (e.g., RSA/ECC keypair generation OR public key encryption OR signature operations) on outbound data buffers"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Keypair generation, import, or access events (public/private key usage) occurring prior to network communication"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "App writes asymmetric-encrypted blobs or encoded ciphertext to local buffers or files prior to transmission"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Asymmetric crypto operations occur while app_state=background OR device_locked=true OR no recent user interaction"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "android:MDMLog",
+                    "channel": "App not in approved cryptographic or secure communication category performing keypair + encryption + transmission behavior"
+                }
+            ],
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Correlation window between keypair usage and outbound communication"
+                },
+                {
+                    "field": "AllowedCryptoApps",
+                    "description": "Apps expected to use asymmetric cryptography (e.g., secure messaging, VPN, enterprise auth apps)"
+                },
+                {
+                    "field": "ForegroundStateRequired",
+                    "description": "Whether key generation/encryption should occur only during user interaction"
+                },
+                {
+                    "field": "KeyGenerationThreshold",
+                    "description": "Frequency of keypair generation/import events considered anomalous"
+                },
+                {
+                    "field": "PayloadSizeVariance",
+                    "description": "Expected variability in payload sizes due to asymmetric encryption overhead"
+                }
+            ]
         }
     ]
 }

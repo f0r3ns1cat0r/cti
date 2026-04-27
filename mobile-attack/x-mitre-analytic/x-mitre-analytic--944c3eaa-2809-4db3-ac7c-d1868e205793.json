@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f46380a0-9315-4b71-a4aa-e26009ee8cd5",
+    "id": "bundle--240c494f-8dbb-4e6d-a254-81c0e5a551d0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--944c3eaa-2809-4db3-ac7c-d1868e205793",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-04-24T20:30:29.495Z",
             "name": "Analytic 1842",
-            "description": "The user can examine the list of all installed applications, including those with a suppressed icon, in the device settings. If the user is redirected to the device settings when tapping an application\u2019s icon, they should inspect the application to ensure it is genuine.\nApplication vetting services could potentially detect the usage of APIs intended for suppressing the application\u2019s icon.",
+            "description": "Correlates (1) suppression or disablement of launcher-visible application components or effective reduction of user-facing launcher presence, (2) persistence of installed application state after icon suppression, and (3) continued runtime activity such as background execution, framework use, sensor access, or network communication after the icon becomes unavailable or is replaced by reduced-discoverability launcher behavior. The defender observes a causal chain where an app removes or reduces its launcher visibility while remaining operational and continuing meaningful activity.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,17 +34,42 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--56c2b384-77f8-461f-a71a-76f7888ebfb6",
-                    "name": "User Interface",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "android:MDMLog",
+                    "channel": "installed application remains present while launcher-visible activity or component discoverability changes to hidden, disabled, or synthesized-settings-entry state prior to later runtime activity"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--5ae32c6a-2d12-4b8f-81ca-f862f2be0962",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "application invokes package or component state changes affecting launcher-facing activity availability and subsequently continues operational framework activity after icon suppression"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Correlation window between icon suppression and later runtime activity"
+                },
+                {
+                    "field": "AllowedAppList",
+                    "description": "Baseline of legitimate apps permitted to reduce launcher visibility, such as managed agents, work-profile utilities, or system applications"
+                },
+                {
+                    "field": "ForegroundStateRequired",
+                    "description": "Whether post-suppression behavior is only suspicious when no recent foreground interaction is present"
+                },
+                {
+                    "field": "SuppressionMode",
+                    "description": "Environment-specific handling of hidden, disabled, or synthesized launcher behavior depending on Android version and management posture"
+                },
+                {
+                    "field": "UplinkBytesThreshold",
+                    "description": "Minimum outbound traffic volume used to distinguish meaningful hidden operation from benign background maintenance"
+                },
+                {
+                    "field": "SensorAfterSuppressionThreshold",
+                    "description": "Threshold for sensor access frequency after launcher visibility is reduced"
+                }
+            ]
         }
     ]
 }

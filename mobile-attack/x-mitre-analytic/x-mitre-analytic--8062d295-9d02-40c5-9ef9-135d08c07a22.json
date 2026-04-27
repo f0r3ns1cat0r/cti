@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--83fcece2-b7bb-4742-a20e-09af17669e47",
+    "id": "bundle--73c829d8-9173-4892-97f5-4752319e0342",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--8062d295-9d02-40c5-9ef9-135d08c07a22",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-01-29T19:53:20.408Z",
             "name": "Analytic 1779",
-            "description": "An Android user can view and manage which applications hold the `SYSTEM_ALERT_WINDOW` permission through the device settings in Apps & notifications -> Special app access -> Display over other apps (the exact menu location may vary between Android versions). \nApplication vetting services can look for applications requesting the `android.permission.SYSTEM_ALERT_WINDOW` permission in the list of permissions in the app manifest. ",
+            "description": "Defender correlates a look-alike prompt inside an app (e.g., faux Apple ID password view, webview of brand login) with timing against scene/foreground activation, optional push notification bait, then local form cache writes and/or small egress. Chain: scene activation around sensitive UI \u2192 suspicious prompt creation (UIKit events without expected auth controller) or webview navigated to look-alike domain \u2192 local cache write \u2192 near-term egress",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,17 +34,48 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--56c2b384-77f8-461f-a71a-76f7888ebfb6",
-                    "name": "User Interface",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9c2fa0ae-7abc-485a-97f6-699e3b6cf9fa",
+                    "name": "iOS:unifiedlog",
+                    "channel": "Presentation of credential-like view (UIAlertController with text fields / custom modal) not backed by system auth controller; frequent editingChanged in secureTextEntry fields"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--1887a270-576a-4049-84de-ef746b2572d6",
+                    "name": "iOS:unifiedlog",
+                    "channel": "Scene/foreground transitions for <bundle_id> to contextualize timing"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "iOS:unifiedlog",
+                    "channel": "WKWebView navigation to domain visually similar to target brand (IDN/punycode/alike score)"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
+                    "name": "iOS:unifiedlog",
+                    "channel": "CREATE/WRITE of form cache/credential-like artifacts (forms.db, creds.json) in container"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindowSeconds",
+                    "description": "Max time from prompt to persist/exfil (e.g., 5\u201360s)."
+                },
+                {
+                    "field": "LookalikeDomainScore",
+                    "description": "Threshold for domain visual similarity (e.g., \u22650.85)."
+                },
+                {
+                    "field": "PersistPathRegex",
+                    "description": "Regex for credential/form cache artifacts in container."
+                },
+                {
+                    "field": "ExfilDomainAllowlist",
+                    "description": "Enterprise/analytics endpoints to suppress FPs"
+                },
+                {
+                    "field": "UserContext",
+                    "description": "MDM policy, Focus mode, foreground requirement."
+                }
+            ]
         }
     ]
 }

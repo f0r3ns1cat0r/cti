@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9123d6fd-d5ee-4e74-a756-d0fe14b9e6e6",
+    "id": "bundle--29a21fdf-9f3b-453c-9375-d70f76a037f2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--9c721bd4-75df-4381-bd70-29679aa78a4b",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-02-02T16:21:09.206Z",
             "name": "Analytic 1785",
-            "description": "Application vetting services could look for the Android permission `android.permission.QUERY_ALL_PACKAGES`, and apply extra scrutiny to applications that request it. On iOS, application vetting services could look for usage of the private API `LSApplicationWorkspace` and apply extra scrutiny to applications that employ it.",
+            "description": "Defender correlates app attempts to enumerate or infer security/management tooling (ManagedConfiguration/MDM presence, VPN/NEFilter config, AV/EDR app presence via LaunchServices or URL-scheme probing, private APIs) with local inventory persistence and egress. Chain: probe (MDM/NE/VPN/AV presence) \u2192 burst of LS/canOpenURL/ManagedConfiguration calls \u2192 inventory cache write \u2192 small POST.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,12 +34,42 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--5ae32c6a-2d12-4b8f-81ca-f862f2be0962",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "iOS:unifiedlog",
+                    "channel": "Queries indicating MDM profile presence, supervised state, restrictions read. LSApplicationWorkspace enumeration or app proxy queries referencing security vendors"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
+                    "name": "iOS:unifiedlog",
+                    "channel": "CREATE/WRITE of /Library/Caches/security_inventory.*\\\\.(json|plist|db)"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindowSeconds",
+                    "description": "Max time from probe burst to persist/exfil (e.g., 10\u2013120s)."
+                },
+                {
+                    "field": "MinProbeCount",
+                    "description": "Minimum API/probe count to flag (e.g., \u226525/10s)."
+                },
+                {
+                    "field": "SecurityTargetsList",
+                    "description": "Schemes/bundle IDs for AV/EDR/MDM/VPN vendors (regex/prefix)."
+                },
+                {
+                    "field": "PersistPathRegex",
+                    "description": "Regex for inventory artifacts in app/extension containers."
+                },
+                {
+                    "field": "ExfilDomainAllowlist",
+                    "description": "Known-good analytics/CDN allowlist."
+                },
+                {
+                    "field": "JailbreakContext",
+                    "description": "Escalate severity if private APIs used on non-managed devices."
+                }
+            ]
         }
     ]
 }

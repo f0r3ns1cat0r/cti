@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1c54b402-63ae-4b4e-9091-b0151cf505c8",
+    "id": "bundle--51bf6d7d-a0ea-45b1-a1c9-27f05daee1cc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--5d07c07e-4cde-41b9-a03e-94be43ca9bb8",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-02-23T17:10:37.953Z",
             "name": "Analytic 1805",
-            "description": "Mobile security products can typically detect rooted devices, which is an indication that Process Discovery is possible. Application vetting could potentially detect when applications attempt to abuse root access or root the system itself. Further, application vetting services could look for attempted usage of legacy process discovery mechanisms, such as the usage of `ps` or inspection of the `/proc` directory.",
+            "description": "Defender observes signals consistent with attempted process listing on iOS where modern OS protections generally prevent broad process enumeration for non-root apps. Detections therefore focus on: (1) feasibility gating via integrity/jailbreak posture, and (2) observable security/log anomalies consistent with attempts to query process tables or restricted system interfaces (e.g., repeated sandbox denials, suspicious sysctl-like access attempts, or abnormal use of private frameworks). Correlate integrity compromise indicators with repeated restricted-access events and optional follow-on behaviors (rapid targeting of specific bundles/services or immediate network beacons) to raise confidence that process discovery is occurring.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,12 +34,39 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--5ae32c6a-2d12-4b8f-81ca-f862f2be0962",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--85a533a4-5fa4-4dba-b45d-f0717bedd6e6",
+                    "name": "MDM:DeviceIntegrity",
+                    "channel": "jailbreak/root compromise indicators or integrity attestation failures enabling process visibility"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9c2fa0ae-7abc-485a-97f6-699e3b6cf9fa",
+                    "name": "iOS:unifiedlog",
+                    "channel": "repeated sandbox denials related to restricted process/system interfaces consistent with process-table querying attempts"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9c2fa0ae-7abc-485a-97f6-699e3b6cf9fa",
+                    "name": "iOS:unifiedlog",
+                    "channel": "security-relevant kernel log messages indicating restricted system interface access attempts by app process (device-dependent visibility)"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "IntegritySignalRequired",
+                    "description": "If true, alert only when integrity/jailbreak posture indicates process discovery is feasible."
+                },
+                {
+                    "field": "MinSandboxDenials",
+                    "description": "Threshold for sandbox denials within a window to treat as sustained restricted-access attempts."
+                },
+                {
+                    "field": "TimeWindowSeconds",
+                    "description": "Correlation window between integrity signals and sandbox/network events (e.g., 1\u201324 hours)."
+                },
+                {
+                    "field": "AllowlistedBundles",
+                    "description": "Enterprise monitoring/networking apps that may generate benign sandbox noise."
+                }
+            ]
         }
     ]
 }

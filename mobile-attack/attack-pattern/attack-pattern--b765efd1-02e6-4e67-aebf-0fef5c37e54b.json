@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3b7bdd70-8c76-4345-8f57-76737dd8fb64",
+    "id": "bundle--53fc8c4d-ec12-487c-b069-6a23369d990a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,7 +22,6 @@
             "name": "Detect App Analysis Environment",
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "mobile-attack"
             ],

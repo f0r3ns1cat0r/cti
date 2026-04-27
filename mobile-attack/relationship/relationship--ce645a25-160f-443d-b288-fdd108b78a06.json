@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c6159bbf-dd57-41c0-89c9-24eac7f9d0fb",
+    "id": "bundle--1b5dfb78-d7fc-476c-9dce-483dc9bb5a34",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--ce645a25-160f-443d-b288-fdd108b78a06",
             "created": "2020-09-11T16:22:03.269Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lookout ViperRAT",

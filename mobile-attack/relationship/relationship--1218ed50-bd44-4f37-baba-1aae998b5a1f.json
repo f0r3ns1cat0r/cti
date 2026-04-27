@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bfc8442e-565a-4584-a4e8-40dd84b6c0e1",
+    "id": "bundle--c8b08560-59ca-42e7-9c94-9e243465d61f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--1218ed50-bd44-4f37-baba-1aae998b5a1f",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "PaloAlto-Xbot",

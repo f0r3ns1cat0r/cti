@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f21843b2-8d62-49f7-ac30-1a999e1aa560",
+    "id": "bundle--0e571315-525b-4a6f-ace8-4a8ac04726b6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--d13724d0-a5e2-433b-86bf-ead04359edec",
             "created": "2022-04-01T15:13:10.022Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "iOS Universal Links",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--13d103bf-26e2-4652-b7c9-8c33780d4e1c",
+    "id": "bundle--bf0d144e-a743-47b5-94c3-adeb799c674b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--a8133527-5402-49e0-a9f1-14ee4fb2dd3f",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-03-10T23:16:21.386Z",
             "name": "Analytic 1803",
-            "description": "Mobile security products can often alert the user if their device is vulnerable to known exploits.",
+            "description": "Defender correlates a chain where a device establishes a new trusted USB host pairing or enters developer/debug configuration state, followed by device data extraction activity, configuration manipulation, or abnormal application behavior shortly after the pairing event.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,12 +34,40 @@
             ],
             "x_mitre_log_source_references": [
                 {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--6c62144a-cd5c-401c-ada9-58c4c74cd9d2",
+                    "name": "iOS:MDMLog",
+                    "channel": "Developer Mode enabled, supervised-device restriction changed, or trust-related protected device posture changed"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--56c2b384-77f8-461f-a71a-76f7888ebfb6",
+                    "name": "iOS:MDMLog",
+                    "channel": "Trusted computer / host relationship established or relevant device trust setting changed"
+                },
+                {
                     "x_mitre_data_component_ref": "x-mitre-data-component--85a533a4-5fa4-4dba-b45d-f0717bedd6e6",
-                    "name": "Sensor Health",
-                    "channel": "None"
+                    "name": "iOS:MDMLog",
+                    "channel": "Device risk, compliance, or security posture changes after trusted host pairing or developer-state transition"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Observed device-service, trust-service, backup/service interaction, or other privileged framework activity associated with physical host access"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "PairingEventWindow",
+                    "description": "Time window between trusted host pairing and suspicious device behavior."
+                },
+                {
+                    "field": "AllowedTrustedHosts",
+                    "description": "Enterprise-authorized computers permitted to pair with managed devices."
+                },
+                {
+                    "field": "DeveloperModePolicy",
+                    "description": "Whether developer mode is permitted in the organization."
+                }
+            ]
         }
     ]
 }

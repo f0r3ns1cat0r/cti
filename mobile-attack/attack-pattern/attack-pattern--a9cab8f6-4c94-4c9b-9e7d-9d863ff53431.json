@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--95f7f28d-1613-4414-8902-9252ef9c2b98",
+    "id": "bundle--e8e4a563-7c58-4f95-a752-7ead49acc57e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,7 +22,6 @@
             "name": "Malicious Media Content",
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "mobile-attack"
             ],

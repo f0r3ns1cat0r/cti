@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--49ffea87-88cb-46d0-b5bc-396af8318cfd",
+    "id": "bundle--85d7a896-0ed6-4517-828f-469aa6b36f1a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--60ad088f-3133-4b0c-a441-e1e06fff1765",
             "created": "2023-02-06T19:37:56.416Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "threatfabric_sova_0921",

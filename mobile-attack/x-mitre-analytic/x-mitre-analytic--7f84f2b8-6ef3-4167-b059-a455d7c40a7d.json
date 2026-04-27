@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4ae28bb9-6efb-41de-84e8-e0e5190cec15",
+    "id": "bundle--09b4b32f-4790-48f7-b7aa-b8e2dc788bc0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--7f84f2b8-6ef3-4167-b059-a455d7c40a7d",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-01-29T17:51:41.189Z",
             "name": "Analytic 1683",
-            "description": "Application vetting services could detect when applications store data insecurely, for example, in unprotected external storage.",
+            "description": "Defender correlates an app escalating file visibility (permissions/flags, legacy storage modes) with enumeration of other apps\u2019 storage or exported ContentProviders, followed by bulk reads/copies from target paths (including shared/external storage) and optional archive/encode then share/upload. Sequence: storage capability/permission gain \u2192 target discovery (provider queries, directory listing) \u2192 high-volume cross-app data reads from writable/shared paths \u2192 archive/encode \u2192 exfil/share within a short window.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,12 +34,56 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--5ae32c6a-2d12-4b8f-81ca-f862f2be0962",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--1887a270-576a-4049-84de-ef746b2572d6",
+                    "name": "android:logcat",
+                    "channel": "Runtime grant or manifest presence for MANAGE_EXTERNAL_STORAGE/READ_EXTERNAL_STORAGE/READ_MEDIA_*; legacy external storage mode detection"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "android:logcat",
+                    "channel": "QUERY on exported ContentProviders of other packages (content://<other.pkg>/*) or MediaStore scoped queries immediately preceding file reads"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--235b7491-2d2b-4617-9a52-3c0783680f71",
+                    "name": "android:logcat",
+                    "channel": "READ or COPY operations where path matches external/shared locations of other apps (e.g., /storage/emulated/0/Android/data/<otherpkg>/files/, /storage/emulated/0/Download/<app>/*)"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
+                    "name": "android:logcat",
+                    "channel": "CREATE/WRITE of archive or container (.zip/.gz/.7z/.db copy) that aggregates files pulled from other-package paths"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindowSeconds",
+                    "description": "Correlation window to tie discovery \u2192 reads \u2192 package \u2192 exfil (e.g., 15\u2013120s)."
+                },
+                {
+                    "field": "ExternalStoragePathRegex",
+                    "description": "Regex for cross-app paths on external/shared storage to monitor."
+                },
+                {
+                    "field": "SuspiciousProviders",
+                    "description": "List of exported/weakly-protected content providers under scrutiny."
+                },
+                {
+                    "field": "MinBytesRead",
+                    "description": "Lower bound on cumulative read volume to avoid noisy single-file accesses."
+                },
+                {
+                    "field": "ArchiveExtensions",
+                    "description": "Extensions considered packaging (.zip,.gz,.7z,.tar,.db copies)."
+                },
+                {
+                    "field": "ExfilDomainAllowlist",
+                    "description": "Known good CDNs/APIs to reduce false positives."
+                },
+                {
+                    "field": "UserContext",
+                    "description": "Foreground/background, Work Profile, developer mode to scope alerts."
+                }
+            ]
         }
     ]
 }

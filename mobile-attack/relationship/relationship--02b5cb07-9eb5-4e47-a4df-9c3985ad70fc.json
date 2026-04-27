@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a46a7fbd-9b06-43ee-a46b-85fd8c212c22",
+    "id": "bundle--480fe15a-b579-4e3e-9a79-8da77bf86b3a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--02b5cb07-9eb5-4e47-a4df-9c3985ad70fc",
             "created": "2021-10-01T14:42:49.174Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SecureList BusyGasper",

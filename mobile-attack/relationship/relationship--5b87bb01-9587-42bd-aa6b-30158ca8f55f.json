@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--82e89cab-38a9-4dd2-829a-26af44a6a9a9",
+    "id": "bundle--fef2362a-6136-43e8-8b85-541da71522b7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--5b87bb01-9587-42bd-aa6b-30158ca8f55f",
             "created": "2020-04-08T15:41:19.427Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cofense Anubis",

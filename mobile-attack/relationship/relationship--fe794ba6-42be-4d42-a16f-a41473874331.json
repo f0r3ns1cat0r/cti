@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--46382c9f-093b-4844-b1bb-2c49c2b87cd6",
+    "id": "bundle--1d80a522-9788-4580-8054-29dd9b52ea14",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--fe794ba6-42be-4d42-a16f-a41473874331",
             "created": "2022-03-30T15:08:13.679Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Android-VerifiedBoot",

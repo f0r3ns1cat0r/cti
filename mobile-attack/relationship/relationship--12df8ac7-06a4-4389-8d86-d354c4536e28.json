@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--71f140e5-5d00-4a61-832f-2c9ae5f36d02",
+    "id": "bundle--e4e19248-61ad-4142-9c1f-36dded602863",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--12df8ac7-06a4-4389-8d86-d354c4536e28",
             "created": "2024-03-26T19:32:36.539Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cyware APT-C-23 2020",

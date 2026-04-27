@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bce55e7c-ebb1-4d10-9dd8-29fa93cff1a2",
+    "id": "bundle--7f04c2e8-dbe6-4ec2-a63f-eeff5792e93f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--a26a09cd-1718-403f-99f3-fdb127ac3599",
             "created": "2025-04-15T17:51:41.973Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "LinkedIn Dmitry LightSpy 2025",
@@ -26,7 +25,6 @@
             "target_ref": "attack-pattern--eb6cf439-1bcb-4d10-bc68-1eed844ed7b3",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_version": "0.1",
             "x_mitre_attack_spec_version": "3.2.0"
         }
     ]

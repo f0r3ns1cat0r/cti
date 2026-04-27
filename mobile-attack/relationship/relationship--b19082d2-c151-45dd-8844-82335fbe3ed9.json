@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--515b2462-28a9-4706-a3d6-56684723dfda",
+    "id": "bundle--fd102b5e-5333-4bf6-bbf5-9abc3a5970d9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--b19082d2-c151-45dd-8844-82335fbe3ed9",
             "created": "2023-02-28T21:43:54.880Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "cloudmark_tanglebot_0921",

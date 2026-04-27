@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1a39a544-9cd7-4d31-ba8b-d7ed8f0f6bce",
+    "id": "bundle--599a2e57-aaae-42ac-a33c-98a78085cb6d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -30,15 +30,14 @@
             ],
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "mobile-attack"
             ],
             "x_mitre_is_subtechnique": true,
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_platforms": [
-                "iOS",
-                "Android"
+                "Android",
+                "iOS"
             ],
             "x_mitre_version": "1.1",
             "x_mitre_tactic_type": [

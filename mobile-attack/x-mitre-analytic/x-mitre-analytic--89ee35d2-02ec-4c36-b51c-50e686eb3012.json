@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c3037fd7-4271-46f4-9d6d-14119ee6a2a0",
+    "id": "bundle--49d9bc83-0ff6-45e3-b609-6d3b93200c90",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--89ee35d2-02ec-4c36-b51c-50e686eb3012",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-04-24T20:30:28.435Z",
             "name": "Analytic 1815",
-            "description": "Mobile security products may be able to detect some forms of user evasion. Otherwise, the act of hiding malicious activity could be difficult to detect, and therefore enterprises may be better served focusing on detection at other stages of adversarial behavior.",
+            "description": "Correlates (1) continuous or repeated use of motion or interaction-inference signals that do not require overt user-facing privilege prompts, (2) suppression of higher-risk behavior while user presence or active handling is inferred, and (3) resumption of background execution, sensor use, local data handling, or network activity only when device interaction falls below a threshold. The defender observes a causal chain where an application senses user/device interaction state and intentionally gates malicious behavior to user-inactive periods.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -30,7 +32,44 @@
             "x_mitre_platforms": [
                 "Android"
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_log_source_references": [
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "application invokes motion-sensor or device-activity framework operations followed by conditional execution of sensitive framework activity only after inferred user absence"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "application reduces or halts operational activity during periods of active user interaction and resumes background execution or periodic work only during low-motion or idle intervals"
+                }
+            ],
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Correlation window between motion-state inference and subsequent deferred execution"
+                },
+                {
+                    "field": "IdleThreshold",
+                    "description": "Threshold defining when device motion or interaction is considered low enough to permit hidden execution"
+                },
+                {
+                    "field": "InteractionSignalSet",
+                    "description": "Environment-specific set of motion or activity signals used to infer user presence"
+                },
+                {
+                    "field": "AllowedAppList",
+                    "description": "Baseline of legitimate applications expected to use motion or activity sensing while also conditionally changing behavior"
+                },
+                {
+                    "field": "ForegroundStateRequired",
+                    "description": "Whether suspiciousness increases when deferred activity starts from background or with no recent foreground interaction"
+                },
+                {
+                    "field": "UplinkBytesThreshold",
+                    "description": "Minimum outbound traffic threshold used to distinguish meaningful deferred operation from benign maintenance traffic"
+                }
+            ]
         }
     ]
 }

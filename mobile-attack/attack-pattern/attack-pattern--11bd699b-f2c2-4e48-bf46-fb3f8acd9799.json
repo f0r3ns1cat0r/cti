@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1c8950d0-93b5-4088-931e-0220b454e0bd",
+    "id": "bundle--b2bd9af1-b018-4e8f-bd3c-6cd06758d728",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,7 +22,6 @@
             "name": "Insecure Third-Party Libraries",
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "mobile-attack"
             ],

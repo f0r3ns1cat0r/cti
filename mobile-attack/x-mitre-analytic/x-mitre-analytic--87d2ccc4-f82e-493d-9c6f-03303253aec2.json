@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--978a4ca4-8699-4129-8cc4-143649221051",
+    "id": "bundle--ed08c95d-18d0-4ec6-998f-6f67f55d2399",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--87d2ccc4-f82e-493d-9c6f-03303253aec2",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-02-02T16:07:33.370Z",
             "name": "Analytic 1784",
-            "description": "Application vetting services could look for the Android permission `android.permission.QUERY_ALL_PACKAGES`, and apply extra scrutiny to applications that request it. On iOS, application vetting services could look for usage of the private API `LSApplicationWorkspace` and apply extra scrutiny to applications that employ it.",
+            "description": "Defender observes an app enumerating installed security/management controls (AV/EDR/MDM/VPN/Play Protect) via PackageManager, DevicePolicyManager, AppOps, and Settings queries or shell \u2018pm list\u2019 usage, optionally probing Accessibility/Device Admin state. Enumeration is followed by local inventory artifact creation and/or small egress. Chain: capability to query \u2192 burst of security-focused checks (packages/permissions/policies) \u2192 optional foreground targeting \u2192 artifact write \u2192 quick POST.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,12 +34,57 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--5ae32c6a-2d12-4b8f-81ca-f862f2be0962",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "android:logcat",
+                    "channel": "getInstalledPackages/getPackagesHoldingPermissions with filters for known security/MDM/VPN package names. Queries to isDeviceOwnerApp/isProfileOwnerApp/getActiveAdmins/getPermissionGrantState. Requests list of enabled services or monitors TYPE_WINDOW_STATE_CHANGED to time checks"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--685f917a-e95e-4ba0-ade1-c7d354dae6e0",
+                    "name": "android:logcat",
+                    "channel": "Command 'pm list packages' executed by app sandbox or child proc"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--1887a270-576a-4049-84de-ef746b2572d6",
+                    "name": "android:logcat",
+                    "channel": "Reads/queries ops for PACKAGE_USAGE_STATS, QUERY_ALL_PACKAGES, BIND_DEVICE_ADMIN, BIND_VPN_SERVICE"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9c2fa0ae-7abc-485a-97f6-699e3b6cf9fa",
+                    "name": "android:logcat",
+                    "channel": "Secure/Global reads of device_policy_manager, accessibility_enabled, default_vpn, always_on_vpn"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
+                    "name": "android:logcat",
+                    "channel": "CREATE/WRITE /data/data/<pkg>/(files|databases)/(security_inventory|policy_audit).*\\\\.(json|txt|db|plist)"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindowSeconds",
+                    "description": "Max time from discovery burst to persist/exfil (e.g., 10\u2013120s)."
+                },
+                {
+                    "field": "MinEnumCount",
+                    "description": "Minimum API calls/rows indicating inventory (e.g., \u226530 in 10s)."
+                },
+                {
+                    "field": "SecurityTargetsList",
+                    "description": "Regex/prefix list of AV/EDR/MDM/VPN packages & services to elevate severity."
+                },
+                {
+                    "field": "PersistPathRegex",
+                    "description": "Regex for local inventory artifacts (DB/JSON/TXT) in app container."
+                },
+                {
+                    "field": "ExfilDomainAllowlist",
+                    "description": "Allowlisted analytics/endpoints to suppress FPs."
+                },
+                {
+                    "field": "WorkProfileOnly",
+                    "description": "Scope to Work Profile events to reduce personal-profile noise."
+                }
+            ]
         }
     ]
 }

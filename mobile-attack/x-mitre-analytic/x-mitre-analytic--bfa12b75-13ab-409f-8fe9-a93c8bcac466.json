@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9a32a710-a33c-4783-b5eb-dd216cf8dedd",
+    "id": "bundle--0a0dca03-839d-4831-a6f3-5a0bd174d9cb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--bfa12b75-13ab-409f-8fe9-a93c8bcac466",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-04-08T16:39:38.897Z",
             "name": "Analytic 1767",
-            "description": "Many encryption mechanisms are built into standard application-accessible APIs and are therefore undetectable to the end user.",
+            "description": "The defender correlates recent access to locally collected or protected data with subsequent compression, packaging, or encryption behavior inside the same app context, followed by creation of archive-like or high-entropy output and optional near-term network transmission. The analytic prioritizes Android runtime and storage effects: application data access or sensor-derived collection, compression/encryption framework use, archive/blob creation in app-accessible storage, and background or device-locked execution inconsistent with the app\u2019s declared function.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -30,7 +32,67 @@
             "x_mitre_platforms": [
                 "Android"
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_log_source_references": [
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application reads multiple user-data files, media objects, message stores, or app-private records in burst sequence immediately before packaging or encryption activity"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application writes archive-like container or high-entropy packaged blob to app storage, cache, temp path, or shared external path after burst collection activity"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application invokes archive, compression, or bulk-buffer packaging routines on previously accessed local data within the same execution chain"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application encrypts newly created archive or staged data blob after collection and before storage or outbound transfer"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "android:MDMLog",
+                    "channel": "Managed application with no declared backup, sync, export, or media-editing role performs bulk local packaging or encrypted archive generation"
+                }
+            ],
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Correlation window between data access, package creation, encryption, and optional network upload"
+                },
+                {
+                    "field": "AllowedAppList",
+                    "description": "Apps legitimately expected to package local data such as backup, cloud sync, file manager, or media editing apps"
+                },
+                {
+                    "field": "AllowedPathList",
+                    "description": "Expected storage paths for legitimate archives, exports, or caches"
+                },
+                {
+                    "field": "ForegroundStateRequired",
+                    "description": "Whether packaging/export behavior should occur only during active user-driven workflows"
+                },
+                {
+                    "field": "BurstReadThreshold",
+                    "description": "Number of files or records read in a short interval before archive creation"
+                },
+                {
+                    "field": "ArchiveSizeThreshold",
+                    "description": "Minimum output size for suspicious packaged blob or archive"
+                },
+                {
+                    "field": "EntropyThreshold",
+                    "description": "Threshold for identifying encrypted or heavily compressed output"
+                },
+                {
+                    "field": "UplinkBytesThreshold",
+                    "description": "Minimum upload size consistent with recent archive creation"
+                }
+            ]
         }
     ]
 }

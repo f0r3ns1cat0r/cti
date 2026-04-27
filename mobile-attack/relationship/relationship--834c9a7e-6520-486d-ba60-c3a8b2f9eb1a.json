@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a29b75ae-1b86-47ec-9f89-001397c84e19",
+    "id": "bundle--71ffc565-de5d-4e45-b2d0-3f71da690479",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--834c9a7e-6520-486d-ba60-c3a8b2f9eb1a",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro-XLoader",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f383c313-f469-4e5a-9594-075debb0b95b",
+    "id": "bundle--688bc55d-a47d-429e-aac8-c3088a4be6de",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--a69cefd7-02e8-4840-a26e-2ea0b6a95812",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-03-10T15:33:30.111Z",
             "name": "Analytic 1802",
-            "description": "Mobile security products can often alert the user if their device is vulnerable to known exploits.",
+            "description": "Defender correlates a causal chain where a device transitions into USB debugging or file transfer mode after a physical connection event, followed by application installation, file replication, or execution originating from the USB interface rather than the application store ecosystem.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,12 +34,44 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--85a533a4-5fa4-4dba-b45d-f0717bedd6e6",
-                    "name": "Sensor Health",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--56c2b384-77f8-461f-a71a-76f7888ebfb6",
+                    "name": "android:MDMLog",
+                    "channel": "device USB mode change (charging to file transfer / debugging / accessory)"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "android:MDMLog",
+                    "channel": "ADB_DEBUGGING_ENABLED"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3d20385b-24ef-40e1-9f56-f39750379077",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "application installed from adb, sideload, or unknown USB source"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "large file write originating from /mnt/usb or external mounted storage"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Correlation window between USB connection state change and application installation."
+                },
+                {
+                    "field": "AllowedDeveloperDevices",
+                    "description": "List of devices legitimately allowed to use ADB debugging."
+                },
+                {
+                    "field": "AllowedSideloadApps",
+                    "description": "Approved enterprise apps allowed to install outside Google Play."
+                },
+                {
+                    "field": "FileReplicationThreshold",
+                    "description": "Volume of file writes from mounted external storage considered suspicious."
+                }
+            ]
         }
     ]
 }

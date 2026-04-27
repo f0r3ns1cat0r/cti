@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9ec4543f-ae8b-4f23-b2eb-fa7a4012bd62",
+    "id": "bundle--ebbd2314-8a94-40b8-b1d4-9aa6318c9278",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--352fabc8-48fe-4190-92b3-49b00348bb22",
             "created": "2019-03-11T15:13:40.454Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro-Anserver",

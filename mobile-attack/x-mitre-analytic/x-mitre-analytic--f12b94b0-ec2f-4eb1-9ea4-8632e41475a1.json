@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c855d6cb-04ab-4408-86ed-23c88bb6cdcc",
+    "id": "bundle--ca1a2d02-6211-48ec-87ee-e95f5710fc86",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--f12b94b0-ec2f-4eb1-9ea4-8632e41475a1",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-03-02T20:39:33.682Z",
             "name": "Analytic 1681",
-            "description": "Abuse of standard application protocols can be difficult to detect as many legitimate mobile applications leverage such protocols for language-specific APIs. Enterprises may be better served focusing on detection at other stages of adversarial behavior. ",
+            "description": "Defender observes an application establishing recurrent HTTPS or FCM-based communication sessions exhibiting structured cadence, asymmetric request/response sizes, or persistent low-volume polling inconsistent with declared application functionality, potentially embedding command data within web protocol traffic.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -30,7 +32,27 @@
             "x_mitre_platforms": [
                 "Android"
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_log_source_references": [
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "NSM:Flow",
+                    "channel": "HTTPS sessions exhibiting periodic request cadence or structured payload exchanges inconsistent with application baseline"
+                }
+            ],
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "BeaconIntervalVarianceThreshold",
+                    "description": "Defines acceptable deviation in HTTPS polling cadence"
+                },
+                {
+                    "field": "PayloadSymmetryThreshold",
+                    "description": "Defines acceptable ratio between request and response sizes"
+                },
+                {
+                    "field": "AppNetworkRoleBaseline",
+                    "description": "Expected mapping between application category and network endpoints"
+                }
+            ]
         }
     ]
 }

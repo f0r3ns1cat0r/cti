@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e2e02d51-b99b-4509-bb13-231faafa69a1",
+    "id": "bundle--cb6db635-a704-4512-8622-4c23f209bbf5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--6c776c7a-0e2f-4963-9485-aa90149ae68e",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-04-01T16:04:16.642Z",
             "name": "Analytic 1732",
-            "description": "Since data encryption is a common practice in many legitimate applications and uses standard programming language-specific APIs, encrypting data for command and control communication is regarded as undetectable to the user.",
+            "description": "Indirect evidence of symmetric cryptographic channel usage inferred through repeated structured encrypted network transmissions and background processing patterns, where direct observation of symmetric crypto operations is limited. Detection correlates application background execution + consistent encrypted payload patterns + app entitlement posture to identify misuse of symmetric encryption for command and control.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -30,7 +32,24 @@
             "x_mitre_platforms": [
                 "iOS"
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Correlation window between background execution and network transmission"
+                },
+                {
+                    "field": "EntropyThreshold",
+                    "description": "Threshold for detecting encrypted payloads"
+                },
+                {
+                    "field": "BeaconIntervalVariance",
+                    "description": "Tolerance for periodic encrypted communication"
+                },
+                {
+                    "field": "AllowedAppList",
+                    "description": "Apps expected to exhibit encrypted communication patterns"
+                }
+            ]
         }
     ]
 }

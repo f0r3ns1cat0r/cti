@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a4d8e4a2-4d32-4c3b-8f7a-eb2453f50f6e",
+    "id": "bundle--4ac58847-4613-43e0-93c5-c4f1a71dd1cd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--bc79d59b-1828-4133-9f8f-df8cad9543a8",
             "created": "2019-11-21T16:42:48.459Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SecureList - ViceLeaker 2019",

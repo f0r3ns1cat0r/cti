@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dd30be0f-8a58-45ef-a8cf-4036f6834bb8",
+    "id": "bundle--b320e2f5-6f30-4585-9114-2ad4da1de2fd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--746eaf98-bd95-4e9a-a4ed-0e3f20402276",
             "created": "2023-10-10T15:33:57.989Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lookout-Dendroid",

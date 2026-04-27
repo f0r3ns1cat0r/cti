@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cf631c64-790c-4bc8-b3fd-bce17e7342f4",
+    "id": "bundle--1f88f402-67e7-4856-abe7-ddb1c9921b27",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--b5e8cef4-e8a1-484f-baae-cf12b26e6070",
             "created": "2020-12-18T20:14:47.302Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "WhiteOps TERRACOTTA",

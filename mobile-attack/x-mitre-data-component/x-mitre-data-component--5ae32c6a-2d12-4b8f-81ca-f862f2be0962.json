@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--05261d0f-5f49-4efd-83a4-32a5ea4790a6",
+    "id": "bundle--7ad08ab7-877c-47c2-9b30-934ff490b906",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,14 +12,14 @@
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/datacomponents/DC0112",
+                    "url": "https://attack.mitre.org/data-components/DC0112",
                     "external_id": "DC0112"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-01-16T16:18:01.897Z",
             "name": "API Calls",
             "description": "API calls utilized by an application that could indicate malicious activity",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -27,12 +27,24 @@
             "x_mitre_domains": [
                 "mobile-attack"
             ],
-            "x_mitre_version": "2.0",
+            "x_mitre_version": "2.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_log_sources": [
                 {
                     "name": "Application Vetting",
                     "channel": "None"
+                },
+                {
+                    "name": "iOS:unifiedlog",
+                    "channel": "Repeated sandbox or policy violations by a single process or app bundle (for example, deny rules) followed by successful access to resources or APIs that normally require higher privileges"
+                },
+                {
+                    "name": "iOS:unifiedlog",
+                    "channel": "mmap with PROT_EXEC and PROT_WRITE by sandboxed app"
+                },
+                {
+                    "name": "android:logcat",
+                    "channel": "SELinux AVC related to execute_no_trans/execmem after decode/unpack activity by the same app UID"
                 }
             ]
         }

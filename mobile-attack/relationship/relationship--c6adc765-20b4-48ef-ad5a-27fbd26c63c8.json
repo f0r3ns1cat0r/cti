@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cba8e4da-8c99-478b-925a-6789bd821cf2",
+    "id": "bundle--0010369a-11fd-468b-86d7-5adfd2616ccd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--c6adc765-20b4-48ef-ad5a-27fbd26c63c8",
             "created": "2024-03-26T18:42:43.070Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "checkpoint_hamas_android_malware",

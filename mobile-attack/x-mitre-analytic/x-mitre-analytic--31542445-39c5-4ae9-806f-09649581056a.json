@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a44f8bbf-c08b-49d0-8616-ac814019244e",
+    "id": "bundle--92a08bcc-8233-49af-ae33-780a6e94aebd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--31542445-39c5-4ae9-806f-09649581056a",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-04-13T18:10:00.568Z",
             "name": "Analytic 1718",
-            "description": "Application vetting services can detect when an application requests administrator permission.\nWhen an application requests administrator permission, the user is presented with a popup and the option to grant or deny the request. ",
+            "description": "Correlates (1) application interaction with elevation control mechanisms (e.g., Accessibility Service, Device Admin, overlay permissions, package installer flows), (2) rapid transition to elevated capability state without expected user interaction patterns, and (3) immediate privileged actions such as sensor access, UI manipulation, or background persistence. The defender observes a causal chain where an application gains elevated privileges through abuse of system-controlled consent flows and subsequently performs actions inconsistent with normal user-driven authorization.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -33,16 +35,33 @@
             "x_mitre_log_source_references": [
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "name": "android:MDMLog",
+                    "channel": "application granted high-risk permission or special access (AccessibilityService, SYSTEM_ALERT_WINDOW, DeviceAdmin) with abnormal grant pattern (e.g., no recent user interaction or rapid sequence of grants)"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--e2f72131-14d1-411f-8e8c-aa3453dd5456",
-                    "name": "User Interface",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "application invokes privileged framework APIs (Accessibility events, UI automation, package install flows) immediately following permission grant"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Defines correlation window between permission grant and privileged behavior"
+                },
+                {
+                    "field": "HighRiskPermissionSet",
+                    "description": "List of permissions or access types considered high-risk (Accessibility, Device Admin, overlay)"
+                },
+                {
+                    "field": "UserInteractionThreshold",
+                    "description": "Defines acceptable proximity of user interaction to permission grant"
+                },
+                {
+                    "field": "AllowedAppList",
+                    "description": "Baseline of legitimate apps expected to use high-risk permissions"
+                }
+            ]
         }
     ]
 }

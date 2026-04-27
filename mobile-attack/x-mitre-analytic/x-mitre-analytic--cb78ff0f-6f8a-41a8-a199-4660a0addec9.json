@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eb3bd333-05a0-4f3e-94cc-9540e57d38ff",
+    "id": "bundle--e6987b71-f692-43f9-8508-de94d30f10a9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--cb78ff0f-6f8a-41a8-a199-4660a0addec9",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-04-09T17:33:41.747Z",
             "name": "Analytic 1702",
-            "description": "Enterprises may be able to detect anomalous traffic originating from mobile devices, which could indicate compromise.",
+            "description": "The defender correlates proxy-capable network setup or socket-handling behavior with subsequent bidirectional traffic relaying through the same device and app context, especially when inbound client sessions are followed by outbound connections to unrelated remote destinations or when the device sustains multiplexed traffic patterns inconsistent with normal mobile app workflows. The analytic prioritizes Android-observable effects: proxy or raw-socket setup, app background execution, inbound-to-outbound traffic bridging, and sustained relayed flows to multiple destinations without recent user interaction.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,12 +34,60 @@
             ],
             "x_mitre_log_source_references": [
                 {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application initializes proxy-capable or raw-socket networking constructs, including SOCKS-capable Proxy API usage or direct socket listener/setup immediately before traffic relay phase"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "android:MDMLog",
+                    "channel": "Managed app without approved VPN, enterprise tunneling, browser, or remote-access role exhibits proxy-like traffic handling inconsistent with policy baseline"
+                },
+                {
                     "x_mitre_data_component_ref": "x-mitre-data-component--a7f22107-02e5-4982-9067-6625d4a1765a",
-                    "name": "Network Traffic",
-                    "channel": "None"
+                    "name": "NSM:Flow",
+                    "channel": "App-attributed traffic exhibits multi-destination fan-out, sustained session bridging, or SOCKS-like relay behavior inconsistent with normal client-only mobile communication"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "NSM:Flow",
+                    "channel": "Device shows correlated inbound session establishment followed by outbound connections to separate external destinations with overlapping timing and relay-like byte symmetry"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Correlation window between proxy/socket setup and subsequent inbound-outbound traffic bridging"
+                },
+                {
+                    "field": "AllowedAppList",
+                    "description": "Apps legitimately expected to proxy or tunnel traffic, such as enterprise VPN, remote access, security testing, or managed browser apps"
+                },
+                {
+                    "field": "AllowedDestinationList",
+                    "description": "Approved remote destinations or service categories for legitimate tunneling applications"
+                },
+                {
+                    "field": "ForegroundStateRequired",
+                    "description": "Whether proxy-capable or relayed traffic should occur only during active user-driven workflows"
+                },
+                {
+                    "field": "RelaySessionThreshold",
+                    "description": "Minimum number of correlated inbound and outbound session pairs required to indicate relay behavior"
+                },
+                {
+                    "field": "ByteSymmetryTolerance",
+                    "description": "Allowed variance between inbound and outbound byte volumes when identifying proxied traffic"
+                },
+                {
+                    "field": "ConcurrentDestinationThreshold",
+                    "description": "Maximum expected number of simultaneous unrelated remote destinations for a legitimate app"
+                },
+                {
+                    "field": "UplinkBytesThreshold",
+                    "description": "Minimum outbound volume required for relay behavior to be considered meaningful"
+                }
+            ]
         }
     ]
 }

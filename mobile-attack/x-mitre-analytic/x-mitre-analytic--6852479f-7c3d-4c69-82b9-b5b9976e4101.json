@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--804f3e65-d16c-4777-81e0-61573d0c5317",
+    "id": "bundle--46c17a30-a132-49d7-b238-a4caf5616fcf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--6852479f-7c3d-4c69-82b9-b5b9976e4101",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-04-13T18:17:45.586Z",
             "name": "Analytic 1701",
-            "description": "The user is prompted for approval when an application requests device administrator permissions.\nApplication vetting services can check for the string `BIND_DEVICE_ADMIN` in the application\u2019s manifest. This indicates it can prompt the user for device administrator permissions.\nThe user can see which applications are registered as device administrators in the device settings.",
+            "description": "Correlates (1) activation of Device Administrator privileges by an application, (2) absence or mismatch of legitimate user interaction during the approval flow, and (3) immediate execution of administrator-level control actions (e.g., password reset, device lock, policy enforcement, prevention of uninstall). The defender observes a causal chain where an application transitions into a privileged device control role and rapidly exercises those capabilities outside expected user-driven patterns.\n\nApplication vetting services can check for the string `BIND_DEVICE_ADMIN` in the application\u2019s manifest. ",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,22 +34,34 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--e2f72131-14d1-411f-8e8c-aa3453dd5456",
-                    "name": "User Interface",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "application invokes DevicePolicyManager APIs (e.g., resetPassword, lockNow, setCameraDisabled) immediately following admin activation"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "Application Vetting",
-                    "channel": "None"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--56c2b384-77f8-461f-a71a-76f7888ebfb6",
-                    "name": "User Interface",
-                    "channel": "None"
+                    "name": "android:MDMLog",
+                    "channel": "application granted Device Administrator privilege + abnormal activation pattern (e.g., rapid enablement after install or no recent user interaction)"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Defines correlation window between Device Admin activation and subsequent privileged actions"
+                },
+                {
+                    "field": "AllowedAdminApps",
+                    "description": "Baseline of legitimate applications expected to request Device Administrator privileges (e.g., enterprise MDM agents)"
+                },
+                {
+                    "field": "UserInteractionThreshold",
+                    "description": "Defines acceptable timing between user interaction and admin activation"
+                },
+                {
+                    "field": "PrivilegedActionSet",
+                    "description": "List of high-risk DevicePolicyManager API actions monitored for abuse"
+                }
+            ]
         }
     ]
 }

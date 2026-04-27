@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2d596ab3-7544-41fc-8eef-fb180ffde191",
+    "id": "bundle--0b5e66f0-043b-44fb-a5fe-1e921e01af25",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,27 +12,75 @@
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/datacomponents/DC0118",
+                    "url": "https://attack.mitre.org/data-components/DC0118",
                     "external_id": "DC0118"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-04-08T20:14:04.248Z",
             "name": "System Settings",
-            "description": "Settings visible to the user on the device",
+            "description": "System Settings represent user-visible or OS-level configuration settings that influence device behavior, application permissions, connectivity, or system features.\n\nMonitoring system settings changes allows defenders to detect abnormal modifications that may indicate malicious activity or device compromise.\n\n\nCollection Methods\n\n- MDM device telemetry\n- Mobile EDR monitoring\n- OS configuration monitoring\n",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "mobile-attack"
             ],
-            "x_mitre_version": "2.0",
+            "x_mitre_version": "2.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_log_sources": [
                 {
                     "name": "User Interface",
                     "channel": "None"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Microphone sensor activation or audio recording session initiated by application process"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application transitions to background or executes while screen locked during microphone session"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Cellular service state transitions (in-service\u2192no-service), SIM state change, carrier/operator identifier change, or baseband/telephony stack state change observed by agent telemetry"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application remains backgrounded while accessibility service continues to receive events or perform actions across other foreground apps"
+                },
+                {
+                    "name": "android:MDMLog",
+                    "channel": "device USB mode change (charging to file transfer / debugging / accessory)"
+                },
+                {
+                    "name": "iOS:MDMLog",
+                    "channel": "Trusted computer / host relationship established or relevant device trust setting changed"
+                },
+                {
+                    "name": "android:MDMLog",
+                    "channel": "Application or service remains active, foregrounds, or overlays during device locked state or immediately at unlock transition with weak recent user interaction context"
+                },
+                {
+                    "name": "android:MDMLog",
+                    "channel": "No user-initiated airplane mode, radio disablement, or managed network setting change occurred during repeated connectivity degradation"
+                },
+                {
+                    "name": "iOS:MDMLog",
+                    "channel": "No user-initiated airplane mode or radio-related setting change occurred while applications experience repeated network unavailability"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Camera sensor access began from app identity and remained active for sustained capture interval in app context not mapped to approved video recording workflow"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Camera sensor access occurred while AppState=background, foreground service active without visible user action, or DeviceLockState=locked during capture interval"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Foreground service continues accessing camera, microphone, location, or other while-in-use sensors after service promotion and outside recent user interaction"
                 }
             ]
         }

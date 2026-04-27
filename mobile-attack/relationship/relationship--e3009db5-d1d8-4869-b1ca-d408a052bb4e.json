@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--98bd6688-f64c-41d4-ab75-c741b4611124",
+    "id": "bundle--09c06f0e-237c-45a2-887c-6923a115cca0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--e3009db5-d1d8-4869-b1ca-d408a052bb4e",
             "created": "2024-01-26T17:34:10.524Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "checkpoint_flixonline_0421",

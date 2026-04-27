@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8ee951f8-64b6-4b54-8322-6c9b01eaf448",
+    "id": "bundle--356e2a4d-9c18-4fb5-9053-09f9974ce7a2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--23a1b062-847e-4912-8e5e-5b69867af4a4",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-04-24T20:30:18.846Z",
             "name": "Analytic 1644",
-            "description": "Application vetting services may detect API calls to `performGlobalAction(int)`. \nThe user can view a list of device administrators and applications that have registered accessibility services in device settings. The user can typically visually see when an action happens that they did not initiate and can subsequently review installed applications for any out of place or unknown ones. Applications that register an accessibility service or request device administrator permissions should be scrutinized further for malicious behavior.",
+            "description": "Correlates (1) an application obtaining or maintaining elevated control mechanisms capable of resisting removal (device administrator, accessibility control, managed-owner posture), (2) user navigation into uninstall or application-management flows, and (3) immediate UI redirection, back-navigation injection, modal dismissal, or failed uninstall completion followed by continued app presence. Defender observes a causal chain where a removal attempt is actively disrupted and the target application remains installed.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,17 +34,47 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--5ae32c6a-2d12-4b8f-81ca-f862f2be0962",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "android:MDMLog",
+                    "channel": "application enabled as device administrator, device owner, profile owner, or equivalent elevated management role before uninstall attempt"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--56c2b384-77f8-461f-a71a-76f7888ebfb6",
-                    "name": "User Interface",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "android:MDMLog",
+                    "channel": "application granted accessibility service privileges capable of screen observation or global action invocation before removal attempt"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "application invokes accessibility global actions (back/home/recents) or observes package-management UI immediately after uninstall/settings screen becomes foreground"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Correlation window between uninstall UI entry, interference event, and continued install state"
+                },
+                {
+                    "field": "ProtectedRoleSet",
+                    "description": "Set of elevated roles considered removal-resistant (device admin, owner modes, accessibility)"
+                },
+                {
+                    "field": "GlobalActionSet",
+                    "description": "UI actions considered suspicious during uninstall flows (BACK, HOME, RECENTS)"
+                },
+                {
+                    "field": "AllowedAccessibilityApps",
+                    "description": "Known legitimate accessibility services expected to use global actions"
+                },
+                {
+                    "field": "UninstallRetryThreshold",
+                    "description": "Number of repeated uninstall attempts before escalation"
+                },
+                {
+                    "field": "UplinkBytesThreshold",
+                    "description": "Outbound traffic threshold confirming continued meaningful activity after failed removal"
+                }
+            ]
         }
     ]
 }

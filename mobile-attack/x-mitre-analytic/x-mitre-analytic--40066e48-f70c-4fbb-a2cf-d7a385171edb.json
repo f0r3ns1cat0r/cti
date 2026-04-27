@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--57d01b5c-ebc2-431c-b76c-33eb06362dd9",
+    "id": "bundle--74f2a57e-cd84-4446-ac64-995ce2ec2da3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--40066e48-f70c-4fbb-a2cf-d7a385171edb",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-02-24T17:35:08.607Z",
             "name": "Analytic 1820",
-            "description": "Google sends a notification to the device when Android Device Manager is used to locate it. Additionally, Google provides the ability for users to view their general account activity and alerts users when their credentials have been used on a new device. Apple iCloud also provides notifications to users of account activity such as when credentials have been used. ",
+            "description": "Defender observes anomalous access to remote device management or enterprise mobility management control planes followed by device-state queries, location requests, or management actions inconsistent with user role, historical behavior, or device ownership context.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,12 +34,30 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--bf0ff551-a5a7-40e5-bff9-f9405011b1f4",
-                    "name": "User Interface",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--a953ca55-921a-44f7-9b8d-3d40141aa17e",
+                    "name": "saas:MDM",
+                    "channel": "Authentication events to device management or enterprise mobility management consoles"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--8c826308-2760-492f-9e36-4f0f7e23bcac",
+                    "name": "saas:MDM",
+                    "channel": "Device lookup, location query, or remote management operation"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "RoleDeviationThreshold",
+                    "description": "Defines acceptable variance between user privileges and management actions"
+                },
+                {
+                    "field": "GeoAccessAnomalyThreshold",
+                    "description": "Baseline deviation tolerance for management console access locations"
+                },
+                {
+                    "field": "DeviceOwnershipBaseline",
+                    "description": "Expected mapping of users to managed devices"
+                }
+            ]
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f61d09fb-28f2-4de7-bbda-64e8392e882e",
+    "id": "bundle--c083fce8-34cb-47cb-854e-44ab4b30d396",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--b81f9698-b9d1-4a6a-b836-f7e29232693a",
             "created": "2023-09-28T17:26:10.893Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "kaspersky_fakecalls_0422",

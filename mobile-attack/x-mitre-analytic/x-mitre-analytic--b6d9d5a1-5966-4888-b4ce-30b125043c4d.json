@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f6f294fb-fb33-4d1b-ad6c-cfc245d50376",
+    "id": "bundle--4c321dbe-0cde-4120-8c09-f54b0412300e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--b6d9d5a1-5966-4888-b4ce-30b125043c4d",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-01-29T17:39:29.213Z",
             "name": "Analytic 1678",
-            "description": "Application vetting services may be able to list domains and/or IP addresses that applications communicate with. \nMobile security products may provide URL inspection services that could determine if a domain being visited is malicious.\nApplication vetting services could look for indications that the application downloads and executes new code at runtime (e.g., on Android, use of `DexClassLoader`, `System.load`, or the WebView `JavaScriptInterface` capability; on iOS, use of JSPatch or similar capabilities).",
+            "description": "From the defender\u2019s view: a sandboxed app retrieves code-like content (JS/Mach-O/bundles), writes it to container tmp/Caches, performs memory permission changes (RW\u2192RX/RWX) or directly loads via dyld/dlopen from writable paths, sometimes preceded by 3rd-party hotpatch frameworks (e.g., JSPatch-like behavior) or script engine evaluation. The analytic correlates Network Content \u2192 File Creation \u2192 OS API Execution (memory permission change) \u2192 Module Load (dyld/dlopen) and/or Process Access (codesign validation touches), with optional scripting engine events.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,22 +34,60 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--764ee29e-48d6-4934-8e6b-7a606aaaafc0",
-                    "name": "Application Vetting",
-                    "channel": "None"
-                },
-                {
                     "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
-                    "name": "Network Traffic",
-                    "channel": "None"
+                    "name": "iOS:unifiedlog",
+                    "channel": "Per-App VPN flow with code-like content types (application/octet-stream, application/zip, text/javascript, application/x-mach-o)"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--5ae32c6a-2d12-4b8f-81ca-f862f2be0962",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
+                    "name": "iOS:unifiedlog",
+                    "channel": "Create/write in /var/mobile/Containers/Data/Application/<GUID>/(tmp|Library/Caches)/ for .js/.bundle/.dylib/.zip with elevated entropy"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "iOS:unifiedlog",
+                    "channel": "mmap/mprotect transitions to PROT_EXEC for pages associated with recently written files"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--c0a4a086-cc20-4e1e-b7cb-29d99dfa3fb1",
+                    "name": "iOS:unifiedlog",
+                    "channel": "dlopen/image load from app-writable path (tmp, Caches) outside bundled resources"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindowSeconds",
+                    "description": "Max correlation window between download \u2192 write \u2192 load (e.g., 15\u201360s)."
+                },
+                {
+                    "field": "ContentTypeList",
+                    "description": "MIME list treated as code-like (octet-stream, zip, javascript, x-mach-o)."
+                },
+                {
+                    "field": "WritablePathRegex",
+                    "description": "Regex for app container tmp/Caches writable paths."
+                },
+                {
+                    "field": "PayloadEntropyThreshold",
+                    "description": "Entropy cutoff to flag code blobs (e.g., \u2265 7.3)."
+                },
+                {
+                    "field": "KnownJITAllowlist",
+                    "description": "Bundles that legitimately do JIT/script eval to reduce RWX noise."
+                },
+                {
+                    "field": "WritableLoadPathRegex",
+                    "description": "Regex for loads from writable paths only (exclude app bundle)."
+                },
+                {
+                    "field": "UnsignedExecPolicy",
+                    "description": "Handle enterprise/dev-provisioned unsigned execution contexts."
+                },
+                {
+                    "field": "UserContext",
+                    "description": "Foreground/background or Work Profile state to filter noise."
+                }
+            ]
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2d8a33c2-5b05-49ce-b326-93c8296ef1ea",
+    "id": "bundle--3aa9ce80-eefc-42db-ae38-04209f22cbcc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--37d14338-b629-4b54-b734-446789b79f6f",
             "created": "2023-10-10T15:33:57.641Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason EventBot",

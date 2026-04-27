@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1eb5b6c7-a95a-4ea6-97c6-a016e5e840a9",
+    "id": "bundle--d25ac6cb-e461-478b-be1e-050d3e8263ef",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,26 +8,23 @@
             "id": "x-mitre-analytic--77c81bf1-beef-429a-a426-a716b489383a",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
                     "url": "https://attack.mitre.org/detectionstrategies/DET0655#AN1742",
                     "external_id": "AN1742"
-                },
-                {
-                    "source_name": "Samsung Knox Mobile Threat Defense",
-                    "description": "Samsung Knox Partner Program. (n.d.). Knox for Mobile Threat Defense. Retrieved March 30, 2022.",
-                    "url": "https://partner.samsungknox.com/mtd"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-04-09T20:37:17.277Z",
             "name": "Analytic 1742",
-            "description": "Command-line activities can potentially be detected through Mobile Threat Defense (MTD) integrations with lower-level OS APIs. This could grant the MTD agents access to running processes and their parameters, potentially detecting unwanted or malicious shells.\nMobile Threat Defense (MTD) with lower-level OS APIs integrations may have access to newly created processes and their parameters, potentially detecting unwanted or malicious shells.\nApplication vetting services could detect the invocations of methods that could be used to execute shell commands.(Citation: Samsung Knox Mobile Threat Defense)\nMobile Threat Defense (MTD) with lower-level OS APIs integrations may have access to running processes and their parameters, potentially detecting unwanted or malicious shells.",
+            "description": "The defender correlates managed-app runtime behavior indicative of command or shell invocation with subsequent spawned process or shell-like execution effects, then raises confidence when the resulting activity produces local artifacts or network communication outside expected user context. Because direct shell-process visibility can be weaker on iOS in many enterprise deployments, the analytic anchors first on process-creation or lower-level OS API effects where mobile telemetry can observe them, then on lifecycle context and post-execution network or file behavior. Confidence is strongest when the same app shows command invocation followed by process execution and immediate follow-on effects.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -37,27 +34,42 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--685f917a-e95e-4ba0-ade1-c7d354dae6e0",
-                    "name": "Command",
-                    "channel": "None"
-                },
-                {
                     "x_mitre_data_component_ref": "x-mitre-data-component--3d20385b-24ef-40e1-9f56-f39750379077",
-                    "name": "Process",
-                    "channel": "None"
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Managed app invokes lower-level OS process-launch or command-execution behavior before file or network effects, including interpreter-like execution flow where visible to sensor"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--5ae32c6a-2d12-4b8f-81ca-f862f2be0962",
-                    "name": "Application Vetting",
-                    "channel": "None"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--ee575f4a-2d4f-48f6-b18b-89067760adc1",
-                    "name": "Process",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--685f917a-e95e-4ba0-ade1-c7d354dae6e0",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application spawns shell, command interpreter, or command-executing child process with arguments during command-execution phase"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Correlation window between command-execution indication, process effects, and follow-on file or network behavior"
+                },
+                {
+                    "field": "AllowedAppList",
+                    "description": "Managed apps legitimately expected to perform debugging, remote support, or enterprise automation tasks"
+                },
+                {
+                    "field": "AllowedProcessPatterns",
+                    "description": "Expected process-launch or helper-execution patterns for approved managed apps"
+                },
+                {
+                    "field": "ForegroundStateRequired",
+                    "description": "Whether command-execution behavior should occur only during active user-driven workflows"
+                },
+                {
+                    "field": "ArtifactPathPatterns",
+                    "description": "Expected temporary or output file locations for approved app behavior"
+                },
+                {
+                    "field": "UplinkBytesThreshold",
+                    "description": "Minimum outbound volume after command execution to treat network behavior as meaningful"
+                }
+            ]
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9e74f831-41fb-4845-bce3-3c167633d2fe",
+    "id": "bundle--16ca9626-9386-462c-a73d-db2cec1aa3b8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--75eaee42-f7b5-4792-9611-74626bd98838",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-04-24T20:30:26.476Z",
             "name": "Analytic 1806",
-            "description": "The user can view a list of active device administrators in the device settings.",
+            "description": "Correlates (1) application acquisition or use of elevated control paths capable of altering defensive tooling or protected system state, such as device administration, root-enabled modification, or security-setting manipulation, (2) direct changes to security-tool configuration, service state, package state, or protected enforcement settings such as SELinux-relevant files or security-app components, and (3) immediate degradation, suppression, or disappearance of expected security telemetry while the device and initiating application remain active. The defender observes a causal chain where a security control is modified first, then monitoring or protection weakens, and subsequent activity continues under reduced defensive visibility.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,12 +34,52 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--56c2b384-77f8-461f-a71a-76f7888ebfb6",
-                    "name": "User Interface",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "android:MDMLog",
+                    "channel": "device posture changes to rooted, non-compliant, weakened security state, or elevated control role becomes active before security-tool degradation"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "android:MDMLog",
+                    "channel": "security-relevant application package state, enabled status, administrator state, or managed protection setting changes immediately before monitoring degradation"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "application invokes package, settings, or privileged framework operations capable of disabling security software, altering security enforcement, or interfering with reporting before telemetry loss"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "application modifies protected configuration, local control files, security settings, or tool-related data immediately before security service degradation or non-reporting state"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Correlation window between security-setting change, tool degradation, and subsequent continued activity"
+                },
+                {
+                    "field": "CriticalToolSet",
+                    "description": "Security-relevant applications or components expected to remain enabled and reporting, such as mobile EDR, Play Protect-associated controls, or agent services"
+                },
+                {
+                    "field": "TelemetryGapThreshold",
+                    "description": "Duration or volume threshold defining abnormal loss of expected security telemetry"
+                },
+                {
+                    "field": "ProtectedSettingSet",
+                    "description": "Protected settings or files treated as suspicious if modified, including SELinux-relevant enforcement state or security-app configuration"
+                },
+                {
+                    "field": "AllowedAdminApps",
+                    "description": "Legitimate applications or management agents allowed to modify security-relevant posture"
+                },
+                {
+                    "field": "UplinkBytesThreshold",
+                    "description": "Outbound traffic threshold used to confirm continued meaningful activity during reduced defensive visibility"
+                }
+            ]
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a2f2023d-edb7-4ac4-acda-fba19fa365ee",
+    "id": "bundle--0732bc7f-c890-4a82-a432-42f5bad96d9f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--ccb6f906-a785-4695-91a5-f1bc210892dc",
             "created": "2023-08-04T18:35:55.269Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "lookout_hornbill_sunbird_0221",

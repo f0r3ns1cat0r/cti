@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--88817840-769b-48c4-9c6d-751be62e2e2c",
+    "id": "bundle--0090ce00-869b-4407-b13a-c0db08549ddf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--e245ad04-3fe9-4132-8bb4-77cdc4c3a1eb",
             "created": "2023-10-10T15:33:58.272Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro-XLoader-FakeSpy",

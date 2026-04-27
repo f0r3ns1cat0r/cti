@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c3c234ab-ea9b-4016-aaef-642ac1caf4e8",
+    "id": "bundle--fafe5009-90e4-4e4a-b440-554142177753",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--86aa8777-e12a-4dab-81ed-354bed18f3db",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-04-09T15:57:30.214Z",
             "name": "Analytic 1848",
-            "description": "Application vetting services could look for connections to unknown domains or IP addresses. \nApplication vetting services may indicate precisely what content was requested during application execution.",
+            "description": "The defender correlates an application establishing outbound retrieval to a non-baselined external source with immediate local creation of a new executable, module, staged payload, overlay asset, or secondary file in app-controlled or shared storage, followed by optional load, invocation, handoff, or repeat retrieval behavior. The analytic prioritizes Android-observable effects: network download activity, DownloadManager or direct HTTP retrieval, file creation in package-specific or external paths, and execution context inconsistent with recent user interaction or the app\u2019s declared role.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,17 +34,61 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--764ee29e-48d6-4934-8e6b-7a606aaaafc0",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "NSM:Flow",
+                    "channel": "Application retrieves remote content from non-baselined domain or IP and the transfer direction is inbound to device during the file acquisition phase"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application invokes direct file retrieval, DownloadManager usage, or streaming write from network response to local storage immediately after remote session establishment"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application writes newly retrieved binary, archive, script-like asset, overlay content, library, or opaque payload to app-private, cache, temp, or shared external path as the primary local effect of transfer"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Ingress transfer and local file creation occur while app_state=background or device_locked=true or recent_user_interaction=false during the acquisition phase"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "name": "android:MDMLog",
+                    "channel": "Managed app without approved content-download, update, browser, or file-sync role performs remote payload retrieval and local tool staging"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Correlation window between remote retrieval, local write, and any follow-on load or transfer completion"
+                },
+                {
+                    "field": "AllowedAppList",
+                    "description": "Apps legitimately expected to download files such as browsers, enterprise app stores, backup/sync tools, or content delivery apps"
+                },
+                {
+                    "field": "AllowedDestinationList",
+                    "description": "Approved software distribution, CDN, MDM, and enterprise update endpoints"
+                },
+                {
+                    "field": "AllowedPathList",
+                    "description": "Expected local download, cache, and update paths for legitimate app behavior"
+                },
+                {
+                    "field": "IngressBytesThreshold",
+                    "description": "Minimum inbound transfer size consistent with a staged secondary tool or payload"
+                },
+                {
+                    "field": "ForegroundStateRequired",
+                    "description": "Whether file retrieval should occur only during active user-driven workflows"
+                },
+                {
+                    "field": "FileTypeRiskPatterns",
+                    "description": "Environment-specific set of retrieved file classes considered suspicious such as apk, dex, jar, so, zip, html overlay, or opaque blob"
+                }
+            ]
         }
     ]
 }

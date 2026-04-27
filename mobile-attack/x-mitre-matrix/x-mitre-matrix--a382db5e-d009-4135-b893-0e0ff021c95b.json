@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7d647331-6ebc-494f-8b34-d106be547c4b",
+    "id": "bundle--74b0e960-2cdc-408f-a1b0-9a053fc0fa90",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-17T20:51:13.569Z",
+            "modified": "2026-04-14T17:30:39.329Z",
             "name": "Mobile ATT&CK",
-            "description": "Below are the tactics and technique representing the MITRE ATT&CK Matrix for Mobile. The Matrix contains information for the following platforms: Android, iOS.",
+            "description": "Below are the tactics and techniques representing the MITRE ATT&CK Matrix for Mobile. The Matrix covers techniques involving device access and network-based effects that can be used by adversaries without device access. The Matrix contains information for the following platforms: Android, iOS.",
             "tactic_refs": [
                 "x-mitre-tactic--0a93fd8e-4a83-4c15-8203-db290e5f2ac6",
                 "x-mitre-tactic--4a800987-a3a8-4d56-a1bd-0d7171431756",
@@ -38,11 +38,8 @@
             ],
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_domains": [
-                "mobile-attack"
-            ],
             "x_mitre_version": "2.0",
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

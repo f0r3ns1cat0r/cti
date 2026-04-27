@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--672bb08f-eb9e-4332-b386-82bd941ece1f",
+    "id": "bundle--da463e07-d644-4acf-b363-27aebbd7aeb9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--50e52979-5f21-4a02-99f3-fc1858b73369",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-04-24T20:30:22.993Z",
             "name": "Analytic 1733",
-            "description": "Mobile security products can detect which applications can request device administrator permissions. Application vetting services could look for use of APIs that could indicate the application is trying to hide activity.\nThe user can view applications with administrator access through the device settings, and may also notice if user data is inexplicably missing. The user can see a list of applications that can use accessibility services in the device settings. ",
+            "description": "Detects indirect evidence of host-side indicator removal by correlating (1) local artifact creation or compromise-state-relevant activity, (2) later disappearance, alteration, or reporting loss for those artifacts or state indicators, and (3) continued application or device activity under reduced visibility. Because iOS provides weaker direct visibility into some Android-style artifact and jailbreak-indicator manipulation patterns, the defender relies more on app-private artifact lifecycle changes, managed posture shifts, and continued runtime or network activity after expected evidence disappears.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -42,7 +44,32 @@
                     "channel": "None"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Correlation window between artifact disappearance, posture change, and continued activity"
+                },
+                {
+                    "field": "ArtifactTypeSet",
+                    "description": "Host artifacts and state indicators monitored for suspicious removal, alteration, or disappearance"
+                },
+                {
+                    "field": "ExpectedTelemetrySources",
+                    "description": "Baseline sources expected to continue exposing artifact presence or compromise-relevant state"
+                },
+                {
+                    "field": "TelemetryGapThreshold",
+                    "description": "Threshold defining abnormal loss of artifact visibility or managed-state continuity"
+                },
+                {
+                    "field": "ExpectedManagementChanges",
+                    "description": "Known legitimate posture or inventory changes that may remove or update artifacts"
+                },
+                {
+                    "field": "UplinkBytesThreshold",
+                    "description": "Outbound traffic threshold used to confirm meaningful continued activity after indicator removal"
+                }
+            ]
         }
     ]
 }

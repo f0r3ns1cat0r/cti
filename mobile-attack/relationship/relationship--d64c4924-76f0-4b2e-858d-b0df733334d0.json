@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--df48b348-be74-4c64-85d6-caba1a2100fe",
+    "id": "bundle--cad0fea1-0138-428c-9cf6-617cced3cb44",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--d64c4924-76f0-4b2e-858d-b0df733334d0",
             "created": "2023-02-06T19:03:11.265Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "lookout_abstractemu_1021",

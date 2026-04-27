@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--65874175-5722-45f7-bb9c-7443f0dce30d",
+    "id": "bundle--5d347acd-56f6-4f16-8d0b-aca0f2a5365a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--53491f5a-7062-41f0-a51d-07b52dc8192c",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-03-16T22:10:25.735Z",
             "name": "Analytic 1654",
-            "description": "Integrity checking mechanisms can potentially detect unauthorized hardware modifications.",
+            "description": "The defender observes a device at activation, supervision, or enrollment time with unusual management-plane posture, inventory, or trust characteristics and then relies primarily on downstream network effects and device state inconsistencies rather than direct low-level process telemetry. On iOS, the most reliable sequence is supervision/attestation or inventory concern near first contact followed by network egress or protected-state behavior that is inconsistent with lock state, setup phase, or expected managed app activity.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,12 +34,56 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--85a533a4-5fa4-4dba-b45d-f0717bedd6e6",
-                    "name": "Sensor Health",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "iOS:MDMLog",
+                    "channel": "Supervised enrollment, activation, or inventory event reveals unexpected device property relationships, anomalous managed posture, unexplained configuration drift near first contact, or identity/inventory characteristics inconsistent with approved procurement baseline"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "VPN:MobileProxy",
+                    "channel": "Supervised or newly activated device initiates outbound connections to destinations outside Apple, MDM, update, or enterprise-managed baselines while locked, with no recent user interaction, or before expected app enrollment completion"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Managed app or device-originated network activity occurs while the device is locked or before expected managed app initialization sequence, inconsistent with expected background refresh baseline"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "iOS:unifiedlog",
+                    "channel": "Supplemental anomaly in baseband, IOKit, accessory, security, or activation-related subsystem logging temporally adjacent to suspicious posture or network behavior"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Correlation window between enrollment/inventory concern and suspicious network activity."
+                },
+                {
+                    "field": "SupervisedRequired",
+                    "description": "Most strong posture and inventory analytics require supervised iOS devices."
+                },
+                {
+                    "field": "AllowedDestinations",
+                    "description": "Apple, MDM, update, enterprise, and managed SaaS destinations vary by organization."
+                },
+                {
+                    "field": "BackgroundRefreshBaseline",
+                    "description": "Expected background network behavior varies by managed app set and policy."
+                },
+                {
+                    "field": "ActivationGracePeriod",
+                    "description": "Benign activation, restore, and setup traffic can be noisy immediately after provisioning."
+                },
+                {
+                    "field": "RecentUserInteractionWindow",
+                    "description": "Defines how recently the user must have interacted for activity to be considered expected."
+                },
+                {
+                    "field": "InventoryDriftTolerance",
+                    "description": "Tuning for acceptable changes in inventory/configuration during upgrades or replacements."
+                }
+            ]
         }
     ]
 }

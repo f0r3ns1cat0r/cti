@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c21b2e1b-27d5-4f11-84c1-e5e3d76ca094",
+    "id": "bundle--fca3bb77-5d16-44c8-81d3-15001dc44a4a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--c37bba44-9ca2-4444-8ee9-7cab0b2fd5fd",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-03-12T17:25:00.733Z",
             "name": "Analytic 1781",
-            "description": "Application vetting services may be able to detect if an application attempts to encrypt files, although this may be benign behavior.",
+            "description": "An application with access to broad file scopes or sensitive storage areas becomes active, performs abnormal burst file reads and writes across many user or shared-storage locations, transforms file content or extensions at scale in a short window, and causes rapid file inaccessibility, rewrite, or replacement inconsistent with normal sync, backup, media processing, or document-editing behavior. The defender correlates capability state, app lifecycle, framework use, bulk file-write effects, and optional network communications to distinguish encrypt-for-impact behavior from benign bulk file operations.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,12 +34,68 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--5ae32c6a-2d12-4b8f-81ca-f862f2be0962",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--6c62144a-cd5c-401c-ada9-58c4c74cd9d2",
+                    "name": "android:MDMLog",
+                    "channel": "Managed storage, backup, enterprise file access, or device policy state remains unchanged while bulk destructive file transformation occurs"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application holds or is granted broad storage, document-provider, media, or file-management capability inconsistent with its expected role before or during bulk file transformation"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application runs in foreground, service, or sustained background-active state while concentrated file transformation occurs with weak or no recent user interaction"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Content resolver, document provider, media store, storage access framework, bulk stream processing, or repeated crypto-adjacent framework use observed during multi-file transformation"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Maximum correlation span between app activation, framework use, and burst file transformation."
+                },
+                {
+                    "field": "AllowedAppList",
+                    "description": "Approved apps allowed to perform legitimate broad file operations such as backup, sync, AV scanning, enterprise migration, media editing, or document management."
+                },
+                {
+                    "field": "ForegroundStateRequired",
+                    "description": "Whether a benign bulk file operation is expected to occur only while the app is visible and actively used."
+                },
+                {
+                    "field": "RecentUserInteractionWindow",
+                    "description": "Threshold for determining whether large-scale file transformation was user-driven versus unattended."
+                },
+                {
+                    "field": "FileWriteBurstThreshold",
+                    "description": "Threshold for number of file create, overwrite, rename, or replace actions within the correlation window."
+                },
+                {
+                    "field": "DistinctDirectoryThreshold",
+                    "description": "Threshold for number of distinct folders or content roots touched during the file-impact burst."
+                },
+                {
+                    "field": "ExtensionChangeThreshold",
+                    "description": "Threshold for suspicious file extension changes or replacement-file patterns indicative of mass transformation."
+                },
+                {
+                    "field": "BytesWrittenThreshold",
+                    "description": "Threshold for cumulative bytes written during the impact window."
+                },
+                {
+                    "field": "ProtectedPathAllowList",
+                    "description": "Known paths, document roots, or work-profile storage locations where benign enterprise migration or sync tooling may rewrite many files."
+                },
+                {
+                    "field": "DestinationAllowList",
+                    "description": "Expected network destinations contacted by legitimate storage, sync, backup, or MDM remediation apps."
+                }
+            ]
         }
     ]
 }

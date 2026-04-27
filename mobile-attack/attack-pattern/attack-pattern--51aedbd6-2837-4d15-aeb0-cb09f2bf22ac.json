@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cb082428-c207-4205-8cfe-9e17da548bb6",
+    "id": "bundle--bcafd30c-9510-42e2-a0dc-d2c91ae7f837",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,7 +22,6 @@
             "name": "Abuse of iOS Enterprise App Signing Key",
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "mobile-attack"
             ],

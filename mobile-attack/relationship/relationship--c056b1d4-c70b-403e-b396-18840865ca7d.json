@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6ef84187-40d4-4f89-975f-1f9fd76872ce",
+    "id": "bundle--e36eda26-931b-44f8-ac9d-05c61c319238",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--c056b1d4-c70b-403e-b396-18840865ca7d",
             "created": "2024-02-20T23:50:47.088Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Threat Fabric Exobot",

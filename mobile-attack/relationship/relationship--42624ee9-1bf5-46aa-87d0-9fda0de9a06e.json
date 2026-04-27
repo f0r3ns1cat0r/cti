@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--24f7c990-14e0-42bd-a80b-775e84bc27fc",
+    "id": "bundle--0f524fc4-8af6-4ae0-8d19-33d80cdc6d5d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--42624ee9-1bf5-46aa-87d0-9fda0de9a06e",
             "created": "2020-06-26T15:32:24.921Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Threat Fabric Cerberus",

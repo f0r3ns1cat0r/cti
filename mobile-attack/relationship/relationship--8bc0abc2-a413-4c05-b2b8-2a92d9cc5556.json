@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--12e2b6e3-dfea-4b98-a805-7753611d5def",
+    "id": "bundle--e5727e2b-e80d-4c7a-b0da-4b37979696e9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--8bc0abc2-a413-4c05-b2b8-2a92d9cc5556",
             "created": "2019-09-04T15:38:56.678Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FlexiSpy-Features",

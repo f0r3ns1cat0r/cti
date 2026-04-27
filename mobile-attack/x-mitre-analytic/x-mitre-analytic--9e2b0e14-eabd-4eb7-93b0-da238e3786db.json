@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--60ddd7b9-685d-4cfb-8b91-4ca41f5e3eb8",
+    "id": "bundle--1274e112-68cf-47f8-b9d8-665aa008f55a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--9e2b0e14-eabd-4eb7-93b0-da238e3786db",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-03-16T21:48:51.316Z",
             "name": "Analytic 1653",
-            "description": "Integrity checking mechanisms can potentially detect unauthorized hardware modifications.",
+            "description": "The defender observes a newly enrolled or recently activated device presenting abnormal integrity, hardware-backed attestation, or firmware/build relationships at the management plane, followed by privileged or system-context access to protected resources or framework paths, and then outbound communication inconsistent with setup state, lock state, or recent user interaction. The causal sequence is strongest when the device has not yet reached a normal trusted posture but still exhibits system-level capability use or network activity.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,12 +34,55 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--85a533a4-5fa4-4dba-b45d-f0717bedd6e6",
-                    "name": "Sensor Health",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "android:MDMLog",
+                    "channel": "Device enrollment or compliance event shows failed or degraded verified boot, hardware-backed attestation mismatch, patch/build/baseband inconsistency, or unexpected device property drift near first contact"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Protected resource use or privileged framework access occurs while device is locked, before normal setup completion, or from an app/service not in foreground and not on approved preload list"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Privileged or OEM-context framework/API use tied to telephony, device policy, accessibility, overlay, input injection, package visibility, or protected settings modification from an identity not expected for the device model or approved image"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Correlation window between enrollment/posture anomaly, privileged capability use, and network egress."
+                },
+                {
+                    "field": "AllowedOEMComponents",
+                    "description": "Approved system identities, preload packages, and OEM services differ by model and fleet."
+                },
+                {
+                    "field": "AllowedDestinations",
+                    "description": "OEM update, activation, MDM, and enterprise service destinations vary by environment."
+                },
+                {
+                    "field": "ForegroundStateRequired",
+                    "description": "Some protected resource access may be legitimate only when the app is foregrounded."
+                },
+                {
+                    "field": "RecentUserInteractionWindow",
+                    "description": "Defines how close resource access must be to user interaction to be considered expected."
+                },
+                {
+                    "field": "EnrollmentGracePeriod",
+                    "description": "Initial setup/update behavior may generate benign network or configuration drift for a short period."
+                },
+                {
+                    "field": "UplinkBytesThreshold",
+                    "description": "Size threshold for suspicious outbound transfer from a device in abnormal posture."
+                },
+                {
+                    "field": "ApprovedImageBaseline",
+                    "description": "Known-good build fingerprint, patch, boot state, and baseband combinations vary by device fleet."
+                }
+            ]
         }
     ]
 }

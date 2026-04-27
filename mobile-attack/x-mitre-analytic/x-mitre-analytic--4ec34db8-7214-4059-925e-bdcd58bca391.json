@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e942b339-cd28-413c-a2b8-72c4c7f747c6",
+    "id": "bundle--1fb3b709-dea9-48e1-b899-194c6cd8b20a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--4ec34db8-7214-4059-925e-bdcd58bca391",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-04-09T16:13:11.156Z",
             "name": "Analytic 1847",
-            "description": "This is abuse of standard OS-level APIs and are therefore typically undetectable to the end user.",
+            "description": "The defender correlates application loading or invoking native libraries through JNI or NDK-backed execution paths with subsequent lower-level activity such as native thread creation, sensor access, file operations, or outbound network communication that is inconsistent with the app's declared role or recent user interaction. The analytic prioritizes defender-observable control-plane effects: native library load or JNI bridge use, transition into native execution context, and immediate post-load behavior occurring from background state, locked-device state, or non-baselined app categories.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -30,7 +32,58 @@
             "x_mitre_platforms": [
                 "Android"
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_log_source_references": [
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application loads or resolves native shared library (.so) or JNI bridge immediately before suspicious native execution phase"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application transitions from managed code into JNI/native function execution or attaches native thread to runtime during the execution phase"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Native library load or JNI-backed execution occurs while app_state=background or device_locked=true or recent_user_interaction=false during the execution phase"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "android:MDMLog",
+                    "channel": "Managed application without approved native-code role or expected high-performance/native dependency exhibits native execution behavior inconsistent with enterprise policy baseline"
+                }
+            ],
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Correlation window between native library load, JNI/native execution, and follow-on behavior"
+                },
+                {
+                    "field": "AllowedAppList",
+                    "description": "Apps legitimately expected to use native code, such as games, media, enterprise VPN, security tools, or performance-intensive apps"
+                },
+                {
+                    "field": "AllowedLibraryPatterns",
+                    "description": "Expected native library names, paths, signing attributes, or packaging patterns for approved applications"
+                },
+                {
+                    "field": "ForegroundStateRequired",
+                    "description": "Whether native execution should only occur during active user-driven workflows for a given app role"
+                },
+                {
+                    "field": "LibraryPathPatterns",
+                    "description": "Environment-specific list of suspicious temporary, extracted, or dynamically staged native library locations"
+                },
+                {
+                    "field": "PostLoadBehaviorThreshold",
+                    "description": "Minimum number or severity of suspicious actions after native load required to elevate confidence"
+                },
+                {
+                    "field": "UplinkBytesThreshold",
+                    "description": "Minimum outbound volume after native execution to treat network activity as meaningful follow-on behavior"
+                }
+            ]
         }
     ]
 }

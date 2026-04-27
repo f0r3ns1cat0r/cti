@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6b887131-4841-499e-a051-1fc68dd9e41d",
+    "id": "bundle--8df20cb6-a764-4eba-81f3-b89c702ebe2c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--d7e3296a-9f95-4061-b3f5-0f02910745ab",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-04-09T16:02:15.040Z",
             "name": "Analytic 1849",
-            "description": "Application vetting services could look for connections to unknown domains or IP addresses. \nApplication vetting services may indicate precisely what content was requested during application execution.",
+            "description": "The defender correlates managed-app network retrieval from a non-baselined external source with immediate creation of a new local artifact, staged resource, module-like file, or opaque payload inside the app container, followed by optional dynamic loading, handoff, or repeat retrieval behavior. Because iOS offers weaker direct visibility into tool staging internals than Android in many environments, the analytic anchors first on network acquisition plus managed app identity and then strengthens confidence with file creation or process-activity effects where mobile telemetry is available.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,17 +34,61 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--764ee29e-48d6-4934-8e6b-7a606aaaafc0",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "NSM:Flow",
+                    "channel": "Managed iOS app retrieves remote content from non-baselined domain or IP with inbound payload transfer during the acquisition phase"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Managed app writes newly retrieved container-local asset, dylib-like resource, archive, or opaque payload shortly after remote retrieval as the strongest local effect"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Managed app performs post-download unpacking, dynamic resource handling, or module preparation immediately after local payload creation"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Ingress retrieval and staging occur while app_state=background or device_locked=true or recent_user_interaction=false during the acquisition phase"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "name": "iOS:MDMLog",
+                    "channel": "Supervised managed app without approved update, browser, sync, or enterprise-content role retrieves and stages secondary content inconsistent with policy baseline"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Correlation window between remote retrieval, local staging, and any follow-on file handling"
+                },
+                {
+                    "field": "AllowedAppList",
+                    "description": "Managed apps legitimately expected to download secondary content or updates"
+                },
+                {
+                    "field": "AllowedDestinationList",
+                    "description": "Approved content, MDM, enterprise, and application-update endpoints"
+                },
+                {
+                    "field": "AllowedContainerPatterns",
+                    "description": "Expected app-container paths for legitimate downloaded assets"
+                },
+                {
+                    "field": "IngressBytesThreshold",
+                    "description": "Minimum inbound transfer volume consistent with secondary tool or payload retrieval"
+                },
+                {
+                    "field": "ForegroundStateRequired",
+                    "description": "Whether retrieval should happen only in active user-driven workflows"
+                },
+                {
+                    "field": "ArtifactRiskPatterns",
+                    "description": "Environment-specific file or content patterns considered suspicious such as staged dylib-like resources, html overlays, archives, or opaque blobs"
+                }
+            ]
         }
     ]
 }

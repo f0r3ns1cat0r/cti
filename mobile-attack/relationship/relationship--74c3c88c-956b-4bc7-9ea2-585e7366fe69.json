@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a18dccd7-df9f-4bbb-a747-2557daaf83ed",
+    "id": "bundle--a22d57da-82bb-4198-9212-c587fb40ab25",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--74c3c88c-956b-4bc7-9ea2-585e7366fe69",
             "created": "2020-04-08T15:51:25.078Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ThreatFabric Ginp",

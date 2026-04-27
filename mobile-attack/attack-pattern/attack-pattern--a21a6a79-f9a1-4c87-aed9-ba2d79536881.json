@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--14306f52-30e6-4057-8655-b1a0fd627957",
+    "id": "bundle--7871a569-280f-41cd-8366-f352abe76a55",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,7 +22,6 @@
             "name": "Stolen Developer Credentials or Signing Keys",
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "mobile-attack"
             ],

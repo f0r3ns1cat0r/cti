@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b4630f25-5049-4933-bfd3-2ed7a0c4e392",
+    "id": "bundle--a241968d-8a41-40e0-8cde-348338b55543",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--b7b70725-f1d8-4fad-8fc4-fc1b9cbf77ef",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-04-08T20:07:42.093Z",
             "name": "Analytic 1841",
-            "description": "Accessing data from the local system can be difficult to detect, and therefore enterprises may be better served focusing on detection at other stages of adversarial behavior.",
+            "description": "The defender correlates supervised-device app posture and lifecycle context with repeated local file or local-database access effects, especially when a managed app reads browser, messaging, keychain-adjacent, or application-container data outside its expected role and then stages or uploads the result. Because direct low-level local system access visibility is weaker on iOS, the primary analytic is effect-based: managed app identity, file/database access where visible to the mobile sensor, background execution context, and near-term outbound communication.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -30,7 +32,53 @@
             "x_mitre_platforms": [
                 "iOS"
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_log_source_references": [
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "iOS:MDMLog",
+                    "channel": "Supervised managed app without expected local export, sync, or forensic role accesses or stages local records inconsistent with policy baseline"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application performs repeated record access, container traversal, or local data extraction processing against local stores before staging or transmission"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--235b7491-2d2b-4617-9a52-3c0783680f71",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application reads multiple local container files, browser-history artifacts, messaging artifacts, or local records in rapid sequence during the collection phase"
+                }
+            ],
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Correlation window between managed app posture, local access activity, optional staging, and upload"
+                },
+                {
+                    "field": "AllowedAppList",
+                    "description": "Managed apps expected to access local records such as enterprise sync, backup, or approved investigation tools"
+                },
+                {
+                    "field": "AllowedContainerPatterns",
+                    "description": "Expected app-container or local artifact locations for legitimate workflows"
+                },
+                {
+                    "field": "ForegroundStateRequired",
+                    "description": "Whether local record access should happen only during active user interaction"
+                },
+                {
+                    "field": "BurstReadThreshold",
+                    "description": "Minimum number of local file or record reads in a short interval required for alerting"
+                },
+                {
+                    "field": "SensitiveArtifactPatterns",
+                    "description": "Environment-specific list of high-value browser, messaging, token, or local record artifacts"
+                },
+                {
+                    "field": "UplinkBytesThreshold",
+                    "description": "Minimum outbound volume consistent with recent local data collection"
+                }
+            ]
         }
     ]
 }

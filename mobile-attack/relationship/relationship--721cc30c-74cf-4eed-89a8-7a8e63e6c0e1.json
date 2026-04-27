@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b03d7b67-fd1c-48a7-aea7-b480fb0958db",
+    "id": "bundle--a44af501-74b4-4391-aa86-c99d09d89aab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--721cc30c-74cf-4eed-89a8-7a8e63e6c0e1",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Tripwire-MazarBOT",

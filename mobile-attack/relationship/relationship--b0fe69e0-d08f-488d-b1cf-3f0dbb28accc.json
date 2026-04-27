@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--70ff5873-94f7-4334-80e0-8dd1fd620c25",
+    "id": "bundle--84b646ec-70dd-4447-ba56-11fa673b5dc6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--b0fe69e0-d08f-488d-b1cf-3f0dbb28accc",
             "created": "2023-02-28T20:37:01.639Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "proofpoint_flubot_0421",

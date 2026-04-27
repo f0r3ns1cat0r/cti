@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bb4f3e19-4ed0-408c-acc1-71f6ec21e552",
+    "id": "bundle--3693c29d-733e-4641-ad5b-36e9a6087b02",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--0bbe5936-04bf-4c9a-bb43-cd37f36c3349",
             "created": "2020-10-29T19:01:13.826Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft MalLockerB",

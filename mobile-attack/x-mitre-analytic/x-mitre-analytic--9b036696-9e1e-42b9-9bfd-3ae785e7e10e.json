@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b4c6a10a-6192-4edc-a027-f6cfb0a41aed",
+    "id": "bundle--4f963355-14a0-48a3-813e-e338171b514d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--9b036696-9e1e-42b9-9bfd-3ae785e7e10e",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-01-29T18:28:31.071Z",
             "name": "Analytic 1825",
-            "description": "The user can view and manage installed third-party keyboards.\nApplication vetting services can look for applications requesting the permissions granting access to accessibility services or application overlay.",
+            "description": "Defender observes an app gaining input-observation capability (AccessibilityService enablement, default IME set, draw-over-apps permission), then creating an intercept surface (overlay window, accessibility event stream consumption or IME keystroke callbacks), followed by persistence (local keylog/clipboard dump) and/or small, frequent network egress. Chain: capability/permission \u2192 listener/overlay activation \u2192 bursty input read events \u2192 local write \u2192 near-term exfil.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,17 +34,52 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--56c2b384-77f8-461f-a71a-76f7888ebfb6",
-                    "name": "User Interface",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--1887a270-576a-4049-84de-ef746b2572d6",
+                    "name": "android:logcat",
+                    "channel": "Grant/activation of BIND_ACCESSIBILITY_SERVICE, BIND_INPUT_METHOD, SYSTEM_ALERT_WINDOW, POST_NOTIFICATIONS for <pkg>"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "android:logcat",
+                    "channel": "AccessibilityService connected|TYPE_VIEW_TEXT_CHANGED|TYPE_VIEW_FOCUSED events for other packages"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9c2fa0ae-7abc-485a-97f6-699e3b6cf9fa",
+                    "name": "android:logcat",
+                    "channel": "Default IME changed/active: imeId=<pkg>, onStartInput/onFinishInput high frequency. TYPE_APPLICATION_OVERLAY|addView .* showing on top of package <otherPkg>"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
+                    "name": "android:logcat",
+                    "channel": "CREATE/WRITE paths like /data/data/<pkg>/files/(keys|inputs)/.*\\\\.db|\\\\.txt|\\\\.log"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindowSeconds",
+                    "description": "Max time from input intercept to persist/exfil (e.g., 5\u201345s)."
+                },
+                {
+                    "field": "MinInputEventBurst",
+                    "description": "Minimum count of input events within window to flag harvesting (e.g., \u22655)."
+                },
+                {
+                    "field": "OverlayRequired",
+                    "description": "Require overlay creation if Accessibility not present (true/false)."
+                },
+                {
+                    "field": "PersistPathRegex",
+                    "description": "Regex for keylog/clipboard dump destinations in app container."
+                },
+                {
+                    "field": "ExfilDomainAllowlist",
+                    "description": "Known-good analytics/CDN endpoints to suppress FPs."
+                },
+                {
+                    "field": "UserContext",
+                    "description": "Foreground/background/Work Profile or Kiosk policy to scope alerts."
+                }
+            ]
         }
     ]
 }

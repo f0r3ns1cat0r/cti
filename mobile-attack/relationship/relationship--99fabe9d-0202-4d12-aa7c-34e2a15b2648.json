@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d6d476f2-fd69-43a0-9161-078bedea5ffd",
+    "id": "bundle--1d9fc356-d553-4396-b40a-78b0b1366455",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--99fabe9d-0202-4d12-aa7c-34e2a15b2648",
             "created": "2024-04-02T19:45:43.976Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "welivesecurity_apt-c-23",

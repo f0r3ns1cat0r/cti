@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c0ce36e5-3e7a-4c7a-8e4b-51a272a7bc36",
+    "id": "bundle--0187e0db-29f6-47ab-b80e-4bc416ad7bf0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--28304317-cbde-45cd-bf0b-99b5cd8d1478",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-04-13T18:49:55.440Z",
             "name": "Analytic 1738",
-            "description": "The user can review which applications have location and sensitive phone information permissions in the operating system\u2019s settings menu. \nApplication vetting services can detect unnecessary and potentially abused API calls.\nApplication vetting services can detect unnecessary and potentially abused permissions.",
+            "description": "Detects conditional execution by correlating (1) application access to constrained environment signals such as location, locale, network context, device state, or user interaction timing, (2) prolonged inactivity or feature suppression despite available permissions, and (3) abrupt initiation of higher-risk behavior only when the expected target context is present. Because direct observation of some runtime decision logic is weaker on iOS, the defender relies more heavily on lifecycle, sensor, and downstream network effects following target-condition alignment.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,22 +34,47 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--56c2b384-77f8-461f-a71a-76f7888ebfb6",
-                    "name": "User Interface",
-                    "channel": "None"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--5ae32c6a-2d12-4b8f-81ca-f862f2be0962",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "application remains inactive across normal execution windows and transitions into background or foreground activity burst only when qualifying device context, lock state, locale, or network condition exists"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "name": "iOS:MDMLog",
+                    "channel": "application has approved capabilities required for conditional execution (e.g., location/background modes) but observed behavior is deferred until target-specific state is present"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "application exhibits repeated environment-context evaluation followed by delayed privileged framework use only after target-specific match"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Correlation window between context checks and guarded execution"
+                },
+                {
+                    "field": "TargetContextSet",
+                    "description": "Expected environment properties used for gating, such as location region, locale, SSID/network context, device lock state, or user activity timing"
+                },
+                {
+                    "field": "DormancyThreshold",
+                    "description": "Duration of inactivity before guarded behavior begins"
+                },
+                {
+                    "field": "ExpectedBackgroundModes",
+                    "description": "Baseline of legitimate apps whose feature activation is context-dependent in background execution"
+                },
+                {
+                    "field": "AllowedDestinationList",
+                    "description": "Expected destinations for apps whose network activity legitimately begins only in certain contexts"
+                },
+                {
+                    "field": "UserInteractionThreshold",
+                    "description": "Acceptable recency of user interaction before guarded execution is considered suspicious"
+                }
+            ]
         }
     ]
 }

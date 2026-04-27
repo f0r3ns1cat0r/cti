@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f22e25e7-d4cc-4be7-b3e1-5e3ac908f13d",
+    "id": "bundle--7e4e9df0-67dd-4c1c-9dd3-dd6c6f4885a6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--ddebe043-2017-44ba-96e5-cbe87916511b",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-03-19T15:15:16.075Z",
             "name": "Analytic 1663",
-            "description": "Application vetting services may provide a list of connections made or received by an application, or a list of domains contacted by the application.\nMany properly configured firewalls may naturally block one-way command and control traffic.",
+            "description": "The defender correlates repeated or periodic app-attributed retrieval from a legitimate public web-service platform with runtime conditions showing that the retrieval is not aligned to normal foreground consumption, user interaction, or approved app role. The strongest Android evidence is a managed or installed app repeatedly issuing inbound-oriented GET, fetch, sync, or content-pull operations to social, collaboration, paste, code-hosting, cloud-storage, messaging, or generic HTTPS platforms while the app is backgrounded, while the device is locked, or without recent user interaction, and without a corresponding outbound writeback to that same service class during the operational window. The detection is strengthened when the retrieval is temporally adjacent to scheduled/background execution, local state changes, or later downstream effects that do not require the same public platform to receive output.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,17 +34,75 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--764ee29e-48d6-4934-8e6b-7a606aaaafc0",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "VPN:MobileProxy",
+                    "channel": "App-attributed HTTP GET, content fetch, sync pull, or inbound-oriented HTTPS session to public web-service domain recurred within TimeWindow without app-attributed POST, PUT, PATCH, upload, comment, message send, or API write to same service class"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--181a9f8c-c780-4f1f-91a8-edb770e904ba",
-                    "name": "Network Traffic",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "VPN:MobileProxy",
+                    "channel": "Repeated app-attributed retrieval from same public web-service domain or API endpoint occurred at stable recurrence interval with low outbound volume relative to inbound content"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "VPN:MobileProxy",
+                    "channel": "Inbound content retrieval from public web-service domain occurred without subsequent writeback to same service class and was followed by local or downstream activity outside normal app sync profile"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "AppState=background when repeated retrieval from public web-service domain began and no foreground transition occurred during the retrieval sequence"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "DeviceLockState=locked during repeated inbound retrieval sequence from public web-service platform"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "LastUserInteractionDelta exceeded threshold before repeated retrieval sequence from public web-service domain from same app identity"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "android:MDMLog",
+                    "channel": "App identity performing repeated one-way retrieval was unmanaged, outside approved app baseline, or not permitted to use detected public web-service class for background content retrieval"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Correlation window used to evaluate recurring retrieval and absence of same-service writeback."
+                },
+                {
+                    "field": "AllowedAppList",
+                    "description": "Approved app identities vary by organization, role, and device group."
+                },
+                {
+                    "field": "AllowedServiceClasses",
+                    "description": "Some apps legitimately retrieve content from collaboration, messaging, storage, or code-hosting services."
+                },
+                {
+                    "field": "AllowedReadOnlyMappings",
+                    "description": "Defines which apps are expected to only retrieve, and under what foreground/background conditions."
+                },
+                {
+                    "field": "RecentUserInteractionWindow",
+                    "description": "Defines how close retrieval must be to user activity to be considered expected"
+                },
+                {
+                    "field": "BeaconIntervalTolerance",
+                    "description": "Allowed recurrence interval for benign refresh, sync, or polling behavior differs by app category"
+                },
+                {
+                    "field": "ForegroundStateRequired",
+                    "description": "Some apps should only retrieve from certain public service classes while foregrounded"
+                },
+                {
+                    "field": "InboundOutboundRatioThreshold",
+                    "description": "Expected ratio of inbound to outbound bytes for benign app refresh behavior varies by workload."
+                }
+            ]
         }
     ]
 }

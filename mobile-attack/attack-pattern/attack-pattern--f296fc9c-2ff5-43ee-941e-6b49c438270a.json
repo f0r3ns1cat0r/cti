@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c7a51ad2-9bbb-4f40-a476-1eb2f2390ef8",
+    "id": "bundle--cf9884df-7578-4b4c-9a79-f719a7d0017d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,7 +22,6 @@
             "name": "Device Unlock Code Guessing or Brute Force",
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "mobile-attack"
             ],

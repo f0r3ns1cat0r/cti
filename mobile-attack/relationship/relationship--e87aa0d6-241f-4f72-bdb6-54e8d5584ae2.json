@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--31b4284c-b6ea-4924-bc9d-e26b1fe6ea29",
+    "id": "bundle--a62aef3a-a368-413b-8a78-fb90639a4e81",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--e87aa0d6-241f-4f72-bdb6-54e8d5584ae2",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "NYTimes-BackDoor",

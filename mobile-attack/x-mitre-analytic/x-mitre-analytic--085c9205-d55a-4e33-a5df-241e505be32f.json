@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--246715d4-88bb-4b82-a2d4-e037ae7dd2c0",
+    "id": "bundle--6c5e1a86-eae9-4658-bd8c-973632ce742d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--085c9205-d55a-4e33-a5df-241e505be32f",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-03-06T15:07:15.622Z",
             "name": "Analytic 1747",
-            "description": "The OS may show a notification to the user that the SIM card has been transferred to another device.",
+            "description": "A defender correlates a sudden carrier identity/service state change (SIM/line identifier change or unexpected loss of cellular service) with near-term device messaging/telephony disruption and a concurrent shift in authentication traffic patterns\u2014such as a spike in SMS-based verification flows or account recovery activity from the same user\u2019s identities\u2014indicating the user\u2019s number may have been transferred to a different SIM/device (SIM swap impact).",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,12 +34,57 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--bf0ff551-a5a7-40e5-bff9-f9405011b1f4",
-                    "name": "User Interface",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--56c2b384-77f8-461f-a71a-76f7888ebfb6",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Cellular service state transitions (in-service\u2192no-service), SIM state change, carrier/operator identifier change, or baseband/telephony stack state change observed by agent telemetry"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Agent-observable telephony subscription/state API signals indicating SIM/eSIM subscription change (vendor-agnostic: 'telephony subscription changed')"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "android:MDMLog",
+                    "channel": "Device inventory changes involving phone number/line identifier fields (when available), eSIM profile presence, or compliance signal indicating SIM profile change"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "NSM:Flow",
+                    "channel": "Near-term increase in traffic to identity endpoints associated with SMS MFA, account recovery, or OTP verification (IdP, banking, crypto), correlated to SIM/service loss"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "NSM:Flow",
+                    "channel": "Abrupt shift from cellular egress to Wi-Fi-only egress, or new VPN/proxy session establishment following cellular service loss"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "ServiceLossDurationThreshold",
+                    "description": "Minimum duration of unexpected cellular service loss before considering it suspicious (reduces noise from transient coverage issues)."
+                },
+                {
+                    "field": "SimStateChangeTypes",
+                    "description": "Which SIM-related state changes to alert on (SIM removed, SIM refresh, operator changed, eSIM profile changed)."
+                },
+                {
+                    "field": "SwapCorrelationWindow",
+                    "description": "Time window to correlate SIM/service state change with downstream identity traffic anomalies (e.g., 30m\u20136h)."
+                },
+                {
+                    "field": "IdentityEndpointAllowList",
+                    "description": "Baseline of expected IdP/banking/crypto identity endpoints for the org; used to reduce false positives."
+                },
+                {
+                    "field": "AuthTrafficSpikeThreshold",
+                    "description": "Threshold for increase in OTP/MFA/account recovery traffic volume relative to user baseline."
+                },
+                {
+                    "field": "UserTravelContext",
+                    "description": "Optional enrichment\u2014treat carrier changes as lower risk during known travel/roaming windows."
+                }
+            ]
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e30434ee-df68-4ae2-bf2c-01cf7db85b0a",
+    "id": "bundle--b85bbdc2-b534-42a4-bc17-87d31b033624",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--b247a4f6-3629-4123-84b0-c7c5b3e7e37e",
             "created": "2022-03-30T20:45:34.433Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Android Package Visibility",

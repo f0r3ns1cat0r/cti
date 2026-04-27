@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8f5e4f59-b535-430f-bb3b-0af92a9ca897",
+    "id": "bundle--ec67bd47-4ee6-49b0-a294-de2cf6262532",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--42510b9a-7e72-4a52-bc7a-6e1a7ebacff7",
             "created": "2023-08-16T16:33:12.493Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "cyble_chameleon_0423",

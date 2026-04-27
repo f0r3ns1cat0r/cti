@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--015fd03e-1ab0-4423-bf7e-eff86d094f6c",
+    "id": "bundle--190d83a0-04fa-4cb2-80d8-346f4921b159",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--a0bb0e33-c40f-46f5-b64a-07faa6946d83",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-03-17T20:24:52.509Z",
             "name": "Analytic 1771",
-            "description": "Application vetting services may provide a list of connections made or received by an application, or a list of domains contacted by the application.\nMany properly configured firewalls may naturally block command and control traffic.",
+            "description": "The defender correlates communication to legitimate external web-service platforms with supervised managed-app context and device-state information showing that the traffic is inconsistent with the app's expected role, background-refresh profile, or user interaction timing. On iOS, the strongest reliable evidence is network telemetry tied to a managed app or device plus app state and supervision context, especially when traffic to social, collaboration, cloud-storage, or generic HTTPS platforms occurs shortly after background activity, while the device is locked, or without expected user-driven foreground execution. Direct low-level framework visibility is weaker than Android, so primary analytic confidence should be anchored to supervised app context plus network behavior rather than assumed host-level proof.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,17 +34,64 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--764ee29e-48d6-4934-8e6b-7a606aaaafc0",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "VPN:MobileProxy",
+                    "channel": "Supervised device or managed app communicates with legitimate external web-service infrastructure such as cloud storage, messaging, collaboration, social, paste, or generic HTTPS API platforms in a pattern inconsistent with expected service baseline, managed app role, or normal background refresh behavior"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--181a9f8c-c780-4f1f-91a8-edb770e904ba",
-                    "name": "Network Traffic",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Managed app shows background activity, refresh, or lock-state-adjacent execution temporally aligned to web-service communication without expected foreground use or recent user interaction"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "iOS:MDMLog",
+                    "channel": "Managed app communicating with legitimate web-service infrastructure is newly installed, recently updated, outside expected managed-app set, or displays baseline drift in app role, release path, or business justification"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "iOS:unifiedlog",
+                    "channel": "Supplemental launch, background task, networking, or extension-handling anomalies occur temporally adjacent to suspicious web-service communication from a managed app or supervised device"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Correlation window between app state changes and communication with legitimate web-service infrastructure."
+                },
+                {
+                    "field": "SupervisedRequired",
+                    "description": "Strongest app context and managed state analytics depend on supervised iOS devices."
+                },
+                {
+                    "field": "AllowedManagedApps",
+                    "description": "Approved managed apps and expected business use vary by organization and device profile."
+                },
+                {
+                    "field": "AllowedServiceClasses",
+                    "description": "Some managed apps legitimately communicate with collaboration, cloud-storage, or messaging services."
+                },
+                {
+                    "field": "AllowedDestinations",
+                    "description": "Expected Apple, enterprise, SaaS, CDN, and API destinations vary by app and tenant."
+                },
+                {
+                    "field": "BackgroundRefreshBaseline",
+                    "description": "Normal background network behavior differs across mail, chat, navigation, and enterprise apps."
+                },
+                {
+                    "field": "RecentUserInteractionWindow",
+                    "description": "Defines how close traffic must be to user activity to be considered expected."
+                },
+                {
+                    "field": "BeaconIntervalTolerance",
+                    "description": "Allowed periodicity for sync, push, and refresh traffic varies across app categories."
+                },
+                {
+                    "field": "UplinkBytesThreshold",
+                    "description": "Threshold for suspicious transfer volume to legitimate web-service platforms."
+                }
+            ]
         }
     ]
 }

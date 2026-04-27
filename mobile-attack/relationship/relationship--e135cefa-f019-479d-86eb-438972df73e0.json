@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d13760ec-1148-4102-a61a-943e5b19c664",
+    "id": "bundle--34dadeb3-b776-4836-a841-48a323eebe94",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--e135cefa-f019-479d-86eb-438972df73e0",
             "created": "2019-09-04T15:38:56.702Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FortiGuard-FlexiSpy",

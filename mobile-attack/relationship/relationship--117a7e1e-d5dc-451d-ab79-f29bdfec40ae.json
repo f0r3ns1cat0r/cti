@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--91dd1ce7-7cc0-4cf7-956b-aba5ddf505cf",
+    "id": "bundle--57b9c395-5612-41e9-8dad-85b6c5293830",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--117a7e1e-d5dc-451d-ab79-f29bdfec40ae",
             "created": "2023-10-10T15:33:59.743Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CrowdStrike-Android",

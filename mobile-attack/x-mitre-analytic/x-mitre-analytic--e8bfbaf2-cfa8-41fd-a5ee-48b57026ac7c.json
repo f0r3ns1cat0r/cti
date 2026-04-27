@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c81232fe-771d-46a0-aa40-e9342f1e1a9b",
+    "id": "bundle--b45df2fd-0efc-401d-8027-1cf0e6613ecc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,26 +8,23 @@
             "id": "x-mitre-analytic--e8bfbaf2-cfa8-41fd-a5ee-48b57026ac7c",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
                     "url": "https://attack.mitre.org/detectionstrategies/DET0654#AN1739",
                     "external_id": "AN1739"
-                },
-                {
-                    "source_name": "Android-VerifiedBoot",
-                    "description": "Android. (n.d.). Verified Boot. Retrieved December 21, 2016.",
-                    "url": "https://source.android.com/security/verifiedboot/"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2025-12-02T15:38:03.766Z",
             "name": "Analytic 1739",
-            "description": "On Android, Verified Boot can detect unauthorized modifications to the system partition.(Citation: Android-VerifiedBoot) Android's SafetyNet API provides remote attestation capabilities, which could potentially be used to identify and respond to compromise devices. Samsung Knox provides a similar remote attestation capability on supported Samsung devices. ",
+            "description": "Correlates anomalous modifications to boot-time or logon-time initialization artifacts (for example, init.rc, vendor init scripts, app_process or shell hijacks, and malicious BOOT_COMPLETED BroadcastReceivers) with subsequent unauthorized script execution after boot. From the defender\u2019s perspective this appears as integrity or attestation failures on the system partition, unexpected writes to protected init paths, new apps registering for boot events, and privileged processes invoking scripts or binaries from non-standard locations shortly after the device boots.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -38,11 +35,57 @@
             "x_mitre_log_source_references": [
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--85a533a4-5fa4-4dba-b45d-f0717bedd6e6",
-                    "name": "Sensor Health",
-                    "channel": "None"
+                    "name": "AndroidAttestation:VerifiedBoot",
+                    "channel": "Verified Boot or dm-verity reports partition hash mismatch, non-green boot state, or integrity failure"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--84572de3-9583-4c73-aabd-06ea88123dd8",
+                    "name": "AndroidLogs:FileSystem",
+                    "channel": "Modification to /system/etc/init/ or /vendor/etc/init/ boot-time scripts"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--639e87f3-acb6-448a-9645-258f20da4bc5",
+                    "name": "AndroidLogs:Framework",
+                    "channel": "BroadcastReceiver registration for android.intent.action.BOOT_COMPLETED by previously unseen or recently installed apps"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3d20385b-24ef-40e1-9f56-f39750379077",
+                    "name": "AndroidLogs:Kernel",
+                    "channel": "init or zygote process executing scripts or binaries from non-standard data or sdcard locations during early boot"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--85a533a4-5fa4-4dba-b45d-f0717bedd6e6",
+                    "name": "AndroidAttestation:SafetyNet",
+                    "channel": "SafetyNet attestation with CTSProfileMatch=false or BasicIntegrity=false"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--85a533a4-5fa4-4dba-b45d-f0717bedd6e6",
+                    "name": "OEMAttestation:Knox",
+                    "channel": "Samsung Knox attestation shows attestation_state=COMPROMISED or warranty bit set"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Correlation window between boot/attestation event and suspicious script execution (for example, 0\u201310 minutes after BOOT_COMPLETED)."
+                },
+                {
+                    "field": "AuthorizedBootReceivers",
+                    "description": "Enterprise-specific allow list of packages expected to register BOOT_COMPLETED receivers."
+                },
+                {
+                    "field": "ProtectedPaths",
+                    "description": "OEM- and ROM-specific list of system and vendor init script locations that should be immutable in production devices."
+                },
+                {
+                    "field": "ExpectedAttestationState",
+                    "description": "Expected Verified Boot, SafetyNet, and OEM attestation states for enrolled devices. Custom ROM or dev devices may need relaxed thresholds."
+                },
+                {
+                    "field": "IntegrityFailureThreshold",
+                    "description": "Number or rate of attestation failures before escalating to a high-severity incident."
+                }
+            ]
         }
     ]
 }

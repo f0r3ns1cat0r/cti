@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--094ceaa8-8570-4e20-9533-f213032a583c",
+    "id": "bundle--c4c01e83-3ca7-452e-97b5-de461bde5da5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,7 +22,6 @@
             "name": "App Delivered via Email Attachment",
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "mobile-attack"
             ],

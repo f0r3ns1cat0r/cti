@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4b72b5f9-8ed3-4d14-a5be-3b85b5fd11f8",
+    "id": "bundle--d454d07f-708c-436e-bee8-75c747b5a948",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--acc1bb20-bd46-4228-abba-f4befe82e926",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-03-17T20:56:49.928Z",
             "name": "Analytic 1676",
-            "description": "Many properly configured firewalls may naturally block command and control traffic.\nApplication vetting services may provide a list of connections made or received by an application, or a list of domains contacted by the application. ",
+            "description": "The defender correlates a supervised-device or managed-app request to a legitimate web platform with a subsequent connection to a newly derived destination that is not part of the expected service interaction. Because iOS has weaker app-level telemetry, the strongest signal is a network-level sequence where a request to a known public platform is immediately followed by a connection to a different domain or IP, particularly when the device is locked, no recent user interaction occurred, and the bundle is not expected to interact with such downstream infrastructure.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,17 +34,58 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--181a9f8c-c780-4f1f-91a8-edb770e904ba",
-                    "name": "Network Traffic",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "VPN:MobileProxy",
+                    "channel": "App-attributed HTTP GET or HTTPS session to public web platform (social, paste, collaboration, cloud storage, code-hosting) returned content followed by outbound connection to a different domain or IP within TimeWindow"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--764ee29e-48d6-4934-8e6b-7a606aaaafc0",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "VPN:MobileProxy",
+                    "channel": "DNS query or TLS SNI for previously unseen domain occurred within TimeWindow after session to legitimate web-service domain from same app identity"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "DeviceLockState=locked or BackgroundRefresh active during resolver\u2192pivot sequence"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "LastUserInteractionDelta exceeded threshold before resolver request and pivot connection sequence"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "iOS:MDMLog",
+                    "channel": "Bundle performing resolver\u2192pivot sequence not present in approved managed-app baseline or lacks expected service relationship"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "iOS:unifiedlog",
+                    "channel": "Background task or networking subsystem event occurred immediately before resolver retrieval and pivot connection sequence"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindow",
+                    "description": "Maximum allowed time between resolver retrieval and pivot connection."
+                },
+                {
+                    "field": "NewDomainThreshold",
+                    "description": "Defines rarity or novelty of domain for the device or bundle."
+                },
+                {
+                    "field": "AllowedServiceToDestinationMapping",
+                    "description": "Expected relationships between apps and external services."
+                },
+                {
+                    "field": "BackgroundRefreshBaseline",
+                    "description": "Expected background network behavior for managed apps."
+                },
+                {
+                    "field": "UserInteractionThreshold",
+                    "description": "Defines acceptable timing between user activity and network requests."
+                }
+            ]
         }
     ]
 }

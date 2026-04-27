@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1278cd9b-ebf1-4a63-9cbf-85f9cb700847",
+    "id": "bundle--09be8925-173f-4753-9475-b75752d49a8f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--4ff5f854-bfe9-45bc-b11a-196cf826b760",
             "created": "2022-03-30T14:41:20.735Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Android Changes to System Broadcasts",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f3b8b049-9945-4d7f-a626-4d9f784c5d72",
+    "id": "bundle--c3a08f17-efc5-45cb-bb70-2db92f496dbd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--44304163-9a44-4760-bd04-0e14adb33299",
             "created": "2022-04-01T15:13:40.779Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro iOS URL Hijacking",

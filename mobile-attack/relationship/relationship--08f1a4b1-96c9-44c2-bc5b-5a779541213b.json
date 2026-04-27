@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6f8ee499-ec8b-440c-830c-65dd6f40ab62",
+    "id": "bundle--3a8aac53-2f17-4ad0-bc3e-15cdf891e760",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--08f1a4b1-96c9-44c2-bc5b-5a779541213b",
             "created": "2019-12-10T16:07:41.081Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SecureList DVMap June 2017",

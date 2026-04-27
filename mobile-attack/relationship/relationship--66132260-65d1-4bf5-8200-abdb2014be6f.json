@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bd75574d-b42e-4562-a835-1d614e341a8f",
+    "id": "bundle--2ff9f069-cdee-409b-962c-2bc1f2bde0a0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--66132260-65d1-4bf5-8200-abdb2014be6f",
             "created": "2020-09-15T15:18:12.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason FakeSpy",

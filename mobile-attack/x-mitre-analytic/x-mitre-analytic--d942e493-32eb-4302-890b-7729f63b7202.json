@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bf9e6791-81aa-4864-bd7a-38d88d267968",
+    "id": "bundle--60720a43-6e76-4286-9bc6-f87b99c6dd06",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,31 +8,23 @@
             "id": "x-mitre-analytic--d942e493-32eb-4302-890b-7729f63b7202",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
                     "url": "https://attack.mitre.org/detectionstrategies/DET0673#AN1772",
                     "external_id": "AN1772"
-                },
-                {
-                    "source_name": "Android Privacy Indicators",
-                    "description": "Google. (n.d.). Privacy Indicators. Retrieved April 20, 2022.",
-                    "url": "https://source.android.com/devices/tech/config/privacy-indicators"
-                },
-                {
-                    "source_name": "iOS Mic Spyware",
-                    "description": "ZecOps Research Team. (2021, November 4). How iOS Malware Can Spy on Users Silently. Retrieved April 1, 2022.",
-                    "url": "https://blog.zecops.com/research/how-ios-malware-can-spy-on-users-silently/"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-03-04T23:26:47.489Z",
             "name": "Analytic 1772",
-            "description": "In iOS 14 and up, an orange dot (or orange square if the Differentiate Without Color setting is enabled) appears in the status bar when the microphone is being used by an application. However, there have been demonstrations indicating it may still be possible to access the microphone in the background without triggering this visual indicator by abusing features that natively access the microphone or camera but do not trigger the visual indicators.(Citation: iOS Mic Spyware)\n\n\nIn Android 12 and up, a green dot appears in the status bar when the microphone is being used by an application.(Citation: Android Privacy Indicators)\nAndroid applications using the `RECORD_AUDIO` permission and iOS applications using `RequestRecordPermission` should be carefully reviewed and monitored. If the `CAPTURE_AUDIO_OUTPUT` permission is found in a third-party Android application, the application should be heavily scrutinized.\n\nIn both Android (6.0 and up) and iOS, the user can review which applications have the permission to access the microphone through the device settings screen and revoke permissions as necessary. ",
+            "description": "A defender observes an application holding microphone capture capability transitioning into active microphone resource usage through Android audio APIs (e.g., MediaRecorder or AudioRecord), followed by sustained capture while the application is backgrounded or the device is locked, and subsequent outbound network traffic suggesting potential audio exfiltration or streaming.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -42,17 +34,45 @@
             ],
             "x_mitre_log_source_references": [
                 {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "android:logcat",
+                    "channel": "Invocation of MediaRecorder.start(), AudioRecord.startRecording(), or VOICE_CALL audio source"
+                },
+                {
                     "x_mitre_data_component_ref": "x-mitre-data-component--56c2b384-77f8-461f-a71a-76f7888ebfb6",
-                    "name": "User Interface",
-                    "channel": "None"
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Microphone sensor activation or audio recording session initiated by application process"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--56c2b384-77f8-461f-a71a-76f7888ebfb6",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application transitions to background or executes while screen locked during microphone session"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "name": "android:MDMLog",
+                    "channel": "Application granted or retaining RECORD_AUDIO permission or privileged CAPTURE_AUDIO_OUTPUT capability"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3d20385b-24ef-40e1-9f56-f39750379077",
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application writes audio buffer or recorded audio file into application storage directories"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "RecordingDurationThreshold",
+                    "description": "Minimum microphone session duration before triggering detection to reduce noise from short legitimate captures."
+                },
+                {
+                    "field": "BackgroundCapturePolicy",
+                    "description": "Environment-specific baseline for legitimate background microphone usage"
+                },
+                {
+                    "field": "CaptureToNetworkTimeWindow",
+                    "description": "Time window correlating microphone activation with outbound network traffic."
+                }
+            ]
         }
     ]
 }

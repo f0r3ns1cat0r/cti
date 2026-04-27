@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d0ee72a6-5d79-4238-846c-3cecc9c790be",
+    "id": "bundle--4b615bb5-08a3-4b03-a287-1802a45d79d3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--821db003-f7ad-4e28-b07d-2e3fc4f208a7",
             "created": "2025-03-24T20:13:39.921Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Threatfabric LightSpy 2023",

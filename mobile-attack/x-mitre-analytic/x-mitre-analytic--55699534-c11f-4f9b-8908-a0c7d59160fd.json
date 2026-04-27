@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c0fcd6f2-9d61-43fd-96e9-0877b073e04b",
+    "id": "bundle--69c3280a-4daf-413e-ab18-4b542636dc38",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--55699534-c11f-4f9b-8908-a0c7d59160fd",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-02-23T17:40:11.076Z",
             "name": "Analytic 1648",
-            "description": "System information discovery can be difficult to detect, and therefore enterprises may be better served focusing on detection at other stages of adversarial behavior.",
+            "description": "Defender correlates an app process performing a burst of OS/device attribute lookups (build, hardware, SDK level, system properties) with near-term execution branching (feature gating, module load, permission workflow changes) and/or immediate outbound communications, indicating environment evaluation used to shape follow-on actions.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -30,7 +32,43 @@
             "x_mitre_platforms": [
                 "Android"
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_log_source_references": [
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "android:logcat",
+                    "channel": "Application accesses android.os.Build fields or device configuration APIs (MODEL, MANUFACTURER, VERSION.SDK_INT, HARDWARE)"
+                }
+            ],
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindowSeconds",
+                    "description": "Correlation window for system-info collection burst \u2192 outbound transmission (e.g., 60\u2013900s)."
+                },
+                {
+                    "field": "MinSystemInfoSignals",
+                    "description": "Minimum number of distinct system-attribute reads/queries within window to count as \u2018broad fingerprinting\u2019 (tune to telemetry fidelity)."
+                },
+                {
+                    "field": "DistinctAttributeThreshold",
+                    "description": "How many distinct attribute categories (build fields, cpu, locale, patch level, network identifiers) must be observed."
+                },
+                {
+                    "field": "BackgroundOnly",
+                    "description": "If true, require the burst occurs while app is background to reduce noise from legitimate settings/about-device screens."
+                },
+                {
+                    "field": "AllowlistedPackages",
+                    "description": "Legitimate device management, diagnostics, carrier services, and enterprise security apps expected to collect device inventory."
+                },
+                {
+                    "field": "NewDomainWindowSeconds",
+                    "description": "Window for \u2018newly contacted domain\u2019 enrichment after fingerprinting burst."
+                },
+                {
+                    "field": "SmallPostByteRange",
+                    "description": "Approximate payload size range used for \u2018fingerprint submit\u2019 heuristic (environment dependent)."
+                }
+            ]
         }
     ]
 }

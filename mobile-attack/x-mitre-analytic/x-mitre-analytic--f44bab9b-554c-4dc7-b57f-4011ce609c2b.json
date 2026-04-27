@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--349c788f-bda8-41a8-81ca-456214627622",
+    "id": "bundle--53d4f86a-222a-4aea-b199-7b88101bd106",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--f44bab9b-554c-4dc7-b57f-4011ce609c2b",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-02-18T19:59:27.650Z",
             "name": "Analytic 1706",
-            "description": "Application vetting services could look for usage of the `READ_PRIVILEGED_PHONE_STATE` Android permission. This could indicate that non-system apps are attempting to access information that they do not have access to.",
+            "description": "Defender observes an app (package/UID) repeatedly retrieving network interface configuration attributes (local IP/MAC/interface names, active network capabilities, link properties, proxy/DNS settings, or carrier identifiers when permitted) in a short time window, without corresponding user network-management activity. The pattern is characterized by OS API execution for interface/config reads combined with background state, permission/role context (e.g., device owner/profile owner/carrier/default-SMS), and optional follow-on connectivity tests (gateway/DNS/proxy reachability). Correlate across API execution + app state + (optional) local probe to identify automated network configuration discovery rather than routine connectivity checks.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -37,7 +39,36 @@
                     "channel": "None"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindowSeconds",
+                    "description": "Window to correlate config reads with app state and optional connectivity tests (e.g., 30\u2013300s)."
+                },
+                {
+                    "field": "MinConfigReadEvents",
+                    "description": "Minimum number of network-config read signals before flagging (environment dependent; e.g., \u226510/5m)."
+                },
+                {
+                    "field": "BackgroundOnly",
+                    "description": "If true, require the app to be backgrounded to reduce legitimate network UI/diagnostic activity."
+                },
+                {
+                    "field": "AllowlistedPackages",
+                    "description": "Connectivity/security/MDM apps expected to query network configuration frequently."
+                },
+                {
+                    "field": "PrivilegedRoleFilter",
+                    "description": "If true, elevate severity when an app with device-owner/profile-owner/carrier roles performs bursts."
+                },
+                {
+                    "field": "LocalProbePorts",
+                    "description": "Ports considered 'connectivity tests' (e.g., 53, 80, 443, 8080, 3128) \u2013 tune per environment."
+                },
+                {
+                    "field": "NetworkChangeSuppressionSeconds",
+                    "description": "Suppress alerts shortly after legitimate network transitions (Wi-Fi join, VPN connect) to reduce noise."
+                }
+            ]
         }
     ]
 }

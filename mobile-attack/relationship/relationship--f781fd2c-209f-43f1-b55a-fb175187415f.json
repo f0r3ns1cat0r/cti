@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d1e15987-93ca-4c88-b995-60d7c814d508",
+    "id": "bundle--61fa6e5a-be48-4b4b-b71c-b039de29842d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--f781fd2c-209f-43f1-b55a-fb175187415f",
             "created": "2024-03-28T18:28:48.230Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "welivesec_strongpity",

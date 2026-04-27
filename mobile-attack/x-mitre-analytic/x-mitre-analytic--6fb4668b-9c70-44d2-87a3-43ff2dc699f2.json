@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--547bd7c1-ea30-4627-bab7-9d6ddfbd9761",
+    "id": "bundle--727766fa-38d0-466d-9cdc-823215373faa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--6fb4668b-9c70-44d2-87a3-43ff2dc699f2",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-01-16T16:27:24.678Z",
             "name": "Analytic 1851",
-            "description": "Dynamic analysis, when used in application vetting, may in some cases be able to identify malicious code in obfuscated or encrypted form by detecting the code at execution time (after it is deobfuscated or decrypted). Some application vetting techniques apply reputation analysis of the application developer and can alert to potentially suspicious applications without actual examination of application code.",
+            "description": "Defender correlates a sandboxed app writing high-entropy or encoded artifacts (often in app-private or shared storage), performing decode/decompress/reassembly, then dynamically loading/execing the resulting code (DexClassLoader/JNI dlopen) or spawning a helper process. Sequence: high-entropy file writes \u2192 decode/unpack bursts \u2192 new .dex/.so/.jar creation in temp/obfuscated paths \u2192 dynamic load or shell spawn within a tight window.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "mobile-attack"
@@ -32,12 +34,61 @@
             ],
             "x_mitre_log_source_references": [
                 {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
+                    "name": "android:logcat",
+                    "channel": "App UID writes new file with suspicious extension/location (.tmp, .dat, .enc, /data/data/<pkg>/files/, /sdcard/Download/) and high estimated entropy"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--c0a4a086-cc20-4e1e-b7cb-29d99dfa3fb1",
+                    "name": "android:logcat",
+                    "channel": "DexClassLoader/PathClassLoader load attempt from non-standard path or recently created file"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--c0a4a086-cc20-4e1e-b7cb-29d99dfa3fb1",
+                    "name": "android:logcat",
+                    "channel": "Short burst of file I/O followed by JNI/dlopen of a newly created .so"
+                },
+                {
                     "x_mitre_data_component_ref": "x-mitre-data-component--5ae32c6a-2d12-4b8f-81ca-f862f2be0962",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "name": "android:logcat",
+                    "channel": "SELinux AVC related to execute_no_trans/execmem after decode/unpack activity by the same app UID"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "NSM:Flow",
+                    "channel": "TLS/HTTP download with atypical MIME (application/octet-stream, application/x-zip, application/x-gzip) followed by local decode/write"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "TimeWindowSeconds",
+                    "description": "Max interval to correlate write\u2192decode\u2192load stages (e.g., 5\u201360s depending on device performance)."
+                },
+                {
+                    "field": "PayloadEntropyThreshold",
+                    "description": "Shannon entropy threshold to flag likely obfuscated blobs (e.g., \u2265 7.2)."
+                },
+                {
+                    "field": "SuspiciousWriteDirs",
+                    "description": "Directories to monitor (e.g., app /files, cache, /sdcard/Download). OEMs vary."
+                },
+                {
+                    "field": "ChunkCountThreshold",
+                    "description": "Minimum count of small sequential writes (split payload reassembly)."
+                },
+                {
+                    "field": "NetworkCDNAllowlist",
+                    "description": "Benign CDNs/hosts for large opaque downloads to reduce FPs."
+                },
+                {
+                    "field": "ExecPathRegex",
+                    "description": "Regex for newly loaded .dex/.so/.jar/temp artifacts."
+                },
+                {
+                    "field": "UserContext",
+                    "description": "Foreground/background or developer mode context to suppress test noise."
+                }
+            ]
         }
     ]
 }
