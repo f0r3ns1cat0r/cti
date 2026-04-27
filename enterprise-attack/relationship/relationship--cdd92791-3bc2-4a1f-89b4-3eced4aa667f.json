@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--67db4ef9-5ca5-4289-9609-253ee9d5de1b",
+    "id": "bundle--42b0250f-6062-42f0-a697-8cd7acf7c528",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,19 +24,24 @@
                     "source_name": "Securelist Kimsuky Sept 2013",
                     "description": "Tarakanov , D.. (2013, September 11). The \u201cKimsuky\u201d Operation: A North Korean APT?. Retrieved August 13, 2019.",
                     "url": "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915/"
+                },
+                {
+                    "source_name": "Aryaka Kimsuky July 2025",
+                    "description": "Varadharajan Krishnasamy, Aditya K Sood. (2025, July 29). From Reconnaissance  to Control: The Operational Blueprint of Kimsuky APT  for Cyber Espionage. Retrieved April 18, 2026.",
+                    "url": "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:47:55.910Z",
-            "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has the ability to enumerate all files and directories on an infected system.(Citation: Securelist Kimsuky Sept 2013)(Citation: Talos Kimsuky Nov 2021)(Citation: KISA Operation Muzabi)",
+            "modified": "2026-04-18T22:07:53.432Z",
+            "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has the ability to enumerate all files and directories on an infected system.(Citation: Securelist Kimsuky Sept 2013)(Citation: Talos Kimsuky Nov 2021)(Citation: KISA Operation Muzabi) [Kimsuky](https://attack.mitre.org/groups/G0094) has used a custom script with a function called CreateFileList() that can scan all filesystem drives, prioritizing C:\\Users, to locate files and file extensions of interest that ultimately generates a file called `FileList.txt` saved within the victims %TEMP% Directory that contains the findings and the respective pathways.(Citation: Aryaka Kimsuky July 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
             "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

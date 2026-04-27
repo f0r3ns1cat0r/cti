@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9746f808-2f6e-4423-bd4d-a58d3ed0b36b",
+    "id": "bundle--55f40620-800a-4dd2-a83a-6bfd13908716",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--d96e80d3-f4ca-40bd-ae69-979a0a782a57",
             "created": "2024-09-16T08:45:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Cloud APT41 2024",

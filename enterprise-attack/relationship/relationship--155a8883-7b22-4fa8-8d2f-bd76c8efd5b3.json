@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--228665c4-4040-4d12-b83f-2ba7c0a2d65b",
+    "id": "bundle--e737482f-f17b-432f-b4ba-9d7a3e9f3d87",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--155a8883-7b22-4fa8-8d2f-bd76c8efd5b3",
             "created": "2020-11-06T18:40:38.186Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cobalt Strike TTPs Dec 2017",

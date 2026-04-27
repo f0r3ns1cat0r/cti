@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--98a50481-fc99-4913-a196-6b87cb12af85",
+    "id": "bundle--d041b8eb-9b49-4a2c-bd52-1fe59cf2db95",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--94175b7b-a332-4e38-9d7b-3b900825bb3a",
             "created": "2024-03-06T18:19:26.548Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Volexity Ivanti Zero-Day Exploitation January 2024",

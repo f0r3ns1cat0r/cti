@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--38e7e3be-ca6a-4558-98b0-c238637ec326",
+    "id": "bundle--929c884a-abc0-42c2-9563-b01ef8d32153",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,13 +39,13 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:30.868Z",
+            "modified": "2026-04-14T22:53:15.915Z",
             "name": "Regsvcs/Regasm",
             "description": "Regsvcs and Regasm are Windows command-line utilities that are used to register .NET Component Object Model (COM) assemblies. Both are digitally signed by Microsoft. (Citation: MSDN Regsvcs) (Citation: MSDN Regasm)\n\nAdversaries can use Regsvcs and Regasm to proxy execution of code through a trusted Windows utility. Both utilities may be used to bypass process whitelisting through use of attributes within the binary to specify code that should be run before registration or unregistration: <code>[ComRegisterFunction]</code> or <code>[ComUnregisterFunction]</code> respectively. The code with the registration and unregistration attributes will be executed even if the process is run under insufficient privileges and fails to execute. (Citation: LOLBAS Regsvcs)(Citation: LOLBAS Regasm)",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "defense-evasion"
+                    "phase_name": "stealth"
                 },
                 {
                     "kill_chain_name": "mitre-attack",
@@ -57,7 +57,6 @@
                 "Casey Smith"
             ],
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],

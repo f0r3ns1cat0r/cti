@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ca2a6516-f50c-4a98-82d9-afecae37d99d",
+    "id": "bundle--e8a71535-ab22-470c-a259-308f5e6b467c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--a0040bac-4445-4999-bf0f-53b340f02218",
             "created": "2022-08-23T14:43:06.601Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Bumblebee August 2022",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f7d5355b-76de-4ef2-ad23-d78c3bd2f0cb",
+    "id": "bundle--0b2d2159-3c85-480c-b8cb-b1bc8c4166b4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--cd78a407-3770-4806-8b06-13b7f7ccc2cf",
             "created": "2022-04-10T23:45:23.242Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Crowdstrike DriveSlayer February 2022",

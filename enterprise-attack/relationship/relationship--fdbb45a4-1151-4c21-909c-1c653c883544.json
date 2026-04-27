@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4309a5c9-c549-4c80-8747-b92e84c0f17c",
+    "id": "bundle--07de15f6-da12-4e3a-af1d-07858b92e7fd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--fdbb45a4-1151-4c21-909c-1c653c883544",
             "created": "2021-03-01T14:07:36.916Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Proofpoint LookBack Malware Aug 2019",

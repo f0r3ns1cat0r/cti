@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b9b05e7f-9c7c-44a1-8f91-d2dc3ebea570",
+    "id": "bundle--7af05726-044f-4078-893c-d1c0593bfff9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--1e624981-b765-41ac-a2dc-468ba07e3614",
             "created": "2020-03-10T17:45:00.294Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco Umbrella DGA Brute Force",

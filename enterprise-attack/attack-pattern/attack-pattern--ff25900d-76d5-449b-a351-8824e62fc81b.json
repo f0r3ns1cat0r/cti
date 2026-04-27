@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--623df9bf-82da-46cf-b7b7-79fe3c64acbc",
+    "id": "bundle--344bd8c0-adfa-4860-8d7c-6d741a196d68",
     "spec_version": "2.0",
     "objects": [
         {
@@ -49,22 +49,25 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:49:40.055Z",
+            "modified": "2026-04-15T22:45:17.637Z",
             "name": "Trusted Developer Utilities Proxy Execution",
             "description": "Adversaries may take advantage of trusted developer utilities to proxy execution of malicious payloads. There are many utilities used for software development related tasks that can be used to execute code in various forms to assist in development, debugging, and reverse engineering.(Citation: engima0x3 DNX Bypass)(Citation: engima0x3 RCSI Bypass)(Citation: Exploit Monday WinDbg)(Citation: LOLBAS Tracker) These utilities may often be signed with legitimate certificates that allow them to execute on a system and proxy execution of malicious code through a trusted process that effectively bypasses application control solutions.\n\nSmart App Control is a feature of Windows that blocks applications it considers potentially malicious from running by verifying unsigned applications against a known safe list from a Microsoft cloud service before executing them.(Citation: Microsoft Smart App Control) However, adversaries may leverage \"reputation hijacking\" to abuse an operating system\u2019s trust of safe, signed applications that support the execution of arbitrary code. By leveraging [Trusted Developer Utilities Proxy Execution](https://attack.mitre.org/techniques/T1127) to run their malicious code, adversaries may bypass Smart App Control protections.(Citation: Elastic Security Labs)",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "defense-evasion"
+                    "phase_name": "stealth"
+                },
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "execution"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_contributors": [
                 "Casey Smith",
                 "Matthew Demaske, Adaptforward"
             ],
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
@@ -73,7 +76,8 @@
             "x_mitre_platforms": [
                 "Windows"
             ],
-            "x_mitre_version": "1.3"
+            "x_mitre_version": "2.0",
+            "x_mitre_remote_support": false
         }
     ]
 }

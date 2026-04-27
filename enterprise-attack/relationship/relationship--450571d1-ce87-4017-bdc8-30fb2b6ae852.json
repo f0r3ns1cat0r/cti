@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--707c676f-5505-48bc-a2ee-51e247a9f9a9",
+    "id": "bundle--da38bd4a-6547-4d1f-8832-6f0672db0fda",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--450571d1-ce87-4017-bdc8-30fb2b6ae852",
             "created": "2024-03-25T20:50:30.279Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA Scattered Spider Advisory November 2023",

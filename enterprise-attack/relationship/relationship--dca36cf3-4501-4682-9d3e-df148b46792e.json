@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--90045c7a-9103-4ba8-9dfb-b8d5ed706ebd",
+    "id": "bundle--48f1ceb6-b789-4383-9ba3-1a6b8887207b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--dca36cf3-4501-4682-9d3e-df148b46792e",
             "created": "2021-03-03T20:11:21.892Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft HAFNIUM March 2020",

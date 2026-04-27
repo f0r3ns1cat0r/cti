@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b56980f1-41a7-42e2-9161-532a11d2246a",
+    "id": "bundle--d2078738-a97e-402d-babb-019f8f1784e6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--44e55496-b39d-45b7-96b9-1840d2492a14",
             "created": "2024-03-25T19:29:30.200Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelOne SocGholish Infrastructure November 2022",

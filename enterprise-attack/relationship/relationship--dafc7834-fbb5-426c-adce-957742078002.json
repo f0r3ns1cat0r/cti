@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3d71698a-4a45-4f05-881f-f8ec0b7cdf0f",
+    "id": "bundle--595e9f9c-eb20-4cbb-a0c5-9ec95d988633",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--dafc7834-fbb5-426c-adce-957742078002",
             "created": "2020-03-19T23:50:06.593Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT34 July 2019",

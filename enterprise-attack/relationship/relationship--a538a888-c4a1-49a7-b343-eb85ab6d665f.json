@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--049dcb60-6cb1-43d8-b238-f480ea4eee04",
+    "id": "bundle--caacfc62-69ea-4b2c-827f-3a09f0d37e8d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--a538a888-c4a1-49a7-b343-eb85ab6d665f",
             "created": "2020-10-19T23:49:08.670Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "US-CERT TA17-156A SNMP Abuse 2017",

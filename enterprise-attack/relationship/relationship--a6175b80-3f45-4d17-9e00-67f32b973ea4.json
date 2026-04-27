@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e8d4a652-1e86-48a2-9fbc-1ce748517221",
+    "id": "bundle--45f97a7a-3c41-42f8-aab5-1218e161dc98",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--a6175b80-3f45-4d17-9e00-67f32b973ea4",
             "created": "2022-01-25T15:21:10.120Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Check Point APT35 CharmPower January 2022",

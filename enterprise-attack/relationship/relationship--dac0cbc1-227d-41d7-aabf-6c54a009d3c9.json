@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a7bbe5cb-5b3a-4763-91b4-cd0c3390b0dc",
+    "id": "bundle--b26ee01b-adc0-4f26-8800-def50d732741",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--dac0cbc1-227d-41d7-aabf-6c54a009d3c9",
             "created": "2025-04-02T18:04:53.193Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft March 2025 XCSSET",

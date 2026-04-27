@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--03e44b11-050a-4126-8cbe-867b93d2d0b2",
+    "id": "bundle--ce9d1200-3e7d-49d9-95aa-671975860b38",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--3c92afd0-50e1-42a7-97e0-6cec9b4f40cb",
             "created": "2021-04-23T01:52:58.529Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye HIKIT Rootkit Part 2",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ff516186-205b-4ab6-97e3-e47c04dfd831",
+    "id": "bundle--c56ee0fa-eb07-4f21-8ae4-de9b49c7daa5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -16,6 +16,7 @@
                 "Joe Gumke, U.S. Bank"
             ],
             "type": "intrusion-set",
+            "spec_version": "2.1",
             "id": "intrusion-set--82323c70-4186-4b61-94f5-b227c3b28e89",
             "created": "2024-09-23T21:32:19.337Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -40,11 +41,11 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_domains": [
                 "enterprise-attack"
-            ],
-            "x_mitre_attack_spec_version": "3.2.0",
-            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+            ]
         }
     ]
 }

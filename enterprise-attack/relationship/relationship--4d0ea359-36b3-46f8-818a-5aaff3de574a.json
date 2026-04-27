@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0c311622-0fd2-4bb6-b656-4790025e1d55",
+    "id": "bundle--c976f532-1ae2-4c6f-a45d-7b9b1ab23c08",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--4d0ea359-36b3-46f8-818a-5aaff3de574a",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft FinFisher March 2018",

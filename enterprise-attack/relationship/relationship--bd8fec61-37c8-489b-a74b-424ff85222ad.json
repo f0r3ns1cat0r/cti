@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ad25aee0-6599-4749-b260-3f136b3d7b6a",
+    "id": "bundle--3132f035-a78f-4756-8035-73fe8e10b0b2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--bd8fec61-37c8-489b-a74b-424ff85222ad",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "US-CERT Volgmer 2 Nov 2017",

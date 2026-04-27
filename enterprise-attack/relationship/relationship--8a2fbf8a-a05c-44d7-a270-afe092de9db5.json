@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ad980913-4ddb-4e09-832d-bae776d165c2",
+    "id": "bundle--d1e16e86-416b-491c-8809-a74b40f431bd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--8a2fbf8a-a05c-44d7-a270-afe092de9db5",
             "created": "2019-08-29T18:52:20.983Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Carbon Black Shlayer Feb 2019",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5e1ae836-790d-4ddc-9943-ed6523b0f2ce",
+    "id": "bundle--adcbaf69-fbf2-4d4d-af3a-c3bcd31d128c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--b6336d7c-e869-4491-9e8a-5ea5847a58ae",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT35 2018",

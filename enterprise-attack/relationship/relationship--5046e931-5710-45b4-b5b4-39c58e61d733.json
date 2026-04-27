@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7679a81f-06f2-4c50-b9d9-dacd15db99a1",
+    "id": "bundle--e12b91c5-61ae-4379-843d-8541661ff1dc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--5046e931-5710-45b4-b5b4-39c58e61d733",
             "created": "2025-08-06T17:11:09.905Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Zscaler Havoc FEB 2023",

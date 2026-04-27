@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5cca939e-e9a6-4649-adab-301abbb0299e",
+    "id": "bundle--7cc03fad-e612-464c-ba8a-85ebee54a93d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--cd001a55-ed41-4109-9090-41bebed9113a",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye Obfuscation June 2017",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ec73d897-4029-41f3-b94f-14dbebf17a4c",
+    "id": "bundle--1b06f85f-6743-475b-8cbf-35cafba2b8f4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--3dd8c9cd-e9ad-4f3e-a4a6-0d4ff0904980",
             "created": "2024-09-25T14:19:35.257Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "AWS RE:Inforce Threat Detection 2024",

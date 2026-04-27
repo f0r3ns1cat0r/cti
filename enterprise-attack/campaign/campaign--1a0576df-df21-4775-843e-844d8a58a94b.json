@@ -1,10 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--ff6ae345-79e1-49d3-9373-f2cd2d706501",
+    "id": "bundle--8eb51351-d14d-4b69-8d46-b27602a078b0",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "campaign",
+            "spec_version": "2.1",
             "id": "campaign--1a0576df-df21-4775-843e-844d8a58a94b",
             "created": "2025-10-15T19:31:55.608Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -44,7 +45,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-11-12T15:13:10.723Z",
+            "modified": "2026-04-23T18:46:50.936Z",
             "name": "SharePoint ToolShell Exploitation",
             "description": "The [SharePoint ToolShell Exploitation](https://attack.mitre.org/campaigns/C0058) campaign was conducted in July 2025 and encompassed the first waves of exploitation against incompletely patched spoofing (CVE-2025-49706) and remote code execution (CVE-2025-49704) vulnerabilities affecting on-premises Microsoft SharePoint servers. Later patched and updated as CVE-2025-53770 and CVE-2025-53771, the ToolShell vulnerabilities were widely exploited including by China-based ransomware actor Storm-2603 and espionage actors [Threat Group-3390](https://attack.mitre.org/groups/G0027) and [ZIRCONIUM](https://attack.mitre.org/groups/G0128). [SharePoint ToolShell Exploitation](https://attack.mitre.org/campaigns/C0058) targeted multiple regions and industries including finance, education, energy, and healthcare across Asia, Europe, and the United States.(Citation: Microsoft SharePoint Exploit JUL 2025)(Citation: Palo Alto SharePoint Vulnerabilities JUL 2025)(Citation: Eye Research ToolShell JUL 2025)(Citation: ESET ToolShell JUL 2025)(Citation: Trend Micro SharePoint Attacks JUL 2025)\n",
             "aliases": [
@@ -59,10 +60,7 @@
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_contributors": [
-                "Wai Linn Oo @ Kernellix"
-            ],
-            "x_mitre_domains": [
-                "enterprise-attack"
+                "Wai Linn Oo, Kernellix Co.,Ltd."
             ]
         }
     ]

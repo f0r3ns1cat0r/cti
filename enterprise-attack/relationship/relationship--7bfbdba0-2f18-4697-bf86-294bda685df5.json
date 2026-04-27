@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a3cbab69-6490-4d12-8a1c-ebf6b41c1ddd",
+    "id": "bundle--81e76b19-8398-42ef-8968-5e2cfba4e270",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--7bfbdba0-2f18-4697-bf86-294bda685df5",
             "created": "2025-07-21T19:45:03.550Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit42 Bookworm Nov2015",

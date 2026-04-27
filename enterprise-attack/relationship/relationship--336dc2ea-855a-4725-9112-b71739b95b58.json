@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--28658a25-5893-4750-b1c6-e8e30a12ff1c",
+    "id": "bundle--d408eba5-8fc7-4ce8-8391-f17cd1dd46cb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--336dc2ea-855a-4725-9112-b71739b95b58",
             "created": "2024-09-09T14:40:55.915Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Learn ClickOnce Config",

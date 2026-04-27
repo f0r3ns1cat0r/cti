@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1ca21bf7-e8ba-4411-805d-2b48c053617b",
+    "id": "bundle--f8be6367-c12e-4a3f-926c-b53b6b417e11",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--c6f11dfe-dd59-4310-9619-ed42ee48d736",
             "created": "2020-05-22T15:43:05.196Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "BitDefender Chafer May 2020",

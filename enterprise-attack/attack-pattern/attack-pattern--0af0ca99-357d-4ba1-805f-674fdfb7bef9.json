@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ff488c0f-8c41-489e-9e4a-3102e1575de1",
+    "id": "bundle--a05a7707-cdc4-4fef-aac1-d598bd48d193",
     "spec_version": "2.0",
     "objects": [
         {
@@ -68,7 +68,6 @@
                 "Austin Clark, @c2defense"
             ],
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
@@ -77,8 +76,8 @@
             "x_mitre_platforms": [
                 "Linux",
                 "macOS",
-                "Windows",
-                "Network Devices"
+                "Network Devices",
+                "Windows"
             ],
             "x_mitre_version": "1.2",
             "x_mitre_impact_type": [

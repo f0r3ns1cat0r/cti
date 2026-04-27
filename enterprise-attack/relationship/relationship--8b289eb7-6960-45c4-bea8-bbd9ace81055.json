@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a2bb2199-4e34-49c0-82b3-d841c9f5a73d",
+    "id": "bundle--b1f6bcdb-226f-40c5-ae64-aebd026c7495",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--8b289eb7-6960-45c4-bea8-bbd9ace81055",
             "created": "2023-09-18T18:17:00.154Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco Operation Layover September 2021",

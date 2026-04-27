@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d04470f6-5518-4488-87d1-0104c1048878",
+    "id": "bundle--67ef00bf-338d-4d23-b2c0-5da424d61d5e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--90d0d818-4a80-459c-9d57-ca9221eae57b",
             "created": "2022-05-31T19:34:41.217Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant Cloudy Logs 2023",

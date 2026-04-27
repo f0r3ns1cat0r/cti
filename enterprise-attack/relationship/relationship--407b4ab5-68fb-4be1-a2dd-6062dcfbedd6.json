@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a339d4aa-fec2-401a-89c1-0fd7220e07a9",
+    "id": "bundle--25f88130-f1e1-4f64-bb3e-2165a111f6bf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--407b4ab5-68fb-4be1-a2dd-6062dcfbedd6",
             "created": "2025-10-14T20:29:29.214Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant VMware vSphere JUL 2025",

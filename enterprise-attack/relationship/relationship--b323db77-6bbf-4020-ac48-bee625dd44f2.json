@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9551d72d-34cf-4290-a802-d01afbd535e3",
+    "id": "bundle--7ffb3f5a-4daf-41da-ba54-34a70daf8abb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--b323db77-6bbf-4020-ac48-bee625dd44f2",
             "created": "2023-02-13T20:08:43.014Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MDSec Brute Ratel August 2022",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6056f3e2-6bb1-4378-93f3-e9df9f35f111",
+    "id": "bundle--cb61b6aa-fdbf-4021-9db7-f11ac209ed5a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--f292f16f-ab6e-42ef-94f5-d65792fe5df8",
             "created": "2023-03-26T20:08:15.716Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Secureworks REvil September 2019",

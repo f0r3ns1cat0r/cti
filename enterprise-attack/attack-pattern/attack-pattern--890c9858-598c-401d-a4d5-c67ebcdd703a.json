@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7f4d99ff-ff53-4dfe-b5b6-28f389c3fe8f",
+    "id": "bundle--43d0a396-40ab-4cfd-9ef6-04dd2f667c68",
     "spec_version": "2.0",
     "objects": [
         {
@@ -102,18 +102,17 @@
                 "Alon Klayman, Hunters Security"
             ],
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
             "x_mitre_is_subtechnique": false,
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_platforms": [
-                "SaaS",
                 "Containers",
                 "IaaS",
+                "Identity Provider",
                 "Office Suite",
-                "Identity Provider"
+                "SaaS"
             ],
             "x_mitre_version": "1.5"
         }

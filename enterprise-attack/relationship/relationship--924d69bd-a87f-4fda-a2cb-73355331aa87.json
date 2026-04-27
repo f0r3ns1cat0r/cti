@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6f30ec71-c635-4047-8fe9-2f867759f0cf",
+    "id": "bundle--2e8abb7a-32cd-4d21-865d-efee14ae030c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--924d69bd-a87f-4fda-a2cb-73355331aa87",
             "created": "2022-04-15T14:14:45.878Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro DRBControl February 2020",

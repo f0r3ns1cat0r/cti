@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3a7b076f-4b99-483a-a0f8-8ef0c5a81100",
+    "id": "bundle--2f6b66f4-206c-47c3-9b7f-ecd3b42a132f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--db221583-6145-4b65-8eb8-f5e59b1c9e59",
             "created": "2024-09-23T20:39:51.723Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "unit42_gamaredon_dec2022",

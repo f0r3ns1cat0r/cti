@@ -1,10 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--ba4a767a-84e3-4cf0-96e3-8326e19bc21d",
+    "id": "bundle--8864668c-675e-4924-9820-c6c70c29f416",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
+            "spec_version": "2.1",
             "id": "intrusion-set--c5947e1c-1cbc-434c-94b8-27c7e3be0fff",
             "created": "2017-05-31T21:32:08.682Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -61,13 +62,13 @@
             ],
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_domains": [
-                "enterprise-attack"
-            ],
             "x_mitre_version": "1.2",
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_contributors": [
                 "Edward Millington"
+            ],
+            "x_mitre_domains": [
+                "enterprise-attack"
             ]
         }
     ]

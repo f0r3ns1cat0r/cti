@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--35db7a49-59ca-4c71-b847-cbe29d149005",
+    "id": "bundle--e369b087-0657-45ed-8ddc-14a41ffb9fd6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--44273d72-b0d9-42ee-9e8e-53d1b39f0651",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Securelist APT10 March 2021",

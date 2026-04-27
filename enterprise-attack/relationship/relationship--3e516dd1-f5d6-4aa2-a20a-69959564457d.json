@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--13061f48-0178-4a33-9081-25a9657630e1",
+    "id": "bundle--48d62117-5fec-4314-bed1-5bd20c8f133d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--3e516dd1-f5d6-4aa2-a20a-69959564457d",
             "created": "2024-07-01T15:32:26.071Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "apt41_mandiant",

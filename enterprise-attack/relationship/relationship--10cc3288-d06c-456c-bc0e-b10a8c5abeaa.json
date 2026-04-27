@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4d8b462c-a763-4c8b-89fc-2cc1567df84e",
+    "id": "bundle--a46a10a3-1790-4cae-a110-f6ef09e18cd3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--10cc3288-d06c-456c-bc0e-b10a8c5abeaa",
             "created": "2017-05-31T21:33:27.038Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Bitdefender APT28 Dec 2015",

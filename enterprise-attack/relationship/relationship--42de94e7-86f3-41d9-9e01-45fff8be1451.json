@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3ab7b870-16bb-47b2-bf93-73f497f47ab6",
+    "id": "bundle--b37b1b73-7648-4407-880a-ae532b5814d5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--42de94e7-86f3-41d9-9e01-45fff8be1451",
             "created": "2020-03-17T03:07:38.540Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro Ursnif Mar 2015",

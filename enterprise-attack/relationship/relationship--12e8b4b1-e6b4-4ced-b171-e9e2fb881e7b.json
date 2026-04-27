@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--09835fb4-c6c7-4fb8-b4b5-8bb97cb7fc1a",
+    "id": "bundle--fb56656c-4a78-4200-820f-3062a4322ff7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--12e8b4b1-e6b4-4ced-b171-e9e2fb881e7b",
             "created": "2025-10-16T16:47:06.011Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelOne ToolShell JUL 2025",

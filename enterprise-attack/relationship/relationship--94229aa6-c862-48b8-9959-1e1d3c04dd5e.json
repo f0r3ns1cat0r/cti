@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ca2b9e93-616e-4bcb-8e85-603d50e26ff7",
+    "id": "bundle--144d5ed9-72de-46ca-a935-330508472827",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--94229aa6-c862-48b8-9959-1e1d3c04dd5e",
             "created": "2020-07-15T19:02:25.123Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "DFIR_Quantum_Ransomware",

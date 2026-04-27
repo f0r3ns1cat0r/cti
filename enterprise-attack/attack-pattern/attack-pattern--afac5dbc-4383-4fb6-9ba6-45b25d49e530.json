@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--92e1b967-8f58-46ad-b184-0adb2cc74468",
+    "id": "bundle--0da44a9a-2774-4555-b36c-32d73da82b0a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -21,26 +21,25 @@
                     "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/User-Agent"
                 },
                 {
-                    "source_name": "Gummy Browsers: Targeted Browser Spoofing against State-of-the-Art Fingerprinting Techniques",
-                    "description": "Zengrui Liu, Prakash Shrestha, and Nitesh Saxena. (2021, October 19). Retrieved September 22, 2025.",
+                    "source_name": "Gummy Browsers Targeted Browser Spoofing against State-of-the-Art Fingerprinting Techniques",
+                    "description": "Zengrui Liu, Prakash Shrestha, and Nitesh Saxena. (2021, October 19). Retrieved April 15, 2026.",
                     "url": "https://arxiv.org/pdf/2110.10129"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-19T19:41:22.343Z",
+            "modified": "2026-04-15T20:37:12.322Z",
             "name": "Browser Fingerprint",
-            "description": "Adversaries may attempt to blend in with legitimate traffic by spoofing browser and system attributes like operating system, system language, platform, user-agent string, resolution, time zone, etc.  The HTTP\u00a0User-Agent\u00a0request header\u00a0is a string that lets servers and network peers identify the application, operating system, vendor, and/or version of the requesting\u00a0user agent.(Citation: Mozilla User Agent)\n\nAdversaries may gather this information through [System Information Discovery](https://attack.mitre.org/techniques/T1082) or by users navigating to adversary-controlled websites, and then use that information to craft their web traffic to evade defenses.(Citation: Gummy Browsers: Targeted Browser Spoofing against State-of-the-Art Fingerprinting Techniques)",
+            "description": "Adversaries may attempt to blend in with legitimate traffic by spoofing browser and system attributes like operating system, system language, platform, user-agent string, resolution, time zone, etc.  The HTTP\u00a0User-Agent\u00a0request header\u00a0is a string that lets servers and network peers identify the application, operating system, vendor, and/or version of the requesting\u00a0user agent.(Citation: Mozilla User Agent)\n\nAdversaries may gather this information through [System Information Discovery](https://attack.mitre.org/techniques/T1082) or by users navigating to adversary-controlled websites, and then use that information to craft their web traffic to evade defenses.(Citation: Gummy Browsers Targeted Browser Spoofing against State-of-the-Art Fingerprinting Techniques)",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "defense-evasion"
+                    "phase_name": "stealth"
                 }
             ],
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
@@ -51,7 +50,7 @@
                 "macOS",
                 "Windows"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "2.0"
         }
     ]
 }

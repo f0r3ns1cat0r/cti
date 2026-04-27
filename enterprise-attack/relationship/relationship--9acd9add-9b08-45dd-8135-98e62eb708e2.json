@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4cd05a07-bf54-4bfb-b61c-7e82c82e16b7",
+    "id": "bundle--8766a98f-4413-4095-bee6-a34590e0640c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--9acd9add-9b08-45dd-8135-98e62eb708e2",
             "created": "2019-07-18T21:18:02.951Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Broadcom VMCI Firewall",

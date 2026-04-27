@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e0bb213c-6be6-4045-8035-0da1baf9c1c1",
+    "id": "bundle--b934f3ab-e10c-431c-a488-645035c84641",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--6f757d38-9e79-4a04-9ed8-972ed69e3a63",
             "created": "2024-08-05T21:44:37.565Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "DFIR Report APT35 ProxyShell March 2022",

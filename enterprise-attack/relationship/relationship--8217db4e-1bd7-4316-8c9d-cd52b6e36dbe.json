@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--65fea9f9-6f46-4148-966b-bbbe84e98bed",
+    "id": "bundle--e837eadb-b514-4c30-b3cf-7cc6e381c88f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--8217db4e-1bd7-4316-8c9d-cd52b6e36dbe",
             "created": "2024-03-01T19:26:47.914Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant Cutting Edge January 2024",

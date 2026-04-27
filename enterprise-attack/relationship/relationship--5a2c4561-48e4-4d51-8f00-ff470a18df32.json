@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ea5da27c-2079-4c3d-a3eb-953d8a501f20",
+    "id": "bundle--c48b4e40-2611-4b32-842b-46d29e64aee8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--5a2c4561-48e4-4d51-8f00-ff470a18df32",
             "created": "2020-05-13T17:16:11.074Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye Ryuk and Trickbot January 2019",

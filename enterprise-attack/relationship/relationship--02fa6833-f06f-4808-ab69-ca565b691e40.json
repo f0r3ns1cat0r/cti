@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2894fe65-18fe-40ba-bda5-e1591384a7c8",
+    "id": "bundle--edc2b915-13db-4a7a-aac2-a0101e2cb46e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--02fa6833-f06f-4808-ab69-ca565b691e40",
             "created": "2022-01-31T17:15:21.549Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MSTIC Nobelium Oct 2021",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cdef6555-d53b-4d1d-a4dc-d3a8a11a0a2e",
+    "id": "bundle--31f87ac4-1ce1-44d0-911d-68a4a39faf13",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--11ed4654-a7bf-4063-9452-6d6174b9f8bc",
             "created": "2020-10-27T19:26:38.023Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "US-CERT BLINDINGCAN Aug 2020",

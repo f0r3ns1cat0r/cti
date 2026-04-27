@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8c8e7482-ada1-461e-ba40-e72f86ba0eee",
+    "id": "bundle--309f6b6f-aef8-4d14-8ab2-008cd3790a8c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--b3c50e22-4f4c-490c-9284-0af1c0543821",
             "created": "2022-04-15T18:19:38.507Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MSTIC FoggyWeb September 2021",

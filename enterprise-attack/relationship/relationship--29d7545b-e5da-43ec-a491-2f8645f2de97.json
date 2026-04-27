@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f807a563-812e-4909-9bc5-453d1d9bd824",
+    "id": "bundle--73f18109-0b8c-4095-9b34-9c356de3f367",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--29d7545b-e5da-43ec-a491-2f8645f2de97",
             "created": "2024-03-25T21:12:22.256Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MSTIC Octo Tempest Operations October 2023",

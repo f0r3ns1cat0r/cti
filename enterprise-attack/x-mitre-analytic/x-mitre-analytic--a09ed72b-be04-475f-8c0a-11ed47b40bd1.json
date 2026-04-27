@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a128f2f3-6507-4e23-b76a-6e25cf623829",
+    "id": "bundle--ade4e572-ab96-44c9-b749-e37b128f0465",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--a09ed72b-be04-475f-8c0a-11ed47b40bd1",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-11-12T22:03:39.105Z",
+            "modified": "2026-03-13T23:17:37.896Z",
             "name": "Analytic 0551",
             "description": "Suspicious creation or modification of inbox rules through PowerShell (New-InboxRule, Set-InboxRule) to automatically delete, move, or hide emails. Defender perspective: unusual rule activity correlated with mailbox access and filtering patterns.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -34,7 +35,7 @@
             "x_mitre_log_source_references": [
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--685f917a-e95e-4ba0-ade1-c7d354dae6e0",
-                    "name": "WinEventLog:Security",
+                    "name": "WinEventLog:PowerShell",
                     "channel": "EventCode=4103, 4104, 4105, 4106"
                 },
                 {

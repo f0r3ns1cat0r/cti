@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ffea52b7-dea0-43b2-a604-2047976c1099",
+    "id": "bundle--bccb2bde-302f-47de-b148-07729a052347",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--64f429bb-7ddd-473a-8408-7fa0ba9282e3",
             "created": "2024-12-17T00:09:07.649Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft BlackByte 2023",

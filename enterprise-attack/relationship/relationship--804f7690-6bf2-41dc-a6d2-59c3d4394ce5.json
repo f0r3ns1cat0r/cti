@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4c04ea83-9653-4e0a-9898-c27d344e0b1a",
+    "id": "bundle--c957e705-70f1-48bd-8fc7-97a6a2185bb9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--804f7690-6bf2-41dc-a6d2-59c3d4394ce5",
             "created": "2023-09-28T13:26:54.930Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "GitHub Pacu",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a5708bbd-9124-4e13-9bc7-eb5c481aed26",
+    "id": "bundle--fceb7fdf-b354-400e-b6d5-83c1a98ee2ce",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--bda03bab-3f0b-4bd0-8a8f-77bcb2b1ee7d",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-04-24T20:33:02.253Z",
             "name": "Analytic 1370",
-            "description": "Detection of adversaries attempting to stop or disable host-based security agents by killing daemons, unloading kernel modules, or modifying init/systemd service configurations.",
+            "description": "Detects kill/systemctl/service commands against EDR, auditd, falco, osquery, rsyslog, journald, or agent processes; configuration edits disabling startup; module unload attempts; abrupt cessation of logs after privileged shell execution.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "enterprise-attack"
@@ -51,8 +53,7 @@
                     "field": "AllowedAdminAccounts",
                     "description": "Accounts permitted to legitimately stop or reconfigure services."
                 }
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

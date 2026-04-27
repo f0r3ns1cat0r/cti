@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b95d135a-eb85-4b0d-bd24-173b44814852",
+    "id": "bundle--a1a51f69-205b-466e-bc3e-d8cf2507053c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,18 +24,17 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:26.284Z",
+            "modified": "2026-04-16T20:07:52.919Z",
             "name": "Modify Cloud Compute Infrastructure",
             "description": "An adversary may attempt to modify a cloud account's compute service infrastructure to evade defenses. A modification to the compute service infrastructure can include the creation, deletion, or modification of one or more components such as compute instances, virtual machines, and snapshots.\n\nPermissions gained from the modification of infrastructure components may bypass restrictions that prevent access to existing infrastructure. Modifying infrastructure components may also allow an adversary to evade detection and remove evidence of their presence.(Citation: Mandiant M-Trends 2020)",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "defense-evasion"
+                    "phase_name": "defense-impairment"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
@@ -44,7 +43,7 @@
             "x_mitre_platforms": [
                 "IaaS"
             ],
-            "x_mitre_version": "1.2"
+            "x_mitre_version": "2.0"
         }
     ]
 }

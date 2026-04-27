@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--323a0b05-9b15-4c04-8e45-7c29787c4e91",
+    "id": "bundle--abd908e6-cd60-4cb2-af85-d1870becb1be",
     "spec_version": "2.0",
     "objects": [
         {
@@ -15,9 +15,9 @@
                     "external_id": "T1185"
                 },
                 {
-                    "source_name": "Wikipedia Man in the Browser",
-                    "description": "Wikipedia. (2017, October 28). Man-in-the-browser. Retrieved January 10, 2018.",
-                    "url": "https://en.wikipedia.org/wiki/Man-in-the-browser"
+                    "source_name": "ICEBRG Chrome Extensions",
+                    "description": "De Tore, M., Warner, J. (2018, January 15). MALICIOUS CHROME EXTENSIONS ENABLE CRIMINALS TO IMPACT OVER HALF A MILLION USERS AND GLOBAL BUSINESSES. Retrieved January 17, 2018.",
+                    "url": "https://www.icebrg.io/blog/malicious-chrome-extensions-enable-criminals-to-impact-over-half-a-million-users-and-global-businesses"
                 },
                 {
                     "source_name": "Cobalt Strike Browser Pivot",
@@ -25,14 +25,14 @@
                     "url": "https://www.cobaltstrike.com/help-browser-pivoting"
                 },
                 {
-                    "source_name": "ICEBRG Chrome Extensions",
-                    "description": "De Tore, M., Warner, J. (2018, January 15). MALICIOUS CHROME EXTENSIONS ENABLE CRIMINALS TO IMPACT OVER HALF A MILLION USERS AND GLOBAL BUSINESSES. Retrieved January 17, 2018.",
-                    "url": "https://www.icebrg.io/blog/malicious-chrome-extensions-enable-criminals-to-impact-over-half-a-million-users-and-global-businesses"
-                },
-                {
                     "source_name": "cobaltstrike manual",
                     "description": "Strategic Cyber LLC. (2017, March 14). Cobalt Strike Manual. Retrieved May 24, 2017.",
                     "url": "https://web.archive.org/web/20210825130434/https://cobaltstrike.com/downloads/csmanual38.pdf"
+                },
+                {
+                    "source_name": "Wikipedia Man in the Browser",
+                    "description": "Wikipedia. (2017, October 28). Man-in-the-browser. Retrieved January 10, 2018.",
+                    "url": "https://en.wikipedia.org/wiki/Man-in-the-browser"
                 }
             ],
             "object_marking_refs": [
@@ -52,7 +52,6 @@
                 "Justin Warner, ICEBRG"
             ],
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
@@ -61,7 +60,8 @@
             "x_mitre_platforms": [
                 "Windows"
             ],
-            "x_mitre_version": "2.1"
+            "x_mitre_version": "2.1",
+            "revoked": false
         }
     ]
 }

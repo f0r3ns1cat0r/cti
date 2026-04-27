@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1e5d38de-1ac1-4425-af0c-1ed013a4705c",
+    "id": "bundle--180b09ca-a3e3-43d0-ba06-ca772f2059d9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--eacf09ab-0264-4af8-bfa5-f3be9df47e3f",
             "created": "2019-06-20T18:55:36.343Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "AWS DB VPC",

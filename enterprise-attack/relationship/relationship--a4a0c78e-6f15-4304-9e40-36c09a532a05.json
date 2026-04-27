@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c3443571-6eea-4cc1-acbe-bf51a00ec922",
+    "id": "bundle--15a441ce-fb03-4f9d-9712-44286f388b28",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--a4a0c78e-6f15-4304-9e40-36c09a532a05",
             "created": "2023-03-26T16:40:18.855Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Deep Dive Solorigate January 2021",

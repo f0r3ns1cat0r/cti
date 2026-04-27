@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ca3f350c-3257-40a3-a738-dd6bac093e09",
+    "id": "bundle--4ce4760e-9243-4440-8ba7-24320ecb1bb7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--7a012427-6f85-45b5-b1b2-439c72f7efb4",
             "created": "2023-08-30T16:31:23.834Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Shlayer jamf gatekeeper bypass 2021",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--945cc374-9532-4cd3-b665-96bc0ca68903",
+    "id": "bundle--b3195755-13c0-4f4b-a0c7-22caa7d94077",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,6 +17,7 @@
                 "Kaung Zaw Hein"
             ],
             "type": "intrusion-set",
+            "spec_version": "2.1",
             "id": "intrusion-set--02b16bd6-ae88-417a-8a3f-02c5e166175a",
             "created": "2024-12-16T23:19:40.207Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -60,11 +61,11 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_domains": [
                 "enterprise-attack"
-            ],
-            "x_mitre_attack_spec_version": "3.2.0",
-            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+            ]
         }
     ]
 }

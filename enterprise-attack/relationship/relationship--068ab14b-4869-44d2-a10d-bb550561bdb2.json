@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f11290d5-a25d-4caa-aa31-ca468de6b38a",
+    "id": "bundle--451cb8d9-9a1a-4e80-9d26-87dbf9456820",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--068ab14b-4869-44d2-a10d-bb550561bdb2",
             "created": "2024-05-06T19:02:39.772Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant APT43 March 2024",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bf5e1ef7-498e-4573-b899-4067b9f99eb5",
+    "id": "bundle--d96508a7-00fc-4ee4-8a31-a115acb21b3b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--926f0751-679b-474e-acd0-06e485afd9f5",
             "created": "2022-08-18T15:34:15.069Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant UNC3313 Feb 2022",

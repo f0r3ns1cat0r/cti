@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dc196f6e-83c6-4b92-b6a7-c09ffe6804aa",
+    "id": "bundle--36bcc6d6-b816-4bee-aef8-2887fa7f8244",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--a246ff9a-6414-461f-b392-ac37bc3716c0",
             "created": "2023-03-26T20:51:46.149Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CrowdStrike StellarParticle January 2022",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fe6b1246-5f93-4f1d-9720-a0f5918ecc5a",
+    "id": "bundle--f4161fda-145d-4861-995d-04f95f68ebdd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--9c76d662-c861-4660-aeea-1dff463f01e0",
             "created": "2024-09-04T17:13:28.284Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Github Covenant",

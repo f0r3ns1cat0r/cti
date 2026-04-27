@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--95dc9ced-4e7b-46dc-aab0-d6a0e895696d",
+    "id": "bundle--8ee9f818-1645-4a45-81a6-2e7fec01105b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--803c83dc-fe82-40e4-8aa7-35c95269ef8f",
             "created": "2021-03-31T14:01:52.497Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kubernetes Service Accounts",

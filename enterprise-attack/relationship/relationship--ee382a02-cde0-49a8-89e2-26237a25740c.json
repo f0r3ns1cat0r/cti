@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1a539441-1765-4dc2-9545-97236817d3b0",
+    "id": "bundle--587dcfd1-55e3-43e6-8a72-2250e9f0db7f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--ee382a02-cde0-49a8-89e2-26237a25740c",
             "created": "2020-02-04T13:06:49.703Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Primary Refresh Token",

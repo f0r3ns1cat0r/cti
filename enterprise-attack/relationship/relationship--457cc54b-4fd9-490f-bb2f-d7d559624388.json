@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1cb44b03-9c3e-460c-a770-380e117a9ee9",
+    "id": "bundle--67ba7944-d5c1-440b-85d0-0010c4e9dd9e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--457cc54b-4fd9-490f-bb2f-d7d559624388",
             "created": "2021-09-29T20:46:38.435Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA AA20-239A BeagleBoyz August 2020",

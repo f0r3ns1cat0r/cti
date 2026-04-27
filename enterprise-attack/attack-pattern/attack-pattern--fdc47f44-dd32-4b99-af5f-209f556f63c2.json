@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2094bd01-b1ee-40e4-87dd-0bc4e0057e28",
+    "id": "bundle--68b18059-1cc6-478c-94a5-e302f732b48b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,13 +19,13 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:49:39.874Z",
+            "modified": "2026-04-15T22:51:08.702Z",
             "name": "Local Accounts",
             "description": "Adversaries may obtain and abuse credentials of a local account as a means of gaining Initial Access, Persistence, Privilege Escalation, or Defense Evasion. Local accounts are those configured by an organization for use by users, remote support, services, or for administration on a single system or service.\n\nLocal Accounts may also be abused to elevate privileges and harvest credentials through [OS Credential Dumping](https://attack.mitre.org/techniques/T1003). Password reuse may allow the abuse of local accounts across a set of machines on a network for the purposes of Privilege Escalation and Lateral Movement. ",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "defense-evasion"
+                    "phase_name": "stealth"
                 },
                 {
                     "kill_chain_name": "mitre-attack",
@@ -40,23 +40,22 @@
                     "phase_name": "initial-access"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
             "x_mitre_is_subtechnique": true,
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_platforms": [
+                "Containers",
+                "ESXi",
                 "Linux",
                 "macOS",
-                "Windows",
-                "Containers",
                 "Network Devices",
-                "ESXi"
+                "Windows"
             ],
-            "x_mitre_version": "1.5"
+            "x_mitre_version": "2.0"
         }
     ]
 }

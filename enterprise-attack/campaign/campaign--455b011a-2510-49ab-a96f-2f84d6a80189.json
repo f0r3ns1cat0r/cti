@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a52793b5-6f76-4a7b-9319-6c22a8faf357",
+    "id": "bundle--b088fca6-0877-4888-bbe0-deab87cdbcfd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,6 +17,7 @@
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "type": "campaign",
+            "spec_version": "2.1",
             "id": "campaign--455b011a-2510-49ab-a96f-2f84d6a80189",
             "created": "2025-01-15T19:56:55.070Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -42,10 +43,7 @@
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "x_mitre_attack_spec_version": "3.2.0",
-            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_domains": [
-                "enterprise-attack"
-            ]
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
         }
     ]
 }

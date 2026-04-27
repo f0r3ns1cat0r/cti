@@ -1,40 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--7c73b6e8-7338-4a9e-8bd6-3530fed3d70b",
+    "id": "bundle--2c2a565a-94fe-4af4-9b8b-d833c5d51c17",
     "spec_version": "2.0",
     "objects": [
         {
-            "modified": "2025-04-04T17:07:43.344Z",
-            "name": "APT29",
-            "description": "[APT29](https://attack.mitre.org/groups/G0016) is threat group that has been attributed to Russia's Foreign Intelligence Service (SVR).(Citation: White House Imposing Costs RU Gov April 2021)(Citation: UK Gov Malign RIS Activity April 2021) They have operated since at least 2008, often targeting government networks in Europe and NATO member countries, research institutes, and think tanks. [APT29](https://attack.mitre.org/groups/G0016) reportedly compromised the Democratic National Committee starting in the summer of 2015.(Citation: F-Secure The Dukes)(Citation: GRIZZLY STEPPE JAR)(Citation: Crowdstrike DNC June 2016)(Citation: UK Gov UK Exposes Russia SolarWinds April 2021)\n\nIn April 2021, the US and UK governments attributed the [SolarWinds Compromise](https://attack.mitre.org/campaigns/C0024) to the SVR; public statements included citations to [APT29](https://attack.mitre.org/groups/G0016), Cozy Bear, and The Dukes.(Citation: NSA Joint Advisory SVR SolarWinds April 2021)(Citation: UK NSCS Russia SolarWinds April 2021) Industry reporting also referred to the actors involved in this campaign as UNC2452, NOBELIUM, StellarParticle, Dark Halo, and SolarStorm.(Citation: FireEye SUNBURST Backdoor December 2020)(Citation: MSTIC NOBELIUM Mar 2021)(Citation: CrowdStrike SUNSPOT Implant January 2021)(Citation: Volexity SolarWinds)(Citation: Cybersecurity Advisory SVR TTP May 2021)(Citation: Unit 42 SolarStorm December 2020)",
-            "aliases": [
-                "APT29",
-                "IRON RITUAL",
-                "IRON HEMLOCK",
-                "NobleBaron",
-                "Dark Halo",
-                "NOBELIUM",
-                "UNC2452",
-                "YTTRIUM",
-                "The Dukes",
-                "Cozy Bear",
-                "CozyDuke",
-                "SolarStorm",
-                "Blue Kitsune",
-                "UNC3524",
-                "Midnight Blizzard"
-            ],
-            "x_mitre_deprecated": false,
-            "x_mitre_version": "6.2",
-            "x_mitre_contributors": [
-                "Daniyal Naeem, BT Security",
-                "Matt Brenton, Zurich Insurance Group",
-                "Katie Nickels, Red Canary",
-                "Joe Gumke, U.S. Bank",
-                "Liran Ravich, CardinalOps",
-                "Vicky Ray, RayvenX"
-            ],
             "type": "intrusion-set",
+            "spec_version": "2.1",
             "id": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
             "created": "2017-05-31T21:31:52.748Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -223,7 +194,7 @@
                 {
                     "source_name": "Secureworks IRON RITUAL Profile",
                     "description": "Secureworks CTU. (n.d.). IRON RITUAL. Retrieved February 24, 2022.",
-                    "url": "https://www.secureworks.com/research/threat-profiles/iron-ritual"
+                    "url": "https://www.sophos.com/en-us/threat-profiles/iron-ritual"
                 },
                 {
                     "source_name": "UK Gov Malign RIS Activity April 2021",
@@ -254,11 +225,41 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "modified": "2026-01-20T16:22:04.140Z",
+            "name": "APT29",
+            "description": "[APT29](https://attack.mitre.org/groups/G0016) is threat group that has been attributed to Russia's Foreign Intelligence Service (SVR).(Citation: White House Imposing Costs RU Gov April 2021)(Citation: UK Gov Malign RIS Activity April 2021) They have operated since at least 2008, often targeting government networks in Europe and NATO member countries, research institutes, and think tanks. [APT29](https://attack.mitre.org/groups/G0016) reportedly compromised the Democratic National Committee starting in the summer of 2015.(Citation: F-Secure The Dukes)(Citation: GRIZZLY STEPPE JAR)(Citation: Crowdstrike DNC June 2016)(Citation: UK Gov UK Exposes Russia SolarWinds April 2021)\n\nIn April 2021, the US and UK governments attributed the [SolarWinds Compromise](https://attack.mitre.org/campaigns/C0024) to the SVR; public statements included citations to [APT29](https://attack.mitre.org/groups/G0016), Cozy Bear, and The Dukes.(Citation: NSA Joint Advisory SVR SolarWinds April 2021)(Citation: UK NSCS Russia SolarWinds April 2021) Industry reporting also referred to the actors involved in this campaign as UNC2452, NOBELIUM, StellarParticle, Dark Halo, and SolarStorm.(Citation: FireEye SUNBURST Backdoor December 2020)(Citation: MSTIC NOBELIUM Mar 2021)(Citation: CrowdStrike SUNSPOT Implant January 2021)(Citation: Volexity SolarWinds)(Citation: Cybersecurity Advisory SVR TTP May 2021)(Citation: Unit 42 SolarStorm December 2020)",
+            "aliases": [
+                "APT29",
+                "IRON RITUAL",
+                "IRON HEMLOCK",
+                "NobleBaron",
+                "Dark Halo",
+                "NOBELIUM",
+                "UNC2452",
+                "YTTRIUM",
+                "The Dukes",
+                "Cozy Bear",
+                "CozyDuke",
+                "SolarStorm",
+                "Blue Kitsune",
+                "UNC3524",
+                "Midnight Blizzard"
+            ],
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "6.2",
+            "x_mitre_attack_spec_version": "3.3.0",
+            "x_mitre_contributors": [
+                "Daniyal Naeem, BT Security",
+                "Matt Brenton, Zurich Insurance Group",
+                "Katie Nickels, Red Canary",
+                "Joe Gumke, U.S. Bank",
+                "Liran Ravich, CardinalOps",
+                "Vicky Ray, RayvenX"
+            ],
             "x_mitre_domains": [
                 "enterprise-attack"
-            ],
-            "x_mitre_attack_spec_version": "3.2.0",
-            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+            ]
         }
     ]
 }

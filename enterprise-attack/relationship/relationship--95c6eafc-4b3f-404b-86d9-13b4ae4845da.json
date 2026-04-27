@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ca92faf6-dc13-4e68-8ba3-6a9106bbd82c",
+    "id": "bundle--56098f43-00e6-47e8-868a-d6be69fd73b4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--95c6eafc-4b3f-404b-86d9-13b4ae4845da",
             "created": "2020-05-26T17:14:42.964Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Whitefly March 2019",

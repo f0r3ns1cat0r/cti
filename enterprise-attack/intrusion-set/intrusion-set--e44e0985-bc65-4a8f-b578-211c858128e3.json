@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2c2539d4-d448-440c-b8ae-8c30aedf9b05",
+    "id": "bundle--f346722a-05ae-4b08-aa6e-55a8fff3c2db",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,6 +22,7 @@
                 "Hiroki Nagahama, NEC Corporation"
             ],
             "type": "intrusion-set",
+            "spec_version": "2.1",
             "id": "intrusion-set--e44e0985-bc65-4a8f-b578-211c858128e3",
             "created": "2021-09-02T15:14:33.738Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -82,11 +83,11 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_domains": [
                 "enterprise-attack"
-            ],
-            "x_mitre_attack_spec_version": "3.2.0",
-            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+            ]
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f57e1025-fd59-45d0-aaab-f883c5508a5e",
+    "id": "bundle--401dbb31-c5d0-429d-9f28-3ceb209802b3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--2f8394e6-2cf2-473a-b60a-6de2e69c39c8",
             "created": "2022-10-04T21:07:49.639Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant UNC3890 Aug 2022",

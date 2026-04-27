@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e46a4b79-92bd-4f4f-ba1d-3163f9a32858",
+    "id": "bundle--55c39147-acb4-4a99-90ce-340709ca6077",
     "spec_version": "2.0",
     "objects": [
         {
@@ -40,18 +40,17 @@
             ],
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
             "x_mitre_is_subtechnique": true,
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_platforms": [
+                "ESXi",
                 "Linux",
-                "Network Devices",
-                "Windows",
                 "macOS",
-                "ESXi"
+                "Network Devices",
+                "Windows"
             ],
             "x_mitre_version": "1.2"
         }

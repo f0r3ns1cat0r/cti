@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9c78020b-44f2-42ad-bada-e2f1e7f9c05b",
+    "id": "bundle--3bf8212d-02e1-4e44-acf5-0a5d535e012a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--1c0eac30-db03-47d4-933a-113d8d365f86",
             "created": "2023-09-08T19:22:20.617Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA Phishing",

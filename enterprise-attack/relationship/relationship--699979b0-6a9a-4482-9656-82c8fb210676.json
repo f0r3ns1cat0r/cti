@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e6185aa8-1e6d-49ef-add6-f73a5f98fdf2",
+    "id": "bundle--649abbda-060c-4f7a-82b4-3a63fbc9b885",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--699979b0-6a9a-4482-9656-82c8fb210676",
             "created": "2021-08-03T14:06:06.942Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MSTIC Nobelium Toolset May 2021",

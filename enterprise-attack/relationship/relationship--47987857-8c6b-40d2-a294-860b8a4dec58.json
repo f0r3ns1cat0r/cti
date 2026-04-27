@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e7e78e92-a9bc-4908-bab6-e1e93dd0ed45",
+    "id": "bundle--bd3a0f31-ebb7-4a5b-bab0-792cc20512e6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -10,6 +10,11 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "revoked": false,
             "external_references": [
+                {
+                    "source_name": "ESET_MuddyWater_Dec2025",
+                    "description": "ESET Research. (2025, December 2). MuddyWater: Snakes by the riverbank. Retrieved February 17, 2026.",
+                    "url": "https://www.welivesecurity.com/en/eset-research/muddywater-snakes-riverbank/"
+                },
                 {
                     "source_name": "Anomali Static Kitten February 2021",
                     "description": "Mele, G. et al. (2021, February 10). Probable Iranian Cyber Actors, Static Kitten, Conducting Cyberespionage Campaign Targeting UAE and Kuwait Government Agencies. Retrieved March 17, 2021.",
@@ -29,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:12:03.553Z",
-            "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has used file sharing services including OneHub, Sync, and TeraBox to distribute tools.(Citation: Anomali Static Kitten February 2021)(Citation: Trend Micro Muddy Water March 2021)(Citation: Proofpoint TA450 Phishing March 2024)",
+            "modified": "2026-04-16T22:25:50.403Z",
+            "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has used file sharing services including OneHub, Sync, and TeraBox to distribute tools.(Citation: Anomali Static Kitten February 2021)(Citation: Trend Micro Muddy Water March 2021)(Citation: Proofpoint TA450 Phishing March 2024)(Citation: ESET_MuddyWater_Dec2025) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
             "target_ref": "attack-pattern--88d31120-5bc7-4ce3-a9c0-7cf147be8e54",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

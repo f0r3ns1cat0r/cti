@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ff03d012-a0ee-4966-ad7a-4337c0e3ff0e",
+    "id": "bundle--4bcaae6e-361e-414c-a5da-1303ca89e7fc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--248a0d72-d9cd-43d3-985f-a33a49a79e8b",
             "created": "2019-10-14T16:25:38.693Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Token tactics",

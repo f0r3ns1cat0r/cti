@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0ba5ddac-f78e-49aa-a17d-5cac60688684",
+    "id": "bundle--734aa4fb-605e-4137-a415-c6554b4877e7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -26,19 +26,9 @@
                     "url": "https://www.symantec.com/connect/blogs/malware-update-windows-update"
                 },
                 {
-                    "source_name": "Elastic - Hunting for Persistence Part 1",
-                    "description": "French, D., Murphy, B. (2020, March 24). Adversary tradecraft 101: Hunting for persistence using Elastic Security (Part 1). Retrieved December 21, 2020.",
-                    "url": "https://www.elastic.co/blog/hunting-for-persistence-using-elastic-security-part-1"
-                },
-                {
                     "source_name": "PaloAlto UBoatRAT Nov 2017",
                     "description": "Hayashi, K. (2017, November 28). UBoatRAT Navigates East Asia. Retrieved January 12, 2018.",
                     "url": "https://researchcenter.paloaltonetworks.com/2017/11/unit42-uboatrat-navigates-east-asia/"
-                },
-                {
-                    "source_name": "Microsoft Issues with BITS July 2011",
-                    "description": "Microsoft. (2011, July 19). Issues with BITS. Retrieved January 12, 2018.",
-                    "url": "https://technet.microsoft.com/library/dd939934.aspx"
                 },
                 {
                     "source_name": "Microsoft BITS",
@@ -64,28 +54,31 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:49:22.711Z",
+            "modified": "2026-04-15T19:57:02.003Z",
             "name": "BITS Jobs",
             "description": "Adversaries may abuse BITS jobs to persistently execute code and perform various background tasks. Windows Background Intelligent Transfer Service (BITS) is a low-bandwidth, asynchronous file transfer mechanism exposed through [Component Object Model](https://attack.mitre.org/techniques/T1559/001) (COM).(Citation: Microsoft COM)(Citation: Microsoft BITS) BITS is commonly used by updaters, messengers, and other applications preferred to operate in the background (using available idle bandwidth) without interrupting other networked applications. File transfer tasks are implemented as BITS jobs, which contain a queue of one or more file operations.\n\nThe interface to create and manage BITS jobs is accessible through [PowerShell](https://attack.mitre.org/techniques/T1059/001) and the [BITSAdmin](https://attack.mitre.org/software/S0190) tool.(Citation: Microsoft BITS)(Citation: Microsoft BITSAdmin)\n\nAdversaries may abuse BITS to download (e.g. [Ingress Tool Transfer](https://attack.mitre.org/techniques/T1105)), execute, and even clean up after running malicious code (e.g. [Indicator Removal](https://attack.mitre.org/techniques/T1070)). BITS tasks are self-contained in the BITS job database, without new files or registry modifications, and often permitted by host firewalls.(Citation: CTU BITS Malware June 2016)(Citation: Mondok Windows PiggyBack BITS May 2007)(Citation: Symantec BITS May 2007) BITS enabled execution may also enable persistence by creating long-standing jobs (the default maximum lifetime is 90 days and extendable) or invoking an arbitrary program when a job completes or errors (including after system reboots).(Citation: PaloAlto UBoatRAT Nov 2017)(Citation: CTU BITS Malware June 2016)\n\nBITS upload functionalities can also be used to perform [Exfiltration Over Alternative Protocol](https://attack.mitre.org/techniques/T1048).(Citation: CTU BITS Malware June 2016)",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "defense-evasion"
+                    "phase_name": "stealth"
                 },
                 {
                     "kill_chain_name": "mitre-attack",
                     "phase_name": "persistence"
+                },
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "execution"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_contributors": [
                 "Brent Murphy, Elastic",
                 "David French, Elastic",
-                "Ricardo Dias",
-                "Red Canary"
+                "Red Canary",
+                "Ricardo Dias"
             ],
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
@@ -94,7 +87,8 @@
             "x_mitre_platforms": [
                 "Windows"
             ],
-            "x_mitre_version": "1.5"
+            "x_mitre_version": "2.0",
+            "x_mitre_remote_support": false
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--86475711-39f6-4e12-ace5-d2c6914cb2c8",
+    "id": "bundle--defcaa96-6fde-409c-bbf6-7eadb9b866e0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--ce044795-c25e-44ba-8b23-d6a2173e9000",
             "created": "2022-09-30T18:56:10.392Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "win10_asr",

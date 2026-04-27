@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--120b4f49-88f2-450f-8003-35f196435790",
+    "id": "bundle--b238ed99-bd66-4c00-aacb-a3eb5931bec7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--f4852627-bc4c-41d7-bcd5-09e90ae0f13c",
             "created": "2024-09-23T23:05:22.165Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "group-ib_redcurl1",

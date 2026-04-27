@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--af45dd71-a86f-4266-9e9b-f4a273a9335a",
+    "id": "bundle--8386a6ed-153e-4216-9de5-d98584aab5fa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--deb5cfb8-d9e8-46bf-9f13-3f3dfca885d9",
             "created": "2023-03-13T15:32:23.087Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "AADInternals Root Access to Azure VMs",

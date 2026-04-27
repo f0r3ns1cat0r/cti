@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cb8117c4-b13a-4afb-b0e8-f7ac711c46d9",
+    "id": "bundle--59091b0f-5029-4cad-ba43-d4baa0ef140c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--6d1cd674-0466-4209-b9b5-7ce45ed359d1",
             "created": "2020-11-09T16:28:37.751Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Securelist Brazilian Banking Malware July 2020",

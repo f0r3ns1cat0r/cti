@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a34f7ecb-2444-46b3-974a-c75fb2a3023b",
+    "id": "bundle--c0821e2d-be8a-4c67-805e-a0f4d618e244",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--3691a1cd-c9d4-4492-b6c1-7ceb1b661758",
             "created": "2022-09-28T13:31:37.746Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "AADInternals Azure AD On-Prem to Cloud",

@@ -1,10 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--a45d4ad8-f2e0-4447-b3e2-8805269726bb",
+    "id": "bundle--cbc11d7c-1323-4160-99d6-9f03702cf3b3",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
+            "spec_version": "2.1",
             "id": "intrusion-set--4283ae19-69c7-4347-a35e-b56f08eb660b",
             "created": "2021-03-24T15:48:17.731Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

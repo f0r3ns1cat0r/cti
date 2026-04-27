@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--993e1cea-d5b7-4dc4-b951-0a1fa1b86073",
+    "id": "bundle--76b763ed-3ddb-4e2a-8c17-883003c76bb2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -65,15 +65,14 @@
             ],
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
             "x_mitre_is_subtechnique": true,
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_platforms": [
-                "Windows",
-                "Office Suite"
+                "Office Suite",
+                "Windows"
             ],
             "x_mitre_version": "1.2"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5ad5af03-117f-4e30-a8e5-eea48ca409b7",
+    "id": "bundle--4ece4c72-31be-47c9-8641-665356992c12",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--ab62293d-8f89-46b5-bab1-f7b564f5996f",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye FELIXROOT July 2018",

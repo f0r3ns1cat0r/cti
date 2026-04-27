@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2b6272ed-c8da-435c-8826-dce72aa90ea0",
+    "id": "bundle--10195d83-a0e0-4fd3-afbe-2754b21b8cad",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--ea33531e-7a8f-45a1-a408-c8f405512aaa",
             "created": "2021-09-28T20:13:25.332Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Crowdstrike Qakbot October 2020",

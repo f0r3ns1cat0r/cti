@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a42c8ab4-0b47-4b3b-8950-db7309ba9f0d",
+    "id": "bundle--6076cc01-8dc7-4b42-ac46-c48302ecaec0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--5a094c68-b8cd-470b-a4ff-11109fd0b309",
             "created": "2024-03-13T21:09:35.338Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant Cutting Edge Part 3 February 2024",

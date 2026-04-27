@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--626e7012-15f8-4a3b-a456-a5fc4ce0b1fb",
+    "id": "bundle--c30ad3fb-7d2b-4c3c-9d7b-cb73c51de119",
     "spec_version": "2.0",
     "objects": [
         {
@@ -23,13 +23,13 @@
                 {
                     "source_name": "FireEye APT38 Oct 2018",
                     "description": "FireEye. (2018, October 03). APT38: Un-usual Suspects. Retrieved November 17, 2024.",
-                    "url": "https://www.mandiant.com/sites/default/files/2021-09/rpt-apt38-2018-web_v5-1.pdf"
+                    "url": "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:37.277Z",
+            "modified": "2025-11-13T19:21:05.132Z",
             "name": "Runtime Data Manipulation",
             "description": "Adversaries may modify systems in order to manipulate the data as it is accessed and displayed to an end user, thus threatening the integrity of the data.(Citation: FireEye APT38 Oct 2018)(Citation: DOJ Lazarus Sony 2018) By manipulating runtime data, adversaries may attempt to affect a business process, organizational understanding, and decision making.\n\nAdversaries may alter application binaries used to display data in order to cause runtime manipulations. Adversaries may also conduct [Change Default File Association](https://attack.mitre.org/techniques/T1546/001) and [Masquerading](https://attack.mitre.org/techniques/T1036) to cause a similar effect. The type of modification and the impact it will have depends on the target application and process as well as the goals and objectives of the adversary. For complex systems, an adversary would likely need special expertise and possibly access to specialized software related to the system that would typically be gained through a prolonged information gathering campaign in order to have the desired impact.",
             "kill_chain_phases": [
@@ -38,9 +38,8 @@
                     "phase_name": "impact"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],

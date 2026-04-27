@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3394484a-e6ca-4645-95b0-1957df1e5850",
+    "id": "bundle--889aab35-9c90-4325-ae09-b48e08c8de0d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--237d7c2e-503a-420c-bf94-047f5c42a646",
             "created": "2023-01-17T21:50:41.856Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco Talos Avos Jun 2022",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--389e9d84-6912-4cb4-a0fe-15a21cf74816",
+    "id": "bundle--c5f1bcb5-d160-43bf-b9cd-b1c870e2cef6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--2133b98d-891c-4602-8c01-4fc93b807980",
             "created": "2024-12-17T01:48:17.515Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trustwave BlackByte 2021",

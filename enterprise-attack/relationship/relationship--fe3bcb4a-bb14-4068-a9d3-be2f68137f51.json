@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cc54c32c-f6b8-427e-a109-4ba36b769045",
+    "id": "bundle--bbd4f5e6-074a-4bf1-b261-7f87330cb963",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--fe3bcb4a-bb14-4068-a9d3-be2f68137f51",
             "created": "2023-03-02T18:43:56.317Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sophos BlackCat Jul 2022",

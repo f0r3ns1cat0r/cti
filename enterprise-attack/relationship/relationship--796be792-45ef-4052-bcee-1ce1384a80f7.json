@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a2820aa2-df17-46db-89be-0346b902a7db",
+    "id": "bundle--868db34d-c158-4735-b00f-10087e707827",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--796be792-45ef-4052-bcee-1ce1384a80f7",
             "created": "2022-03-24T19:30:57.179Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "dhcp_serv_op_events",

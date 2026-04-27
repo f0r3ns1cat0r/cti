@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d5eeeae9-3242-479e-b0b9-87066723f108",
+    "id": "bundle--3f9b9420-941e-444a-b6aa-1e19a6a1d838",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--c09c2f08-3bda-4af7-9578-01fa1c7fba2c",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "GitHub Invoke-PSImage",

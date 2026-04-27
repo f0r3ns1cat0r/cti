@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a23c68d7-7103-431b-878c-b47ac3a596be",
+    "id": "bundle--ad186a6b-0d80-4234-82ff-bf48116f65a2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--df3c6782-1a01-4627-9715-f2a10cf2c0d9",
             "created": "2024-03-21T21:23:26.792Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TCC macOS bypass",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9c8cebde-a8a1-4b33-b59e-a5d953ff8ff1",
+    "id": "bundle--e2d44263-59f2-4aee-83f5-b7a0163f41a2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--6607178e-a8b4-4da9-b985-3712eb71a303",
             "created": "2020-03-25T18:30:50.106Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "RedLock Instance Metadata API 2018",

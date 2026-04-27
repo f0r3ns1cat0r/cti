@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c7b343c2-53aa-451e-b7f8-d9bd9d6e9eaa",
+    "id": "bundle--3527fb4a-38f6-4583-a8e3-36c6f554a1a8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--df6ec6c4-6ae9-4f54-a0fb-0937f5a3bf01",
             "created": "2023-08-17T17:07:35.134Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant APT29 Eye Spy Email Nov 22",

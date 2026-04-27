@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f89d621f-9c5c-41f0-9ab1-908183d388a6",
+    "id": "bundle--452bc71e-3755-46e8-827b-9051d74e6182",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--d8b7535e-7cf7-408e-acd3-a42fc77a5e35",
             "created": "2021-03-29T16:39:26.351Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Docker Daemon Socket Protect",

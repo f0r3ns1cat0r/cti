@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8763613b-b3cd-48fc-bf8d-aa8f177c910b",
+    "id": "bundle--b8116d75-df42-4253-88ba-05a8c9fa651b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--b3e2abaa-f431-4791-95d0-d44f3a74a73f",
             "created": "2020-06-30T22:12:28.108Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET ComRAT May 2020",

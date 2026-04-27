@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e94f5a44-6e2e-4e81-bd79-bbfa79d5d4fe",
+    "id": "bundle--de1eb9f9-945c-46a2-ae26-e4a29e33c034",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--d687171f-152f-4211-95bb-e051dc61575f",
             "created": "2022-04-15T01:29:57.601Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelOne Hermetic Wiper February 2022",

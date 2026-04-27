@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d3cbe505-2f3b-4b48-9efa-1fbb7c1c9b4b",
+    "id": "bundle--c6baa4f5-54df-44c4-922d-3f1fc339a07d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--5d329e39-a38b-47cd-8d3d-fa7515280fd7",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-04-24T20:31:55.528Z",
             "name": "Analytic 1372",
-            "description": "Detection of adversaries disabling cloud monitoring and logging agents such as CloudWatch, Google Cloud Monitoring, or Azure Monitor by API calls or agent process termination.",
+            "description": "Correlates control-plane API actions disabling cloud-native monitoring or sensor agents (CloudTrail, GuardDuty, Security Hub, Defender, monitoring agents), role abuse preceding disablement, or instance agent uninstall events",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "enterprise-attack"
@@ -46,8 +48,7 @@
                     "field": "UserContext",
                     "description": "Distinguishes adversary actions from authorized DevOps/CloudOps activities."
                 }
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

@@ -1,10 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--6d26245c-ac39-43bf-a612-7688b740ac65",
+    "id": "bundle--f2160e5d-3f21-493a-8877-b274af5b23d3",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
+            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--a5800f15-f024-4701-912a-20d7e1cb465a",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

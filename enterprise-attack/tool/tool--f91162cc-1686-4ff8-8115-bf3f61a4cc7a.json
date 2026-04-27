@@ -1,27 +1,9 @@
 {
     "type": "bundle",
-    "id": "bundle--78230198-4d54-4cbc-83b0-5ef0821d27d3",
+    "id": "bundle--6a1c285d-7205-4822-87d7-dba05ac6fe77",
     "spec_version": "2.0",
     "objects": [
         {
-            "modified": "2024-09-25T20:32:25.006Z",
-            "name": "Wevtutil",
-            "description": "[Wevtutil](https://attack.mitre.org/software/S0645) is a Windows command-line utility that enables administrators to retrieve information about event logs and publishers.(Citation: Wevtutil Microsoft Documentation)",
-            "x_mitre_platforms": [
-                "Windows"
-            ],
-            "x_mitre_deprecated": false,
-            "x_mitre_domains": [
-                "enterprise-attack"
-            ],
-            "x_mitre_version": "1.2",
-            "x_mitre_contributors": [
-                "Viren Chaudhari, Qualys",
-                "Harshal Tupsamudre, Qualys"
-            ],
-            "x_mitre_aliases": [
-                "Wevtutil"
-            ],
             "type": "tool",
             "id": "tool--f91162cc-1686-4ff8-8115-bf3f61a4cc7a",
             "created": "2021-09-14T21:45:30.280Z",
@@ -42,8 +24,26 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "modified": "2026-04-17T14:19:59.238Z",
+            "name": "Wevtutil",
+            "description": "[Wevtutil](https://attack.mitre.org/software/S0645) is a Windows command-line utility that enables administrators to retrieve information about event logs and publishers.(Citation: Wevtutil Microsoft Documentation)",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_platforms": [
+                "Windows"
+            ],
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [
+                "enterprise-attack"
+            ],
+            "x_mitre_version": "1.3",
+            "x_mitre_attack_spec_version": "3.3.0",
+            "x_mitre_contributors": [
+                "Viren Chaudhari, Qualys",
+                "Harshal Tupsamudre, Qualys"
+            ],
+            "x_mitre_aliases": [
+                "Wevtutil"
+            ],
             "labels": [
                 "tool"
             ]

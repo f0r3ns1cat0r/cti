@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--db21d32b-e67f-4b68-8229-981a17342bd7",
+    "id": "bundle--23d97e3c-624d-46bf-843e-eb7dca2426c7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--cbb40150-0414-4b36-a28b-f7d2088f535a",
             "created": "2021-03-31T14:26:00.974Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kubernetes RBAC",

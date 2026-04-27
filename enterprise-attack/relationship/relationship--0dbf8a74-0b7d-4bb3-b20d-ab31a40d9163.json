@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e3c4d8b0-3aeb-4b43-aaf9-b52a4ee0d5c4",
+    "id": "bundle--9b5281d8-a4a2-42d3-a6b1-2ec5ea7b3068",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--0dbf8a74-0b7d-4bb3-b20d-ab31a40d9163",
             "created": "2024-03-28T15:45:46.802Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye TRITON 2019",

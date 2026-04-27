@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--88b7e3d1-8f94-44ee-afa4-ad67aa8de577",
+    "id": "bundle--fda5a628-6659-4fcf-a0c5-9ee762e575af",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--1dfbbbe3-c04d-4ad6-98bf-15a9cd84ab06",
             "created": "2023-04-05T15:22:47.622Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelLabs Metador Technical Appendix Sept 2022",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0ce65dec-a4f4-4813-ad98-bdfe25b1c606",
+    "id": "bundle--5caf3bc5-d709-4976-b54f-8f9130dcdc75",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--db85221a-3d34-4e8d-bcb1-95b507617b84",
             "created": "2022-03-25T18:44:17.940Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Qualys Hermetic Wiper March 2022",

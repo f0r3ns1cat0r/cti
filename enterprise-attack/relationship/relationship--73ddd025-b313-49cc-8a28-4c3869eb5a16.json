@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7cace5ea-55de-4964-8253-d3fce7cb4814",
+    "id": "bundle--0a1bc748-a0d1-4d8f-ac5e-89b317d8415c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--73ddd025-b313-49cc-8a28-4c3869eb5a16",
             "created": "2021-07-30T15:49:45.805Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "GitHub Sliver C2 DNS",

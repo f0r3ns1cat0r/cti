@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8636b426-538c-4e8d-8120-bad4ac31fd46",
+    "id": "bundle--a3970daf-99c4-4dd1-935f-6bbd92bac68a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--bfe6736d-9bda-4f6e-87f9-8e6f3364a915",
             "created": "2023-07-13T19:24:56.236Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CrowdStrike Scattered Spider BYOVD January 2023",

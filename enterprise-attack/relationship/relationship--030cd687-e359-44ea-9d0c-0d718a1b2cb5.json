@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ae2bffb4-0778-4b87-9f70-b1fddbb95eef",
+    "id": "bundle--1b1fabb5-8d77-44fd-b6ad-f4416a77b822",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--030cd687-e359-44ea-9d0c-0d718a1b2cb5",
             "created": "2025-03-24T21:41:14.437Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Dev Tunnels Group Policies",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--603f44ca-e931-451e-bd9c-4edd1d83e79d",
+    "id": "bundle--bd3af16c-618c-4fcc-941d-df16376df7f6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--70add783-c72c-4048-ba94-5e1e79c2d679",
             "created": "2019-10-10T19:17:52.805Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CloudSploit - Unused AWS Regions",

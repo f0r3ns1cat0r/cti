@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3953035f-bef3-4b1d-babc-54d6b4b0e42d",
+    "id": "bundle--a0bebed9-4eed-46dd-a529-9271b5e05f7f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -33,13 +33,13 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:25.071Z",
+            "modified": "2026-04-14T22:53:15.463Z",
             "name": "Component Firmware",
             "description": "Some adversaries may employ sophisticated means to compromise computer components and install malicious firmware that will execute adversary code outside of the operating system and main system firmware or BIOS. This technique may be similar to [System Firmware](https://attack.mitre.org/techniques/T1019) but conducted upon other system components that may not have the same capability or level of integrity checking. Malicious device firmware could provide both a persistent level of access to systems despite potential typical failures to maintain access and hard disk re-images, as well as a way to evade host software-based defenses and integrity checks.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "defense-evasion"
+                    "phase_name": "stealth"
                 },
                 {
                     "kill_chain_name": "mitre-attack",
@@ -48,7 +48,6 @@
             ],
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],

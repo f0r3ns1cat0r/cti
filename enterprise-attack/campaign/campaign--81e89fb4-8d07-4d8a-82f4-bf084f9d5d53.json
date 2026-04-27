@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c9ab8677-dafc-40f9-ada7-d354d98c135f",
+    "id": "bundle--8104ab23-ac02-4173-8b26-eea0885caec6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -20,6 +20,7 @@
                 "Inna Danilevich, U.S. Bank"
             ],
             "type": "campaign",
+            "spec_version": "2.1",
             "id": "campaign--81e89fb4-8d07-4d8a-82f4-bf084f9d5d53",
             "created": "2024-07-17T19:42:07.269Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -45,10 +46,7 @@
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "x_mitre_attack_spec_version": "3.2.0",
-            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_domains": [
-                "enterprise-attack"
-            ]
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
         }
     ]
 }

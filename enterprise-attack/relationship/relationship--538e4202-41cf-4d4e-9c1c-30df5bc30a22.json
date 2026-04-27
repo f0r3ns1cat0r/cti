@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ea5c2c21-6b6e-463e-8a75-21798638fad3",
+    "id": "bundle--02d2d448-356e-46c0-8b11-5f9a5c20e619",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
                 {
                     "source_name": "CobaltStrike Daddy May 2017",
                     "description": "Mudge, R. (2017, May 23). Cobalt Strike 3.8 \u2013 Who\u2019s Your Daddy?. Retrieved June 4, 2019.",
-                    "url": "https://blog.cobaltstrike.com/2017/05/23/cobalt-strike-3-8-whos-your-daddy/"
+                    "url": "https://web.archive.org/web/20171009220105/https://blog.cobaltstrike.com/2017/05/23/cobalt-strike-3-8-whos-your-daddy/"
                 },
                 {
                     "source_name": "Cobalt Strike Manual 4.3 November 2020",
@@ -23,14 +23,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:48:07.082Z",
+            "modified": "2026-01-20T15:49:13.819Z",
             "description": "[Cobalt Strike](https://attack.mitre.org/software/S0154) can spawn processes with alternate PPIDs.(Citation: CobaltStrike Daddy May 2017)(Citation: Cobalt Strike Manual 4.3 November 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
             "target_ref": "attack-pattern--93591901-3172-4e94-abf8-6034ab26f44a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

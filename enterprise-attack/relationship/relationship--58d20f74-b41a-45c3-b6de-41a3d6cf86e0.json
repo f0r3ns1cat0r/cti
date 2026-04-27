@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--98228252-9816-43df-aa83-af5201d77117",
+    "id": "bundle--369e1e27-80ad-4f1a-be92-e9d40a3407aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--58d20f74-b41a-45c3-b6de-41a3d6cf86e0",
             "created": "2025-01-08T21:16:35.918Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant APT42-charms",

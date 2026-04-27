@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3af9f613-927f-4c73-8e4f-fa522f0424e5",
+    "id": "bundle--a8f7f886-3952-44c4-9ecd-b92ee1289cd6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--c60596a4-8947-4e43-8a4a-05bb5826d0fd",
             "created": "2025-09-29T19:06:43.596Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelOne Qilin NOV 2022",

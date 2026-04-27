@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--be9bbe3d-b9dc-4137-9ad9-0fd30563e445",
+    "id": "bundle--414e3f79-545c-4957-a97f-6c51b60719a1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--3a86072e-4ca6-4b5d-bf31-b17c250f572e",
             "created": "2020-06-29T03:27:51.057Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA ComRAT Oct 2020",

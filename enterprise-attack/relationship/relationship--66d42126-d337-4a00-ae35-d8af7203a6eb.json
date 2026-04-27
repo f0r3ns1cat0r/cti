@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0e3c0143-65ca-4382-b0ec-9c6f0e146383",
+    "id": "bundle--0fe1374f-0acc-4c55-887f-8eae374aeae7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--66d42126-d337-4a00-ae35-d8af7203a6eb",
             "created": "2020-05-01T14:48:36.806Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT41 Aug 2019",

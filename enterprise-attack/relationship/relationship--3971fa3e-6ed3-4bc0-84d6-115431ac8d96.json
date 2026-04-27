@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fb1a9f8b-5f06-4781-af93-71e1d44f0813",
+    "id": "bundle--ba80ca54-6c7b-47c6-b93a-2bc5361e16aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--3971fa3e-6ed3-4bc0-84d6-115431ac8d96",
             "created": "2024-12-31T16:18:53.134Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "DCSO StrelaStealer 2022",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c3a516b3-3a54-47f5-98f2-1c17770ef9cd",
+    "id": "bundle--f79ad86e-20a1-47ef-a854-851dc1b4b799",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--5fc69974-db3b-4475-b37b-07c4731b1a6f",
             "created": "2022-04-15T13:50:12.466Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Shuckworm January 2022",

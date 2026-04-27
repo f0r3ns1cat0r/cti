@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--494a9733-1f22-440b-8db6-411e580172bf",
+    "id": "bundle--a54933b7-714c-4de8-b63b-12ce65dec503",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--24db980d-90c2-4934-838c-92209ae110f7",
             "created": "2023-03-14T17:49:22.252Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft ASR Obfuscation",

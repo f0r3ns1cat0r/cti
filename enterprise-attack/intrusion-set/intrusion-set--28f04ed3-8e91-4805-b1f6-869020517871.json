@@ -1,10 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--a31ffe47-d4de-40dd-bf87-0ac040bba930",
+    "id": "bundle--c0b252e1-0025-47f3-a694-d32c4574559e",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
+            "spec_version": "2.1",
             "id": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
             "created": "2020-11-17T20:33:44.273Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -36,14 +37,14 @@
             ],
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": true,
-            "x_mitre_domains": [
-                "enterprise-attack"
-            ],
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_contributors": [
                 "Erik Schamper, @Schamperr, Fox-IT",
                 "Maarten van Dantzig, @MaartenVDantzig, Fox-IT"
+            ],
+            "x_mitre_domains": [
+                "enterprise-attack"
             ]
         }
     ]

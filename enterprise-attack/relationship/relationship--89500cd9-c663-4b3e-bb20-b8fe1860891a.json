@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c3c9bc3a-708a-46c0-9467-97266a880599",
+    "id": "bundle--3c96e0b1-f72e-4e91-a3f9-ea6ef373683f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--89500cd9-c663-4b3e-bb20-b8fe1860891a",
             "created": "2021-01-29T18:17:07.821Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Crowdstrike Indrik November 2018",

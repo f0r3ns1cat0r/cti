@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cd7879df-1786-4754-b11b-3d0007077125",
+    "id": "bundle--1bdbda9d-3ad1-4616-8f9f-7dd86b6a0e37",
     "spec_version": "2.0",
     "objects": [
         {
@@ -28,7 +28,7 @@
                 {
                     "source_name": "Drakonia HInvoke",
                     "description": "drakonia. (2022, August 10). HInvoke and avoiding PInvoke. Retrieved August 22, 2022.",
-                    "url": "https://dr4k0nia.github.io/dotnet/coding/2022/08/10/HInvoke-and-avoiding-PInvoke.html?s=03"
+                    "url": "https://dr4k0nia.github.io/posts/HInvoke-and-avoiding-PInvoke/"
                 },
                 {
                     "source_name": "IRED API Hashing",
@@ -39,18 +39,17 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-15T22:24:25.266Z",
+            "modified": "2026-04-15T22:17:50.411Z",
             "name": "Dynamic API Resolution",
             "description": "Adversaries may obfuscate then dynamically resolve API functions called by their malware in order to conceal malicious functionalities and impair defensive analysis. Malware commonly uses various [Native API](https://attack.mitre.org/techniques/T1106) functions provided by the OS to perform various tasks such as those involving processes, files, and other system artifacts.\n\nAPI functions called by malware may leave static artifacts such as strings in payload files. Defensive analysts may also uncover which functions a binary file may execute via an import address table (IAT) or other structures that help dynamically link calling code to the shared modules that provide functions.(Citation: Huntress API Hash)(Citation: IRED API Hashing)\n\nTo avoid static or other defensive analysis, adversaries may use dynamic API resolution to conceal malware characteristics and functionalities. Similar to [Software Packing](https://attack.mitre.org/techniques/T1027/002), dynamic API resolution may change file signatures and obfuscate malicious API function calls until they are resolved and invoked during runtime.\n\nVarious methods may be used to obfuscate malware calls to API functions. For example, hashes of function names are commonly stored in malware in lieu of literal strings. Malware can use these hashes (or other identifiers) to manually reproduce the linking and loading process using functions such as `GetProcAddress()` and `LoadLibrary()`. These hashes/identifiers can also be further obfuscated using encryption or other string manipulation tricks (requiring various forms of [Deobfuscate/Decode Files or Information](https://attack.mitre.org/techniques/T1140) during execution).(Citation: BlackHat API Packers)(Citation: Drakonia HInvoke)(Citation: Huntress API Hash)",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "defense-evasion"
+                    "phase_name": "stealth"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
@@ -59,7 +58,7 @@
             "x_mitre_platforms": [
                 "Windows"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "2.0"
         }
     ]
 }

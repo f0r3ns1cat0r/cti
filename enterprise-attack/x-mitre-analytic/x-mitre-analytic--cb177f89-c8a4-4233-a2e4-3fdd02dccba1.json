@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5e544026-428e-4e72-8d11-9ad09f35d42e",
+    "id": "bundle--3d0aafd0-1440-4307-90b0-0cc43b34ab1b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--cb177f89-c8a4-4233-a2e4-3fdd02dccba1",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,10 +19,11 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-03-13T22:29:39.660Z",
             "name": "Analytic 1616",
-            "description": "Enumeration of user or role objects via IdP API endpoints or LDAP queries.",
+            "description": "Detection of identity directory enumeration through API calls or administrative queries retrieving multiple account objects within a short interval.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -51,8 +53,7 @@
                     "field": "AppContext",
                     "description": "Correlate enumeration with unexpected app registrations or identities."
                 }
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

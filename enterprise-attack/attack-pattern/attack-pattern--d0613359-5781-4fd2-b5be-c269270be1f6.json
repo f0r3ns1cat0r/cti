@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7f58582e-96fc-4013-aaeb-9a77f19260af",
+    "id": "bundle--d68f7501-2f33-4932-9e00-d72b90a24a6d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -23,13 +23,13 @@
                 {
                     "source_name": "FireEye APT38 Oct 2018",
                     "description": "FireEye. (2018, October 03). APT38: Un-usual Suspects. Retrieved November 17, 2024.",
-                    "url": "https://www.mandiant.com/sites/default/files/2021-09/rpt-apt38-2018-web_v5-1.pdf"
+                    "url": "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:49:25.162Z",
+            "modified": "2025-11-13T19:21:05.133Z",
             "name": "Transmitted Data Manipulation",
             "description": "Adversaries may alter data en route to storage or other systems in order to manipulate external outcomes or hide activity, thus threatening the integrity of the data.(Citation: FireEye APT38 Oct 2018)(Citation: DOJ Lazarus Sony 2018) By manipulating transmitted data, adversaries may attempt to affect a business process, organizational understanding, and decision making.\n\nManipulation may be possible over a network connection or between system processes where there is an opportunity deploy a tool that will intercept and change information. The type of modification and the impact it will have depends on the target transmission mechanism as well as the goals and objectives of the adversary. For complex systems, an adversary would likely need special expertise and possibly access to specialized software related to the system that would typically be gained through a prolonged information gathering campaign in order to have the desired impact.",
             "kill_chain_phases": [
@@ -38,9 +38,8 @@
                     "phase_name": "impact"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],

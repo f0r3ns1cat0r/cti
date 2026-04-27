@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--195c1a25-884f-4aa6-8e52-7e02614a5654",
+    "id": "bundle--155eb892-0c2e-4105-84b3-1d9d6c09bfdf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--bbc492bf-de7c-4ef7-ba1b-565ec0f22379",
             "created": "2023-03-26T16:29:30.679Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye SUNBURST Backdoor December 2020",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ba890f81-5a35-4c54-b244-0fe145ff6321",
+    "id": "bundle--4fcc6c28-eb11-43b3-90e2-d2b259a335d7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -11,6 +11,11 @@
             "revoked": false,
             "external_references": [
                 {
+                    "source_name": "Gen Digital Kimsuky HTTPTroy October 2025",
+                    "description": "Alexndru-Cristian Bardas. (2025, October 30). DPRK\u2019s Playbook: Kimsuky\u2019s HttpTroy and Lazarus\u2019s New BLINDINGCAN Variant. Retrieved April 8, 2026.",
+                    "url": "https://www.gendigital.com/blog/insights/research/dprk-kimsuky-lazarus-analysis"
+                },
+                {
                     "source_name": "KISA Operation Muzabi",
                     "description": "KISA. (2021). Phishing Target Reconnaissance and Attack Resource Analysis Operation Muzabi. Retrieved March 8, 2024.",
                     "url": "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf"
@@ -19,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:45:10.170Z",
-            "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has executed malware with <code>regsvr32s</code>.(Citation: KISA Operation Muzabi)",
+            "modified": "2026-04-19T00:24:26.478Z",
+            "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has executed malware with <code>regsvr32s</code>.(Citation: Gen Digital Kimsuky HTTPTroy October 2025)(Citation: KISA Operation Muzabi)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
             "target_ref": "attack-pattern--b97f1d35-4249-4486-a6b5-ee60ccf24fab",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

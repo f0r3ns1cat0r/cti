@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2acb1f61-afb8-4c9f-945d-b37320f3d56f",
+    "id": "bundle--85e507f4-bbfa-4dae-ba47-104064b2f9e4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--c4cd9acb-aaea-4b77-890e-f153a58623a4",
             "created": "2019-07-18T15:05:36.677Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "reagentc_cmd",

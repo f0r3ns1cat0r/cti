@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f00887e9-52c8-444f-ba11-89c5f34f49f0",
+    "id": "bundle--05528ab9-9fd6-496c-ae88-96785fcf7aa6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,13 +24,13 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:49.115Z",
+            "modified": "2026-04-14T22:53:14.915Z",
             "name": "File Deletion",
             "description": "Adversaries may delete files left behind by the actions of their intrusion activity. Malware, tools, or other non-native files dropped or created on a system by an adversary may leave traces to indicate to what was done within a network and how. Removal of these files can occur during an intrusion, or as part of a post-intrusion process to minimize the adversary's footprint.\n\nThere are tools available from the host operating system to perform cleanup, but adversaries may use other tools as well. Examples include native [cmd](https://attack.mitre.org/software/S0106) functions such as DEL, secure deletion tools such as Windows Sysinternals SDelete, or other third-party file deletion tools. (Citation: Trend Micro APT Attack Tools)",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "defense-evasion"
+                    "phase_name": "stealth"
                 }
             ],
             "x_mitre_attack_spec_version": "3.2.0",
@@ -38,7 +38,6 @@
                 "Walker Johnson"
             ],
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],

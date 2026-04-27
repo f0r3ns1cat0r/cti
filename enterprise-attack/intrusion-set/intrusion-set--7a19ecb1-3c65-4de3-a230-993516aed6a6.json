@@ -1,31 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--5fa9de99-38c2-4480-87ba-ba62682cd3f4",
+    "id": "bundle--d44d81f5-6a48-4419-a8fe-d4804b17e3fc",
     "spec_version": "2.0",
     "objects": [
         {
-            "modified": "2024-06-26T18:09:33.862Z",
-            "name": "Turla",
-            "description": "[Turla](https://attack.mitre.org/groups/G0010) is a cyber espionage threat group that has been attributed to Russia's Federal Security Service (FSB).  They have compromised victims in over 50 countries since at least 2004, spanning a range of industries including government, embassies, military, education, research and pharmaceutical companies. [Turla](https://attack.mitre.org/groups/G0010) is known for conducting watering hole and spearphishing campaigns, and leveraging in-house tools and malware, such as [Uroburos](https://attack.mitre.org/software/S0022).(Citation: Kaspersky Turla)(Citation: ESET Gazer Aug 2017)(Citation: CrowdStrike VENOMOUS BEAR)(Citation: ESET Turla Mosquito Jan 2018)(Citation: Joint Cybersecurity Advisory AA23-129A Snake Malware May 2023)",
-            "aliases": [
-                "Turla",
-                "IRON HUNTER",
-                "Group 88",
-                "Waterbug",
-                "WhiteBear",
-                "Snake",
-                "Krypton",
-                "Venomous Bear",
-                "Secret Blizzard",
-                "BELUGASTURGEON"
-            ],
-            "x_mitre_deprecated": false,
-            "x_mitre_version": "5.1",
-            "x_mitre_contributors": [
-                "Matthieu Faou, ESET",
-                "Edward Millington"
-            ],
             "type": "intrusion-set",
+            "spec_version": "2.1",
             "id": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
             "created": "2017-05-31T21:31:49.816Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -71,7 +51,7 @@
                 {
                     "source_name": "Accenture HyperStack October 2020",
                     "description": "Accenture. (2020, October). Turla uses HyperStack, Carbon, and Kazuar to compromise government entity. Retrieved December 2, 2020.",
-                    "url": "https://www.accenture.com/us-en/blogs/cyber-defense/turla-belugasturgeon-compromises-government-entity"
+                    "url": "https://web.archive.org/web/20201101015247/https://www.accenture.com/us-en/blogs/cyber-defense/turla-belugasturgeon-compromises-government-entity"
                 },
                 {
                     "source_name": "Waterbug",
@@ -145,11 +125,32 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "modified": "2026-01-20T15:11:37.732Z",
+            "name": "Turla",
+            "description": "[Turla](https://attack.mitre.org/groups/G0010) is a cyber espionage threat group that has been attributed to Russia's Federal Security Service (FSB).  They have compromised victims in over 50 countries since at least 2004, spanning a range of industries including government, embassies, military, education, research and pharmaceutical companies. [Turla](https://attack.mitre.org/groups/G0010) is known for conducting watering hole and spearphishing campaigns, and leveraging in-house tools and malware, such as [Uroburos](https://attack.mitre.org/software/S0022).(Citation: Kaspersky Turla)(Citation: ESET Gazer Aug 2017)(Citation: CrowdStrike VENOMOUS BEAR)(Citation: ESET Turla Mosquito Jan 2018)(Citation: Joint Cybersecurity Advisory AA23-129A Snake Malware May 2023)",
+            "aliases": [
+                "Turla",
+                "IRON HUNTER",
+                "Group 88",
+                "Waterbug",
+                "WhiteBear",
+                "Snake",
+                "Krypton",
+                "Venomous Bear",
+                "Secret Blizzard",
+                "BELUGASTURGEON"
+            ],
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "5.1",
+            "x_mitre_attack_spec_version": "3.3.0",
+            "x_mitre_contributors": [
+                "Matthieu Faou, ESET",
+                "Edward Millington"
+            ],
             "x_mitre_domains": [
                 "enterprise-attack"
-            ],
-            "x_mitre_attack_spec_version": "3.2.0",
-            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+            ]
         }
     ]
 }

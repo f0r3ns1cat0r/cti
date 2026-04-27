@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c143c687-83a8-4aad-b082-0816ca21b128",
+    "id": "bundle--cc667193-a54a-4dae-a5f8-cfe67fb0a805",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--394d53b3-da1c-44b4-8abf-e1092f34c8be",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos GravityRAT",

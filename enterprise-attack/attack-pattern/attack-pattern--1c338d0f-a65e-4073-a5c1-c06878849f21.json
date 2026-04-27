@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d47140c2-b593-41d3-a94c-c6756f9288ce",
+    "id": "bundle--6a7d9e1a-ef53-48e2-a2ee-87e7fb0ea5b1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,18 +29,17 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:28.786Z",
+            "modified": "2026-04-14T22:53:15.118Z",
             "name": "Process Hollowing",
             "description": "Process hollowing occurs when a process is created in a suspended state then its memory is unmapped and replaced with malicious code. Similar to [Process Injection](https://attack.mitre.org/techniques/T1055), execution of the malicious code is masked under a legitimate process and may evade defenses and detection analysis. (Citation: Leitch Hollowing) (Citation: Elastic Process Injection July 2017)",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "defense-evasion"
+                    "phase_name": "stealth"
                 }
             ],
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],

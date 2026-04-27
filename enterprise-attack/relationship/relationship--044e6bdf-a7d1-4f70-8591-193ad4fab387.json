@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8c19f044-c178-4fc0-b207-864fe422cab9",
+    "id": "bundle--e445edb6-5456-4537-be25-3ebbb2d69b78",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--044e6bdf-a7d1-4f70-8591-193ad4fab387",
             "created": "2023-09-13T18:55:35.415Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Proofpoint TA2541 February 2022",

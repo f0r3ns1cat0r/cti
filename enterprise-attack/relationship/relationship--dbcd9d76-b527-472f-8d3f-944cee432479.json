@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1aa4fb26-c762-4b99-8fdb-e36194bb431b",
+    "id": "bundle--8b07ae05-df41-4a24-a7e2-8281ba5417e5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--dbcd9d76-b527-472f-8d3f-944cee432479",
             "created": "2023-07-07T19:29:06.837Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Crowdstrike TELCO BPO Campaign December 2022",

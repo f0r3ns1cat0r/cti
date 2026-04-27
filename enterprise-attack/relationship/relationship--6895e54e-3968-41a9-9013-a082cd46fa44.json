@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--43396a68-ba02-4a08-af8a-d3d9d1b7dfcf",
+    "id": "bundle--31582881-83c3-43f6-b99f-9caf2576836d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--6895e54e-3968-41a9-9013-a082cd46fa44",
             "created": "2020-05-14T14:40:26.221Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Red Canary Hospital Thwarted Ryuk October 2020",
@@ -48,7 +47,7 @@
                 {
                     "source_name": "Mandiant FIN12 Oct 2021",
                     "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
-                    "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+                    "url": "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
                 },
                 {
                     "source_name": "DFIR Ryuk 2 Hour Speed Run November 2020",
@@ -69,14 +68,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:20:55.390Z",
+            "modified": "2026-01-20T16:26:04.865Z",
             "description": "(Citation: CrowdStrike Ryuk January 2019)(Citation: Red Canary Hospital Thwarted Ryuk October 2020)(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)(Citation: FireEye KEGTAP SINGLEMALT October 2020)(Citation: DFIR Ryuk's Return October 2020)(Citation: DFIR Ryuk 2 Hour Speed Run November 2020)(Citation: DFIR Ryuk in 5 Hours October 2020)(Citation: Sophos New Ryuk Attack October 2020)(Citation: CrowdStrike Wizard Spider October 2020)(Citation: Mandiant FIN12 Oct 2021)(Citation: Microsoft Ransomware as a Service)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
             "target_ref": "malware--a020a61c-423f-4195-8c46-ba1d21abba37",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

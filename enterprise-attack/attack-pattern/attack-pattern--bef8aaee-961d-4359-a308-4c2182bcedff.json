@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7bde740f-bab6-4c86-9cd6-8d0c8b6fa3d4",
+    "id": "bundle--ba4b469d-365a-4127-8a24-3d0831f8c874",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--bef8aaee-961d-4359-a308-4c2182bcedff",
             "created": "2023-03-14T16:04:24.865Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -24,13 +24,13 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-15T23:12:05.813Z",
+            "modified": "2026-04-14T22:54:43.164Z",
             "name": "Spoof Security Alerting",
             "description": "Adversaries may spoof security alerting from tools, presenting false evidence to impair defenders\u2019 awareness of malicious activity.(Citation: BlackBasta) Messages produced by defensive tools contain information about potential security events as well as the functioning status of security software and the system. Security reporting messages are important for monitoring the normal operation of a system and identifying important events that can signal a security incident.\n\nRather than or in addition to [Indicator Blocking](https://attack.mitre.org/techniques/T1562/006), an adversary can spoof positive affirmations that security tools are continuing to function even after legitimate security tools have been disabled (e.g., [Disable or Modify Tools](https://attack.mitre.org/techniques/T1562/001)). An adversary can also present a \u201chealthy\u201d system status even after infection. This can be abused to enable further malicious activity by delaying defender responses.\n\nFor example, adversaries may show a fake Windows Security GUI and tray icon with a \u201chealthy\u201d system status after Windows Defender and other system tools have been disabled.(Citation: BlackBasta)",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "defense-evasion"
+                    "phase_name": "stealth"
                 }
             ],
             "x_mitre_attack_spec_version": "3.2.0",
@@ -38,7 +38,6 @@
                 "Menachem Goldstein"
             ],
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],

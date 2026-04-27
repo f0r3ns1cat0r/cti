@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eeda3042-43fe-478e-bcf5-ca679a4216e0",
+    "id": "bundle--b67d3941-ada9-4174-9e3d-6d9593c47448",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,28 +34,22 @@
                     "source_name": "Microsoft DACL May 2018",
                     "description": "Microsoft. (2018, May 30). DACLs and ACEs. Retrieved August 19, 2018.",
                     "url": "https://docs.microsoft.com/windows/desktop/secauthz/dacls-and-aces"
-                },
-                {
-                    "source_name": "EventTracker File Permissions Feb 2014",
-                    "description": "Netsurion. (2014, February 19). Monitoring File Permission Changes with the Windows Security Log. Retrieved August 19, 2018.",
-                    "url": "https://www.eventtracker.com/tech-articles/monitoring-file-permission-changes-windows-security-log/"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:37.826Z",
-            "name": "Windows File and Directory Permissions Modification",
+            "modified": "2026-04-22T15:51:17.272Z",
+            "name": "Windows Permissions",
             "description": "Adversaries may modify file or directory permissions/attributes to evade access control lists (ACLs) and access protected files.(Citation: Hybrid Analysis Icacls1 June 2018)(Citation: Hybrid Analysis Icacls2 May 2018) File and directory permissions are commonly managed by ACLs configured by the file or directory owner, or users with the appropriate permissions. File and directory ACL implementations vary by platform, but generally explicitly designate which users or groups can perform which actions (read, write, execute, etc.).\n\nWindows implements file and directory ACLs as Discretionary Access Control Lists (DACLs).(Citation: Microsoft DACL May 2018) Similar to a standard ACL, DACLs identifies the accounts that are allowed or denied access to a securable object. When an attempt is made to access a securable object, the system checks the access control entries in the DACL in order. If a matching entry is found, access to the object is granted. Otherwise, access is denied.(Citation: Microsoft Access Control Lists May 2018)\n\nAdversaries can interact with the DACLs using built-in Windows commands, such as `icacls`, `cacls`, `takeown`, and `attrib`, which can grant adversaries higher permissions on specific files and folders. Further, [PowerShell](https://attack.mitre.org/techniques/T1059/001) provides cmdlets that can be used to retrieve or modify file and directory DACLs. Specific file and directory modifications may be a required step for many techniques, such as establishing Persistence via [Accessibility Features](https://attack.mitre.org/techniques/T1546/008), [Boot or Logon Initialization Scripts](https://attack.mitre.org/techniques/T1037), or tainting/hijacking other instrumental binary/configuration files via [Hijack Execution Flow](https://attack.mitre.org/techniques/T1574).",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "defense-evasion"
+                    "phase_name": "defense-impairment"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
@@ -64,7 +58,7 @@
             "x_mitre_platforms": [
                 "Windows"
             ],
-            "x_mitre_version": "1.2"
+            "x_mitre_version": "2.0"
         }
     ]
 }

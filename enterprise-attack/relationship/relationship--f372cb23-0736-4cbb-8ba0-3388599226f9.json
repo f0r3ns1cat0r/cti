@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--070bbc4f-1784-4ac8-9255-f92b994c3c13",
+    "id": "bundle--2a16cf1b-dd75-461d-84a8-d64c85e59879",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--f372cb23-0736-4cbb-8ba0-3388599226f9",
             "created": "2023-02-23T22:54:25.777Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MalwareBytes WoodyRAT Aug 2022",

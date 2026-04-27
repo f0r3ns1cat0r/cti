@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0f908cb4-e350-443c-a8a2-3ec33d0eb57e",
+    "id": "bundle--48cbab7c-9d58-4f63-86b8-b9afa25242f9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--b33a7611-2426-434d-873a-6d74a8f91974",
             "created": "2023-08-01T18:46:42.060Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "BitDefender BADHATCH Mar 2021",

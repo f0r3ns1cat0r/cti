@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3ad33fa9-a96e-472a-966b-362ac5bdf694",
+    "id": "bundle--77c3ceca-5f8a-4c95-aa7d-ef9980709515",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--57f8c6d0-406d-4e97-b3ff-5b2f0274231b",
             "created": "2020-05-13T13:20:59.339Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "DHS/CISA Ransomware Targeting Healthcare October 2020",
@@ -28,7 +27,7 @@
                 {
                     "source_name": "Mandiant FIN12 Oct 2021",
                     "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
-                    "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+                    "url": "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
                 },
                 {
                     "source_name": "DFIR Ryuk 2 Hour Speed Run November 2020",
@@ -39,14 +38,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:16:38.754Z",
+            "modified": "2026-01-20T16:26:04.865Z",
             "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used scheduled tasks to establish persistence for [TrickBot](https://attack.mitre.org/software/S0266) and other malware.(Citation: CrowdStrike Grim Spider May 2019)(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)(Citation: FireEye KEGTAP SINGLEMALT October 2020)(Citation: DFIR Ryuk 2 Hour Speed Run November 2020)(Citation: Mandiant FIN12 Oct 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
             "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

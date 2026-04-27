@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dd11f55d-37e9-4af3-8574-d3ad07343d23",
+    "id": "bundle--a5f5dc13-78c4-4565-8a0f-d0eccfa1c540",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--e3b299d0-fbc0-445f-a0d0-b3fdaa572917",
             "created": "2022-09-30T19:12:16.479Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "GitHub PSImage",

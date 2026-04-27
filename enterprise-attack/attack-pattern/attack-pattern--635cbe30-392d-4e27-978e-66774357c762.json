@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2c36594a-398e-475a-afed-14c27fd9392d",
+    "id": "bundle--d5c547ec-9fd6-489c-97cf-33300b41534d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -53,19 +53,18 @@
                 "Austin Clark, @c2defense"
             ],
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
             "x_mitre_is_subtechnique": true,
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_platforms": [
+                "Containers",
+                "ESXi",
                 "Linux",
                 "macOS",
-                "Windows",
                 "Network Devices",
-                "Containers",
-                "ESXi"
+                "Windows"
             ],
             "x_mitre_version": "1.5"
         }

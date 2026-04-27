@@ -1,10 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--9981be96-a1c5-4864-8f25-f54f375963a7",
+    "id": "bundle--5ff3ea50-3226-466f-8edb-0e8588e41e1e",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "campaign",
+            "spec_version": "2.1",
             "id": "campaign--b03d5112-e23a-4ac8-add0-be7502d24eff",
             "created": "2022-09-27T14:15:23.984Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -41,9 +42,6 @@
             "x_mitre_contributors": [
                 "Erik Schamper, @Schamperr, Fox-IT",
                 "Maarten van Dantzig, @MaartenVDantzig, Fox-IT"
-            ],
-            "x_mitre_domains": [
-                "enterprise-attack"
             ]
         }
     ]

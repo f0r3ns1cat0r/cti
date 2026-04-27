@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--13d5011e-5768-4459-a95a-0f2160315e79",
+    "id": "bundle--9feefc86-3a57-42ad-9f57-b122b1920ff1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--11855647-767c-4f80-adb0-4ff81a392f67",
             "created": "2025-09-12T15:31:00.443Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Zscaler PAKLOG CorkLog SplatCloak Splatdropper April 2025",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b9aa7a71-1307-4470-9966-8bcc64b5b624",
+    "id": "bundle--b2b2b0e0-a6a6-4ccf-94fa-09006a496d6a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--7c0d0a39-3a59-450b-8101-3e79792cd37f",
             "created": "2024-12-31T21:41:38.617Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "IBM StrelaStealer 2024",

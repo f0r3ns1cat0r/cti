@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--08be09ed-6726-4a26-b17e-4c6e64b4a1b2",
+    "id": "bundle--6a587ce7-9882-4dba-8a3e-213398a79936",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--c077dd0a-7568-400b-9aad-e0535f356f71",
             "created": "2021-07-22T22:35:46.142Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ITSyndicate Disabling PHP functions",

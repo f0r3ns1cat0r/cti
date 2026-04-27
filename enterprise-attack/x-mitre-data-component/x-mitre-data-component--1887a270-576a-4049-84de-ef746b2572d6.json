@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--588a8728-da92-4307-ba83-c69266b6d61d",
+    "id": "bundle--7db3a8b7-304e-4efd-a011-7f1760e71c23",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,22 +12,23 @@
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/datacomponents/DC0035",
+                    "url": "https://attack.mitre.org/data-components/DC0035",
                     "external_id": "DC0035"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-11-12T22:03:39.105Z",
+            "modified": "2026-02-23T18:45:08.713Z",
             "name": "Process Access",
             "description": "Refers to an event where one process attempts to open another process, typically to inspect or manipulate its memory, access handles, or modify execution flow. Monitoring these access attempts can provide valuable insight into both benign and malicious behaviors, such as debugging, inter-process communication (IPC), or process injection.\n\n*Data Collection Measures:*\n\n- Endpoint Detection and Response (EDR) Tools:\n    -  EDR solutions that provide telemetry on inter-process access and memory manipulation.\n- Sysmon (Windows):\n    - Event ID 10: Captures process access attempts, including:\n        - Source process (initiator)\n        - Target process (victim)\n        - Access rights requested\n        - Process ID correlation\n- Windows Event Logs:\n    - Event ID 4656 (Audit Handle to an Object): Logs access attempts to system objects.\n    - Event ID 4690 (Attempted Process Modification): Can help identify unauthorized process changes.\n- Linux/macOS Monitoring:\n    - AuditD: Monitors process access through syscall tracing (e.g., `ptrace`, `open`, `read`, `write`).\n    - eBPF/XDP: Used for low-level monitoring of kernel process access.\n    - OSQuery: Query process access behavior via structured SQL-like logging.\n- Procmon (Process Monitor) and Debugging Tools:\n    - Windows Procmon: Captures real-time process interactions.\n    - Linux strace / ptrace: Useful for tracking process behavior at the system call level.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
-                "enterprise-attack"
+                "enterprise-attack",
+                "mobile-attack"
             ],
-            "x_mitre_version": "2.0",
+            "x_mitre_version": "3.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_log_sources": [
                 {
@@ -117,6 +118,58 @@
                 {
                     "name": "macos:osquery",
                     "channel": "unexpected memory inspection"
+                },
+                {
+                    "name": "iOS:unifiedlog",
+                    "channel": "Code signing validation events referencing newly written local Mach-O/bundle prior to exec or dlopen"
+                },
+                {
+                    "name": "android:logcat",
+                    "channel": "Runtime grant or manifest presence for MANAGE_EXTERNAL_STORAGE/READ_EXTERNAL_STORAGE/READ_MEDIA_*; legacy external storage mode detection"
+                },
+                {
+                    "name": "iOS:unifiedlog",
+                    "channel": "Privacy (TCC) prompts/grants for Photos/Files or access changes indicating new visibility into user/app data"
+                },
+                {
+                    "name": "android:logcat",
+                    "channel": "Activity/Process state change (mFocusedApp, onResume/onPause) identifying <pkg> as foreground"
+                },
+                {
+                    "name": "iOS:unifiedlog",
+                    "channel": "Foreground/background transition for <bundle_id> to contextualize access timing"
+                },
+                {
+                    "name": "android:logcat",
+                    "channel": "Grant/activation of BIND_ACCESSIBILITY_SERVICE, BIND_INPUT_METHOD, SYSTEM_ALERT_WINDOW, POST_NOTIFICATIONS for <pkg>"
+                },
+                {
+                    "name": "iOS:unifiedlog",
+                    "channel": "Keyboard extension Full Access change; privacy grant touching input/keyboard categories for <bundle_id>"
+                },
+                {
+                    "name": "android:logcat",
+                    "channel": "Grant/enablement for BIND_ACCESSIBILITY_SERVICE or BIND_INPUT_METHOD for <pkg>"
+                },
+                {
+                    "name": "iOS:unifiedlog",
+                    "channel": "Keyboard extension Full Access change or related privacy grant for <bundle_id>"
+                },
+                {
+                    "name": "android:logcat",
+                    "channel": "Grant/enablement of SYSTEM_ALERT_WINDOW, BIND_ACCESSIBILITY_SERVICE, POST_NOTIFICATIONS for <pkg>"
+                },
+                {
+                    "name": "iOS:unifiedlog",
+                    "channel": "Scene/foreground transitions for <bundle_id> to contextualize timing"
+                },
+                {
+                    "name": "android:logcat",
+                    "channel": "Reads/queries ops for PACKAGE_USAGE_STATS, QUERY_ALL_PACKAGES, BIND_DEVICE_ADMIN, BIND_VPN_SERVICE"
+                },
+                {
+                    "name": "EDR:telemetry",
+                    "channel": "Sustained or high-frequency location sensor access, including background location usage"
                 }
             ]
         }

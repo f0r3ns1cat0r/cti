@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2f4c6700-11d4-4a68-96e4-877ccec938f1",
+    "id": "bundle--e2bdccd2-8d28-43c9-985c-6ebda0ad7a6e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--6bbefe61-008f-4298-8a9b-364c51ba7c20",
             "created": "2025-09-30T15:13:52.515Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Picus Qilin MAR 2025",
@@ -19,13 +18,18 @@
                     "source_name": "Halcyon Qilin.B OCT 2024",
                     "description": "Halcyon RISE Team. (2024, October 24). New Qilin.B Ransomware Variant Boasts Enhanced Encryption and Defense Evasion. Retrieved September 26, 2025.",
                     "url": "https://www.halcyon.ai/blog/new-qilin-b-ransomware-variant-boasts-enhanced-encryption-and-defense-evasion"
+                },
+                {
+                    "source_name": "Cisco Talos Qilin Ransomware OCT 2025",
+                    "description": "Takeda, T. et al. (2025, October 26). Uncovering Qilin attack methods exposed through multiple cases. Retrieved March 26, 2026.",
+                    "url": "https://blog.talosintelligence.com/uncovering-qilin-attack-methods-exposed-through-multiple-cases/"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-30T18:05:19.055Z",
-            "description": "[Qilin](https://attack.mitre.org/software/S1242) can make Registry modifications to share networked drives between elevated and non-elevated processes and to increase the number of outstanding network requests per client.(Citation: Halcyon Qilin.B OCT 2024)(Citation: Picus Qilin MAR 2025)\n",
+            "modified": "2026-04-09T20:54:28.199Z",
+            "description": "[Qilin](https://attack.mitre.org/software/S1242) can make Registry modifications to share networked drives between elevated and non-elevated processes and to increase the number of outstanding network requests per client.(Citation: Halcyon Qilin.B OCT 2024)(Citation: Picus Qilin MAR 2025) [Qilin](https://attack.mitre.org/software/S1242) can also modify `HKEY_CURRENT_USER\\Control Panel\\Desktop\\Wallpaper` to enable posting of ransom messages.(Citation: Cisco Talos Qilin Ransomware OCT 2025)\n",
             "relationship_type": "uses",
             "source_ref": "malware--e23d2777-b85d-44fc-861e-9149d399fbb9",
             "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--28a6d50c-e6f3-41be-8379-5fea5482cf53",
+    "id": "bundle--f31c0e5b-ab2f-4de2-b8a6-7e28a46d3a2d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--6948916f-eba5-4f23-8630-22035d00b7c3",
             "created": "2025-10-16T19:33:54.228Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto SharePoint Vulnerabilities JUL 2025",

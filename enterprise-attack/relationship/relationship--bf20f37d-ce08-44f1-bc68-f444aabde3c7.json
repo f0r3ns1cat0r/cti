@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9e4e5dcb-9817-4d17-b842-b174536f38f9",
+    "id": "bundle--20c8a11d-88a2-4245-8a8d-7fa450caab93",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--bf20f37d-ce08-44f1-bc68-f444aabde3c7",
             "created": "2025-10-19T19:54:56.283Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Mandiant Storm-0501 Sabbath Ransomware November 2021",

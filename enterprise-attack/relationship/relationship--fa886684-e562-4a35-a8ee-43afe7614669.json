@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3fe8ea19-3e42-43d3-80c6-e6c52a24fea7",
+    "id": "bundle--9e263545-fce1-43e6-8e90-998265f68d2f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--fa886684-e562-4a35-a8ee-43afe7614669",
             "created": "2024-09-09T14:41:55.893Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Learn ClickOnce and Authenticode",

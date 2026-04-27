@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3b971917-018b-4817-b53b-6a04989a776c",
+    "id": "bundle--adca3ffa-4ae4-4aaf-bc4c-b9f35f7427f2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -11,9 +11,19 @@
             "revoked": false,
             "external_references": [
                 {
+                    "source_name": "CloudSEK_RustyWater_Jan2026",
+                    "description": "Awasthi, P. (2026, January 8). Reborn in Rust: Muddy Water Evolves Tooling with RustyWater Implant. Retrieved March 19, 2026.",
+                    "url": "https://www.cloudsek.com/blog/reborn-in-rust-muddywater-evolves-tooling-with-rustywater-implant"
+                },
+                {
                     "source_name": "ClearSky MuddyWater June 2019",
                     "description": "ClearSky. (2019, June). Iranian APT group \u2018MuddyWater\u2019 Adds Exploits to Their Arsenal. Retrieved May 14, 2020.",
                     "url": "https://www.clearskysec.com/wp-content/uploads/2019/06/Clearsky-Iranian-APT-group-%E2%80%98MuddyWater%E2%80%99-Adds-Exploits-to-Their-Arsenal.pdf"
+                },
+                {
+                    "source_name": "ESET_MuddyWater_Dec2025",
+                    "description": "ESET Research. (2025, December 2). MuddyWater: Snakes by the riverbank. Retrieved February 17, 2026.",
+                    "url": "https://www.welivesecurity.com/en/eset-research/muddywater-snakes-riverbank/"
                 },
                 {
                     "source_name": "DHS CISA AA22-055A MuddyWater February 2022",
@@ -49,19 +59,24 @@
                     "source_name": "FireEye MuddyWater Mar 2018",
                     "description": "Singh, S. et al.. (2018, March 13). Iranian Threat Group Updates Tactics, Techniques and Procedures in Spear Phishing Campaign. Retrieved April 11, 2018.",
                     "url": "https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html"
+                },
+                {
+                    "source_name": "SOCRadar_MuddyWaterDindoor_Mar2026",
+                    "description": "SOCRadar. (2026, March 9). MuddyWater Uses Dindoor Malware Targeting U.S. Networks. Retrieved March 12, 2026.",
+                    "url": "https://socradar.io/blog/iran-muddywater-dindoor-malware-us-networks/"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:02:18.912Z",
-            "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has compromised third parties and used compromised accounts to send spearphishing emails with targeted attachments to recipients.(Citation: Unit 42 MuddyWater Nov 2017)(Citation: FireEye MuddyWater Mar 2018)(Citation: Securelist MuddyWater Oct 2018)(Citation: ClearSky MuddyWater June 2019)(Citation: Anomali Static Kitten February 2021)(Citation: Trend Micro Muddy Water March 2021)\t(Citation: DHS CISA AA22-055A MuddyWater February 2022)(Citation: Proofpoint TA450 Phishing March 2024)",
+            "modified": "2026-04-16T22:36:50.705Z",
+            "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has compromised third parties and used compromised accounts to send spearphishing emails with targeted attachments to recipients.(Citation: Unit 42 MuddyWater Nov 2017)(Citation: FireEye MuddyWater Mar 2018)(Citation: Securelist MuddyWater Oct 2018)(Citation: ClearSky MuddyWater June 2019)(Citation: Anomali Static Kitten February 2021)(Citation: Trend Micro Muddy Water March 2021)(Citation: DHS CISA AA22-055A MuddyWater February 2022)(Citation: Proofpoint TA450 Phishing March 2024)(Citation: ESET_MuddyWater_Dec2025)(Citation: SOCRadar_MuddyWaterDindoor_Mar2026) [MuddyWater](https://attack.mitre.org/groups/G0069) has also sent spearphishing emails with the attachment Cybersecurity.doc, which served as the primarily payload for the next stage.(Citation: CloudSEK_RustyWater_Jan2026) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
             "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

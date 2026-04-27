@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b2967156-a2b0-41c3-af9a-cfc051d7fc77",
+    "id": "bundle--0d4cda35-a7f5-40c6-a7ea-27cc66905a6e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -23,7 +23,7 @@
                 {
                     "source_name": "TCC Database",
                     "description": "Marina Liang. (2024, April 23). Return of the mac(OS): Transparency, Consent, and Control (TCC) Database Manipulation. Retrieved March 28, 2024.",
-                    "url": "https://interpressecurity.com/resources/return-of-the-macos-tcc/"
+                    "url": "https://web.archive.org/web/20240411112413/https://interpressecurity.com/resources/return-of-the-macos-tcc/"
                 },
                 {
                     "source_name": "TCC macOS bypass",
@@ -34,27 +34,22 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-15T23:14:58.393Z",
+            "modified": "2026-04-15T19:52:55.058Z",
             "name": "TCC Manipulation",
             "description": "Adversaries can manipulate or abuse the Transparency, Consent, & Control (TCC) service or database to grant malicious executables elevated permissions. TCC is a Privacy & Security macOS control mechanism used to determine if the running process has permission to access the data or services protected by TCC, such as screen sharing, camera, microphone, or Full Disk Access (FDA).\n\nWhen an application requests to access data or a service protected by TCC, the TCC daemon (`tccd`) checks the TCC database, located at `/Library/Application Support/com.apple.TCC/TCC.db` (and `~/` equivalent), and an overwrites file (if connected to an MDM) for existing permissions. If permissions do not exist, then the user is prompted to grant permission. Once permissions are granted, the database stores the application's permissions and will not prompt the user again unless reset. For example, when a web browser requests permissions to the user's webcam, once granted the web browser may not explicitly prompt the user again.(Citation: welivesecurity TCC)\n\nAdversaries may access restricted data or services protected by TCC through abusing applications previously granted permissions through [Process Injection](https://attack.mitre.org/techniques/T1055) or executing a malicious binary using another application. For example, adversaries can use Finder, a macOS native app with FDA permissions, to execute a malicious [AppleScript](https://attack.mitre.org/techniques/T1059/002). When executing under the Finder App, the malicious [AppleScript](https://attack.mitre.org/techniques/T1059/002) inherits access to all files on the system without requiring a user prompt. When System Integrity Protection (SIP) is disabled, TCC protections are also disabled. For a system without SIP enabled, adversaries can manipulate the TCC database to add permissions to their malicious executable through loading an adversary controlled TCC database using environment variables and [Launchctl](https://attack.mitre.org/techniques/T1569/001).(Citation: TCC macOS bypass)(Citation: TCC Database)\n\n",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "defense-evasion"
-                },
-                {
-                    "kill_chain_name": "mitre-attack",
                     "phase_name": "privilege-escalation"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_contributors": [
                 "Marina Liang",
                 "Wojciech Regu\u0142a @_r3ggi",
                 "Csaba Fitzl @theevilbit of Kandji"
             ],
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
@@ -63,7 +58,7 @@
             "x_mitre_platforms": [
                 "macOS"
             ],
-            "x_mitre_version": "1.1"
+            "x_mitre_version": "2.0"
         }
     ]
 }

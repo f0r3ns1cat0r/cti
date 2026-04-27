@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--27fbf864-a2d7-4c1c-b284-72dbc116810c",
+    "id": "bundle--745a676b-cbaa-4753-84e3-1cd1143ff47e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,13 +24,13 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:44.870Z",
+            "modified": "2026-04-15T22:52:39.442Z",
             "name": "Time Based Checks",
             "description": "Adversaries may employ various time-based methods to detect virtualization and analysis environments, particularly those that attempt to manipulate time mechanisms to simulate longer elapses of time. This may include enumerating time-based properties, such as uptime or the system clock. \n\nAdversaries may use calls like `GetTickCount` and `GetSystemTimeAsFileTime` to discover if they are operating within a virtual machine or sandbox, or may be able to identify a sandbox accelerating time by sampling and calculating the expected value for an environment's timestamp before and after execution of a sleep function.(Citation: ISACA Malware Tricks)",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "defense-evasion"
+                    "phase_name": "stealth"
                 },
                 {
                     "kill_chain_name": "mitre-attack",
@@ -39,13 +39,12 @@
             ],
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_contributors": [
-                "Jorge Orchilles, SCYTHE",
-                "Ruben Dodge, @shotgunner101",
+                "Deloitte Threat Library Team",
                 "Jeff Felling, Red Canary",
-                "Deloitte Threat Library Team"
+                "Jorge Orchilles, SCYTHE",
+                "Ruben Dodge, @shotgunner101"
             ],
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
@@ -56,7 +55,7 @@
                 "macOS",
                 "Windows"
             ],
-            "x_mitre_version": "2.0"
+            "x_mitre_version": "3.0"
         }
     ]
 }

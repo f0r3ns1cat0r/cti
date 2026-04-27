@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8bec8f0c-cbc6-45bf-907b-b494fa5aa35b",
+    "id": "bundle--e5dc1207-dc64-40ca-90e7-c48d047d9a20",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--435f910b-21a6-4814-b167-5262ca1e1e58",
             "created": "2019-05-29T14:17:51.227Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Proofpoint TA505 Jan 2019",

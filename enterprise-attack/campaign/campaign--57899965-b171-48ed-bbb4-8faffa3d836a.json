@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--44e56fa9-eefa-4a05-91ad-d69a9c77919a",
+    "id": "bundle--08e31267-30c1-49df-ad63-aac2d3fbe379",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,6 +22,7 @@
                 "Pooja Natarajan, NEC Corporation India"
             ],
             "type": "campaign",
+            "spec_version": "2.1",
             "id": "campaign--57899965-b171-48ed-bbb4-8faffa3d836a",
             "created": "2024-12-02T19:35:14.473Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -42,10 +43,7 @@
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "x_mitre_attack_spec_version": "3.2.0",
-            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_domains": [
-                "enterprise-attack"
-            ]
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
         }
     ]
 }

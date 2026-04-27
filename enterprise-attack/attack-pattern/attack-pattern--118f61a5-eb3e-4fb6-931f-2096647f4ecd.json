@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--94d308bf-34da-4d4c-8189-6f54b8077622",
+    "id": "bundle--bd905b3c-8940-4139-a8e8-dd05916bcd95",
     "spec_version": "2.0",
     "objects": [
         {
@@ -85,17 +85,16 @@
                 "Sylvain Gil, Exabeam"
             ],
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
             "x_mitre_is_subtechnique": true,
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_platforms": [
+                "ESXi",
                 "Linux",
                 "macOS",
-                "Windows",
-                "ESXi"
+                "Windows"
             ],
             "x_mitre_version": "1.2"
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--42e28b2c-754d-47ed-8c23-d4de81de06f4",
+    "id": "bundle--6644f4f5-531e-46c5-a88b-c882eba26caa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--9cf32fea-16cd-41cf-93f3-a47c1388abbc",
             "created": "2020-05-14T14:27:31.210Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CrowdStrike Ryuk January 2019",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2b681426-f2d6-444c-b75a-7277050ea202",
+    "id": "bundle--b5f3f610-ef30-4ac0-bd17-c0bc70ba2814",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--79412658-c213-4746-b03d-c828957d6ddb",
             "created": "2020-02-04T19:13:24.913Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "create_sym_links",

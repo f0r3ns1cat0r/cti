@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--88035088-fcab-4745-9eaa-ba3eebff66e3",
+    "id": "bundle--8a12d349-a01e-45c3-b1fd-ea6b29edd1bd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -62,16 +62,15 @@
                 "Matthew Molyett, @s1air, Cisco Talos"
             ],
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
             "x_mitre_is_subtechnique": true,
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_platforms": [
+                "Linux",
                 "macOS",
-                "Windows",
-                "Linux"
+                "Windows"
             ],
             "x_mitre_version": "1.3"
         }

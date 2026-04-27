@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d50aa6ae-146d-4e56-862d-859a182037f7",
+    "id": "bundle--6590c158-0199-45ba-921b-238e8498c80e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--223a75cd-eb8f-4477-b4c3-e2a4e651d875",
             "created": "2021-07-30T15:54:30.815Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "GitHub Sliver C2",

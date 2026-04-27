@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eb7e7ccf-9741-4e1d-82ec-c99a2e4cf609",
+    "id": "bundle--5e8bbdcc-2b62-445a-8377-ab9850b0f0e5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--b33486bc-c7f4-46d7-9e20-3863c5508820",
             "created": "2021-12-02T16:06:56.052Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos TinyTurla September 2021",

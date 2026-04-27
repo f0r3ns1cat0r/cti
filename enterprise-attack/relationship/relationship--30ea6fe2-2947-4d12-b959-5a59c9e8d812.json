@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--28f36b77-7a16-44df-9d60-dd735d846cc2",
+    "id": "bundle--20980ec9-3fcf-4e4f-9266-2eb082b8c05a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--30ea6fe2-2947-4d12-b959-5a59c9e8d812",
             "created": "2023-01-03T19:20:47.958Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant APT41",

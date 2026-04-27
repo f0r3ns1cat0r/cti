@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7110f816-ba48-4ac9-9501-2d6602f9833f",
+    "id": "bundle--744ec554-4b4f-4cb0-839d-c47bb2dd8bdc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--76d0be57-e439-4640-b26d-db422353d9e5",
             "created": "2019-04-02T16:08:50.228Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye WannaCry 2017",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1e001e96-a979-4187-8eb2-08d05b71e55f",
+    "id": "bundle--8e605fb7-777e-48e1-81dd-242b04b6d066",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--58e37620-7000-4ec2-95e0-e1c651fa215d",
             "created": "2022-04-18T20:03:19.978Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Apple TN2459 Kernel Extensions",

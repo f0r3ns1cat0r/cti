@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fabb66b4-477a-4657-9164-c6ccae0c10a7",
+    "id": "bundle--a8440940-29fa-4fd0-8825-9881490c3e76",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--e723abac-5d58-4370-9f6e-4db8fb9697cb",
             "created": "2024-12-07T16:38:26.018Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Splunk ShrinkLocker 2024",

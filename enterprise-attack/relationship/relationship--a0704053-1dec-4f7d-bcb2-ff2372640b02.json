@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b50e70de-f3e9-4989-acc5-c9746532af2e",
+    "id": "bundle--c73aefde-bd76-43f0-92d7-50226356f146",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--a0704053-1dec-4f7d-bcb2-ff2372640b02",
             "created": "2025-09-17T14:43:57.587Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET RedLine Stealer November 2024",

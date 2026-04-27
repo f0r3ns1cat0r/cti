@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ef6b04cb-441e-4d90-9c58-e83d3fcfcecf",
+    "id": "bundle--1fbf390a-b8e9-4e54-9c16-b8f97ca11b33",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--81399eeb-a9f0-4e55-baed-2be3829962fe",
             "created": "2022-06-01T21:43:32.302Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "DBAPPSecurity BITTER zero-day Feb 2021",

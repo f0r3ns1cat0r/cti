@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fc837471-b367-41a4-afa0-7be87ffd8089",
+    "id": "bundle--51d738a6-75d3-439e-b661-8ce35189deb2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--e83a16d0-70b7-415c-8b3f-bdbb89f10455",
             "created": "2023-11-28T22:03:00.924Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Emotet Deploys TrickBot",

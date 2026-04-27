@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d5707dd8-591c-4da7-a374-b2be4c380d3f",
+    "id": "bundle--556ca660-dd55-49be-8402-0615fa32a3e4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--16e0be5b-93bb-4db2-b6ed-02e34a6ce3cb",
             "created": "2019-03-13T14:38:31.345Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Github PowerShell Empire",

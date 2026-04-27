@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ac88096e-4440-4946-bcb6-dd0c84781fdf",
+    "id": "bundle--17ad5238-c5cd-45a2-8d31-7567ad937f0c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--7e9168ae-f0dd-4223-bc4b-9f94b08f99ac",
             "created": "2022-08-02T15:52:24.515Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA AR18-352A Quasar RAT December 2018",

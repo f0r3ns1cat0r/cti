@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ed374a88-1ce9-45f3-a82b-ec8d28912b16",
+    "id": "bundle--d718577f-50e9-44ed-9641-3b6a6e8f1a6a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--699ddfef-6e95-42cf-b212-dc661f790adc",
             "created": "2017-05-31T21:33:27.067Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro macOS Dacls May 2020",

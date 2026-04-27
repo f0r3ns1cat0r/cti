@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7db1eeca-1e78-40b2-993b-6ac34de9f98a",
+    "id": "bundle--6baa427a-d9a9-44fd-bf67-dc5d4acd5559",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--02c214f7-2c16-462f-9cc0-169c794f4e06",
             "created": "2025-03-22T15:51:55.332Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Fortinet LummaStealer 2024",

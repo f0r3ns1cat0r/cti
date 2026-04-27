@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--392503a1-c263-483d-8120-215bf556306e",
+    "id": "bundle--f7ec7317-9a1d-4336-86bd-0d4752dd0ffb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--a877e5c0-3fe6-40bb-bd02-ef4a9465aba3",
             "created": "2022-08-09T18:40:50.921Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 PingPull Jun 2022",

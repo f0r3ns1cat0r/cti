@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f5027bbe-9e4e-4b76-8b29-2642266f0424",
+    "id": "bundle--3ed20f02-5ed8-4088-9569-a37750080c9c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--aeb4ffa0-24f7-4812-aa4d-553ac5e954de",
             "created": "2022-07-29T19:50:00.174Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro njRAT 2018",

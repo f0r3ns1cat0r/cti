@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--baf6d61b-7400-4f04-ae38-909c4ef34e5e",
+    "id": "bundle--03e46bbf-5da2-409e-9a02-b8ea32d85c0b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--16e1777b-af28-412b-bcc3-469aba0f8a87",
             "created": "2022-06-02T13:50:08.914Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco Talos Bitter Bangladesh May 2022",

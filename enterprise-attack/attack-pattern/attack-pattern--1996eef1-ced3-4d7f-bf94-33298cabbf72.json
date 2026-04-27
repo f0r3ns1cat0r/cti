@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d1829907-6cf3-4324-9d55-086ac6b1241f",
+    "id": "bundle--503d36dd-a7c4-4e22-9f80-6c0dba2a88fa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -59,18 +59,17 @@
                 "Chris Heald"
             ],
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
             "x_mitre_is_subtechnique": true,
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_platforms": [
+                "ESXi",
                 "Linux",
                 "macOS",
-                "Windows",
                 "Network Devices",
-                "ESXi"
+                "Windows"
             ],
             "x_mitre_version": "1.4"
         }

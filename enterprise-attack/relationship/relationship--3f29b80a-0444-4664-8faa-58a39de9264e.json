@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--04451cc4-ce14-4e7a-a7eb-52382e75929b",
+    "id": "bundle--42d26555-9ad7-4b9b-bb49-93fa220f6ecd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--3f29b80a-0444-4664-8faa-58a39de9264e",
             "created": "2019-04-17T13:23:24.189Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT33 Guardrail",

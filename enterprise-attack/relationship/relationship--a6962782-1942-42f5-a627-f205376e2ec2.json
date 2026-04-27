@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--963b11df-4410-4604-b7d2-695dacfa36b2",
+    "id": "bundle--2a2b148b-db29-4563-ab4e-1f4c1d8fc6eb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--a6962782-1942-42f5-a627-f205376e2ec2",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT30",

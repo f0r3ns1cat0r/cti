@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--165b490c-7eba-48e2-af05-ca95fcab6f19",
+    "id": "bundle--5cb6015a-cbe1-4a68-ade3-61ee1accb137",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--fe42b5e6-06dd-4b08-8ef8-31323f8190d2",
             "created": "2021-05-28T14:56:24.055Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft PowerShell CLM",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b2db409e-7e86-4212-8293-ad846d9961a3",
+    "id": "bundle--22182fcf-da3a-4e9a-9750-733f48526bb8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--f5097f4c-c1e4-4177-9985-31c017e32adc",
             "created": "2025-04-11T16:33:51.857Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ACSC Email Spoofing",

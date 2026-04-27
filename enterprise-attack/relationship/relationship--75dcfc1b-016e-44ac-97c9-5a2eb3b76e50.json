@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c6fb3db0-e314-4289-b090-cf7c8804fd41",
+    "id": "bundle--4f781973-54a7-4e27-8bf3-d507e28d92fa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--75dcfc1b-016e-44ac-97c9-5a2eb3b76e50",
             "created": "2024-03-25T21:02:12.884Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CrowdStrike Scattered Spider JUL 2025",

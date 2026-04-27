@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9991cad7-f7ee-40e6-a2f2-67fd533caae2",
+    "id": "bundle--c1a111de-7688-4ba5-9408-4860e3320379",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--a802b910-b023-425a-8c09-c1b2df185812",
             "created": "2019-04-12T12:52:29.307Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "LogRhythm WannaCry",

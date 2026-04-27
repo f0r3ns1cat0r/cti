@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--66d8889e-3bc1-4972-a162-3004109fb503",
+    "id": "bundle--b805b221-4cf0-4fcf-8484-3e56858f664f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,18 +34,21 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-17T21:42:31.066Z",
+            "modified": "2026-04-15T22:45:43.373Z",
             "name": "JamPlus",
             "description": "Adversaries may use `JamPlus` to proxy the execution of a malicious script. `JamPlus` is a build utility tool for code and data build systems. It works with several popular compilers and can be used for generating workspaces in code editors such as Visual Studio.(Citation: JamPlus manual)\n\nAdversaries may abuse the `JamPlus` build utility to execute malicious scripts via a `.jam` file, which describes the build process and required dependencies. Because the malicious script is executed from a reputable developer tool, it may subvert application control security systems such as Smart App Control.(Citation: Cyble)(Citation: Elastic Security Labs)",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "defense-evasion"
+                    "phase_name": "stealth"
+                },
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "execution"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
@@ -54,7 +57,8 @@
             "x_mitre_platforms": [
                 "Windows"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "2.0",
+            "x_mitre_remote_support": false
         }
     ]
 }

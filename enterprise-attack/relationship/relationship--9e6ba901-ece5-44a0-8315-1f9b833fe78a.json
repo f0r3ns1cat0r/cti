@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--df8ae38a-ce22-42e0-acbb-84fe11dc7879",
+    "id": "bundle--ea257d68-0c20-49b7-9cbd-338a9a2489bc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--9e6ba901-ece5-44a0-8315-1f9b833fe78a",
             "created": "2024-06-06T16:46:05.887Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "DNS-msft",

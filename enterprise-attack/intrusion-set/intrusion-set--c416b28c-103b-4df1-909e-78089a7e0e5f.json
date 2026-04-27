@@ -1,10 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--096db678-2aa7-4476-98a7-c37e6b23c6db",
+    "id": "bundle--59b45059-15c3-44c0-a492-0f96ca3ba3ec",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
+            "spec_version": "2.1",
             "id": "intrusion-set--c416b28c-103b-4df1-909e-78089a7e0e5f",
             "created": "2017-05-31T21:32:10.206Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -35,13 +36,13 @@
             ],
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_domains": [
-                "enterprise-attack"
-            ],
             "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_contributors": [
                 "Oleg Skulkin, Group-IB"
+            ],
+            "x_mitre_domains": [
+                "enterprise-attack"
             ]
         }
     ]

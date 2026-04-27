@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--465b7e96-9f02-4587-a1c2-32ad2d1759c6",
+    "id": "bundle--18403e1c-12ad-4242-8649-58543c7447f8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--051683e6-0a6a-4a40-bf5d-d2c5f25586e8",
             "created": "2025-03-24T16:17:42.121Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Sliver 2022",

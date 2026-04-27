@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c04387ed-36a6-4a09-9e9e-0d1d697e91d0",
+    "id": "bundle--b71dee2c-76ed-429d-8782-3de534ec3adf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--04a39f08-17e1-46e8-aba0-db4ef1318ba1",
             "created": "2023-03-28T20:27:00.832Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "US-CERT HOPLIGHT Apr 2019",

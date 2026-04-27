@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7cf9f6dc-592c-40f1-9b0e-55fb0f49b70d",
+    "id": "bundle--8666b424-4b73-4e2d-87c8-9eb2671da06a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--81041da9-e3ff-4487-a54b-f02c0384c95c",
             "created": "2025-03-25T22:42:43.646Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "NSA APT5 Citrix Threat Hunting December 2022",

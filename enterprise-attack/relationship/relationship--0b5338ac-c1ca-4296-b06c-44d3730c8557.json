@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e79d82c0-a869-4f78-9553-4e78b54483e9",
+    "id": "bundle--35ad4160-eb90-4b08-a5a1-6ef1af1096e6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--0b5338ac-c1ca-4296-b06c-44d3730c8557",
             "created": "2024-10-01T12:01:51.808Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Moonstone Sleet 2024",

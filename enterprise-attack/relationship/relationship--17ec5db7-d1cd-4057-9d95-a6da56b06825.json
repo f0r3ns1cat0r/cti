@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c0de6ba9-ecd2-4fb7-9695-64199b54332f",
+    "id": "bundle--31e3c5e4-1ee1-4f83-b483-db6a1e9f95dd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--17ec5db7-d1cd-4057-9d95-a6da56b06825",
             "created": "2023-08-01T18:32:00.323Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Gigamon BADHATCH Jul 2019",

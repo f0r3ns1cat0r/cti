@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--35cf2274-424b-4744-96c3-2fa44c80cb5b",
+    "id": "bundle--0d42643f-65a7-4e53-bfc6-ed8b7b11db67",
     "spec_version": "2.0",
     "objects": [
         {
@@ -28,18 +28,17 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:49:10.098Z",
+            "modified": "2026-04-14T22:53:15.104Z",
             "name": "LC_MAIN Hijacking",
             "description": "**This technique has been deprecated and should no longer be used.**\n\nAs of OS X 10.8, mach-O binaries introduced a new header called LC_MAIN that points to the binary\u2019s entry point for execution. Previously, there were two headers to achieve this same effect: LC_THREAD and LC_UNIXTHREAD  (Citation: Prolific OSX Malware History). The entry point for a binary can be hijacked so that initial execution flows to a malicious addition (either another section or a code cave) and then goes back to the initial entry point so that the victim doesn\u2019t know anything was different  (Citation: Methods of Mac Malware Persistence). By modifying a binary in this way, application whitelisting can be bypassed because the file name or application path is still the same.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "defense-evasion"
+                    "phase_name": "stealth"
                 }
             ],
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_deprecated": true,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],

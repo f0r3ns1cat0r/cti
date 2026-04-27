@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--619ec4ba-03d0-41e4-b48a-a291ee850364",
+    "id": "bundle--f14e117f-ff65-4554-8008-916b26faf18b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--ba64e6d1-4deb-440a-a4eb-1c3476b6fb47",
             "created": "2017-05-31T21:33:27.041Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT28",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e2c7d531-83cb-452d-9281-c74f321044cf",
+    "id": "bundle--c2960b47-04c8-46cc-9876-26de90fbbf2b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--b0557c84-d4c5-4016-8381-f419d18f2d47",
             "created": "2021-09-30T20:22:05.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Group IB Ransomware September 2020",

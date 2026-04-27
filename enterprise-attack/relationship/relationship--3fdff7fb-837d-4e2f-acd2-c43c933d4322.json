@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--db4cb944-a582-46e7-a245-cf81cc66f268",
+    "id": "bundle--1b59ef61-0b13-4745-8c1e-a323ca724d5c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--3fdff7fb-837d-4e2f-acd2-c43c933d4322",
             "created": "2024-03-01T17:25:40.460Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],

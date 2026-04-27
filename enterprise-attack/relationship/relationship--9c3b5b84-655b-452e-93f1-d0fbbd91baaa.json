@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ab7363fa-4b46-40ae-8bda-ccdfc83d1636",
+    "id": "bundle--383e0779-3180-4c7a-8979-0b713b1c28e9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--9c3b5b84-655b-452e-93f1-d0fbbd91baaa",
             "created": "2025-06-02T18:41:26.165Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Cloud Threat Intelligence ESXi VIBs 2022",

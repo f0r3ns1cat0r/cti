@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1ed94d66-a5b3-4e9b-b973-4e029ff45bd2",
+    "id": "bundle--c1437852-8d9b-412e-a76a-df77f26ffa8f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--3e5cf341-4707-4de3-bb06-43530ee3e90f",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "AdSecurity Kerberos GT Aug 2015",

@@ -1,10 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--adeaf959-904e-4dcc-bc7c-2f5ca524bacb",
+    "id": "bundle--1513c095-5fd7-4ab2-949a-2406a48ce85b",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
+            "spec_version": "2.1",
             "id": "intrusion-set--94873029-f950-4268-9cfd-5032e15cb182",
             "created": "2021-03-19T21:04:00.692Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -52,9 +53,6 @@
             ],
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_domains": [
-                "enterprise-attack"
-            ],
             "x_mitre_version": "1.2",
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_contributors": [
@@ -63,6 +61,9 @@
                 "Shotaro Hamamoto, NEC Solution Innovators, Ltd",
                 "Yusuke Niwa, ITOCHU Corporation",
                 "Takuma Matsumoto, LAC Co., Ltd"
+            ],
+            "x_mitre_domains": [
+                "enterprise-attack"
             ]
         }
     ]

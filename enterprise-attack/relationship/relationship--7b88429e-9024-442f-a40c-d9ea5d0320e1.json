@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b6c07cec-4e75-4871-b38e-ce017f28a4f1",
+    "id": "bundle--e3c69e50-d030-4141-8f34-f3479ba1520d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--7b88429e-9024-442f-a40c-d9ea5d0320e1",
             "created": "2023-02-16T18:55:24.499Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Secureworks DarkTortilla Aug 2022",

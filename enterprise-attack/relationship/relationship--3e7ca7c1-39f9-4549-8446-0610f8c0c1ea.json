@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cb1e6496-b448-4e1d-bca7-f33d49308869",
+    "id": "bundle--82a88002-8e25-461f-96eb-6e41d973ba1e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--3e7ca7c1-39f9-4549-8446-0610f8c0c1ea",
             "created": "2025-03-22T15:12:50.160Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Qualys LummaStealer 2024",

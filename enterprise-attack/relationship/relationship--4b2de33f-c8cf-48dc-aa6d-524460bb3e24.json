@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8ed5db45-5c0d-4ed1-910e-8c09ef54b729",
+    "id": "bundle--674c5988-7909-4ee1-a21f-d9cb9cd8d46d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--4b2de33f-c8cf-48dc-aa6d-524460bb3e24",
             "created": "2023-02-10T18:44:17.945Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "HP SVCReady Jun 2022",

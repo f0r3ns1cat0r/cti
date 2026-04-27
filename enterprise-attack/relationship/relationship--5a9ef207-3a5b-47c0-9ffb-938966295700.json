@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d0bd6630-ce77-4716-bd9e-5bef972caa41",
+    "id": "bundle--b71a7c78-48d8-4c94-b3ce-b22ad37cb406",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--5a9ef207-3a5b-47c0-9ffb-938966295700",
             "created": "2025-03-22T15:11:07.732Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Netskope LummaStealer 2025",

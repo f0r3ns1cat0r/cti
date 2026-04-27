@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--81559a4f-bbcd-4ce5-be17-9289a2b265f4",
+    "id": "bundle--0b14cacd-79a3-48cf-9796-769f09ed7823",
     "spec_version": "2.0",
     "objects": [
         {
@@ -11,6 +11,11 @@
             "revoked": false,
             "external_references": [
                 {
+                    "source_name": "ESET MirrorFace 2025",
+                    "description": " Dominik Breitenbacher. (2025, March 18). Operation AkaiRy\u016b: MirrorFace invites Europe to Expo 2025 and revives ANEL backdoor. Retrieved May 22, 2025.",
+                    "url": "https://www.welivesecurity.com/en/eset-research/operation-akairyu-mirrorface-invites-europe-expo-2025-revives-anel-backdoor/"
+                },
+                {
                     "source_name": "AsyncRAT GitHub",
                     "description": "Nyan-x-Cat. (n.d.). NYAN-x-CAT / AsyncRAT-C-Sharp. Retrieved October 3, 2023.",
                     "url": "https://github.com/NYAN-x-CAT/AsyncRAT-C-Sharp/blob/master/README.md"
@@ -19,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:46:58.930Z",
-            "description": "[AsyncRAT](https://attack.mitre.org/software/S1087) has the ability to download files over SFTP.(Citation: AsyncRAT GitHub)",
+            "modified": "2026-04-19T17:08:09.026Z",
+            "description": "[AsyncRAT](https://attack.mitre.org/software/S1087) has the ability to download files including over SFTP.(Citation: AsyncRAT GitHub)(Citation: ESET MirrorFace 2025)",
             "relationship_type": "uses",
             "source_ref": "tool--6a5947f3-1a36-4653-8734-526df3e1d28d",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

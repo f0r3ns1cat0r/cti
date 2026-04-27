@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b283fdb6-5948-4148-b2a4-c51e5d380a1d",
+    "id": "bundle--36fe7424-ed01-43d2-a80e-3a893facedae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--a72a96fc-c76e-4c55-9ea6-4315246c15db",
             "created": "2022-10-13T18:53:11.225Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MSTIC DEV-0537 Mar 2022",

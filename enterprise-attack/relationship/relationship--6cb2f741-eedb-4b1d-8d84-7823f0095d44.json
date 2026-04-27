@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--71898d8b-733f-4e3a-a56c-d37617f63450",
+    "id": "bundle--8304c18b-f8b8-498c-8b4d-945d3ea40b94",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--6cb2f741-eedb-4b1d-8d84-7823f0095d44",
             "created": "2019-03-26T17:48:52.214Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Red Canary Emotet Feb 2019",

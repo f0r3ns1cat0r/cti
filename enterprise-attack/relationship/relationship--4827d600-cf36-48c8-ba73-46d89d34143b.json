@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--92aaa3b2-1168-41bf-8fcf-b4840eb8ef96",
+    "id": "bundle--e8f6faa2-7410-4857-8b8c-b736e18325b1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--4827d600-cf36-48c8-ba73-46d89d34143b",
             "created": "2024-03-01T18:50:00.367Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant Cutting Edge Part 2 January 2024",

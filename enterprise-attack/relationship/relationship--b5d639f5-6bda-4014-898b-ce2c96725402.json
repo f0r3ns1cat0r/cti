@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d156cbad-2b87-4a6c-be54-2dcbbdc33c2b",
+    "id": "bundle--262d3b52-9d24-4366-a258-db3136885c55",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--b5d639f5-6bda-4014-898b-ce2c96725402",
             "created": "2025-07-21T19:46:35.403Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Networks, Unit 42",

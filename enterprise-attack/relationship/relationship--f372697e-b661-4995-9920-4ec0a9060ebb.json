@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7ba0152e-6e8d-4fef-8a6f-b140671c6415",
+    "id": "bundle--62aaa627-a107-41d6-b8d0-996f4c02428a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--f372697e-b661-4995-9920-4ec0a9060ebb",
             "created": "2024-03-28T18:01:08.468Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Promethium June 2020",

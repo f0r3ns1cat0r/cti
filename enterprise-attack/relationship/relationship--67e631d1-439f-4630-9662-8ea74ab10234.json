@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d5693ca2-ca22-429d-ba12-e26205a0e236",
+    "id": "bundle--19fdb47a-b1de-4724-9939-0dc3ef0ab079",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--67e631d1-439f-4630-9662-8ea74ab10234",
             "created": "2023-02-09T19:00:00.555Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Brute Ratel July 2022",

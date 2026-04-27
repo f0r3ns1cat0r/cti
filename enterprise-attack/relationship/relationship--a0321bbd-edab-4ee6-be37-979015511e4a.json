@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8fd1318c-c5e9-481f-b23b-9a44039cf877",
+    "id": "bundle--084c8e4c-8e47-4fb6-b084-7c8d46e3542a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--a0321bbd-edab-4ee6-be37-979015511e4a",
             "created": "2019-03-25T19:31:02.198Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "emotet_hc3_nov2023",

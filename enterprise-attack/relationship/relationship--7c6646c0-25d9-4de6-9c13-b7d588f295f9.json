@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--417b8269-3cb7-4761-8549-3790466117df",
+    "id": "bundle--8288e760-b4c6-4d67-ae09-5bca0a6b2ac9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--7c6646c0-25d9-4de6-9c13-b7d588f295f9",
             "created": "2025-09-17T16:43:30.701Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Splunk RedLine Stealer June 2023",

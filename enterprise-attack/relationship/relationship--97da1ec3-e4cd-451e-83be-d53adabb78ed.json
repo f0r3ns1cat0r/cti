@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--70e36c5f-1978-422f-87bb-f83e610cf0f7",
+    "id": "bundle--659dfcf7-5e46-42ab-b669-3e8e884eac75",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--97da1ec3-e4cd-451e-83be-d53adabb78ed",
             "created": "2022-03-07T19:20:38.012Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "NCSC Cyclops Blink February 2022",

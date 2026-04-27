@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a6648ef5-376c-405a-8534-159928823a56",
+    "id": "bundle--4c572a25-0191-43a5-8679-c26f76ab6c6f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--bd437a82-65df-42d7-a73b-6ed63a4cdd63",
             "created": "2019-06-19T17:14:23.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Turla PowerShell May 2019",

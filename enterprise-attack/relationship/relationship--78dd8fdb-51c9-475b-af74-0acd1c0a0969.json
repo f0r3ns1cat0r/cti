@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a57cd4b2-bbf8-4da0-a6a5-91c0c370fc4e",
+    "id": "bundle--a3431d8a-9aea-4895-b170-d479fb7b5e84",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--78dd8fdb-51c9-475b-af74-0acd1c0a0969",
             "created": "2024-06-14T19:18:13.430Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA Star Blizzard Advisory December 2023",

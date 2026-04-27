@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--55faf947-64c1-4908-b63e-185718e6a673",
+    "id": "bundle--0792be09-0a80-441f-8704-a215186cac84",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--3b3c27ed-0129-48bf-8c79-e86d73e5b212",
             "created": "2020-11-10T18:04:03.591Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "DHS/CISA Ransomware Targeting Healthcare October 2020",
@@ -28,20 +27,20 @@
                 {
                     "source_name": "Mandiant FIN12 Oct 2021",
                     "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
-                    "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+                    "url": "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:08:39.885Z",
+            "modified": "2026-01-20T16:26:04.863Z",
             "description": "(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)(Citation: FireEye KEGTAP SINGLEMALT October 2020)(Citation: Sophos New Ryuk Attack October 2020)(Citation: Mandiant FIN12 Oct 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
             "target_ref": "tool--066b057c-944e-4cfc-b654-e3dfba04b926",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

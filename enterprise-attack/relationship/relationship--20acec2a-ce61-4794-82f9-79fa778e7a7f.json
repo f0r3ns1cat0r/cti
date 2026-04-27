@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f962a5ae-92a5-4186-87dc-bb64a679c857",
+    "id": "bundle--1d51691d-f40e-40c6-8129-62f6116cb357",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--20acec2a-ce61-4794-82f9-79fa778e7a7f",
             "created": "2022-04-15T12:20:19.146Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Actinium February 2022",

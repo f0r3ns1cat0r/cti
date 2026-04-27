@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--76c5e5aa-4de4-4615-9ccb-da63fc867c8b",
+    "id": "bundle--b0e50dd6-5407-4ea3-a597-9b28bb348d21",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--1fbc7b2a-1cdb-455b-bd5a-b0ff29efe800",
             "created": "2020-10-21T14:15:47.374Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant - Synful Knock",

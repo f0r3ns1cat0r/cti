@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d294a440-2233-4ec9-a783-01d6a2aa2f74",
+    "id": "bundle--984a5484-4521-4d61-82ac-51b1d2152940",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--d3a4a83f-fac1-4e28-b1e8-183aabffaa34",
             "created": "2022-08-03T03:26:54.611Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "GitHub PSPKIAudit",

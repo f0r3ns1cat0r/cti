@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--272f7b27-cca4-4096-bc5d-f66f4c9302d6",
+    "id": "bundle--dd922b88-e713-4597-bcce-9625cc819ef7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--aacb43b8-2d3a-40bc-9f7b-1acb5b2474f2",
             "created": "2020-05-11T18:05:53.457Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye Hikit Rootkit",

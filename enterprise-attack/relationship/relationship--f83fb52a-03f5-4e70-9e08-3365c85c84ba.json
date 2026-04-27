@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fcb33509-8860-4f7b-bc43-43619c71624f",
+    "id": "bundle--7a08638a-b7d5-4114-b71a-0c9949c74a42",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--f83fb52a-03f5-4e70-9e08-3365c85c84ba",
             "created": "2023-01-11T21:36:49.606Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Malwarebytes AvosLocker Jul 2021",

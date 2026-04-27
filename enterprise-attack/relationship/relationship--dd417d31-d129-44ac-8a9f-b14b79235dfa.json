@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--657cb8f4-75f9-44a4-8d79-78e3a8b0866c",
+    "id": "bundle--9122e263-aa7f-4e6a-8a8c-6f7c6d45c311",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--dd417d31-d129-44ac-8a9f-b14b79235dfa",
             "created": "2019-01-29T20:05:36.519Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cofense NanoCore Mar 2018",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--be2e55ae-1bc5-4a98-b2af-fa731bbd2adb",
+    "id": "bundle--a5499c30-9806-47f0-a3e1-2bd60349dbd0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--2e8b176a-b8a8-4bd0-8542-97ff009c673c",
             "created": "2022-06-09T19:02:12.045Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Unit 42 OutSteel SaintBot February 2022 ",

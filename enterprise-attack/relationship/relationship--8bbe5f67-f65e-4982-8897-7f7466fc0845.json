@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6bac0e2c-ba52-422b-a408-aee9f70b7bbf",
+    "id": "bundle--d79dfaa4-b4f7-4c54-9f5c-377811f3aaf5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--8bbe5f67-f65e-4982-8897-7f7466fc0845",
             "created": "2019-04-24T13:44:02.099Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Malwarebytes RokRAT VBA January 2021",

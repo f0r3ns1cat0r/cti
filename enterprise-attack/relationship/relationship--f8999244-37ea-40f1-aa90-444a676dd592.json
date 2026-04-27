@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3c038be4-8422-47fb-b675-8f8197098ec5",
+    "id": "bundle--a08d003e-c72a-4e80-bc39-d9d33fbd64d8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--f8999244-37ea-40f1-aa90-444a676dd592",
             "created": "2023-10-03T19:24:29.718Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "AsyncRAT GitHub",

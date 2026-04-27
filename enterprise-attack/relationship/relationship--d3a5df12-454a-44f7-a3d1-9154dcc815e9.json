@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0b9f5423-270c-42d3-a275-9e6585565743",
+    "id": "bundle--d44599b0-adf8-48e9-b3f5-2c721832abce",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--d3a5df12-454a-44f7-a3d1-9154dcc815e9",
             "created": "2022-08-30T13:04:12.109Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Rclone",

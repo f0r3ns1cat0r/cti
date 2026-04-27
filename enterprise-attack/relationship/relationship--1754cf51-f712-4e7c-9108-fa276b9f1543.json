@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d10c55e0-6a81-4c44-b314-e552792b2bd9",
+    "id": "bundle--dccae696-42e4-485c-b4c7-c102f30197f1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--1754cf51-f712-4e7c-9108-fa276b9f1543",
             "created": "2021-03-01T20:30:52.854Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA AppleJeus Feb 2021",

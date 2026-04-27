@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e9ff504b-9338-4cdf-889e-a124bfb9c7b2",
+    "id": "bundle--81d4648f-eb84-46c0-b7c1-5a58ee7eb080",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--1b6f869f-951c-4323-816f-dbedbe3aac0a",
             "created": "2019-01-30T17:33:40.937Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos MuddyWater May 2019",

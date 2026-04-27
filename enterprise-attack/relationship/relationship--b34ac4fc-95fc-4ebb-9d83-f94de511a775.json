@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e269db9e-d820-4c84-be02-11b195791a53",
+    "id": "bundle--200c84aa-bde9-41da-87d3-397e91265fc1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--b34ac4fc-95fc-4ebb-9d83-f94de511a775",
             "created": "2025-02-03T21:57:25.889Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA Leviathan 2024",

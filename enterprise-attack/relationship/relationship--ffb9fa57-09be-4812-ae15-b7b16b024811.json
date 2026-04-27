@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ecddd60a-7930-437b-adb6-13d50395fc8e",
+    "id": "bundle--b09c0ddd-7345-433f-8508-d0222941e555",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--ffb9fa57-09be-4812-ae15-b7b16b024811",
             "created": "2025-01-29T20:20:34.712Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason StealBit Exfiltration Tool",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--95c0e542-5bca-4121-b309-e3bf46058d23",
+    "id": "bundle--a50f53dd-1886-4b8d-b729-b01ece908f2e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--63f6acf5-04d5-4a77-874b-77c6416c5701",
             "created": "2022-06-01T18:34:10.904Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Tarrask scheduled task",

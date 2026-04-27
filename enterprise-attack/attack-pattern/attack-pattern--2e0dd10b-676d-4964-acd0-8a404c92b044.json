@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8b465826-521d-475b-9d2c-e52d835b8bc1",
+    "id": "bundle--de80ebd2-2a2f-4315-ab82-977a5dec7830",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,18 +24,17 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:35.346Z",
+            "modified": "2026-04-14T22:53:15.926Z",
             "name": "Disabling Security Tools",
             "description": "Adversaries may disable security tools to avoid possible detection of their tools and activities. This can take the form of killing security software or event logging processes, deleting Registry keys so that tools do not start at run time, or other methods to interfere with security scanning or event reporting.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "defense-evasion"
+                    "phase_name": "stealth"
                 }
             ],
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],

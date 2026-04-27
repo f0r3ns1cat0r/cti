@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--863bd960-4a85-4897-99ce-1ac778e06acd",
+    "id": "bundle--81308665-276a-4fd4-be94-10eebc9cd281",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--095a259d-79c7-42b0-b65a-e423f110d187",
             "created": "2019-03-26T19:23:02.007Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro Emotet Jan 2019",

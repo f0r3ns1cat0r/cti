@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c125d2d6-6414-44eb-8bda-4dfe63808790",
+    "id": "bundle--132cc845-d4c6-4a31-95ef-912865560412",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--6de628ac-2f5b-4563-8f54-c5243109221e",
             "created": "2023-09-27T20:18:18.906Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Bugcrowd Replay Attack",

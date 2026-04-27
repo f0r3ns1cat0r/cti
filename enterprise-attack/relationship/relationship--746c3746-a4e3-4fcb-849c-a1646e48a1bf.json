@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1fa76858-40c9-4145-af19-2fb53323d2ca",
+    "id": "bundle--8f98d3b9-b31f-4731-8746-1fbceae7d8d9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--746c3746-a4e3-4fcb-849c-a1646e48a1bf",
             "created": "2021-03-03T20:27:49.262Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye Exchange Zero Days March 2021",

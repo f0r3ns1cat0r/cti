@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f376998a-a01b-432e-b479-777c4afa231a",
+    "id": "bundle--794e0c7b-2e2a-484e-9aae-82525a5ad0ef",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--c308ceda-6c7c-4f7f-847b-e64f992d0104",
             "created": "2025-08-21T20:18:22.909Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "VenereCiscoTalos_Gamaredon_Mar2025",

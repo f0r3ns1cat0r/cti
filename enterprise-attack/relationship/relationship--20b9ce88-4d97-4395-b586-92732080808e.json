@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ca3ea65e-c1fd-4351-81f4-10fb2dcb7d62",
+    "id": "bundle--cbdf5a26-fd78-4042-abbe-8d38bd1f0e8c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--20b9ce88-4d97-4395-b586-92732080808e",
             "created": "2025-08-05T18:39:00.130Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Havoc Framework Documentation",

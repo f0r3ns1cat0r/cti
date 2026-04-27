@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cb1cb095-10a1-47c1-9fc1-7da3dc8ac78c",
+    "id": "bundle--9af34332-18e0-42c9-9ab7-7bfd1e92e7fe",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--d788ad3e-64e3-41ac-9075-2732d95afb57",
             "created": "2024-05-17T15:46:57.518Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft RaspberryRobin 2022",

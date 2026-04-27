@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bf64e0d1-4d13-41a3-9eca-c1af8ae7c07d",
+    "id": "bundle--b23d8e82-d497-4d51-8d05-d126940bfc8b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--2b789109-44c7-4195-8df8-50b1e09b1a69",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT37 Feb 2018",

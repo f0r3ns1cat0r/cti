@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b934cbdf-f68e-468f-85e3-97e9cabb343e",
+    "id": "bundle--9868b6bf-613d-4ba7-b666-d9282ab116b5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--596ef2d8-53ff-4fde-8dd2-08b53371d0da",
             "created": "2022-10-19T15:32:29.067Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelLabs reversing run-only applescripts 2021",

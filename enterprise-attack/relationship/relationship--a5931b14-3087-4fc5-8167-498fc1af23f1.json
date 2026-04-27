@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2b59f937-1647-44c4-9f8c-4aa8635c9d60",
+    "id": "bundle--ebf6748c-db7b-4def-902d-0cfda0ef2e33",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--a5931b14-3087-4fc5-8167-498fc1af23f1",
             "created": "2023-07-25T20:14:45.153Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant Suspected Turla Campaign February 2023",

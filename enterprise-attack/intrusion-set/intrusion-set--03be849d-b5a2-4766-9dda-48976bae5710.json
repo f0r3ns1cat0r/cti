@@ -1,10 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--ed4d8ae4-9888-455c-a0af-61b8721d2be2",
+    "id": "bundle--994c5cc0-3c57-4b15-aecb-302312970015",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
+            "spec_version": "2.1",
             "id": "intrusion-set--03be849d-b5a2-4766-9dda-48976bae5710",
             "created": "2022-08-07T13:52:07.791Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -32,15 +33,15 @@
             ],
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_domains": [
-                "enterprise-attack"
-            ],
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_contributors": [
                 "Pooja Natarajan, NEC Corporation India",
                 "Hiroki Nagahama, NEC Corporation",
                 "Manikantan Srinivasan, NEC Corporation India"
+            ],
+            "x_mitre_domains": [
+                "enterprise-attack"
             ]
         }
     ]

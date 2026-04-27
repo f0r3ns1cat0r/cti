@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--563dc681-405a-4be4-891f-7e0ac71be281",
+    "id": "bundle--81421073-5199-46f1-9e56-91e8b8ef9401",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--4f24d075-4d6c-49d2-a213-306e4af2083d",
             "created": "2019-06-21T16:21:55.304Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "US-CERT Alert TA13-175A Risks of Default Passwords on the Internet",

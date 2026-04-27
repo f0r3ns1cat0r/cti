@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--55b82da9-44f3-4a03-a5de-640dfd4039bb",
+    "id": "bundle--bc50f261-9e9a-4214-a2c6-e780be5810f6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--6d7ac1b0-acaa-4828-8863-9efda8f79589",
             "created": "2024-09-23T22:19:25.956Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "trendmicro_redcurl",

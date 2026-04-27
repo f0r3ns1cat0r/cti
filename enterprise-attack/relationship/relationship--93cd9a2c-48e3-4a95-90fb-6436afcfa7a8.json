@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1d19bfb5-4f5b-4d28-a5e4-e864befd917d",
+    "id": "bundle--6ec0e222-4731-451b-87d8-ad5ba193e164",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--93cd9a2c-48e3-4a95-90fb-6436afcfa7a8",
             "created": "2020-05-13T16:45:50.316Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CrowdStrike Grim Spider May 2019",

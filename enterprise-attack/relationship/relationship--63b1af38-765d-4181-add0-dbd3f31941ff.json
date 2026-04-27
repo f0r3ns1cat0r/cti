@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2faeb87c-f6e7-4cda-b2a8-03abe13ef42b",
+    "id": "bundle--94d9e43d-e4cb-4ddb-aec2-ba50155ebb8f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--63b1af38-765d-4181-add0-dbd3f31941ff",
             "created": "2022-08-22T15:51:47.597Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Proofpoint Bumblebee April 2022",

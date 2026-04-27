@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cdb6a591-887b-4e17-afa8-cca0533c9941",
+    "id": "bundle--2da18f95-5149-4b57-b971-27e7c0fd7b11",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--3ebc8829-f260-4d75-817a-cd23a4ebb194",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT29",

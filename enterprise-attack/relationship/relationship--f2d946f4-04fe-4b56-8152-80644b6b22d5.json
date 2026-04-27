@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aaff0aab-253f-4fbb-bf33-121d92ac2aa8",
+    "id": "bundle--bd8808a2-bc29-48db-8105-ab0c6f9b6161",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--f2d946f4-04fe-4b56-8152-80644b6b22d5",
             "created": "2020-12-17T15:41:29.427Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Crowdstrike AWS User Federation Persistence",

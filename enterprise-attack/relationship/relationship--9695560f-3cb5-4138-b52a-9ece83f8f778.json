@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2f90731a-e614-428b-bc29-da2122575c5e",
+    "id": "bundle--730503b3-9955-4c37-a367-eec7233dec70",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--9695560f-3cb5-4138-b52a-9ece83f8f778",
             "created": "2024-09-23T16:43:02.138Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sandfly BPFDoor 2022",

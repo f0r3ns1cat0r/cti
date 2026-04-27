@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8362c3cc-4b3d-45e5-9af3-8c62f94132ae",
+    "id": "bundle--a70c03c1-748f-4517-8c27-bfa0d8c35a2a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--d9dce15d-68d8-46af-a7ec-354bf5093c49",
             "created": "2020-05-22T18:00:52.273Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FBI FLASH APT39 September 2020",

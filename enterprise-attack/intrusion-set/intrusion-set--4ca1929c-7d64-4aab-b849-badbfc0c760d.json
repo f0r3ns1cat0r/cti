@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a7ddf98b-a07f-4e15-ba31-a946a4e14568",
+    "id": "bundle--8467a10f-1304-4f34-a92f-4d0c2bf43f4e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -30,6 +30,7 @@
                 "Jaesang Oh, KC7 Foundation"
             ],
             "type": "intrusion-set",
+            "spec_version": "2.1",
             "id": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -172,12 +173,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_domains": [
                 "enterprise-attack",
                 "ics-attack"
-            ],
-            "x_mitre_attack_spec_version": "3.2.0",
-            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+            ]
         }
     ]
 }

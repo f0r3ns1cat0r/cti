@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--280b764f-b28a-44a8-8c2e-f089f8d5a1fc",
+    "id": "bundle--c80e1b20-1537-40d8-81f1-2adfdfa8eb1e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--c7c4f5fa-82f9-4851-a6af-3a7d402e405d",
             "created": "2022-04-09T15:20:42.343Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Check Point Meteor Aug 2021",

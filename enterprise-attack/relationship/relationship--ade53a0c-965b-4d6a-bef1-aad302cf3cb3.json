@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d8093fce-1be6-4026-9549-c8265910a350",
+    "id": "bundle--873ace78-8897-43b6-8e53-17194d085143",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--ade53a0c-965b-4d6a-bef1-aad302cf3cb3",
             "created": "2024-05-29T20:45:48.139Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelOne Gootloader June 2021",

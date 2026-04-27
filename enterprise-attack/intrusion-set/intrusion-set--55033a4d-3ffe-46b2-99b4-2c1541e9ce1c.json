@@ -1,10 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--734d4fcf-81d7-42f4-ac5d-9fca2922114e",
+    "id": "bundle--0e28abe4-e7f5-4517-a4fe-fe5355e8d9c4",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
+            "spec_version": "2.1",
             "id": "intrusion-set--55033a4d-3ffe-46b2-99b4-2c1541e9ce1c",
             "created": "2017-05-31T21:31:49.021Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -65,13 +66,13 @@
             ],
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_domains": [
-                "enterprise-attack"
-            ],
             "x_mitre_version": "2.0",
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_contributors": [
                 "Anastasios Pingios"
+            ],
+            "x_mitre_domains": [
+                "enterprise-attack"
             ]
         }
     ]

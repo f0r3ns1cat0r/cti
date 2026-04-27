@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fd4d3339-b0bd-4a03-a08b-780e3ca5c9e8",
+    "id": "bundle--03a5b306-b852-455b-afc0-652cb3fe1b62",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--f9eca2ae-009b-434a-bf31-66bc1f98d9ba",
             "created": "2024-08-20T19:03:38.095Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mandiant_apt44_unearthing_sandworm",

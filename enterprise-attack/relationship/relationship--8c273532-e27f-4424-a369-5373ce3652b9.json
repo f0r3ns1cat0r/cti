@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e84ee52b-2029-468f-82d1-761881b6213f",
+    "id": "bundle--75335bdc-5c11-4e3f-a035-ad717516eb0f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--8c273532-e27f-4424-a369-5373ce3652b9",
             "created": "2023-09-14T19:05:37.469Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MalwareBytes Ngrok February 2020",

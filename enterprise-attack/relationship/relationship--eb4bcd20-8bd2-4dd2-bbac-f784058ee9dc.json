@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d2d7f3fd-b10b-463a-a5d1-0709a908c196",
+    "id": "bundle--88033ec2-2b23-4a6e-8fbb-6f1edd2c48e5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--eb4bcd20-8bd2-4dd2-bbac-f784058ee9dc",
             "created": "2023-03-31T19:15:30.464Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA Royal AA23-061A March 2023",

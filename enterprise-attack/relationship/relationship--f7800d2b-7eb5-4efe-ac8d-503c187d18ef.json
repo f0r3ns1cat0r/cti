@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ad3e5a77-4f6e-4785-8a67-00ea8d46b830",
+    "id": "bundle--dc398bd8-8a0d-4217-b828-c0ca342a16ac",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--f7800d2b-7eb5-4efe-ac8d-503c187d18ef",
             "created": "2020-06-25T17:48:41.169Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SANS Windshift August 2018",

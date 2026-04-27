@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cee02ed8-47b0-4bff-8932-191e47ce69ed",
+    "id": "bundle--6e59ed01-2141-4aa3-bde7-6521209bb1ee",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--203b1d92-99d0-4ec7-98ae-e72d148e030d",
             "created": "2025-06-24T15:53:37.856Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Censys RedPenguin MAR 2025",

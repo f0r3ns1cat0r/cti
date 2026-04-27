@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--45e49a0d-8da1-425c-b146-2ac8f1cc699e",
+    "id": "bundle--389e1b2a-3e8a-4cc9-b04d-f0df3eaf94ad",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--db91e39d-daa4-4f9c-a7a6-be67eba712d2",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "GitHub Invoke-Obfuscation",

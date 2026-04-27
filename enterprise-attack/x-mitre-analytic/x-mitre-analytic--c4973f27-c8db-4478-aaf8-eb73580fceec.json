@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e37d9582-55f0-468c-9e7d-d144ade62543",
+    "id": "bundle--717d11c6-5ac2-4846-993e-162097801a7c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--c4973f27-c8db-4478-aaf8-eb73580fceec",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,10 +19,11 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-03-13T22:28:56.147Z",
             "name": "Analytic 1617",
-            "description": "Account enumeration via esxcli, vim-cmd, or API calls to vSphere.",
+            "description": "Detection of enumeration activity when system processes query ESXi host account configuration or management APIs to retrieve user account listings.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -46,8 +48,7 @@
                     "field": "PrivilegedSession",
                     "description": "Elevated enumeration from vpxuser or root may indicate threat activity."
                 }
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

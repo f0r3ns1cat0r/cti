@@ -1,10 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--3f178ca9-cb68-4f2a-9639-418cdde4cfc5",
+    "id": "bundle--14ac8daf-9295-470c-be47-8b8038d3c65a",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
+            "spec_version": "2.1",
             "id": "intrusion-set--38863958-a201-4ce1-9dbe-539b0b6804e0",
             "created": "2019-09-13T12:37:10.394Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -60,13 +61,13 @@
             ],
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_domains": [
-                "enterprise-attack"
-            ],
             "x_mitre_version": "2.0",
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_contributors": [
                 "Matias Nicolas Porolli, ESET"
+            ],
+            "x_mitre_domains": [
+                "enterprise-attack"
             ]
         }
     ]

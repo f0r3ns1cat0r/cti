@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e77f58a8-cf5d-4bcd-9a1a-1af8d54ca465",
+    "id": "bundle--9b825a8c-28e6-4ffe-ae3a-a009ebbd84ac",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--3b2680f0-aa69-4766-ab41-9123373ffa4e",
             "created": "2023-03-26T22:13:48.078Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant UNC2452 APT29 April 2022",

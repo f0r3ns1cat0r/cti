@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fc03c2dd-41ab-4a9e-9a0a-befbec9f6282",
+    "id": "bundle--81dd0a6e-a8ad-443f-832a-0210de01303e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--ff9691d7-91dd-4549-b997-d5abf327ef1f",
             "created": "2022-04-06T13:57:51.746Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET PLEAD Malware July 2018",

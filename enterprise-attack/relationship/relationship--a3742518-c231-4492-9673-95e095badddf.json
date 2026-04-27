@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a866c9f9-c820-424d-9784-5910370ac37f",
+    "id": "bundle--7e14245f-4291-41be-bb54-77d47abc99c5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--a3742518-c231-4492-9673-95e095badddf",
             "created": "2024-07-25T20:41:34.414Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Daggerfly 2023",

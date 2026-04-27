@@ -1,10 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--b96ffddf-d99c-48f0-a183-e6d69e89dc62",
+    "id": "bundle--20153844-9bfb-4eb5-8ecd-c3fb6ad785f5",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
+            "spec_version": "2.1",
             "id": "intrusion-set--dc5e2999-ca1a-47d4-8d12-a6984b138a1b",
             "created": "2021-01-05T15:34:11.066Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -66,14 +67,14 @@
             ],
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_domains": [
-                "enterprise-attack"
-            ],
             "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_contributors": [
                 "Katie Nickels, Red Canary",
                 "Matt Brenton, Zurich Insurance Group"
+            ],
+            "x_mitre_domains": [
+                "enterprise-attack"
             ]
         }
     ]

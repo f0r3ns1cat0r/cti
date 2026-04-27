@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9ca6ec3a-d4fe-4b71-a3d9-a46b192e070d",
+    "id": "bundle--2445c1c3-170a-4d98-85db-94c6254410ff",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,6 +19,7 @@
                 "Valerii Marchuk, Cybersecurity Help s.r.o."
             ],
             "type": "intrusion-set",
+            "spec_version": "2.1",
             "id": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -64,11 +65,11 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_domains": [
                 "enterprise-attack"
-            ],
-            "x_mitre_attack_spec_version": "3.2.0",
-            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+            ]
         }
     ]
 }

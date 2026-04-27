@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d68f2404-34b4-4044-baf8-5e91376c3b2e",
+    "id": "bundle--630eeb92-1e2d-46cb-bb60-fb0392a3eae9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--bcbe375f-f724-4d85-a797-3a4008f7d1f5",
             "created": "2024-06-11T17:40:47.197Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelOne INC Ransomware",

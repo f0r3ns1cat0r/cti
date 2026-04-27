@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1d908e46-1670-406e-9fb5-4dbf34c37483",
+    "id": "bundle--ced515e9-a36c-4603-a597-72de6130907f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--6a008820-b742-4ec0-ad56-7494ca911da7",
             "created": "2019-01-30T15:38:21.258Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant APT1",

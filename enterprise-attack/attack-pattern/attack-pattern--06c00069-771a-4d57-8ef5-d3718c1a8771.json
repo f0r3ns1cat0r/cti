@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--393ce4fa-5611-4d1c-8ad9-8cffa6963b34",
+    "id": "bundle--b41d8613-79f4-4195-a6aa-e9b497a13c79",
     "spec_version": "2.0",
     "objects": [
         {
@@ -44,30 +44,29 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:21.118Z",
+            "modified": "2026-04-16T20:07:53.037Z",
             "name": "Pluggable Authentication Modules",
             "description": "Adversaries may modify pluggable authentication modules (PAM) to access user credentials or enable otherwise unwarranted access to accounts. PAM is a modular system of configuration files, libraries, and executable files which guide authentication for many services. The most common authentication module is <code>pam_unix.so</code>, which retrieves, sets, and verifies account authentication information in <code>/etc/passwd</code> and <code>/etc/shadow</code>.(Citation: Apple PAM)(Citation: Man Pam_Unix)(Citation: Red Hat PAM)\n\nAdversaries may modify components of the PAM system to create backdoors. PAM components, such as <code>pam_unix.so</code>, can be patched to accept arbitrary adversary supplied values as legitimate credentials.(Citation: PAM Backdoor)\n\nMalicious modifications to the PAM system may also be abused to steal credentials. Adversaries may infect PAM resources with code to harvest user credentials, since the values exchanged with PAM components may be plain-text since PAM does not store passwords.(Citation: PAM Creds)(Citation: Apple PAM)",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "credential-access"
-                },
-                {
-                    "kill_chain_name": "mitre-attack",
-                    "phase_name": "defense-evasion"
+                    "phase_name": "defense-impairment"
                 },
                 {
                     "kill_chain_name": "mitre-attack",
                     "phase_name": "persistence"
+                },
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "credential-access"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_contributors": [
-                "Scott Knight, @sdotknight, VMware Carbon Black",
-                "George Allen, VMware Carbon Black"
+                "George Allen, VMware Carbon Black",
+                "Scott Knight, @sdotknight, VMware Carbon Black"
             ],
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
@@ -77,7 +76,7 @@
                 "Linux",
                 "macOS"
             ],
-            "x_mitre_version": "2.1"
+            "x_mitre_version": "3.0"
         }
     ]
 }

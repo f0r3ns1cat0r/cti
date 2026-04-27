@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--969b63ad-4e4e-4ec8-bf48-b4496dc13e8b",
+    "id": "bundle--f93ec1ca-c1ae-473a-80c7-c48e4640e153",
     "spec_version": "2.0",
     "objects": [
         {
@@ -20,6 +20,7 @@
                 "Mindaugas Gudzis, BT Security"
             ],
             "type": "intrusion-set",
+            "spec_version": "2.1",
             "id": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -71,12 +72,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_domains": [
                 "enterprise-attack",
                 "ics-attack"
-            ],
-            "x_mitre_attack_spec_version": "3.2.0",
-            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+            ]
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b32946ee-aa79-4c15-87fb-862092ae1559",
+    "id": "bundle--da9a3c0d-bb88-4be6-9b85-e75284e786eb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--d421d0ce-6821-4d06-9249-214daacac1b0",
             "created": "2023-02-15T16:57:11.500Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Joint CSA AvosLocker Mar 2022",

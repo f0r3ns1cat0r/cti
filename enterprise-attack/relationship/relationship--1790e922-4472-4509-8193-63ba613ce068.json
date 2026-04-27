@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--22c4b0eb-1c4d-4112-8b17-de3fabe9a90f",
+    "id": "bundle--3f2dc49e-72ac-428b-9197-0eae362a6120",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--1790e922-4472-4509-8193-63ba613ce068",
             "created": "2024-07-01T20:18:35.306Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Workspace Apps Script Restrict OAuth Scopes",

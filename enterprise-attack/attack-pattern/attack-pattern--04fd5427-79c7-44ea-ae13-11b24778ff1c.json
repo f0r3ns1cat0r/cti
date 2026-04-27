@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1b55af94-8ae5-4690-88f9-4b6b34758269",
+    "id": "bundle--2734a9cd-4ca4-4b83-bfa5-8771409f610f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -45,7 +45,6 @@
             ],
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
@@ -54,8 +53,8 @@
             "x_mitre_platforms": [
                 "ESXi",
                 "Linux",
-                "Windows",
-                "macOS"
+                "macOS",
+                "Windows"
             ],
             "x_mitre_version": "1.1"
         }

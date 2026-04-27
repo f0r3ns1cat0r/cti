@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7cb4c8fc-f03f-4eaa-95cd-fe8f5419ed89",
+    "id": "bundle--17851e74-04ee-4392-bddd-a1f0a68f7e4d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--acdc53fa-91d6-4417-bc7b-83c220ec9fae",
             "created": "2019-01-30T15:27:06.723Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant APT1 Appendix",

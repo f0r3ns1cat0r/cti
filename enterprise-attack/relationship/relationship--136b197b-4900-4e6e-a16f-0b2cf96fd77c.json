@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e8d9048b-b43b-49f5-9548-d957295f53ad",
+    "id": "bundle--0e2eb872-b8a6-4e41-aba7-ce7d751f0b92",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--136b197b-4900-4e6e-a16f-0b2cf96fd77c",
             "created": "2024-07-01T14:25:52.889Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "emotet_trendmicro_mar2023",

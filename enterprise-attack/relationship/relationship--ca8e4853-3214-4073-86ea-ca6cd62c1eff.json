@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d597bbeb-01c9-4b20-889b-06be56102c33",
+    "id": "bundle--85a23dd8-990e-4afd-be2e-1138424842fb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--ca8e4853-3214-4073-86ea-ca6cd62c1eff",
             "created": "2024-05-22T21:55:03.976Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelOne Agrius 2021",

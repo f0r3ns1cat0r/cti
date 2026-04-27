@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e1ad6d78-2440-4144-9fa3-1a0b2d66ddd9",
+    "id": "bundle--11f5120b-f10d-4249-a219-370c750bdcd0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--56f2efc6-fb22-47f9-a86f-db5c69224936",
             "created": "2022-03-04T18:30:39.092Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA MFA PrintNightmare",

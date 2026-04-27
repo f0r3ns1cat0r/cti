@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5785e1d1-c172-4f85-9d44-749ad0d170b7",
+    "id": "bundle--18fbe89d-7dc0-4073-9ae2-77109f21aeec",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--20e08063-e851-4230-a59e-b378ec8676ec",
             "created": "2024-09-05T22:24:53.218Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "DFIR_Sodinokibi_Ransomware",

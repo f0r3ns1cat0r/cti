@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f0adbe66-5310-4daa-9316-90d00cdf03b5",
+    "id": "bundle--565b9ad5-d6de-415f-8733-0216b148f2d1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--3c740c2b-293a-4f6b-98a8-dde4a215eea1",
             "created": "2024-03-24T19:44:22.503Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cider Security Top 10 CICD Security Risks",

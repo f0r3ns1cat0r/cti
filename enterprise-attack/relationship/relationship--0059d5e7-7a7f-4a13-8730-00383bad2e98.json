@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--beb76389-06f5-45c3-ac02-d43089f6ed6b",
+    "id": "bundle--0f552bc6-65f7-402c-8aaa-71a7d0e56dc6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--0059d5e7-7a7f-4a13-8730-00383bad2e98",
             "created": "2025-09-30T15:26:07.940Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "HC3 Qilin Threat Profile JUN 2024",

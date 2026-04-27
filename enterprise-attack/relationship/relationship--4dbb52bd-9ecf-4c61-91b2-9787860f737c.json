@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--75eb1afe-fd7f-4313-9e68-0e695325b3e1",
+    "id": "bundle--b1b5dba8-2df8-48af-9617-d81208363c17",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--4dbb52bd-9ecf-4c61-91b2-9787860f737c",
             "created": "2020-03-13T20:36:57.502Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TechNet Credential Theft",

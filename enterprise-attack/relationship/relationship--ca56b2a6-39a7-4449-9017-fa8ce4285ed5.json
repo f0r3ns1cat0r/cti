@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b36aed0d-e3c8-4de4-9f61-e7dd1c83ef58",
+    "id": "bundle--b5352f92-2344-4382-be62-70e808d55103",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--ca56b2a6-39a7-4449-9017-fa8ce4285ed5",
             "created": "2023-09-14T19:01:00.251Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro Ngrok September 2020",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3de70952-b346-449b-b835-bd0a71c59911",
+    "id": "bundle--0e9be6a3-e7b3-4629-a4be-1204483c759b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--3ec8d5a9-77b4-4406-8c0e-9bccaf4d0cea",
             "created": "2025-06-04T16:12:33.483Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Storm-0940",

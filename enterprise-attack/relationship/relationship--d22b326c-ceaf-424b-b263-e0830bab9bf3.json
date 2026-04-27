@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ba8024ef-a7b5-4736-a567-3e0dfcdc420a",
+    "id": "bundle--a9736fa7-e0bd-43b1-94b0-c4e1c11a0ec7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--d22b326c-ceaf-424b-b263-e0830bab9bf3",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Securelist Calisto July 2018",

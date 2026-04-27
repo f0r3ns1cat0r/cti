@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a6418ee8-1b8f-45a0-996f-5c036ecf26ab",
+    "id": "bundle--9ded5cc6-ed74-41b1-ac80-af5bb080119e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--a62e2165-9f7e-44ed-8523-7e3a805a94db",
             "created": "2024-09-06T21:57:37.932Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA GRU29155 2024",

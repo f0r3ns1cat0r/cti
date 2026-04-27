@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b30826f4-a0eb-41bb-968a-f57f30e0bd8a",
+    "id": "bundle--9f540b5e-c898-4365-9360-bf671b192c27",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--f1eda5c7-6843-406d-89b8-c61759c02450",
             "created": "2019-05-24T17:57:36.696Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SecureList Silence Nov 2017",

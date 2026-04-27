@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6c394f85-c278-47f4-bc3a-1c68cdf4b17a",
+    "id": "bundle--d23f4c81-7ea7-4fac-9eb3-a2c5c13239c9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--4cc78773-df9f-40d8-a2e5-eb2eadb05409",
             "created": "2020-03-26T15:53:25.148Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Vulnerability and Exploit Detector",

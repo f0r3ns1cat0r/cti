@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1a443eed-6511-4ad4-967c-e657fe542a55",
+    "id": "bundle--cc7f320b-6c40-46d9-ac5a-b66334e5db05",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--10c4c857-59e6-4168-b2af-96b6609bdc76",
             "created": "2023-07-28T17:39:30.259Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant FIN13 Aug 2022",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--64d18f9a-1c80-43ae-9a52-a7ec93125ab4",
+    "id": "bundle--bb0d7814-9073-4d4e-9576-38f47c796286",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,16 +19,17 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-11-12T22:03:39.105Z",
+            "modified": "2026-04-16T16:41:53.549Z",
             "name": "File Modification",
             "description": "Changes made to a file, including updates to its contents, metadata, access permissions, or attributes. These modifications may indicate legitimate activity (e.g., software updates) or unauthorized changes (e.g., tampering, ransomware, or adversarial modifications). Examples: \n\n- Content Modifications: Changes to the content of a configuration file, such as modifying `/etc/ssh/sshd_config` on Linux or `C:\\Windows\\System32\\drivers\\etc\\hosts` on Windows.\n- Permission Changes: Altering file permissions to allow broader access, such as changing a file from `644` to `777` on Linux or modifying NTFS permissions on Windows.\n- Attribute Modifications: Changing a file's attributes to hidden, read-only, or system on Windows.\n- Timestamp Manipulation: Adjusting a file's creation or modification timestamp using tools like `touch` in Linux or timestomping tools on Windows.\n- Software or System File Changes: Modifying system files such as `boot.ini`, kernel modules, or application binaries.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "ics-attack",
-                "enterprise-attack"
+                "enterprise-attack",
+                "mobile-attack"
             ],
-            "x_mitre_version": "2.0",
+            "x_mitre_version": "3.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_log_sources": [
                 {
@@ -606,6 +607,30 @@
                 {
                     "name": "esxi:vmkernel",
                     "channel": "/var/log/vmkernel.log"
+                },
+                {
+                    "name": "AndroidLogs:FileSystem",
+                    "channel": "Modification to /system/etc/init/ or /vendor/etc/init/ boot-time scripts"
+                },
+                {
+                    "name": "iOS:unifiedlog",
+                    "channel": "Creation or modification of LaunchDaemon or LaunchAgent plist in /System/Library/LaunchDaemons, /Library/LaunchDaemons, or /Library/LaunchAgents"
+                },
+                {
+                    "name": "android:logcat",
+                    "channel": "INSERT or UPDATE of image/*, audio/*, video/* via ContentResolver with same URI re-written within short window; abnormal MIME/container change"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application inserts, updates, deletes, hides, or marks message records in SMS store or messaging database immediately after SMS receive or send event"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application inserts, updates, deletes, or rewrites call-log records immediately after call-control action to conceal, alter, or synthesize call history"
+                },
+                {
+                    "name": "auditd:PATH",
+                    "channel": "odification of ~/.ssh/authorized_keys or credential files"
                 }
             ]
         }

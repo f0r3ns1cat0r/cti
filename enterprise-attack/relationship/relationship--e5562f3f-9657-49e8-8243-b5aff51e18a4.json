@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ccb09f1e-5720-4546-bbf3-f894adbc21fe",
+    "id": "bundle--5f337ca7-8edd-4841-8db2-4af16304a8d2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--e5562f3f-9657-49e8-8243-b5aff51e18a4",
             "created": "2021-01-08T18:49:43.275Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye NETWIRE March 2019",

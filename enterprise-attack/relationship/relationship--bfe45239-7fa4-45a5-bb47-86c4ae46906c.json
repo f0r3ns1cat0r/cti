@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2ac684ef-f734-459d-9f88-ebcd336b12fd",
+    "id": "bundle--2b678c7f-6967-44d7-a4fd-556ed9ce089f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bfe45239-7fa4-45a5-bb47-86c4ae46906c",
             "created": "2019-01-29T20:08:24.834Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 Gorgon Group Aug 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:08:14.153Z",
-            "description": "(Citation: Unit 42 Gorgon Group Aug 2018)",
+            "modified": "2026-04-22T22:29:52.707Z",
+            "description": "[Gorgon Group](https://attack.mitre.org/groups/G0078) has used [Remcos](https://attack.mitre.org/software/S0332) as the final payload during operations.(Citation: Unit 42 Gorgon Group Aug 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--1f21da59-6a13-455b-afd0-d58d0a5a7d27",
             "target_ref": "tool--7cd0bc75-055b-4098-a00e-83dc8beaff14",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

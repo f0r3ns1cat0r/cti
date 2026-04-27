@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fd1db360-9f3e-42c4-a1a2-2f003874f71e",
+    "id": "bundle--ff8acca4-3203-42cd-9007-672e3eef3d5e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--2fd9a7e9-fbbe-48c1-af49-09a86d21bfc7",
             "created": "2025-03-14T19:17:20.882Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Storm-1811 2024",

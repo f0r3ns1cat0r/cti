@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4a1fc20b-0bf8-418c-962d-921bc1bfaaf7",
+    "id": "bundle--fd541ada-5cf9-466a-a098-d6f10a5570e8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--f376ba97-3fe5-4c51-aa2c-0c1e35fcfcda",
             "created": "2023-09-22T19:23:11.194Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro MacOS Backdoor November 2020",

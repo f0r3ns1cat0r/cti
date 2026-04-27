@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4e7e240b-0e7f-4ec2-b2ea-6659a30d9604",
+    "id": "bundle--6023bc7f-c6f4-4abd-b2e7-4f0fa291119a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -15,14 +15,14 @@
                     "external_id": "T1114.001"
                 },
                 {
-                    "source_name": "Outlook File Sizes",
-                    "description": "N. O'Bryan. (2018, May 30). Managing Outlook Cached Mode and OST File Sizes. Retrieved February 19, 2020.",
-                    "url": "https://practical365.com/clients/office-365-proplus/outlook-cached-mode-ost-file-sizes/"
-                },
-                {
                     "source_name": "Microsoft Outlook Files",
                     "description": "Microsoft. (n.d.). Introduction to Outlook Data Files (.pst and .ost). Retrieved February 19, 2020.",
                     "url": "https://support.office.com/en-us/article/introduction-to-outlook-data-files-pst-and-ost-222eaf92-a995-45d9-bde2-f331f60e2790"
+                },
+                {
+                    "source_name": "Outlook File Sizes",
+                    "description": "N. O'Bryan. (2018, May 30). Managing Outlook Cached Mode and OST File Sizes. Retrieved February 19, 2020.",
+                    "url": "https://practical365.com/clients/office-365-proplus/outlook-cached-mode-ost-file-sizes/"
                 }
             ],
             "object_marking_refs": [
@@ -39,7 +39,6 @@
             ],
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
@@ -48,7 +47,8 @@
             "x_mitre_platforms": [
                 "Windows"
             ],
-            "x_mitre_version": "1.1"
+            "x_mitre_version": "1.1",
+            "revoked": false
         }
     ]
 }

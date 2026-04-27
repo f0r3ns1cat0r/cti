@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c2f65102-ec8a-4581-95b4-23f414a2a754",
+    "id": "bundle--3af0071c-9c82-4b23-9fce-819241e6c949",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--de1d9450-317d-42e1-af71-8f531408e5c6",
             "created": "2020-03-19T23:01:00.228Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Impacket Tools",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5c6d125e-9df9-41e5-a60a-afde1509fc63",
+    "id": "bundle--480e2732-b3f8-4e0f-a2a7-4eec61df37e4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--a8b93875-6ad4-492e-afa1-0549ada7d7ca",
             "created": "2020-04-30T20:31:38.012Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT41 March 2020",

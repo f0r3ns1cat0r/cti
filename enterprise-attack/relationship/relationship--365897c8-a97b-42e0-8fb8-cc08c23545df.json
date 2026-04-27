@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4feeb5c3-fccb-4fac-97f4-49e159b14b64",
+    "id": "bundle--679b77b5-e057-41e6-bc92-b8c833e78dfd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--365897c8-a97b-42e0-8fb8-cc08c23545df",
             "created": "2021-03-30T17:38:34.719Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kubernetes Security Context",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d6212f20-9ad8-4c34-8307-7de7c247ecff",
+    "id": "bundle--6854644e-20cb-4adc-b8c6-9dbc119bca2d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--bda5489b-7735-4793-8816-fc2238f6957f",
             "created": "2020-05-19T20:39:12.429Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CERT-EE Gamaredon January 2021",

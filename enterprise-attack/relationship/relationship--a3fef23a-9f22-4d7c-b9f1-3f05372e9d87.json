@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b2fb4928-365c-4d9f-923c-7a34ed9ceb4b",
+    "id": "bundle--a248779c-372e-4ae0-80b5-5adc1c74c751",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--a3fef23a-9f22-4d7c-b9f1-3f05372e9d87",
             "created": "2023-07-13T19:19:23.811Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Check Point Scattered Spider JUL 2025",

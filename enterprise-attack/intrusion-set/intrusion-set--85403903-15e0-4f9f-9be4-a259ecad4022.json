@@ -1,10 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--bb6208dc-545d-4690-8291-8e42ae7ede16",
+    "id": "bundle--b64ccf0c-f277-4bfe-bed4-377a8c1ec384",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
+            "spec_version": "2.1",
             "id": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -45,13 +46,13 @@
             ],
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_domains": [
-                "enterprise-attack"
-            ],
             "x_mitre_version": "1.2",
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_contributors": [
                 "Walker Johnson"
+            ],
+            "x_mitre_domains": [
+                "enterprise-attack"
             ]
         }
     ]

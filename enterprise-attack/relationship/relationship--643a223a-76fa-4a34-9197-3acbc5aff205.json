@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e06b7213-e683-45eb-a762-1e14bb76c90c",
+    "id": "bundle--a1d195fc-269e-41b2-be0b-da4a466f1a77",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,12 +8,11 @@
             "id": "relationship--643a223a-76fa-4a34-9197-3acbc5aff205",
             "created": "2023-08-01T20:44:51.356Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
                     "description": "Counter Threat Unit Research Team. (2023, May 24). Chinese Cyberespionage Group BRONZE SILHOUETTE Targets U.S. Government and Defense Organizations. Retrieved July 27, 2023.",
-                    "url": "https://www.secureworks.com/blog/chinese-cyberespionage-group-bronze-silhouette-targets-us-government-and-defense-organizations"
+                    "url": "https://web.archive.org/web/20230601025540/https://www.secureworks.com/blog/chinese-cyberespionage-group-bronze-silhouette-targets-us-government-and-defense-organizations"
                 },
                 {
                     "source_name": "Joint Cybersecurity Advisory Volt Typhoon June 2023",
@@ -24,14 +23,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:19:48.050Z",
+            "modified": "2026-01-20T16:08:58.160Z",
             "description": "\n[Volt Typhoon](https://attack.mitre.org/groups/G1017) has used `netstat -ano` on compromised hosts to enumerate network connections.(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)(Citation: Secureworks BRONZE SILHOUETTE May 2023)                                                   ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
             "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f2d9e2b0-498d-4177-9d9d-6310a570ea65",
+    "id": "bundle--1ccdf930-7eb3-4630-9f4f-a2a7c4ffda25",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--96ef9f6c-46aa-4a59-ad5a-5ef72279d12a",
             "created": "2022-08-07T15:32:51.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MalwareBytes SideCopy Dec 2021",

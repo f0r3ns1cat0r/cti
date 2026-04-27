@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cb44b827-9c68-4f81-b52e-e4f5a5dba3d6",
+    "id": "bundle--397a05fa-331e-4d39-b064-361324f9ff8e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--3c5b31ff-ba6a-47c0-adbe-ddd18845f684",
             "created": "2022-09-29T17:40:29.147Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "DHS CISA AA22-055A MuddyWater February 2022",

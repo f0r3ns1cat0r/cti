@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8b3c4e76-9710-4fde-8056-0297f2223fa4",
+    "id": "bundle--26ddcf44-c52e-487c-abaf-67ac1370c3f2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--db1b7307-a473-40eb-be9c-25d95c0e2054",
             "created": "2019-08-26T13:02:46.924Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ANSSI Sandworm January 2021",

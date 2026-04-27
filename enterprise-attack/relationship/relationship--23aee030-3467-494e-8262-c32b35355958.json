@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8d49bbbe-a465-4bc1-8c23-75b98e6a63fd",
+    "id": "bundle--c98e168e-331b-43b5-b6d6-acd992fabe3d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--23aee030-3467-494e-8262-c32b35355958",
             "created": "2025-03-26T20:10:40.826Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MITRE VMware Abuse 2024",

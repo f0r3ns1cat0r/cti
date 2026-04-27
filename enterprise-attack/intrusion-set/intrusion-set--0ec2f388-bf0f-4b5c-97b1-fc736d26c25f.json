@@ -1,10 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--b83e6e49-4818-47ab-8549-48187cfbfd3a",
+    "id": "bundle--ae48e488-70a3-47f1-9958-258062024ca1",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
+            "spec_version": "2.1",
             "id": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
             "created": "2019-08-26T15:03:02.577Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -14,6 +15,15 @@
                     "source_name": "mitre-attack",
                     "url": "https://attack.mitre.org/groups/G0094",
                     "external_id": "G0094"
+                },
+                {
+                    "source_name": "Cloudflare 2026 Threat Report New Threat Actors March 2026",
+                    "description": " Cloudflare. (2026, March 3). Introducing the 2026 Cloudflare Threat Report. Retrieved April 18, 2026.",
+                    "url": "https://blog.cloudflare.com/2026-threat-report/"
+                },
+                {
+                    "source_name": "PatheticSlug",
+                    "description": "(Citation: Cloudflare 2026 Threat Report New Threat Actors March 2026)"
                 },
                 {
                     "source_name": "Black Banshee",
@@ -34,6 +44,10 @@
                 {
                     "source_name": "TA427",
                     "description": "(Citation: Proofpoint TA427 April 2024)"
+                },
+                {
+                    "source_name": "Earth Kumiho",
+                    "description": "(Citation: Rapid7 Threat Landscape Actors March 2026)"
                 },
                 {
                     "source_name": "Kimsuky",
@@ -108,6 +122,11 @@
                     "url": "https://www.microsoft.com/en-us/security/blog/2024/02/14/staying-ahead-of-threat-actors-in-the-age-of-ai/"
                 },
                 {
+                    "source_name": "Rapid7 Threat Landscape Actors March 2026",
+                    "description": "Rapid7. (2026, March 18). 2026 GLOBAL  THREAT LANDSCAPE  REPORT: Decoding the Accelerated Cyber Attack Cycle. Retrieved April 18, 2026.",
+                    "url": "https://www.rapid7.com/cdn/assets/bltc1ddd6561ab54a26/69ba67de50ca691edcd3f5b7/rapid7-threat-landscape-report-2026.pdf"
+                },
+                {
                     "source_name": "Symantec Troll Stealer 2024",
                     "description": "Symantec Threat Hunter Team. (2024, May 16). Springtail: New Linux Backdoor Added to Toolkit. Retrieved January 17, 2025.",
                     "url": "https://www.security.com/threat-intelligence/springtail-kimsuky-backdoor-espionage"
@@ -126,9 +145,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-11-12T18:55:12.319Z",
+            "modified": "2026-04-23T18:46:50.938Z",
             "name": "Kimsuky",
-            "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) is a North Korea-based cyber espionage group that has been active since at least 2012. The group initially targeted South Korean government agencies, think tanks, and subject-matter experts in various fields. Its operations expanded to include the United Nations and organizations in the government, education, business services, and manufacturing sectors across the United States, Japan, Russia, and Europe. [Kimsuky](https://attack.mitre.org/groups/G0094) has focused collection on foreign policy and national security issues tied to the Korean Peninsula, nuclear policy, and sanctions. Its operations have overlapped with other DPRK actors, likely due to ad hoc collaboration or limited resource sharing.(Citation: EST Kimsuky April 2019)(Citation: Cybereason Kimsuky November 2020)(Citation: Malwarebytes Kimsuky June 2021)(Citation: CISA AA20-301A Kimsuky)(Citation: Mandiant APT43 March 2024)(Citation: Proofpoint TA427 April 2024) Because of overlapping operations, some researchers group a wide range of North Korean state-sponsored cyber activity under the broader [Lazarus Group](https://attack.mitre.org/groups/G0032) umbrella rather than tracking separate subgroup or cluster distinctions.\n\n[Kimsuky](https://attack.mitre.org/groups/G0094) was assessed to be responsible for the 2014 Korea Hydro & Nuclear Power Co. compromise; other notable campaigns include Operation STOLEN PENCIL (2018), Operation Kabar Cobra (2019), and Operation Smoke Screen (2019).(Citation: Netscout Stolen Pencil Dec 2018)(Citation: EST Kimsuky SmokeScreen April 2019)(Citation: AhnLab Kimsuky Kabar Cobra Feb 2019)\n\nIn 2023, [Kimsuky](https://attack.mitre.org/groups/G0094) was observed using commercial large language models to assist with vulnerability research, scripting, social engineering and reconnaissance.(Citation: MSFT-AI)",
+            "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) is a Democratic People's Republic of Korea (DPRK)-based cyber espionage group that has been active since at least 2012. The group initially targeted South Korean government agencies, think tanks, and subject-matter experts in various fields. Its operations expanded to include the United Nations and organizations in the government, education, business services, and manufacturing sectors across the United States, Japan, Russia, and Europe. [Kimsuky](https://attack.mitre.org/groups/G0094) has focused collection on foreign policy and national security issues tied to the Korean Peninsula, nuclear policy, and sanctions. [Kimsuky](https://attack.mitre.org/groups/G0094) operations have overlapped with those of other North Korean state-sponsored cyber espionage actors as a result of ad hoc collaborations or other limited resource sharing.(Citation: EST Kimsuky April 2019)(Citation: Cybereason Kimsuky November 2020)(Citation: Malwarebytes Kimsuky June 2021)(Citation: CISA AA20-301A Kimsuky)(Citation: Mandiant APT43 March 2024)(Citation: Proofpoint TA427 April 2024) \n\n[Kimsuky](https://attack.mitre.org/groups/G0094) was assessed to be responsible for the 2014 Korea Hydro & Nuclear Power Co. compromise; other notable campaigns include Operation STOLEN PENCIL (2018), Operation Kabar Cobra (2019), and Operation Smoke Screen (2019).(Citation: Netscout Stolen Pencil Dec 2018)(Citation: EST Kimsuky SmokeScreen April 2019)(Citation: AhnLab Kimsuky Kabar Cobra Feb 2019) In 2023, [Kimsuky](https://attack.mitre.org/groups/G0094) was observed using commercial large language models (LLMs) to assist with vulnerability research, scripting, social engineering and reconnaissance.(Citation: MSFT-AI)\n\nDPRK threat actor cluster boundaries overlap in open source reporting, with some security researchers consolidating all attributed North Korean state-sponsored cyber activity under [Lazarus Group](https://attack.mitre.org/groups/G0032), rather than tracking operationally distinct subgroups.",
             "aliases": [
                 "Kimsuky",
                 "Black Banshee",
@@ -137,20 +156,23 @@
                 "THALLIUM",
                 "APT43",
                 "TA427",
-                "Springtail"
+                "Springtail",
+                "Earth Kumiho",
+                "PatheticSlug"
             ],
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_version": "5.1",
+            "x_mitre_version": "5.2",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_contributors": [
-                "Taewoo Lee, KISA",
                 "Dongwook Kim, KISA",
                 "Jaesang Oh, KC7 Foundation",
-                "Wai Linn Oo @ Kernellix"
+                "Taewoo Lee, KISA",
+                "Wai Linn Oo, Kernellix Co.,Ltd."
             ],
             "x_mitre_domains": [
-                "enterprise-attack"
+                "enterprise-attack",
+                "mobile-attack"
             ]
         }
     ]

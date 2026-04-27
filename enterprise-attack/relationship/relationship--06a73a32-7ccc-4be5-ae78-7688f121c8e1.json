@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eb7027a9-d63c-41e1-ab9d-971ee529a192",
+    "id": "bundle--5c92467c-ee2a-4705-8525-a8dbd7eeda29",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--06a73a32-7ccc-4be5-ae78-7688f121c8e1",
             "created": "2025-10-16T16:33:46.429Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA Medusa Group Medusa Ransomware March 2025",

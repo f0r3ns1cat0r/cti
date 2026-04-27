@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--64a48ed8-0e81-4492-b220-10eb00ed13c1",
+    "id": "bundle--7a6718eb-a0b4-48ac-9f6a-0bc250fc0217",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--43e15d3b-02ef-4e6c-97f7-a62db9de2e3a",
             "created": "2025-01-29T20:01:59.810Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelOne LockBit 2.0",

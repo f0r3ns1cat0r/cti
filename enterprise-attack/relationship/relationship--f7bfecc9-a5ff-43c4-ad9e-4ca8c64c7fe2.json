@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0d1ffb93-933a-42b8-9297-8d83990403d8",
+    "id": "bundle--cd57db4b-f922-4178-b310-9fc81d4c4991",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--f7bfecc9-a5ff-43c4-ad9e-4ca8c64c7fe2",
             "created": "2020-06-10T18:36:54.635Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CrowdStrike GTR 2019",

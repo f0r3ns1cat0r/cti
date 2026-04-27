@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3be759b8-ca75-4e6a-9976-9e39150c6b85",
+    "id": "bundle--9d205d1d-21d6-4487-8051-4210930aefda",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--62d8cec2-c94f-4a18-ab0a-0a182e30f33a",
             "created": "2019-06-25T12:09:15.655Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MRWLabs Office Persistence Add-ins",

@@ -1,10 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--dae3b830-7de1-438b-9576-236168c034b4",
+    "id": "bundle--27b029a3-b20d-4001-83c5-678b3e6c1188",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "campaign",
+            "spec_version": "2.1",
             "id": "campaign--78068e68-4124-4243-b6f4-76e4e5be8a06",
             "created": "2022-09-29T16:42:29.364Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -40,9 +41,6 @@
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_contributors": [
                 "Matt Brenton, Zurich Insurance Group"
-            ],
-            "x_mitre_domains": [
-                "enterprise-attack"
             ]
         }
     ]

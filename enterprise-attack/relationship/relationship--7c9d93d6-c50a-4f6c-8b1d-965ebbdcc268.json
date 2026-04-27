@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--64a4b518-082d-4c5d-bcec-b28c14bb7ae4",
+    "id": "bundle--ab93968e-83bb-4aae-aa46-95f37ad7fc3d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--7c9d93d6-c50a-4f6c-8b1d-965ebbdcc268",
             "created": "2025-03-31T16:14:55.950Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Analyzing Solorigate Dec 2020",

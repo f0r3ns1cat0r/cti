@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5ba881a8-5a78-4182-acc4-97d9bae51e7a",
+    "id": "bundle--f08d3852-03e6-428f-9d46-1fd787125e5f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--d1e53f99-5dec-4a52-948e-307202b76d0f",
             "created": "2024-07-29T22:39:46.635Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CERT-UA WinterVivern 2023",

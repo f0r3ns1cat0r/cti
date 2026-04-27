@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--150dbdc9-506a-4545-9c33-bf0380ebac7e",
+    "id": "bundle--87e1d330-3215-42a4-b453-294e8bf77f5b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--b774aa5d-7731-46b4-b285-dc1c67a0d01c",
             "created": "2024-08-30T14:03:31.446Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrustedSec OOB Communications",

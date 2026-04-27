@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0d9fc1b1-28e0-4f3e-bb5c-c0af8ffc5dde",
+    "id": "bundle--d27cd56c-1c8d-4c28-9124-2a5b2bb6227a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--3a907723-bc0a-4a35-a9fc-dd45ad7752a8",
             "created": "2022-04-01T02:15:49.902Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MFA Fatigue Attacks - PortSwigger",

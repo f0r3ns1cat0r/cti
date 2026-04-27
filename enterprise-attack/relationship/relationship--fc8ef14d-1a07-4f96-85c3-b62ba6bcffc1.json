@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5f08ce70-27a4-43b5-b2f5-16587b390e2f",
+    "id": "bundle--99bd22cc-1e49-47fa-993b-7439b8a5ef5f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--fc8ef14d-1a07-4f96-85c3-b62ba6bcffc1",
             "created": "2020-03-16T14:49:02.714Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "EnableMPRNotifications",

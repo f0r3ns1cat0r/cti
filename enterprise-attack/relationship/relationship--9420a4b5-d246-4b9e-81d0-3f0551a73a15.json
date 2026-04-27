@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d6873c6a-0cda-4217-a617-802b23226c23",
+    "id": "bundle--710cf1bc-0809-4469-8488-1d631c8253bf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--9420a4b5-d246-4b9e-81d0-3f0551a73a15",
             "created": "2021-10-01T01:57:31.879Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco Talos Intelligence Group",

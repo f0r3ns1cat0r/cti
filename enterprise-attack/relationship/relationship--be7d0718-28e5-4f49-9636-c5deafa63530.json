@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a74d0237-23aa-434e-96b9-9c6019094a55",
+    "id": "bundle--d5fb18c3-beb7-4cfd-bcce-8d15b6b95dc2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--be7d0718-28e5-4f49-9636-c5deafa63530",
             "created": "2025-01-29T18:42:50.617Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Lockbit 2.0",

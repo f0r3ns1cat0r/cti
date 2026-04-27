@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e66f3e3c-30cf-47b4-84a1-bf0a27106fd3",
+    "id": "bundle--75a38d83-fe08-4343-9e57-5a5ff3b55b72",
     "spec_version": "2.0",
     "objects": [
         {
@@ -86,7 +86,6 @@
                 "Matt Mullins"
             ],
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
@@ -95,9 +94,9 @@
             "x_mitre_platforms": [
                 "ESXi",
                 "Linux",
+                "macOS",
                 "Network Devices",
-                "Windows",
-                "macOS"
+                "Windows"
             ],
             "x_mitre_version": "1.2"
         }

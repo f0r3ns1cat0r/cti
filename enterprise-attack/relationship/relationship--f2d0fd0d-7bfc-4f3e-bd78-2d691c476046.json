@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ca5812f1-6d08-47a6-bb99-cd1a36c6953b",
+    "id": "bundle--4384c32a-4122-4d00-8289-4a432a80a95a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--f2d0fd0d-7bfc-4f3e-bd78-2d691c476046",
             "created": "2020-05-19T20:39:12.450Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Gamaredon June 2020",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f93d5315-1fa7-4543-9568-df47591dc3b7",
+    "id": "bundle--c512e9ce-2494-4f48-918b-c513fcb18a1a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--72b1c4ab-81ca-47a4-a541-ceb44580c87b",
             "created": "2020-06-23T19:53:58.405Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye FIN7 Aug 2018",

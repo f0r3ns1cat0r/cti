@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4a4868c4-080b-4274-b48a-cc4907c4e17f",
+    "id": "bundle--d574412f-4835-4e00-80f8-092c909baa3b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--360a4f50-968c-4206-9173-9155f646ab4a",
             "created": "2022-08-08T20:24:54.396Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft POLONIUM June 2022",

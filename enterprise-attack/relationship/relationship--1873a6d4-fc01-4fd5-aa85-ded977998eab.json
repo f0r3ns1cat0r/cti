@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a552fe34-1000-4f69-b1da-73243f5f432d",
+    "id": "bundle--ae01e581-e139-4b6d-a3e5-7f14d80ec09e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--1873a6d4-fc01-4fd5-aa85-ded977998eab",
             "created": "2022-04-07T18:01:12.329Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Check Point Warzone Feb 2020",

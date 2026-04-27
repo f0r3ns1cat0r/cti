@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6b2f1f27-df0a-46d4-82e6-0934d046a1d2",
+    "id": "bundle--a68f77bc-c7fa-4d3b-a444-f8539343408d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--39080201-a56c-4daf-83b8-8ec09dd3baea",
             "created": "2020-01-24T19:00:33.123Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "UCF STIG Symbolic Links",

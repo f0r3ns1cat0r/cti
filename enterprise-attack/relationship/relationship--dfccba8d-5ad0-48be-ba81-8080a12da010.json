@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c5d82249-6617-4b1f-a967-586724171dd1",
+    "id": "bundle--993ebe28-6a01-4e03-8e5a-691c028efafe",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--dfccba8d-5ad0-48be-ba81-8080a12da010",
             "created": "2024-02-09T20:33:21.135Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant Pulse Secure Zero-Day April 2021",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9aa7bf9e-5657-4f9d-a6d6-f156d8564397",
+    "id": "bundle--cc937a3c-42f4-4731-be70-bf8a9cb6c40f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,13 +24,18 @@
                     "source_name": "Securelist Kimsuky Sept 2013",
                     "description": "Tarakanov , D.. (2013, September 11). The \u201cKimsuky\u201d Operation: A North Korean APT?. Retrieved August 13, 2019.",
                     "url": "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915/"
+                },
+                {
+                    "source_name": "Aryaka Kimsuky July 2025",
+                    "description": "Varadharajan Krishnasamy, Aditya K Sood. (2025, July 29). From Reconnaissance  to Control: The Operational Blueprint of Kimsuky APT  for Cyber Espionage. Retrieved April 18, 2026.",
+                    "url": "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T23:29:13.696Z",
-            "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has enumerated OS type, OS version, and other information using a script or the \"systeminfo\" command.(Citation: Securelist Kimsuky Sept 2013)(Citation: Talos Kimsuky Nov 2021) [Kimsuky](https://attack.mitre.org/groups/G0094) has also obtained system information such as OS type, OS version, and system type through querying various Windows Management Instrumentation (WMI) classes including `Win32_OperatingSystem`.(Citation: Securonix Kimsuky February 2025)",
+            "modified": "2026-04-19T00:14:24.880Z",
+            "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has enumerated OS type, OS version, and other information using a script or the \"systeminfo\" command.(Citation: Securelist Kimsuky Sept 2013)(Citation: Talos Kimsuky Nov 2021) [Kimsuky](https://attack.mitre.org/groups/G0094) has also obtained system information such as OS type, OS version, and system type through querying various Windows Management Instrumentation (WMI) classes including `Win32_OperatingSystem`.(Citation: Securonix Kimsuky February 2025)(Citation: Aryaka Kimsuky July 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",

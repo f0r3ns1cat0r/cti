@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6dcab2fb-3e46-4b4e-8826-41039d430aaf",
+    "id": "bundle--48da3137-b2e9-4492-aca8-4df12ca6285a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--92c6a85d-d8b4-44d2-acf4-53ae07f69f77",
             "created": "2020-08-31T15:15:56.120Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelOne Valak June 2020",

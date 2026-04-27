@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0ae13160-3ed5-4e41-a873-c09836987564",
+    "id": "bundle--0c5cc0a4-f313-4d0d-b3fa-8dfe1e3bbabe",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--2606e684-b69d-47fc-822f-279d197a1e7a",
             "created": "2020-01-19T16:59:45.700Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Requests for Azure AD Roles in Privileged Identity Management",

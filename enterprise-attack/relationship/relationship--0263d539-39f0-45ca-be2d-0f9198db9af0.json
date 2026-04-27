@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bf6b2687-9043-4b92-b1e1-3556a5910672",
+    "id": "bundle--a25c4933-97e9-423e-996e-a1adfeaf5fc5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--0263d539-39f0-45ca-be2d-0f9198db9af0",
             "created": "2020-02-12T15:05:04.405Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Apple Unified Log Analysis Remote Login and Screen Sharing",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0979981b-e1b5-496b-9af0-aba488522b72",
+    "id": "bundle--0a8ddbf4-8bf9-45d5-8e7c-39038e6ab4e6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--265401e7-92fa-46ea-b5d3-e64c387f6a8d",
             "created": "2022-03-24T19:30:57.184Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ntlm_relaying_kerberos_del",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--37f2024e-8278-4d65-b3cc-eea2f28f00ff",
+    "id": "bundle--9358cbb3-5a58-4886-92dc-bf84ea6c9401",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,19 +19,24 @@
                     "source_name": "Securonix Kimsuky February 2025",
                     "description": "Den Iuzvyk, Tim Peck. (2025, February 13). Analyzing DEEP#DRIVE: North Korean Threat Actors Observed Exploiting Trusted Platforms for Targeted Attacks. Retrieved August 19, 2025.",
                     "url": "https://www.securonix.com/blog/analyzing-deepdrive-north-korean-threat-actors-observed-exploiting-trusted-platforms-for-targeted-attacks/"
+                },
+                {
+                    "source_name": "Aryaka Kimsuky July 2025",
+                    "description": "Varadharajan Krishnasamy, Aditya K Sood. (2025, July 29). From Reconnaissance  to Control: The Operational Blueprint of Kimsuky APT  for Cyber Espionage. Retrieved April 18, 2026.",
+                    "url": "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-19T15:24:25.329Z",
-            "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has used an information gathering module that will hide an AV software window from the victim.(Citation: Talos Kimsuky Nov 2021) [Kimsuky](https://attack.mitre.org/groups/G0094) has also been known to use `-WindowStyle Hidden` to conceal PowerShell windows.(Citation: Securonix Kimsuky February 2025)",
+            "modified": "2026-04-18T23:48:25.368Z",
+            "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has used an information gathering module that will hide an AV software window from the victim.(Citation: Talos Kimsuky Nov 2021) [Kimsuky](https://attack.mitre.org/groups/G0094) has also been known to use `-WindowStyle Hidden` to conceal PowerShell windows.(Citation: Securonix Kimsuky February 2025)(Citation: Aryaka Kimsuky July 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
             "target_ref": "attack-pattern--cbb66055-0325-4111-aca0-40547b6ad5b0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

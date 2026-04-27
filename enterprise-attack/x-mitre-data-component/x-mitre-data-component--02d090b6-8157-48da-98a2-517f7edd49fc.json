@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--07d5a4d6-4b60-4bfe-8cd0-da5ca763bc1e",
+    "id": "bundle--60e2416b-45d4-4ee5-b40b-76f87fb491a5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,7 +22,6 @@
             "modified": "2025-11-12T22:03:39.105Z",
             "name": "Active Directory Credential Request",
             "description": "Requests for authentication credentials via Kerberos or other methods like NTLM and LDAP queries. Examples:\n\n- Kerberos TGT and Service Tickets (Event IDs 4768, 4769)\n- NTLM Authentication Events\n- LDAP Bind Requests.",
-            "x_mitre_data_source_ref": "",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [

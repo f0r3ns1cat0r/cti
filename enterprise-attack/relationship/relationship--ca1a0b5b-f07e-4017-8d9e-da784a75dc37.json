@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--df974b15-3c3d-49fe-8de7-a4fb0f6ec193",
+    "id": "bundle--85ccf714-868b-4c45-b6e4-401e31d396e2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--ca1a0b5b-f07e-4017-8d9e-da784a75dc37",
             "created": "2022-08-03T15:22:22.689Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant APT29 Trello",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c3bd0706-0abd-4b28-a5a3-b7b7358113f6",
+    "id": "bundle--bd29c067-fb50-42da-87e6-8dfff4b1f78f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--6e33c2e7-90b9-4d1e-9925-74d9cf2b4ef6",
             "created": "2024-10-03T10:15:12.937Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lumen KVBotnet 2023",

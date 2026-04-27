@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--42dfebf8-cf3f-4281-b830-b8d7efd7229e",
+    "id": "bundle--953e0866-6259-4354-9ff2-a28148359dfb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -55,7 +55,6 @@
                 "Tamir Yehuda"
             ],
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
@@ -64,7 +63,8 @@
             "x_mitre_platforms": [
                 "IaaS"
             ],
-            "x_mitre_version": "2.1"
+            "x_mitre_version": "2.1",
+            "x_mitre_remote_support": false
         }
     ]
 }

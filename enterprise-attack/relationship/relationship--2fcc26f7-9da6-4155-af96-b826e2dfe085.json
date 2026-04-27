@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--02fa8f36-9df9-4443-9b56-6110c35baef7",
+    "id": "bundle--c2583cc3-a223-4ea7-938c-726d8b5d4082",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--2fcc26f7-9da6-4155-af96-b826e2dfe085",
             "created": "2022-04-07T22:37:35.143Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro Confucius APT Feb 2018",

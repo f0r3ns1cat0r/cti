@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--17cd5c24-0ec1-4237-a974-5e5308dd2d9a",
+    "id": "bundle--10060e86-210d-4f1f-9d29-0c118f4395e4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--cff34686-cbdf-4e0b-8108-c2deaf8855a7",
             "created": "2020-02-20T17:21:04.878Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Common Conditional Access Policies",

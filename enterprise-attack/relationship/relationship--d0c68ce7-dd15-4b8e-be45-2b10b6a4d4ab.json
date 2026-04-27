@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b825cfda-5da6-40b6-97ae-7fa9f923ddab",
+    "id": "bundle--d9197b8d-b6d7-4a90-a812-f5d4bab45d87",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--d0c68ce7-dd15-4b8e-be45-2b10b6a4d4ab",
             "created": "2025-03-27T18:42:46.547Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Cloud Threat Intelligence ESXi Hardening 2023",

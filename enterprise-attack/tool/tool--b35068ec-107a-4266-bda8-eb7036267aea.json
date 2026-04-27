@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2cb7ec37-6bcf-444e-8458-39bfd8ca51a5",
+    "id": "bundle--7631ec92-73ff-451a-9c2b-49294a7011d8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -33,6 +33,10 @@
             ],
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.2.0",
+            "revoked": false,
+            "x_mitre_aliases": [
+                "nbtstat"
+            ],
             "labels": [
                 "tool"
             ]

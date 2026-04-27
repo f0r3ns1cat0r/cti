@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--62af1331-e28d-46da-932a-29d8860331a7",
+    "id": "bundle--6d3ae497-4f18-4969-91f5-8d140df21cbf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--a6d72bce-1f65-40e8-9c7b-c9c384276d6e",
             "created": "2025-09-17T16:36:53.569Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Proofpoint RedLine Stealer March 2020",

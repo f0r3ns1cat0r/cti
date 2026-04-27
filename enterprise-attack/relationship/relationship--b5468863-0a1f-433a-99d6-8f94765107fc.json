@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--980e11b6-9216-4b62-a491-1f055c456120",
+    "id": "bundle--6fc97773-71a0-41d1-80ee-906e25f6c670",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--b5468863-0a1f-433a-99d6-8f94765107fc",
             "created": "2022-03-25T21:08:24.992Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Hermetic Wizard March 2022",

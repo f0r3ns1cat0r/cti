@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fd966c7a-91c3-48c3-bad4-7cef074a531f",
+    "id": "bundle--b2bac77d-2f21-4b93-9102-86f09869a09e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--2d0748e3-7427-4847-9861-75680f6aacb3",
             "created": "2020-11-06T18:40:38.309Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Cobalt Strike September 2020",

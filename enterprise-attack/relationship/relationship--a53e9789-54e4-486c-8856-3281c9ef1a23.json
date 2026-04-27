@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7352ceef-d5ab-40c4-9825-aeead68b1504",
+    "id": "bundle--2993d8ce-8438-4505-b715-8a1b0617d57b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--a53e9789-54e4-486c-8856-3281c9ef1a23",
             "created": "2024-01-02T12:28:35.590Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Token Protection 2023",

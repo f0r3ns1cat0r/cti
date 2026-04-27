@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--feb50807-8019-4fa3-a618-f3b38523fa85",
+    "id": "bundle--ca410c95-094f-48af-a833-bfff98658536",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--558132f8-5d0f-4c77-b3a2-b7e9c060a3f5",
             "created": "2025-06-05T16:21:28.671Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Empire Keychain Decrypt",

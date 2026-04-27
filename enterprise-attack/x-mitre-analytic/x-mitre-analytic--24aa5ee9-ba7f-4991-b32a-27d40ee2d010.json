@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6078207d-040b-4977-9622-521c123c1c89",
+    "id": "bundle--3c7f90fa-4313-4bc7-8889-1cc8022fd45e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--24aa5ee9-ba7f-4991-b32a-27d40ee2d010",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-03-13T22:24:28.695Z",
             "name": "Analytic 1614",
-            "description": "Detection of user account enumeration through tools like dscl, dscacheutil, or loginshell enumeration via command-line.",
+            "description": "Detection of account enumeration through directory service queries or system utilities accessing account metadata stores, followed by structured enumeration output.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "enterprise-attack"
@@ -35,6 +37,11 @@
                     "x_mitre_data_component_ref": "x-mitre-data-component--3d20385b-24ef-40e1-9f56-f39750379077",
                     "name": "macos:unifiedlog",
                     "channel": "process event"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b5d0492b-cda4-421c-8e51-ed2b8d85c5d0",
+                    "name": "macos:unifiedlog",
+                    "channel": "DirectoryService queries retrieving account information"
                 }
             ],
             "x_mitre_mutable_elements": [
@@ -46,8 +53,7 @@
                     "field": "ExecutionContext",
                     "description": "Alert if enumeration is performed in non-console session or by unusual users."
                 }
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

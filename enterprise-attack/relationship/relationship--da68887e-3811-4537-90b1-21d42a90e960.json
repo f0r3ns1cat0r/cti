@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eec9f6b2-1617-43a1-83ef-89764bf227b6",
+    "id": "bundle--66e9cc6c-933d-48f6-ada9-8895e99c4b4f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--da68887e-3811-4537-90b1-21d42a90e960",
             "created": "2023-03-26T20:08:57.671Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft 365 Defender Solorigate",

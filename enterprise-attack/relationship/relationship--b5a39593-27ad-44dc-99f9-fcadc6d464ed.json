@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--776c3948-1ab3-41c2-a3c0-d05c17842997",
+    "id": "bundle--1e1354da-4d9f-4d89-9361-b1346f390c5d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--b5a39593-27ad-44dc-99f9-fcadc6d464ed",
             "created": "2022-06-30T20:39:33.887Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelOne MacMa Nov 2021",

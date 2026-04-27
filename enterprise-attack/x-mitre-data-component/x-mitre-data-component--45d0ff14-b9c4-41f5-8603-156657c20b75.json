@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--76769c7a-1ec9-4b19-82f4-57a554bce446",
+    "id": "bundle--06d474a2-5d7a-4434-9cb7-f690fe3d23bb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:14:40.223Z",
+            "modified": "2026-04-16T17:07:21.897Z",
             "name": "Instance Modification",
             "description": "Changes made to a virtual machine (VM) or compute instance, including alterations to its configuration, metadata, attached policies, or operational state. Such modifications can include updating metadata, attaching or detaching resource policies, resizing instances, or modifying network configurations. Examples:\n\n- AWS: instance modifications include API actions like `ModifyInstanceAttribute`, `ModifyInstanceMetadataOptions`, or `RebootInstances`.\n- Azure: modifications can be tracked through operations like `Microsoft.Compute/virtualMachines/write`.\n- GCP: instance modification events include operations like `instances.setMetadata`, `instances.addResourcePolicies`, or `instances.resize`.\n\n*Data Collection Measures:*\n\n- AWS CloudTrail: Log Location: Stored in S3 or forwarded to CloudWatch.\n- Azure Activity Logs: Log Location: Accessible via Azure Monitor or exported to a storage account.\n- GCP Audit Logs: Log Location: Logs Explorer or BigQuery.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -27,7 +27,7 @@
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
-            "x_mitre_version": "2.0",
+            "x_mitre_version": "2.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_log_sources": [
                 {
@@ -41,6 +41,10 @@
                 {
                     "name": "gcp:audit",
                     "channel": "compute.instances.restore"
+                },
+                {
+                    "name": "AWS:CloudTrail",
+                    "channel": "ModifyInstanceAttribute"
                 }
             ]
         }

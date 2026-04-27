@@ -1,13 +1,15 @@
 {
     "type": "bundle",
-    "id": "bundle--de50e1a8-1a42-4823-a593-db1db703c20a",
+    "id": "bundle--4b3f1f4c-5baf-45fd-b11c-acdf44a68313",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
+            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--da1e3af8-d79b-44ff-a907-ae107c110671",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,14 +20,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
-            "name": "Detection Strategy for Exploitation for Defense Evasion",
+            "modified": "2026-04-24T20:26:05.352Z",
+            "name": "Detection Strategy for Exploitation for Stealth",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
-            "x_mitre_domains": [
-                "enterprise-attack"
-            ],
             "x_mitre_analytic_refs": [
                 "x-mitre-analytic--e5b0fcab-05e5-4687-a1a9-dd382a19980b",
                 "x-mitre-analytic--ecf26d05-48ef-43b2-bfc3-4ea331be735b",
@@ -33,7 +33,9 @@
                 "x-mitre-analytic--458038e6-60a2-47d2-bd55-675e77f0e279",
                 "x-mitre-analytic--77c3b78a-fb34-4040-9dda-057e8eca3362"
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_domains": [
+                "enterprise-attack"
+            ]
         }
     ]
 }

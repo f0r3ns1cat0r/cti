@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c83f4f6e-a9d0-4b0c-b323-92c6b1592c01",
+    "id": "bundle--f9dc71b1-e15a-48bf-8ad3-3a9f9c76a43d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--dd7f2e12-d646-4a89-9ba6-4f20e88fb7db",
             "created": "2022-08-16T19:48:48.626Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "NCSC GCHQ Small Sieve Jan 2022",

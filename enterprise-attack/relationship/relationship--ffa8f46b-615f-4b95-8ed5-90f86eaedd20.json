@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--97be091e-7912-480d-812d-b70341888da7",
+    "id": "bundle--b2d8a8d5-d318-41f5-8104-0f9b4731eefa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--ffa8f46b-615f-4b95-8ed5-90f86eaedd20",
             "created": "2019-06-25T12:15:00.109Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft AMSI June 2015",

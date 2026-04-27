@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9e433a4f-1a26-47af-aee8-0bfc06e92724",
+    "id": "bundle--d8172fc4-386c-4ab3-8ff6-9d804faa33f6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--071cddbe-70f6-4577-b73e-cc7a99d6ae09",
             "created": "2025-05-30T19:24:24.254Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Cloud Threat Intelligence VMWare ESXi Zero-Day 2023",

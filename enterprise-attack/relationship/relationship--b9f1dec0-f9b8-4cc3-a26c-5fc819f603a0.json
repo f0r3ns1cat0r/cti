@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cdd829d8-2ef0-4187-be8d-bb0b7e04c6de",
+    "id": "bundle--c18d0391-a467-41b8-8224-69a3bb34b37e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -46,6 +46,11 @@
                     "url": "https://web.archive.org/web/20220328121326/https://boho.or.kr/filedownload.do?attach_file_seq=2695&attach_file_id=EpF2695.pdf"
                 },
                 {
+                    "source_name": "NaumaanProofpoint_GlobalClickFix_April2025",
+                    "description": "Naumaan, S., et al. (2025, April 17). Around the World in 90 Days: State-Sponsored Actors Try ClickFix . Retrieved January 21, 2026.",
+                    "url": "https://www.proofpoint.com/us/blog/threat-insight/around-world-90-days-state-sponsored-actors-try-clickfix"
+                },
+                {
                     "source_name": "Securelist Kimsuky Sept 2013",
                     "description": "Tarakanov , D.. (2013, September 11). The \u201cKimsuky\u201d Operation: A North Korean APT?. Retrieved August 13, 2019.",
                     "url": "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915/"
@@ -59,14 +64,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-19T16:24:35.301Z",
-            "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has used emails containing Word, Excel and/or HWP (Hangul Word Processor) documents in their spearphishing campaigns.(Citation: Zdnet Kimsuky Dec 2018)(Citation: Securelist Kimsuky Sept 2013)(Citation: ThreatConnect Kimsuky September 2020)(Citation: VirusBulletin Kimsuky October 2019)(Citation: Cybereason Kimsuky November 2020)(Citation: Malwarebytes Kimsuky June 2021)(Citation: Talos Kimsuky Nov 2021)(Citation: KISA Operation Muzabi) [Kimsuky](https://attack.mitre.org/groups/G0094) has also distributed emails with attached compressed zip files that contained malicious .LNK files masquerading as legitimate files.(Citation: Securonix Kimsuky February 2025)",
+            "modified": "2026-04-19T01:02:47.146Z",
+            "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has used emails containing Word, Excel and/or HWP (Hangul Word Processor) documents in their spearphishing campaigns.(Citation: Zdnet Kimsuky Dec 2018)(Citation: Securelist Kimsuky Sept 2013)(Citation: ThreatConnect Kimsuky September 2020)(Citation: VirusBulletin Kimsuky October 2019)(Citation: Cybereason Kimsuky November 2020)(Citation: Malwarebytes Kimsuky June 2021)(Citation: Talos Kimsuky Nov 2021)(Citation: KISA Operation Muzabi) [Kimsuky](https://attack.mitre.org/groups/G0094) has also distributed emails with attached compressed zip files that contained malicious .LNK files masquerading as legitimate files.(Citation: Securonix Kimsuky February 2025) [Kimsuky](https://attack.mitre.org/groups/G0094) has delivered tailored PDF documents that contain malicious links.(Citation: NaumaanProofpoint_GlobalClickFix_April2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
             "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

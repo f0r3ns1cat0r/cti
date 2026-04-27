@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8950c747-ecdc-4caa-a0d2-469c2b02f5f4",
+    "id": "bundle--4284b9cc-7856-42f6-be69-a7f69b10dd60",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--622ba39c-2f40-4605-81ce-ef04cea95808",
             "created": "2024-11-25T16:00:51.007Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Pincus Emotet 2020",

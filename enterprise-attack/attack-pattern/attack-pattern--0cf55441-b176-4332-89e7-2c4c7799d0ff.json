@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--849abdd0-dcce-40ec-a72d-81f1829a9e93",
+    "id": "bundle--02c0ea07-8fd9-47bb-a67c-a6b21af2273e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,11 +19,6 @@
                     "source_name": "MacOS Email Rules",
                     "description": "Apple. (n.d.). Use rules to manage emails you receive in Mail on Mac. Retrieved June 14, 2021.",
                     "url": "https://support.apple.com/guide/mail/use-rules-to-manage-emails-you-receive-mlhlp1017/mac"
-                },
-                {
-                    "source_name": "Microsoft BEC Campaign",
-                    "description": "Carr, N., Sellmer, S. (2021, June 14). Behind the scenes of business email compromise: Using cross-domain threat data to disrupt a large BEC campaign. Retrieved June 15, 2021.",
-                    "url": "https://www.microsoft.com/security/blog/2021/06/14/behind-the-scenes-of-business-email-compromise-using-cross-domain-threat-data-to-disrupt-a-large-bec-infrastructure/"
                 },
                 {
                     "source_name": "Microsoft Mail Flow Rules 2023",
@@ -54,22 +49,21 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:23.364Z",
+            "modified": "2026-04-15T20:18:10.251Z",
             "name": "Email Hiding Rules",
             "description": "Adversaries may use email rules to hide inbound emails in a compromised user's mailbox. Many email clients allow users to create inbox rules for various email functions, including moving emails to other folders, marking emails as read, or deleting emails. Rules may be created or modified within email clients or through external features such as the <code>New-InboxRule</code> or <code>Set-InboxRule</code> [PowerShell](https://attack.mitre.org/techniques/T1059/001) cmdlets on Windows systems.(Citation: Microsoft Inbox Rules)(Citation: MacOS Email Rules)(Citation: Microsoft New-InboxRule)(Citation: Microsoft Set-InboxRule)\n\nAdversaries may utilize email rules within a compromised user's mailbox to delete and/or move emails to less noticeable folders. Adversaries may do this to hide security alerts, C2 communication, or responses to [Internal Spearphishing](https://attack.mitre.org/techniques/T1534) emails sent from the compromised account.\n\nAny user or administrator within the organization (or adversary with valid credentials) may be able to create rules to automatically move or delete emails. These rules can be abused to impair/delay detection had the email content been immediately seen by a user or defender. Malicious rules commonly filter out emails based on key words (such as <code>malware</code>, <code>suspicious</code>, <code>phish</code>, and <code>hack</code>) found in message bodies and subject lines. (Citation: Microsoft Cloud App Security)\n\nIn some environments, administrators may be able to enable email rules that operate organization-wide rather than on individual inboxes. For example, Microsoft Exchange supports transport rules that evaluate all mail an organization receives against user-specified conditions, then performs a user-specified action on mail that adheres to those conditions.(Citation: Microsoft Mail Flow Rules 2023) Adversaries that abuse such features may be able to automatically modify or delete all emails related to specific topics (such as internal security incident notifications).",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "defense-evasion"
+                    "phase_name": "stealth"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_contributors": [
                 "Dor Edry, Microsoft",
                 "Liran Ravich, CardinalOps"
             ],
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
@@ -81,7 +75,7 @@
                 "macOS",
                 "Office Suite"
             ],
-            "x_mitre_version": "1.4"
+            "x_mitre_version": "2.0"
         }
     ]
 }

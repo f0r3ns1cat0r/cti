@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f2aaf232-1b10-4c6c-b04c-962e91f3e9de",
+    "id": "bundle--2ce2f3c8-ab67-439f-b28e-21df19278b97",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--6ee0cf67-d033-4620-b0c6-29b7a7d6592d",
             "created": "2023-04-03T22:51:59.644Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant APT29 Microsoft 365 2022",

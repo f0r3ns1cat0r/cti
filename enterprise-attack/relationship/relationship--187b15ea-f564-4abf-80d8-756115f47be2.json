@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ca6f47f7-5231-42f6-802a-47af3d6711f4",
+    "id": "bundle--3afa902a-9b8f-4265-aaa9-32aa4201eae3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--187b15ea-f564-4abf-80d8-756115f47be2",
             "created": "2024-05-22T23:08:28.248Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CheckPoint Agrius 2023",

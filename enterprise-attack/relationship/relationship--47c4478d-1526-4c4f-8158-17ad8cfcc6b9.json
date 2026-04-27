@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3ee1b58c-f2b4-461a-bf23-99b537bfd5db",
+    "id": "bundle--d32a33bf-c79d-40bf-8210-3a63c33d6b69",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--47c4478d-1526-4c4f-8158-17ad8cfcc6b9",
             "created": "2020-02-04T13:06:49.722Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "cisco_deploy_rsa_keys",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--534e26b8-efef-4319-928f-12446e645c3d",
+    "id": "bundle--ea290a09-9116-4be5-9373-5a9c71223445",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--83f844ec-b321-4a9d-8c43-edbf6e006a6b",
             "created": "2022-02-01T15:24:07.123Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lazarus APT January 2022",

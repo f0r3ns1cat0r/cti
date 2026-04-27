@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f539f61a-a1fa-4178-a5a0-96aeb09d6ad8",
+    "id": "bundle--ce52d766-cb48-44a5-bede-3358d10a4d89",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--d8b95918-bf5b-455a-928c-1b69fe9c9703",
             "created": "2022-07-29T19:52:00.726Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MSTIC NOBELIUM Mar 2021",

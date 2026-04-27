@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ce657a3e-975e-4e06-adce-455df4bceae4",
+    "id": "bundle--0f5142dc-8dc8-4ab7-b001-0e8826ab7d10",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--de93ce86-0bf9-4959-ab2b-b55df654b9f8",
             "created": "2025-09-30T17:58:37.016Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sophos Qilin MSP APR 2025",
@@ -19,13 +18,18 @@
                     "source_name": "Picus Qilin MAR 2025",
                     "description": "Hacioglu, S. (2025, March 10). Qilin Ransomware: Exposing the TTPs Behind One of the Most Active Ransomware Campaigns of 2024. Retrieved September 26, 2025.",
                     "url": "https://www.picussecurity.com/resource/blog/qilin-ransomware"
+                },
+                {
+                    "source_name": "Cisco Talos Qilin Ransomware OCT 2025",
+                    "description": "Takeda, T. et al. (2025, October 26). Uncovering Qilin attack methods exposed through multiple cases. Retrieved March 26, 2026.",
+                    "url": "https://blog.talosintelligence.com/uncovering-qilin-attack-methods-exposed-through-multiple-cases/"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-30T18:57:30.673Z",
-            "description": "[Qilin](https://attack.mitre.org/software/S1242) can enumerate domain-connected hosts during its discovery phase.(Citation: Picus Qilin MAR 2025)(Citation: Sophos Qilin MSP APR 2025)",
+            "modified": "2026-04-09T19:15:29.753Z",
+            "description": "[Qilin](https://attack.mitre.org/software/S1242) can enumerate domain-connected hosts during its discovery phase.(Citation: Picus Qilin MAR 2025)(Citation: Sophos Qilin MSP APR 2025)(Citation: Cisco Talos Qilin Ransomware OCT 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--e23d2777-b85d-44fc-861e-9149d399fbb9",
             "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",

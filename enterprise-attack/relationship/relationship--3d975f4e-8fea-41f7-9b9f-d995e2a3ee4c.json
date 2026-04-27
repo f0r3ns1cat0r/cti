@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--47aebb51-5699-4a5a-9061-cf0101edc277",
+    "id": "bundle--d7632d16-79ae-44b0-9665-525289ac880e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--3d975f4e-8fea-41f7-9b9f-d995e2a3ee4c",
             "created": "2024-12-30T19:40:58.659Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco MagicRAT 2022",

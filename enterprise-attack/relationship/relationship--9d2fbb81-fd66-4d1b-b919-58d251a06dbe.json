@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c8712292-e041-45e7-ad1b-297d118f20de",
+    "id": "bundle--f0f60a6e-2858-4fbb-9ffd-b9ac7d2f6ea4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--9d2fbb81-fd66-4d1b-b919-58d251a06dbe",
             "created": "2023-12-06T19:22:44.851Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Ransomware as a Service",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ca3b1f86-806f-404b-ae1f-c6a65dcf1b81",
+    "id": "bundle--b5f51481-67f1-4b15-a961-37c39797f3e5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--d3102278-dab8-485c-9cd2-52f80c4da8bd",
             "created": "2021-02-10T18:41:29.200Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Ebury May 2024",

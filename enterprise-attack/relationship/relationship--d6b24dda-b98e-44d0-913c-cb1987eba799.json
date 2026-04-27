@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2e987db4-cc42-475b-95d4-9ea93269eba2",
+    "id": "bundle--31c418d5-d39e-4247-8338-8c04ee427345",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--d6b24dda-b98e-44d0-913c-cb1987eba799",
             "created": "2023-03-29T20:59:20.067Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "GitHub Rubeus March 2023",

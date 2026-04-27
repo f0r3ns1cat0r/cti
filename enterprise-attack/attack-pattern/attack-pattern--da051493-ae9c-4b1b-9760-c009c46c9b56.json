@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--79fbf99d-4976-4ddf-829a-05900476b931",
+    "id": "bundle--11e616f8-982a-4ccd-b24e-b22cdd72bcf2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -68,7 +68,6 @@
                 "Rodchenko Aleksandr"
             ],
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
@@ -76,8 +75,8 @@
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_platforms": [
                 "Linux",
-                "Windows",
-                "macOS"
+                "macOS",
+                "Windows"
             ],
             "x_mitre_version": "1.2"
         }

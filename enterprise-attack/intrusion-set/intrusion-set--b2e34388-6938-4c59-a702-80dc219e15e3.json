@@ -1,10 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--76c5ee71-55d3-476e-9ce7-45afa8bfbba0",
+    "id": "bundle--b80cbc68-34e7-47ea-9aa2-7e8f81a45e70",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
+            "spec_version": "2.1",
             "id": "intrusion-set--b2e34388-6938-4c59-a702-80dc219e15e3",
             "created": "2021-02-08T20:30:30.578Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -46,11 +47,11 @@
             ],
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
+            "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_domains": [
                 "enterprise-attack"
-            ],
-            "x_mitre_version": "1.1",
-            "x_mitre_attack_spec_version": "3.2.0"
+            ]
         }
     ]
 }

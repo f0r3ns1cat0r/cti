@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c59c7426-9706-4c35-b998-2248699c7bda",
+    "id": "bundle--93d1e04b-632a-45bd-82d0-77ce3726db68",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--42f40187-5451-4bf4-96e8-d15de1f395c8",
             "created": "2025-10-10T04:08:45.782Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant 3cx UNC4736 2023",

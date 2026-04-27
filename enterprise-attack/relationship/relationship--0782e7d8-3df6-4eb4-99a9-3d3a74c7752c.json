@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d6afc930-6323-4e78-8aa8-ff6b9b048d99",
+    "id": "bundle--bbe098a8-a5a7-4861-9f5d-ddafda40a008",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--0782e7d8-3df6-4eb4-99a9-3d3a74c7752c",
             "created": "2024-02-09T21:28:31.982Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant Pulse Secure Update May 2021",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7fa8e754-9bdb-4559-8cc1-01e0d8df0565",
+    "id": "bundle--39bb1857-25d3-462d-8480-0fea25c1b7ae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--9a315900-f87e-4276-af68-a731198259cb",
             "created": "2025-01-09T18:43:00.792Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA Akira Ransomware APR 2024",

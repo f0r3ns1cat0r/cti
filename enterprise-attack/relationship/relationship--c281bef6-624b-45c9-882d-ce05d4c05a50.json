@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--db644344-9442-4cd7-b110-e86b17f38638",
+    "id": "bundle--f88992fc-4ac6-425c-9d87-9d6fa61d8d68",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--c281bef6-624b-45c9-882d-ce05d4c05a50",
             "created": "2024-07-17T20:00:54.303Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Elastic Pikabot 2024",

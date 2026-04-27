@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7af5acd7-252c-44d2-ae32-67838a329cc7",
+    "id": "bundle--d0db44f0-bf38-4f42-ba1e-3930277f16ef",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--8550e43c-ca91-416e-a75a-b6f5f979d457",
             "created": "2021-02-17T20:27:27.446Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "IBM MegaCortex",

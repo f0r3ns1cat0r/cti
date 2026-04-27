@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b5c0e687-4bc3-4273-8894-5ec0d05c3bf5",
+    "id": "bundle--8491e1ed-109a-422f-92f9-64795fc9de3d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--cfe7f665-9597-49e5-9d2e-73058147e676",
             "created": "2025-10-14T17:33:27.370Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco Talos MUSTANG PANDA PLUGX PUBLOAD MAY 2022",

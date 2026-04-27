@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fbe7e9af-67ec-4bca-bd38-b10e54eb0230",
+    "id": "bundle--b8ad938b-51fb-49cd-bddf-308c4ec44a78",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--502d4200-719b-4b42-8221-0ecd0ed0d6e7",
             "created": "2022-08-24T19:57:43.105Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Bumblebee June 2022",

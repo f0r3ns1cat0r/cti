@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e1b15ae9-2c0e-466e-a2f1-4b6523cd9a75",
+    "id": "bundle--0650af3a-95a6-4959-994d-ad274c71b90c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--8faa230d-ced2-4289-81c5-554fd6dc62fd",
             "created": "2020-06-24T12:42:35.454Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Broadcom ESXi SSH",

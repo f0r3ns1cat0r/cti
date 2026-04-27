@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--04b517d3-eed9-4d1d-b61d-e88ba58b9fda",
+    "id": "bundle--e8479d62-6122-4d3c-a8fd-a1e62913e011",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--df9a9828-dff0-41a1-a93d-d410fb2ee3b9",
             "created": "2024-03-01T20:55:21.199Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "NCSC et al APT29 2024",

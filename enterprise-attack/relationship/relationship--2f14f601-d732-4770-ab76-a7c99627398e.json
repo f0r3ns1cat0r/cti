@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3df5971f-4f76-4674-bd5f-8b47fe2d57d9",
+    "id": "bundle--1b8c72a8-d2dc-4997-bc95-6906c7a9cf5d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--2f14f601-d732-4770-ab76-a7c99627398e",
             "created": "2021-12-27T16:53:14.018Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro Confucius APT Aug 2021",

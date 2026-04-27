@@ -1,10 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--161c61f0-bc8b-4f0c-9c9a-2f6ba07f03b8",
+    "id": "bundle--61cf9966-66d4-4530-a4d8-399faa0b8d45",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
+            "spec_version": "2.1",
             "id": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -56,14 +57,14 @@
             ],
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_domains": [
-                "enterprise-attack"
-            ],
             "x_mitre_version": "2.0",
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_contributors": [
                 "Daniyal Naeem, BT Security",
                 "Serhii Melnyk, Trustwave SpiderLabs"
+            ],
+            "x_mitre_domains": [
+                "enterprise-attack"
             ]
         }
     ]

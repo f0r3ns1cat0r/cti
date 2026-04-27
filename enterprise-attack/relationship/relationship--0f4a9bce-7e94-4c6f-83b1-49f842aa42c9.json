@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bd3ca498-71b1-4e1a-bcca-0776a1680998",
+    "id": "bundle--25cbec8b-2095-4814-ad23-773fa14db12c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--0f4a9bce-7e94-4c6f-83b1-49f842aa42c9",
             "created": "2025-10-16T18:51:44.923Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Security Scorecard Medusa Ransomware January 2024",

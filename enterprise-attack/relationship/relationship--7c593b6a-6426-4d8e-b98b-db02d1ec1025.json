@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--552a0464-d96b-4506-b3a8-c2d8e73d6388",
+    "id": "bundle--2b99ee9e-5385-4d1e-b6b6-18269f0f3400",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--7c593b6a-6426-4d8e-b98b-db02d1ec1025",
             "created": "2021-07-30T15:49:45.842Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "GitHub Sliver Encryption",

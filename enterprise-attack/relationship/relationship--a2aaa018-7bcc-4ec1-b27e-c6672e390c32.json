@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--02c05bad-c301-43ce-aa4d-a6a779babf6e",
+    "id": "bundle--c0f3f06d-87da-4100-9c88-999cce1195e6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,13 +19,18 @@
                     "source_name": "Trend Micro Agenda Ransomware AUG 2022",
                     "description": "Magdy, S. et al. (2022, August 25). New Golang Ransomware Agenda Customizes Attacks. Retrieved September 26, 2025.",
                     "url": "https://www.trendmicro.com/en_us/research/22/h/new-golang-ransomware-agenda-customizes-attacks.html"
+                },
+                {
+                    "source_name": "Cisco Talos Qilin Ransomware OCT 2025",
+                    "description": "Takeda, T. et al. (2025, October 26). Uncovering Qilin attack methods exposed through multiple cases. Retrieved March 26, 2026.",
+                    "url": "https://blog.talosintelligence.com/uncovering-qilin-attack-methods-exposed-through-multiple-cases/"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-29T21:30:16.770Z",
-            "description": "[Qilin](https://attack.mitre.org/software/S1242) has created a runonce autostart entry at `HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\RunOnce*aster = %Public%\\enc.exe` pointing to a dropped copy of itself in the Public folder.(Citation: Trend Micro Agenda Ransomware AUG 2022)(Citation: Halcyon Qilin.B OCT 2024)\n",
+            "modified": "2026-04-21T23:02:50.753Z",
+            "description": "[Qilin](https://attack.mitre.org/software/S1242) has created a RunOnce autostart entry at `HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\RunOnce*aster = %Public%\\enc.exe` pointing to a dropped copy of itself in the Public folder.(Citation: Trend Micro Agenda Ransomware AUG 2022)(Citation: Halcyon Qilin.B OCT 2024)(Citation: Cisco Talos Qilin Ransomware OCT 2025)\n",
             "relationship_type": "uses",
             "source_ref": "malware--e23d2777-b85d-44fc-861e-9149d399fbb9",
             "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",

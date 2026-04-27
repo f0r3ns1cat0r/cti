@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a32bce5b-aac0-4e0a-994b-b41353c1fbfc",
+    "id": "bundle--809a2eb0-13a7-4740-b7fe-54d36df1776e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--94472a50-e097-4b67-9f59-2840a1633a0f",
             "created": "2022-04-06T19:41:52.867Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MalwareBytes LazyScripter Feb 2021",

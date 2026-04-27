@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8c94eda5-082f-4ba7-9174-be04f80bc919",
+    "id": "bundle--71090d97-5185-46da-974b-4fe8d28479d1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--52ded6c4-f6f1-4c9a-8973-4378a91193d5",
             "created": "2021-03-30T17:56:37.704Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kubernetes Hardening Guide",

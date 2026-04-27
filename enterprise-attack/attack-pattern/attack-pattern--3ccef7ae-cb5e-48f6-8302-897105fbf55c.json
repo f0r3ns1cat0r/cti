@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c09ee6ca-9d76-456b-a2ee-6027e859a3de",
+    "id": "bundle--48a5b38d-b55b-40b1-a872-650d3b12ce1d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,23 +39,22 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:40.925Z",
+            "modified": "2026-04-15T19:58:25.069Z",
             "name": "Deobfuscate/Decode Files or Information",
             "description": "Adversaries may use [Obfuscated Files or Information](https://attack.mitre.org/techniques/T1027) to hide artifacts of an intrusion from analysis. They may require separate mechanisms to decode or deobfuscate that information depending on how they intend to use it. Methods for doing that include built-in functionality of malware or by using utilities present on the system.\n\nOne such example is the use of [certutil](https://attack.mitre.org/software/S0160) to decode a remote access tool portable executable file that has been hidden inside a certificate file.(Citation: Malwarebytes Targeted Attack against Saudi Arabia) Another example is using the Windows <code>copy /b</code> or <code>type</code> command to reassemble binary fragments into a malicious payload.(Citation: Carbon Black Obfuscation Sept 2016)(Citation: Sentinel One Tainted Love 2023)\n\nSometimes a user's action may be required to open it for deobfuscation or decryption as part of [User Execution](https://attack.mitre.org/techniques/T1204). The user may also be required to input a password to open a password protected compressed/encrypted file that was provided by the adversary.(Citation: Volexity PowerDuke November 2016)",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "defense-evasion"
+                    "phase_name": "stealth"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_contributors": [
+                "Crist\u00f3bal Mart\u00ednez Mart\u00edn",
                 "Matthew Demaske, Adaptforward",
-                "Red Canary",
-                "Crist\u00f3bal Mart\u00ednez Mart\u00edn"
+                "Red Canary"
             ],
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
@@ -67,7 +66,7 @@
                 "macOS",
                 "Windows"
             ],
-            "x_mitre_version": "1.4"
+            "x_mitre_version": "2.0"
         }
     ]
 }

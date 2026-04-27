@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--87f33e92-a9a7-4e16-ad70-8c1179a2e60c",
+    "id": "bundle--c270f029-6724-452b-94a8-fd0ebdaafbd5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--6b7ef377-d7c3-47ca-9707-03d4ccaf5adb",
             "created": "2022-04-11T21:23:29.635Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco CaddyWiper March 2022",

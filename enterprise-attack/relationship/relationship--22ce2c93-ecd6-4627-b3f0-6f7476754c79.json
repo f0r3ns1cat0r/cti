@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9df8b5cb-071b-4553-9d4f-03bc1663f237",
+    "id": "bundle--b5e9b67b-27cd-4b86-9ebf-29c26baf01a5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--22ce2c93-ecd6-4627-b3f0-6f7476754c79",
             "created": "2020-03-13T18:11:08.487Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft AppLocker DLL",

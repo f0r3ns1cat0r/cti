@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f737b60d-0bad-475d-ae84-309ff5c095f2",
+    "id": "bundle--2bf1f9c2-fe36-485c-9a7e-58cb9989bff7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--5292f0c1-e65e-4233-aa97-ab75354d74a9",
             "created": "2020-03-27T20:35:51.492Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Malware Analysis Report 10135536-G",

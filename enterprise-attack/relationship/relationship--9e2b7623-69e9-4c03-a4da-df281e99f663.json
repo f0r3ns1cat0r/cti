@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--92ca237f-7c28-4d40-b071-f17e14a45af1",
+    "id": "bundle--4f147fec-bdbc-48e8-8b5e-980c1db2dde8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--9e2b7623-69e9-4c03-a4da-df281e99f663",
             "created": "2022-04-15T15:38:27.577Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CrowdStrike AQUATIC PANDA December 2021",

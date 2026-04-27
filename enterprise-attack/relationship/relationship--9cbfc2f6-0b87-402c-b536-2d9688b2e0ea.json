@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7bc96960-9986-4f1f-bf43-1a79cba5242c",
+    "id": "bundle--29de9621-d5b6-40d5-b726-663ec7e1c3f8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--9cbfc2f6-0b87-402c-b536-2d9688b2e0ea",
             "created": "2021-09-14T03:13:16.471Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "sentinelone shlayer to zshlayer",

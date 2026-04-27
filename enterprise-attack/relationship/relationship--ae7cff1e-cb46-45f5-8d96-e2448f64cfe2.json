@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3789a02d-e9f7-4930-9c6b-c9f39c1b3fa2",
+    "id": "bundle--6d7e0f83-c3c4-4ba4-be7b-bdfca199f934",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--ae7cff1e-cb46-45f5-8d96-e2448f64cfe2",
             "created": "2025-06-16T19:03:56.574Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant Fortinet Zero Day",

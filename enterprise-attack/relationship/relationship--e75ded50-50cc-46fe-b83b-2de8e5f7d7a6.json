@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ab1b4c69-59f1-4e45-9d94-c1501ddaf98f",
+    "id": "bundle--389a7d72-4e59-4ebb-9b2e-cd3ddcbbfce6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--e75ded50-50cc-46fe-b83b-2de8e5f7d7a6",
             "created": "2021-10-01T01:57:31.845Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cado Security TeamTNT Worm August 2020",

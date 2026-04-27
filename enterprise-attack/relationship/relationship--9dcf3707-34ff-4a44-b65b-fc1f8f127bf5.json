@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--27d2b6a8-a939-480f-aa88-f080f06e8f47",
+    "id": "bundle--385f88a5-3ca1-48bf-a4b2-88af8a1c13c8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--9dcf3707-34ff-4a44-b65b-fc1f8f127bf5",
             "created": "2021-03-29T16:39:26.350Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kubernetes Admission Controllers",

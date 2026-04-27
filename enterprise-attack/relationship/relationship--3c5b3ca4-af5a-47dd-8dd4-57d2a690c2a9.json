@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3fcd8d28-2abb-4df0-98ad-4fe3e4edfb23",
+    "id": "bundle--ae5e12bc-837d-4281-bc57-7525725e20e3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--3c5b3ca4-af5a-47dd-8dd4-57d2a690c2a9",
             "created": "2022-04-11T16:20:44.146Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Apple Developer Doco Hardened Runtime",

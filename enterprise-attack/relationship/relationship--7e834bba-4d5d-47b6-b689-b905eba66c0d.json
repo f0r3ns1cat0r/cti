@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1a30d807-b975-40bf-b1a7-7dae0db267fc",
+    "id": "bundle--de7c2db3-3f10-41bb-a434-ce0c6c805a3d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--7e834bba-4d5d-47b6-b689-b905eba66c0d",
             "created": "2022-03-21T17:46:37.337Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft NICKEL December 2021",

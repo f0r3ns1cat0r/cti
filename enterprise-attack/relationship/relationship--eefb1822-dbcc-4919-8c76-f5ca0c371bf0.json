@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4c64761f-ed20-4bf2-8202-edc18ffb0193",
+    "id": "bundle--f9a701f1-78fd-451c-b396-837983b015f9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--eefb1822-dbcc-4919-8c76-f5ca0c371bf0",
             "created": "2025-02-07T00:01:46.109Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Rapid7 BlackBasta 2024",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--970776b8-4a04-4dd7-b82c-6cae7a804c41",
+    "id": "bundle--9ce8a8b3-df89-44d0-ab06-a455200e73cc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--08678e7f-c675-4f85-9593-f06cb90f6e44",
             "created": "2019-10-11T17:33:29.152Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CrowdStrike Carbon Spider August 2021",

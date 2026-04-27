@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c2b28fe4-1f42-4479-8433-16291ac6a93f",
+    "id": "bundle--f766d44d-b52d-4863-8627-422f3e8944ab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--a6ff725c-1c60-44dd-8f78-22f1b009bbb5",
             "created": "2022-10-11T15:48:31.541Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelOne Aoqin Dragon June 2022",

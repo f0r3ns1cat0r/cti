@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e0236d14-b6c0-410c-9f30-1b70cce7c622",
+    "id": "bundle--ff71bb4a-0cab-43e9-be4d-86847638bdcb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--d87615c7-501a-4b78-87fb-ba2c1a2faffb",
             "created": "2022-09-07T14:14:50.343Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Frankenstein June 2019",

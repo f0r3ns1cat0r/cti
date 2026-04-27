@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ac4b18d7-1989-471b-bec0-109bd08b1231",
+    "id": "bundle--0315d8e5-4dbd-47e8-8c9d-a93fc7014730",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--1d65c2d6-6f59-40e4-af56-83ad4d9efea8",
             "created": "2019-05-02T01:07:36.957Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cofense RevengeRAT Feb 2019",

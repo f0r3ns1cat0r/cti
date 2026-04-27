@@ -1,10 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--52c6ed7e-e414-4252-a489-74959bc300c3",
+    "id": "bundle--c0edd2f1-e4ae-4371-b966-b021c510546e",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "campaign",
+            "spec_version": "2.1",
             "id": "campaign--93c23946-49af-41f4-ac03-40f9ffc7419b",
             "created": "2022-09-22T20:07:47.208Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -40,9 +41,6 @@
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_contributors": [
                 "Andrea Serrano Urea, Telef\u00f3nica Tech"
-            ],
-            "x_mitre_domains": [
-                "enterprise-attack"
             ]
         }
     ]

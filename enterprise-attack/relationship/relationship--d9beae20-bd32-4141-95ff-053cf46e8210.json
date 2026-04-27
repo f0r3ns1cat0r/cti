@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5ac229d2-0440-407e-abd3-8cce733835e4",
+    "id": "bundle--3ddee45b-53ac-4af3-9eb8-077203ca57fc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--d9beae20-bd32-4141-95ff-053cf46e8210",
             "created": "2020-11-06T18:40:38.501Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET T3 Threat Report 2021",
@@ -48,20 +47,20 @@
                 {
                     "source_name": "Secureworks IRON RITUAL Profile",
                     "description": "Secureworks CTU. (n.d.). IRON RITUAL. Retrieved February 24, 2022.",
-                    "url": "https://www.secureworks.com/research/threat-profiles/iron-ritual"
+                    "url": "https://www.sophos.com/en-us/threat-profiles/iron-ritual"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:50:54.987Z",
+            "modified": "2026-01-20T16:22:04.142Z",
             "description": "(Citation: FireEye SUNBURST Backdoor December 2020)(Citation: Cybersecurity Advisory SVR TTP May 2021)(Citation: MSTIC NOBELIUM May 2021)(Citation: MSTIC Nobelium Toolset May 2021)(Citation: SentinelOne NobleBaron June 2021)(Citation: ESET T3 Threat Report 2021)(Citation: Secureworks IRON RITUAL Profile)(Citation: Secureworks IRON RITUAL USAID Phish May 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
             "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

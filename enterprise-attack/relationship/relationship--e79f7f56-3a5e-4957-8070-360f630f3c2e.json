@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9ec5ba96-6ee3-4fdc-b21e-e54ae54cea4c",
+    "id": "bundle--9a1383eb-239e-4345-9e6c-feb5ac8a1a1b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--e79f7f56-3a5e-4957-8070-360f630f3c2e",
             "created": "2022-09-29T19:23:38.194Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "DFIR Conti Bazar Nov 2021",

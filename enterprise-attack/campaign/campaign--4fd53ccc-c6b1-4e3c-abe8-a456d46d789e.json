@@ -1,10 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--2603d489-62cb-41fb-81ae-5e2203941c24",
+    "id": "bundle--bc510887-0ef8-495b-adae-4691b48e045c",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "campaign",
+            "spec_version": "2.1",
             "id": "campaign--4fd53ccc-c6b1-4e3c-abe8-a456d46d789e",
             "created": "2025-08-25T22:00:39.072Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -56,9 +57,6 @@
             "x_mitre_contributors": [
                 "Austin Larsen and the Google Threat Intelligence Group",
                 "Michael \u201cBarni\u201d Barnhart, DTEX"
-            ],
-            "x_mitre_domains": [
-                "enterprise-attack"
             ]
         }
     ]

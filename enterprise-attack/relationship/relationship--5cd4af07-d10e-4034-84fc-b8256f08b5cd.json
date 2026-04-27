@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--390b4c9f-1e64-46fe-9407-e1cac9a4fb7a",
+    "id": "bundle--f34823ef-a8fe-4e8c-a158-45375ef0c651",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--5cd4af07-d10e-4034-84fc-b8256f08b5cd",
             "created": "2022-02-01T15:08:45.234Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "AADInternals Documentation",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ff630f94-33aa-4f53-a1f7-dc46545cabfe",
+    "id": "bundle--9d58900c-dc81-401f-abf6-1a77394f40de",
     "spec_version": "2.0",
     "objects": [
         {
@@ -14,11 +14,6 @@
                     "source_name": "mitre-attack",
                     "url": "https://attack.mitre.org/techniques/T1036/003",
                     "external_id": "T1036.003"
-                },
-                {
-                    "source_name": "Twitter ItsReallyNick Masquerading Update",
-                    "description": "Carr, N.. (2018, October 25). Nick Carr Status Update Masquerading. Retrieved September 12, 2024.",
-                    "url": "https://x.com/ItsReallyNick/status/1055321652777619457"
                 },
                 {
                     "source_name": "Elastic Masquerade Ball",
@@ -54,21 +49,20 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:49:18.517Z",
+            "modified": "2026-04-15T20:40:54.471Z",
             "name": "Rename Legitimate Utilities",
             "description": "Adversaries may rename legitimate / system utilities to try to evade security mechanisms concerning the usage of those utilities. Security monitoring and control mechanisms may be in place for legitimate utilities adversaries are capable of abusing, including both built-in binaries and tools such as PSExec, AutoHotKey, and IronPython.(Citation: LOLBAS Main Site)(Citation: Huntress Python Malware 2025)(Citation: The DFIR Report AutoHotKey 2023)(Citation: Splunk Detect Renamed PSExec) It may be possible to bypass those security mechanisms by renaming the utility prior to utilization (ex: rename <code>rundll32.exe</code>).(Citation: Elastic Masquerade Ball) An alternative case occurs when a legitimate utility is copied or moved to a different directory and renamed to avoid detections based on these utilities executing from non-standard paths.(Citation: F-Secure CozyDuke)",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "defense-evasion"
+                    "phase_name": "stealth"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_contributors": [
                 "Matt Anderson, @\u200cnosecurething, Huntress"
             ],
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
@@ -79,7 +73,7 @@
                 "macOS",
                 "Windows"
             ],
-            "x_mitre_version": "2.0"
+            "x_mitre_version": "3.0"
         }
     ]
 }

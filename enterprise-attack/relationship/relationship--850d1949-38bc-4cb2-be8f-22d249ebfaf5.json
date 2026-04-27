@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e6ef2969-0fd2-4a3d-b03d-3951fac514e9",
+    "id": "bundle--bf4dcd2e-0c4e-4e48-83a1-51f38a8ea047",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--850d1949-38bc-4cb2-be8f-22d249ebfaf5",
             "created": "2021-08-24T17:06:34.010Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Securelist Octopus Oct 2018",

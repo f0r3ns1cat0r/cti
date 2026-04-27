@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a07c8fe2-e4c6-4dcc-8abf-9c283492a1d5",
+    "id": "bundle--8403f4d9-b6e3-42e8-ae30-24961efe3743",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--93e345d9-a7d2-4abd-be34-46211fa64a7d",
             "created": "2023-02-21T19:44:52.974Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant Remediation and Hardening Strategies for Microsoft 365",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e7a1ca27-8557-4cca-ac03-e0faa65db3a2",
+    "id": "bundle--023f5f83-1cf5-453d-93aa-c5928f5a748e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--5025e4e1-4862-430c-a5fd-8ca7fece809b",
             "created": "2025-10-15T14:13:43.173Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Zscaler",

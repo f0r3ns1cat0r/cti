@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dfcb35dd-b768-4198-9568-4b570f855f93",
+    "id": "bundle--9a8c5bb8-e9f4-46b3-845d-94d1786533f3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--9654ee15-fdca-4d74-98b8-11a81a19d892",
             "created": "2023-02-24T22:40:30.142Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Prestige ransomware October 2022",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5159b823-d94d-450b-9b99-8db9e6507368",
+    "id": "bundle--6acc089f-eb31-4318-89f5-75196edc7af6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--0bb3a317-c459-4c7f-b47b-c0521d15bf62",
             "created": "2023-03-22T05:11:32.368Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos PoetRAT October 2020",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--16de3567-8ad6-46d0-8da6-3b3a6d72d8a4",
+    "id": "bundle--b2be2748-0805-4013-ad02-40a9925aaf77",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--4c9c2fb2-8e06-4ad8-93e5-45d4e8b2494c",
             "created": "2025-10-16T16:18:10.958Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft SharePoint Exploit JUL 2025",

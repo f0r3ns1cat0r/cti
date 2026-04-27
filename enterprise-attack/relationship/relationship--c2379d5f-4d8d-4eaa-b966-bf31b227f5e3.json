@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--240901fe-ff77-4a66-8f44-53b79cfd2c81",
+    "id": "bundle--428b72e0-e14d-4558-b5c7-40cfbd480672",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,19 +39,29 @@
                     "source_name": "Mandiant APT43 March 2024",
                     "description": "Mandiant. (2024, March 14). APT43: North Korean Group Uses Cybercrime to Fund Espionage Operations. Retrieved May 3, 2024.",
                     "url": "https://services.google.com/fh/files/misc/apt43-report-en.pdf"
+                },
+                {
+                    "source_name": "NaumaanProofpoint_GlobalClickFix_April2025",
+                    "description": "Naumaan, S., et al. (2025, April 17). Around the World in 90 Days: State-Sponsored Actors Try ClickFix . Retrieved January 21, 2026.",
+                    "url": "https://www.proofpoint.com/us/blog/threat-insight/around-world-90-days-state-sponsored-actors-try-clickfix"
+                },
+                {
+                    "source_name": "Aryaka Kimsuky July 2025",
+                    "description": "Varadharajan Krishnasamy, Aditya K Sood. (2025, July 29). From Reconnaissance  to Control: The Operational Blueprint of Kimsuky APT  for Cyber Espionage. Retrieved April 18, 2026.",
+                    "url": "https://www.aryaka.com/docs/reports/aryaka-kimsuky-apt-operational-blueprint.pdf"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-19T15:19:22.506Z",
-            "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has executed a variety of PowerShell scripts including Invoke-Mimikatz.(Citation: EST Kimsuky April 2019)(Citation: CISA AA20-301A Kimsuky)(Citation: Talos Kimsuky Nov 2021)(Citation: KISA Operation Muzabi)(Citation: Mandiant APT43 March 2024)  [Kimsuky](https://attack.mitre.org/groups/G0094) has also utilized PowerShell scripts for execution, persistence, and defense evasion.(Citation: Securonix Kimsuky February 2025)",
+            "modified": "2026-04-18T21:36:13.162Z",
+            "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has executed a variety of PowerShell scripts including Invoke-Mimikatz.(Citation: EST Kimsuky April 2019)(Citation: CISA AA20-301A Kimsuky)(Citation: Talos Kimsuky Nov 2021)(Citation: KISA Operation Muzabi)(Citation: Mandiant APT43 March 2024)(Citation: Aryaka Kimsuky July 2025)  [Kimsuky](https://attack.mitre.org/groups/G0094) has also utilized PowerShell scripts for execution, persistence, and defense evasion.(Citation: Securonix Kimsuky February 2025) [Kimsuky](https://attack.mitre.org/groups/G0094) has leveraged PowerShell\u2019s cmdlet `Expand-Archive` to extract contents of zip files into the same directory.(Citation: Aryaka Kimsuky July 2025) [Kimsuky](https://attack.mitre.org/groups/G0094) has employed ClickFix type tactics enticing victims to copy and paste malicious PowerShell commands and scripts, where the scripts ultimately led to [QuasarRAT](https://attack.mitre.org/software/S0262).(Citation: NaumaanProofpoint_GlobalClickFix_April2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
             "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

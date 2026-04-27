@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3be56e2e-6002-41cf-9f86-8a6cabe2af78",
+    "id": "bundle--5fe29d25-3b58-41ef-ad1b-765dee6c6726",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--f7ec6d79-a087-48c4-8c83-da8e2f02849e",
             "created": "2025-06-27T17:47:41.736Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant UNC3886 Juniper Routers MAR 2025",

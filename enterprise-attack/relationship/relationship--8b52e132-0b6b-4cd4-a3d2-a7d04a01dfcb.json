@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f05fa438-2f46-4ca8-ad42-8e00fd751b58",
+    "id": "bundle--0d259409-084b-4ec5-a052-f7802ca32d07",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--8b52e132-0b6b-4cd4-a3d2-a7d04a01dfcb",
             "created": "2024-07-12T18:08:00.092Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FRP GitHub",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b1d0ab93-cb86-459d-9366-64005e7df068",
+    "id": "bundle--1562c44a-e809-462c-b3f1-5c88ec2fdbd7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--0bca4956-d4c5-4149-a493-c0596701dd9a",
             "created": "2023-04-12T21:24:12.940Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft BlackCat Jun 2022",

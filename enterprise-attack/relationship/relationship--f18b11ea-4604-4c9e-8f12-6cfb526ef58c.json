@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c32a9009-f50e-42a4-b79e-f9bcc3137f1a",
+    "id": "bundle--b5bb8fad-d538-4a18-bf12-b62fba8d4260",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--f18b11ea-4604-4c9e-8f12-6cfb526ef58c",
             "created": "2024-07-09T16:53:56.763Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Fortinet Emotet May 2017",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--26d4687d-9702-43d4-8689-7d1ec7c5eea9",
+    "id": "bundle--5b9dedb6-680e-4287-826a-ba83dab5d0cf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--514a384a-2b09-4b4f-9def-8e4007b49734",
             "created": "2023-07-31T18:18:33.737Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA AA24-038A PRC Critical Infrastructure February 2024",
@@ -18,7 +17,7 @@
                 {
                     "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
                     "description": "Counter Threat Unit Research Team. (2023, May 24). Chinese Cyberespionage Group BRONZE SILHOUETTE Targets U.S. Government and Defense Organizations. Retrieved July 27, 2023.",
-                    "url": "https://www.secureworks.com/blog/chinese-cyberespionage-group-bronze-silhouette-targets-us-government-and-defense-organizations"
+                    "url": "https://web.archive.org/web/20230601025540/https://www.secureworks.com/blog/chinese-cyberespionage-group-bronze-silhouette-targets-us-government-and-defense-organizations"
                 },
                 {
                     "source_name": "Microsoft Volt Typhoon May 2023",
@@ -34,7 +33,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T17:48:13.724Z",
+            "modified": "2026-01-20T16:08:58.160Z",
             "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has discovered file system types, drive names, size, and free space on compromised systems.(Citation: Microsoft Volt Typhoon May 2023)(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)(Citation: Secureworks BRONZE SILHOUETTE May 2023)(Citation: CISA AA24-038A PRC Critical Infrastructure February 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",

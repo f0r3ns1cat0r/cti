@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e903d184-a37e-4fc2-baa0-bf7da7640afe",
+    "id": "bundle--669bee46-5c70-4e1b-b71e-29cd25062cf1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--c313b2dd-2f30-408d-aeef-59e41ef38927",
             "created": "2024-08-07T20:27:38.484Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant ROADSWEEP August 2022",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0bea192d-b522-4fa5-a685-61cb71c5f1e3",
+    "id": "bundle--a7249970-9cdb-481d-8abd-54c1bfef3bf6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--02279a7e-d5b8-44a7-99a3-64913b4ffa7b",
             "created": "2024-05-21T17:19:40.803Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA AA24-038A PRC Critical Infrastructure February 2024",

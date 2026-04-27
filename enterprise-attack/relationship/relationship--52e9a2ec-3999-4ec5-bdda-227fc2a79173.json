@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b41e40ed-3841-46c7-921e-35282762e237",
+    "id": "bundle--a4a8b37e-6cfb-4b3c-b8b2-11498298cafd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--52e9a2ec-3999-4ec5-bdda-227fc2a79173",
             "created": "2024-09-30T17:27:28.119Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA Play Ransomware Advisory December 2023",

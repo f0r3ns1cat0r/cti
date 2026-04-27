@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--b170aaaa-48e6-4623-b6df-ede7b6de4ed7",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "relationship",
+            "id": "relationship--a32d878b-e750-44d5-a429-31d6757376ed",
+            "created": "2026-04-17T15:00:03.685Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
+            "external_references": [
+                {
+                    "source_name": "Kaspersky LODEINFO OCT 2022",
+                    "description": "Ishimaru, S. (2022, October 31). APT10: Tracking down LODEINFO 2022, part I. Retrieved April 17, 2026.",
+                    "url": "https://securelist.com/apt10-tracking-down-lodeinfo-2022-part-i/107742/"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "modified": "2026-04-17T15:00:03.685Z",
+            "description": "[LODEINFO](https://attack.mitre.org/software/S9020) can use VBA to drop malicious components on targeted hosts.(Citation: Kaspersky LODEINFO OCT 2022)",
+            "relationship_type": "uses",
+            "source_ref": "malware--7908f855-5b5b-4d6a-acbc-af6b45ec27ad",
+            "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
+            "x_mitre_attack_spec_version": "3.3.0"
+        }
+    ]
+}

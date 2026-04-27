@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--619be60c-d9a2-4a09-8d0a-5c403222abe2",
+    "id": "bundle--5c2cabbd-5e95-4c34-8ea5-3d33118e352f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--ffacfdd1-702e-4bb9-b60c-8e5c4cdf2a06",
             "created": "2020-12-22T17:48:21.032Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Crowdstrike GTR2020 Mar 2020",

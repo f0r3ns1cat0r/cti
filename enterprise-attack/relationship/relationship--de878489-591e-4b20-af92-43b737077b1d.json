@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3c9ab187-2a4d-4c91-8591-cb2f9ceb8537",
+    "id": "bundle--17fdab2f-7746-4dd4-8ce1-c514e8a24c26",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--de878489-591e-4b20-af92-43b737077b1d",
             "created": "2024-09-09T14:41:29.409Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "NetSPI ClickOnce",

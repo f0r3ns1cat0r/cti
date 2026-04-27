@@ -1,10 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--256a4f85-e437-47db-acee-0655e7471b32",
+    "id": "bundle--8e3ddc60-edc6-4d9b-8e04-9173e21f87e1",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
+            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--ad21a251-e824-4368-a04c-8a480ee653cc",
             "created": "2025-10-23T17:54:46.514Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -25,13 +26,13 @@
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
-            "x_mitre_domains": [
-                "enterprise-attack"
-            ],
             "x_mitre_analytic_refs": [
                 "x-mitre-analytic--b73489af-2e95-4f41-b82e-327a84da2a1d",
                 "x-mitre-analytic--acabb18b-e2d6-4531-92bb-4165f0a16595",
                 "x-mitre-analytic--29ca0e06-e848-44cd-821a-24576276a8af"
+            ],
+            "x_mitre_domains": [
+                "enterprise-attack"
             ]
         }
     ]

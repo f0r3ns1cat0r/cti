@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0f5ef97f-e3e2-4acd-a578-2516c4c79fac",
+    "id": "bundle--b2cc3546-2d62-4a04-9b5c-3c487b2dd5eb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--3db3a6a7-5fa4-4a66-86b6-5df1732a8e96",
             "created": "2025-08-21T21:20:44.345Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SymantecCarbonBlack_ShuckwormUSB_Apr2025",

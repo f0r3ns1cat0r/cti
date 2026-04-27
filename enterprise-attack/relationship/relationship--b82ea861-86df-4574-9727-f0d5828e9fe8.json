@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--91e6105a-bc92-4258-8bb0-a6c8bac50b69",
+    "id": "bundle--f4e08df3-30be-4b77-ac4b-8e905b08a577",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--b82ea861-86df-4574-9727-f0d5828e9fe8",
             "created": "2020-06-18T17:27:09.381Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 BackConfig May 2020",

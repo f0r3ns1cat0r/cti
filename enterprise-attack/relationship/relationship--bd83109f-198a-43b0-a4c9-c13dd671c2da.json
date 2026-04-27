@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5a70aae8-4911-477b-9890-37e8871a365e",
+    "id": "bundle--9eb648df-d603-4716-a1c4-88418c3ba8b0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--bd83109f-198a-43b0-a4c9-c13dd671c2da",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit42 OilRig Playbook 2023",

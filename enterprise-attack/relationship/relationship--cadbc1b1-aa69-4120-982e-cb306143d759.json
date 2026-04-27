@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--932200e1-f2db-4767-ae21-4ca7c717f773",
+    "id": "bundle--9171dd10-4e50-400b-870b-fa9c20667a54",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--cadbc1b1-aa69-4120-982e-cb306143d759",
             "created": "2024-05-20T20:35:59.765Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Crowdstrike HuntReport 2022",

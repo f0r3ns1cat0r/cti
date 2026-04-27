@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8026d6f7-4007-4c0b-96b8-9c4c73b92770",
+    "id": "bundle--efe3e7cf-cd94-4181-a89c-299ddea3c1f4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--bac1d1a4-14f7-4f68-8035-e322e94f92c9",
             "created": "2021-12-06T15:43:24.495Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "US-CERT TA18-074A",

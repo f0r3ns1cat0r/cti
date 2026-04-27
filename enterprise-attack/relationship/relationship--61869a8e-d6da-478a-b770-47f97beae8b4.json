@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--29db689a-6319-454d-8ee3-64e65bf8b5db",
+    "id": "bundle--15701d08-fc80-4e0f-9b47-34bafa901455",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--61869a8e-d6da-478a-b770-47f97beae8b4",
             "created": "2024-08-15T21:59:43.124Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "NCSC CISA Cyclops Blink Advisory February 2022",

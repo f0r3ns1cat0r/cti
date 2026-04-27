@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--acf1c6c3-b7df-4b07-9617-5ce320e58af5",
+    "id": "bundle--ec85c5bb-fcbe-4b4b-8f5f-ec4fc80f9342",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--bd4ff89c-7088-4eb2-85bd-a639fc528bf6",
             "created": "2024-07-29T22:43:33.468Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelOne WinterVivern 2023",

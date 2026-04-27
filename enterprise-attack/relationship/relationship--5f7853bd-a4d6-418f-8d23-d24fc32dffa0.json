@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a9dd3d32-b7af-4c2c-b443-11d7aaa3c636",
+    "id": "bundle--efeb1ee6-ab32-41ac-84b8-c2f30adfe9b2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--5f7853bd-a4d6-418f-8d23-d24fc32dffa0",
             "created": "2025-10-22T14:22:37.356Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Salesforce JUN 2025",

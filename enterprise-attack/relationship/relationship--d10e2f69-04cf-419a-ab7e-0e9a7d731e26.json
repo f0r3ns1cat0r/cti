@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9ab2287b-8fe7-44e2-93f3-396257006c4b",
+    "id": "bundle--26999bbf-a604-42e7-9e70-d5d870b81ab2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--d10e2f69-04cf-419a-ab7e-0e9a7d731e26",
             "created": "2025-01-08T22:19:23.241Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant APT42-untangling",

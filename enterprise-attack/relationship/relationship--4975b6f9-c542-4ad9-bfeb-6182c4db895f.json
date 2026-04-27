@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8a3885ee-60ed-42a2-a66a-9a047d3354a0",
+    "id": "bundle--22a1e522-70cb-47fb-a495-4e464e86ced7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--4975b6f9-c542-4ad9-bfeb-6182c4db895f",
             "created": "2023-01-26T18:46:43.538Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelLabs Metador Sept 2022",

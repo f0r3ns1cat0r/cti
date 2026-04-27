@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cddb554f-ebe5-4a2b-ab39-decf9741d76f",
+    "id": "bundle--0d855fdb-90ef-4180-be4e-628ea5927fb1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--a0a94b9a-a81f-4ca6-b98c-f81291402f61",
             "created": "2025-06-09T19:21:59.408Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Cloud Mandiant UNC3886 2024",

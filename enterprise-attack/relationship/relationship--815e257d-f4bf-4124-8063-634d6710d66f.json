@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5e745e4a-c965-4f5c-9e3b-93b63e14941a",
+    "id": "bundle--428af308-2dbe-45ee-80bc-4e0fca12aae5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--815e257d-f4bf-4124-8063-634d6710d66f",
             "created": "2023-01-09T19:32:47.671Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "DFIR Phosphorus November 2021",

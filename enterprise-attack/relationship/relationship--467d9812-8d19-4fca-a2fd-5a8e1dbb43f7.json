@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f70b4ce6-6aec-4600-9dc1-9a8d8f319a6c",
+    "id": "bundle--37e1b48c-e63a-4558-b65c-22c10cabc925",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--467d9812-8d19-4fca-a2fd-5a8e1dbb43f7",
             "created": "2021-03-03T20:31:09.249Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Rapid7 HAFNIUM Mar 2021",

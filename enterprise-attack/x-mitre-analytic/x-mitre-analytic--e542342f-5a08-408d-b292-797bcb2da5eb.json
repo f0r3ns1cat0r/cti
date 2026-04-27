@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4a7bf412-dad0-4f98-b41a-0c4a1c2a9720",
+    "id": "bundle--20789079-51de-4034-855b-0bda1f730dc9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--e542342f-5a08-408d-b292-797bcb2da5eb",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,11 +19,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-04-24T20:33:32.261Z",
             "name": "Analytic 1374",
-            "description": "Detection of adversaries modifying startup configuration files to disable signature verification, logging, or monitoring features.",
+            "description": "Detects disabling AAA, syslog, SNMP traps, ACL logging, or security features on routers/switches/firewalls; correlates privileged login followed by configuration commit reducing visibility.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "enterprise-attack"
@@ -35,6 +37,11 @@
                     "x_mitre_data_component_ref": "x-mitre-data-component--74fa567d-bc90-425c-8a41-3c703abb221c",
                     "name": "networkdevice:config",
                     "channel": "write: Startup configuration changes disabling security checks"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--85a533a4-5fa4-4dba-b45d-f0717bedd6e6",
+                    "name": "networkdevice:syslog",
+                    "channel": "no logging host, no aaa new-model, no snmp-server, commit"
                 }
             ],
             "x_mitre_mutable_elements": [
@@ -42,8 +49,7 @@
                     "field": "ConfigBaseline",
                     "description": "Reference configuration state for detecting unauthorized modifications."
                 }
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

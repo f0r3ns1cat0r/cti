@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c8690750-93c3-4f85-8f5c-0b45701bbf5a",
+    "id": "bundle--e984c5d3-55fc-49b1-a4d4-10f6bbb62cec",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--6e2f668c-dfbd-482c-a5a7-c8ccfd378002",
             "created": "2024-12-31T21:17:45.604Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "PaloAlto StrelaStealer 2024",

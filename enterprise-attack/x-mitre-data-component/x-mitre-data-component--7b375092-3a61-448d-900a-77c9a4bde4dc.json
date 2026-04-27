@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--71da8bc6-389f-4e39-9c34-982d8a703a70",
+    "id": "bundle--8f4cd290-baff-49da-82dd-810699fed744",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,7 +22,6 @@
             "modified": "2025-11-12T22:03:39.105Z",
             "name": "Scheduled Job Metadata",
             "description": "Contextual data about a scheduled job, which may include information such as name, timing, command(s), etc.",
-            "x_mitre_data_source_ref": "",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--35cb51c9-db89-4e9d-96a6-b8eafeab4d17",
+    "id": "bundle--4b215452-ad0c-427f-914e-2f486e4c4f33",
     "spec_version": "2.0",
     "objects": [
         {
@@ -44,7 +44,6 @@
                 "Sarathkumar Rajendran, Microsoft Defender365"
             ],
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
@@ -53,8 +52,8 @@
             "x_mitre_platforms": [
                 "ESXi",
                 "Linux",
-                "Windows",
-                "macOS"
+                "macOS",
+                "Windows"
             ],
             "x_mitre_version": "1.3"
         }

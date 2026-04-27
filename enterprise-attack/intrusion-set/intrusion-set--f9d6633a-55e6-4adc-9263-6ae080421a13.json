@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2d6d3736-3b72-4422-98f2-ca374142a889",
+    "id": "bundle--2d0b1b85-1628-4317-8973-5d70db9a7a5b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -26,6 +26,7 @@
                 "Daniyal Naeem, BT Security"
             ],
             "type": "intrusion-set",
+            "spec_version": "2.1",
             "id": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -156,11 +157,11 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_domains": [
                 "enterprise-attack"
-            ],
-            "x_mitre_attack_spec_version": "3.2.0",
-            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+            ]
         }
     ]
 }

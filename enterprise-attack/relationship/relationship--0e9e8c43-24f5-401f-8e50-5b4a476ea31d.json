@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--af0d3251-4d36-4015-98b9-3f882ec0111b",
+    "id": "bundle--5516fffa-029c-42ab-a48d-243ec118cfab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--0e9e8c43-24f5-401f-8e50-5b4a476ea31d",
             "created": "2021-09-09T15:11:57.069Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Oblique RAT March 2021",

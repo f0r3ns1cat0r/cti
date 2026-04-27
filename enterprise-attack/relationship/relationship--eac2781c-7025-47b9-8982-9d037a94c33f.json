@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6ceeacd8-cb3c-440b-bb38-ea4c02980130",
+    "id": "bundle--f846c78c-89b3-4db8-b66e-659da7c19104",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--eac2781c-7025-47b9-8982-9d037a94c33f",
             "created": "2023-03-23T18:59:51.170Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Dukes October 2019",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aabdfb18-31b6-4dd1-9a71-9537e1b91be6",
+    "id": "bundle--f116aa38-4f07-48e2-9891-eb783f011115",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--1c30f3e0-f621-4e59-934d-f4091cb9eca5",
             "created": "2020-08-04T16:03:24.341Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Sodinokibi April 2019",

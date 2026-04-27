@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1b08ecfb-4e08-4edf-a2d2-7cd9dea59a5a",
+    "id": "bundle--30f7e108-dcb7-400c-82a2-0cfedafdf73c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--bf0ff6f3-51a5-4718-af3f-8f75b1eb507c",
             "created": "2020-09-29T18:38:16.995Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "NCSC APT29 July 2020",

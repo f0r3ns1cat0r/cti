@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ea99e8b6-fb8e-45da-9ee2-f1e906de0c77",
+    "id": "bundle--42a685a0-6946-47a3-834d-68592d9377c1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--d04d88d0-541d-4da2-ac58-888f1d418f20",
             "created": "2022-04-07T18:28:15.795Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Uptycs Confucius APT Jan 2021",

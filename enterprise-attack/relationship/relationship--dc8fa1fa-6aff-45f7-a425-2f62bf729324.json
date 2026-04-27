@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a51a7563-f652-43dc-b8d3-8cb9626a1d30",
+    "id": "bundle--d845e089-f7ab-494f-ae66-eb1e0775c64e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--dc8fa1fa-6aff-45f7-a425-2f62bf729324",
             "created": "2022-05-12T18:03:59.372Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET DazzleSpy Jan 2022",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--418e884a-bc48-4bfc-a767-2d188ef04ce1",
+    "id": "bundle--ba020cb4-fe19-4ff2-91bf-c3667f4a0bd6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--704355c5-4743-4fe1-bd64-b7012fe7c1d2",
             "created": "2019-09-24T12:59:58.595Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos ZxShell Oct 2014",

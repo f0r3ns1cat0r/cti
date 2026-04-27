@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fc5c82df-a039-45ad-bb3d-79f50e241ac3",
+    "id": "bundle--abfb4dd4-b050-47b0-ad75-a4dbacae0cc1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--64b3a1a6-42c3-4874-a081-e620577f5cfd",
             "created": "2022-07-26T20:56:17.966Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CrowdStrike IceApple May 2022",

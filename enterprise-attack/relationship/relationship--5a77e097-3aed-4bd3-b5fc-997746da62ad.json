@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9fa5318a-021b-4000-994d-e01b0d0ca82b",
+    "id": "bundle--e46b3643-2099-4319-92b0-12d9ad8c466b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--5a77e097-3aed-4bd3-b5fc-997746da62ad",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT17",

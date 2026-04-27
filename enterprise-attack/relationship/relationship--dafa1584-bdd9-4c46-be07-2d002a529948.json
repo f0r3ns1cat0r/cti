@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b2c50469-97ba-4ece-a609-9053c9af5652",
+    "id": "bundle--d42be838-cd2a-41c8-8b9f-cf9ecb8a550c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--dafa1584-bdd9-4c46-be07-2d002a529948",
             "created": "2020-03-16T14:49:02.706Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MagicWeb",

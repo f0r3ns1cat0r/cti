@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c2b11897-0b52-4201-b6e8-c680cdc8d5b9",
+    "id": "bundle--d4294b66-086f-4500-9340-1c4b796388ba",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--05669b75-65ea-4b30-8f97-f2c806a0703d",
             "created": "2025-03-14T13:36:18.882Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "rapid7-email-bombing",
