@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7721d174-1d8c-44af-aa32-73f11ab3e899",
+    "id": "bundle--5054b92a-5e9a-4ae6-b1aa-f9c62fc0248a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:26:31.696Z",
+            "modified": "2026-04-23T00:56:53.267Z",
             "name": "Out-of-Band Communications Channel",
             "description": "Have alternative methods to support communication requirements during communication failures and data integrity attacks. (Citation: National Institute of Standards and Technology April 2013) (Citation: Defense Advanced Research Projects Agency)",
             "labels": [
@@ -40,8 +40,8 @@
             "x_mitre_domains": [
                 "ics-attack"
             ],
-            "x_mitre_version": "1.0",
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_version": "1.1",
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

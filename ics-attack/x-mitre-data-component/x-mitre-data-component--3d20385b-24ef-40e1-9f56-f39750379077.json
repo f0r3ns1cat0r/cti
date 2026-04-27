@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3ec0c4a5-ea53-4363-848d-680b58e1f292",
+    "id": "bundle--4f237b15-d299-402a-9dde-a9dfff4b250a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,17 +12,16 @@
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/datacomponents/DC0032",
+                    "url": "https://attack.mitre.org/data-components/DC0032",
                     "external_id": "DC0032"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-11-12T22:03:39.105Z",
+            "modified": "2026-04-13T15:49:16.424Z",
             "name": "Process Creation",
             "description": "Refers to the event in which a new process (executable) is initialized by an operating system. This can involve parent-child process relationships, process arguments, and environmental variables. Monitoring process creation is crucial for detecting malicious behaviors, such as execution of unauthorized binaries, scripting abuse, or privilege escalation attempts.. ",
-            "x_mitre_data_source_ref": "",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
@@ -30,7 +29,7 @@
                 "mobile-attack",
                 "enterprise-attack"
             ],
-            "x_mitre_version": "2.0",
+            "x_mitre_version": "2.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_log_sources": [
                 {
@@ -1312,6 +1311,58 @@
                 {
                     "name": "macos:unifiedlog",
                     "channel": "security OR injection attempts into 1Password OR LastPass"
+                },
+                {
+                    "name": "AndroidLogs:Kernel",
+                    "channel": "init or zygote process executing scripts or binaries from non-standard data or sdcard locations during early boot"
+                },
+                {
+                    "name": "iOS:unifiedlog",
+                    "channel": "launchd invocation of binary from non-Apple, non-AppStore, or sideloaded location during boot or shortly after unlock"
+                },
+                {
+                    "name": "AndroidLogs:Framework",
+                    "channel": "Creation of a new process running as system or root UID whose executable path resides under an app container path (for example, /data/app or /data/user/0/<pkg>), or whose parent process originates from an app sandbox"
+                },
+                {
+                    "name": "iOS:unifiedlog",
+                    "channel": "Creation of a new process with elevated UID or sensitive entitlements whose binary path is associated with an app container or whose parent/caller is a low-privileged app/webcontent process"
+                },
+                {
+                    "name": "android:logcat",
+                    "channel": "dlopen of a recently created .so OR short-lived child (/system/bin/sh,toybox,linker) spawned by app_process"
+                },
+                {
+                    "name": "android:logcat",
+                    "channel": "startActivity on top of <target_pkg> (launchMode/singleTop), task switch immediately after focus"
+                },
+                {
+                    "name": "android:logcat",
+                    "channel": "unexpected spikes in fork/exec/app process start events for helper utilities used for enumeration (ps, toybox/toolbox variants) from same UID"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application writes audio buffer or recorded audio file into application storage directories"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Browser or WebView-hosting application brought to foreground and navigates to external content, followed by abnormal state transition, crash, restart, or process spawn behavior"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "application installed from adb, sideload, or unknown USB source"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application invokes Runtime.exec, ProcessBuilder, JNI-backed command launcher, or equivalent command-execution bridge immediately before shell or command process creation"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Managed app invokes lower-level OS process-launch or command-execution behavior before file or network effects, including interpreter-like execution flow where visible to sensor"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "application execution triggered with unexpected parent context or via indirect invocation (intent redirection or component hijack)"
                 }
             ]
         }

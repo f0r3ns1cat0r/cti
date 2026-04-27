@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e74dcbc1-2daa-465f-abf4-e5795a7a0710",
+    "id": "bundle--232d8e1f-7171-4d7b-bde5-fc62dcb35c7d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--3f10ffe9-fa73-4aeb-bf98-322831bf757f",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -38,11 +39,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-04-24T20:33:55.812Z",
             "name": "Analytic 1864",
-            "description": "Monitor for firmware changes which may be observable via operational alarms from devices.\nMonitor device application logs for firmware changes, although not all devices will produce such logs.\nMonitor firmware for unexpected changes. Asset management systems should be consulted to understand known-good firmware versions. Dump and inspect BIOS images on vulnerable systems and compare against known good images.(Citation: MITRE Copernicus) Analyze differences to determine if malicious changes have occurred. Log attempts to read/write to BIOS and compare against known patching behavior. Likewise, EFI modules can be collected and compared against a known-clean list of EFI executable binaries to detect potentially malicious modules. The CHIPSEC framework can be used for analysis to determine if firmware modifications have been performed.(Citation: McAfee CHIPSEC Blog) (Citation: Github CHIPSEC) (Citation: Intel HackingTeam UEFI Rootkit)\nMonitor ICS management protocols / file transfer protocols for protocol functions related to firmware changes.",
+            "description": "Monitor for firmware changes which may be observable via operational alarms from devices.\nMonitor device application logs for firmware changes, although not all devices will produce such logs.\nMonitor firmware for unexpected changes. Asset management systems should be consulted to understand known-good firmware versions. Dump and inspect BIOS images on vulnerable systems and compare against known good images.(Citation: MITRE Copernicus) Analyze differences to determine if malicious changes have occurred. Log attempts to read/write to BIOS and compare against known patching behavior. Likewise, EFI modules can be collected and compared against a known-clean list of EFI executable binaries to detect potentially malicious modules. The CHIPSEC framework can be used for analysis to determine if firmware modifications have been performed.(Citation: McAfee CHIPSEC Blog)(Citation: Github CHIPSEC)(Citation: Intel HackingTeam UEFI Rootkit)\nMonitor ICS management protocols / file transfer protocols for protocol functions related to firmware changes.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "x_mitre_version": "1.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "ics-attack"
@@ -71,8 +73,7 @@
                     "name": "Network Traffic",
                     "channel": "None"
                 }
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

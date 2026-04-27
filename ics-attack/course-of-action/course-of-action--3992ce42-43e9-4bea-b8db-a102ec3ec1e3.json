@@ -1,22 +1,9 @@
 {
     "type": "bundle",
-    "id": "bundle--28073f3a-d535-4895-ac77-7690bd3f0f39",
+    "id": "bundle--da859964-1bdf-4ddf-8638-6f43221a1f2d",
     "spec_version": "2.0",
     "objects": [
         {
-            "modified": "2025-03-12T16:11:54.933Z",
-            "name": "Access Management",
-            "description": "Access Management technologies can be used to enforce authorization polices and decisions, especially when existing field devices do not provide sufficient capabilities to support user identification and authentication. (Citation: McCarthy, J et al. July 2018) These technologies typically utilize an in-line network device or gateway system to prevent access to unauthenticated users, while also integrating with an authentication service to first verify user credentials. (Citation: Centre for the Protection of National Infrastructure November 2010)",
-            "labels": [
-                "IEC 62443-3-3:2013 - SR 2.1",
-                "IEC 62443-4-2:2019 - CR 2.1",
-                "NIST SP 800-53 Rev. 5 - AC-3"
-            ],
-            "x_mitre_deprecated": false,
-            "x_mitre_domains": [
-                "ics-attack"
-            ],
-            "x_mitre_version": "1.0",
             "type": "course-of-action",
             "id": "course-of-action--3992ce42-43e9-4bea-b8db-a102ec3ec1e3",
             "created": "2020-09-11T16:32:21.854Z",
@@ -42,8 +29,21 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
-            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+            "modified": "2026-04-23T00:47:44.798Z",
+            "name": "Access Management",
+            "description": "Access Management technologies can be used to enforce authorization polices and decisions, especially when existing field devices do not provide sufficient capabilities to support user identification and authentication. (Citation: McCarthy, J et al. July 2018) These technologies typically utilize an in-line network device or gateway system to prevent access to unauthenticated users, while also integrating with an authentication service to first verify user credentials. (Citation: Centre for the Protection of National Infrastructure November 2010)",
+            "labels": [
+                "IEC 62443-3-3:2013 - SR 2.1",
+                "IEC 62443-4-2:2019 - CR 2.1",
+                "NIST SP 800-53 Rev. 5 - AC-3"
+            ],
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [
+                "ics-attack"
+            ],
+            "x_mitre_version": "1.1",
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

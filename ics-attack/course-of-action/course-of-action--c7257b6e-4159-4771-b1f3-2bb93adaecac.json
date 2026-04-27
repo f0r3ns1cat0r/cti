@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--385308c0-ee27-43de-b0f7-3783ee7190b9",
+    "id": "bundle--8931bc3b-0eec-40f2-9d35-d13c0207864e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:26:32.013Z",
+            "modified": "2026-04-23T00:54:21.289Z",
             "name": "Communication Authenticity",
             "description": "When communicating over an untrusted network, utilize secure network protocols that both authenticate the message sender and can verify its integrity. This can be done either through message authentication codes (MACs) or digital signatures, to detect spoofed network messages and unauthorized connections.",
             "labels": [
@@ -32,8 +32,8 @@
             "x_mitre_domains": [
                 "ics-attack"
             ],
-            "x_mitre_version": "1.0",
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_version": "1.1",
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--a33d323d-428e-4b8b-ac0c-52b94172d10e",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-mitre-analytic",
+            "id": "x-mitre-analytic--67861309-0ba7-4713-843e-3def87e396ec",
+            "created": "2026-04-22T20:45:49.233Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/detectionstrategies/DET0909#AN2052",
+                    "external_id": "AN2052"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "modified": "2026-04-24T20:33:57.256Z",
+            "name": "Analytic 2052",
+            "description": "Monitor for anomalies related to discovery related ICS functions, including devices that have not previously used these functions or for functions being sent to many outstations.\n\nMonitor for new ICS protocol connections to existing assets or for device scanning (i.e., a host connecting to many devices) over ICS and enterprise protocols (e.g., ICMP, DCOM, WinRM). For added context on adversary enterprise procedures and background see [Remote System Discovery](https://attack.mitre.org/techniques/T1018).\n",
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.0",
+            "x_mitre_attack_spec_version": "3.3.0",
+            "x_mitre_domains": [
+                "ics-attack"
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_log_source_references": [
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "Traffic",
+                    "channel": "None"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--a7f22107-02e5-4982-9067-6625d4a1765a",
+                    "name": "Network Traffic",
+                    "channel": "None"
+                }
+            ]
+        }
+    ]
+}

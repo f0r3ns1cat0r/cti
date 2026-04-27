@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--811ea186-d770-4fb9-9c6a-1a09fbb22ac3",
+    "id": "bundle--e1b5a972-8597-41b5-876a-625a5c7a99f0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,23 +12,24 @@
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/datacomponents/DC0016",
+                    "url": "https://attack.mitre.org/data-components/DC0016",
                     "external_id": "DC0016"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-11-12T22:03:39.105Z",
+            "modified": "2026-01-29T17:21:27.873Z",
             "name": "Module Load",
             "description": "When a process or program dynamically attaches a shared library, module, or plugin into its memory space. This action is typically performed to extend the functionality of an application, access shared system resources, or interact with kernel-mode components.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "ics-attack",
-                "enterprise-attack"
+                "enterprise-attack",
+                "mobile-attack"
             ],
-            "x_mitre_version": "2.0",
+            "x_mitre_version": "3.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_log_sources": [
                 {
@@ -186,6 +187,30 @@
                 {
                     "name": "etw:Microsoft-Windows-Kernel-ImageLoad",
                     "channel": "provider: Unsigned/user-writable image loads into msbuild.exe"
+                },
+                {
+                    "name": "android:logcat",
+                    "channel": "DexClassLoader/PathClassLoader load attempt from non-standard path or recently created file"
+                },
+                {
+                    "name": "android:logcat",
+                    "channel": "Short burst of file I/O followed by JNI/dlopen of a newly created .so"
+                },
+                {
+                    "name": "iOS:unifiedlog",
+                    "channel": "dyld: dlopen/dyld_cache load from non-standard app-writable path"
+                },
+                {
+                    "name": "android:logcat",
+                    "channel": "DexClassLoader/PathClassLoader loading from app-writable path OR reflective defineClass on byte[] payload"
+                },
+                {
+                    "name": "iOS:unifiedlog",
+                    "channel": "dlopen/image load from app-writable path (tmp, Caches) outside bundled resources"
+                },
+                {
+                    "name": "android:logcat",
+                    "channel": "DexClassLoader|PathClassLoader load from app-writable path OR dlopen of a freshly created .so"
                 }
             ]
         }

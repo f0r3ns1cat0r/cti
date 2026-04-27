@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--459c52e2-9c54-43ab-be58-32810b5405f6",
+    "id": "bundle--b266b81e-0911-4eb4-a070-59f4ce3e91fa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--c347b69c-e3f6-4eca-ba57-0781c7dc8eac",
             "created": "2021-04-13T12:28:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Dragos Threat Intelligence February 2020",

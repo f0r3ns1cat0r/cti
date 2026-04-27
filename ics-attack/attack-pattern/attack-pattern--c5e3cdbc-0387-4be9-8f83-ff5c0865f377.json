@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5935c0ef-91fd-49e5-b93f-b8781197d288",
+    "id": "bundle--dc26490f-b6d5-4745-af32-7136fd5b10be",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,6 @@
             ],
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "ics-attack"
             ],
@@ -43,7 +42,8 @@
             "x_mitre_platforms": [
                 "None"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "revoked": false
         }
     ]
 }

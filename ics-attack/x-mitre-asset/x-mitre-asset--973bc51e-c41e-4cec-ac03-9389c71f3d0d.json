@@ -1,10 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--8001d00b-92af-405a-889f-c296b877c95f",
+    "id": "bundle--8c02164e-2f82-4dfd-841e-8c7faa6a6ba7",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-asset",
+            "spec_version": "2.1",
             "id": "x-mitre-asset--973bc51e-c41e-4cec-ac03-9389c71f3d0d",
             "created": "2023-09-28T14:58:00.982Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -19,7 +20,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T15:13:16.424Z",
+            "modified": "2026-04-23T01:01:24.568Z",
             "name": "Application Server",
             "description": "Application servers are used across many different sectors to host various diverse software applications necessary to supporting the ICS. Example functions can include data analytics and reporting, alarm management, and the management/coordination of different control servers.  The application server typically runs on a modern server operating system (e.g., MS Windows Server).",
             "x_mitre_sectors": [
@@ -85,14 +86,14 @@
             ],
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_platforms": [
-                "Windows",
-                "Linux"
+                "Linux",
+                "Windows"
             ],
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "ics-attack"
             ],
-            "x_mitre_version": "2.0",
+            "x_mitre_version": "2.1",
             "x_mitre_attack_spec_version": "3.3.0"
         }
     ]

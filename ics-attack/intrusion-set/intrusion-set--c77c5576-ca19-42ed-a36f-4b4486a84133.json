@@ -1,10 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--9ba036e0-d630-4836-b747-1e95822043dc",
+    "id": "bundle--d9e7bf4d-666e-47bc-8783-365d088d5c7c",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
+            "spec_version": "2.1",
             "id": "intrusion-set--c77c5576-ca19-42ed-a36f-4b4486a84133",
             "created": "2020-09-22T19:41:27.845Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -52,14 +53,14 @@
             ],
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_domains": [
-                "enterprise-attack",
-                "ics-attack"
-            ],
             "x_mitre_version": "2.0",
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_contributors": [
                 "Thijn Bukkems, Amazon"
+            ],
+            "x_mitre_domains": [
+                "enterprise-attack",
+                "ics-attack"
             ]
         }
     ]

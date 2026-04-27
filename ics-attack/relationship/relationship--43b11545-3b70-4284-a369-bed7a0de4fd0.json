@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4e56bf5f-4590-4250-81a6-0f34b93cdfa0",
+    "id": "bundle--42e33625-21a0-42a4-b2db-da0e3a52cf56",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--43b11545-3b70-4284-a369-bed7a0de4fd0",
             "created": "2024-03-27T19:52:07.502Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant-Sandworm-Ukraine-2022",

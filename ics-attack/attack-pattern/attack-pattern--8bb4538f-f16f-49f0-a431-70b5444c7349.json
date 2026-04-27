@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d161ae4c-3b2a-4844-8dd8-2920f7e72a1c",
+    "id": "bundle--83403d79-8636-49d4-804f-95c5e985f1bb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--8bb4538f-f16f-49f0-a431-70b5444c7349",
             "created": "2020-05-21T17:43:26.506Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:26:16.206Z",
+            "modified": "2026-04-20T20:58:48.356Z",
             "name": "Default Credentials",
             "description": "Adversaries may leverage manufacturer or supplier set default credentials on control system devices. These default credentials may have administrative permissions and may be necessary for initial configuration of the device. It is general best practice to change the passwords for these accounts as soon as possible, but some manufacturers may have devices that have passwords or usernames that cannot be changed. (Citation: Keith Stouffer May 2015)\n\nDefault credentials are normally documented in an instruction manual that is either packaged with the device, published online through official means, or published online through unofficial means. Adversaries may leverage default credentials that have not been properly modified or disabled.",
             "kill_chain_phases": [
@@ -35,7 +35,6 @@
             ],
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "ics-attack"
             ],

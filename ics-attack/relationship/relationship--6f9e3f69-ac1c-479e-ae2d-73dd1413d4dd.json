@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ca6b2b81-8ef1-4ed8-8c60-f8c8b1304210",
+    "id": "bundle--7e112d36-6a7b-4cb6-b146-f6d93366db12",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--6f9e3f69-ac1c-479e-ae2d-73dd1413d4dd",
             "created": "2024-09-11T23:00:00.833Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Claroty Fuxnet 2024",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3bceddea-a99c-4038-90f9-c0871c94a052",
+    "id": "bundle--746b5da7-9726-4336-9781-feb38bbadd52",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:26:27.092Z",
+            "modified": "2026-04-23T00:47:04.457Z",
             "name": "Network Intrusion Prevention",
             "description": "Use intrusion detection signatures to block traffic at network boundaries.  In industrial control environments, network intrusion prevention should be configured so it will not disrupt protocols and communications responsible for real-time functions related to control or safety.",
             "labels": [
@@ -32,8 +32,8 @@
             "x_mitre_domains": [
                 "ics-attack"
             ],
-            "x_mitre_version": "1.0",
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_version": "1.1",
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

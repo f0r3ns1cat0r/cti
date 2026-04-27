@@ -1,0 +1,59 @@
+{
+    "type": "bundle",
+    "id": "bundle--5ecc42d6-7a8a-428a-823e-db98ce8c79a7",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-mitre-analytic",
+            "id": "x-mitre-analytic--22b202f2-d4dd-44dd-b5e1-791ff2aef8ed",
+            "created": "2026-04-23T00:42:36.732Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/detectionstrategies/DET0915#AN2058",
+                    "external_id": "AN2058"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "modified": "2026-04-24T20:33:53.216Z",
+            "name": "Analytic 2058",
+            "description": "Monitor device alarms for program downloads, although not all devices produce such alarms.\n\nMonitor for protocol functions related to program download or modification. Program downloads may be observable in ICS automation protocols and remote management protocols.\n\nConsult asset management systems to understand expected program versions.\n\nMonitor devices configuration logs which may contain alerts that indicate whether a program download has occurred. Devices may maintain application logs that indicate whether a full program download, online edit, or program append function has occurred.\n",
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.0",
+            "x_mitre_attack_spec_version": "3.3.0",
+            "x_mitre_domains": [
+                "ics-attack"
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_log_source_references": [
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9d56be63-3501-4dd3-bb5f-63c580833298",
+                    "name": "Operational Databases",
+                    "channel": "None"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "Traffic",
+                    "channel": "None"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b05a614b-033c-4578-b4f2-c63a9feee706",
+                    "name": "Asset",
+                    "channel": "None"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9c2fa0ae-7abc-485a-97f6-699e3b6cf9fa",
+                    "name": "Application Log",
+                    "channel": "None"
+                }
+            ]
+        }
+    ]
+}

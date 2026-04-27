@@ -1,10 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--a34fb614-3871-4631-aa2b-2b4f93679068",
+    "id": "bundle--36b8328e-58f7-4590-89d8-4262dff5e595",
     "spec_version": "2.0",
     "objects": [
         {
-            "modified": "2023-10-04T18:01:02.506Z",
+            "type": "x-mitre-asset",
+            "spec_version": "2.1",
+            "id": "x-mitre-asset--75f810ad-b678-4c57-b93b-fdc79bba0c04",
+            "created": "2023-09-28T14:46:42.566Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/assets/A0005",
+                    "external_id": "A0005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "modified": "2026-04-27T16:47:33.077Z",
             "name": "Intelligent Electronic Device (IED)",
             "description": "An Intelligent Electronic Device (IED) is a type of specialized field device that is designed to perform specific operational functions, frequently for protection, monitoring, or control within the electric sector. IEDs are typically used to both acquire telemetry and execute tailored control algorithms/actions based on customizable parameters/settings. An IED is usually implemented as a dedicated embedded device and supports various network automation protocols to communicate with RTUs and Control Servers.",
             "x_mitre_sectors": [
@@ -20,10 +36,13 @@
                 },
                 {
                     "name": "Field Device / Controller",
-                    "related_asset_sectors": [],
+                    "related_asset_sectors": [
+                        "General"
+                    ],
                     "description": "IEDs may be referred to as Field Controllers or Field Devices as a general function name. "
                 }
             ],
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_platforms": [
                 "Embedded"
             ],
@@ -31,24 +50,8 @@
             "x_mitre_domains": [
                 "ics-attack"
             ],
-            "x_mitre_version": "1.0",
-            "type": "x-mitre-asset",
-            "id": "x-mitre-asset--75f810ad-b678-4c57-b93b-fdc79bba0c04",
-            "created": "2023-09-28T14:46:42.566Z",
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
-            "external_references": [
-                {
-                    "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/assets/A0005",
-                    "external_id": "A0005"
-                }
-            ],
-            "object_marking_refs": [
-                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
-            ],
-            "x_mitre_attack_spec_version": "3.2.0",
-            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+            "x_mitre_version": "1.1",
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

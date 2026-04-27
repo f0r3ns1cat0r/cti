@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a5821304-28f4-4458-9d5d-189b2da5d9be",
+    "id": "bundle--4a6c89ab-98c3-46ec-9ef5-89fdce25175d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,6 @@
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "modified": "2025-10-21T15:10:28.402Z",
-            "description": "",
             "relationship_type": "detects",
             "source_ref": "x-mitre-detection-strategy--fddbd892-faa2-40e1-b40d-2c6e33c00f14",
             "target_ref": "attack-pattern--2883c520-7957-46ca-89bd-dab1ad53b601",

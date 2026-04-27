@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--66cad171-2feb-4a86-bc86-a21918ac341f",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-mitre-analytic",
+            "id": "x-mitre-analytic--613b28ef-88dd-4008-8d7e-206ce55a7cde",
+            "created": "2026-04-22T14:53:50.597Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/detectionstrategies/DET0902#AN2045",
+                    "external_id": "AN2045"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "modified": "2026-04-24T20:33:56.808Z",
+            "name": "Analytic 2045",
+            "description": "Unauthorized messages may be detected by reviewing the content of automation protocols, either through detecting based on expected values or comparing to other out of band process data sources. Unauthorized messages may not precisely match legitimate messages which may lead to malformed traffic, although traffic may be malformed for benign reasons. Monitor messages for changes in how they are constructed.\n\nMonitor for anomalous or unexpected messages that may result in changes to the process operation observable via asset application logs (e.g., discrete write, logic and device configuration, mode changes, safety triggers).\n\nConsider monitoring for [Rogue Master](https://attack.mitre.org/techniques/T0848) and [Adversary-in-the-Middle](https://attack.mitre.org/techniques/T0830) activity which may precede this technique.\n",
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.0",
+            "x_mitre_attack_spec_version": "3.3.0",
+            "x_mitre_domains": [
+                "ics-attack"
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_log_source_references": [
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--a7f22107-02e5-4982-9067-6625d4a1765a",
+                    "name": "Network Traffic",
+                    "channel": "None"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "Traffic",
+                    "channel": "None"
+                }
+            ]
+        }
+    ]
+}

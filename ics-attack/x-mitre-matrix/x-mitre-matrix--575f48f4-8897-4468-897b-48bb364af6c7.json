@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d6848a95-8294-4692-9d3c-1c3539afb0cf",
+    "id": "bundle--8aa952ae-a8ce-4dce-b05c-1c1aea410101",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,19 +8,20 @@
             "id": "x-mitre-matrix--575f48f4-8897-4468-897b-48bb364af6c7",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/matrices/ics/",
+                    "url": "https://attack.mitre.org/matrices/ics-attack",
                     "external_id": "ics-attack"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-25T14:39:11.147Z",
+            "modified": "2026-04-14T17:36:35.980Z",
             "name": "ATT&CK for ICS",
-            "description": "The full ATT&CK for ICS Matrix includes techniques spanning various ICS assets and can be used to navigate through the knowledge base.",
+            "description": "Below are the tactics and techniques representing the MITRE ATT&CK Matrix for ICS.",
             "tactic_refs": [
                 "x-mitre-tactic--69da72d2-f550-41c5-ab9e-e8255707f28a",
                 "x-mitre-tactic--93bf9a8e-b14c-4587-b6d5-9efc7c12eb45",
@@ -37,11 +38,8 @@
             ],
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_domains": [
-                "ics-attack"
-            ],
             "x_mitre_version": "1.0",
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

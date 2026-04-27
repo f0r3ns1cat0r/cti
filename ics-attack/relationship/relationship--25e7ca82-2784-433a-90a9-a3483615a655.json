@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d2f03529-14ee-4918-8921-684b95bd2529",
+    "id": "bundle--42ba7e84-e6ab-44d8-920b-43eae91be9bc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--25e7ca82-2784-433a-90a9-a3483615a655",
             "created": "2019-04-12T17:01:01.255Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye WannaCry 2017",
@@ -23,7 +22,7 @@
                 {
                     "source_name": "FireEye APT38 Oct 2018",
                     "description": "FireEye. (2018, October 03). APT38: Un-usual Suspects. Retrieved November 17, 2024.",
-                    "url": "https://www.mandiant.com/sites/default/files/2021-09/rpt-apt38-2018-web_v5-1.pdf"
+                    "url": "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf"
                 },
                 {
                     "source_name": "LogRhythm WannaCry",
@@ -34,14 +33,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:03:05.097Z",
+            "modified": "2025-11-13T19:21:05.136Z",
             "description": "(Citation: FireEye APT38 Oct 2018)(Citation: LogRhythm WannaCry)(Citation: FireEye WannaCry 2017)(Citation: SecureWorks WannaCry Analysis)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "malware--75ecdbf1-c2bb-4afc-a3f9-c8da4de8c661",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

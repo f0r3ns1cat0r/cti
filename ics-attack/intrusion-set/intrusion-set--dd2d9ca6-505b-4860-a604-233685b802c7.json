@@ -1,30 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--7f45cb31-fd91-48eb-bbc5-0e11607c184f",
+    "id": "bundle--77252d38-84c0-4fd2-ae1e-88f4f9c846ff",
     "spec_version": "2.0",
     "objects": [
         {
-            "modified": "2025-03-12T20:33:21.597Z",
-            "name": "Wizard Spider",
-            "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) is a Russia-based financially motivated threat group originally known for the creation and deployment of [TrickBot](https://attack.mitre.org/software/S0266) since at least 2016. [Wizard Spider](https://attack.mitre.org/groups/G0102) possesses a diverse arsenal of tools and has conducted ransomware campaigns against a variety of organizations, ranging from major corporations to hospitals.(Citation: CrowdStrike Ryuk January 2019)(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)(Citation: CrowdStrike Wizard Spider October 2020)",
-            "aliases": [
-                "Wizard Spider",
-                "UNC1878",
-                "TEMP.MixMaster",
-                "Grim Spider",
-                "FIN12",
-                "GOLD BLACKBURN",
-                "ITG23",
-                "Periwinkle Tempest",
-                "DEV-0193"
-            ],
-            "x_mitre_deprecated": false,
-            "x_mitre_version": "4.0",
-            "x_mitre_contributors": [
-                "Edward Millington",
-                "Oleksiy Gayda"
-            ],
             "type": "intrusion-set",
+            "spec_version": "2.1",
             "id": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
             "created": "2020-05-12T18:15:29.396Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -64,6 +45,14 @@
                     "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
                 },
                 {
+                    "source_name": "Pistachio Tempest",
+                    "description": "(Citation: Microsoft_PistachioTempest_Jan2024)"
+                },
+                {
+                    "source_name": "DEV-0237",
+                    "description": "(Citation: Microsoft_PistachioTempest_Jan2024)"
+                },
+                {
                     "source_name": "GOLD BLACKBURN",
                     "description": "(Citation: Secureworks Gold Blackburn Mar 2022)"
                 },
@@ -98,6 +87,11 @@
                     "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
                 },
                 {
+                    "source_name": "Microsoft_PistachioTempest_Jan2024",
+                    "description": "Microsoft. (2024, January 25). Financially Motivated Threat Actor Pistachio Tempest. Retrieved December 15, 2025.",
+                    "url": "https://www.microsoft.com/en-us/security/security-insider/threat-landscape/pistachio-tempest"
+                },
+                {
                     "source_name": "CrowdStrike Wizard Spider October 2020",
                     "description": "Podlosky, A., Hanel, A. et al. (2020, October 16). WIZARD SPIDER Update: Resilient, Reactive and Resolute. Retrieved June 15, 2021.",
                     "url": "https://www.crowdstrike.com/blog/wizard-spider-adversary-update/"
@@ -110,7 +104,7 @@
                 {
                     "source_name": "Mandiant FIN12 Oct 2021",
                     "description": "Shilko, J., et al. (2021, October 7). FIN12: The Prolific Ransomware Intrusion Threat Actor That Has Aggressively Pursued Healthcare Targets. Retrieved June 15, 2023.",
-                    "url": "https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
+                    "url": "https://web.archive.org/web/20220313061955/https://www.mandiant.com/sites/default/files/2021-10/fin12-group-profile.pdf"
                 },
                 {
                     "source_name": "IBM X-Force ITG23 Oct 2021",
@@ -121,12 +115,34 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "modified": "2026-01-20T16:26:04.859Z",
+            "name": "Wizard Spider",
+            "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) is a Russia-based financially motivated threat group originally known for the creation and deployment of [TrickBot](https://attack.mitre.org/software/S0266) since at least 2016. [Wizard Spider](https://attack.mitre.org/groups/G0102) possesses a diverse arsenal of tools and has conducted ransomware campaigns against a variety of organizations, ranging from major corporations to hospitals.(Citation: CrowdStrike Ryuk January 2019)(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)(Citation: CrowdStrike Wizard Spider October 2020)",
+            "aliases": [
+                "Wizard Spider",
+                "UNC1878",
+                "TEMP.MixMaster",
+                "Grim Spider",
+                "FIN12",
+                "GOLD BLACKBURN",
+                "ITG23",
+                "Periwinkle Tempest",
+                "DEV-0193",
+                "Pistachio Tempest",
+                "DEV-0237"
+            ],
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "4.1",
+            "x_mitre_attack_spec_version": "3.3.0",
+            "x_mitre_contributors": [
+                "Edward Millington",
+                "Oleksiy Gayda"
+            ],
             "x_mitre_domains": [
                 "enterprise-attack",
                 "ics-attack"
-            ],
-            "x_mitre_attack_spec_version": "3.2.0",
-            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+            ]
         }
     ]
 }

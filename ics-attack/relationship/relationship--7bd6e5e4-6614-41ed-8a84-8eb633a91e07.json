@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f78de5cb-4cc5-48c2-9ef1-77f198304c39",
+    "id": "bundle--73de99a0-6a95-42cb-bf9a-3ae20290f5a9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--7bd6e5e4-6614-41ed-8a84-8eb633a91e07",
             "created": "2023-03-31T17:45:32.860Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Dragos Crashoverride 2018",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b72ab2f9-877c-4407-b127-81faa1734fbe",
+    "id": "bundle--5c0f1ae7-100c-4cfb-bb8d-f95cab7b6891",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-11-12T22:03:39.105Z",
+            "modified": "2026-04-20T18:21:23.994Z",
             "name": "Service Modification",
             "description": "Changes made to an existing service or daemon, such as modifying the service name, start type, execution parameters, or security configurations.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -28,9 +28,13 @@
                 "ics-attack",
                 "enterprise-attack"
             ],
-            "x_mitre_version": "2.0",
+            "x_mitre_version": "2.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_log_sources": [
+                {
+                    "name": "esxi:hostd",
+                    "channel": "service state change"
+                },
                 {
                     "name": "Service",
                     "channel": "None"

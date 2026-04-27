@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a0c238c7-ab06-4912-8b81-b64151d94ab6",
+    "id": "bundle--ce09ec17-8082-4021-be06-97a4dbd3fdff",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,23 +12,24 @@
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/datacomponents/DC0001",
+                    "url": "https://attack.mitre.org/data-components/DC0001",
                     "external_id": "DC0001"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-11-12T22:03:39.105Z",
+            "modified": "2026-04-09T17:05:23.355Z",
             "name": "Scheduled Job Creation",
             "description": "The establishment of a task or job that will execute at a predefined time or based on specific triggers.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "ics-attack",
-                "enterprise-attack"
+                "enterprise-attack",
+                "mobile-attack"
             ],
-            "x_mitre_version": "2.0",
+            "x_mitre_version": "3.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_log_sources": [
                 {
@@ -94,6 +95,10 @@
                 {
                     "name": "linux:cron",
                     "channel": "Scheduled execution of unknown or unusual script/binary"
+                },
+                {
+                    "name": "MobiledEDR:telemetry",
+                    "channel": "Scheduled task execution creates cache, staged payload, local output, or collected data artifact immediately after wake or job trigger"
                 }
             ]
         }

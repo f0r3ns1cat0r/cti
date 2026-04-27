@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7216bf5a-d3d1-45c0-b41e-065018e48b67",
+    "id": "bundle--6bb452c8-9e34-46a4-afc4-d3f7ba60c920",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:26:31.848Z",
+            "modified": "2026-04-23T00:54:39.756Z",
             "name": "Audit",
             "description": "Perform audits or scans of systems, permissions, insecure software, insecure configurations, etc. to identify potential weaknesses. Perform periodic integrity checks of the device to validate the correctness of the firmware, software, programs, and configurations. Integrity checks, which typically include cryptographic hashes or digital signatures, should be compared to those obtained at known valid states, especially after events like device reboots, program downloads, or program restarts.",
             "labels": [
@@ -33,8 +33,8 @@
             "x_mitre_domains": [
                 "ics-attack"
             ],
-            "x_mitre_version": "1.0",
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_version": "1.1",
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c17d850a-d2ff-4f48-a93f-61ab37ebdd57",
+    "id": "bundle--5a4a3f33-2491-4e3e-84d2-1324a42f8ba6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--3b6567a9-6213-4db4-a069-1a86b1098b63",
             "created": "2021-04-13T12:08:26.506Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Security Response Center August 2017",

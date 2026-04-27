@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1c5fe617-975f-43dd-831d-42cdaa9500c0",
+    "id": "bundle--72320def-8d97-4833-87f5-413ee88ddb55",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,17 +19,17 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-11-12T22:03:39.105Z",
+            "modified": "2026-04-23T17:17:05.280Z",
             "name": "File Creation",
             "description": "A new file is created on a system or network storage. This action often signifies an operation such as saving a document, writing data, or deploying a file. Logging these events helps identify legitimate or potentially malicious file creation activities. Examples include logging file creation events (e.g., Sysmon Event ID 11 or Linux auditd logs). ",
-            "x_mitre_data_source_ref": "",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "ics-attack",
-                "enterprise-attack"
+                "enterprise-attack",
+                "mobile-attack"
             ],
-            "x_mitre_version": "2.0",
+            "x_mitre_version": "3.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_log_sources": [
                 {
@@ -387,6 +387,162 @@
                 {
                     "name": "AWS:CloudTrail",
                     "channel": "PutObject"
+                },
+                {
+                    "name": "android:logcat",
+                    "channel": "App UID writes new file with suspicious extension/location (.tmp, .dat, .enc, /data/data/<pkg>/files/, /sdcard/Download/) and high estimated entropy"
+                },
+                {
+                    "name": "iOS:unifiedlog",
+                    "channel": "NSFileHandle/NSFileManager writes creating high-entropy files within app container (/var/mobile/Containers/Data/Application/<GUID>/tmp|Library/Caches)"
+                },
+                {
+                    "name": "android:logcat",
+                    "channel": "App UID writes edited media to container paths (e.g., /data/data/<pkg>/files/, .../cache/, /storage/emulated/0/Pictures/<pkg>/) with high delta in size vs. original and elevated estimated segment entropy  "
+                },
+                {
+                    "name": "android:logcat",
+                    "channel": "Create/write of high-entropy files in /data/data/<pkg>/(files|cache)/ or /storage/emulated/0/<...> with .dex/.so/.jar/.tmp/.bin"
+                },
+                {
+                    "name": "iOS:unifiedlog",
+                    "channel": "Create/write of high-entropy Mach-O/bundle or generic blob in /var/mobile/Containers/Data/Application/<GUID>/(tmp|Library/Caches)/"
+                },
+                {
+                    "name": "android:logcat",
+                    "channel": "Create/write under /data/data/<pkg>/(files|cache)/ or /storage/emulated/0/ with extension .dex/.jar/.so/.zip/.tmp/.js and elevated entropy"
+                },
+                {
+                    "name": "iOS:unifiedlog",
+                    "channel": "Create/write in /var/mobile/Containers/Data/Application/<GUID>/(tmp|Library/Caches)/ for .js/.bundle/.dylib/.zip with elevated entropy"
+                },
+                {
+                    "name": "android:logcat",
+                    "channel": "CREATE/WRITE of archive or container (.zip/.gz/.7z/.db copy) that aggregates files pulled from other-package paths"
+                },
+                {
+                    "name": "iOS:unifiedlog",
+                    "channel": "CREATE/WRITE of archive/container (.zip/.gz/.7z/.db export) aggregating recently read items"
+                },
+                {
+                    "name": "android:logcat",
+                    "channel": "CREATE/WRITE to app-writable DB/file path indicating clipboard dump (e.g., clipboard.db, clip_*.txt)"
+                },
+                {
+                    "name": "iOS:unifiedlog",
+                    "channel": "CREATE/WRITE of clipboard dump artifacts in container (clipboard.db, clip_*.txt, caches)"
+                },
+                {
+                    "name": "android:logcat",
+                    "channel": "CREATE/WRITE paths like /data/data/<pkg>/files/(keys|inputs)/.*\\\\.db|\\\\.txt|\\\\.log"
+                },
+                {
+                    "name": "iOS:unifiedlog",
+                    "channel": "CREATE/WRITE clipboard/keylog artifacts (clipboard.db, keys_*.txt) in container"
+                },
+                {
+                    "name": "android:logcat",
+                    "channel": "CREATE/WRITE to /data/data/<pkg>/(files|databases)/(keys|inputs|clipboard).*\\\\.(db|sqlite|txt|log)"
+                },
+                {
+                    "name": "iOS:unifiedlog",
+                    "channel": "CREATE/WRITE of keylog artifacts (keys_*.txt, inputs.db) within app/keyboard container"
+                },
+                {
+                    "name": "android:logcat",
+                    "channel": "CREATE/WRITE to /data/data/<pkg>/(files|databases)/(creds|form|prompt).*\\\\.(db|sqlite|json|txt)"
+                },
+                {
+                    "name": "iOS:unifiedlog",
+                    "channel": "CREATE/WRITE of form cache/credential-like artifacts (forms.db, creds.json) in container"
+                },
+                {
+                    "name": "android:logcat",
+                    "channel": "CREATE/WRITE /data/data/<pkg>/(files|databases)/(app_inventory|pkg_list).*\\\\.(json|txt|db)"
+                },
+                {
+                    "name": "iOS:unifiedlog",
+                    "channel": "CREATE/WRITE container paths like /Library/Caches/app_inventory.*\\\\.(json|plist|db)"
+                },
+                {
+                    "name": "android:logcat",
+                    "channel": "CREATE/WRITE /data/data/<pkg>/(files|databases)/(security_inventory|policy_audit).*\\\\.(json|txt|db|plist)"
+                },
+                {
+                    "name": "iOS:unifiedlog",
+                    "channel": "CREATE/WRITE of /Library/Caches/security_inventory.*\\\\.(json|plist|db)"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Browser/WebView process creates downloaded payloads, temporary files, dropped archives, or unusual cached web artifacts shortly after visiting external content"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "File writes from removable-media or USB-associated paths into download, package staging, temp, or application-accessible storage shortly after USB connection"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "large file write originating from /mnt/usb or external mounted storage"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Recently installed or updated trusted app writes staging, cache, buffer, or export artifacts inconsistent with its approved function, especially when temporally adjacent to sensitive resource access or outbound transfer"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "App stages, buffers, caches, or exports data locally immediately before communication with legitimate external web-service endpoints in a way inconsistent with normal sync or offline workflow"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Burst write to cache, buffer, temp, staging, or export path occurred between inbound retrieval and outbound write to same public web-service class"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Burst write to media, cache, temp, export, or staging path occurred during or immediately after camera session from same app identity"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "App writes encoded/encrypted blobs (high entropy data) to local storage or memory buffers prior to transmission"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "App writes high-entropy encrypted blobs to local storage or memory buffers prior to transmission"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "App writes asymmetric-encrypted blobs or encoded ciphertext to local buffers or files prior to transmission"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application reads multiple user-data files, media objects, message stores, or app-private records in burst sequence immediately before packaging or encryption activity"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application writes archive-like container or high-entropy packaged blob to app storage, cache, temp path, or shared external path after burst collection activity"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application writes new large container, temp package, or high-entropy blob after clustered local data access and before outbound communication"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application performs burst reads across local system paths, external storage, media directories, cache locations, or local database files within a short interval as the primary collection phase"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Application writes newly retrieved binary, archive, script-like asset, overlay content, library, or opaque payload to app-private, cache, temp, or shared external path as the primary local effect of transfer"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "Managed app writes newly retrieved container-local asset, dylib-like resource, archive, or opaque payload shortly after remote retrieval as the strongest local effect"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "APK, DEX, native library, or package-associated executable content is written, expanded, or swapped in app package paths, staging paths, or installer cache immediately before or during application replacement"
+                },
+                {
+                    "name": "MobileEDR:telemetry",
+                    "channel": "application modifies protected configuration, local control files, security settings, or tool-related data immediately before security service degradation or non-reporting state"
                 }
             ]
         }

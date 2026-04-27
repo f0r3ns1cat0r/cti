@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--330d4b77-e0dd-4fa8-8b57-f6818f2e8b6d",
+    "id": "bundle--1767dd12-2335-4865-9b1c-f9bed5970270",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,7 @@
             "id": "attack-pattern--3f1f4ccb-9be2-4ff8-8f69-dd972221169b",
             "created": "2020-05-21T17:43:26.506Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:26:13.771Z",
+            "modified": "2026-04-20T20:58:39.117Z",
             "name": "Block Reporting Message",
             "description": "Adversaries may block or prevent a reporting message from reaching its intended target. In control systems, reporting messages contain telemetry data (e.g., I/O values) pertaining to the current state of equipment and the industrial process. By blocking these reporting messages, an adversary can potentially hide their actions from an operator.\n\nBlocking reporting messages in control systems that manage physical processes may contribute to system impact, causing inhibition of a response function. A control system may not be able to respond in a proper or timely manner to an event, such as a dangerous fault, if its corresponding reporting message is blocked. (Citation: Bonnie Zhu, Anthony Joseph, Shankar Sastry 2011)  (Citation: Electricity Information Sharing and Analysis Center; SANS Industrial Control Systems March 2016)",
             "kill_chain_phases": [
@@ -40,7 +40,6 @@
             ],
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "ics-attack"
             ],

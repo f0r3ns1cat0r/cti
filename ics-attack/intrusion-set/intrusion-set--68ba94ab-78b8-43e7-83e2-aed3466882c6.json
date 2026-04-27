@@ -1,10 +1,11 @@
 {
     "type": "bundle",
-    "id": "bundle--78ebb63d-ce84-4ce9-af73-f93771e4084f",
+    "id": "bundle--f4e1b6de-d652-469b-90a1-f0fb2c06caf2",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
+            "spec_version": "2.1",
             "id": "intrusion-set--68ba94ab-78b8-43e7-83e2-aed3466882c6",
             "created": "2018-01-16T16:13:52.465Z",
             "revoked": true,
@@ -22,11 +23,11 @@
             "name": "APT34",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
+            "x_mitre_version": "1.0",
+            "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_domains": [
                 "ics-attack"
-            ],
-            "x_mitre_version": "1.0",
-            "x_mitre_attack_spec_version": "3.2.0"
+            ]
         }
     ]
 }

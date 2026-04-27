@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f6babf4b-fd82-4f7a-8257-e690075ce5a8",
+    "id": "bundle--1d33b8f6-7062-4a1f-9c7c-920e1b088cf9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -15,14 +15,14 @@
                     "external_id": "T0882"
                 },
                 {
-                    "source_name": "Mark Thompson March 2016",
-                    "description": "Mark Thompson 2016, March 24 Iranian Cyber Attack on New York Dam Shows Future of War Retrieved. 2019/11/07 ",
-                    "url": "https://time.com/4270728/iran-cyber-attack-dam-fbi/"
-                },
-                {
                     "source_name": "Danny Yadron December 2015",
                     "description": "Danny Yadron 2015, December 20 Iranian Hackers Infiltrated New York Dam in 2013 Retrieved. 2019/11/07 ",
                     "url": "https://www.wsj.com/articles/iranian-hackers-infiltrated-new-york-dam-in-2013-1450662559"
+                },
+                {
+                    "source_name": "Mark Thompson March 2016",
+                    "description": "Mark Thompson 2016, March 24 Iranian Cyber Attack on New York Dam Shows Future of War Retrieved. 2019/11/07 ",
+                    "url": "https://time.com/4270728/iran-cyber-attack-dam-fbi/"
                 }
             ],
             "object_marking_refs": [
@@ -39,7 +39,6 @@
             ],
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_deprecated": false,
-            "x_mitre_detection": "",
             "x_mitre_domains": [
                 "ics-attack"
             ],
@@ -48,7 +47,8 @@
             "x_mitre_platforms": [
                 "None"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "revoked": false
         }
     ]
 }

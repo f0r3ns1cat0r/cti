@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--24d00106-96d6-422d-b934-31537fb9f147",
+    "id": "bundle--040e9ac5-b639-4204-a2e7-621cd22354a7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:26:31.005Z",
+            "modified": "2026-04-23T00:56:16.357Z",
             "name": "Encrypt Sensitive Information",
             "description": "Protect sensitive data-at-rest with strong encryption.",
             "labels": [
@@ -32,8 +32,8 @@
             "x_mitre_domains": [
                 "ics-attack"
             ],
-            "x_mitre_version": "1.0",
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_version": "1.1",
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

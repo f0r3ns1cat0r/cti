@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--00a9c81d-0af6-45f3-ac57-ad5e9370e25a",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-mitre-detection-strategy",
+            "spec_version": "2.1",
+            "id": "x-mitre-detection-strategy--feb80c7a-96cd-4300-b344-4d75b176c9cb",
+            "created": "2026-04-22T22:42:31.791Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/detectionstrategies/DET0911",
+                    "external_id": "DET0911"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "modified": "2026-04-24T20:27:51.377Z",
+            "name": "Detection of Block Ethernet",
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.0",
+            "x_mitre_attack_spec_version": "3.3.0",
+            "x_mitre_analytic_refs": [
+                "x-mitre-analytic--df7f8849-56a7-4e83-9fd7-a4f25227d960"
+            ],
+            "x_mitre_domains": [
+                "ics-attack"
+            ]
+        }
+    ]
+}

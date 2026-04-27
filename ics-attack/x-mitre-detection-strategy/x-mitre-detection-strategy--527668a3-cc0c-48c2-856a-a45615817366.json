@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--b21f8e71-c4a2-4e73-ba9a-3c6341060a08",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-mitre-detection-strategy",
+            "spec_version": "2.1",
+            "id": "x-mitre-detection-strategy--527668a3-cc0c-48c2-856a-a45615817366",
+            "created": "2026-04-22T22:56:48.997Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/detectionstrategies/DET0912",
+                    "external_id": "DET0912"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "modified": "2026-04-24T20:28:13.555Z",
+            "name": "Detection of Block Wi-Fi",
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "1.0",
+            "x_mitre_attack_spec_version": "3.3.0",
+            "x_mitre_analytic_refs": [
+                "x-mitre-analytic--0b4e7cfa-9f9d-49b0-b5bf-afdf62058c5a"
+            ],
+            "x_mitre_domains": [
+                "ics-attack"
+            ]
+        }
+    ]
+}

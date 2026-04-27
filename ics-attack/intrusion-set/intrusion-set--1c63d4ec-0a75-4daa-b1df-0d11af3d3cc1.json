@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c4e2790a-c05a-46d0-bcac-402297753165",
+    "id": "bundle--b012cbe3-f08d-4d13-b2dd-fce52afd1aa6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -25,6 +25,7 @@
                 "Dragos Threat Intelligence"
             ],
             "type": "intrusion-set",
+            "spec_version": "2.1",
             "id": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
             "created": "2017-05-31T21:32:05.217Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -149,12 +150,12 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
+            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_domains": [
                 "enterprise-attack",
                 "ics-attack"
-            ],
-            "x_mitre_attack_spec_version": "3.2.0",
-            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+            ]
         }
     ]
 }

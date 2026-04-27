@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3b75d517-5b9d-4995-8ab6-860d45e85e27",
+    "id": "bundle--49f3d378-029a-45dd-b092-e6d52203a12d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,7 +8,6 @@
             "id": "relationship--064dfd6f-db5d-48e8-b350-9dd47a270911",
             "created": "2022-09-28T20:22:09.916Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA-AA22-103A",
