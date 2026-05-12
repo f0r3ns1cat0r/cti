@@ -1,28 +1,9 @@
 {
     "type": "bundle",
-    "id": "bundle--521e713c-4932-4b24-b400-bc423d47aafa",
+    "id": "bundle--26061eb6-ab32-427e-a580-eb890b4d581d",
     "spec_version": "2.0",
     "objects": [
         {
-            "modified": "2025-04-04T17:16:12.597Z",
-            "name": "Impacket",
-            "description": "[Impacket](https://attack.mitre.org/software/S0357) is an open source collection of modules written in Python for programmatically constructing and manipulating network protocols. [Impacket](https://attack.mitre.org/software/S0357) contains several tools for remote service execution, Kerberos manipulation, Windows credential dumping, packet sniffing, and relay attacks.(Citation: Impacket Tools)",
-            "x_mitre_platforms": [
-                "Linux",
-                "macOS",
-                "Windows"
-            ],
-            "x_mitre_deprecated": false,
-            "x_mitre_domains": [
-                "enterprise-attack"
-            ],
-            "x_mitre_version": "1.8",
-            "x_mitre_contributors": [
-                "Jacob Wilkin, Trustwave, SpiderLabs"
-            ],
-            "x_mitre_aliases": [
-                "Impacket"
-            ],
             "type": "tool",
             "id": "tool--26c87906-d750-42c5-946c-d4162c73fc7b",
             "created": "2019-01-31T01:39:56.283Z",
@@ -43,8 +24,27 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "modified": "2026-05-12T15:12:00.740Z",
+            "name": "Impacket",
+            "description": "[Impacket](https://attack.mitre.org/software/S0357) is an open source collection of modules written in Python for programmatically constructing and manipulating network protocols. [Impacket](https://attack.mitre.org/software/S0357) contains several tools for remote service execution, Kerberos manipulation, Windows credential dumping, packet sniffing, and relay attacks.(Citation: Impacket Tools)",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_platforms": [
+                "Linux",
+                "macOS",
+                "Windows"
+            ],
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [
+                "enterprise-attack"
+            ],
+            "x_mitre_version": "1.8",
+            "x_mitre_attack_spec_version": "3.3.0",
+            "x_mitre_contributors": [
+                "Jacob Wilkin, Trustwave, SpiderLabs"
+            ],
+            "x_mitre_aliases": [
+                "Impacket"
+            ],
             "labels": [
                 "tool"
             ]

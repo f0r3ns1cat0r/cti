@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5560a202-bd4c-42b2-9247-6da041847d71",
+    "id": "bundle--217373a9-99b7-4692-b7c7-1faf16e655a5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--faf1e821-465d-40cc-b523-73f1ba308932",
             "created": "2019-02-12T20:13:01.196Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "McAfee Oceansalt Oct 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:18:29.057Z",
+            "modified": "2026-04-29T14:23:06.266Z",
             "description": "[OceanSalt](https://attack.mitre.org/software/S0346) has been delivered via spearphishing emails with Microsoft Office attachments.(Citation: McAfee Oceansalt Oct 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--288fa242-e894-4c7e-ac86-856deedf5cea",
             "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

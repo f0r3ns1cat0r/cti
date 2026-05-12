@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ec19b6e8-8db0-451e-89a1-559bffca4038",
+    "id": "bundle--b4bbbf59-06f0-40cf-9076-126e0724f915",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4dcca852-a483-4cd2-9fc5-3fa227a12f74",
             "created": "2024-08-14T13:28:22.331Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA Iran Albanian Attacks September 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:13:43.506Z",
+            "modified": "2026-04-29T14:23:06.031Z",
             "description": "[ROADSWEEP](https://attack.mitre.org/software/S1150) has been digitally signed with a certificate issued to the Kuwait Telecommunications Company KSC.(Citation: CISA Iran Albanian Attacks September 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--be471c69-12d5-4bcc-9dad-3d42c3dbca4b",
             "target_ref": "attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

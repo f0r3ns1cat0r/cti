@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cb7c213d-e7b2-4638-88d0-b613e77ffe68",
+    "id": "bundle--8ca32fc2-79f3-46c4-b9bf-be0285334e43",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e4f09baa-2eae-445f-b000-5de3db07ad34",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 Kazuar May 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:14:45.835Z",
+            "modified": "2026-04-29T14:23:06.237Z",
             "description": "[Kazuar](https://attack.mitre.org/software/S0265) uploads files from a specified directory to the C2 server.(Citation: Unit 42 Kazuar May 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--536be338-e2ef-4a6b-afb6-8d5568b91eb2",
             "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

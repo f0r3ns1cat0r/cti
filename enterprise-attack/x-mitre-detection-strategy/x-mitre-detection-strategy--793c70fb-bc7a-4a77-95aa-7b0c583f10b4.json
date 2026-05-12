@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--e8abf04f-d2b1-4556-9cfc-f6acfebb9407",
+    "id": "bundle--f0fb8cbf-1a8e-4573-9db3-6743f80eb3fe",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--793c70fb-bc7a-4a77-95aa-7b0c583f10b4",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.681Z",
             "name": "Detection of Credential Dumping from LSASS Memory via Access and Dump Sequence",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -29,8 +30,7 @@
             ],
             "x_mitre_analytic_refs": [
                 "x-mitre-analytic--2b0dd3b6-6949-4dd5-b0dd-7b0b6f431dbe"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

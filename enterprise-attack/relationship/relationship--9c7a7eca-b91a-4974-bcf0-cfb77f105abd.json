@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cdd50556-e8ce-490e-8bac-36897edf056f",
+    "id": "bundle--a284ed0d-e3e2-418d-96b1-2db08842b800",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9c7a7eca-b91a-4974-bcf0-cfb77f105abd",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Trojan.Hydraq Jan 2010",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:01:57.054Z",
+            "modified": "2026-04-29T14:23:06.138Z",
             "description": "[Hydraq](https://attack.mitre.org/software/S0203) creates a backdoor through which remote attackers can delete files.(Citation: Symantec Trojan.Hydraq Jan 2010)(Citation: Symantec Hydraq Jan 2010)",
             "relationship_type": "uses",
             "source_ref": "malware--73a4793a-ce55-4159-b2a6-208ef29b326f",
             "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

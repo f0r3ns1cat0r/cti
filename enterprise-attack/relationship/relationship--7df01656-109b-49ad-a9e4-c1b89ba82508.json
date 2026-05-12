@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5f076c14-17ec-41de-8e4d-c0280bd37c73",
+    "id": "bundle--cad59365-7ec1-48b2-bf92-bea2583c621c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7df01656-109b-49ad-a9e4-c1b89ba82508",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 OopsIE! Feb 2018",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:56:11.815Z",
+            "modified": "2026-04-29T14:23:06.098Z",
             "description": "[OopsIE](https://attack.mitre.org/software/S0264) uses the command prompt to execute commands on the victim's machine.(Citation: Unit 42 OopsIE! Feb 2018)(Citation: Unit 42 OilRig Sept 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--8e101fdd-9f7f-4916-bb04-6bd9e94c129c",
             "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

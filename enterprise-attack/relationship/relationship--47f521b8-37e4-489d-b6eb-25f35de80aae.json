@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ab08fdc2-1ffb-45b1-a9a5-dc02a85e8c0f",
+    "id": "bundle--263c9458-90e8-4e42-8d6f-35a94a27db3c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--47f521b8-37e4-489d-b6eb-25f35de80aae",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "DFIR Phosphorus November 2021",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:12:09.601Z",
+            "modified": "2026-04-29T14:23:06.023Z",
             "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has downloaded additional code and files from servers onto victims.(Citation: Unit 42 Magic Hound Feb 2017)(Citation: DFIR Report APT35 ProxyShell March 2022)(Citation: DFIR Phosphorus November 2021)(Citation: Microsoft Iranian Threat Actor Trends November 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

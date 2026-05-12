@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--627578f3-fe94-4688-98cb-ec8be7e6dd72",
+    "id": "bundle--41a06dd3-317e-4684-a24a-2348e07bf0db",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f0fc42ee-9da6-4ec0-a3ff-8248889febe5",
             "created": "2024-12-31T22:41:43.252Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Cloud BOLDMOVE 2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:56:52.507Z",
+            "modified": "2026-04-29T14:23:06.253Z",
             "description": "[BOLDMOVE](https://attack.mitre.org/software/S1184) is capable of relaying traffic from command and control servers to follow-on systems.(Citation: Google Cloud BOLDMOVE 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--325fa466-4a2a-45a0-acc6-f6bed9b45ebe",
             "target_ref": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9b39cc40-a648-4866-b39f-e877cc98a377",
+    "id": "bundle--5158f09c-8099-4bf4-919e-4abdbc1ce14d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,17 +8,18 @@
             "id": "relationship--8178dba2-1469-4322-af59-f6935152deb0",
             "created": "2020-02-19T18:52:25.314Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:56:47.843Z",
+            "modified": "2026-04-29T14:23:06.102Z",
             "description": "Use of encryption provides an added layer of security to sensitive information sent over email. Encryption using public key cryptography requires the adversary to obtain the private certificate along with an encryption key to decrypt messages.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--feff9142-e8c2-46f4-842b-bd6fb3d41157",
             "target_ref": "attack-pattern--b4694861-542c-48ea-9eb1-10d356e7140a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7c1b1878-0b71-4e18-9248-b6504ee2433f",
+    "id": "bundle--a25544ec-b972-490f-ab7f-5c1aea290fad",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e7240735-0936-49b9-a4ff-16cb0aa06e07",
             "created": "2024-05-23T22:46:47.356Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cadet Blizzard emerges as novel threat actor",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:54:16.676Z",
+            "modified": "2026-04-29T14:23:06.240Z",
             "description": "[Ember Bear](https://attack.mitre.org/groups/G1003) uses valid network credentials gathered through credential harvesting to move laterally within victim networks, often employing the [Impacket](https://attack.mitre.org/software/S0357) framework to do so.(Citation: Cadet Blizzard emerges as novel threat actor)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",
             "target_ref": "attack-pattern--54a649ff-439a-41a4-9856-8d144a2551ba",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

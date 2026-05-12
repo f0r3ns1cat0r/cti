@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1a43c2b0-3448-4f18-bc67-cea7d47f3a4b",
+    "id": "bundle--6b5a9847-096a-432e-b5aa-a0ee36e6fb59",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T15:42:27.748Z",
+            "modified": "2026-05-12T15:12:00.625Z",
             "name": "Disable or Modify Cloud Log",
             "description": "An adversary may disable or modify cloud logging capabilities and integrations to limit what data is collected on their activities and avoid detection. Cloud environments allow for collection and analysis of audit and application logs that provide insight into what activities a user does within the environment. If an adversary has sufficient permissions, they can disable or modify logging to avoid detection of their activities. \n\nFor example, in AWS an adversary may disable CloudWatch/CloudTrail integrations prior to conducting further malicious activity. They may alternatively tamper with logging functionality, for example, by removing any associated SNS topics, disabling multi-region logging, or disabling settings that validate and/or encrypt log files.(Citation: AWS Cloud Trail)(Citation: Pacu Detection Disruption Module) In Office 365, an adversary may disable logging on mail collection activities for specific users by using the Set-MailboxAuditBypassAssociation cmdlet, by disabling M365 Advanced Auditing for the user, or by downgrading the user\u2019s license from an Enterprise E5 to an Enterprise E3 license.(Citation: Dark Reading)",
             "kill_chain_phases": [

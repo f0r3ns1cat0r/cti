@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dfae080b-e2fc-4ed8-bf5d-661101891ed4",
+    "id": "bundle--26925450-d9b1-476c-9837-93f719bacff4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-12T17:09:47.656Z",
+            "modified": "2026-05-12T16:30:18.376Z",
             "name": "Analytic 1714",
             "description": "Defender correlates an iOS-specific reduced-confidence chain where a managed or supervised device remains active but experiences abrupt loss of network-dependent functionality, repeated session failure, or sustained communication inability without matching configuration changes or ordinary user action. Because direct radio-layer and RF-cause visibility is weaker on iOS, the defender emphasizes device posture, application wake or foreground behavior during service loss, protected network-policy stability, and downstream failure patterns observed in VPN or proxy telemetry.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

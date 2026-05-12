@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--55e3cffb-cafe-4f8f-bd16-1f05d3447069",
+    "id": "bundle--0f3c9c2e-7036-4196-bfbc-685c350b845b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--992c7f74-c6d8-43e9-98e7-5818ca9524e3",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Rancor Unit42 June 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:01:18.789Z",
+            "modified": "2026-04-29T14:23:06.134Z",
             "description": "[DDKONG](https://attack.mitre.org/software/S0255) lists files on the victim\u2019s machine.(Citation: Rancor Unit42 June 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--d186c1d6-e3ac-4c3d-a534-9ddfeb8c57bb",
             "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

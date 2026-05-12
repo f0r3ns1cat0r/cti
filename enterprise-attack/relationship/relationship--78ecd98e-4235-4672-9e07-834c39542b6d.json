@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--69962a1a-b5ab-4964-9a86-e783b9f291f4",
+    "id": "bundle--30bcc4f4-cb8b-431d-9b7c-d9028c5908a6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--78ecd98e-4235-4672-9e07-834c39542b6d",
             "created": "2025-01-27T19:33:06.340Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Lockbit 2.0 JUN 2022",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:25:24.582Z",
+            "modified": "2026-04-29T14:23:06.090Z",
             "description": "[LockBit 2.0](https://attack.mitre.org/software/S1199) can modify Group Policy to disable Windows Defender and to automatically infect devices in Windows domains.(Citation: FBI Lockbit 2.0 FEB 2022)(Citation: Palo Alto Lockbit 2.0 JUN 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--a4578560-42cf-4075-9fa2-056f0058c881",
             "target_ref": "attack-pattern--5d2be8b9-d24c-4e98-83bf-2f5f79477163",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

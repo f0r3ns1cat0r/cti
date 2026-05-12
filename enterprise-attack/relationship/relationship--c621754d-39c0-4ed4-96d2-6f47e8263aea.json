@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a3b64dbb-82bb-456d-bcef-a1dfc3159a4d",
+    "id": "bundle--41cf253b-e085-4b6f-b597-55d99c81ab73",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c621754d-39c0-4ed4-96d2-6f47e8263aea",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "McAfee GhostSecret",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:09:22.882Z",
+            "modified": "2026-04-29T14:23:06.196Z",
             "description": "[Proxysvc](https://attack.mitre.org/software/S0238) performs data exfiltration over the control server channel using a custom protocol.(Citation: McAfee GhostSecret)",
             "relationship_type": "uses",
             "source_ref": "malware--069af411-9b24-4e85-b26c-623d035bbe84",
             "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

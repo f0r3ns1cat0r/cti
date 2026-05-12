@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--84d35020-4207-4dca-9352-e4c25cd4be87",
+    "id": "bundle--87727b63-a8f5-4721-88b4-364293239879",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T14:25:00.601Z",
+            "modified": "2026-04-29T14:23:06.228Z",
             "description": "[MirrorFace](https://attack.mitre.org/groups/G1054) has leveraged WMIC on targeted systems post compromise.(Citation: JPCERT MirrorFace JUL 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--8cf6e33b-b6ef-4a1f-a77c-0ecdde93161f",

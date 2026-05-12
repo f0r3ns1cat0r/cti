@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--6b2cf7b7-0a1d-4a43-84ce-87b7e4212876",
+    "id": "bundle--4a4f50d7-803d-491e-beaa-58aaf2a53780",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--84dfca59-e541-48a8-bb95-d7581a8f48d2",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.683Z",
             "name": "Distributed Password Spraying via Authentication Failures Across Multiple Accounts",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -36,8 +37,7 @@
                 "x-mitre-analytic--70500794-7d3d-4538-8e88-ed6d5e998a8a",
                 "x-mitre-analytic--cfffc717-79f1-4aea-9e68-475ef52db11d",
                 "x-mitre-analytic--c4a0d95a-2dfc-4b03-830e-d0dafca0be6f"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

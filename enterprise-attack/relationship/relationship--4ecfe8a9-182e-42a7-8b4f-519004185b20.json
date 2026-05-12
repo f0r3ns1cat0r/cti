@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--13f2ea34-2c0f-452c-a1e4-b11692f6cea5",
+    "id": "bundle--46992935-85a8-48ba-9089-a708357715f5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4ecfe8a9-182e-42a7-8b4f-519004185b20",
             "created": "2025-08-06T19:14:00.252Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro MUSTANG PANDA PUBLOAD HIUPAN SEPTEMBER 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-25T15:05:55.499Z",
+            "modified": "2026-04-29T14:23:06.032Z",
             "description": "[HIUPAN](https://attack.mitre.org/software/S1230) has conducted process discovery to identify the [PUBLOAD](https://attack.mitre.org/software/S1228) malware under the process WCBrowserWatcher.exe and will launch it from an install directory if it is not found.(Citation: Trend Micro MUSTANG PANDA PUBLOAD HIUPAN SEPTEMBER 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--da43312a-0188-4949-bab3-0df9a5df0aba",

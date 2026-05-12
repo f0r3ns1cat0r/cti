@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--401dbb31-c5d0-429d-9f28-3ceb209802b3",
+    "id": "bundle--312ff4b2-5ebc-4701-a7ea-c73744dbdbff",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--2f8394e6-2cf2-473a-b60a-6de2e69c39c8",
             "created": "2022-10-04T21:07:49.639Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant UNC3890 Aug 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:05:24.729Z",
+            "modified": "2026-04-29T14:23:05.971Z",
             "description": "[SUGARDUMP](https://attack.mitre.org/software/S1042) can identify Chrome, Opera, Edge Chromium, and Firefox browsers, including version number, on a compromised host.(Citation: Mandiant UNC3890 Aug 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--9c10cede-c0bb-4c5c-91c0-8baec30abaf6",
             "target_ref": "attack-pattern--e3b6daca-e963-4a69-aee6-ed4fd653ad58",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

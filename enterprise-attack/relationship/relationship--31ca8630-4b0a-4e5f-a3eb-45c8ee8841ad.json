@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5c163653-bfdc-454f-9524-27c5dcf2e2fe",
+    "id": "bundle--1f3e4a6d-1bd1-42b3-9924-38d797bbbb03",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:02:52.062Z",
+            "modified": "2026-04-29T14:23:05.982Z",
             "description": "Consider periodic review of <code>auditpol</code> settings for Administrator accounts and perform dynamic baselining on SIEM(s) to investigate potential malicious activity. Also ensure that the EventLog service and its threads are properly running.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8",

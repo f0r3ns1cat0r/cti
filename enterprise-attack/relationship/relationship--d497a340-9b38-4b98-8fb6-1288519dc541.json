@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--02cc593d-40b2-4c3d-a096-72994186e45e",
+    "id": "bundle--d3f8a343-f784-42bc-b369-8c27d326e13a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d497a340-9b38-4b98-8fb6-1288519dc541",
             "created": "2022-06-01T20:49:07.906Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Forcepoint BITTER Pakistan Oct 2016",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:49:38.400Z",
+            "modified": "2026-04-29T14:23:06.216Z",
             "description": "[BITTER](https://attack.mitre.org/groups/G1002) has exploited Microsoft Office vulnerabilities CVE-2012-0158, CVE-2017-11882, CVE-2018-0798, and CVE-2018-0802.(Citation: Cisco Talos Bitter Bangladesh May 2022)(Citation: Forcepoint BITTER Pakistan Oct 2016)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7f848c02-4d1e-4808-a4ae-4670681370a9",
             "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

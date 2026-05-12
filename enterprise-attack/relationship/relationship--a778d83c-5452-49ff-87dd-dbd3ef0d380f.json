@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a16ad1c9-6e3b-4cac-b573-02e410dd7f06",
+    "id": "bundle--b406cf9d-ae5c-45c7-95a8-641a653475aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a778d83c-5452-49ff-87dd-dbd3ef0d380f",
             "created": "2022-09-27T16:24:55.723Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FoxIT Wocao December 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:37:55.689Z",
+            "modified": "2026-04-29T14:23:06.153Z",
             "description": "During [Operation Wocao](https://attack.mitre.org/campaigns/C0014), threat actors used the XServer backdoor to exfiltrate data.(Citation: FoxIT Wocao December 2019)",
             "relationship_type": "uses",
             "source_ref": "campaign--b03d5112-e23a-4ac8-add0-be7502d24eff",
             "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

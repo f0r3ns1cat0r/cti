@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--02f1ec38-33d7-45f4-875d-44743393dca7",
+    "id": "bundle--c0db406a-915c-46aa-a149-ff97195de314",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:45:55.515Z",
+            "modified": "2026-04-29T14:23:06.017Z",
             "description": "Ensure proper Registry permissions are in place to prevent adversaries from disabling or interfering logging. The addition of the MiniNT registry key disables Event Viewer.(Citation: def_ev_win_event_logging)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--a2c36a5d-4058-475e-8e77-fff75e50d3b9",

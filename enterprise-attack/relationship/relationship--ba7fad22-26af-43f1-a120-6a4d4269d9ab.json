@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d60f8f38-0910-42ef-b902-56fb58979b2a",
+    "id": "bundle--e8352a02-1594-47d2-9e47-f29fdc9e7432",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ba7fad22-26af-43f1-a120-6a4d4269d9ab",
             "created": "2020-12-18T16:54:50.273Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Tetra Defense Sodinokibi March 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:42:41.954Z",
+            "modified": "2026-04-29T14:23:06.179Z",
             "description": "[GOLD SOUTHFIELD](https://attack.mitre.org/groups/G0115) has executed base64 encoded PowerShell scripts on compromised hosts.(Citation: Tetra Defense Sodinokibi March 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c77c5576-ca19-42ed-a36f-4b4486a84133",
             "target_ref": "attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

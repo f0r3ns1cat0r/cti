@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--49790255-7119-4f1a-986c-e1abc2dd9f56",
+    "id": "bundle--f40f0000-1847-4641-9754-79742450dd66",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--de840f88-b9d0-4f7e-b5c0-b666faa2d92f",
             "created": "2017-05-31T21:33:27.072Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye FIN6 April 2016",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:52:05.555Z",
+            "modified": "2026-04-29T14:23:06.229Z",
             "description": "[FIN6](https://attack.mitre.org/groups/G0037) used the Plink command-line utility to create SSH tunnels to C2 servers.(Citation: FireEye FIN6 April 2016)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
             "target_ref": "attack-pattern--bf176076-b789-408e-8cba-7275e81c0ada",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6630b98c-eda4-409a-a9a7-32b4130ab032",
+    "id": "bundle--6e3e13dc-6400-436e-bd7a-57cd6da9805d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fdc9c7e3-4467-4f57-af5b-156cf2f9d189",
             "created": "2019-01-30T18:58:04.035Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit42 Cannon Nov 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:18:59.574Z",
+            "modified": "2026-04-29T14:23:06.270Z",
             "description": "[Cannon](https://attack.mitre.org/software/S0351) adds the Registry key <code>HKCU\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon</code> to establish persistence.(Citation: Unit42 Cannon Nov 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--d20b397a-ea47-48a9-b503-2e2a3551e11d",
             "target_ref": "attack-pattern--6836813e-8ec8-4375-b459-abb388cb1a35",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

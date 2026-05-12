@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1f578022-6845-4c0c-a600-0e3f629def46",
+    "id": "bundle--5607fe95-3c1e-4f37-a99e-39ac75ca5315",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-29T17:05:14.514Z",
+            "modified": "2026-05-12T16:30:18.378Z",
             "name": "Analytic 1852",
             "description": "Defender correlates a sandboxed app downloading or receiving opaque/encoded blobs, writing high-entropy content into container/tmp, performing decode/decompress/reassembly, and then executing/loaded as Mach-O or bundle (dlopen) or leveraging JIT/RWX pages to run the decoded payload. Sequence: opaque download or IPC \u2192 high-entropy writes/split-file bursts \u2192 decode/unarchive \u2192 new Mach-O/bundle in tmp \u2192 dlopen/posix_spawn or RWX region activity.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

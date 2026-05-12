@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a62aef3a-a368-413b-8a78-fb90639a4e81",
+    "id": "bundle--72d04f15-b76c-443d-8a8d-c3e7ca1019f4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e87aa0d6-241f-4f72-bdb6-54e8d5584ae2",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "NYTimes-BackDoor",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:52:16.688Z",
+            "modified": "2026-04-29T14:23:06.241Z",
             "description": "[Adups](https://attack.mitre.org/software/S0309) transmitted call logs.(Citation: NYTimes-BackDoor)",
             "relationship_type": "uses",
             "source_ref": "malware--f6ac21b6-2592-400c-8472-10d0e2f1bfaf",
             "target_ref": "attack-pattern--1d1b1558-c833-482e-aabb-d07ef6eae63d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

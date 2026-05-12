@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a241b40b-3fd3-4011-ab4d-8d93bf360257",
+    "id": "bundle--235109cf-6a57-4980-ab39-7486aab4e427",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c417561d-d3fa-4aa7-b272-6769b2ada225",
             "created": "2022-01-18T18:23:22.008Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CrowdStrike AQUATIC PANDA December 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:08:59.142Z",
+            "modified": "2026-04-29T14:23:06.193Z",
             "description": "[Aquatic Panda](https://attack.mitre.org/groups/G0143) has attempted to harvest credentials through LSASS memory dumping.(Citation: CrowdStrike AQUATIC PANDA December 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--64b52e7d-b2c4-4a02-9372-08a463f5dc11",
             "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

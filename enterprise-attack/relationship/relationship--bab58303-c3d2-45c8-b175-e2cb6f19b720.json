@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--25db5015-276e-422b-880a-a902f66d2a98",
+    "id": "bundle--4db7fa1e-6f02-46ee-9bbf-664347a3cbcb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T23:05:20.414Z",
+            "modified": "2026-04-29T14:23:06.180Z",
             "description": "[LAMEHUG](https://attack.mitre.org/software/S9035) can recursively copy files from targeted directories on victim hosts.(Citation: Splunk LAMEHUG SEP 2025)(Citation: Nov AI Threat Tracker)",
             "relationship_type": "uses",
             "source_ref": "malware--c55e0410-842d-4365-a2c8-26c0330f85b8",

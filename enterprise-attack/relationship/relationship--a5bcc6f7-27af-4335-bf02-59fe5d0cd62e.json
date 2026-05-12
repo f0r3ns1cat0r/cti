@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5363d612-5fac-4fe1-aa1f-936339893c1e",
+    "id": "bundle--6fe5ff0d-1ab9-4c24-be3a-920700f52415",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a5bcc6f7-27af-4335-bf02-59fe5d0cd62e",
             "created": "2024-03-06T18:14:22.988Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant Cutting Edge Part 3 February 2024",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:37:26.053Z",
+            "modified": "2026-04-29T14:23:06.151Z",
             "description": "During [Cutting Edge](https://attack.mitre.org/campaigns/C0029), threat actors used a Python reverse shell and the PySoxy SOCKS5 proxy tool.(Citation: Volexity Ivanti Zero-Day Exploitation January 2024)(Citation: Mandiant Cutting Edge Part 3 February 2024)",
             "relationship_type": "uses",
             "source_ref": "campaign--4fdd2487-26c1-494e-8702-ec5abe9aa1d9",
             "target_ref": "attack-pattern--cc3502b5-30cc-4473-ad48-42d51a6ef6d1",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

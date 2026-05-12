@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--415bba8b-c9dd-46fa-84f2-7d7bb23ec788",
+    "id": "bundle--072bad75-fe7b-4261-8c37-368a82187d47",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T22:27:39.773Z",
+            "modified": "2026-04-29T14:23:06.196Z",
             "description": "[DynoWiper](https://attack.mitre.org/software/S9038) has been named after well-known files schtask.exe, schtask2.exe, and <redacted>_update.exe.(Citation: CERT Polska)(Citation: ESET DynoWiper Update JAN 2026)",
             "relationship_type": "uses",
             "source_ref": "malware--34057cb6-0a56-48a3-92e5-3af1357808da",

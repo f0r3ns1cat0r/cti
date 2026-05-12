@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ee7bc814-624a-4353-9c37-6243f100013a",
+    "id": "bundle--91386eaf-b12c-46fa-8c11-f4347108e479",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c7a2c6f6-5240-45f8-896e-b9cf434e53d1",
             "created": "2025-09-12T17:42:09.953Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Threat Intelligence Group MUSTANG PANDA PLUGX August 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-12T17:42:09.953Z",
+            "modified": "2026-04-29T14:23:06.198Z",
             "description": "[STATICPLUGIN](https://attack.mitre.org/software/S1238) has required user execution to load subsequent malicious payloads.(Citation: Google Threat Intelligence Group MUSTANG PANDA PLUGX August 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--301e7370-c3d3-4f3e-893f-8a79345c2eb5",

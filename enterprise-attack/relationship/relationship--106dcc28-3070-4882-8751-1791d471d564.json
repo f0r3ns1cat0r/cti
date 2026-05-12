@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--96a341a0-2b0e-4e72-94f7-64510de8e9e3",
+    "id": "bundle--f8263f48-5136-4ce7-9980-0edec577d3cc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--106dcc28-3070-4882-8751-1791d471d564",
             "created": "2025-10-14T21:13:37.485Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant VMware vSphere JUL 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-14T21:13:37.485Z",
+            "modified": "2026-04-29T14:23:05.926Z",
             "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) has downloaded the Teleport remote access tool to compromised VMware vCenter Servers.(Citation: Mandiant VMware vSphere JUL 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",

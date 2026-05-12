@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7871239b-5212-4dac-8f8a-834f694f882f",
+    "id": "bundle--1391fab3-12e8-42e7-a726-f3fbaa5398a2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5baa0187-f860-4ed2-8f29-bc6690009b8c",
             "created": "2025-02-07T15:43:56.687Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Rapid7 BlackBasta 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:17:34.707Z",
+            "modified": "2026-04-29T14:23:06.050Z",
             "description": "[DarkGate](https://attack.mitre.org/software/S1111) has stolen `sitemanager.xml` and `recentservers.xml` from `%APPDATA%\\FileZilla\\` if present.(Citation: Rapid7 BlackBasta 2024) ",
             "relationship_type": "uses",
             "source_ref": "malware--6f6f67c9-556d-4459-95c2-78d272190e52",
             "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

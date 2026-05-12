@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--595e9f9c-eb20-4cbb-a0c5-9ec95d988633",
+    "id": "bundle--0f9027de-0ce8-4376-965c-309155c1b8aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--dafc7834-fbb5-426c-adce-957742078002",
             "created": "2020-03-19T23:50:06.593Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT34 July 2019",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:51:13.369Z",
+            "modified": "2026-04-29T14:23:06.224Z",
             "description": "[OilRig](https://attack.mitre.org/groups/G0049) has used credential dumping tools such as [LaZagne](https://attack.mitre.org/software/S0349) to steal credentials to accounts logged into the compromised system and to Outlook Web Access.(Citation: Unit42 OilRig Playbook 2023)(Citation: FireEye APT34 Webinar Dec 2017)(Citation: FireEye APT35 2018)(Citation: FireEye APT34 July 2019) [OilRig](https://attack.mitre.org/groups/G0049) has also used tool named PICKPOCKET to dump passwords from web browsers.(Citation: FireEye APT34 July 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
             "target_ref": "attack-pattern--58a3e6aa-4453-4cc8-a51f-4befe80b31a8",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e10bb848-2f20-4838-bf0a-c5725c279b4d",
+    "id": "bundle--0e1c9b7f-d7a3-4b24-89fe-098292785cf9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:22.832Z",
+            "modified": "2026-05-12T15:12:00.620Z",
             "name": "Sharepoint",
             "description": "Adversaries may leverage the SharePoint repository as a source to mine valuable information. SharePoint will often contain useful information for an adversary to learn about the structure and functionality of the internal network and systems. For example, the following is a list of example information that may hold potential value to an adversary and may also be found on SharePoint:\n\n* Policies, procedures, and standards\n* Physical / logical network diagrams\n* System architecture diagrams\n* Technical system documentation\n* Testing / development credentials (i.e., [Unsecured Credentials](https://attack.mitre.org/techniques/T1552))\n* Work / project schedules\n* Source code snippets\n* Links to network shares and other internal resources\n",
             "kill_chain_phases": [
@@ -33,7 +33,7 @@
                     "phase_name": "collection"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_contributors": [
                 "Arun Seelagan, CISA"
             ],

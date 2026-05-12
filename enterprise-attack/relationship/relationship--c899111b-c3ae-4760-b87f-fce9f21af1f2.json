@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0f3af277-a67b-46ce-9972-f79f91b411e4",
+    "id": "bundle--e268e711-d1b7-489b-8e3d-2a40c281cbc4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c899111b-c3ae-4760-b87f-fce9f21af1f2",
             "created": "2019-08-26T15:27:13.071Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Securelist Kimsuky Sept 2013",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:09:48.181Z",
+            "modified": "2026-04-29T14:23:06.199Z",
             "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has created new services for persistence.(Citation: Securelist Kimsuky Sept 2013)(Citation: CISA AA20-301A Kimsuky)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
             "target_ref": "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

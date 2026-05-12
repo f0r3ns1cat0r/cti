@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5d989774-6420-46cb-ad9d-4990df464e85",
+    "id": "bundle--90b0ff0c-a2a4-469f-95c2-333649c25e3b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-30T17:32:03.644Z",
+            "modified": "2026-04-29T14:23:06.226Z",
             "description": "[Qilin](https://attack.mitre.org/software/S1242) can terminate antivirus-related processes and services.(Citation: Trend Micro Agenda Ransomware AUG 2022)(Citation: SentinelOne Qilin NOV 2022)(Citation: Halcyon Qilin.B OCT 2024)(Citation: Picus Qilin MAR 2025)\n\n",
             "relationship_type": "uses",
             "source_ref": "malware--e23d2777-b85d-44fc-861e-9149d399fbb9",

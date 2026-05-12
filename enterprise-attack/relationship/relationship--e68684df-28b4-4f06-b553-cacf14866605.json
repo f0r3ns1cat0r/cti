@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2ee72dcf-a548-4dd1-a8bf-4c1eefa5ca61",
+    "id": "bundle--76d2d157-b260-4664-a2a3-00d22e92ac18",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e68684df-28b4-4f06-b553-cacf14866605",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "PWC Cloud Hopper Technical Annex April 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:54:05.373Z",
+            "modified": "2026-04-29T14:23:06.239Z",
             "description": "[ChChes](https://attack.mitre.org/software/S0144) copies itself to an .exe file with a filename that is likely intended to imitate Norton Antivirus but has several letters reversed (e.g. notron.exe).(Citation: PWC Cloud Hopper Technical Annex April 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--dc5d1a33-62aa-4a0c-aa8c-589b87beb11e",
             "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

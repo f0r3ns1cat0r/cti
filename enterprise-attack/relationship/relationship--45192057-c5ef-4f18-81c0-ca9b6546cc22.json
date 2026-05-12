@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8b9906f4-a159-4f1e-badc-cb2ceb1e8b83",
+    "id": "bundle--687b5eb4-67a9-44cb-8a06-994f17efbbdb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T18:40:22.463Z",
+            "modified": "2026-04-29T14:23:06.020Z",
             "description": "The [NOOPLDR](https://attack.mitre.org/software/S9025) payload is encrypted with AES256-CBC.(Citation: Trend Micro Earth Kasha NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--66637cd6-ae68-4bcd-af82-32f70a854175",

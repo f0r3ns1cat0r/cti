@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--19fb93c6-f9fb-4b2c-aff8-a1c73defc1d2",
+    "id": "bundle--412debe3-15c2-494d-9df4-d6104f079854",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--49efe6c7-aec6-4e54-bc7d-212816e23347",
             "created": "2019-01-29T18:44:05.140Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "DigiTrust Agent Tesla Jan 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:46:25.850Z",
+            "modified": "2026-04-29T14:23:06.026Z",
             "description": "[Agent Tesla](https://attack.mitre.org/software/S0331) can access the victim\u2019s webcam and record video.(Citation: DigiTrust Agent Tesla Jan 2017)(Citation: Talos Agent Tesla Oct 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--e7a5229f-05eb-440e-b982-9a6d2b2b87c8",
             "target_ref": "attack-pattern--6faf650d-bf31-4eb4-802d-1000cf38efaf",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

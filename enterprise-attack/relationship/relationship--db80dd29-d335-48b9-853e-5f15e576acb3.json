@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--50e2513d-dc68-4158-a1b1-3f1ac04aaf50",
+    "id": "bundle--2c26f432-dde6-4631-92fe-1756d4bb7a23",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--db80dd29-d335-48b9-853e-5f15e576acb3",
             "created": "2020-09-30T14:29:28.424Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA SoreFang July 2016",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:13:09.668Z",
+            "modified": "2026-04-29T14:23:06.225Z",
             "description": "(Citation: CISA SoreFang July 2016)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
             "target_ref": "tool--03342581-f790-4f03-ba41-e82e67392e23",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

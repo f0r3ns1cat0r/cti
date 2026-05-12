@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9f397877-a0a9-44f8-8775-f8fa72c4d8d6",
+    "id": "bundle--69ce40cd-1bf1-44bc-861f-ff5056a87b76",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--884019ca-fca8-46a8-8dc4-71f60427db0f",
             "created": "2020-05-06T15:26:38.963Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro BlackTech June 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:58:02.723Z",
+            "modified": "2026-04-29T14:23:06.111Z",
             "description": "[PLEAD](https://attack.mitre.org/software/S0435) has the ability to list drives and files on the compromised host.(Citation: TrendMicro BlackTech June 2017)(Citation: JPCert PLEAD Downloader June 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--b57f419e-8b12-49d3-886b-145383725dcd",
             "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

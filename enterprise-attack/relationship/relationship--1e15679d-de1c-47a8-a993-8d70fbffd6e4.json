@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ed1d3047-1e67-4ef4-9d3d-9c66e7e065b0",
+    "id": "bundle--342853d2-6b63-4d62-835a-9c8d4b3e06f2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1e15679d-de1c-47a8-a993-8d70fbffd6e4",
             "created": "2025-02-19T19:18:28.458Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lumen J-Magic JAN 2025",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:00:56.341Z",
+            "modified": "2026-04-29T14:23:05.946Z",
             "description": "[J-magic](https://attack.mitre.org/software/S1203) can rename itself as \u201c[nfsiod 0]\u201d to masquerade as the local Network File System (NFS) asynchronous I/O server.(Citation: Lumen J-Magic JAN 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--2ade64da-5114-42e4-9d56-335379cca561",
             "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0e3d7246-9579-4e98-b70c-321149e60bd7",
+    "id": "bundle--d1136909-32fe-4b05-b48e-15f5b0d10cad",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--271a311f-71bc-4558-a314-0edfbec44b64",
             "created": "2019-11-21T16:42:48.495Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SecureList - ViceLeaker 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:28:05.136Z",
+            "modified": "2026-04-29T14:23:05.958Z",
             "description": "[ViceLeaker](https://attack.mitre.org/software/S0418) collects device information, including the device model and OS version.(Citation: SecureList - ViceLeaker 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--6fcaf9b0-b509-4644-9f93-556222c81ed2",
             "target_ref": "attack-pattern--e2ea7f6b-8d4f-49c3-819d-660530d12b77",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

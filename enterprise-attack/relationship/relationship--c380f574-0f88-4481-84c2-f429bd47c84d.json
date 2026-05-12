@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dcebb06e-8fe9-4bf1-a224-93d22b3b8890",
+    "id": "bundle--d72df691-600c-409a-8ed7-f9469f2057f9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c380f574-0f88-4481-84c2-f429bd47c84d",
             "created": "2022-09-27T18:08:20.744Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FoxIT Wocao December 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:45:11.964Z",
+            "modified": "2026-04-29T14:23:06.192Z",
             "description": "During [Operation Wocao](https://attack.mitre.org/campaigns/C0014), threat actors has used WMI to execute commands.(Citation: FoxIT Wocao December 2019)",
             "relationship_type": "uses",
             "source_ref": "campaign--b03d5112-e23a-4ac8-add0-be7502d24eff",
             "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

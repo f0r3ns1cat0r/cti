@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--b400c663-6ab4-47ea-a6c1-836b61d830c8",
+    "id": "bundle--4b2c680a-2062-42d3-aa9a-b6989af57232",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--6e1ea095-9f21-4544-8e9b-4fab2668033e",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.680Z",
             "name": "Direct Network Flood Detection across IaaS, Linux, Windows, and macOS",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -32,8 +33,7 @@
                 "x-mitre-analytic--a94c1081-d66b-4009-95a9-247721fcd394",
                 "x-mitre-analytic--a82a14f4-6fc9-43b5-b183-68af3cb075a2",
                 "x-mitre-analytic--408b2724-079c-4636-9764-52f435726de7"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

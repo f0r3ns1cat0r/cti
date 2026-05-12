@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1a58ef1c-586d-4ec5-96cd-03896c6dbde4",
+    "id": "bundle--4835a6e1-3a64-46f9-ac03-b07fe9d994ef",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ccf0d066-a71c-4a8b-b16c-4ddcc8eca267",
             "created": "2025-09-15T18:07:41.473Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Zscaler",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-15T18:07:41.473Z",
+            "modified": "2026-04-29T14:23:06.205Z",
             "description": "[TONESHELL](https://attack.mitre.org/software/S1239) included functionality to retrieve a list of user accounts.(Citation: Zscaler)",
             "relationship_type": "uses",
             "source_ref": "malware--2683fde8-1dc4-415c-94bd-9bb95cc5b7ff",

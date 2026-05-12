@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--94c31abf-71f6-4af2-8f50-a53a91f9f4fc",
+    "id": "bundle--cc4c9df5-55e6-454a-a61a-fde165e2cf85",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,14 +12,14 @@
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/data-components/DC0035",
+                    "url": "https://attack.mitre.org/datacomponents/DC0035",
                     "external_id": "DC0035"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-02-23T18:45:08.713Z",
+            "modified": "2026-05-12T15:12:00.770Z",
             "name": "Process Access",
             "description": "Refers to an event where one process attempts to open another process, typically to inspect or manipulate its memory, access handles, or modify execution flow. Monitoring these access attempts can provide valuable insight into both benign and malicious behaviors, such as debugging, inter-process communication (IPC), or process injection.\n\n*Data Collection Measures:*\n\n- Endpoint Detection and Response (EDR) Tools:\n    -  EDR solutions that provide telemetry on inter-process access and memory manipulation.\n- Sysmon (Windows):\n    - Event ID 10: Captures process access attempts, including:\n        - Source process (initiator)\n        - Target process (victim)\n        - Access rights requested\n        - Process ID correlation\n- Windows Event Logs:\n    - Event ID 4656 (Audit Handle to an Object): Logs access attempts to system objects.\n    - Event ID 4690 (Attempted Process Modification): Can help identify unauthorized process changes.\n- Linux/macOS Monitoring:\n    - AuditD: Monitors process access through syscall tracing (e.g., `ptrace`, `open`, `read`, `write`).\n    - eBPF/XDP: Used for low-level monitoring of kernel process access.\n    - OSQuery: Query process access behavior via structured SQL-like logging.\n- Procmon (Process Monitor) and Debugging Tools:\n    - Windows Procmon: Captures real-time process interactions.\n    - Linux strace / ptrace: Useful for tracking process behavior at the system call level.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

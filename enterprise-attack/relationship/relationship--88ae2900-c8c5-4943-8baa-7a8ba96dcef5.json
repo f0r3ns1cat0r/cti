@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2825ca5a-a970-4799-8be7-e045f0c9d76b",
+    "id": "bundle--80ff14a7-abd2-4fdd-a77a-77a60d2019a4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--88ae2900-c8c5-4943-8baa-7a8ba96dcef5",
             "created": "2025-10-22T02:17:48.886Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky ToddyCat June 2022",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T02:17:48.886Z",
+            "modified": "2026-04-29T14:23:06.112Z",
             "description": "[Ninja](https://attack.mitre.org/software/S1100) can obtain information on physical drives from targeted hosts.(Citation: Kaspersky ToddyCat June 2022)(Citation: Kaspersky ToddyCat Check Logs October 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--023254de-caaf-4a05-b2c7-e4e2f283f7a5",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--66d831e6-6644-4538-af12-46c3e7023daa",
+    "id": "bundle--578b487c-8b7f-4e90-829e-77f464a763e6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--749e3cb9-316a-4f97-8554-d83a9e19dfc5",
             "created": "2019-02-18T20:33:58.946Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto OilRig Sep 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:54:21.369Z",
+            "modified": "2026-04-29T14:23:06.085Z",
             "description": "[BONDUPDATER](https://attack.mitre.org/software/S0360) persists using a scheduled task that executes every minute.(Citation: Palo Alto OilRig Sep 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--d5268dfb-ae2b-4e0e-ac07-02a460613d8a",
             "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--056a1d42-ef57-45ff-8344-1305002bed8b",
+    "id": "bundle--f8955a1a-f718-4ffa-bd21-0976be4a47dc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--95e47f6d-6da2-4269-b6a5-b2253de83a8c",
             "created": "2025-10-22T21:44:06.350Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Esentire ContagiousInterview BeaverTail InvisibleFerret November 2024",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T21:44:06.350Z",
+            "modified": "2026-04-29T14:23:06.129Z",
             "description": "[Contagious Interview](https://attack.mitre.org/groups/G1052) has used the Python-based malware such as [InvisibleFerret](https://attack.mitre.org/software/S1245) to install and execute Python Packages and Python modules.(Citation: Esentire ContagiousInterview BeaverTail InvisibleFerret November 2024)(Citation: ESET Contagious Interview BeaverTail InvisibleFerret February 2025)(Citation: PaloAlto ContagiousInterview BeaverTail InvisibleFerret November 2023)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--46599a4a-77ee-4697-9474-2683b6464859",

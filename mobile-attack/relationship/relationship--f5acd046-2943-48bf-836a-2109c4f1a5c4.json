@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9ab480c9-b76a-4844-a82c-f83acee22745",
+    "id": "bundle--ff927ed9-92f1-45ad-9ed1-a179edd831f7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f5acd046-2943-48bf-836a-2109c4f1a5c4",
             "created": "2023-09-28T17:20:50.748Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Bleeipng Computer Escobar",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:52:32.721Z",
+            "modified": "2026-04-29T14:23:06.259Z",
             "description": "[Escobar](https://attack.mitre.org/software/S1092) can record audio from the device\u2019s microphone.(Citation: Bleeipng Computer Escobar)",
             "relationship_type": "uses",
             "source_ref": "malware--ec13d292-6d8d-4c7a-b07c-a2bd2402569a",
             "target_ref": "attack-pattern--6683aa0c-d98a-4f5b-ac57-ca7e9934a760",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--804dde65-2ef4-40b8-b2d1-dbe658192030",
+    "id": "bundle--15b4488c-2cb4-4678-838b-b8beb1cd535d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T21:22:51.000Z",
+            "modified": "2026-04-29T14:23:05.912Z",
             "description": "[HeartCrypt](https://attack.mitre.org/software/S9018) has the ability to use `NtQueueApcThread` as an alternate method for process injection.(Citation: Palo Alto HeartCrypt DEC 2024)\n",
             "relationship_type": "uses",
             "source_ref": "malware--148f947c-aabd-4ba8-b6a3-22b296855119",

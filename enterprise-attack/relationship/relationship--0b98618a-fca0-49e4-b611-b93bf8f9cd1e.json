@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e0a7ed4e-70c2-4c0f-8413-4d59e33607e4",
+    "id": "bundle--01d44657-c42e-41bc-87a4-b34b2eece188",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0b98618a-fca0-49e4-b611-b93bf8f9cd1e",
             "created": "2025-12-16T00:08:08.230Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SophosGnGal_SystemBC_Dec2020",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-12-16T00:08:08.230Z",
+            "modified": "2026-04-29T14:23:05.919Z",
             "description": "[SystemBC](https://attack.mitre.org/software/S9001) has used hidden scheduled tasks to execute PowerShell commands by adding the following: `-WindowStyle Hidden -ep bypass -file `.(Citation: SophosGnGal_SystemBC_Dec2020)",
             "relationship_type": "uses",
             "source_ref": "malware--39643fb9-00c1-4a45-85e5-801a3f2665d1",

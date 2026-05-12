@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--518fc98f-becf-4233-9ad5-6a8d13b7a754",
+    "id": "bundle--104a6a69-5f66-4637-8f8b-e2b7a8920ad5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b1d1e98b-e3fe-43d8-8b6d-810d8bc6cfab",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "objsee mac malware 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:05:47.975Z",
+            "modified": "2026-04-29T14:23:06.168Z",
             "description": "[iKitten](https://attack.mitre.org/software/S0278) saves itself with a leading \".\" so that it's hidden from users by default.(Citation: objsee mac malware 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--2cfe8a26-5be7-4a09-8915-ea3d9e787513",
             "target_ref": "attack-pattern--ec8fc7e2-b356-455c-8db5-2e37be158e7d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

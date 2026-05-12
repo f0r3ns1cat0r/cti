@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a79cf1c8-69ba-4680-8884-98a350314fcd",
+    "id": "bundle--610392aa-af76-478a-a3b3-d1ddd4a80167",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:38:48.077Z",
+            "modified": "2026-04-29T14:23:06.238Z",
             "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has cleared actor-performed actions from logs.(Citation: Microsoft Silk Typhoon MAR 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",

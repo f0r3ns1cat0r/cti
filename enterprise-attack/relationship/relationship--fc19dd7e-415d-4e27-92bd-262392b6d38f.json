@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ce7aa9c1-53ab-4df7-8d75-19a1b8cfa463",
+    "id": "bundle--77ac3ea7-abf2-493d-8d17-a6c93c4fc7ac",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fc19dd7e-415d-4e27-92bd-262392b6d38f",
             "created": "2020-05-12T18:25:44.512Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CrowdStrike Grim Spider May 2019",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T16:26:04.869Z",
+            "modified": "2026-04-29T14:23:06.267Z",
             "description": "(Citation: CrowdStrike Grim Spider May 2019)(Citation: FireEye KEGTAP SINGLEMALT October 2020)(Citation: Mandiant FIN12 Oct 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",

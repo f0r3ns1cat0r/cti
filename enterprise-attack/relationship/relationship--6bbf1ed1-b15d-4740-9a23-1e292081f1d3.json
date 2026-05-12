@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f1f8804c-5071-4955-8e40-d140326c3d02",
+    "id": "bundle--491a7b08-b0f1-4430-94f6-b9406d997714",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6bbf1ed1-b15d-4740-9a23-1e292081f1d3",
             "created": "2025-10-14T20:10:25.698Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA Scattered Spider Advisory November 2023",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-14T20:10:25.698Z",
+            "modified": "2026-04-29T14:23:06.072Z",
             "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) has used [Tor](https://attack.mitre.org/software/S0183) to communicate with targeted organizations.(Citation: CISA Scattered Spider Advisory November 2023)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",

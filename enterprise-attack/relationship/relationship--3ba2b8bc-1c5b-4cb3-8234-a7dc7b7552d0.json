@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--686c4c9d-6d81-49e2-906c-1ad8fe176a52",
+    "id": "bundle--e71fec11-fd07-48f0-828b-aef186e1798d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--3ba2b8bc-1c5b-4cb3-8234-a7dc7b7552d0",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ClearSky Wilted Tulip July 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:43:43.144Z",
+            "modified": "2026-04-29T14:23:06.003Z",
             "description": "[Matryoshka](https://attack.mitre.org/software/S0167) is capable of providing Meterpreter shell access.(Citation: ClearSky Wilted Tulip July 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--1cc934e4-b01d-4543-a011-b988dfc1a458",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

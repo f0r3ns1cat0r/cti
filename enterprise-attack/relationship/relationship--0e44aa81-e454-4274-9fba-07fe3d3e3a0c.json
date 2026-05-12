@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f69a2d02-2458-4953-86ad-88b7b95e32f7",
+    "id": "bundle--db084b82-3275-46bf-b25a-aacba0afa897",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:32:22.286Z",
+            "modified": "2026-04-29T14:23:05.923Z",
             "description": "[HermeticWiper](https://attack.mitre.org/software/S0697) has the ability to set the `HKLM:\\SYSTEM\\\\CurrentControlSet\\\\Control\\\\CrashControl\\CrashDumpEnabled` Registry key to `0` in order to disable crash dumps.(Citation: SentinelOne Hermetic Wiper February 2022)(Citation: Crowdstrike DriveSlayer February 2022)(Citation: Qualys Hermetic Wiper March 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--a0ab8a96-40c9-4483-8a54-3fafa6d6007a",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--250d03ab-adba-4f20-bd9d-273c530c2fe9",
+    "id": "bundle--66a324c5-cd8b-454d-9395-793cb85e3d44",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T02:41:55.610Z",
+            "modified": "2026-04-29T14:23:06.179Z",
             "description": "[SPAWNCHIMERA](https://attack.mitre.org/software/S9024) has disabled logging and log forwarding on Ivanti devices targeting the `dslogserver` process.(Citation: CISA SPAWNCHIMERA RESURGE February 2026)(Citation: Google UNC5221 Ivanti April 2025)(Citation: Google UNC5221 BRICKSTORM SPAWNCHIMERA April 2024)(Citation: Picus Security UNC5221 Ivanti May 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--d1974f35-0e06-478e-bc74-7530545d814b",

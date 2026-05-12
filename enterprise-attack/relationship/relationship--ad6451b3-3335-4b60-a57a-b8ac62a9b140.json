@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--de26b76b-877e-4fab-a689-be84f2f9e8df",
+    "id": "bundle--142bd546-0fd7-426b-9eb5-6375519ad9c3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T22:02:42.891Z",
+            "modified": "2026-04-29T14:23:06.161Z",
             "description": "During the [2025 Poland Wiper Attacks](https://attack.mitre.org/campaigns/C0063), the adversaries attempted to dump credentials utilizing LSASS.(Citation: CERT Polska)(Citation: ESET DynoWiper Update JAN 2026)",
             "relationship_type": "uses",
             "source_ref": "campaign--a6aba167-5ada-4812-9da1-912c0e73335d",

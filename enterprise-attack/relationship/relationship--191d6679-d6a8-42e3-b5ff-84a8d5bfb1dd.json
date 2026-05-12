@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3cb1b821-9cad-41ee-9af3-0df582e8aec3",
+    "id": "bundle--fe1a31a9-f4f3-4a1c-bb07-624cc8e76462",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--191d6679-d6a8-42e3-b5ff-84a8d5bfb1dd",
             "created": "2019-01-31T01:39:56.551Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Impacket Tools",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:37:06.399Z",
+            "modified": "2026-04-29T14:23:05.939Z",
             "description": "[Impacket](https://attack.mitre.org/software/S0357) can be used to sniff network traffic via an interface or raw socket.(Citation: Impacket Tools)",
             "relationship_type": "uses",
             "source_ref": "tool--26c87906-d750-42c5-946c-d4162c73fc7b",
             "target_ref": "attack-pattern--3257eb21-f9a7-4430-8de1-d8b6e288f529",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

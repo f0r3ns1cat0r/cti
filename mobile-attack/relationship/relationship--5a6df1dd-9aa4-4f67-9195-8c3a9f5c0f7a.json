@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--432798d4-06ad-4d79-9dfb-2eb753113aeb",
+    "id": "bundle--884eaa10-ec7b-41f0-9ee5-34f4b645b848",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5a6df1dd-9aa4-4f67-9195-8c3a9f5c0f7a",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Tripwire-MazarBOT",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:48:54.849Z",
+            "modified": "2026-04-29T14:23:06.049Z",
             "description": "[MazarBOT](https://attack.mitre.org/software/S0303) can send messages to premium-rate numbers.(Citation: Tripwire-MazarBOT)",
             "relationship_type": "uses",
             "source_ref": "malware--5ddf81ea-2c06-497b-8c30-5f1ab89a40f9",
             "target_ref": "attack-pattern--a8e971b8-8dc7-4514-8249-ae95427ec467",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

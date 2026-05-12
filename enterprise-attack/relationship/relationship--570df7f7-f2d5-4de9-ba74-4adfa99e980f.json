@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9a51526a-d34c-4287-87d9-3b432c13b0ff",
+    "id": "bundle--cfbf6393-a39a-49ac-b14b-97d437f0f6c1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--570df7f7-f2d5-4de9-ba74-4adfa99e980f",
             "created": "2021-01-06T17:34:44.009Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye SUNBURST Backdoor December 2020",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:48:46.970Z",
+            "modified": "2026-04-29T14:23:06.044Z",
             "description": "[TEARDROP](https://attack.mitre.org/software/S0560) created and read from a file with a fake JPG header, and its payload was encrypted with a simple rotating XOR cipher.(Citation: FireEye SUNBURST Backdoor December 2020)(Citation: Check Point Sunburst Teardrop December 2020)(Citation: Microsoft Deep Dive Solorigate January 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--32f49626-87f4-4d6c-8f59-a0dca953fe26",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

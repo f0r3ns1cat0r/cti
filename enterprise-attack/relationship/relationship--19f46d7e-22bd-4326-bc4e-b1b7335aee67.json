@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--00bd1f77-0999-4c67-9b18-0398b1e90227",
+    "id": "bundle--75d577bf-3da4-49da-a2d8-72ec3632c074",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-15T19:04:05.324Z",
+            "modified": "2026-04-29T14:23:05.940Z",
             "description": "[TruffleHog](https://attack.mitre.org/software/S9009) has obtained data and credentials associated with messaging applications to include Slack.(Citation: Github TruffleSecurity Trufflehog April 2025)",
             "relationship_type": "uses",
             "source_ref": "tool--76f8a686-3157-481f-9af6-e8558883a8d6",

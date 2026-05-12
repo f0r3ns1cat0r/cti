@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2f888e7a-b689-4113-a6a5-eeb3c0539364",
+    "id": "bundle--4a777b13-b827-460a-b053-957789ba47e7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T15:34:25.836Z",
+            "modified": "2026-05-12T15:12:00.640Z",
             "name": "Written Content",
             "description": "Adversaries may create or tailor written materials to support targeting and malicious operations. Content may include phishing lures, fraudulent financial communications, fabricated job postings, fabricated employment credentials and documentation, decoy documents, social media persona content, and supporting narratives used to sustain fabricated personas over time.(Citation: GenAI Phishing)(Citation: GTIG AI Threat Tracker) Content may be authored manually, commissioned through third parties, or produced using AI-assisted tools.\n\nWritten materials may impersonate legitimate government correspondence, diplomatic communications, or internal organizational documents to support targeting efforts. AI-assisted tools may also be used to tailor content to specific targets, industries, or regions. For example, adversaries may leverage AI to translate content into a target's native language or mimic the communication style of trusted senders.\n\nWritten content produced through these methods may be used in support of other techniques, such as [Phishing](https://attack.mitre.org/techniques/T1660), [Spearphishing via Service](https://attack.mitre.org/techniques/T1566/003), [Phishing for Information](https://attack.mitre.org/techniques/T1598), [Internal Spearphishing](https://attack.mitre.org/techniques/T1534), [Social Engineering](https://attack.mitre.org/techniques/T1684), [Financial Theft](https://attack.mitre.org/techniques/T1657), or [Establish Accounts](https://attack.mitre.org/techniques/T1585).\n\nWritten content does not include malicious code or scripts; for development of malicious code and scripts, see [Develop Capabilities](https://attack.mitre.org/techniques/T1587).",
             "kill_chain_phases": [

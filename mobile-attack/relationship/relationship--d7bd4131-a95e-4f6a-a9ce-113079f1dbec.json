@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9a3c2b22-1eeb-42f8-9cd8-286c8f9fc359",
+    "id": "bundle--6c56cf5f-6c42-42e0-963d-cad7e7ecabe8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d7bd4131-a95e-4f6a-a9ce-113079f1dbec",
             "created": "2025-08-29T21:56:01.595Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ZimperiumOrtegaPratapagiri_GodFather_Jun2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-29T21:56:01.595Z",
+            "modified": "2026-04-29T14:23:06.220Z",
             "description": "[GodFather](https://attack.mitre.org/software/S1231) has obfuscated its Android manifest file with irrelevant permissions and manifest strings.(Citation: ZimperiumOrtegaPratapagiri_GodFather_Jun2025)",
             "relationship_type": "uses",
             "source_ref": "malware--bf064476-25b8-493c-a1e7-dd707b3f7f52",

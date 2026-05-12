@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--11463739-b27a-41ee-97c9-fa7d6ef01940",
+    "id": "bundle--853a2b1a-56aa-4da3-9e81-4e5b2c88dd34",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6b83bc1e-edfc-4c6a-961f-d3757ae6a234",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Adsecurity Mimikatz Guide",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:52:33.953Z",
+            "modified": "2026-04-29T14:23:06.071Z",
             "description": "[Mimikatz](https://attack.mitre.org/software/S0002)'s <code>SEKURLSA::Pth</code> module can impersonate a user, with only a password hash, to execute arbitrary commands.(Citation: Adsecurity Mimikatz Guide)(Citation: NCSC Joint Report Public Tools)(Citation: Cobalt Strike Manual 4.3 November 2020)",
             "relationship_type": "uses",
             "source_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
             "target_ref": "attack-pattern--e624264c-033a-424d-9fd7-fc9c3bbdb03e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

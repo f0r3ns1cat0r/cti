@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a72a45c4-8c37-441f-8957-f865a61d29ec",
+    "id": "bundle--accbe5a3-c2f5-498e-a0b5-94baac6fb3e2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e7e7718a-b0e1-48cb-a9e8-bcbd0cf25cec",
             "created": "2020-03-17T18:52:24.021Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Group123",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:15:15.243Z",
+            "modified": "2026-04-29T14:23:06.241Z",
             "description": "[APT37](https://attack.mitre.org/groups/G0067) executes shellcode and a VBA script to decode Base64 strings.(Citation: Talos Group123)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
             "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

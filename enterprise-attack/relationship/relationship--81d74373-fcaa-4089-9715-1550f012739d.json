@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--608462a3-72c5-457c-a8c3-3dc33b630f49",
+    "id": "bundle--7b33fad1-5b51-4c03-befa-5632e919931d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--81d74373-fcaa-4089-9715-1550f012739d",
             "created": "2021-09-21T15:10:56.088Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Secureworks GOLD KINGSWOOD September 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:56:52.991Z",
+            "modified": "2026-04-29T14:23:06.103Z",
             "description": "[SpicyOmelette](https://attack.mitre.org/software/S0646) can identify the IP of a compromised system.(Citation: Secureworks GOLD KINGSWOOD September 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--599cd7b5-37b5-4cdd-8174-2811531ce9d0",
             "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

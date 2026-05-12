@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aeb3360f-a69f-4773-93d4-5ec71f2953a8",
+    "id": "bundle--d7c437c3-2378-4cda-9600-7a981df27d3e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7a117c20-6bb1-40b7-90c7-f8a01a987921",
             "created": "2023-01-17T22:12:20.622Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Costa AvosLocker May 2022",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:25:47.085Z",
+            "modified": "2026-04-29T14:23:06.092Z",
             "description": "(Citation: Cisco Talos Avos Jun 2022)(Citation: Costa AvosLocker May 2022)",
             "relationship_type": "uses",
             "source_ref": "campaign--519ee082-8ab6-439b-988f-a8a3f02c8d30",
             "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

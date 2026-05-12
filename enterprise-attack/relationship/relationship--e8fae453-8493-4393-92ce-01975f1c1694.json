@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1f9ac982-64f9-4300-99f2-ca4a35c24924",
+    "id": "bundle--36aa4ecb-ffda-4620-9ff0-eedda10edd5c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e8fae453-8493-4393-92ce-01975f1c1694",
             "created": "2024-08-13T20:07:11.157Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA Iran Albanian Attacks September 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:54:47.112Z",
+            "modified": "2026-04-29T14:23:06.242Z",
             "description": "During [HomeLand Justice](https://attack.mitre.org/campaigns/C0038), threat actors used compromised Exchange accounts to search mailboxes for administrator accounts.(Citation: CISA Iran Albanian Attacks September 2022)",
             "relationship_type": "uses",
             "source_ref": "campaign--7e21077d-2589-43a7-a5f9-490061289526",
             "target_ref": "attack-pattern--4bc31b94-045b-4752-8920-aebaebdb6470",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

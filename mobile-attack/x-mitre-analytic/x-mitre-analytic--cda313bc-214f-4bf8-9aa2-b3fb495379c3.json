@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0eefeb8b-0dfd-42d3-8e0a-bfff4fd8a4ff",
+    "id": "bundle--3e4e4391-f34a-486b-b7ae-837baf0ce6b0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-22T19:50:50.601Z",
+            "modified": "2026-05-12T16:30:18.382Z",
             "name": "Analytic 1780",
             "description": "Defender correlates an app's opaque media ingress (download/IPC) with high-entropy or anomalous edits to image/audio/video files in app-writable storage (e.g., bursts of bitmap/codec operations, EXIF/IPTC/XMP mutation, suspicious container growth), followed by decoding/extraction behavior (new non-media artifact derived from the edited media) and optional exfiltration/sharing of the stego media. Focus is on: (1) opaque media arrival \u2192 (2) rapid metadata or pixel-domain mutations with atypical size/entropy deltas \u2192 (3a) decoded payload creation or dynamic load from decoded path, and/or (3b) upload/share of the modified media within a tight window.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

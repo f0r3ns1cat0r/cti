@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--19edd6a6-f418-42c8-931b-296c148e9292",
+    "id": "bundle--8442ef72-0f81-47dc-9efe-d9ee51a24e9f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--37c94531-1e56-4640-93fd-e9fd65da4f80",
             "created": "2017-05-31T21:33:27.047Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky Darkhotel",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:42:59.960Z",
+            "modified": "2026-04-29T14:23:05.996Z",
             "description": "[Darkhotel](https://attack.mitre.org/groups/G0012) has used a keylogger.(Citation: Kaspersky Darkhotel)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--9e729a7e-0dd6-4097-95bf-db8d64911383",
             "target_ref": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

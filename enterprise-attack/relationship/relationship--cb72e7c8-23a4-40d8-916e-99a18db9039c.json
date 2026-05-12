@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--76edcd8f-57b1-4b1f-9b18-3b7b9dc22e71",
+    "id": "bundle--29ab3f4f-9422-4753-88fd-e11d9aabce0c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cb72e7c8-23a4-40d8-916e-99a18db9039c",
             "created": "2026-04-10T18:42:12.390Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Koi Glassworm New Tricks December 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-10T18:42:12.390Z",
+            "modified": "2026-04-29T14:23:06.203Z",
             "description": "[GlassWorm](https://attack.mitre.org/software/S9010) has searched for existing wallet applications to include Ledger Live and Trezor Suite.(Citation: Koi Glassworm New Tricks December 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--809bc57b-4d4c-43de-b698-448334ed8185",

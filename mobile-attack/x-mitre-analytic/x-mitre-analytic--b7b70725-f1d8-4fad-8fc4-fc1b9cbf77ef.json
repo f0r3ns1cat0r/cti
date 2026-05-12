@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a241968d-8a41-40e0-8cde-348338b55543",
+    "id": "bundle--d965cf03-2399-46d9-932e-c7f9081f00ee",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-08T20:07:42.093Z",
+            "modified": "2026-05-12T16:30:18.381Z",
             "name": "Analytic 1841",
             "description": "The defender correlates supervised-device app posture and lifecycle context with repeated local file or local-database access effects, especially when a managed app reads browser, messaging, keychain-adjacent, or application-container data outside its expected role and then stages or uploads the result. Because direct low-level local system access visibility is weaker on iOS, the primary analytic is effect-based: managed app identity, file/database access where visible to the mobile sensor, background execution context, and near-term outbound communication.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

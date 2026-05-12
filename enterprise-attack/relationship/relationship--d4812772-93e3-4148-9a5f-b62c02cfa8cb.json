@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4c324000-fe51-4180-9d15-9429819fcb67",
+    "id": "bundle--b2c712c7-5287-4983-9d41-f752d6e95196",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T20:54:35.148Z",
+            "modified": "2026-04-29T14:23:06.216Z",
             "description": "[NOOPLDR](https://attack.mitre.org/software/S9025) can be executed via sideloading.(Citation: Trend Micro Earth Kasha NOV 2024)(Citation: JPCERT MirrorFace JUL 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--66637cd6-ae68-4bcd-af82-32f70a854175",

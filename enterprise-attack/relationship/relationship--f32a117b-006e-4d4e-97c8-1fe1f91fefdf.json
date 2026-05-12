@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c0575a52-7386-4cc8-9bca-ffed7c083b80",
+    "id": "bundle--b0a83e24-4c72-4443-a65e-939267c8f899",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f32a117b-006e-4d4e-97c8-1fe1f91fefdf",
             "created": "2025-10-01T19:19:16.335Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SekoiaBourhis_DiceLoader_Feb2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-01T19:19:16.335Z",
+            "modified": "2026-04-29T14:23:06.255Z",
             "description": "[Lizar](https://attack.mitre.org/software/S0681) has used a complex XOR operation to obfuscate C2 communications.(Citation: SekoiaBourhis_DiceLoader_Feb2024) ",
             "relationship_type": "uses",
             "source_ref": "malware--f74a5069-015d-4404-83ad-5ca01056c0dc",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a8ddf095-0e2f-4ba1-aab2-9f191830ba66",
+    "id": "bundle--e03b556e-a956-44bd-87a0-df7c09f0765c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b3d6abc5-11da-4d0c-a699-8cafac03dfab",
             "created": "2019-08-26T17:00:30.957Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT34 July 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:06:07.761Z",
+            "modified": "2026-04-29T14:23:06.171Z",
             "description": "[OilRig](https://attack.mitre.org/groups/G0049) has used LinkedIn to send spearphishing links.(Citation: FireEye APT34 July 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
             "target_ref": "attack-pattern--f6ad61ee-65f3-4bd0-a3f5-2f0accb36317",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

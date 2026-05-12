@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ea5d03de-b39b-448c-b05f-6ea26eb009e9",
+    "id": "bundle--98a32b83-6ada-4a65-b716-a1773402be00",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--84dc2fd1-a443-4ce6-866a-c58cffc1b0f3",
             "created": "2020-05-01T13:57:23.341Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT41 March 2020",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:28:34.560Z",
+            "modified": "2026-04-29T14:23:06.107Z",
             "description": "[APT41](https://attack.mitre.org/groups/G0096) used  svchost.exe and [Net](https://attack.mitre.org/software/S0039) to execute a system service installed to launch a [Cobalt Strike](https://attack.mitre.org/software/S0154) BEACON loader.(Citation: FireEye APT41 March 2020)(Citation: Group IB APT 41 June 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
             "target_ref": "attack-pattern--f1951e8a-500e-4a26-8803-76d95c4554b4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

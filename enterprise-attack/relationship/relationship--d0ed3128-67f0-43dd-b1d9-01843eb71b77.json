@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2e1a5098-20ca-4c66-ab8b-3844be8aa3ba",
+    "id": "bundle--23ef9abd-1ffa-4097-ae60-5846a2284c42",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d0ed3128-67f0-43dd-b1d9-01843eb71b77",
             "created": "2017-05-31T21:33:27.046Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky Turla",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:11:23.928Z",
+            "modified": "2026-04-29T14:23:06.211Z",
             "description": "(Citation: Kaspersky Turla)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
             "target_ref": "tool--cde2d700-9ed1-46cf-9bce-07364fe8b24f",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--293316fc-d376-4e1f-ab2e-e0e0ea0fb4db",
+    "id": "bundle--59f49e79-6015-4e60-a79d-6b649c02569b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T22:31:52.583Z",
+            "modified": "2026-04-29T14:23:06.236Z",
             "description": "[PHASEJAM](https://attack.mitre.org/software/S9014) has leveraged native commands associated with the compromised network appliance to execute code.(Citation: Google UNC5221 Ivanti January 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--ca3f5123-b853-45ef-83cb-1d1bca22e03f",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7cf8461e-379b-4e23-9185-cedf5a17e128",
+    "id": "bundle--dea6f964-2b21-49b2-a7bb-a2154ada5da9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T17:46:04.982Z",
+            "modified": "2026-04-29T14:23:06.232Z",
             "description": "[RustyWater](https://attack.mitre.org/software/S9037) has\u202fused a Word document with\u202fa\u202fmalicious\u202fVisual Basic for Applications (VBA)\u202fmacro; when enabled, the CertificationKit.ini payload is\u202fconstructed\u202fand\u202fexecuted.(Citation: CloudSEK_RustyWater_Jan2026)",
             "relationship_type": "uses",
             "source_ref": "malware--50be4e81-db74-41a2-a9aa-423314082bea",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7a76dbb6-a5c7-4b83-99fb-f19ea9a21e8c",
+    "id": "bundle--e1b87dbf-c1e9-4a1c-8431-004bc71490e4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a311f17e-9f17-4f4d-b316-d844c0a0f1d2",
             "created": "2019-06-24T13:13:57.230Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Intezer HiddenWasp Map 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:03:08.226Z",
+            "modified": "2026-04-29T14:23:06.147Z",
             "description": "[HiddenWasp](https://attack.mitre.org/software/S0394) uses a script to automate tasks on the victim's machine and to assist in execution.(Citation: Intezer HiddenWasp Map 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--fc774af4-533b-4724-96d2-ac1026316794",
             "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

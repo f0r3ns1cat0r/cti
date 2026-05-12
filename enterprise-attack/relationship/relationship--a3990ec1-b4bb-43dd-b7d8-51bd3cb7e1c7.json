@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5d0ce33f-1229-485c-9ace-bde4e6770d08",
+    "id": "bundle--e4879552-b388-470f-ac95-57344e31566a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a3990ec1-b4bb-43dd-b7d8-51bd3cb7e1c7",
             "created": "2021-03-25T14:00:54.787Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Election Threats October 2020",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:03:14.200Z",
+            "modified": "2026-04-29T14:23:06.148Z",
             "description": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) has spoofed legitimate applications in phishing lures and changed file extensions to conceal  installation of malware.(Citation: Google Election Threats October 2020)(Citation: Zscaler APT31 Covid-19 October 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--4283ae19-69c7-4347-a35e-b56f08eb660b",
             "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

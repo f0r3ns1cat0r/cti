@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b4165947-94e9-4ff1-a792-8236f8b7fbf0",
+    "id": "bundle--2313db3f-41f7-4319-ae33-e2457bb4f39e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a8e662f8-e644-44d8-8aca-79e8d7924826",
             "created": "2021-09-30T12:48:38.717Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cyberint Qakbot May 2021",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:04:12.967Z",
+            "modified": "2026-04-29T14:23:06.155Z",
             "description": "The [QakBot](https://attack.mitre.org/software/S0650) dropper can delay dropping the payload to evade detection.(Citation: Cyberint Qakbot May 2021)(Citation: Kaspersky QakBot September 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--edc5e045-5401-42bb-ad92-52b5b2ee0de9",
             "target_ref": "attack-pattern--4bed873f-0b7d-41d4-b93a-b6905d1f90b0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

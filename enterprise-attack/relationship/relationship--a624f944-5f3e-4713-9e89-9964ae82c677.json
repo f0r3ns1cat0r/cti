@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1a30f924-4e4f-48fe-aff7-92f8aeff9f26",
+    "id": "bundle--7a4b7b98-8b2d-42d3-a684-148fbafe8b79",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a624f944-5f3e-4713-9e89-9964ae82c677",
             "created": "2020-10-15T02:00:30.447Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Promethium June 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:03:40.880Z",
+            "modified": "2026-04-29T14:23:06.151Z",
             "description": "[StrongPity](https://attack.mitre.org/software/S0491) has encrypted C2 traffic using SSL/TLS.(Citation: Talos Promethium June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--20945359-3b39-4542-85ef-08ecb4e1c174",
             "target_ref": "attack-pattern--bf176076-b789-408e-8cba-7275e81c0ada",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

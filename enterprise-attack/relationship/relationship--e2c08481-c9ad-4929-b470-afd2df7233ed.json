@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--21b10340-fabd-4d1a-926e-03c45877d321",
+    "id": "bundle--67ceb16b-71d5-4b56-963e-8157e8b88a2b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e2c08481-c9ad-4929-b470-afd2df7233ed",
             "created": "2022-07-14T17:53:38.033Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "BlackBerry Amadey 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:53:09.137Z",
+            "modified": "2026-04-29T14:23:06.234Z",
             "description": "[Amadey](https://attack.mitre.org/software/S1025) does not run any tasks or install additional malware if the victim machine is based in Russia.(Citation: BlackBerry Amadey 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--05318127-5962-444b-b900-a9dcfe0ff6e9",
             "target_ref": "attack-pattern--c877e33f-1df6-40d6-b1e7-ce70f16f4979",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

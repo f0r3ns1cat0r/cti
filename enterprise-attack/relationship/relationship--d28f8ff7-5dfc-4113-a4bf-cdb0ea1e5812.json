@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--700e5ae4-3247-458a-9b8c-d9b6aa026962",
+    "id": "bundle--d4ea141b-0fc8-4147-ad5b-cec545d0ecca",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:46:14.399Z",
+            "modified": "2026-04-29T14:23:06.213Z",
             "description": "[StealBit](https://attack.mitre.org/software/S1200) can configure processes to not display certain Windows error messages by through use of the `NtSetInformationProcess`.(Citation: Cybereason StealBit Exfiltration Tool)",
             "relationship_type": "uses",
             "source_ref": "malware--cf8b27df-c494-4a0c-b093-556a80ad2bcf",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6bfa3ab7-0602-40b7-96fd-285c11121f41",
+    "id": "bundle--583f1a80-02a8-4bfa-9238-68f049848642",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c37afb06-a8bb-48ac-ba38-a09bdc8833a9",
             "created": "2024-05-23T22:47:44.156Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cadet Blizzard emerges as novel threat actor",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:45:11.306Z",
+            "modified": "2026-04-29T14:23:06.192Z",
             "description": "[Ember Bear](https://attack.mitre.org/groups/G1003) gathers victim system information such as enumerating the volume of a given device or extracting system and security event logs for analysis.(Citation: Cadet Blizzard emerges as novel threat actor)(Citation: CISA GRU29155 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",
             "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

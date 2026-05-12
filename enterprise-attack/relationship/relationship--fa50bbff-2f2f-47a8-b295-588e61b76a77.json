@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--60e8d78b-9d20-48b9-a769-9983628fea37",
+    "id": "bundle--e44ec300-7259-4741-869d-89e705f05ba2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fa50bbff-2f2f-47a8-b295-588e61b76a77",
             "created": "2023-02-14T18:26:17.408Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MalwareBytes WoodyRAT Aug 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:59:13.722Z",
+            "modified": "2026-04-29T14:23:06.265Z",
             "description": "[Woody RAT](https://attack.mitre.org/software/S1065) can use AES-CBC to encrypt data sent to its C2 server.(Citation: MalwareBytes WoodyRAT Aug 2022) ",
             "relationship_type": "uses",
             "source_ref": "malware--3bc7e862-5610-4c02-9c48-15b2e2dc1ddb",
             "target_ref": "attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

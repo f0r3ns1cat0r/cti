@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--331e4d6d-8d74-42a4-b4b2-bfe984a8f3ff",
+    "id": "bundle--5eb8b324-8d8a-4879-bfab-734faf2d6fd8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-01T16:01:38.627Z",
+            "modified": "2026-05-12T16:30:18.382Z",
             "name": "Analytic 1731",
             "description": "An application performs repeated symmetric cryptographic operations (e.g., AES/RC4) on collected or staged data using locally accessible or reusable keys, followed by structured outbound communication. Detection correlates symmetric crypto API invocation + key reuse patterns + data staging + background execution context + network transmission, especially when inconsistent with expected application functionality.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

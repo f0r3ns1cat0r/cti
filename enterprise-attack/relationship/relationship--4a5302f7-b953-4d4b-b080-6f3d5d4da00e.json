@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9c773165-6d14-4d17-8176-2ae278e11d29",
+    "id": "bundle--c58a206f-592c-4bbb-b572-7dc7f5bbb527",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4a5302f7-b953-4d4b-b080-6f3d5d4da00e",
             "created": "2025-09-10T18:57:01.581Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Eset PlugX Korplug Mustang Panda March 2022",
@@ -38,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-10T18:57:01.581Z",
+            "modified": "2026-04-29T14:23:06.027Z",
             "description": "[PlugX](https://attack.mitre.org/software/S0013) has loaded its payload into memory.(Citation: Eset PlugX Korplug Mustang Panda March 2022)(Citation: EclecticIQ Mustang Panda PlugX)(Citation: Google Threat Intelligence Group MUSTANG PANDA PLUGX August 2025)(Citation: Sophos PlugX September 2022)(Citation: Sophos Mustang Panda PLUGX)",
             "relationship_type": "uses",
             "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",

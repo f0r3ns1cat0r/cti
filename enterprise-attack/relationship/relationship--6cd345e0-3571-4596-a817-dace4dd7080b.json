@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5d2aa922-9447-4c37-bb12-b00ac4f9df93",
+    "id": "bundle--ac567cb5-7277-4947-87ad-51b9050e557e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T12:35:23.413Z",
+            "modified": "2026-04-29T14:23:06.073Z",
             "description": "[Havoc](https://attack.mitre.org/software/S1229) has leveraged legitimate executables to side-load malicious payloads.(Citation: Check Point Wirte NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--1996aed9-6234-4c1d-a145-e8a4913679dd",

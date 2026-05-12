@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a9fd6ea0-12b3-4a30-ac4a-9eb3fe11cd36",
+    "id": "bundle--1cd58e69-e36c-4ebe-885d-1c779cd4f6bf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T20:31:56.173Z",
+            "modified": "2026-04-29T14:23:06.254Z",
             "description": "[SPAWNCHIMERA](https://attack.mitre.org/software/S9024) has generated RSA keys against modified files to sign the manifest file, so they appear legitimate.(Citation: CISA SPAWNCHIMERA RESURGE February 2026)(Citation: Google UNC5221 Ivanti January 2025) ",
             "relationship_type": "uses",
             "source_ref": "malware--d1974f35-0e06-478e-bc74-7530545d814b",

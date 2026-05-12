@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--30d0e060-5b0b-4058-a77b-21638836f57f",
+    "id": "bundle--2dc65327-5d1c-4cf1-99aa-52c7c7eefb9d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--79460858-f878-417f-bc10-b4c962128df4",
             "created": "2021-10-01T17:13:49.087Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 KerrDown February 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:25:32.836Z",
+            "modified": "2026-04-29T14:23:06.091Z",
             "description": "[Kerrdown](https://attack.mitre.org/software/S0585) can use DLL side-loading to load malicious DLLs.(Citation: Unit 42 KerrDown February 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--8c1d01ff-fdc0-4586-99bd-c248e0761af5",
             "target_ref": "attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

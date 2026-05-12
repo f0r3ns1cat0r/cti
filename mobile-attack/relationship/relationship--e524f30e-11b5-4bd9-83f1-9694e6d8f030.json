@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1d746fd0-72f6-49eb-bbe5-a8da0328997c",
+    "id": "bundle--99c4f233-e2a0-408d-be1b-e195b354fd57",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e524f30e-11b5-4bd9-83f1-9694e6d8f030",
             "created": "2024-03-26T19:34:37.304Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "sophos_android_apt_spyware",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:52:13.968Z",
+            "modified": "2026-04-29T14:23:06.237Z",
             "description": "[SpyC23](https://attack.mitre.org/software/S1195) can read and exfiltrate SMS messages.(Citation: welivesecurity_apt-c-23)(Citation: sophos_android_apt_spyware)(Citation: threatpost AndroidSpyware 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--95811c0a-abe0-4e7f-a0cc-b0662ced5807",
             "target_ref": "attack-pattern--c6421411-ae61-42bb-9098-73fddb315002",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

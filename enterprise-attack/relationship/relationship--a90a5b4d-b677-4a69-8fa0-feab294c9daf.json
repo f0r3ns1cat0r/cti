@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--641613cd-2323-4a5b-9812-71c4e29887a1",
+    "id": "bundle--3f18949d-f8a7-4664-bc14-971ffcbf57ac",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a90a5b4d-b677-4a69-8fa0-feab294c9daf",
             "created": "2022-10-07T20:02:33.857Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FoxIT Wocao December 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:38:19.613Z",
+            "modified": "2026-04-29T14:23:06.155Z",
             "description": "During [Operation Wocao](https://attack.mitre.org/campaigns/C0014), the threat actors renamed some tools and executables to appear as legitimate programs.(Citation: FoxIT Wocao December 2019)",
             "relationship_type": "uses",
             "source_ref": "campaign--b03d5112-e23a-4ac8-add0-be7502d24eff",
             "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

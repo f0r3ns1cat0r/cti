@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--195f55f0-207c-4115-a162-85a8006564b8",
+    "id": "bundle--53b1fd00-d7eb-4f37-9493-462a8ede48da",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e44f4171-5601-4b92-964a-908af35b98e2",
             "created": "2024-05-29T18:19:31.508Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelOne Gootloader June 2021",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:53:35.108Z",
+            "modified": "2026-04-29T14:23:06.236Z",
             "description": "\nThe [Gootloader](https://attack.mitre.org/software/S1138) first stage script is obfuscated using random alpha numeric strings.(Citation: Sophos Gootloader)(Citation: SentinelOne Gootloader June 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--396c18b9-26fb-4435-8589-fb856502e4c4",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

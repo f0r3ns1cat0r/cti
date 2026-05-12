@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6164e51f-19a2-4f3b-bb25-e282aa2612d5",
+    "id": "bundle--f234ca99-ccef-448a-9c0b-2f444550c9db",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b5e58b07-8d96-4453-90b9-c257f152f6d4",
             "created": "2025-09-15T17:51:57.759Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Unit42 STATELY TAURUS TONESHELL September 2023",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-16T14:25:43.397Z",
+            "modified": "2026-04-29T14:23:06.174Z",
             "description": "[TONESHELL](https://attack.mitre.org/software/S1239) has masqueraded as the legitimate Windows utility service DISMsrv (Dism Images Servicing Utility Service).(Citation: Palo Alto Unit42 STATELY TAURUS TONESHELL September 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--2683fde8-1dc4-415c-94bd-9bb95cc5b7ff",

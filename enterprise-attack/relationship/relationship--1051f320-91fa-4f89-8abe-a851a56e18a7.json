@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--86e54198-9f64-4d87-85df-453827aab5e3",
+    "id": "bundle--609d7a56-d18e-4d82-9df8-c01b2861eb52",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1051f320-91fa-4f89-8abe-a851a56e18a7",
             "created": "2019-01-30T18:39:48.467Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit42 Cannon Nov 2018",
@@ -38,14 +39,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:35:04.029Z",
+            "modified": "2026-04-29T14:23:05.926Z",
             "description": "[Zebrocy](https://attack.mitre.org/software/S0251) uses the <code>tasklist</code> and <code>wmic process get Capture, ExecutablePath</code> commands to gather the processes running on the system.(Citation: Unit42 Cannon Nov 2018)(Citation: ESET Zebrocy Nov 2018)(Citation: Unit42 Sofacy Dec 2018)(Citation: ESET Zebrocy May 2019)(Citation: Accenture SNAKEMACKEREL Nov 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--a4f57468-fbd5-49e4-8476-52088220b92d",
             "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

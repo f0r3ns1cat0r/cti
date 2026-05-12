@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--19b48d30-898d-46ae-a503-2360fc2e8f10",
+    "id": "bundle--29e2aa15-5c7a-4b54-81c9-979611349620",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cf58d726-7674-4cdc-9ce1-9d7364aa4a0d",
             "created": "2022-07-14T17:36:06.383Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Korean FSI TA505 2020",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:48:20.478Z",
+            "modified": "2026-04-29T14:23:06.209Z",
             "description": "[Amadey](https://attack.mitre.org/software/S1025) has changed the Startup folder to the one containing its executable by overwriting the registry keys.(Citation: Korean FSI TA505 2020)(Citation: BlackBerry Amadey 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--05318127-5962-444b-b900-a9dcfe0ff6e9",
             "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

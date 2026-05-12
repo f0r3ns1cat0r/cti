@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--77eb0168-7c80-4064-9816-544f10b15d3b",
+    "id": "bundle--a263ed5d-b8c3-4ac3-9ff7-789799d7531d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ed6ebdd2-0095-4241-b3fc-7fc22366ec0d",
             "created": "2024-04-02T19:24:58.885Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "fb_arid_viper",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:52:23.164Z",
+            "modified": "2026-04-29T14:23:06.248Z",
             "description": "[Phenakite](https://attack.mitre.org/software/S1126) has included exploits for jailbreaking infected devices.(Citation: fb_arid_viper)",
             "relationship_type": "uses",
             "source_ref": "malware--f97e2718-af50-41df-811f-215ebab45691",
             "target_ref": "attack-pattern--351c0927-2fc1-4a2c-ad84-cbbee7eb8172",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

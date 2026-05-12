@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7ac94d9f-adba-4871-9174-70b4f59fa2bf",
+    "id": "bundle--89ff28f1-536c-4673-8e02-dbb90b81ffa3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7a402933-faba-4de0-a7a5-3b44761cc062",
             "created": "2022-07-14T17:35:13.759Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Korean FSI TA505 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:25:51.237Z",
+            "modified": "2026-04-29T14:23:06.093Z",
             "description": "[Amadey](https://attack.mitre.org/software/S1025) has modified the `:Zone.Identifier` in the ADS area to zero.(Citation: Korean FSI TA505 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--05318127-5962-444b-b900-a9dcfe0ff6e9",
             "target_ref": "attack-pattern--7e7c2fba-7cca-486c-9582-4c1bb2851961",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--efc686b8-8b9d-4ed4-8699-87ca445eeab2",
+    "id": "bundle--d544bdb6-6b10-42a9-bc40-e599811d2fce",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0267872d-3408-409e-8ad8-d39b85ce6a99",
             "created": "2024-07-10T20:01:17.788Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FRP GitHub",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:53:29.024Z",
+            "modified": "2026-04-29T14:23:05.906Z",
             "description": "[FRP](https://attack.mitre.org/software/S1144) can communicate over TCP, TCP stream multiplexing, KERN Communications Protocol (KCP), QUIC, and UDP.(Citation: FRP GitHub)",
             "relationship_type": "uses",
             "source_ref": "tool--36dd807e-b5bc-4c3e-91ed-80682360148c",
             "target_ref": "attack-pattern--c21d5a77-d422-4a69-acd7-2c53c1faa34b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

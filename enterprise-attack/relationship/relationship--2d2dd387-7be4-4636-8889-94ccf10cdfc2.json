@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--388642af-5dfb-41e8-b25b-0d2f6dcf27a8",
+    "id": "bundle--9fa847ed-a4c4-46fc-9990-8d5abe2bb7b3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--2d2dd387-7be4-4636-8889-94ccf10cdfc2",
             "created": "2025-06-16T18:42:35.341Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant Fortinet Zero Day",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-20T20:22:21.149Z",
+            "modified": "2026-04-29T14:23:05.966Z",
             "description": "[UNC3886](https://attack.mitre.org/groups/G1048) modified the startup file `/etc/init.d/localnet` to execute the line `nohup /bin/support &` so the script would run when the system was rebooted.(Citation: Mandiant Fortinet Zero Day)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--461b8e25-8f4a-4ea2-a4a8-e39df7ce6630",

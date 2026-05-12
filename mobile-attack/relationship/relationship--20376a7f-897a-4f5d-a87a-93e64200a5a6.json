@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a548e04f-766b-4703-8a8d-c807118ff2ad",
+    "id": "bundle--0421dc67-ac90-454c-9197-c40c927df64e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--20376a7f-897a-4f5d-a87a-93e64200a5a6",
             "created": "2020-07-20T13:27:33.553Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos-WolfRAT",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:27:59.100Z",
+            "modified": "2026-04-29T14:23:05.949Z",
             "description": "[WolfRAT](https://attack.mitre.org/software/S0489) sends the device\u2019s IMEI with each exfiltration request.(Citation: Talos-WolfRAT)",
             "relationship_type": "uses",
             "source_ref": "malware--dfdac962-9461-47f0-a212-36dfce2a97e6",
             "target_ref": "attack-pattern--d4536441-1bcc-49fa-80ae-a596ed3f7ffd",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

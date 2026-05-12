@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7235be34-1001-41c9-b501-e7f1d1feabfc",
+    "id": "bundle--6b443da8-7b43-4167-b932-a7a002f012fe",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a50e8815-a47b-4a6d-9e51-b5fdba686c2c",
             "created": "2025-05-30T20:33:25.262Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Cloud Threat Intelligence ESXi VIBs 2022",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-20T19:56:03.386Z",
+            "modified": "2026-04-29T14:23:06.150Z",
             "description": " [UNC3886](https://attack.mitre.org/groups/G1048) has executed Windows commands on guest virtual machines through `vmtoolsd.exe`.(Citation: Google Cloud Threat Intelligence ESXi VIBs 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--461b8e25-8f4a-4ea2-a4a8-e39df7ce6630",

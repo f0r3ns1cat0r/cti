@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c3efaa43-e0f3-4c11-9b73-836b024eb1eb",
+    "id": "bundle--5763e36d-29dc-465a-9174-8b1efb0b29ca",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0ee07cbe-2ff1-4ea9-8a72-c83a67ce4bba",
             "created": "2019-12-19T19:43:34.924Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TCG Trusted Platform Module",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:34:42.728Z",
+            "modified": "2026-04-29T14:23:05.924Z",
             "description": "Check the integrity of the existing BIOS or EFI to determine if it is vulnerable to modification. Use Trusted Platform Module technology. (Citation: TCG Trusted Platform Module) Move system's root of trust to hardware to prevent tampering with the SPI flash memory.(Citation: ESET LoJax Sept 2018) Technologies such as Intel Boot Guard can assist with this. (Citation: Intel Hardware-based Security Technologies)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--7da0387c-ba92-4553-b291-b636ee42b2eb",
             "target_ref": "attack-pattern--16ab6452-c3c1-497c-a47d-206018ca1ada",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

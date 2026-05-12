@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4d4a89cc-5a7f-4a42-8d83-39e503466129",
+    "id": "bundle--d420a5ee-fe0b-4e64-8b2b-d18f7c2b0b32",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ef3683c7-1514-4fa3-9c2d-477fb945982a",
             "created": "2024-11-20T18:47:14.500Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Sea Turtle 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:56:28.170Z",
+            "modified": "2026-04-29T14:23:06.251Z",
             "description": "[Sea Turtle](https://attack.mitre.org/groups/G1041) targeted third-party entities in trusted relationships with primary targets to ultimately achieve access at primary targets. Entities targeted included DNS registrars, telecommunication companies, and internet service providers.(Citation: Talos Sea Turtle 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--56a05d27-4d47-418a-b330-781c5614f202",
             "target_ref": "attack-pattern--9fa07bef-9c81-421e-a8e5-ad4366c5a925",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

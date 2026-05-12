@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b0fb0391-b366-4ed0-9e73-67c07d5ed1bd",
+    "id": "bundle--c528731a-80e0-4e3b-8b9f-d9094320e05f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cfc5761e-2c94-420a-a985-a4a1d7fe0b7c",
             "created": "2024-10-01T12:01:05.027Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Moonstone Sleet 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:48:25.757Z",
+            "modified": "2026-04-29T14:23:06.209Z",
             "description": "[Moonstone Sleet](https://attack.mitre.org/groups/G1036) used intermediate loader malware such as YouieLoader and SplitLoader that create malicious services.(Citation: Microsoft Moonstone Sleet 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--e6db1e55-b199-4b6b-8633-989345ee45e0",
             "target_ref": "attack-pattern--f1951e8a-500e-4a26-8803-76d95c4554b4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

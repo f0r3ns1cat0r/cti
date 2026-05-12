@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5186a175-1f66-4870-bf2f-70e4f906e50a",
+    "id": "bundle--1524615f-1a16-4e17-89ea-7906bfb192df",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T18:53:53.258Z",
+            "modified": "2026-04-29T14:23:06.114Z",
             "description": "[VOID MANTICORE](https://attack.mitre.org/groups/G1055) has scanned victim environments for susceptibility to vulnerability exploitation.(Citation: DOJ FBI Handala Hack March 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--ebd7ce77-c9ba-4fba-bb28-58296ac66559",

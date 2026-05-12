@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--78d11328-fa31-4d5d-b127-a4060213a2a5",
+    "id": "bundle--15240b1d-9143-4449-87e2-77ff3cbcc632",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--919a13bc-74be-4660-af63-454abee92635",
             "created": "2019-03-11T15:13:40.408Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro-Anserver2",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:29:41.074Z",
+            "modified": "2026-04-29T14:23:06.123Z",
             "description": "\n[ANDROIDOS_ANSERVER.A](https://attack.mitre.org/software/S0310) gathers the device IMEI and IMSI.(Citation: TrendMicro-Anserver2)",
             "relationship_type": "uses",
             "source_ref": "malware--4bf6ba32-4165-42c1-b911-9c36165891c8",
             "target_ref": "attack-pattern--d4536441-1bcc-49fa-80ae-a596ed3f7ffd",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

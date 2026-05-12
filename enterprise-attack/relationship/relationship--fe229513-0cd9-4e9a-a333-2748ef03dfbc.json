@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a3ae927c-8e49-4cca-98a5-dc172ef76810",
+    "id": "bundle--cac2593b-63fc-4e19-98e6-6d3ef985aec0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fe229513-0cd9-4e9a-a333-2748ef03dfbc",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Sednit USBStealer 2014",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:19:03.108Z",
+            "modified": "2026-04-29T14:23:06.270Z",
             "description": "[USBStealer](https://attack.mitre.org/software/S0136) collects files matching certain criteria from the victim and stores them in a local directory for later exfiltration.(Citation: ESET Sednit USBStealer 2014)(Citation: Kaspersky Sofacy)",
             "relationship_type": "uses",
             "source_ref": "malware--af2ad3b7-ab6a-4807-91fd-51bcaff9acbb",
             "target_ref": "attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

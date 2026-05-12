@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a324eb00-9138-4ee7-a1c2-a7a3bff2aaf4",
+    "id": "bundle--394471c9-a329-400d-b754-4590845661d8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--dfe4c167-8e69-4b15-912f-ccd437674423",
             "created": "2022-02-17T15:51:18.114Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Shuckworm January 2022",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-21T21:17:08.647Z",
+            "modified": "2026-04-29T14:23:06.230Z",
             "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has used tools to enumerate processes on target hosts including Process Explorer.(Citation: Symantec Shuckworm January 2022)(Citation: Unit 42 Gamaredon February 2022)(Citation: SymantecCarbonBlack_ShuckwormUSB_Apr2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
             "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

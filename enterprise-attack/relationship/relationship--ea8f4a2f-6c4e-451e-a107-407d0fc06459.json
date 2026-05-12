@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--226edf58-5d04-4dce-9ee1-ecf79cd5f2cf",
+    "id": "bundle--622bfd0b-b3d3-44be-b90f-1568ec025370",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ea8f4a2f-6c4e-451e-a107-407d0fc06459",
             "created": "2019-05-02T14:41:03.470Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cofense RevengeRAT Feb 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:55:13.373Z",
+            "modified": "2026-04-29T14:23:06.244Z",
             "description": "[Revenge RAT](https://attack.mitre.org/software/S0379) schedules tasks to run malicious scripts at different intervals.(Citation: Cofense RevengeRAT Feb 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--bdb27a1d-1844-42f1-a0c0-826027ae0326",
             "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

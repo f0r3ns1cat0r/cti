@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ce811958-f91b-4a36-85a9-e3899e4042ae",
+    "id": "bundle--4724638f-cc2c-47c4-b0ed-1571d27d2f19",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,14 +12,14 @@
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/data-components/DC0113",
+                    "url": "https://attack.mitre.org/datacomponents/DC0113",
                     "external_id": "DC0113"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-11T15:52:58.538Z",
+            "modified": "2026-05-12T15:12:00.774Z",
             "name": "Network Communication",
             "description": "Network Communication captures outbound or inbound communication initiated by an application or mobile device, including the domains contacted, protocols used, and session metadata associated with the communication.\n\nMonitoring network communication enables defenders to identify command-and-control traffic, data exfiltration, or suspicious communication patterns originating from mobile applications.\n\nExamples\n\n- Connections to previously unseen domains\n- Repeated communication with suspicious infrastructure\n- Communication immediately following application installation\n\nCollection Methods\n\n- Mobile VPN telemetry\n- Secure web gateway logs\n- Network detection and response (NDR)\n- Mobile EDR network monitoring\n",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

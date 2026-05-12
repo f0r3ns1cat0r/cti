@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a8b913f4-ac66-4418-957c-7d76b94d4dde",
+    "id": "bundle--a809ee7d-a833-4e7a-92fa-94998d3fe86c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d47ea1ea-ea4c-46e0-b761-9b6c24888be6",
             "created": "2023-08-01T18:39:17.283Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Gigamon BADHATCH Jul 2019",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:49:36.805Z",
+            "modified": "2026-04-29T14:23:06.216Z",
             "description": "[BADHATCH](https://attack.mitre.org/software/S1081) can utilize WMI to collect system information, create new processes, and run malicious PowerShell scripts on a compromised machine.(Citation: Gigamon BADHATCH Jul 2019)(Citation: BitDefender BADHATCH Mar 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--3553b49d-d4ae-4fb6-ab17-0adbc520c888",
             "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--365f8c76-9eb1-4368-9a07-f7bffff3b7e4",
+    "id": "bundle--c4e1b00d-3457-4df6-a39b-2e66907627d7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ccb912dd-ed1f-4844-9bc0-75a033fa8813",
             "created": "2022-02-01T21:21:35.872Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky WIRTE November 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:10:37.057Z",
+            "modified": "2026-04-29T14:23:06.205Z",
             "description": "[Ferocious](https://attack.mitre.org/software/S0679) can delete files from a compromised host.(Citation: Kaspersky WIRTE November 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--73d08401-005f-4e1f-90b9-8f45d120879f",
             "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

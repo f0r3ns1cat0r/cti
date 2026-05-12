@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--659e7fa0-332c-4c22-b65f-d06e7a1f4e85",
+    "id": "bundle--58d0d638-4320-4594-a7ca-0259c9a2b7c0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:01:34.610Z",
+            "modified": "2026-04-29T14:23:06.204Z",
             "description": "[Metamorfo](https://attack.mitre.org/software/S0455) has a function to kill processes associated with defenses and can prevent certain processes from launching.(Citation: Medium Metamorfo Apr 2020)(Citation: FireEye Metamorfo Apr 2018) ",
             "relationship_type": "uses",
             "source_ref": "malware--81c57a96-fc8c-4f91-af8e-63e24c2927c2",

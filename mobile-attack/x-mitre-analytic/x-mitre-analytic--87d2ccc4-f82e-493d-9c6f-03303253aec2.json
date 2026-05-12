@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ed08c95d-18d0-4ec6-998f-6f67f55d2399",
+    "id": "bundle--cf3b6d0c-13c5-4168-9fac-7c2ccd500c96",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-02-02T16:07:33.370Z",
+            "modified": "2026-05-12T16:30:18.379Z",
             "name": "Analytic 1784",
             "description": "Defender observes an app enumerating installed security/management controls (AV/EDR/MDM/VPN/Play Protect) via PackageManager, DevicePolicyManager, AppOps, and Settings queries or shell \u2018pm list\u2019 usage, optionally probing Accessibility/Device Admin state. Enumeration is followed by local inventory artifact creation and/or small egress. Chain: capability to query \u2192 burst of security-focused checks (packages/permissions/policies) \u2192 optional foreground targeting \u2192 artifact write \u2192 quick POST.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

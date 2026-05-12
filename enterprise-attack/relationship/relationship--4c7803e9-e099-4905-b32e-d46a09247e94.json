@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c9e8d427-4051-4d13-8927-b1b835c16ce2",
+    "id": "bundle--65618d18-34c7-4c49-b5e8-c4e2b01fd7de",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4c7803e9-e099-4905-b32e-d46a09247e94",
             "created": "2022-01-31T19:49:13.689Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Fidelis njRAT June 2013",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:46:53.414Z",
+            "modified": "2026-04-29T14:23:06.029Z",
             "description": "[njRAT](https://attack.mitre.org/software/S0385) is capable of deleting files.(Citation: Fidelis njRAT June 2013)(Citation: Trend Micro njRAT 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--d906e6f7-434c-44c0-b51a-ed50af8f7945",
             "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

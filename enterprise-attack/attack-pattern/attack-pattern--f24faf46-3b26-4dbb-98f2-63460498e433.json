@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--02bd393e-2432-43ba-abf6-36d2d0fedf6e",
+    "id": "bundle--91b56bd4-da72-4642-afd3-32ed1bc2b076",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "attack-pattern--f24faf46-3b26-4dbb-98f2-63460498e433",
             "created": "2017-05-31T21:30:21.689Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:49:35.854Z",
+            "modified": "2026-05-12T15:12:00.724Z",
             "name": "Fallback Channels",
             "description": "Adversaries may use fallback or alternate communication channels if the primary channel is compromised or inaccessible in order to maintain reliable command and control and to avoid data transfer thresholds.",
             "kill_chain_phases": [
@@ -32,7 +33,7 @@
                     "phase_name": "command-and-control"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "enterprise-attack"
@@ -45,8 +46,7 @@
                 "macOS",
                 "Windows"
             ],
-            "x_mitre_version": "1.1",
-            "revoked": false
+            "x_mitre_version": "1.1"
         }
     ]
 }

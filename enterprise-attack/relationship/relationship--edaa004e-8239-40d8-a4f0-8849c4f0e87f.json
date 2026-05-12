@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1873d02f-365f-4832-994d-e1eb21814400",
+    "id": "bundle--07adcc18-8942-4524-b1ef-0f1bc40e81c0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--edaa004e-8239-40d8-a4f0-8849c4f0e87f",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Sednit Part 1",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:16:18.141Z",
+            "modified": "2026-04-29T14:23:06.248Z",
             "description": "The [JHUHUGIT](https://attack.mitre.org/software/S0044) dropper can delete itself from the victim. Another [JHUHUGIT](https://attack.mitre.org/software/S0044) variant has the capability to delete specified files.(Citation: ESET Sednit Part 1)(Citation: Unit 42 Sofacy Feb 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--8ae43c46-57ef-47d5-a77a-eebb35628db2",
             "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

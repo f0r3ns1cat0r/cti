@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5ea8ebd7-0008-4cb9-915b-6176b23fe4d6",
+    "id": "bundle--4d2e30a3-19c3-4563-9194-126b29ff59ff",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T21:33:06.942Z",
+            "modified": "2026-04-29T14:23:06.229Z",
             "description": "[ROAMINGHOUSE](https://attack.mitre.org/software/S9026) can use a legitimate EXE to sideload a malicious DLL named JSFC.dll.(Citation: Trend Micro Earth Kasha Updates APR 2025) [ROAMINGHOUSE](https://attack.mitre.org/software/S9026) has also used ScnCfg32.exe to sideload vsodscpl.dll to enable [UPPERCUT](https://attack.mitre.org/software/S0275) execution.(Citation: Trend Micro Earth Kasha Anel NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--251f1715-fc97-4487-b939-5c8823ef7a39",

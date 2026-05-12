@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--220f2b78-fd3c-4038-8d15-f26cba2a9745",
+    "id": "bundle--6942557e-93b2-45ea-a734-c647536cea4c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a09b9e3f-96b8-4fde-9f7d-261b449cdabd",
             "created": "2019-01-29T20:05:36.504Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "PaloAlto NanoCore Feb 2016",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:02:44.514Z",
+            "modified": "2026-04-29T14:23:06.144Z",
             "description": "[NanoCore](https://attack.mitre.org/software/S0336) can perform keylogging on the victim\u2019s machine.(Citation: PaloAlto NanoCore Feb 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--b4d80f8b-d2b9-4448-8844-4bef777ed676",
             "target_ref": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--36c2b45c-fa45-4a2f-a18b-f7bd6e5bfa7e",
+    "id": "bundle--950f3ff5-7f0e-40e2-a6da-8fd1d9e86a38",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--86576242-a9d1-4fd8-82a2-0e7d09d57513",
             "created": "2024-06-10T19:47:45.089Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lumen KVBotnet 2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:28:57.835Z",
+            "modified": "2026-04-29T14:23:06.108Z",
             "description": "[KV Botnet Activity](https://attack.mitre.org/campaigns/C0035) command and control traffic uses a non-standard, likely custom protocol for communication.(Citation: Lumen KVBotnet 2023)",
             "relationship_type": "uses",
             "source_ref": "campaign--0c259854-4044-4f6c-ac49-118d484b3e3b",
             "target_ref": "attack-pattern--c21d5a77-d422-4a69-acd7-2c53c1faa34b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

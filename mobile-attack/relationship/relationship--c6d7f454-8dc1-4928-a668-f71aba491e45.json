@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f0fa3866-02a9-4fde-8990-f9421f170ea1",
+    "id": "bundle--d09bb957-22fc-459c-b92a-be86e86444ed",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c6d7f454-8dc1-4928-a668-f71aba491e45",
             "created": "2025-08-29T22:07:08.828Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MerkleScience_Godfather_April2023",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-08T14:34:29.099Z",
+            "modified": "2026-04-29T14:23:06.197Z",
             "description": "[GodFather](https://attack.mitre.org/software/S1231) has the ability to gain remote control of the victim device and to gather data associated with the device, including battery level, sound settings, and device brightness.(Citation: ZimperiumOrtegaPratapagiri_GodFather_Jun2025) [GodFather](https://attack.mitre.org/software/S1231) has also obtained the phone's state, including network information, phone number, and serial number.(Citation: MerkleScience_Godfather_April2023) ",
             "relationship_type": "uses",
             "source_ref": "malware--bf064476-25b8-493c-a1e7-dd707b3f7f52",

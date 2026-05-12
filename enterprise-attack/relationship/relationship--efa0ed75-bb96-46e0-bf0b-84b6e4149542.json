@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--90a50133-29ba-43dc-b57d-0f5735a0d336",
+    "id": "bundle--02a9ece9-03c2-4993-888c-ecdf2c2bd0be",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:44:36.719Z",
+            "modified": "2026-04-29T14:23:06.251Z",
             "description": "[Clop](https://attack.mitre.org/software/S0611) can uninstall or disable security products.(Citation: Cybereason Clop Dec 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--cad3ba95-8c89-4146-ab10-08daa813f9de",

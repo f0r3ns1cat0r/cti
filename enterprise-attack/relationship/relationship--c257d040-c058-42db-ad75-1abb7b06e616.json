@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--95bc9a8d-fd60-48e4-9f50-81f04ae4d6a8",
+    "id": "bundle--9738377e-0140-4b6b-ac98-911e420fc03e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c257d040-c058-42db-ad75-1abb7b06e616",
             "created": "2020-11-06T19:01:02.254Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Kimsuky November 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:08:42.718Z",
+            "modified": "2026-04-29T14:23:06.191Z",
             "description": "(Citation: Cybereason Kimsuky November 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
             "target_ref": "malware--8bdfe255-e658-4ddd-a11c-b854762e451d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

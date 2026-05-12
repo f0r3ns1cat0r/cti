@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a1e40a81-41ce-4d41-a055-fbd77f0ea9a9",
+    "id": "bundle--d8ca6fa5-ef91-4356-aa98-d04c61f84f57",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:13:49.729Z",
+            "modified": "2026-04-29T14:23:06.171Z",
             "description": "During the [SolarWinds Compromise](https://attack.mitre.org/campaigns/C0024), [APT29](https://attack.mitre.org/groups/G0016) used the service control manager on a remote system to disable services associated with security monitoring products.(Citation: Microsoft Deep Dive Solorigate January 2021)",
             "relationship_type": "uses",
             "source_ref": "campaign--808d6b30-df4e-4341-8248-724da4bac650",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e2a282dd-5947-46d6-bd91-c93fe5732a59",
+    "id": "bundle--d1d2a53a-0922-474c-b8bc-0b799f5c5501",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e43b9163-36cb-469a-9c47-9e4bd8af1383",
             "created": "2023-03-26T15:40:28.762Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft 365 Defender Solorigate",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T16:22:04.142Z",
+            "modified": "2026-04-29T14:23:06.236Z",
             "description": "During the [SolarWinds Compromise](https://attack.mitre.org/campaigns/C0024), [APT29](https://attack.mitre.org/groups/G0016) changed domain federation trust settings using Azure AD administrative permissions to configure the domain to accept authorization tokens signed by their own SAML signing certificate.(Citation: Secureworks IRON RITUAL Profile)(Citation: Microsoft 365 Defender Solorigate)",
             "relationship_type": "uses",
             "source_ref": "campaign--808d6b30-df4e-4341-8248-724da4bac650",

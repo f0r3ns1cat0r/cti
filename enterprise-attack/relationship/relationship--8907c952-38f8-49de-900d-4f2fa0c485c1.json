@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2b438ec6-4faf-4678-bbe4-fe0af91f7a83",
+    "id": "bundle--218dc1b9-b653-4408-b4f6-c2a2140f81a3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8907c952-38f8-49de-900d-4f2fa0c485c1",
             "created": "2019-01-29T21:40:37.736Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Zscaler Cobian Aug 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:58:11.599Z",
+            "modified": "2026-04-29T14:23:06.112Z",
             "description": "[Cobian RAT](https://attack.mitre.org/software/S0338) has a feature to perform keylogging on the victim\u2019s machine.(Citation: Zscaler Cobian Aug 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--aa1462a1-d065-416c-b354-bedd04998c7f",
             "target_ref": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

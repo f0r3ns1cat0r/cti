@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d9b39960-cd82-4c01-be60-d255a9c680f0",
+    "id": "bundle--f426aac4-12b8-49a2-b681-fe426a4e7044",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--921bebc2-f400-4eaa-8b9d-504221958e76",
             "created": "2025-08-04T19:16:07.534Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lab52 MUSTANG PANDA PUBLOAD MAY 2023",
@@ -33,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-25T14:12:36.451Z",
+            "modified": "2026-04-29T14:23:06.124Z",
             "description": "[PUBLOAD](https://attack.mitre.org/software/S1228) has used various Windows API calls during execution, when establishing persistence and defense evasion.(Citation: Lab52 MUSTANG PANDA PUBLOAD MAY 2023)(Citation: 2025_IBM_PUBLOAD_TONESHELL_HIUPAN_CLAIMLOADER_MUSTANG PANDA) [PUBLOAD](https://attack.mitre.org/software/S1228) stager leveraged Windows API functions with callback including `GrayStringW`, `EnumDateFormatsA`, and `LineDDA` to bypass anti-virus monitoring. (Citation: 2022 November_TrendMicro_Earth Preta_Toneshell_Pubload) [PUBLOAD](https://attack.mitre.org/software/S1228) has also utilized other native windows API functions with callback functions such as `EnumChildWindows` and `EnumSystemLanguageGroupsA`. (Citation: Palo Alto Networks, Unit 42)",
             "relationship_type": "uses",
             "source_ref": "malware--3824852d-1957-4712-9da0-38143723c060",

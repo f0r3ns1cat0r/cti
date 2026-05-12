@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--374672f0-b4da-4d8a-aa8b-8fbf2a74ab51",
+    "id": "bundle--4591438b-8525-4810-81f4-ee9ca6aeeca9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--052576f4-0b54-44be-840d-a9c8bb7cb980",
             "created": "2025-09-18T14:43:22.943Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ZimperiumGupta_RatMilad_Oct2022",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-18T14:43:22.944Z",
+            "modified": "2026-04-29T14:23:05.910Z",
             "description": "[RatMilad](https://attack.mitre.org/software/S1241) has collected package names.(Citation: ZimperiumGupta_RatMilad_Oct2022) ",
             "relationship_type": "uses",
             "source_ref": "malware--6ceb0644-0ae9-4ee1-a659-3888687cb03b",

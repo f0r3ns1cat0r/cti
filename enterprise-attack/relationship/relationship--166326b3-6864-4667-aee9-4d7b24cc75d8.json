@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--57440aa5-baa2-40eb-9149-7f738a5345e6",
+    "id": "bundle--8c3f6284-6e25-4143-a0d1-f2d519abd962",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--166326b3-6864-4667-aee9-4d7b24cc75d8",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT34 July 2019",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:58:43.750Z",
+            "modified": "2026-04-29T14:23:05.934Z",
             "description": "[OilRig](https://attack.mitre.org/groups/G0049) has used HTTP for C2.(Citation: Unit42 OilRig Playbook 2023)(Citation: FireEye APT34 Webinar Dec 2017)(Citation: FireEye APT34 July 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0f86a7b0-1309-42d9-8a7c-2bada41473f6",
+    "id": "bundle--f8ac1685-7574-4c72-a598-de3286d3e0ce",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--62363450-709a-4b52-a07d-2bf0c2f7dd8e",
             "created": "2026-04-09T21:02:01.363Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco Talos Qilin Ransomware OCT 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T21:02:01.363Z",
+            "modified": "2026-04-29T14:23:06.059Z",
             "description": "[Qilin](https://attack.mitre.org/software/S1242) has named its payload file TeamViewer_Host_Setup to disguise itself as a legitimate TeamViewer file.(Citation: Cisco Talos Qilin Ransomware OCT 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--e23d2777-b85d-44fc-861e-9149d399fbb9",

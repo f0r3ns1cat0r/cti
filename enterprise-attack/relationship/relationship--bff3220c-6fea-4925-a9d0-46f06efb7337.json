@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ef19cadb-c6d7-405d-9ef1-113658b93611",
+    "id": "bundle--f1306ad9-b4cc-4714-8894-5c9611fd0f06",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bff3220c-6fea-4925-a9d0-46f06efb7337",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Proofpoint ZeroT Feb 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:08:15.261Z",
+            "modified": "2026-04-29T14:23:06.188Z",
             "description": "[ZeroT](https://attack.mitre.org/software/S0230) can download additional payloads onto the victim.(Citation: Proofpoint ZeroT Feb 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--4ab44516-ad75-4e43-a280-705dc0420e2f",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

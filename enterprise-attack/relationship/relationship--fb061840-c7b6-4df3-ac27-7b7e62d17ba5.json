@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5062e3f7-0091-4c89-8d00-07b12d117461",
+    "id": "bundle--cabc4416-7aae-4b54-9ac6-8853ddbcc346",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fb061840-c7b6-4df3-ac27-7b7e62d17ba5",
             "created": "2024-01-02T19:08:50.040Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SecureWorks BRONZE STARLIGHT Ransomware Operations June 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:59:25.368Z",
+            "modified": "2026-04-29T14:23:06.266Z",
             "description": "(Citation: SecureWorks BRONZE STARLIGHT Ransomware Operations June 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
             "target_ref": "malware--54089fba-8662-4f37-9a44-6ad25a5f630a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

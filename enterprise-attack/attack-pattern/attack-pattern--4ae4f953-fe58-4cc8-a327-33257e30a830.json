@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7b13e5c6-712a-43f0-82a2-ce6ebad47db8",
+    "id": "bundle--f1bd99c1-6215-429d-8103-0ea346d2e583",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:44.488Z",
+            "modified": "2026-05-12T15:12:00.630Z",
             "name": "Application Window Discovery",
             "description": "Adversaries may attempt to get a listing of open application windows. Window listings could convey information about how the system is used.(Citation: Prevailion DarkWatchman 2021) For example, information about application windows could be used identify potential data to collect as well as identifying security tooling ([Security Software Discovery](https://attack.mitre.org/techniques/T1518/001)) to evade.(Citation: ESET Grandoreiro April 2020)\n\nAdversaries typically abuse system features for this type of enumeration. For example, they may gather information through native system features such as [Command and Scripting Interpreter](https://attack.mitre.org/techniques/T1059) commands and [Native API](https://attack.mitre.org/techniques/T1106) functions.",
             "kill_chain_phases": [
@@ -38,7 +38,7 @@
                     "phase_name": "discovery"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "enterprise-attack"

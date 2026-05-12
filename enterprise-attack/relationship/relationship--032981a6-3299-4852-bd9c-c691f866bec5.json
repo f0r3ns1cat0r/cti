@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f26277d5-d319-4f70-89a5-ef9f12cffa8e",
+    "id": "bundle--54f12cfa-b579-4bf8-a5e9-a7063cb2382f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--032981a6-3299-4852-bd9c-c691f866bec5",
             "created": "2020-03-20T02:33:03.035Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Novetta Blockbuster Destructive Malware",
@@ -43,14 +44,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:53:42.813Z",
+            "modified": "2026-04-29T14:23:05.907Z",
             "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) malware uses cmd.exe to execute commands on a compromised host.(Citation: Novetta Blockbuster)(Citation: Novetta Blockbuster Destructive Malware)(Citation: McAfee Lazarus Resurfaces Feb 2018)(Citation: US-CERT SHARPKNOT June 2018)(Citation: Qualys LolZarus) A Destover-like variant used by [Lazarus Group](https://attack.mitre.org/groups/G0032) uses a batch file mechanism to delete its binaries from the system.(Citation: McAfee GhostSecret)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

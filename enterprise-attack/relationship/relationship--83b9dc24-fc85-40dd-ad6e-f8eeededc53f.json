@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a3f03724-6cd3-4bf9-82be-940797a0965d",
+    "id": "bundle--d8ee84c7-3e60-4dd5-83db-b4eac65aad74",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--83b9dc24-fc85-40dd-ad6e-f8eeededc53f",
             "created": "2025-10-21T17:57:24.249Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Lockbit 2.0 JUN 2022",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T17:57:24.249Z",
+            "modified": "2026-04-29T14:23:06.105Z",
             "description": "[LockBit 2.0](https://attack.mitre.org/software/S1199) can enumerate local drive configuration.(Citation: FBI Lockbit 2.0 FEB 2022)(Citation: Palo Alto Lockbit 2.0 JUN 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--a4578560-42cf-4075-9fa2-056f0058c881",

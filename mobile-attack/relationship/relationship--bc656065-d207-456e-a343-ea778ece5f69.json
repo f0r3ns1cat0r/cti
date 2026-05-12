@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2c7a2a3c-38e8-4fe4-91a2-f18e057a332b",
+    "id": "bundle--b07e14cd-cd0e-45f4-b29d-97518bd7704f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bc656065-d207-456e-a343-ea778ece5f69",
             "created": "2025-08-29T22:00:15.784Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MerkleScience_Godfather_April2023",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-29T22:00:15.784Z",
+            "modified": "2026-04-29T14:23:06.182Z",
             "description": "[GodFather](https://attack.mitre.org/software/S1231) has abused the accessibility service to prevent the user from uninstalling [GodFather](https://attack.mitre.org/software/S1231), to exfiltrate Google Authenticator one-time passwords and to steal credentials.(Citation: MerkleScience_Godfather_April2023)",
             "relationship_type": "uses",
             "source_ref": "malware--bf064476-25b8-493c-a1e7-dd707b3f7f52",

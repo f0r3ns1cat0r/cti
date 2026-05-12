@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--91b88907-a763-460c-875b-40918df3c825",
+    "id": "bundle--ee5dca54-0f0c-45b2-9c98-26e104ef15c4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T18:57:14.403Z",
+            "modified": "2026-04-29T14:23:05.947Z",
             "description": "[VOID MANTICORE](https://attack.mitre.org/groups/G1055) has utilized Telegram API for C2.(Citation: DOJ FBI Handala Hack March 2026)(Citation: FBI IC3 Flash VOID MANTICORE Handala Hack March 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--ebd7ce77-c9ba-4fba-bb28-58296ac66559",

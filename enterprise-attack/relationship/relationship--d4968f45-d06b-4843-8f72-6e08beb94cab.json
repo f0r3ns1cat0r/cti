@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--602d8323-7c4d-4ccc-aeac-169b056f0ca1",
+    "id": "bundle--838ed077-02a6-466e-b426-cea2e5d9cea3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d4968f45-d06b-4843-8f72-6e08beb94cab",
             "created": "2017-05-31T21:33:27.070Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Dragonfly",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:27:01.914Z",
+            "modified": "2026-04-29T14:23:06.216Z",
             "description": "(Citation: Symantec Dragonfly)(Citation: Gigamon Berserk Bear October 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
             "target_ref": "malware--083bb47b-02c8-4423-81a2-f9ef58572974",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

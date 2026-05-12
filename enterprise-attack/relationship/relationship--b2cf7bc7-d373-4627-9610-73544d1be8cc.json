@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--791d460c-d5a2-4ee3-9882-6b250fa27cf6",
+    "id": "bundle--50275ba0-3b71-400f-b428-9e92b540f5a7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b2cf7bc7-d373-4627-9610-73544d1be8cc",
             "created": "2025-06-06T14:13:34.454Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Machete July 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-06-06T14:13:34.454Z",
+            "modified": "2026-04-29T14:23:06.169Z",
             "description": "[Machete](https://attack.mitre.org/software/S0409) uses the <code>netsh wlan show networks mode=bssid</code> and <code>netsh wlan show interfaces</code> commands to list all nearby WiFi networks and connected interfaces.(Citation: ESET Machete July 2019) ",
             "relationship_type": "uses",
             "source_ref": "malware--35cd1d01-1ede-44d2-b073-a264d727bc04",
             "target_ref": "attack-pattern--494ab9f0-36e0-4b06-b10d-57285b040a06",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

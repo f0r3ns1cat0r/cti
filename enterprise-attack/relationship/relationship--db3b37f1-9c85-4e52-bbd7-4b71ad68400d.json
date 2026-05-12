@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6c48e2ad-3158-4b0c-8731-79792a33b08b",
+    "id": "bundle--53f2d23f-29dd-4360-b8cc-7d24dad5c105",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--db3b37f1-9c85-4e52-bbd7-4b71ad68400d",
             "created": "2019-10-11T16:04:32.117Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye FIN7 Oct 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:13:06.933Z",
+            "modified": "2026-04-29T14:23:06.225Z",
             "description": "[BOOSTWRITE](https://attack.mitre.org/software/S0415) has used the DWriteCreateFactory() function to load additional modules.(Citation: FireEye FIN7 Oct 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--56d10a7f-bb42-4267-9b4c-63abb9c06010",
             "target_ref": "attack-pattern--0a5231ec-41af-4a35-83d0-6bdf11f28c65",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

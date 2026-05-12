@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--154adcf3-e5e4-46fe-a76a-ea810b20f779",
+    "id": "bundle--31c6f528-b385-4d5d-b0b2-20939c4a7cbf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--03d6c33c-22d4-484f-8f16-8d49c307da80",
             "created": "2022-06-13T15:15:28.818Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Accenture Lyceum Targets November 2021",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:53:55.578Z",
+            "modified": "2026-04-29T14:23:05.908Z",
             "description": "[Shark](https://attack.mitre.org/software/S1019)  can download additional files from its C2 via HTTP or DNS.(Citation: ClearSky Siamesekitten August 2021)(Citation: Accenture Lyceum Targets November 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--99854cc8-f202-4e03-aa0a-4f8a4af93229",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

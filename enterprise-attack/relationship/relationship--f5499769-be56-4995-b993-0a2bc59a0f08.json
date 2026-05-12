@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--89d0583b-ca16-4c9a-b4f2-b8c5e8f71cd8",
+    "id": "bundle--163692f3-50ae-4ff2-b173-d895a661b5b1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f5499769-be56-4995-b993-0a2bc59a0f08",
             "created": "2020-01-24T18:15:06.946Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Re-Open windows on Mac",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:17:30.024Z",
+            "modified": "2026-04-29T14:23:06.258Z",
             "description": "Holding the Shift key while logging in prevents apps from opening automatically.(Citation: Re-Open windows on Mac)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--2a4f6c11-a4a7-4cb9-b0ef-6ae1bb3a718a",
             "target_ref": "attack-pattern--e5cc9e7a-e61a-46a1-b869-55fb6eab058e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

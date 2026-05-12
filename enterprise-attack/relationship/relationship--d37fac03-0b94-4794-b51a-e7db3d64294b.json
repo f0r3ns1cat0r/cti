@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--95804e00-1834-432c-a696-847b09eaff8b",
+    "id": "bundle--b82e81e4-2c57-4be6-a186-f83bc197e39d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d37fac03-0b94-4794-b51a-e7db3d64294b",
             "created": "2021-04-12T19:26:30.384Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Anomali MUSTANG PANDA October 2019",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-15T14:06:05.255Z",
+            "modified": "2026-04-29T14:23:06.214Z",
             "description": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used malicious PowerShell scripts to enable execution.(Citation: Anomali MUSTANG PANDA October 2019)(Citation: Crowdstrike MUSTANG PANDA June 2018)(Citation: Unit42 Chinese VSCode 06 September 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--420ac20b-f2b9-42b8-aa1a-6d4b72895ca4",

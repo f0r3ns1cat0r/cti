@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6b97da6c-f8ec-4b80-9a9b-910af194185e",
+    "id": "bundle--4143d5b7-c706-453d-bea1-d97f2d0f6111",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a6fd818c-d0a6-44ca-b80d-abb80af9acac",
             "created": "2025-08-06T14:51:25.611Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro MUSTANG PANDA PUBLOAD HIUPAN SEPTEMBER 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-25T14:12:59.057Z",
+            "modified": "2026-04-29T14:23:06.152Z",
             "description": "[PUBLOAD](https://attack.mitre.org/software/S1228) has used several commands executed in sequence via `cmd` in a short interval to gather software versions including querying Registry keys.(Citation: Trend Micro MUSTANG PANDA PUBLOAD HIUPAN SEPTEMBER 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--3824852d-1957-4712-9da0-38143723c060",

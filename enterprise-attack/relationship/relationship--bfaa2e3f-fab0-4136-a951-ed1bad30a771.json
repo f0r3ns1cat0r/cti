@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--68a31471-ce3e-4246-ac6c-0cbd58278e9c",
+    "id": "bundle--a5922569-cd21-4bdc-89cf-6dc53a111285",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bfaa2e3f-fab0-4136-a951-ed1bad30a771",
             "created": "2023-02-10T18:33:21.735Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "HP SVCReady Jun 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:44:04.578Z",
+            "modified": "2026-04-29T14:23:06.187Z",
             "description": "[SVCReady](https://attack.mitre.org/software/S1064) has the ability to collect information such as computer name, computer manufacturer, BIOS, operating system, and firmware, including through the use of `systeminfo.exe`.(Citation: HP SVCReady Jun 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--7230ded7-3b1a-4d6e-9735-d0ffd47af9f6",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

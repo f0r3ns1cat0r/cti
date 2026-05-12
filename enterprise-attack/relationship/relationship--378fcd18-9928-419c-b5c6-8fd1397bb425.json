@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d9beddbe-78d3-48ff-a361-00def6017376",
+    "id": "bundle--1e2fead7-9030-4333-8895-2c3b752b1cdf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T22:02:11.205Z",
+            "modified": "2026-04-29T14:23:05.996Z",
             "description": "During the [2025 Poland Wiper Attacks](https://attack.mitre.org/campaigns/C0063), the adversaries compromised infrastructure to use for C2.(Citation: ESET DynoWiper Update JAN 2026)",
             "relationship_type": "uses",
             "source_ref": "campaign--a6aba167-5ada-4812-9da1-912c0e73335d",

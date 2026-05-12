@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--06fef19c-b27d-4f0d-b796-0ed2dfe06c77",
+    "id": "bundle--de32ffa9-5d97-4f8d-af12-90025e42a39b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-19T15:32:15.959Z",
+            "modified": "2026-04-29T14:23:06.159Z",
             "description": "[ANELLDR](https://attack.mitre.org/software/S9027) can call `ZwSetInformationThread` with the second argument set to\u202f`ThreadHideFromDebugger (0x11)` to evade being debugged.(Citation: Trend Micro Earth Kasha Anel NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--c21edbd1-a0a4-4c3c-9b22-4a49634186c3",

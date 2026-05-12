@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e58e5677-09ed-4859-968b-7d1584be3d7f",
+    "id": "bundle--66fcbcaf-dccc-45fc-a0f5-6b72f584ec9d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T21:55:29.257Z",
+            "modified": "2026-04-29T14:23:06.046Z",
             "description": "During the [2025 Poland Wiper Attacks](https://attack.mitre.org/campaigns/C0063), the adversaries utilized the rsocx tool identified as `r.exe` and `rsocx.exe` to tunnel within the internal infrastructure using a Reverse SOCKS Proxy.(Citation: CERT Polska)(Citation: ESET DynoWiper Update JAN 2026)",
             "relationship_type": "uses",
             "source_ref": "campaign--a6aba167-5ada-4812-9da1-912c0e73335d",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--28625e9f-a822-4e33-b74a-600702750875",
+    "id": "bundle--503d55d6-14df-42fd-9f76-8d07b0ad8801",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7d1f1a6a-f2ab-4ee9-9c06-6afeac5d033b",
             "created": "2025-01-17T20:01:20.452Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "S2W Troll Stealer 2024",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:26:36.853Z",
+            "modified": "2026-04-29T14:23:06.097Z",
             "description": "[Troll Stealer](https://attack.mitre.org/software/S1196) gathers information from the Government Public Key Infrastructure (GPKI) folder, associated with South Korean government public key infrastructure, on infected systems.(Citation: S2W Troll Stealer 2024)(Citation: Symantec Troll Stealer 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--d6748457-75c2-4989-a41f-2d017994057e",
             "target_ref": "attack-pattern--d28ef391-8ed4-45dc-bc4a-2f43abf54416",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

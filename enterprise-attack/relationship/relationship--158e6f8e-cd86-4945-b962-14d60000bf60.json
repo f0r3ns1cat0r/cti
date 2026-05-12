@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--417b3816-9a4c-4ac6-a935-906eb095c39a",
+    "id": "bundle--7ccf6eab-c25c-4350-831c-00879fcf1fd8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T23:08:57.677Z",
+            "modified": "2026-04-29T14:23:05.933Z",
             "description": "[Qilin](https://attack.mitre.org/software/S1242) can create a mutex to ensure only one instance is running.(Citation: Halcyon Qilin.B OCT 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--e23d2777-b85d-44fc-861e-9149d399fbb9",

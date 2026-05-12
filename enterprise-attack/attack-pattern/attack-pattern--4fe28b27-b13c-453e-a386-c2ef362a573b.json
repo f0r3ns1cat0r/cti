@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6d1c35a5-014a-4c72-9d7f-1e1e5b72819d",
+    "id": "bundle--dea4d8e1-4cfb-4547-bc8d-bce5ed9b222d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:45.888Z",
+            "modified": "2026-05-12T15:12:00.632Z",
             "name": "Protocol Tunneling",
             "description": "Adversaries may tunnel network communications to and from a victim system within a separate protocol to avoid detection/network filtering and/or enable access to otherwise unreachable systems. Tunneling involves explicitly encapsulating a protocol within another. This behavior may conceal malicious traffic by blending in with existing traffic and/or provide an outer layer of encryption (similar to a VPN). Tunneling could also enable routing of network packets that would otherwise not reach their intended destination, such as SMB, RDP, or other traffic that would be filtered by network appliances or not routed over the Internet. \n\nThere are various means to encapsulate a protocol within another protocol. For example, adversaries may perform SSH tunneling (also known as SSH port forwarding), which involves forwarding arbitrary data over an encrypted SSH tunnel.(Citation: SSH Tunneling)(Citation: Sygnia Abyss Locker 2025) \n\n[Protocol Tunneling](https://attack.mitre.org/techniques/T1572) may also be abused by adversaries during [Dynamic Resolution](https://attack.mitre.org/techniques/T1568). Known as DNS over HTTPS (DoH), queries to resolve C2 infrastructure may be encapsulated within encrypted HTTPS packets.(Citation: BleepingComp Godlua JUL19) \n\nAdversaries may also leverage [Protocol Tunneling](https://attack.mitre.org/techniques/T1572) in conjunction with [Proxy](https://attack.mitre.org/techniques/T1090) and/or [Protocol or Service Impersonation](https://attack.mitre.org/techniques/T1001/003) to further conceal C2 communications and infrastructure. ",
             "kill_chain_phases": [
@@ -48,7 +48,7 @@
                     "phase_name": "command-and-control"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "enterprise-attack"

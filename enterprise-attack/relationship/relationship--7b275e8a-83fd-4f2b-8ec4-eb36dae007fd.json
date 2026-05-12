@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cc210d7a-f7fa-4af2-ba48-4c4eb99a620e",
+    "id": "bundle--248ef536-4212-4736-afaa-0c51a4f9d4a9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7b275e8a-83fd-4f2b-8ec4-eb36dae007fd",
             "created": "2023-04-07T22:55:10.799Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Malwarebytes AvosLocker Jul 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:26:08.287Z",
+            "modified": "2026-04-29T14:23:06.094Z",
             "description": "[AvosLocker](https://attack.mitre.org/software/S1053) has used obfuscated API calls that are retrieved by their checksums.(Citation: Malwarebytes AvosLocker Jul 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--0945a1a5-a79a-47c8-9079-10c16cdfcb5d",
             "target_ref": "attack-pattern--ea4c2f9c-9df1-477c-8c42-6da1118f2ac4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

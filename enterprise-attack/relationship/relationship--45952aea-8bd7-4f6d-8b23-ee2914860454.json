@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4f0020f5-e6fd-4b8d-a7a9-d6ebe557ebd2",
+    "id": "bundle--98555643-af6d-4737-a8cd-bb8a501d4cce",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--45952aea-8bd7-4f6d-8b23-ee2914860454",
             "created": "2019-01-29T19:09:26.648Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "PaloAlto UBoatRAT Nov 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:45:36.021Z",
+            "modified": "2026-04-29T14:23:06.020Z",
             "description": "[UBoatRAT](https://attack.mitre.org/software/S0333) has used GitHub and a public blog service in Hong Kong for C2 communications.(Citation: PaloAlto UBoatRAT Nov 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--518bb5f1-91f4-4ff2-b09d-5a94e1ebe95f",
             "target_ref": "attack-pattern--be055942-6e63-49d7-9fa1-9cb7d8a8f3f4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

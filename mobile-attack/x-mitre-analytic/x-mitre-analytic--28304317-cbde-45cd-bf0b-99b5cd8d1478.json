@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0187e0db-29f6-47ab-b80e-4bc416ad7bf0",
+    "id": "bundle--038bc359-e094-4c2f-8ca8-a30754ee6113",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-13T18:49:55.440Z",
+            "modified": "2026-05-12T16:30:18.376Z",
             "name": "Analytic 1738",
             "description": "Detects conditional execution by correlating (1) application access to constrained environment signals such as location, locale, network context, device state, or user interaction timing, (2) prolonged inactivity or feature suppression despite available permissions, and (3) abrupt initiation of higher-risk behavior only when the expected target context is present. Because direct observation of some runtime decision logic is weaker on iOS, the defender relies more heavily on lifecycle, sensor, and downstream network effects following target-condition alignment.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

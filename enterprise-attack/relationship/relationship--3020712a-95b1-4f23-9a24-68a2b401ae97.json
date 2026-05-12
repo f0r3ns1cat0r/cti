@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6b557ff5-2ced-45b3-bb41-f602cf508532",
+    "id": "bundle--493dcf3f-5138-4c64-81c0-5e2842623d0e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-19T15:29:16.391Z",
+            "modified": "2026-04-29T14:23:05.976Z",
             "description": "[ANELLDR](https://attack.mitre.org/software/S9027) can use the `ZwSetInformationThread` to enable debugger evasion.(Citation: Trend Micro Earth Kasha Anel NOV 2024)\n",
             "relationship_type": "uses",
             "source_ref": "malware--c21edbd1-a0a4-4c3c-9b22-4a49634186c3",

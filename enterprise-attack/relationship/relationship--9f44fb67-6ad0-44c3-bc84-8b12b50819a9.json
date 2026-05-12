@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--80f18381-d138-4b69-941d-a88d75be8fa7",
+    "id": "bundle--42ee2548-2496-4143-8f40-8d9f60c47f05",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9f44fb67-6ad0-44c3-bc84-8b12b50819a9",
             "created": "2024-02-12T21:24:32.343Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Ensilo Darkgate 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:35:48.838Z",
+            "modified": "2026-04-29T14:23:06.142Z",
             "description": "Some versions of [DarkGate](https://attack.mitre.org/software/S1111) search for the hard-coded folder <code>C:\\Program Files\\e Carte Bleue</code>.(Citation: Ensilo Darkgate 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--6f6f67c9-556d-4459-95c2-78d272190e52",
             "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

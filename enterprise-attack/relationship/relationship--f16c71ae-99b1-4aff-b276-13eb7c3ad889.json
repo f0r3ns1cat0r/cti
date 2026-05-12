@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9aaa2752-f209-49c9-bf5f-752c16d6e64c",
+    "id": "bundle--4abef7b5-c1c5-4e18-b58c-f52414398da4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f16c71ae-99b1-4aff-b276-13eb7c3ad889",
             "created": "2021-02-10T19:12:08.105Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ClearSky Lebanese Cedar Jan 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:16:51.944Z",
+            "modified": "2026-04-29T14:23:06.253Z",
             "description": "[Caterpillar WebShell](https://attack.mitre.org/software/S0572) has a module to use a rootkit on a system.(Citation: ClearSky Lebanese Cedar Jan 2021) ",
             "relationship_type": "uses",
             "source_ref": "malware--751b77e6-af1f-483b-93fe-eddf17f92a64",
             "target_ref": "attack-pattern--0f20e3cb-245b-4a61-8a91-2d93f7cb0e9b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

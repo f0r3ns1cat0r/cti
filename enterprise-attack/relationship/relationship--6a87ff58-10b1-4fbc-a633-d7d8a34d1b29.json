@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2f47e420-4a3e-46ba-b700-0fbac5c12ff2",
+    "id": "bundle--1eaac780-f3c1-4c39-a2e5-b7af745dbc70",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6a87ff58-10b1-4fbc-a633-d7d8a34d1b29",
             "created": "2017-05-31T21:33:27.045Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Joint Cybersecurity Advisory AA23-129A Snake Malware May 2023",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:21:26.908Z",
+            "modified": "2026-04-29T14:23:06.070Z",
             "description": "(Citation: Kaspersky Turla)(Citation: Joint Cybersecurity Advisory AA23-129A Snake Malware May 2023)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
             "target_ref": "malware--80a014ba-3fef-4768-990b-37d8bd10d7f4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

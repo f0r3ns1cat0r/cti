@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7003a3c0-0920-43dc-83bf-fd5b24056c45",
+    "id": "bundle--359ca7be-02be-4bcc-9c4e-8440e89b545f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cff9e6c6-eb2d-431d-958c-d86ffe6ea98d",
             "created": "2019-11-07T20:06:03.069Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SensePost Outlook Forms",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:11:12.833Z",
+            "modified": "2026-04-29T14:23:06.210Z",
             "description": "For the Outlook methods, blocking macros may be ineffective as the Visual Basic engine used for these features is separate from the macro scripting engine.(Citation: SensePost Outlook Forms) Microsoft has released patches to try to address each issue. Ensure KB3191938 which blocks Outlook Visual Basic and displays a malicious code warning, KB4011091 which disables custom forms by default, and KB4011162 which removes the legacy Home Page feature, are applied to systems.(Citation: SensePost Outlook Home Page)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--e5d930e9-775a-40ad-9bdb-b941d8dfe86b",
             "target_ref": "attack-pattern--a9e2cea0-c805-4bf8-9e31-f5f0513a3634",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

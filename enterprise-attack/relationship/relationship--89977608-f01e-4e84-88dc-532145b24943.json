@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--64093f89-9079-4ac1-8477-a6c0d71c136b",
+    "id": "bundle--a0890043-0c70-44ed-975e-03832ade2f05",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T13:34:47.454Z",
+            "modified": "2026-04-29T14:23:06.113Z",
             "description": "[LAMEHUG](https://attack.mitre.org/software/S9035) can use [dsquery](https://attack.mitre.org/software/S0105) to gather domain group information.(Citation: Cato LAMEHUG JUL 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--c55e0410-842d-4365-a2c8-26c0330f85b8",

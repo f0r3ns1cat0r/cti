@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4b215452-ad0c-427f-914e-2f486e4c4f33",
+    "id": "bundle--a33e02c7-29ae-40e6-8bdb-48b0d69bd5a2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:49:02.831Z",
+            "modified": "2026-05-12T15:12:00.672Z",
             "name": "Web Service",
             "description": "Adversaries may use an existing, legitimate external Web service as a means for relaying data to/from a compromised system. Popular websites, cloud services, and social media acting as a mechanism for C2 may give a significant amount of cover due to the likelihood that hosts within a network are already communicating with them prior to a compromise. Using common services, such as those offered by Google, Microsoft, or Twitter, makes it easier for adversaries to hide in expected noise.(Citation: Broadcom BirdyClient Microsoft Graph API 2024) Web service providers commonly use SSL/TLS encryption, giving adversaries an added level of protection.\n\nUse of Web services may also protect back-end C2 infrastructure from discovery through malware binary analysis while also enabling operational resiliency (since this infrastructure may be dynamically changed).",
             "kill_chain_phases": [
@@ -38,7 +38,7 @@
                     "phase_name": "command-and-control"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_contributors": [
                 "Anastasios Pingios",
                 "Sarathkumar Rajendran, Microsoft Defender365"

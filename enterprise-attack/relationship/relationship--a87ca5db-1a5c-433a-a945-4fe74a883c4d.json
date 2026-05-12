@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b2c4d6f3-8f0b-4a87-9019-1a0ac0d728a8",
+    "id": "bundle--a15e30e9-8408-43ec-b484-0006d6d7c9bc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a87ca5db-1a5c-433a-a945-4fe74a883c4d",
             "created": "2026-04-09T20:06:28.395Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco Talos Qilin Ransomware OCT 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T20:09:49.665Z",
+            "modified": "2026-04-29T14:23:06.155Z",
             "description": "[Qilin](https://attack.mitre.org/software/S1242) can enable SSH access on ESXi hosts.(Citation: Cisco Talos Qilin Ransomware OCT 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--e23d2777-b85d-44fc-861e-9149d399fbb9",

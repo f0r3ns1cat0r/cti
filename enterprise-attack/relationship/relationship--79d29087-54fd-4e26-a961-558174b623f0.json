@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--67b2279b-bb74-447f-b995-5bd6dc90d517",
+    "id": "bundle--3cc10e14-6651-4849-b5d1-5565ed319462",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--79d29087-54fd-4e26-a961-558174b623f0",
             "created": "2025-09-29T20:05:19.976Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "BushidoToken Qilin RaaS JUN 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-29T21:36:04.058Z",
+            "modified": "2026-04-29T14:23:06.092Z",
             "description": "[Water Galura](https://attack.mitre.org/groups/G1050) are the operators of the [Qilin](https://attack.mitre.org/software/S1242) RaaS.(Citation: BushidoToken Qilin RaaS JUN 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--be8847e0-9512-45db-895e-f871ab6d3820",

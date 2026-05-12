@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0798dc73-2466-408f-841d-f0d2eaaaf334",
+    "id": "bundle--16da9ee2-c423-4391-8c26-4801fb19203f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:43:38.791Z",
+            "modified": "2026-04-29T14:23:05.969Z",
             "description": "[TinyZBot](https://attack.mitre.org/software/S0004) can disable Avira anti-virus.(Citation: Cylance Cleaver)",
             "relationship_type": "uses",
             "source_ref": "malware--c0c45d38-fe57-4cd4-b2b2-9ecd0ddd4ca9",

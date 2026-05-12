@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0bd0e8a4-6f3d-4dc7-b6a5-9b7827d49703",
+    "id": "bundle--a92cda2d-9f99-4c5b-b656-6dfbdbf1c404",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--21ad0084-2f19-4559-9de1-dc06d1809ef0",
             "created": "2024-09-04T13:21:31.526Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrustedSec OOB Communications",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:01:57.486Z",
+            "modified": "2026-04-29T14:23:05.951Z",
             "description": "Implement secure out-of-band alerts to notify security teams of unusual local email activities, such as mass forwarding or large attachments being sent, indicating potential data exfiltration attempts.(Citation: TrustedSec OOB Communications)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--80a0e940-f683-4fbd-ac00-e9f935f2f808",
             "target_ref": "attack-pattern--1e9eb839-294b-48cc-b0d3-c45555a2a004",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

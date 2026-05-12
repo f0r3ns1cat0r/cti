@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e185470f-d9a6-4cf1-9fe2-4fc6f4da01bf",
+    "id": "bundle--2bce9719-fd75-411e-8253-8526d14c1639",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d638565b-ca8e-459f-9c3b-1bd8828606f5",
             "created": "2020-11-24T17:55:12.897Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos GPlayed",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:30:50.173Z",
+            "modified": "2026-04-29T14:23:06.218Z",
             "description": "[GPlayed](https://attack.mitre.org/software/S0536) can collect the user\u2019s browser cookies.(Citation: Talos GPlayed)",
             "relationship_type": "uses",
             "source_ref": "malware--a993495c-9813-4372-b9ec-d168c7f7ec0a",
             "target_ref": "attack-pattern--e1c912a9-e305-434b-9172-8a6ce3ec9c4a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

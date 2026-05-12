@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--38679ac4-131d-4908-90a8-dabfd34dcdaf",
+    "id": "bundle--754c8e0e-5443-43d9-b2f6-bec3a42b6d57",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4359e177-34c3-452e-82d6-2535ad695514",
             "created": "2025-10-23T02:44:35.031Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sekoia ClickFake 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-23T02:44:35.031Z",
+            "modified": "2026-04-29T14:23:06.017Z",
             "description": "[Contagious Interview](https://attack.mitre.org/groups/G1052) has targeted macOS victim hosts using a bash downloader `coremedia.sh` and a bash script `cloud.sh`.(Citation: Sekoia ClickFake 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--46599a4a-77ee-4697-9474-2683b6464859",

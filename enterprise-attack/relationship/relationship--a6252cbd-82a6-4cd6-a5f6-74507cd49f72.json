@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--10166006-fe74-4125-a1b6-b35a9c3a4639",
+    "id": "bundle--f43fdc21-a97d-4560-bdc1-5764ead29e2f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a6252cbd-82a6-4cd6-a5f6-74507cd49f72",
             "created": "2019-06-05T19:04:37.877Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro BKDR_URSNIF.SM",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:03:41.070Z",
+            "modified": "2026-04-29T14:23:06.151Z",
             "description": "[Ursnif](https://attack.mitre.org/software/S0386) has used Registry modifications as part of its installation routine.(Citation: TrendMicro BKDR_URSNIF.SM)(Citation: ProofPoint Ursnif Aug 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--1492d0f8-7e14-4af3-9239-bc3fe10d3407",
             "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--436c66c3-540d-4bf0-a7ae-f69399dc314a",
+    "id": "bundle--716bbefa-915a-4d7d-a944-a91d4dcf2fe4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--97b7c8f4-d3b2-4992-8801-c62c68a17eca",
             "created": "2025-03-14T13:04:52.126Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Storm-1811 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:33:43.400Z",
+            "modified": "2026-04-29T14:23:06.132Z",
             "description": "[Storm-1811](https://attack.mitre.org/groups/G1046) has used OpenSSH to establish an SSH tunnel to victims for persistent access.(Citation: Microsoft Storm-1811 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--319fd652-edde-46b2-9987-3519493989f5",
             "target_ref": "attack-pattern--2db31dcd-54da-405d-acef-b9129b816ed6",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d753e7f5-ff68-481f-a0fe-d875cda0b8a7",
+    "id": "bundle--42ba5de2-b53a-43eb-9108-6d65aeed03ae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8f88490e-346b-4462-b077-0211707c21a3",
             "created": "2019-04-24T13:32:25.647Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "F-Secure CozyDuke",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:59:25.110Z",
+            "modified": "2026-04-29T14:23:06.121Z",
             "description": "Some versions of [CozyCar](https://attack.mitre.org/software/S0046) will check to ensure it is not being executed inside a virtual machine or a known malware analysis sandbox environment. If it detects that it is, it will exit.(Citation: F-Secure CozyDuke)",
             "relationship_type": "uses",
             "source_ref": "malware--e6ef745b-077f-42e1-a37d-29eecff9c754",
             "target_ref": "attack-pattern--82caa33e-d11a-433a-94ea-9b5a5fbef81d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--23490182-dc69-476b-90da-4b5910e6841d",
+    "id": "bundle--c4c185d8-16c5-40bc-956e-735f66be4d1a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a2e09ef2-2511-476b-8759-264843b4d772",
             "created": "2022-02-17T16:21:31.929Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CERT-EE Gamaredon January 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:36:40.835Z",
+            "modified": "2026-04-29T14:23:06.147Z",
             "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has used tools to delete files and folders from victims' desktops and profiles.(Citation: CERT-EE Gamaredon January 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
             "target_ref": "attack-pattern--fb640c43-aa6b-431e-a961-a279010424ac",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

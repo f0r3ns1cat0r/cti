@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7e4e9df0-67dd-4c1c-9dd3-dd6c6f4885a6",
+    "id": "bundle--ba44d8bf-c7c0-4716-8d84-3dda78d95b9a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-19T15:15:16.075Z",
+            "modified": "2026-05-12T16:30:18.382Z",
             "name": "Analytic 1663",
             "description": "The defender correlates repeated or periodic app-attributed retrieval from a legitimate public web-service platform with runtime conditions showing that the retrieval is not aligned to normal foreground consumption, user interaction, or approved app role. The strongest Android evidence is a managed or installed app repeatedly issuing inbound-oriented GET, fetch, sync, or content-pull operations to social, collaboration, paste, code-hosting, cloud-storage, messaging, or generic HTTPS platforms while the app is backgrounded, while the device is locked, or without recent user interaction, and without a corresponding outbound writeback to that same service class during the operational window. The detection is strengthened when the retrieval is temporally adjacent to scheduled/background execution, local state changes, or later downstream effects that do not require the same public platform to receive output.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

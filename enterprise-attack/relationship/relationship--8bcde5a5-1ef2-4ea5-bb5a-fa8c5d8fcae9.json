@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a22b12b6-4a03-45b0-affa-5d6c4fa54fa8",
+    "id": "bundle--1d3f2607-2783-424d-90d9-dd49ec9c7fa0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:55:32.048Z",
+            "modified": "2026-04-29T14:23:06.116Z",
             "description": "[Grandoreiro](https://attack.mitre.org/software/S0531) can hook APIs, kill processes, break file system paths, and change ACLs to prevent security tools from running.(Citation: ESET Grandoreiro April 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--958b5d06-8bb0-4c5b-a2e7-0130fe654ac7",

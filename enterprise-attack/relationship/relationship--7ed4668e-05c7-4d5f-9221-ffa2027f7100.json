@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8eca214a-343f-481a-b35d-d13717f3b1c4",
+    "id": "bundle--37a33870-cf77-4f92-a467-d9896f755cc8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7ed4668e-05c7-4d5f-9221-ffa2027f7100",
             "created": "2025-08-06T15:10:44.314Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro MUSTANG PANDA PUBLOAD HIUPAN SEPTEMBER 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-25T14:11:49.424Z",
+            "modified": "2026-04-29T14:23:06.099Z",
             "description": "[PUBLOAD](https://attack.mitre.org/software/S1228) has used several commands executed in sequence via `cmd`. (Citation: Trend Micro MUSTANG PANDA PUBLOAD HIUPAN SEPTEMBER 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--3824852d-1957-4712-9da0-38143723c060",

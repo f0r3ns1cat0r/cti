@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--880adf9b-68cf-4ab7-ae25-4085e146ad17",
+    "id": "bundle--651b3960-b0a0-43eb-9005-6bef63ede518",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--60be159a-b083-48c2-bd38-4abb873d1f30",
             "created": "2021-01-28T15:58:09.536Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ATT Sidewinder January 2021",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:50:32.249Z",
+            "modified": "2026-04-29T14:23:06.057Z",
             "description": "[Sidewinder](https://attack.mitre.org/groups/G0121) has used HTTP in C2 communications.(Citation: ATT Sidewinder January 2021)(Citation: Rewterz Sidewinder APT April 2020)(Citation: Rewterz Sidewinder COVID-19 June 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

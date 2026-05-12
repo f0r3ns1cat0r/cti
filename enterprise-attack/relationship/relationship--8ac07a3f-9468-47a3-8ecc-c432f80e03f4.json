@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d04fbc77-c4aa-4096-89bb-fc9287261c4a",
+    "id": "bundle--6e54523c-b95f-43e3-8b98-a55e5cfd3ee4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8ac07a3f-9468-47a3-8ecc-c432f80e03f4",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Buckeye",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T15:46:53.922Z",
+            "modified": "2026-04-29T14:23:06.114Z",
             "description": "[APT3](https://attack.mitre.org/groups/G0022) leverages valid accounts after gaining credentials for use within the victim domain.(Citation: Symantec Buckeye)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",

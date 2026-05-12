@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a5769ae1-3095-4ff0-8061-5aefd5e7bbb3",
+    "id": "bundle--9ac624b2-e0ba-422d-a812-c487e5432ce7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T18:04:09.812Z",
+            "modified": "2026-04-29T14:23:06.228Z",
             "description": "[Caminho](https://attack.mitre.org/software/S9016) can use `System.Net.WebClient.downloadString()` for file download.(Citation: Zscaler BlindEagle DEC 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--97da6467-c9c5-4eb0-84d4-1234e937e534",

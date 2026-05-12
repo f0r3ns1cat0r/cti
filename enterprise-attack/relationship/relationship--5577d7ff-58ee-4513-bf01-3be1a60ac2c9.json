@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2499b3c0-6a3d-413d-9457-c5dbe3c5eb75",
+    "id": "bundle--1abbc55e-a693-4127-afc2-8cb169650f19",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5577d7ff-58ee-4513-bf01-3be1a60ac2c9",
             "created": "2019-01-29T21:27:25.242Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT38 Oct 2018",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-11-13T19:21:05.137Z",
+            "modified": "2026-04-29T14:23:06.042Z",
             "description": "[APT38](https://attack.mitre.org/groups/G0082) used a backdoor, QUICKRIDE, to communicate to the C2 server over HTTP and HTTPS.(Citation: FireEye APT38 Oct 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",

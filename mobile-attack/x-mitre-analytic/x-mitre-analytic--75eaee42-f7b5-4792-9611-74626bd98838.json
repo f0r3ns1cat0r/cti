@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--16ca9626-9386-462c-a73d-db2cec1aa3b8",
+    "id": "bundle--a208920a-96f2-4b8d-a582-a1a7347b421c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:30:26.476Z",
+            "modified": "2026-05-12T16:30:18.379Z",
             "name": "Analytic 1806",
             "description": "Correlates (1) application acquisition or use of elevated control paths capable of altering defensive tooling or protected system state, such as device administration, root-enabled modification, or security-setting manipulation, (2) direct changes to security-tool configuration, service state, package state, or protected enforcement settings such as SELinux-relevant files or security-app components, and (3) immediate degradation, suppression, or disappearance of expected security telemetry while the device and initiating application remain active. The defender observes a causal chain where a security control is modified first, then monitoring or protection weakens, and subsequent activity continues under reduced defensive visibility.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

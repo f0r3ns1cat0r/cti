@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--04c86e36-dbb6-44da-8cb7-66429dd5b06a",
+    "id": "bundle--6ec1370a-7bbc-4755-a4c8-ab153c4e8a24",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T14:58:35.105Z",
+            "modified": "2026-04-29T14:23:06.270Z",
             "description": "[AshTag](https://attack.mitre.org/software/S9031) can use a set sleep time to delay C2 beaconing.(Citation: Palo Alto Ashen Lepus DEC 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--bb6f2a5c-dbc9-45b0-bd3f-a0b7849959c2",

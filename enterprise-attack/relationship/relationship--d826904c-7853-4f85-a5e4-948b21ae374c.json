@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5143de0e-db44-4219-9550-088e955cd4b5",
+    "id": "bundle--405848b7-b0e6-408d-888a-cf5aa6100001",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d826904c-7853-4f85-a5e4-948b21ae374c",
             "created": "2020-05-22T20:27:31.551Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Chafer Dec 2015",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:12:33.218Z",
+            "modified": "2026-04-29T14:23:06.220Z",
             "description": "[Cadelspy](https://attack.mitre.org/software/S0454) has the ability to discover information about the compromised host.(Citation: Symantec Chafer Dec 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--a705b085-1eae-455e-8f4d-842483d814eb",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7ffe2356-39d5-4118-90cb-b112a5a29921",
+    "id": "bundle--6e61fb8d-93b8-4734-8da9-ad1e52142875",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--dde8ddd4-f56f-4186-828e-dd971b6a3770",
             "created": "2024-08-14T13:49:06.917Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Albanian Government Attacks September 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:51:57.794Z",
+            "modified": "2026-04-29T14:23:06.228Z",
             "description": "During [HomeLand Justice](https://attack.mitre.org/campaigns/C0038), threat actors used web shells to download files to compromised infrastructure.(Citation: Microsoft Albanian Government Attacks September 2022)",
             "relationship_type": "uses",
             "source_ref": "campaign--7e21077d-2589-43a7-a5f9-490061289526",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

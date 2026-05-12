@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0d25f50c-1989-4227-b6cd-acfd98207d65",
+    "id": "bundle--9cd6becb-7e96-438c-a6a4-2f16bda29b83",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T18:36:56.372Z",
+            "modified": "2026-04-29T14:23:06.103Z",
             "description": "[VOID MANTICORE](https://attack.mitre.org/groups/G1055) had exported credentials from registry hives to include those stored in HKLM.(Citation: Check Point VOID MANTICORE Handala Hack March 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--ebd7ce77-c9ba-4fba-bb28-58296ac66559",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--458b417e-4527-4c3c-ab71-6de6c678a970",
+    "id": "bundle--a2675785-06cc-496a-bbb8-3b785c2bd642",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8c418cb5-2cff-45f9-ad5d-b8b65cde713c",
             "created": "2021-03-01T14:07:36.882Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Proofpoint LookBack Malware Aug 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:58:49.015Z",
+            "modified": "2026-04-29T14:23:06.117Z",
             "description": "[LookBack](https://attack.mitre.org/software/S0582) uses a modified version of RC4 for data transfer.(Citation: Proofpoint LookBack Malware Aug 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--c9ccc4df-1f56-49e7-ad57-b383e1451688",
             "target_ref": "attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

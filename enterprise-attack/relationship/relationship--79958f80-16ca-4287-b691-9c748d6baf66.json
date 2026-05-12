@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9cce3f1e-2e75-4f3c-8848-98e43f1e21cc",
+    "id": "bundle--29b5d3e7-2d33-4332-b477-d251cb757ce6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--79958f80-16ca-4287-b691-9c748d6baf66",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "objsee mac malware 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:55:20.836Z",
+            "modified": "2026-04-29T14:23:06.092Z",
             "description": "[Dok](https://attack.mitre.org/software/S0281) uses AppleScript to create a login item for persistence.(Citation: objsee mac malware 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--f36b2598-515f-4345-84e5-5ccde253edbe",
             "target_ref": "attack-pattern--37b11151-1776-4f8f-b328-30939fbf2ceb",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

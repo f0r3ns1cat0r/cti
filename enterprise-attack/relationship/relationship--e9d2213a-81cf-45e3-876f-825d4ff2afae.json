@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1eba9ea0-d46d-4015-89a9-731325d52440",
+    "id": "bundle--2f0ab70c-56e1-451a-a88c-97e016e027c2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e9d2213a-81cf-45e3-876f-825d4ff2afae",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Dyre June 2015",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:15:36.699Z",
+            "modified": "2026-04-29T14:23:06.243Z",
             "description": "[Dyre](https://attack.mitre.org/software/S0024) registers itself as a service by adding several Registry keys.(Citation: Symantec Dyre June 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--63c2a130-8a5b-452f-ad96-07cf0af12ffe",
             "target_ref": "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

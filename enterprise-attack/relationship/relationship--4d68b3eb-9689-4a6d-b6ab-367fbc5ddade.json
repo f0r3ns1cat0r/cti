@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f4b6f780-05c5-4522-8915-2476d2c2ac99",
+    "id": "bundle--35eb5cf9-7ea9-4382-be9b-20a6fd480d5b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4d68b3eb-9689-4a6d-b6ab-367fbc5ddade",
             "created": "2017-05-31T21:33:27.043Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Black Vine",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:13:37.660Z",
+            "modified": "2026-04-29T14:23:06.031Z",
             "description": "[Deep Panda](https://attack.mitre.org/groups/G0009) has updated and modified its malware, resulting in different hash values that evade detection.(Citation: Symantec Black Vine)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--a653431d-6a5e-4600-8ad3-609b5af57064",
             "target_ref": "attack-pattern--b0533c6e-8fea-4788-874f-b799cacc4b92",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

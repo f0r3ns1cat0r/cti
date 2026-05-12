@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f7f2696e-efa8-4224-973d-6596f7510fce",
+    "id": "bundle--5ba8f40e-d2fd-474c-9415-fedbe52f45af",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e25b4146-2f52-4c5b-a1f8-3e868e767f84",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye Respond Webinar July 2017",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:14:17.410Z",
+            "modified": "2026-04-29T14:23:06.233Z",
             "description": "[FIN5](https://attack.mitre.org/groups/G0053) has used legitimate VPN, RDP, Citrix, or VNC credentials to maintain access to a victim environment.(Citation: FireEye Respond Webinar July 2017)(Citation: DarkReading FireEye FIN5 Oct 2015)(Citation: Mandiant FIN5 GrrCON Oct 2016)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
             "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

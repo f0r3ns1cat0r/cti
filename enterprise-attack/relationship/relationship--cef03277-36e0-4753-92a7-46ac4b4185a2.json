@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0e0a11ab-e002-4c7f-95b7-a63158f626ac",
+    "id": "bundle--2410d657-30c2-4ec1-af8b-4549bdd9773e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cef03277-36e0-4753-92a7-46ac4b4185a2",
             "created": "2025-10-10T03:41:47.884Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant 3cx UNC4736 2023",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-10T05:35:55.188Z",
+            "modified": "2026-04-29T14:23:06.208Z",
             "description": "During the [3CX Supply Chain Attack](https://attack.mitre.org/campaigns/C0057), [AppleJeus](https://attack.mitre.org/groups/G1049)'s COLDCAT C2 leverages cookie headers to contain data over HTTPS. Cookies also contain hardcoded variables `__tutma` or `__tutmc` in the payload's HTTPS request.(Citation: Mandiant 3cx UNC4736 2023)(Citation: Unit42 3cx supply chain 2023)",
             "relationship_type": "uses",
             "source_ref": "campaign--4fd53ccc-c6b1-4e3c-abe8-a456d46d789e",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4fb51736-b53e-482b-88f6-525b55440fc4",
+    "id": "bundle--46de7b59-92f3-425d-bf60-f6a101e5732b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--aac05114-174d-4c78-88b6-be502128b476",
             "created": "2024-03-19T18:55:37.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant Pulse Secure Zero-Day April 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:38:37.917Z",
+            "modified": "2026-04-29T14:23:06.157Z",
             "description": "[PACEMAKER](https://attack.mitre.org/software/S1109) can use a simple bash script for execution.(Citation: Mandiant Pulse Secure Zero-Day April 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--647215dd-29a6-4528-b354-ca8b5e08fca1",
             "target_ref": "attack-pattern--a9d4b653-6915-42af-98b2-5758c4ceee56",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

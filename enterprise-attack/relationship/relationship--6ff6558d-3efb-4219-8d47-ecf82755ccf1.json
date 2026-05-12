@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d5fea653-5854-420e-b2da-e1cb904eb95d",
+    "id": "bundle--a51c11b6-6369-4f00-8cb8-0e674e4364b4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6ff6558d-3efb-4219-8d47-ecf82755ccf1",
             "created": "2021-02-10T21:09:24.339Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Windigo Mar 2014",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:22:55.987Z",
+            "modified": "2026-04-29T14:23:06.078Z",
             "description": "If credentials are not collected for two weeks, [Ebury](https://attack.mitre.org/software/S0377) encrypts the credentials using a public key and sends them via UDP to an IP address located in the DNS TXT record.(Citation: ESET Windigo Mar 2014)(Citation: ESET Ebury May 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--d6b3fcd0-1c86-4350-96f0-965ed02fcc51",
             "target_ref": "attack-pattern--774a3188-6ba9-4dc4-879d-d54ee48a5ce9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

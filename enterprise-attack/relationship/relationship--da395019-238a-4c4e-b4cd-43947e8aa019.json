@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9738dcc1-fb03-4226-a39d-ec80b6b1680e",
+    "id": "bundle--133ca05f-317a-4b08-b11c-50ec2a929982",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--da395019-238a-4c4e-b4cd-43947e8aa019",
             "created": "2017-05-31T21:33:27.072Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye FIN6 April 2016",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:51:03.081Z",
+            "modified": "2026-04-29T14:23:06.223Z",
             "description": "To move laterally on a victim network, [FIN6](https://attack.mitre.org/groups/G0037) has used credentials stolen from various systems on which it gathered usernames and password hashes.(Citation: FireEye FIN6 April 2016)(Citation: FireEye FIN6 Apr 2019)(Citation: Visa FIN6 Feb 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
             "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

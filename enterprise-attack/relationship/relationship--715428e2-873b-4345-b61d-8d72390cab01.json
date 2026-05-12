@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ed51d6d8-30de-40c9-a28c-76058857f2ea",
+    "id": "bundle--57874400-ab26-4152-9284-d07785d3dc78",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:08:23.654Z",
+            "modified": "2026-04-29T14:23:06.080Z",
             "description": "[APT38](https://attack.mitre.org/groups/G0082) have created firewall exemptions on specific ports, including ports 443, 6443, 8443, and 9443.(Citation: CISA AA20-239A BeagleBoyz August 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",

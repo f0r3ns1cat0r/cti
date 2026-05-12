@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0405ea86-d475-4c38-83a9-ea44f0c63c1e",
+    "id": "bundle--ee23b260-e183-4f02-a235-cc33ac0b317a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--eadd5ace-0afb-4812-8834-e0dd56b9b129",
             "created": "2020-11-13T19:25:52.939Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "IBM Grandoreiro April 2020",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:15:48.736Z",
+            "modified": "2026-04-29T14:23:06.245Z",
             "description": "[Grandoreiro](https://attack.mitre.org/software/S0531) can steal cookie data and credentials from Google Chrome.(Citation: IBM Grandoreiro April 2020)(Citation: ESET Grandoreiro April 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--958b5d06-8bb0-4c5b-a2e7-0130fe654ac7",
             "target_ref": "attack-pattern--58a3e6aa-4453-4cc8-a51f-4befe80b31a8",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

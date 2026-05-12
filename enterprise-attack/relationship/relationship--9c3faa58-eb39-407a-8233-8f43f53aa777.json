@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--343868ce-b1b4-4ddf-a3cc-d10b20744111",
+    "id": "bundle--95fe6e49-dbdd-4b88-ada3-e4f2f80cc987",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9c3faa58-eb39-407a-8233-8f43f53aa777",
             "created": "2019-01-30T20:01:45.464Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Oceanlotus May 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:01:53.045Z",
+            "modified": "2026-04-29T14:23:06.138Z",
             "description": "[Denis](https://attack.mitre.org/software/S0354) has several commands to search directories for files.(Citation: Cybereason Oceanlotus May 2017)(Citation: Cybereason Cobalt Kitty 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--f25aab1a-0cef-4910-a85d-bb38b32ea41a",
             "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

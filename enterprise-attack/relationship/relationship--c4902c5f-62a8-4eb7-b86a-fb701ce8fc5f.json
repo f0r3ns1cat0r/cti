@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d994037b-bdc8-4573-a32c-86b94966cf2b",
+    "id": "bundle--1c6e8d74-32f8-4abd-84f9-505b9a678024",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c4902c5f-62a8-4eb7-b86a-fb701ce8fc5f",
             "created": "2025-10-19T19:53:44.938Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Avertium Storm-0501 Sabbath Ransomware Arcane January 2022",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-19T19:53:44.938Z",
+            "modified": "2026-04-29T14:23:06.194Z",
             "description": "[Storm-0501](https://attack.mitre.org/groups/G1053) has identified system language codes on a compromised host to determine if the victim falls under a non-supported language code that is prohibited for targeting, including victims associated with Russia and other Commonwealth of Independent States (CIS) that may draw attention of law enforcement in countries where the ransomware operator or affiliates may reside/operate from.(Citation: Avertium Storm-0501 Sabbath Ransomware Arcane January 2022)(Citation: Google Mandiant Storm-0501 Sabbath Ransomware November 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7b404cd0-3ae9-41d4-90c0-023793d35d97",

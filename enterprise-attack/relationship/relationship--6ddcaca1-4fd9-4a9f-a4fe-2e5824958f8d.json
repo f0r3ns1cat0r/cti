@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--97ef8484-cc53-4142-9fd8-b7c01fd35937",
+    "id": "bundle--de91f2cc-4451-4c5b-8250-6f72393112f0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T15:10:42.101Z",
+            "modified": "2026-04-29T14:23:06.075Z",
             "description": "[LazyWiper](https://attack.mitre.org/software/S9039) has used `[System.Net.Dns]::GetHostName()` and `$env:COMPUTERNAME` to enumerate the hostname of a system and determine if it is a domain controller.(Citation: CERT Polska)",
             "relationship_type": "uses",
             "source_ref": "malware--e4160979-b9bc-4f58-acbe-1d921ebbc122",

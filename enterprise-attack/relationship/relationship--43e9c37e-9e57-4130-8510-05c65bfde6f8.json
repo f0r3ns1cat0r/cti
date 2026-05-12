@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1d9b2b51-a81f-4107-b416-04e0f2748d8b",
+    "id": "bundle--ac377994-c39c-453d-9dac-76d7cacf700e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--43e9c37e-9e57-4130-8510-05c65bfde6f8",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Turla Mosquito Jan 2018",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:45:18.096Z",
+            "modified": "2026-04-29T14:23:06.018Z",
             "description": "(Citation: ESET Turla Mosquito Jan 2018)(Citation: ESET Turla Mosquito May 2018)(Citation: Secureworks IRON HUNTER Profile)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
             "target_ref": "malware--92b55426-109f-4d93-899f-1833ce91ff90",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

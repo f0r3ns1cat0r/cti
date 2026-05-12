@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9f10bdc0-ee80-4c4e-85c9-3474a3e569db",
+    "id": "bundle--c3480ded-32fd-4185-a673-c51f822d446c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4ffe2425-c971-45e5-9256-0b1a2bf63bbf",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cylance Dust Storm",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:14:22.699Z",
+            "modified": "2026-04-29T14:23:06.034Z",
             "description": "[Mis-Type](https://attack.mitre.org/software/S0084) saves itself as a file named `msdtc.exe`, which is also the name of the legitimate Microsoft Distributed Transaction Coordinator service binary.(Citation: Cylance Dust Storm)(Citation: Microsoft DTC)",
             "relationship_type": "uses",
             "source_ref": "malware--e1161124-f22e-487f-9d5f-ed8efc8dcd61",
             "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

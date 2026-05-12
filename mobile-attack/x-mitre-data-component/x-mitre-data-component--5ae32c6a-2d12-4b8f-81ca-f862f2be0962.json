@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7ad08ab7-877c-47c2-9b30-934ff490b906",
+    "id": "bundle--f2d64fb2-6822-4af5-a06a-a4afa45a79ea",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,14 +12,14 @@
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/data-components/DC0112",
+                    "url": "https://attack.mitre.org/datacomponents/DC0112",
                     "external_id": "DC0112"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-16T16:18:01.897Z",
+            "modified": "2026-05-12T15:12:00.773Z",
             "name": "API Calls",
             "description": "API calls utilized by an application that could indicate malicious activity",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4f349440-7516-4637-a056-600b23add893",
+    "id": "bundle--3a286de3-2a14-4933-ad29-d462cb868436",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c3c323ed-e3db-495c-b9b4-c00ada5a37fe",
             "created": "2021-11-19T15:35:37.781Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro DRBControl February 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:08:55.579Z",
+            "modified": "2026-04-29T14:23:06.193Z",
             "description": "[Clambling](https://attack.mitre.org/software/S0660) has the ability to communicate over HTTP.(Citation: Trend Micro DRBControl February 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--6e95feb1-78ee-48d3-b421-4d76663b5c49",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

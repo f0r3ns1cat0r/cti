@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--055b2ca5-9114-4189-b903-531f0e2b1ec3",
+    "id": "bundle--faf6d4d0-ba2e-4daf-8ab3-54006c7e268c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:50:21.714Z",
+            "modified": "2026-04-29T14:23:06.143Z",
             "description": "[BlackByte Ransomware](https://attack.mitre.org/software/S1180) adds .JS and .EXE extensions to the Microsoft Defender exclusion list. [BlackByte Ransomware](https://attack.mitre.org/software/S1180) terminates and removes the Raccine anti-ransomware utility.(Citation: Trustwave BlackByte 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--9454bb5d-3bdb-40f9-a878-b5fb446ded3d",

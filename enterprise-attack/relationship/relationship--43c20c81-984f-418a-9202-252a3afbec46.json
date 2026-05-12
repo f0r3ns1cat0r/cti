@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--74c0334f-c169-4617-bcc4-d7a339efd810",
+    "id": "bundle--a1a7f79e-6260-4a94-b5db-cee891313c50",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--43c20c81-984f-418a-9202-252a3afbec46",
             "created": "2022-06-03T13:31:01.299Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "DFIR Phosphorus November 2021",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:11:02.399Z",
+            "modified": "2026-04-29T14:23:06.018Z",
             "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used Remote Desktop Services to copy tools on targeted systems.(Citation: DFIR Report APT35 ProxyShell March 2022)(Citation: DFIR Phosphorus November 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
             "target_ref": "attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

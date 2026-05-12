@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5d3747ee-6316-4f37-8fb8-c30a2083231e",
+    "id": "bundle--3dd8aabb-b3ce-4684-a81f-9513f54367f2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0c0b4142-96e7-440b-a01f-f2bda05649b1",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Securelist BlackEnergy Feb 2015",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:34:05.145Z",
+            "modified": "2026-04-29T14:23:05.920Z",
             "description": "A [BlackEnergy](https://attack.mitre.org/software/S0089) 2 plug-in uses WMI to gather victim host details.(Citation: Securelist BlackEnergy Feb 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--54cc1d4f-5c53-4f0e-9ef5-11b4998e82e4",
             "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

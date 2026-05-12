@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8c0c909b-fca0-4ea6-b2b1-5d8695040404",
+    "id": "bundle--dd86c3d1-7cdb-479a-a8e2-9ee8414ca95c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--79275d9c-25cb-4792-8ac9-57009b44bd35",
             "created": "2025-09-17T14:55:38.675Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET RedLine Stealer November 2024",
@@ -33,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-17T14:55:38.675Z",
+            "modified": "2026-04-29T14:23:06.091Z",
             "description": "[RedLine Stealer](https://attack.mitre.org/software/S1240) has gathered detailed information about victims\u2019 systems, such as IP addresses, and geolocation.(Citation: ESET RedLine Stealer November 2024)(Citation: Kroll RedLine Stealer August 2024)(Citation: Proofpoint RedLine Stealer March 2020) [RedLine Stealer](https://attack.mitre.org/software/S1240) has also checked the IP from where it was being executed and leveraged an opensource geolocation IP-lookup service. (Citation: McAfee RedLine Stealer April 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--8c8e8b01-b4b1-479b-a7a9-78c40a12b916",

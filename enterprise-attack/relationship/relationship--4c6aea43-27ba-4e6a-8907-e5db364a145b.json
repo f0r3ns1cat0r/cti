@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a039b902-bd41-4682-a02b-5b653d173b05",
+    "id": "bundle--3ece0a6d-d3e5-4b91-a7ac-c8c237454cf0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4c6aea43-27ba-4e6a-8907-e5db364a145b",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Secureworks BRONZE BUTLER Oct 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:46:53.005Z",
+            "modified": "2026-04-29T14:23:06.029Z",
             "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has used a Windows 10 specific tool and xxmm to bypass UAC for privilege escalation.(Citation: Secureworks BRONZE BUTLER Oct 2017)(Citation: Trend Micro Tick November 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
             "target_ref": "attack-pattern--120d5519-3098-4e1c-9191-2aa61232f073",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

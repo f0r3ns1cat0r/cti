@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--31f87ac4-1ce1-44d0-911d-68a4a39faf13",
+    "id": "bundle--e0df7e69-516e-488d-b296-c671177d8507",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--11ed4654-a7bf-4063-9452-6d6174b9f8bc",
             "created": "2020-10-27T19:26:38.023Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "US-CERT BLINDINGCAN Aug 2020",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T03:13:53.082Z",
+            "modified": "2026-04-29T14:23:05.928Z",
             "description": "[BLINDINGCAN](https://attack.mitre.org/software/S0520) has collected from a victim machine the system name, processor information, and OS version.(Citation: US-CERT BLINDINGCAN Aug 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--01dbc71d-0ee8-420d-abb4-3dfb6a4bf725",

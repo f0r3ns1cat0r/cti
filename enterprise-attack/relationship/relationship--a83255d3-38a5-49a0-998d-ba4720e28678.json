@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--04cfbbfc-cc1e-4d72-9beb-6bc4927801a5",
+    "id": "bundle--ebe8367f-f0da-46ed-99bd-a196b2f74564",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T20:58:20.559Z",
+            "modified": "2026-04-29T14:23:06.154Z",
             "description": "During the [2025 Poland Wiper Attacks](https://attack.mitre.org/campaigns/C0063), the adversaries configured the FortiGate devices to send notifications to an attacker-controlled Slack channel.  During the [2025 Poland Wiper Attacks](https://attack.mitre.org/campaigns/C0063), the adversaries had also staged tools and files on services such as Dropbox and Pastebin.(Citation: CERT Polska)",
             "relationship_type": "uses",
             "source_ref": "campaign--a6aba167-5ada-4812-9da1-912c0e73335d",

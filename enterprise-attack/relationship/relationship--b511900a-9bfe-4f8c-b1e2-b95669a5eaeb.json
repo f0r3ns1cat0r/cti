@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2e1072a7-1813-40ae-811a-24ebcb143e85",
+    "id": "bundle--a47d8818-c85f-4bdd-b2c3-eca5b1298c3c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b511900a-9bfe-4f8c-b1e2-b95669a5eaeb",
             "created": "2020-06-30T22:40:28.140Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET ComRAT May 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:06:20.353Z",
+            "modified": "2026-04-29T14:23:06.173Z",
             "description": "[ComRAT](https://attack.mitre.org/software/S0126) can check the default browser by querying <code>HKCR\\http\\shell\\open\\command</code>.(Citation: ESET ComRAT May 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--da5880b4-f7da-4869-85f2-e0aba84b8565",
             "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

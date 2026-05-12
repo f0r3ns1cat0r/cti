@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--47e0310d-1c6c-4f1a-8e9a-109685598d17",
+    "id": "bundle--a60276c7-e896-405e-b4a7-f0c50cfb3c17",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--39aa1d6a-fbd7-40cf-90ea-4e83ba2c45cd",
             "created": "2025-08-06T15:14:44.137Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CSIRT CTI MUSTANG PANDA PUBLOAD TONESHELL JAN 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-25T14:09:12.915Z",
+            "modified": "2026-04-29T14:23:05.999Z",
             "description": "[PUBLOAD](https://attack.mitre.org/software/S1228) has checked supported languages on the compromised system.(Citation: CSIRT CTI MUSTANG PANDA PUBLOAD TONESHELL JAN 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--3824852d-1957-4712-9da0-38143723c060",

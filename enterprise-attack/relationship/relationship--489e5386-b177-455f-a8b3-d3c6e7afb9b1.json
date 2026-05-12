@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--19255194-2875-42ec-b9a6-3d7294c78ac5",
+    "id": "bundle--b9ab8459-3751-4f4e-8ad6-3c6ca1c8a2fa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--489e5386-b177-455f-a8b3-d3c6e7afb9b1",
             "created": "2017-05-31T21:33:27.064Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Dell TG-1314",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T16:07:46.967Z",
+            "modified": "2026-04-29T14:23:06.024Z",
             "description": "(Citation: Dell TG-1314)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--d519164e-f5fa-4b8c-a1fb-cf0172ad0983",

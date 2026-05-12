@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--88d9022f-8fa3-480f-8bdf-d2754be45ca1",
+    "id": "bundle--b86d4742-64dd-4ded-97ff-056746b29602",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--3d6d5bc0-2160-4152-9a4b-b2f19a8768b4",
             "created": "2023-08-03T20:34:10.710Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA AA24-038A PRC Critical Infrastructure February 2024",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T16:08:58.159Z",
+            "modified": "2026-04-29T14:23:06.009Z",
             "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has archived the ntds.dit database as a multi-volume password-protected archive with 7-Zip.(Citation: Secureworks BRONZE SILHOUETTE May 2023)(Citation: CISA AA24-038A PRC Critical Infrastructure February 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",

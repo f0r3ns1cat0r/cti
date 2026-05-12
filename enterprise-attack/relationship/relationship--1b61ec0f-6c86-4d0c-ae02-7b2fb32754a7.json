@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8f382db0-529c-40a9-a0c6-b278bf316328",
+    "id": "bundle--265f9809-8c20-4909-98bf-058556e259af",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:13:34.369Z",
+            "modified": "2026-04-29T14:23:05.942Z",
             "description": "Ensure proper user permissions are in place to prevent adversaries from disabling or interfering with security services.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317",

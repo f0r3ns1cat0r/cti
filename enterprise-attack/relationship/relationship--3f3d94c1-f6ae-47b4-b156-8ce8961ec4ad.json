@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cfde400b-f116-4fde-97a3-3bedb97be17c",
+    "id": "bundle--e22d7ec8-1da2-410a-9126-c76e04e6ae62",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--3f3d94c1-f6ae-47b4-b156-8ce8961ec4ad",
             "created": "2025-09-15T15:50:25.660Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ATTACKIQ MUSTANG PANDA TONESHELL March 2023",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-15T15:50:25.660Z",
+            "modified": "2026-04-29T14:23:06.011Z",
             "description": "[TONESHELL](https://attack.mitre.org/software/S1239) has created scheduled tasks to maintain persistence.(Citation: ATTACKIQ MUSTANG PANDA TONESHELL March 2023)(Citation: Palo Alto Unit42 STATELY TAURUS TONESHELL September 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--2683fde8-1dc4-415c-94bd-9bb95cc5b7ff",

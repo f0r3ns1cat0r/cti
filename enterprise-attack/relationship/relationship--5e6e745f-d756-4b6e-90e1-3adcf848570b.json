@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0f8de2a3-e454-4faa-940a-06b7ab3249f0",
+    "id": "bundle--4367174a-42a8-43f6-ad0e-5ce09ee1c5f4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5e6e745f-d756-4b6e-90e1-3adcf848570b",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 Shamoon3 2018",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:18:23.057Z",
+            "modified": "2026-04-29T14:23:06.054Z",
             "description": "If [Shamoon](https://attack.mitre.org/software/S0140) cannot access shares using current privileges, it attempts access using hard coded, domain-specific credentials gathered earlier in the intrusion.(Citation: FireEye Shamoon Nov 2016)(Citation: Unit 42 Shamoon3 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--8901ac23-6b50-410c-b0dd-d8174a86f9b3",
             "target_ref": "attack-pattern--c3d4bdd9-2cfe-4a80-9d0c-07a29ecdce8f",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

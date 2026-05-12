@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d7de5f59-301b-49ba-a2d4-b6348e84ffe9",
+    "id": "bundle--c08e6458-1010-450f-abb1-3e16be1799c3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--de1f13d3-a6a0-4170-947d-81b59d1262ef",
             "created": "2021-10-14T22:58:54.485Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "trendmicro xcsset xcode project 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:13:37.185Z",
+            "modified": "2026-04-29T14:23:06.228Z",
             "description": "[XCSSET](https://attack.mitre.org/software/S0658) uses a shell script to execute Mach-o files and <code>osacompile</code> commands such as, <code>osacompile -x -o xcode.app main.applescript</code>.(Citation: trendmicro xcsset xcode project 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--e14085cb-0e8d-4be6-92ba-e3b93ee5978f",
             "target_ref": "attack-pattern--a9d4b653-6915-42af-98b2-5758c4ceee56",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d19c9db8-bd57-48a4-a0cd-7faad55c6a05",
+    "id": "bundle--6b16431a-61fe-4752-a493-15f009089f2c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T22:17:34.904Z",
+            "modified": "2026-04-29T14:23:06.012Z",
             "description": "[DynoWiper](https://attack.mitre.org/software/S9038) has recursively enumerated directories with the exception of the following: System32, Windows, Program Files, Program Files(x86), Temp, Recycle.Bin, $Recycle.Bin, Boot, PerfLogs, AppData, Documents and Settings.(Citation: CERT Polska)(Citation: ESET DynoWiper Update JAN 2026)",
             "relationship_type": "uses",
             "source_ref": "malware--34057cb6-0a56-48a3-92e5-3af1357808da",

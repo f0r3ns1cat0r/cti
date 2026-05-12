@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fa7b7677-ec50-42a6-b844-eef261d542f3",
+    "id": "bundle--f1fb09fb-b262-484b-9b52-93da123fc4e3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7e559e10-483a-42ca-8ddf-d8ca04ed8bd2",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "US-CERT BADCALL",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:56:15.963Z",
+            "modified": "2026-04-29T14:23:06.098Z",
             "description": "[BADCALL](https://attack.mitre.org/software/S0245) modifies the firewall Registry key <code>SYSTEM\\CurrentControlSet\\Services\\SharedAccess\\Parameters\\FirewallPolicy\\StandardProfileGloballyOpenPorts\\\\List</code>.(Citation: US-CERT BADCALL)",
             "relationship_type": "uses",
             "source_ref": "malware--9dbdadb6-fdbf-490f-a35f-38762d06a0d2",
             "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

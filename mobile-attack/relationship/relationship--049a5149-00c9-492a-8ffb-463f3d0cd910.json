@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7b7eb2b4-5523-48fa-a998-10c56333024c",
+    "id": "bundle--7138ff0e-dc93-4e19-8c51-f3bbf87bd524",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--049a5149-00c9-492a-8ffb-463f3d0cd910",
             "created": "2022-03-30T20:13:28.442Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Android 10 Limitations to Hiding App Icons",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:46:42.468Z",
+            "modified": "2026-04-29T14:23:05.909Z",
             "description": "Android 10 introduced changes to prevent malicious applications from fully suppressing their icon in the launcher.(Citation: Android 10 Limitations to Hiding App Icons)(Citation: LauncherApps getActivityList)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--0beabf44-e8d8-4ae4-9122-ef56369a2564",
             "target_ref": "attack-pattern--f05fc151-aa62-47e3-ae57-2d1b23d64bf6",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

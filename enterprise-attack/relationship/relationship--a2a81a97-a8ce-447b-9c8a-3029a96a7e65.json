@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--23b2569a-390d-4c47-8306-465be0d71738",
+    "id": "bundle--4c29673c-d897-441f-82b3-0017ffe2eb00",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a2a81a97-a8ce-447b-9c8a-3029a96a7e65",
             "created": "2026-02-03T20:11:41.989Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Evilginx 2 July 2018",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-02-03T20:21:26.867Z",
+            "modified": "2026-04-29T14:23:06.146Z",
             "description": "[evilginx2](https://attack.mitre.org/software/S9003) has obtained a valid SSL/TLS certificate from LetsEncrypt to provide responses to Automatic Certificate Management Environment (ACME) challenges.(Citation: Evilginx 2 July 2018)",
             "relationship_type": "uses",
             "source_ref": "tool--1eb9627d-a661-4db6-bf53-41b7dcc63087",

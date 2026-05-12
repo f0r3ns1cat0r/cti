@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--de150efc-c4b7-44da-afe9-13bec0dd929e",
+    "id": "bundle--bcef043f-4c9b-4444-aa83-4dbc013c6628",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-11T16:02:58.868Z",
+            "modified": "2026-05-12T16:30:18.377Z",
             "name": "Analytic 1723",
             "description": "A lock-state transition telemetry, special access or privileged interaction capability, security-sensitive framework use, and immediate downstream activity while the user-interaction context is weak or inconsistent. This yields stronger coverage on Android than iOS.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

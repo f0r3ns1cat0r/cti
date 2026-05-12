@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--926c1e99-0d90-4c02-a2b4-90bc69ebbeda",
+    "id": "bundle--2e4e3c98-a00e-4657-8bfb-a6f343479ab7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T21:16:22.766Z",
+            "modified": "2026-04-29T14:23:06.095Z",
             "description": "[SPAWNCHIMERA](https://attack.mitre.org/software/S9024) has been compiled as a Position Independent Executable (PIE) to use a third-party library for injection.(Citation: Google UNC5221 BRICKSTORM SPAWNCHIMERA April 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--d1974f35-0e06-478e-bc74-7530545d814b",

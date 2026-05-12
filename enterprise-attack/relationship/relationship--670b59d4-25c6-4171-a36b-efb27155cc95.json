@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4e0894ec-e9b1-4e54-9839-090bd551e699",
+    "id": "bundle--a9fbe8c9-fdcc-43ce-bbc1-2061b0278018",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--670b59d4-25c6-4171-a36b-efb27155cc95",
             "created": "2025-12-16T00:02:07.112Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "AhnLab_SystemBC_Apr2022",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-12-16T00:03:48.234Z",
+            "modified": "2026-04-29T14:23:06.065Z",
             "description": "[SystemBC](https://attack.mitre.org/software/S9001) has collected username  , build number and serial number, then sent the information to the C2 server.(Citation: SophosGnGal_SystemBC_Dec2020)(Citation: AhnLab_SystemBC_Apr2022) [SystemBC](https://attack.mitre.org/software/S9001) has also gathered device name, operating system, and processor type.(Citation: HarmonProofpoint_SystemBC_Aug2019)",
             "relationship_type": "uses",
             "source_ref": "malware--39643fb9-00c1-4a45-85e5-801a3f2665d1",

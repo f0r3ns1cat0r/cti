@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--33ab2a98-4ede-499d-8785-d03ee5adcf6d",
+    "id": "bundle--f28acc2f-ea0d-42e1-95f8-8ec6f16adfef",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--13111e18-5f34-4925-ba0d-655a1fedeb52",
             "created": "2022-12-22T18:54:38.352Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant APT41",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:57:49.939Z",
+            "modified": "2026-04-29T14:23:05.930Z",
             "description": "The [KEYPLUG](https://attack.mitre.org/software/S1051) Windows variant has retrieved C2 addresses from encoded data in posts on tech community forums.(Citation: Mandiant APT41)",
             "relationship_type": "uses",
             "source_ref": "malware--6c575670-d14c-4c7f-9b9d-fd1b363e255d",
             "target_ref": "attack-pattern--f7827069-0bf2-4764-af4f-23fae0d181b7",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

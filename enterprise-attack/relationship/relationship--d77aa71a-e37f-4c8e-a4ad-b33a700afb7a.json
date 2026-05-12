@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--55b6c230-784a-415e-90c8-5475fc34ce2b",
+    "id": "bundle--f06cd768-22ec-44ae-a0c6-c040f9978ac3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d77aa71a-e37f-4c8e-a4ad-b33a700afb7a",
             "created": "2021-03-01T21:55:30.038Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CERT-FR PYSA April 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:12:25.843Z",
+            "modified": "2026-04-29T14:23:06.219Z",
             "description": "[Pysa](https://attack.mitre.org/software/S0583) has executed a malicious executable by naming it svchost.exe.(Citation: CERT-FR PYSA April 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--a19c1197-9414-46e3-986f-0f609ff4a46b",
             "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

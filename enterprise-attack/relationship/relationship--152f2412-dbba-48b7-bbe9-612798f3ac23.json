@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--57faf488-d9cd-4964-a021-d3b40e0f1e49",
+    "id": "bundle--f2f12b18-d5d5-4d57-bcea-70c5cf6267ab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--152f2412-dbba-48b7-bbe9-612798f3ac23",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 Bisonal July 2018",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:36:10.706Z",
+            "modified": "2026-04-29T14:23:05.933Z",
             "description": "[Bisonal](https://attack.mitre.org/software/S0268) will delete its dropper and VBS scripts from the victim\u2019s machine.(Citation: Unit 42 Bisonal July 2018)(Citation: Kaspersky CactusPete Aug 2020)(Citation: Talos Bisonal Mar 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--65ffc206-d7c1-45b3-b543-f6b726e7840d",
             "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

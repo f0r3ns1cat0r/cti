@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--84a9c508-2d7b-47e0-965d-86bd02a847a8",
+    "id": "bundle--e70d1e4e-323e-4b39-988f-4af99271bf3f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:31:10.007Z",
+            "modified": "2026-04-29T14:23:06.102Z",
             "description": "[PlugX](https://attack.mitre.org/software/S0013) has modified local firewall rules on victim machines to enable a random, high-number listening port for subsequent access and C2 activity.(Citation: Sygnia VelvetAnt 2024A)",
             "relationship_type": "uses",
             "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c3923a50-7786-466b-82cd-47ead607366c",
+    "id": "bundle--2f73f613-00da-429f-8c5c-4ebe11d6bbc1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1c8634d8-21a1-46a5-a1fd-eaaff6eed7a6",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 Sofacy Feb 2018",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:37:53.667Z",
+            "modified": "2026-04-29T14:23:05.943Z",
             "description": "(Citation: Unit 42 Sofacy Feb 2018)(Citation: Cybersecurity Advisory GRU Brute Force Campaign July 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "tool--0a68f1f1-da74-4d28-8d9a-696c082706cc",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

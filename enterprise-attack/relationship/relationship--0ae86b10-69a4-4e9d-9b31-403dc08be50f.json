@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--461536a3-820a-4212-9289-ce2f4e4f0ded",
+    "id": "bundle--ea026a6d-7121-4fed-8e8d-f451dbf91c4a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:26:06.453Z",
+            "modified": "2026-04-29T14:23:05.918Z",
             "description": "[Raspberry Robin](https://attack.mitre.org/software/S1130) can add an exception to Microsoft Defender that excludes the entire main drive from anti-malware scanning to evade detection.(Citation: HP RaspberryRobin 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--4e385fa6-ebe0-43fc-9ccf-5b51b5dc4d79",

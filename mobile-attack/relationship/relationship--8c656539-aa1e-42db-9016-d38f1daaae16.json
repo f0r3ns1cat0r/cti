@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ef4cddac-139f-4fe3-8c6e-deb00a8fd458",
+    "id": "bundle--615ce66f-b38c-4a73-a526-30b9f918d3ad",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8c656539-aa1e-42db-9016-d38f1daaae16",
             "created": "2023-01-18T19:20:26.156Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "cyble_drinik_1022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:50:05.220Z",
+            "modified": "2026-04-29T14:23:06.117Z",
             "description": "[Drinik](https://attack.mitre.org/software/S1054) can collect user SMS messages.(Citation: cyble_drinik_1022)",
             "relationship_type": "uses",
             "source_ref": "malware--d6e009b7-df5e-447a-bfd2-d5b77374edfe",
             "target_ref": "attack-pattern--c6421411-ae61-42bb-9098-73fddb315002",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

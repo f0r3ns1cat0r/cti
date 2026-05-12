@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4b08e0ac-6a8f-48b7-8f0c-900f27c174a2",
+    "id": "bundle--f2f1552c-132d-446f-bdbb-f6d854a2f696",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-19T16:45:39.190Z",
+            "modified": "2026-04-29T14:23:06.071Z",
             "description": "During [Operation AkaiRy\u016b](https://attack.mitre.org/campaigns/C0060), [MirrorFace](https://attack.mitre.org/groups/G1054) deleted delivered tools and files from compromised hosts.(Citation: ESET MirrorFace 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--8a7c55ea-f363-4a03-b4c5-fa3fdb132d8f",

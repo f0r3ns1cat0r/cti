@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8420939c-abb1-4b3f-aef9-cdc37c233827",
+    "id": "bundle--0df1ede6-7698-4e6c-981e-968aa2ee2a4d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8ffd5c6a-da54-43ee-b384-7458499302ad",
             "created": "2023-12-06T19:14:53.425Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SocGholish-update",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:31:35.608Z",
+            "modified": "2026-04-29T14:23:06.122Z",
             "description": "[Mustard Tempest](https://attack.mitre.org/groups/G1020) has poisoned search engine results to return fake software updates in order to distribute malware.(Citation: Microsoft Ransomware as a Service)(Citation: SocGholish-update)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0d4ac089-ced4-4cc4-a989-174d08e6d030",
             "target_ref": "attack-pattern--e5d550f3-2202-4634-85f2-4a200a1d49b3",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

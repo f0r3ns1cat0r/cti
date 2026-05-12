@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f2a2dd46-7a06-4e23-a525-dff035447cfd",
+    "id": "bundle--6d84e681-3f1f-454d-ab1c-dc4766de7eb1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d361058d-a11b-470d-bed8-44bfd8e50393",
             "created": "2017-05-31T21:33:27.080Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Gamaredon Feb 2017",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-21T17:24:54.629Z",
+            "modified": "2026-04-29T14:23:06.214Z",
             "description": "A [Gamaredon Group](https://attack.mitre.org/groups/G0047) file stealer can transfer collected files to a hardcoded C2 server.(Citation: Palo Alto Gamaredon Feb 2017)(Citation: ESET Gamaredon Sept2024)(Citation: SymantecCarbonBlack_ShuckwormUSB_Apr2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
             "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

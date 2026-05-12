@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c98f1aab-fc7b-4266-bb3c-b32c33977d46",
+    "id": "bundle--e0d1366d-9471-4579-b50c-4ec1264bedca",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--dc10559e-6a98-4a5f-abcd-adff67bfb1cd",
             "created": "2024-03-25T20:55:21.239Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA Scattered Spider Advisory November 2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:51:30.522Z",
+            "modified": "2026-04-29T14:23:06.226Z",
             "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) stages data in a centralized database prior to exfiltration.(Citation: CISA Scattered Spider Advisory November 2023)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
             "target_ref": "attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

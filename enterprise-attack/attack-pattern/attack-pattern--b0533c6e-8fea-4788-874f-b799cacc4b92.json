@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c56f4acc-bd61-4094-8e97-617470001d46",
+    "id": "bundle--15b42d6b-0c26-4d27-822d-9f74ff763be0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-15T22:19:28.558Z",
+            "modified": "2026-05-12T15:12:00.707Z",
             "name": "Indicator Removal from Tools",
             "description": "Adversaries may remove indicators from tools if they believe their malicious tool was detected, quarantined, or otherwise curtailed. They can modify the tool by removing the indicator and using the updated version that is no longer detected by the target's defensive systems or subsequent targets that may use similar systems.\n\nA good example of this is when malware is detected with a file signature and quarantined by anti-virus software. An adversary who can determine that the malware was quarantined because of its file signature may modify the file to explicitly avoid that signature, and then re-use the malware.",
             "kill_chain_phases": [

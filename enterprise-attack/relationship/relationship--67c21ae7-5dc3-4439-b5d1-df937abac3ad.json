@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9bd5ef3e-d980-4941-9768-5deeeb5a501a",
+    "id": "bundle--7e6841d4-ab61-4cb4-8b99-45ea128dcd38",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--67c21ae7-5dc3-4439-b5d1-df937abac3ad",
             "created": "2020-09-24T14:20:39.197Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Dukes October 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:51:48.915Z",
+            "modified": "2026-04-29T14:23:06.066Z",
             "description": "[FatDuke](https://attack.mitre.org/software/S0512) can call <code>ShellExecuteW</code> to open the default browser on the URL localhost.(Citation: ESET Dukes October 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--54a01db0-9fab-4d5f-8209-53cef8425f4a",
             "target_ref": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

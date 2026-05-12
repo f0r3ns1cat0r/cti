@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7ba9d734-46d5-48cf-a9a5-f210a3f07706",
+    "id": "bundle--a451d21a-c429-40ec-824f-96352f86a69e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-29T19:36:34.664Z",
+            "modified": "2026-05-12T16:30:18.376Z",
             "name": "Analytic 1778",
             "description": "Defender correlates an app preparing to phish (gaining overlay/notification/accessibility capability) with precise foreground targeting (reading activity in front via accessibility/focus) and then presenting a look-alike UI (overlay window or activity-on-top) immediately before local storage or small-burst egress of entered data. Chain: capability/permission \u2192 target app in foreground detected \u2192 overlay/activity-on-top or fake notification tap \u2192 local prompt input write \u2192 near-term network egress.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

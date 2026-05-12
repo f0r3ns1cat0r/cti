@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7b36485f-1c3f-4303-9f57-342e3cfb8035",
+    "id": "bundle--a465b17f-ab37-450f-9955-cb48ede7d453",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--969d588f-7357-4349-b158-2bf78704c1b4",
             "created": "2020-07-15T19:18:56.454Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "DFIR_Sodinokibi_Ransomware",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:33:25.644Z",
+            "modified": "2026-04-29T14:23:06.130Z",
             "description": "[IcedID](https://attack.mitre.org/software/S0483) has used WMI to execute binaries.(Citation: Juniper IcedID June 2020)(Citation: DFIR_Sodinokibi_Ransomware)",
             "relationship_type": "uses",
             "source_ref": "malware--5147ef15-1cae-4707-8ea1-bee8d98b7f1d",
             "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

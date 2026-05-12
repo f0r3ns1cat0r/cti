@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b2662d6e-1db1-41e0-a06c-6ac2efa2abab",
+    "id": "bundle--a50ad657-b275-4d27-b28d-2447e634efde",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--3a8eb909-108e-4d4c-b893-d76b585caa9b",
             "created": "2025-10-21T23:07:12.674Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelOne Aoqin Dragon June 2022",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T23:07:12.674Z",
+            "modified": "2026-04-29T14:23:06.001Z",
             "description": "[Mongall](https://attack.mitre.org/software/S1026) can identify drives on compromised hosts.(Citation: SentinelOne Aoqin Dragon June 2022)\n",
             "relationship_type": "uses",
             "source_ref": "malware--6fb36c6f-bb3d-4ed6-9471-cb9933e5c154",

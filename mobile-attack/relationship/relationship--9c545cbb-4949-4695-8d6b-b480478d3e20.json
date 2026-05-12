@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b02f58f3-1306-4a69-b172-ff568481a0b2",
+    "id": "bundle--6db7a1e0-3466-490d-8752-9224c1af0d53",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9c545cbb-4949-4695-8d6b-b480478d3e20",
             "created": "2023-12-18T18:08:42.383Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "securelist_brata_0819",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:50:26.660Z",
+            "modified": "2026-04-29T14:23:06.138Z",
             "description": "[BRATA](https://attack.mitre.org/software/S1094) can turn off or fake turning off the screen while performing malicious activities.(Citation: securelist_brata_0819)",
             "relationship_type": "uses",
             "source_ref": "malware--5aff44ab-5a41-49bb-b5d1-b4876d0437f4",
             "target_ref": "attack-pattern--24a77e53-0751-46fc-b207-99378fb35c08",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

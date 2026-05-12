@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7946e92e-ea34-4e8d-af5f-bd43579c9995",
+    "id": "bundle--3117eff8-664d-4285-9f39-7ca8e8465cb0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cecdfe74-68df-4008-8d83-226d0de77782",
             "created": "2022-06-03T16:02:46.380Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky Lyceum October 2021",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:48:10.768Z",
+            "modified": "2026-04-29T14:23:06.208Z",
             "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has used a PowerShell-based keylogger named `kl.ps1`.(Citation: SecureWorks August 2019)(Citation: Kaspersky Lyceum October 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
             "target_ref": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

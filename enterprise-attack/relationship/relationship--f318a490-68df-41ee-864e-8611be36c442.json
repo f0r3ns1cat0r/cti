@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bd0f45e9-3adf-4164-97af-407a410b28fd",
+    "id": "bundle--afdd0012-47a0-4014-81aa-03e574fb072e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f318a490-68df-41ee-864e-8611be36c442",
             "created": "2023-02-07T21:20:17.480Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Brute Ratel July 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:57:24.542Z",
+            "modified": "2026-04-29T14:23:06.255Z",
             "description": "[Brute Ratel C4](https://attack.mitre.org/software/S1063) has used search order hijacking to load a malicious payload DLL as a dependency to a benign application packaged in the same ISO.(Citation: Palo Alto Brute Ratel July 2022) [Brute Ratel C4](https://attack.mitre.org/software/S1063) has loaded a malicious DLL by spoofing the name of the legitimate Version.DLL and placing it in the same folder as the digitally-signed Microsoft binary OneDriveUpdater.exe.(Citation: Palo Alto Brute Ratel July 2022)",
             "relationship_type": "uses",
             "source_ref": "tool--75d8b521-6b6a-42ff-8af3-d97e20ce12a5",
             "target_ref": "attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

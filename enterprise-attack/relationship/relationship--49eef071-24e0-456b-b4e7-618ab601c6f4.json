@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1ab3d85e-9a87-4318-9548-bfa89fe63189",
+    "id": "bundle--47a6bc87-c6ff-43fc-8057-8266c2462fbb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--49eef071-24e0-456b-b4e7-618ab601c6f4",
             "created": "2020-08-25T20:11:53.268Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "NSA/FBI Drovorub August 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:46:25.673Z",
+            "modified": "2026-04-29T14:23:06.026Z",
             "description": "[Drovorub](https://attack.mitre.org/software/S0502) can execute arbitrary commands as root on a compromised system.(Citation: NSA/FBI Drovorub August 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--99164b38-1775-40bc-b77b-a2373b14540a",
             "target_ref": "attack-pattern--a9d4b653-6915-42af-98b2-5758c4ceee56",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3d0dfdcf-71aa-4b58-a7b3-4e74ab330729",
+    "id": "bundle--4e25bda7-3fd0-47fe-a668-5580f92001f2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -44,7 +44,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:36.079Z",
+            "modified": "2026-05-12T15:12:00.624Z",
             "name": "Clipboard Data",
             "description": "Adversaries may collect data stored in the clipboard from users copying information within or between applications. \n\nFor example, on Windows adversaries can access clipboard data by using <code>clip.exe</code> or <code>Get-Clipboard</code>.(Citation: MSDN Clipboard)(Citation: clip_win_server)(Citation: CISA_AA21_200B) Additionally, adversaries may monitor then replace users\u2019 clipboard with their data (e.g., [Transmitted Data Manipulation](https://attack.mitre.org/techniques/T1565/002)).(Citation: mining_ruby_reversinglabs)\n\nmacOS and Linux also have commands, such as <code>pbpaste</code>, to grab clipboard contents.(Citation: Operating with EmPyre)",
             "kill_chain_phases": [
@@ -53,7 +53,7 @@
                     "phase_name": "collection"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "enterprise-attack"

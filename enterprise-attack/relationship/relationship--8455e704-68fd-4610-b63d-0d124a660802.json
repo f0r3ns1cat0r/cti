@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--735ab5d7-9d70-4331-97f1-d6e9fbbaf9aa",
+    "id": "bundle--7d8b3cd6-7c7c-4c6b-90ae-14090800521d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8455e704-68fd-4610-b63d-0d124a660802",
             "created": "2020-06-08T18:06:36.281Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky TajMahal April 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:57:16.684Z",
+            "modified": "2026-04-29T14:23:06.106Z",
             "description": "[TajMahal](https://attack.mitre.org/software/S0467) has the ability to identify the Internet Explorer (IE) version on an infected host.(Citation: Kaspersky TajMahal April 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--b51797f7-57da-4210-b8ac-b8632ee75d70",
             "target_ref": "attack-pattern--e3b6daca-e963-4a69-aee6-ed4fd653ad58",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9c9d60ed-c170-40e9-a6f6-3f986ef66321",
+    "id": "bundle--6db6b49d-60d5-4afc-b85d-1428854a0ec7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--120f001f-eb9c-4183-89f1-7c6e4bddc80c",
             "created": "2020-11-30T21:44:25.557Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Bazar July 2020",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:35:31.679Z",
+            "modified": "2026-04-29T14:23:05.929Z",
             "description": "[Bazar](https://attack.mitre.org/software/S0534) can use [Nltest](https://attack.mitre.org/software/S0359) tools to obtain information about the domain.(Citation: Cybereason Bazar July 2020)(Citation: NCC Group Team9 June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--99fdf3b4-96ef-4ab9-b191-fc683441cad0",
             "target_ref": "attack-pattern--767dbf9e-df3f-45cb-8998-4903ab5f80c0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

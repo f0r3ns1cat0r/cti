@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dc286590-2fec-42f7-b7fb-d064c15554e3",
+    "id": "bundle--c2da6260-f350-470a-b0cc-225ee86c6599",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T21:15:19.773Z",
+            "modified": "2026-04-29T14:23:06.006Z",
             "description": "[LP-Notes](https://attack.mitre.org/software/S9036) has decrypted strings with lengths ranging from 15 to 19 characters using the same decryption key for each string.(Citation: ESET_MuddyWater_Dec2025)",
             "relationship_type": "uses",
             "source_ref": "malware--7fbf1f1e-cbd8-4060-8e3b-7ca0e56ce3fe",

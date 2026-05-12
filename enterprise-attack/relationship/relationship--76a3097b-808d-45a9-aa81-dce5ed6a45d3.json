@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--06b89e3d-a4d5-4b34-8de2-a1b3ca4ac731",
+    "id": "bundle--2c045b4a-63bd-41a8-aece-2bd153385744",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--76a3097b-808d-45a9-aa81-dce5ed6a45d3",
             "created": "2020-05-28T16:38:03.775Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Eset Ramsay May 2020",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:54:44.295Z",
+            "modified": "2026-04-29T14:23:06.087Z",
             "description": "[Ramsay](https://attack.mitre.org/software/S0458) has been embedded in documents exploiting CVE-2017-0199, CVE-2017-11882, and CVE-2017-8570.(Citation: Eset Ramsay May 2020)(Citation: Antiy CERT Ramsay April 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--ba09b86c-1c40-4ff1-bda0-0d8c4ca35997",
             "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

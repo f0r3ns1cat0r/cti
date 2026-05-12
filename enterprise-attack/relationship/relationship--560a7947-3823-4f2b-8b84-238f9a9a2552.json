@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--99109909-e323-4afb-98dd-482e6e094ab4",
+    "id": "bundle--8486d93a-2d9c-454f-b2a8-1c82256621cd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--560a7947-3823-4f2b-8b84-238f9a9a2552",
             "created": "2020-03-17T02:28:29.737Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky ProjectSauron Full Report",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:16:04.347Z",
+            "modified": "2026-04-29T14:23:06.043Z",
             "description": "[Remsec](https://attack.mitre.org/software/S0125) is capable of using SMTP for C2.(Citation: Symantec Remsec IOCs)(Citation: Kaspersky ProjectSauron Full Report)(Citation: Kaspersky ProjectSauron Technical Analysis)(Citation: Threatpost Sauron)",
             "relationship_type": "uses",
             "source_ref": "malware--69d6f4a9-fcf0-4f51-bca7-597c51ad0bb8",
             "target_ref": "attack-pattern--54b4c251-1f0e-4eba-ba6b-dbc7a6f6f06b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

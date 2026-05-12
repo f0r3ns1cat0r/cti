@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--701e3896-84e0-4592-ab68-417f5e5fe231",
+    "id": "bundle--3262e4f2-7aee-498f-ae44-0b6f5baa9c43",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--01753250-4bfa-4671-bcce-0e3cf19c0ae9",
             "created": "2025-10-08T20:21:12.056Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ThreatFabric_Chameleon_Dec2023",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-08T20:21:12.056Z",
+            "modified": "2026-04-29T14:23:05.905Z",
             "description": "[Chameleon](https://attack.mitre.org/software/S1083) has used the KeyguardManager API to evaluate the device\u2019s locking mechanism and the AlarmManager API to schedule tasks.(Citation: ThreatFabric_Chameleon_Dec2023) ",
             "relationship_type": "uses",
             "source_ref": "malware--2cf00c5a-857d-4cb6-8f03-82f15bee0f6f",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--57402905-7d54-4aca-8a80-993ba19829ef",
+    "id": "bundle--8df8e5ed-585d-470b-8961-6fbb77d6c4aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T13:11:48.516Z",
+            "modified": "2026-04-29T14:23:06.031Z",
             "description": "[LAMEHUG](https://attack.mitre.org/software/S9035) payloads have been disguised with legitimate looking filenames including AI_generator_uncensored_Canvas_PRO_v0.9.exe and AI_image_generator_v0.95.exe.(Citation: Splunk LAMEHUG SEP 2025)(Citation: Nov AI Threat Tracker)",
             "relationship_type": "uses",
             "source_ref": "malware--c55e0410-842d-4365-a2c8-26c0330f85b8",

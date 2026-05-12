@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e9b43201-f922-4736-a262-baf2bd58e6da",
+    "id": "bundle--8d33ee4b-49ad-42a7-9867-328339217ddd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--354b2d56-9b68-4481-b05d-b72a347bb4a7",
             "created": "2026-04-10T18:25:53.381Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Koi Glassworm New Tricks December 2025",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-10T18:57:54.983Z",
+            "modified": "2026-04-29T14:23:05.991Z",
             "description": "[GlassWorm](https://attack.mitre.org/software/S9010) has collected keys stored within `/Library/Keychains/login.keychain-db`.(Citation: Koi Glassworm New Tricks December 2025)(Citation: Socket GlassWorm January 2026)",
             "relationship_type": "uses",
             "source_ref": "malware--809bc57b-4d4c-43de-b698-448334ed8185",

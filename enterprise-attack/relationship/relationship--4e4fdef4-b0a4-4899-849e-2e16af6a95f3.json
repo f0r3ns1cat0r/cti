@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--868148c3-2080-413d-83d0-2c7357385676",
+    "id": "bundle--dfb6e48b-42c9-45b3-9320-ed157b034fed",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:14:27.665Z",
+            "modified": "2026-04-29T14:23:06.032Z",
             "description": "Ensure proper process and file permissions are in place to prevent adversaries from disabling or modifying firewall settings.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--987988f0-cf86-4680-a875-2f6456ab2448",

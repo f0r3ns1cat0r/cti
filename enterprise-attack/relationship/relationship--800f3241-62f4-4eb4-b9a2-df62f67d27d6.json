@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bba5ef98-b682-4340-a1df-811a9c378b14",
+    "id": "bundle--0796094c-15f2-4ae2-9ec6-cc53e839d308",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--800f3241-62f4-4eb4-b9a2-df62f67d27d6",
             "created": "2020-03-30T19:55:05.954Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Novetta Blockbuster RATs",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:27:19.862Z",
+            "modified": "2026-04-29T14:23:06.101Z",
             "description": "Some [Lazarus Group](https://attack.mitre.org/groups/G0032) malware uses a list of ordered port numbers to choose a port for C2 traffic, creating port-protocol mismatches.(Citation: Novetta Blockbuster)(Citation: Novetta Blockbuster RATs)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--b18eae87-b469-4e14-b454-b171b416bc18",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

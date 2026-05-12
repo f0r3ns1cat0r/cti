@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--82a1a41b-ae7c-45f8-8676-9943678e5aec",
+    "id": "bundle--c254ec8b-ce9d-46ed-a334-4f68a45ab46f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c1cafa91-9891-4e65-b75d-d83ef6838653",
             "created": "2023-12-18T18:13:02.691Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "cleafy_brata_0122",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:51:21.578Z",
+            "modified": "2026-04-29T14:23:06.190Z",
             "description": "[BRATA](https://attack.mitre.org/software/S1094) can use tailored overlay pages to steal PINs for banking applications.(Citation: cleafy_brata_0122)",
             "relationship_type": "uses",
             "source_ref": "malware--5aff44ab-5a41-49bb-b5d1-b4876d0437f4",
             "target_ref": "attack-pattern--4c58b7c6-a839-4789-bda9-9de33e4d4512",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

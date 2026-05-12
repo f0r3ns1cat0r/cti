@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--321d0e80-c311-48d3-92f1-9ffe06046427",
+    "id": "bundle--be721e63-de4e-402d-800d-01495560d64b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d0c60722-e668-4597-a25f-f7e1eb1a5962",
             "created": "2019-09-13T16:47:13.103Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Machete July 2019",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:11:21.900Z",
+            "modified": "2026-04-29T14:23:06.211Z",
             "description": "[Machete](https://attack.mitre.org/software/S0409) produces file listings in order to search for files to be exfiltrated.(Citation: ESET Machete July 2019)(Citation: Cylance Machete Mar 2017)(Citation: 360 Machete Sep 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--35cd1d01-1ede-44d2-b073-a264d727bc04",
             "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--174c294c-9a90-4253-9b8e-ada3ed797a71",
+    "id": "bundle--675e7769-01be-4e0b-8d54-815e8835a7fa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--dbaed920-c55d-4762-8279-91aac835bbfc",
             "created": "2025-10-02T19:19:48.925Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "dtex DPRK 2025 structure ITworkers",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-02T19:20:40.998Z",
+            "modified": "2026-04-29T14:23:06.225Z",
             "description": "[AppleJeus](https://attack.mitre.org/groups/G1049) has used spearphishing emails to distribute malicious payloads.(Citation: dtex DPRK 2025 structure ITworkers)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--14225573-63b5-4e50-ba9a-5fdcaf6a7b4c",

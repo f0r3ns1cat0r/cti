@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--63477bb6-26c2-4011-a250-870237b91ba7",
+    "id": "bundle--2d691ff2-fb84-4fb3-9103-bb25d5748bae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ff1ca662-7030-4d24-bf0f-28e8dde7fc65",
             "created": "2024-06-27T19:08:25.598Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Turla Lunar toolset May 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:00:33.423Z",
+            "modified": "2026-04-29T14:23:06.271Z",
             "description": "(Citation: ESET Turla Lunar toolset May 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
             "target_ref": "malware--6490afef-d88e-4e2b-b9d9-a472508ca59d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--09508abc-7879-4a96-b2f5-ea5f1c7f9812",
+    "id": "bundle--41c3a014-0633-44c7-b447-0e68e8d9758c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--86c58566-41e5-452f-b649-b481bfbd1202",
             "created": "2020-10-19T23:54:29.900Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "US-CERT TA17-156A SNMP Abuse 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:57:41.427Z",
+            "modified": "2026-04-29T14:23:06.109Z",
             "description": "Configure SNMPv3 to use the highest level of security (authPriv) available.(Citation: US-CERT TA17-156A SNMP Abuse 2017)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--feff9142-e8c2-46f4-842b-bd6fb3d41157",
             "target_ref": "attack-pattern--ee7ff928-801c-4f34-8a99-3df965e581a5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dd5281be-5573-409e-9ab6-ef1680711429",
+    "id": "bundle--46288c5a-15a6-4db9-9c85-fcfea9435fab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--81db3270-4cb8-4982-8ff8-c28a874e8421",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro-DressCode",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:29:28.211Z",
+            "modified": "2026-04-29T14:23:06.103Z",
             "description": "[DressCode](https://attack.mitre.org/software/S0300) sets up a \"general purpose tunnel\" that can be used by an adversary to compromise enterprise networks that the mobile device is connected to.(Citation: TrendMicro-DressCode)",
             "relationship_type": "uses",
             "source_ref": "malware--ff742eeb-1f90-4f5a-8b92-9d40fffd99ca",
             "target_ref": "attack-pattern--22379609-a99f-4a01-bd7e-70f3e105859d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--61a141ea-446e-4451-90dc-2c717d9b5bc7",
+    "id": "bundle--5c1d3074-b7e0-4730-93a6-23a91d0b2dc8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a2c9bae6-15aa-4ce0-8f4d-01b8fc32a36d",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant FIN5 GrrCON Oct 2016",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:03:05.057Z",
+            "modified": "2026-04-29T14:23:06.146Z",
             "description": "(Citation: Mandiant FIN5 GrrCON Oct 2016)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
             "target_ref": "malware--0e18b800-906c-4e44-a143-b11c72b3448b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

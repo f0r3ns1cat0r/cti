@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--23b2ccff-d162-4b78-bac5-975b6f36113d",
+    "id": "bundle--87948b2a-4192-40b2-a696-4e16b854ebdf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ac43f0bd-db6c-4000-8efe-7f33520780d9",
             "created": "2019-05-29T14:17:51.222Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Deep Instinct TA505 Apr 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:39:03.880Z",
+            "modified": "2026-04-29T14:23:06.159Z",
             "description": "[ServHelper](https://attack.mitre.org/software/S0382) contains a module for downloading and executing DLLs that leverages <code>rundll32.exe</code>.(Citation: Deep Instinct TA505 Apr 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--aae22730-e571-4d17-b037-65f2a3e26213",
             "target_ref": "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

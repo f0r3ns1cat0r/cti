@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b6267d22-042e-459a-9c70-13703b76d160",
+    "id": "bundle--4d2fdd10-d9b6-4470-88b9-8425d011c058",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fb11df98-790a-4b1c-9ca0-73224226cff3",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cylance Dust Storm",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:18:30.469Z",
+            "modified": "2026-04-29T14:23:06.266Z",
             "description": "[ZLib](https://attack.mitre.org/software/S0086) communicates over HTTP for C2.(Citation: Cylance Dust Storm)",
             "relationship_type": "uses",
             "source_ref": "malware--166c0eca-02fd-424a-92c0-6b5106994d31",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

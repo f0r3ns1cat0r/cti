@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9b8c732b-185b-4152-9110-4f0e9f8ab9dc",
+    "id": "bundle--b48e2003-00cc-4a42-8fc0-ca4fd8ba34b2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bc85f8f4-5d65-484c-af82-6adbe42083d9",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Buckeye",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T15:46:53.923Z",
+            "modified": "2026-04-29T14:23:06.183Z",
             "description": "[OSInfo](https://attack.mitre.org/software/S0165) has enumerated the local administrators group.(Citation: Symantec Buckeye)",
             "relationship_type": "uses",
             "source_ref": "malware--f6d1d2cb-12f5-4221-9636-44606ea1f3f8",

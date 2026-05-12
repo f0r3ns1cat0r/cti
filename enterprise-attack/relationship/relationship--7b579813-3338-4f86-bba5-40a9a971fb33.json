@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d753641d-667d-4c97-b4ea-49cde4e6df76",
+    "id": "bundle--f0b42b2a-3678-475c-943c-bd6b77a15794",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T18:27:58.727Z",
+            "modified": "2026-04-29T14:23:06.094Z",
             "description": " [HiddenFace](https://attack.mitre.org/software/S9023) can alter timestamps for directory content on targeted machines.(Citation: ESET HiddenFace 2024)(Citation: Trend Micro Earth Kasha NOV 2024)(Citation: JPCERT MirrorFace JUL 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--9edc41d1-a13d-4acf-b400-d47fb2f6809d",

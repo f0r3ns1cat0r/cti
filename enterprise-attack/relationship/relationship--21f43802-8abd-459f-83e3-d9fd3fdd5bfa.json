@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1efd4725-1a31-4aa9-bbfc-30584129f74b",
+    "id": "bundle--43530683-a916-4aef-bde4-3e5b567cc222",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T02:39:25.476Z",
+            "modified": "2026-04-29T14:23:05.951Z",
             "description": "[SPAWNCHIMERA](https://attack.mitre.org/software/S9024) has used delayed execution to pause for a defined interval before performing environment discovery, repeatedly checking for specific processes, such as the `dslogserver` process, prior to continuing execution. (Citation: CISA SPAWNCHIMERA RESURGE February 2026)",
             "relationship_type": "uses",
             "source_ref": "malware--d1974f35-0e06-478e-bc74-7530545d814b",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2f77ce9a-e9a3-4668-8d70-b4c6cd0358f9",
+    "id": "bundle--abbae175-5c50-4536-86d9-9e6a4ae223b4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T17:57:42.063Z",
+            "modified": "2026-04-29T14:23:06.145Z",
             "description": "[MuddyViper](https://attack.mitre.org/software/S9032) has reflectively loaded the decrypted\u202fHackBrowserData\u202ftool in a new\u202fthread.(Citation: ESET_MuddyWater_Dec2025)\u202f\u202f\u202f\u202f\u202f\u202f",
             "relationship_type": "uses",
             "source_ref": "malware--7b92e996-b535-4159-be16-3c3aee4edf54",

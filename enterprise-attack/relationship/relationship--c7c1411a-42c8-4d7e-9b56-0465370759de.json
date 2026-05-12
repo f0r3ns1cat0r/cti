@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4cb732e1-e561-46d1-bc27-42b6f12e83c9",
+    "id": "bundle--a9633185-fd4b-4580-9820-cb48c63638bf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c7c1411a-42c8-4d7e-9b56-0465370759de",
             "created": "2020-12-11T20:13:44.830Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA ComRAT Oct 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:09:38.727Z",
+            "modified": "2026-04-29T14:23:06.198Z",
             "description": "[ComRAT](https://attack.mitre.org/software/S0126) has checked the victim system's date and time to perform tasks during business hours (9 to 5, Monday to Friday).(Citation: CISA ComRAT Oct 2020) ",
             "relationship_type": "uses",
             "source_ref": "malware--da5880b4-f7da-4869-85f2-e0aba84b8565",
             "target_ref": "attack-pattern--f3c544dc-673c-4ef3-accb-53229f1ae077",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4d1096c1-3661-4a6c-8cee-176909a3376d",
+    "id": "bundle--83bef3e1-6549-4722-b8c0-e89785948f83",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7850d933-120b-4ae6-998d-8dc4dfd6d164",
             "created": "2020-01-27T17:49:05.664Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro Bouncing Golf 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:29:19.672Z",
+            "modified": "2026-04-29T14:23:06.089Z",
             "description": "(Citation: Trend Micro Bouncing Golf 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--049cef3b-22d5-4be6-b50c-9839c7a34fdd",
             "target_ref": "malware--c19cfc89-5ac6-4d2d-a236-70d2b32e007c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

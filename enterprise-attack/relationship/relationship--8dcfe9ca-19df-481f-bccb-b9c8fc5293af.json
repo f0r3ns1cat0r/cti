@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4bbd3d49-9e83-4604-aa40-c48741d6d92a",
+    "id": "bundle--432ee215-2772-4c38-9e3d-451f0d9471c4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8dcfe9ca-19df-481f-bccb-b9c8fc5293af",
             "created": "2025-01-03T20:50:35.018Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Huntress LightSpy macOS 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:30:57.747Z",
+            "modified": "2026-04-29T14:23:06.118Z",
             "description": "[LightSpy](https://attack.mitre.org/software/S1185)'s configuration file is appended to the end of the binary. For example, the last `0x1d0` bytes of one sample is an AES encrypted configuration file with a static key of `3e2717e8b3873b29`.(Citation: Huntress LightSpy macOS 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--5b5d1e6c-e7de-4b46-ab8f-8556e8745927",
             "target_ref": "attack-pattern--5bfccc3f-2326-4112-86cc-c1ece9d8a2b5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

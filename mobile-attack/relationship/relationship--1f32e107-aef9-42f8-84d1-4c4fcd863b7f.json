@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--74cf19be-6606-4fb2-b59d-d4eae493a618",
+    "id": "bundle--cd6e23af-f694-4ad3-88cd-c324c1458d18",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1f32e107-aef9-42f8-84d1-4c4fcd863b7f",
             "created": "2023-02-28T20:39:57.194Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "proofpoint_flubot_0421",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:47:21.822Z",
+            "modified": "2026-04-29T14:23:05.947Z",
             "description": "[FluBot](https://attack.mitre.org/software/S1067) can use Domain Generation Algorithms to connect to the C2 server.(Citation: proofpoint_flubot_0421)",
             "relationship_type": "uses",
             "source_ref": "malware--f5ff006c-702f-4ded-8e60-ca6c540d91bc",
             "target_ref": "attack-pattern--fd211238-f767-4599-8c0d-9dca36624626",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--769074e5-ad17-4620-ab4b-3a838362563c",
+    "id": "bundle--0e9bd528-a624-45a5-a322-a6ce4c06600f",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--0bd280ab-7977-4ef9-b577-6c6a6014b179",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.668Z",
             "name": "Detection of System Checks",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -30,8 +31,7 @@
             "x_mitre_analytic_refs": [
                 "x-mitre-analytic--66adf2b9-42aa-401f-8bc3-3830854017ee",
                 "x-mitre-analytic--c956f269-d282-4c68-afc6-ca68d8532ab6"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

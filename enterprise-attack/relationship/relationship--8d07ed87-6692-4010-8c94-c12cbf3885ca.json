@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b9332142-4cbb-46da-9ec2-eb29691eff6f",
+    "id": "bundle--ccbeadb4-0723-45ff-9498-028dea161be7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8d07ed87-6692-4010-8c94-c12cbf3885ca",
             "created": "2021-07-27T14:27:32.017Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybersecurity Advisory GRU Brute Force Campaign July 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:58:54.913Z",
+            "modified": "2026-04-29T14:23:06.117Z",
             "description": "[APT28](https://attack.mitre.org/groups/G0007) has collected files from various information repositories.(Citation: Cybersecurity Advisory GRU Brute Force Campaign July 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--d28ef391-8ed4-45dc-bc4a-2f43abf54416",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0bb4b783-cf86-4018-9076-45ccdc7f44f4",
+    "id": "bundle--b3899ca7-ba6e-4386-b8e3-c23645862015",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--81d5c85f-ea7c-47a2-879c-df34e93d88c2",
             "created": "2019-10-11T16:13:19.709Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye FIN7 Oct 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:56:52.734Z",
+            "modified": "2026-04-29T14:23:06.103Z",
             "description": "[RDFSNIFFER](https://attack.mitre.org/software/S0416) has the capability of deleting local files.(Citation: FireEye FIN7 Oct 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--065196de-d7e8-4888-acfb-b2134022ba1b",
             "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

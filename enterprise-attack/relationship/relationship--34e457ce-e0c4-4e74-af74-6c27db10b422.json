@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--da574ca6-b9f6-44c6-a872-021b4dfd12e7",
+    "id": "bundle--a2b287bd-b58d-4177-9289-e90f0928adf5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T17:54:35.626Z",
+            "modified": "2026-04-29T14:23:05.990Z",
             "description": "[RustyWater](https://attack.mitre.org/software/S9037) has used the Rust request library for HTTP C2 communication.(Citation: CloudSEK_RustyWater_Jan2026)",
             "relationship_type": "uses",
             "source_ref": "malware--50be4e81-db74-41a2-a9aa-423314082bea",

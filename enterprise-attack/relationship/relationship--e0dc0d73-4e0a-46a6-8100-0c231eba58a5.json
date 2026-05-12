@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--43186a37-65ae-4df4-9979-624b4cfec322",
+    "id": "bundle--f054cc56-e856-4efb-a341-dc8d86f83fac",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e0dc0d73-4e0a-46a6-8100-0c231eba58a5",
             "created": "2024-07-25T22:34:11.462Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET EvasivePanda 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T23:09:28.616Z",
+            "modified": "2026-04-29T14:23:06.232Z",
             "description": "[Nightdoor](https://attack.mitre.org/software/S1147) gathers information on the victim system such as CPU and Computer name as well as device drivers.(Citation: ESET EvasivePanda 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--51f78dfc-52f9-424e-8753-bb4246188313",

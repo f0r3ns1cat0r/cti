@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--496caf22-f142-4d17-84fc-2a740fe77333",
+    "id": "bundle--c3d471b7-a071-4a8a-a9e8-ea8c47236066",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--029a75f4-62a8-4c9e-bdf2-ea2d8aed8900",
             "created": "2020-08-26T15:20:09.635Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "NSA/FBI Drovorub August 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:32:04.302Z",
+            "modified": "2026-04-29T14:23:05.906Z",
             "description": "[Drovorub](https://attack.mitre.org/software/S0502) can use the WebSocket protocol and has initiated communication with C2 servers with an HTTP Upgrade request.(Citation: NSA/FBI Drovorub August 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--99164b38-1775-40bc-b77b-a2373b14540a",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b81c7f34-6d4d-49a7-91f6-703d0587bf18",
+    "id": "bundle--06ab65e9-dc1c-419e-8a6e-8dd500eda87f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8e1cc8cd-8344-4ba4-9d61-05e63b54bc6b",
             "created": "2021-09-24T21:47:23.060Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Securelist APT Trends Q2 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:59:08.749Z",
+            "modified": "2026-04-29T14:23:06.119Z",
             "description": "(Citation: Securelist APT Trends Q2 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--e5603ea8-4c36-40e7-b7af-a077d24fedc1",
             "target_ref": "malware--b42378e0-f147-496f-992a-26a49705395b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

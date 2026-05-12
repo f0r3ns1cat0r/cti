@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3562b406-3f22-4670-82ce-ee49a9e421e7",
+    "id": "bundle--73629218-3154-4073-bf0a-d8ec326f6360",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:38:54.506Z",
+            "modified": "2026-04-29T14:23:06.023Z",
             "description": "[SILENTTRINITY](https://attack.mitre.org/software/S0692)'s `amsiPatch.py` module can disable Antimalware Scan Interface (AMSI) functions.(Citation: GitHub SILENTTRINITY Modules July 2019)",
             "relationship_type": "uses",
             "source_ref": "tool--1244e058-fa10-48cb-b484-0bcf671107ae",

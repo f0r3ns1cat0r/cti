@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--4680221d-87d8-41f5-8fee-0c96b9162c1f",
+    "id": "bundle--e5eff717-9add-412e-8949-ad45a4780767",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--ee674b38-f59a-4f21-860a-19d065e13aaf",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.697Z",
             "name": "Detection of Direct Volume Access for File System Evasion",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -30,8 +31,7 @@
             "x_mitre_analytic_refs": [
                 "x-mitre-analytic--126a43e3-7b39-4312-ba15-aab0f7ce78f9",
                 "x-mitre-analytic--892f06ae-6a95-438b-8219-49b3384a4d24"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

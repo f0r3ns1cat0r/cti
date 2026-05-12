@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9b106dfe-ff82-4fba-8ad4-547d69404548",
+    "id": "bundle--512f21d5-806d-471d-9571-08bd32cb492f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1cc9d9cb-1671-44a3-916c-bf191490946c",
             "created": "2024-09-18T18:19:26.521Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Bitsight Latrodectus June 2024",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:00:34.493Z",
+            "modified": "2026-04-29T14:23:05.944Z",
             "description": "[Latrodectus](https://attack.mitre.org/software/S1160) can discover the IP and MAC address of a targeted host.(Citation: Elastic Latrodectus May 2024)(Citation: Bitsight Latrodectus June 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--76fde8df-3495-47c9-82eb-125c4f7fb621",
             "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

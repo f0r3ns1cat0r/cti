@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3aa76689-f50d-4624-8f0e-629949cf9024",
+    "id": "bundle--b1dd1dc3-a14c-45fa-8ae3-0c59589640d1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5543599a-779f-4955-8f3e-99cc92b1e2fc",
             "created": "2021-02-25T16:48:06.231Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 IronNetInjector February 2021 ",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:15:51.724Z",
+            "modified": "2026-04-29T14:23:06.042Z",
             "description": "(Citation: Unit 42 IronNetInjector February 2021 )",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
             "target_ref": "tool--b1595ddd-a783-482a-90e1-8afc8d48467e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

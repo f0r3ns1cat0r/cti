@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5ca60c9a-d67a-4047-a0f8-e1dfad7429cf",
+    "id": "bundle--c7e3619c-6247-4421-a3c1-0dcc0356ebb9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--16c7058c-8fa5-4477-8332-9e76fcb38924",
             "created": "2017-05-31T21:33:27.071Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye FIN6 April 2016",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:58:50.542Z",
+            "modified": "2026-04-29T14:23:05.935Z",
             "description": "[FIN6](https://attack.mitre.org/groups/G0037) has used Metasploit\u2019s [PsExec](https://attack.mitre.org/software/S0029) NTDSGRAB module to obtain a copy of the victim's Active Directory database.(Citation: FireEye FIN6 April 2016)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
             "target_ref": "attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

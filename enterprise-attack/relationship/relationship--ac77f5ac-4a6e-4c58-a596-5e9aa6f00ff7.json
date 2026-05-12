@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--04c04d3f-4951-48e7-8abb-bda645b0afa3",
+    "id": "bundle--aa6aaca3-f961-4e46-bab1-d841160b893a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ac77f5ac-4a6e-4c58-a596-5e9aa6f00ff7",
             "created": "2021-04-12T20:07:50.387Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Eset PlugX Korplug Mustang Panda March 2022",
@@ -108,7 +109,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:19:24.087Z",
+            "modified": "2026-04-29T14:23:06.160Z",
             "description": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used a legitimately signed executable to execute a malicious payload within a DLL file.(Citation: Eset PlugX Korplug Mustang Panda March 2022)(Citation: Anomali MUSTANG PANDA October 2019)(Citation: Cisco Talos MUSTANG PANDA PLUGX PUBLOAD MAY 2022)(Citation: Broadcom)(Citation: EclecticIQ Mustang Panda PlugX)(Citation: Recorded Future REDDELTA July 2020)(Citation: Palo Alto Unit42 STATELY TAURUS TONESHELL September 2023)(Citation: Trend Micro Mustang Panda Earth Preta Toneshell February 2025)(Citation: 2022 November_TrendMicro_Earth Preta_Toneshell_Pubload)(Citation: Proofpoint TA416 November 2020)(Citation: Unit42 Bookworm Nov2015)(Citation: Sophos PlugX September 2022)(Citation: Zscaler PAKLOG CorkLog SplatCloak Splatdropper April 2025)(Citation: Zscaler) [Mustang Panda](https://attack.mitre.org/groups/G0129) has abused legitimate executables to side-load malicious DLLs.(Citation: CSIRT CTI MUSTANG PANDA PUBLOAD TONESHELL JAN 2024)(Citation: Lab52 MUSTANG PANDA PUBLOAD MAY 2023)(Citation: IBM MUSTANG PANDA PUBLOAD CLAIMLOADER JUNE 2025)(Citation: 2025_IBM_PUBLOAD_TONESHELL_HIUPAN_CLAIMLOADER_MUSTANG PANDA)(Citation: Google Threat Intelligence Group MUSTANG PANDA PLUGX August 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--420ac20b-f2b9-42b8-aa1a-6d4b72895ca4",

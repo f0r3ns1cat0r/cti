@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--23b36637-185b-45ee-b994-3dec28d42ca6",
+    "id": "bundle--80904ed8-0b49-4a02-a9f2-0174c5700c77",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1f972385-7f1c-4cbd-a071-951973e6d229",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "F-Secure The Dukes",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:01:19.848Z",
+            "modified": "2026-04-29T14:23:05.947Z",
             "description": "Some [MiniDuke](https://attack.mitre.org/software/S0051) components use Twitter to initially obtain the address of a C2 server or as a backup if no hard-coded C2 server responds.(Citation: F-Secure The Dukes)(Citation: Securelist MiniDuke Feb 2013)(Citation: ESET Dukes October 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--5e7ef1dc-7fb6-4913-ac75-e06113b59e0c",
             "target_ref": "attack-pattern--f7827069-0bf2-4764-af4f-23fae0d181b7",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

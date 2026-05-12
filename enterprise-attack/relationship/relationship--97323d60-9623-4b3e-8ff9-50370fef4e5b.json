@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0e44bdec-9f80-4975-bafb-60f8dfd5fead",
+    "id": "bundle--0aa2c9ba-4a1b-417f-ac6b-9f1fc1039a67",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--97323d60-9623-4b3e-8ff9-50370fef4e5b",
             "created": "2020-05-11T22:12:28.717Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye MESSAGETAP October 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:00:54.557Z",
+            "modified": "2026-04-29T14:23:06.131Z",
             "description": "After checking for the existence of two files, keyword_parm.txt and parm.txt, [MESSAGETAP](https://attack.mitre.org/software/S0443) XOR decodes and read the contents of the files. (Citation: FireEye MESSAGETAP October 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--9b19d6b4-cfcb-492f-8ca8-8449e7331573",
             "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fc6d5e8f-37cf-4dc4-bad3-48fa08aebb15",
+    "id": "bundle--8081b136-5c74-4330-b488-93fab79a6ca7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e05db24d-57e8-40e9-a412-819ac5592ed8",
             "created": "2024-06-10T17:39:33.165Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Huntress INC Ransomware May 2024",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:52:31.995Z",
+            "modified": "2026-04-29T14:23:06.231Z",
             "description": "[INC Ransom](https://attack.mitre.org/groups/G1032) has downloaded tools to compromised servers including Advanced IP Scanner. (Citation: Huntress INC Ransom Group August 2023)(Citation: Huntress INC Ransomware May 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--cb41e991-65f4-4668-a65f-f4200545b5a1",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

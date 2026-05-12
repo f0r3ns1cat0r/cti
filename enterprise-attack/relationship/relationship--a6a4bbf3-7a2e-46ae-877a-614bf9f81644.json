@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9da056b8-08f4-4e12-b5e6-6467cb1f977e",
+    "id": "bundle--67c10e8e-78a5-41f7-b81e-a5921b2dc2d0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a6a4bbf3-7a2e-46ae-877a-614bf9f81644",
             "created": "2021-03-12T16:55:09.334Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MSTIC NOBELIUM Mar 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:03:47.656Z",
+            "modified": "2026-04-29T14:23:06.152Z",
             "description": "[GoldMax](https://attack.mitre.org/software/S0588) has used decoy traffic to surround its malicious network traffic to avoid detection.(Citation: MSTIC NOBELIUM Mar 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--5c747acd-47f0-4c5a-b9e5-213541fc01e0",
             "target_ref": "attack-pattern--f7c0689c-4dbd-489b-81be-7cb7c7079ade",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

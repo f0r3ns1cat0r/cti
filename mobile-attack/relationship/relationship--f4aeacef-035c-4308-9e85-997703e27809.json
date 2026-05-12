@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a5c3dc18-6383-4a04-911f-626ae935fc2f",
+    "id": "bundle--4bb56a58-1ca3-4bac-8c6b-43eb7143c519",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f4aeacef-035c-4308-9e85-997703e27809",
             "created": "2020-01-27T17:05:58.305Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro Bouncing Golf 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:52:30.473Z",
+            "modified": "2026-04-29T14:23:06.257Z",
             "description": "[GolfSpy](https://attack.mitre.org/software/S0421) can delete arbitrary files on the device.(Citation: Trend Micro Bouncing Golf 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--c19cfc89-5ac6-4d2d-a236-70d2b32e007c",
             "target_ref": "attack-pattern--ab7400b7-3476-4776-9545-ef3fa373de63",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

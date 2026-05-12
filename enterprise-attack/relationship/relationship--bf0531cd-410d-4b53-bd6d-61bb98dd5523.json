@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--242087cc-8244-42ee-8daf-70499ad36a76",
+    "id": "bundle--ff7f1da4-00eb-4b3f-850b-2d07c603c32f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bf0531cd-410d-4b53-bd6d-61bb98dd5523",
             "created": "2025-10-20T20:14:38.546Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Cloud Threat Intelligence ESXi VIBs 2022",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-20T20:14:38.546Z",
+            "modified": "2026-04-29T14:23:06.186Z",
             "description": "[VIRTUALPITA](https://attack.mitre.org/software/S1217) is capable of file transfer and arbitrary command execution.(Citation: Google Cloud Threat Intelligence ESXi VIBs 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--df0b59fe-0193-49ea-84e1-9207139c716c",

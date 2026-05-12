@@ -1,11 +1,10 @@
 {
     "type": "bundle",
-    "id": "bundle--2c11029f-b2c5-4cd2-b4ed-0c0b4e2c831d",
+    "id": "bundle--ca02a4ec-747e-4d0e-aa75-a437e0e113e2",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--f0190654-2eda-42a7-9a4d-6edc95aada02",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -20,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:25:34.812Z",
+            "modified": "2026-05-12T16:30:18.391Z",
             "name": "Detection Strategy for Disable or Modify Cloud Log",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,

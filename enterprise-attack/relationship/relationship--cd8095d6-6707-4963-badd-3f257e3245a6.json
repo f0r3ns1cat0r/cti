@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d0f5eb5c-a743-4152-8ec5-d409a6b423d3",
+    "id": "bundle--43a6ec1c-ae36-4412-b78b-224268d213f9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:10:06.430Z",
+            "modified": "2026-04-29T14:23:06.206Z",
             "description": "[Conficker](https://attack.mitre.org/software/S0608) terminates various services related to system security and Windows.(Citation: SANS Conficker)",
             "relationship_type": "uses",
             "source_ref": "malware--58eddbaf-7416-419a-ad7b-e65b9d4c3b55",

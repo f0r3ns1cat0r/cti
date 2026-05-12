@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--77f196d3-5267-4702-9a2f-c070ae1761e2",
+    "id": "bundle--319a3ba6-69ac-45bd-855e-a18e49341689",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-01T14:50:46.895Z",
+            "modified": "2026-05-12T16:30:18.377Z",
             "name": "Analytic 1665",
             "description": "An application is granted or maintains notification listener access, observes notification content from other applications (including sensitive sources such as SMS/email/2FA apps), processes or stores notification payloads, and optionally suppresses or programmatically interacts with notifications (dismiss/action triggers) without corresponding foreground user interaction. Detection correlates special access permission state + notification event interception + application background state + downstream data use (local write or network transmission).",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

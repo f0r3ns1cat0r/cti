@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--60a53950-5cb2-4519-9e20-e57fe05c59cc",
+    "id": "bundle--55850e3b-4611-4a95-9378-a03a762f1eba",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e0585bfc-e890-43ef-8ab4-0da3f5814ed4",
             "created": "2025-02-25T17:52:50.205Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Nearest Neighbor Volexity",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:52:31.804Z",
+            "modified": "2026-04-29T14:23:06.231Z",
             "description": "During [APT28 Nearest Neighbor Campaign](https://attack.mitre.org/campaigns/C0051), [APT28](https://attack.mitre.org/groups/G0007) leveraged SMB to transfer files and move laterally.(Citation: Nearest Neighbor Volexity)",
             "relationship_type": "uses",
             "source_ref": "campaign--a010610e-22cb-437e-bfde-b78861bdca7a",
             "target_ref": "attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

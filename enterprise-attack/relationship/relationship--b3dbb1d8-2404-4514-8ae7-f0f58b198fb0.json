@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4b5ac966-cac2-4482-84af-d1fba9686f1b",
+    "id": "bundle--3ddfcba8-f5b9-4215-b35c-fcd856cdef16",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b3dbb1d8-2404-4514-8ae7-f0f58b198fb0",
             "created": "2021-03-12T16:55:09.307Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MSTIC NOBELIUM Mar 2021",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:06:08.013Z",
+            "modified": "2026-04-29T14:23:06.171Z",
             "description": "[GoldMax](https://attack.mitre.org/software/S0588) has used HTTPS and HTTP GET requests with custom HTTP cookies for C2.(Citation: MSTIC NOBELIUM Mar 2021)(Citation: FireEye SUNSHUTTLE Mar 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--5c747acd-47f0-4c5a-b9e5-213541fc01e0",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

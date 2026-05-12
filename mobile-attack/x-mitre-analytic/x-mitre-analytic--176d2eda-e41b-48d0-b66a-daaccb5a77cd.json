@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--809cde2e-0468-461b-a5a5-b7a4caa00c6b",
+    "id": "bundle--e237d2a6-4274-403d-add8-e4fa21b43be6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:30:17.842Z",
+            "modified": "2026-05-12T16:30:18.376Z",
             "name": "Analytic 1801",
             "description": "Correlates (1) a malicious application gaining or using a removal-capable control path, such as device owner or delegated app-management authority, accessibility service control over uninstall UI, or rooted filesystem access, (2) initiation of uninstall or package-removal behavior, and (3) disappearance of the application from installed-state inventory or app runtime immediately afterward, often with a short-lived final burst of local cleanup or outbound communication. The defender observes a causal chain where the application first establishes the ability to remove itself, then triggers uninstall or deletion, and then vanishes from expected app presence while device activity continues.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--52fed15c-67b6-455c-a754-11cf8215435d",
+    "id": "bundle--c2fb9ffd-85bb-413f-9734-49db67f0adc8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9c3ada08-1908-4458-a454-d91fda25ad04",
             "created": "2020-08-12T17:52:48.629Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Secureworks IRON LIBERTY July 2019",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:01:52.475Z",
+            "modified": "2026-04-29T14:23:06.138Z",
             "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) has placed trojanized installers for control system software on legitimate vendor app stores.(Citation: Secureworks IRON LIBERTY July 2019)(Citation: Gigamon Berserk Bear October 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
             "target_ref": "attack-pattern--bd369cd9-abb8-41ce-b5bb-fff23ee86c00",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5883a0db-2f64-47a0-b11d-8294d98685fb",
+    "id": "bundle--f95a3342-e689-4524-a4da-e00a5b8b59ea",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a392aa7e-b3ce-477c-acfc-e0f6b1d38556",
             "created": "2020-03-27T20:48:50.996Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Gazer Aug 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:03:13.856Z",
+            "modified": "2026-04-29T14:23:06.147Z",
             "description": "[Gazer](https://attack.mitre.org/software/S0168) uses custom encryption for C2 that uses 3DES.(Citation: ESET Gazer Aug 2017)(Citation: Securelist WhiteBear Aug 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--76abb3ef-dafd-4762-97cb-a35379429db4",
             "target_ref": "attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6d5637d4-aed2-4b11-a951-b8b55d31392a",
+    "id": "bundle--843bb533-33e6-41dd-87db-ab04da502ee3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--3450fcde-caba-4595-b28b-99f18b4a4b7a",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "BH Manul Aug 2016",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:42:21.461Z",
+            "modified": "2026-04-29T14:23:05.989Z",
             "description": "[Bandook](https://attack.mitre.org/software/S0234) contains keylogging capabilities.(Citation: BH Manul Aug 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--835a79f1-842d-472d-b8f4-d54b545c341b",
             "target_ref": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4d802bab-9049-40f4-8130-fa74c692c4d9",
+    "id": "bundle--c3d1af5f-a384-4d3d-8587-48d53c8eaa7b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--855bcd64-ef37-4197-8d3e-2c147d42d774",
             "created": "2020-06-01T14:41:54.778Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Korean FSI TA505 2020",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:28:43.496Z",
+            "modified": "2026-04-29T14:23:06.107Z",
             "description": "[SDBbot](https://attack.mitre.org/software/S0461) has the ability to identify the OS version, OS bit information and computer name.(Citation: Proofpoint TA505 October 2019)(Citation: Korean FSI TA505 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--92b03a94-7147-4952-9d5a-b4d24da7487c",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--66016d8a-2fb4-4d79-979a-7f48da7d3b19",
+    "id": "bundle--2b361675-a330-4488-bcb1-e0a39829e5d6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:41:49.166Z",
+            "modified": "2026-04-29T14:23:05.907Z",
             "description": "[Apostle](https://attack.mitre.org/software/S1133) will attempt to delete all event logs on a victim machine following file wipe activity.(Citation: SentinelOne Agrius 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--48d96fa0-d027-45aa-a8c3-5d09f65d596d",

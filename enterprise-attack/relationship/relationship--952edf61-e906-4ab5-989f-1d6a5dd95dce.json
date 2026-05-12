@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cc46bdc3-6c6e-4583-a13a-542abab9cea3",
+    "id": "bundle--b2f2187e-71f5-4a0b-8af6-ea6d06851837",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--952edf61-e906-4ab5-989f-1d6a5dd95dce",
             "created": "2020-03-17T14:52:21.694Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ClearSky OilRig Jan 2017",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:32:59.252Z",
+            "modified": "2026-04-29T14:23:06.128Z",
             "description": "[OilRig](https://attack.mitre.org/groups/G0049) has delivered malicious links to achieve execution on the target system.(Citation: Unit 42 OopsIE! Feb 2018)(Citation: Unit 42 QUADAGENT July 2018)(Citation: Crowdstrike Helix Kitten Nov 2018)(Citation: ClearSky OilRig Jan 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
             "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

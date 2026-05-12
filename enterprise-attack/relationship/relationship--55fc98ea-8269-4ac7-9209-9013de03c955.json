@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3d15cd25-1a22-42dc-9d3c-6498a1c1625a",
+    "id": "bundle--e25dbdfd-dd9b-4cbc-b0f9-0df5ad626e33",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--55fc98ea-8269-4ac7-9209-9013de03c955",
             "created": "2024-03-06T19:22:53.800Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Volexity Ivanti Zero-Day Exploitation January 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:16:03.550Z",
+            "modified": "2026-04-29T14:23:06.043Z",
             "description": "[GLASSTOKEN](https://attack.mitre.org/software/S1117) has the ability to decode hexadecimal and Base64 C2 requests.(Citation: Volexity Ivanti Zero-Day Exploitation January 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--554e010d-726b-439d-9a1a-f60fff0cc109",
             "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

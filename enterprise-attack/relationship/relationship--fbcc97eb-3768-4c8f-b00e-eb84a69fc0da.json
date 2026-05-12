@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--47ef0a79-7a12-4528-a71b-6673698416e1",
+    "id": "bundle--b73214e4-8600-4d1b-81a8-64e617516165",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T21:15:13.745Z",
+            "modified": "2026-04-29T14:23:06.267Z",
             "description": "[SPAWNCHIMERA](https://attack.mitre.org/software/S9024) has obtained system information such as release, uptime, and current time.(Citation: Google UNC5221 BRICKSTORM SPAWNCHIMERA April 2024)  ",
             "relationship_type": "uses",
             "source_ref": "malware--d1974f35-0e06-478e-bc74-7530545d814b",

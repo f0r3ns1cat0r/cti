@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e13695fa-3266-4af2-9b69-77f0d57080d6",
+    "id": "bundle--9f7eeb8c-d543-4df3-ad9a-9e8aacf3d152",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--069fef69-8f09-4ba2-80f9-79e07e559d5c",
             "created": "2025-03-05T21:43:37.462Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MSFT-AI",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:54:37.485Z",
+            "modified": "2026-04-29T14:23:05.912Z",
             "description": "[APT28](https://attack.mitre.org/groups/G0007) has used large language models (LLMs) to gather information about satellite capabilities.(Citation: MSFT-AI)(Citation: OpenAI-CTI) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--937e4772-8441-4e4a-8bf0-8d447d667e23",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

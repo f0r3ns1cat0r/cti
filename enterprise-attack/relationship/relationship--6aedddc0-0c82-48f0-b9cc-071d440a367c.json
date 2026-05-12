@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0b4abf02-3109-4141-9acf-dbd2f25fa319",
+    "id": "bundle--4c04a9f3-227e-4a0a-94c4-174e99e707f6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6aedddc0-0c82-48f0-b9cc-071d440a367c",
             "created": "2023-03-08T20:40:34.782Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "BlackBerry Black Basta May 2022",
@@ -63,14 +64,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:21:34.133Z",
+            "modified": "2026-04-29T14:23:06.071Z",
             "description": "[Black Basta](https://attack.mitre.org/software/S1070) can encrypt files with the ChaCha20 cypher and using a multithreaded process to increase speed.(Citation: Minerva Labs Black Basta May 2022)(Citation: BlackBerry Black Basta May 2022)(Citation: Cyble Black Basta May 2022)(Citation: NCC Group Black Basta June 2022)(Citation: Uptycs Black Basta ESXi June 2022)(Citation: Deep Instinct Black Basta August 2022)(Citation: Palo Alto Networks Black Basta August 2022)(Citation: Trend Micro Black Basta Spotlight September 2022)(Citation: Check Point Black Basta October 2022) [Black Basta](https://attack.mitre.org/software/S1070) has also encrypted files while the victim system is in safe mode, appending `.basta` upon completion.(Citation: Trend Micro Black Basta May 2022) ",
             "relationship_type": "uses",
             "source_ref": "malware--8d242fb4-9033-4f13-8a88-4b9b4bcd9a53",
             "target_ref": "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

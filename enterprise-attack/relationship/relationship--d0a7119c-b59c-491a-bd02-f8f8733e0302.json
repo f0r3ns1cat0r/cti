@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e66392a8-93c8-4c36-b42a-a14cffaf4cd7",
+    "id": "bundle--39bd9c37-cc14-4ad0-8857-0f73e024c545",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T21:13:41.846Z",
+            "modified": "2026-04-29T14:23:06.211Z",
             "description": "[LP-Notes](https://attack.mitre.org/software/S9036) has searched for the process taskhostw.exe.(Citation: ESET_MuddyWater_Dec2025)",
             "relationship_type": "uses",
             "source_ref": "malware--7fbf1f1e-cbd8-4060-8e3b-7ca0e56ce3fe",

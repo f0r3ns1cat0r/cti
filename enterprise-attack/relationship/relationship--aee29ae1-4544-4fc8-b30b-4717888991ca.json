@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dc604c66-95a8-4c65-8639-37cf2b4ef8c1",
+    "id": "bundle--d96972de-128e-4af6-a417-ee59b84de3ff",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--aee29ae1-4544-4fc8-b30b-4717888991ca",
             "created": "2020-07-15T19:28:00.717Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Gh0stRAT ATT March 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:39:48.512Z",
+            "modified": "2026-04-29T14:23:06.163Z",
             "description": "[gh0st RAT](https://attack.mitre.org/software/S0032) has gathered system architecture, processor, OS configuration, and installed hardware information.(Citation: Gh0stRAT ATT March 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--88c621a7-aef9-4ae0-94e3-1fc87123eb24",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

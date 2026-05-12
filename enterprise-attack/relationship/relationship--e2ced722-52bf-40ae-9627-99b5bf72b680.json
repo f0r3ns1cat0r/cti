@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--311654c3-d7ce-49a2-bb10-c4a518130fa2",
+    "id": "bundle--dc93c5d3-4896-474a-a8e7-c8721d302bde",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e2ced722-52bf-40ae-9627-99b5bf72b680",
             "created": "2023-07-31T17:46:24.769Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA AA24-038A PRC Critical Infrastructure February 2024",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:53:09.805Z",
+            "modified": "2026-04-29T14:23:06.234Z",
             "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has used legitimate network and forensic tools and customized versions of open-source tools for C2.(Citation: Microsoft Volt Typhoon May 2023)(Citation: CISA AA24-038A PRC Critical Infrastructure February 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
             "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

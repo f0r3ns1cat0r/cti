@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--24cb914e-25bd-4c61-b666-f77208c3f1ac",
+    "id": "bundle--16e5a0df-138b-42e2-b793-af2d733836ca",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bb783450-26d4-4b32-99d4-886df8b3120a",
             "created": "2025-10-20T11:38:12.700Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Embargo Ransomware October 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-20T20:18:19.405Z",
+            "modified": "2026-04-29T14:23:06.181Z",
             "description": "[Embargo](https://attack.mitre.org/software/S1247) has leveraged MDeployer to terminate the MS4Killer process, delete the decrypted payload files and a driver file dropped by MS4killer, and reboot the system.(Citation: ESET Embargo Ransomware October 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--82adb90e-43b8-4bce-9efe-afeba65457b2",

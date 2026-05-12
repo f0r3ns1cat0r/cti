@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1afc458b-c6fc-4e91-a738-427c2bbf88af",
+    "id": "bundle--9e658c62-dfd3-4d7b-8560-ce1663d5421b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c51741a8-7c08-4d6e-9d6a-02da7cc8cc83",
             "created": "2019-04-12T15:20:35.915Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT38 Oct 2018",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-11-13T19:21:05.140Z",
+            "modified": "2026-04-29T14:23:06.195Z",
             "description": "[APT38](https://attack.mitre.org/groups/G0082) has used DYEPACK.FOX to manipulate PDF data as it is accessed to remove traces of fraudulent SWIFT transactions from the data displayed to the end user.(Citation: FireEye APT38 Oct 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",

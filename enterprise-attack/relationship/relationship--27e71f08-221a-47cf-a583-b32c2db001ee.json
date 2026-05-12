@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--989ff2e3-fa7b-4ff8-a4ff-e8514dc491cb",
+    "id": "bundle--be6695e7-a9d8-4c8c-9bc9-4d6f8eb62274",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--27e71f08-221a-47cf-a583-b32c2db001ee",
             "created": "2025-01-29T21:15:32.778Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason StealBit Exfiltration Tool",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:03:33.955Z",
+            "modified": "2026-04-29T14:23:05.959Z",
             "description": "[StealBit](https://attack.mitre.org/software/S1200) can use interprocess communication (IPC) to enable the designation of multiple files for exfiltration in a scalable manner.(Citation: Cybereason StealBit Exfiltration Tool)\n",
             "relationship_type": "uses",
             "source_ref": "malware--cf8b27df-c494-4a0c-b093-556a80ad2bcf",
             "target_ref": "attack-pattern--acd0ba37-7ba9-4cc5-ac61-796586cd856d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9bac516a-c28d-4f46-8bab-9d34d92e76ad",
+    "id": "bundle--ce37e59f-7f7f-443c-bd05-962379192e19",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--109c7cc7-fec6-4d86-ae27-087cddb2670c",
             "created": "2019-07-19T16:38:05.473Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Soft Cell June 2019",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:35:09.941Z",
+            "modified": "2026-04-29T14:23:05.926Z",
             "description": "(Citation: Cybereason Soft Cell June 2019)(Citation: Microsoft GALLIUM December 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
             "target_ref": "malware--5a3a31fe-5a8f-48e1-bff0-a753e5b1be70",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

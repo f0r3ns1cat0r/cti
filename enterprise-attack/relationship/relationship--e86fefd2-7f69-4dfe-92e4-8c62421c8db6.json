@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1037a07a-f4f9-4308-b6f0-2a54d63fa403",
+    "id": "bundle--ec1ce819-c678-43fe-be39-948f54d01329",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e86fefd2-7f69-4dfe-92e4-8c62421c8db6",
             "created": "2025-10-16T18:54:59.314Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto SharePoint Vulnerabilities JUL 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-16T19:46:03.129Z",
+            "modified": "2026-04-29T14:23:06.241Z",
             "description": "During [SharePoint ToolShell Exploitation](https://attack.mitre.org/campaigns/C0058), threat actors scanned for SharePoint servers vulnerable to CVE-2025-53770.(Citation: Palo Alto SharePoint Vulnerabilities JUL 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--1a0576df-df21-4775-843e-844d8a58a94b",

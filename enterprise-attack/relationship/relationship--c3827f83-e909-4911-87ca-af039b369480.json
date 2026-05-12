@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b8dffbac-fa4c-4313-943f-4b9369ddefa1",
+    "id": "bundle--15a662b2-bcab-4c26-b925-4744f7e06da3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T12:30:29.065Z",
+            "modified": "2026-04-29T14:23:06.192Z",
             "description": "[WIRTE](https://attack.mitre.org/groups/G0090) has used utilized look-alike domains and graphics of trusted security solution providers to entice victims to click on phishing links.(Citation: Check Point Wirte NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f8cb7b36-62ef-4488-8a6d-a7033e3271c1",

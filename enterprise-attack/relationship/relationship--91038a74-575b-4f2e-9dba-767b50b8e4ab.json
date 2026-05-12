@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--045a9cd8-21b4-45af-be86-f697d5d6783c",
+    "id": "bundle--db7816e1-e696-490e-bd45-871c90a3082f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--91038a74-575b-4f2e-9dba-767b50b8e4ab",
             "created": "2020-07-01T21:19:30.586Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MacKeeper Bundlore Apr 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:59:41.027Z",
+            "modified": "2026-04-29T14:23:06.123Z",
             "description": "[Bundlore](https://attack.mitre.org/software/S0482) has the ability to enumerate what browser is being used as well as version information for Safari.(Citation: MacKeeper Bundlore Apr 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--7bef1b56-4870-4e74-b32a-7dd88c390c44",
             "target_ref": "attack-pattern--e3b6daca-e963-4a69-aee6-ed4fd653ad58",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

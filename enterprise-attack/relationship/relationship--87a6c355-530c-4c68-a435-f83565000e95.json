@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6ba19e02-b81c-4fa9-a851-038ed8bc6dab",
+    "id": "bundle--c426fa72-2fd3-4f4b-bdbe-155126fd7776",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T14:40:35.968Z",
+            "modified": "2026-04-29T14:23:06.110Z",
             "description": "[Tsundere Botnet](https://attack.mitre.org/software/S9034) has the ability to run JavaScript code from the C2 server. Additionally, [Tsundere Botnet](https://attack.mitre.org/software/S9034) has used Node.js to execute JavaScript code for the loader component.(Citation: SecureListUbiedo_Tsundere_Nov2025) ",
             "relationship_type": "uses",
             "source_ref": "malware--18f5f8c6-bba5-4aba-93e7-3539fe565883",

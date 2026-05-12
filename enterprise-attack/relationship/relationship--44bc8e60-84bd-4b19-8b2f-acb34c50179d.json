@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--73a8411d-28a4-462b-9295-0c91feaf5a4f",
+    "id": "bundle--8982a675-d324-461f-b150-cf0e9320f0c6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T00:09:20.003Z",
+            "modified": "2026-04-29T14:23:06.019Z",
             "description": "[BRICKSTORM](https://attack.mitre.org/software/S9015) has copied itself to the `usr/sbin/` folder.(Citation: CISA BRICKSTORM UNC5221 AR25-338A February 2026)",
             "relationship_type": "uses",
             "source_ref": "malware--0450ed20-e9a7-4799-b601-2f2710300796",

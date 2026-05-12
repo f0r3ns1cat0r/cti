@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ed76f953-6edf-4d05-a299-b57da55ae902",
+    "id": "bundle--3c3b43cb-bb84-4207-8958-edbd3c08a639",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--af251a47-d612-47ed-8f46-a064bd8ed80f",
             "created": "2026-04-09T19:57:22.387Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Aikido Shai-Hulud September 2025",
@@ -43,7 +44,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T19:57:22.387Z",
+            "modified": "2026-04-29T14:23:06.163Z",
             "description": "[Shai-Hulud](https://attack.mitre.org/software/S9008) has inserted a new lifecycle hook to include `postinstall`.(Citation: Aikido Shai-Hulud September 2025)(Citation: Palo Alto Unit 42 Shai-Hulud November 2025)(Citation: Wiz Shai-Hulud September 2025)(Citation: Socket Shai-Hulud November 2025) [Shai-Hulud](https://attack.mitre.org/software/S9008) has also leveraged the NPM lifecycle hook `preinstall`.(Citation: Netskope Shai-Hulud November 2025)(Citation: Palo Alto Unit 42 Shai-Hulud November 2025)(Citation: Microsoft Shai-Hulud December 2025)(Citation: Socket Shai-Hulud November 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--de376fb9-1093-4f59-8d13-aed61042701d",

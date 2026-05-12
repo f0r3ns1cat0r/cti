@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6d6c4006-4fdb-474c-b560-04f29883bce4",
+    "id": "bundle--f7c29ad1-b9b7-40f7-b45a-70d843f1c6a8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-15T21:03:11.389Z",
+            "modified": "2026-04-29T14:23:06.087Z",
             "description": "[Shai-Hulud](https://attack.mitre.org/software/S9008) has the ability to automatically collect host data, secrets, system information, and endpoints.(Citation: Aikido Shai-Hulud September 2025)(Citation: Netskope Shai-Hulud November 2025)(Citation: Microsoft Shai-Hulud December 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--de376fb9-1093-4f59-8d13-aed61042701d",

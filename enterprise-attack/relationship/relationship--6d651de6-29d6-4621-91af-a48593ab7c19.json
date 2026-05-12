@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--15c9116f-b4d7-4e03-9a89-476dc6b69436",
+    "id": "bundle--9a71abf1-816e-4629-9dfb-6c2a9ff428b5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T10:29:37.304Z",
+            "modified": "2026-04-29T14:23:06.074Z",
             "description": "[PureCrypter](https://attack.mitre.org/software/S9019) can identify installed antivirus solutions.(Citation: Check Point Blind Eagle MAR 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--6f22487c-dbbf-4a5b-85ca-a8c85e8f2f80",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--164910e6-1905-471c-85ea-ce329641aae1",
+    "id": "bundle--1ae04e4a-c822-4407-bea6-d2975161def4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--80d10b7f-e1eb-4ad0-821c-b35d177418f4",
             "created": "2025-07-21T19:48:45.470Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Broadcom",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-25T19:37:34.145Z",
+            "modified": "2026-04-29T14:23:06.101Z",
             "description": "[BOOKWORM](https://attack.mitre.org/software/S1226) has used DLL side-loading to execute the malicious payload. (Citation: Broadcom)(Citation: Palo Alto Networks, Unit 42)  [BOOKWORM](https://attack.mitre.org/software/S1226) has also side-loaded DLL components into a legitimate process, including Microsoft Malware Protection `MsMpEng.exe` and Kaspersky Anti-Virus `ushata.exe`.(Citation: Unit42 Bookworm Nov2015)",
             "relationship_type": "uses",
             "source_ref": "malware--2ceddaf9-b16a-4f8b-b252-bcccccd3d79f",

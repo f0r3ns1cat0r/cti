@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ff8d2c4f-f8da-436d-b168-2dc2cb1031d6",
+    "id": "bundle--8bcb58fc-2688-46c4-8743-b30c6bd5410d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fa0bc7fd-2e00-435b-8cb3-0ade491d1259",
             "created": "2022-08-07T15:09:28.959Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MalwareBytes SideCopy Dec 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:59:09.738Z",
+            "modified": "2026-04-29T14:23:06.264Z",
             "description": "[Action RAT](https://attack.mitre.org/software/S1028) can collect local data from an infected machine.(Citation: MalwareBytes SideCopy Dec 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--36801ffb-5c85-4c50-9121-6122e389366d",
             "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

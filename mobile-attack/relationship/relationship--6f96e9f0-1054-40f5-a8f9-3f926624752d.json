@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--96680db5-5a1b-456f-816d-d11ab03fafca",
+    "id": "bundle--1d0fd7fd-7e58-4e80-9969-07ff811bf236",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6f96e9f0-1054-40f5-a8f9-3f926624752d",
             "created": "2025-08-29T22:01:00.191Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MerkleScience_Godfather_April2023",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-29T22:01:00.191Z",
+            "modified": "2026-04-29T14:23:06.077Z",
             "description": "[GodFather](https://attack.mitre.org/software/S1231) has abused the accessibility service to prevent the user from uninstalling itself.(Citation: MerkleScience_Godfather_April2023)",
             "relationship_type": "uses",
             "source_ref": "malware--bf064476-25b8-493c-a1e7-dd707b3f7f52",

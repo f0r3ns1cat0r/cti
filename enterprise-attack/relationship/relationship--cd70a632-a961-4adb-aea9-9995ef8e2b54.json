@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f5194ecf-fd77-4690-99ce-5662a3994904",
+    "id": "bundle--a6813a98-3f1c-4981-9f64-4ad737c16a89",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cd70a632-a961-4adb-aea9-9995ef8e2b54",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CopyKittens Nov 2015",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:47:50.091Z",
+            "modified": "2026-04-29T14:23:06.206Z",
             "description": "[Matryoshka](https://attack.mitre.org/software/S0167) uses rundll32.exe in a Registry Run key value for execution as part of its persistence mechanism.(Citation: CopyKittens Nov 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--1cc934e4-b01d-4543-a011-b988dfc1a458",
             "target_ref": "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

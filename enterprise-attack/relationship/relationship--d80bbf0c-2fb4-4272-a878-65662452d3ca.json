@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4f546500-b953-495e-86e7-ce9f1246c557",
+    "id": "bundle--a2778892-107d-4693-b2c5-d00d48de9155",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d80bbf0c-2fb4-4272-a878-65662452d3ca",
             "created": "2019-04-16T19:00:49.591Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit42 LockerGoga 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:12:31.763Z",
+            "modified": "2026-04-29T14:23:06.220Z",
             "description": "[LockerGoga](https://attack.mitre.org/software/S0372) has been observed moving around the victim network via SMB, indicating the actors behind this ransomware are manually copying files form computer to computer instead of self-propagating.(Citation: Unit42 LockerGoga 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--5af7a825-2d9f-400d-931a-e00eb9e27f48",
             "target_ref": "attack-pattern--bf90d72c-c00b-45e3-b3aa-68560560d4c5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

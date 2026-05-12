@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4652c8f2-c883-429f-afce-3a91accf0fe3",
+    "id": "bundle--6ad795e3-ed54-4c53-9df5-7c7e95d3cfaf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b2e1d4a6-9282-48b8-a049-550255a13106",
             "created": "2025-10-19T20:01:06.794Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Storm-0501 Embargo Ransomware August 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-19T20:01:06.794Z",
+            "modified": "2026-04-29T14:23:06.169Z",
             "description": "[Storm-0501](https://attack.mitre.org/groups/G1053) has enumerated compromised cloud environments to identify critical assets, data stores, and back resources.(Citation: Microsoft Storm-0501 Embargo Ransomware August 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7b404cd0-3ae9-41d4-90c0-023793d35d97",

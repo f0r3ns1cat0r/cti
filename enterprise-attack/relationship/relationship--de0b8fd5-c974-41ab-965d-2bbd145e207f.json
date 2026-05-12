@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--240e9a5f-913b-4e4b-8976-16642e742887",
+    "id": "bundle--358f4130-c3de-412a-9421-c3640d4961d8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--de0b8fd5-c974-41ab-965d-2bbd145e207f",
             "created": "2024-02-06T18:57:52.181Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Secureworks BRONZE FLEETWOOD Profile",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:51:59.606Z",
+            "modified": "2026-04-29T14:23:06.228Z",
             "description": "(Citation: Secureworks BRONZE FLEETWOOD Profile)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c1aab4c9-4c34-4f4f-8541-d529e46a07f9",
             "target_ref": "malware--88c621a7-aef9-4ae0-94e3-1fc87123eb24",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

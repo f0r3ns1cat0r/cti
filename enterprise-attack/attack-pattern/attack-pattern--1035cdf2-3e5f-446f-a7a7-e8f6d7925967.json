@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--33298401-837b-4c22-9bf9-5a1647de95b7",
+    "id": "bundle--61930107-d407-4a21-9d0a-8d8b8005df64",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:24.702Z",
+            "modified": "2026-05-12T15:12:00.620Z",
             "name": "Audio Capture",
             "description": "An adversary can leverage a computer's peripheral devices (e.g., microphones and webcams) or applications (e.g., voice and video call services) to capture audio recordings for the purpose of listening into sensitive conversations to gather information.(Citation: ESET Attor Oct 2019)\n\nMalware or scripts may be used to interact with the devices through an available API provided by the operating system or an application to capture audio. Audio files may be written to disk and exfiltrated later.",
             "kill_chain_phases": [
@@ -33,7 +33,7 @@
                     "phase_name": "collection"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "enterprise-attack"

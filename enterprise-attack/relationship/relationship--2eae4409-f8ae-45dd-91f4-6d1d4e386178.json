@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2ae24e23-1061-4891-a48a-f1cf837aeb95",
+    "id": "bundle--1b06fc8f-a073-4a6e-91bb-99055f1c1856",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T17:56:35.783Z",
+            "modified": "2026-04-29T14:23:05.968Z",
             "description": "[HiddenFace](https://attack.mitre.org/software/S9023) can use RSA-2048 in addition to symmetric algorithms in C2.(Citation: Trend Micro Earth Kasha NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--9edc41d1-a13d-4acf-b400-d47fb2f6809d",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6d5ba7b6-d61b-4a9a-ba66-cd9d0b93ac9b",
+    "id": "bundle--5ba6fedd-f9c4-43ae-ae9b-ba07bf4d8077",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0c78e3a7-45c5-454f-8905-a831fbede841",
             "created": "2017-05-31T21:33:27.072Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro FIN6 October 2019",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:56:01.379Z",
+            "modified": "2026-04-29T14:23:05.920Z",
             "description": "[FIN6](https://attack.mitre.org/groups/G0037) has encoded data gathered from the victim with a simple substitution cipher and single-byte XOR using the 0xAA key, and Base64 with character permutation.(Citation: FireEye FIN6 April 2016)(Citation: Trend Micro FIN6 October 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
             "target_ref": "attack-pattern--143c0cbb-a297-4142-9624-87ffc778980b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

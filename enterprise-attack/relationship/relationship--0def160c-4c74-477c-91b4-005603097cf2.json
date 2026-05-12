@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--85122122-1029-4c8e-90aa-fa33d3cf951a",
+    "id": "bundle--9e5d2647-6083-4c96-8afd-36e8598a5697",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0def160c-4c74-477c-91b4-005603097cf2",
             "created": "2025-09-15T16:00:04.451Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "2022 November_TrendMicro_Earth Preta_Toneshell_Pubload",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-15T16:00:04.451Z",
+            "modified": "2026-04-29T14:23:05.922Z",
             "description": "[TONESHELL](https://attack.mitre.org/software/S1239) has renamed malicious files to mimic legitimate file names and file extensions.(Citation: 2022 November_TrendMicro_Earth Preta_Toneshell_Pubload) [TONESHELL](https://attack.mitre.org/software/S1239) has also masqueraded as legitimate file names to include LogMeIn.dll.(Citation: Zscaler)",
             "relationship_type": "uses",
             "source_ref": "malware--2683fde8-1dc4-415c-94bd-9bb95cc5b7ff",

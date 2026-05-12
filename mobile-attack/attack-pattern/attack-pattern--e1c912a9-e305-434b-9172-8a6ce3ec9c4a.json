@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5f37082c-9f93-4114-8b1c-39dcdf8e3922",
+    "id": "bundle--f20a06eb-9d17-41de-96a6-167cb25ddcd0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:49:30.706Z",
+            "modified": "2026-05-12T15:12:00.722Z",
             "name": "Data from Local System",
             "description": "Adversaries may search local system sources, such as file systems or local databases, to find files of interest and sensitive data prior to exfiltration.  \n\n \n\nAccess to local system data, which includes information stored by the operating system, often requires escalated privileges. Examples of local system data include authentication tokens, the device keyboard cache, Wi-Fi passwords, and photos. On Android, adversaries may also attempt to access files from external storage which may require additional storage-related permissions. \n\n ",
             "kill_chain_phases": [
@@ -33,7 +33,7 @@
                     "phase_name": "collection"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "mobile-attack"

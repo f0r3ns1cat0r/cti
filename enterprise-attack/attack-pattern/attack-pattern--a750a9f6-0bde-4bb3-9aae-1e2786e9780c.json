@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--96ef035c-7e96-4d36-a6ac-849babed5807",
+    "id": "bundle--e83afa69-037b-4a7a-b39b-a7a92d9cfa9f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-15T20:29:50.512Z",
+            "modified": "2026-05-12T15:12:00.706Z",
             "name": "Network Share Connection Removal",
             "description": "Adversaries may remove share connections that are no longer useful in order to clean up traces of their operation. Windows shared drive and [SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002) connections can be removed when no longer needed. [Net](https://attack.mitre.org/software/S0039) is an example utility that can be used to remove network share connections with the <code>net use \\\\system\\share /delete</code> command. (Citation: Technet Net Use)",
             "kill_chain_phases": [

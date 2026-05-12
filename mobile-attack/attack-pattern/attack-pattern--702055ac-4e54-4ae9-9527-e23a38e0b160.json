@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--96a477df-2070-42c4-a3d1-c30ac0c6a03b",
+    "id": "bundle--50e261c6-e3cd-47ac-8b66-f328549fcedd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:56.509Z",
+            "modified": "2026-05-12T15:12:00.641Z",
             "name": "Stored Application Data",
             "description": "Adversaries may try to access and collect application data resident on the device. Adversaries often target popular applications, such as Facebook, WeChat, and Gmail.(Citation: SWB Exodus March 2019) \n\n \n\nDue to mobile OS sandboxing, this technique is only possible in three scenarios: \n\n \n\n* An application stores files in unprotected external storage \n* An application stores files in its internal storage directory with insecure permissions (e.g. 777) \n* The adversary gains root permissions on the device ",
             "kill_chain_phases": [
@@ -38,7 +38,7 @@
                     "phase_name": "collection"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "mobile-attack"

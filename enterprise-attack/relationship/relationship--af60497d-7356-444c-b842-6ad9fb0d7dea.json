@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--18a9aef9-865b-4124-91e1-e923d9e65c72",
+    "id": "bundle--ed252d81-4dbb-43b7-8d56-9e3bbeca8081",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--af60497d-7356-444c-b842-6ad9fb0d7dea",
             "created": "2022-09-29T20:27:33.886Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cylance Dust Storm",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:39:54.835Z",
+            "modified": "2026-04-29T14:23:06.164Z",
             "description": "(Citation: Cylance Dust Storm)",
             "relationship_type": "uses",
             "source_ref": "campaign--4603cf2f-06d0-4970-9c5d-5071b08c817f",
             "target_ref": "malware--66b1dcde-17a0-4c7b-95fa-b08d430c2131",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

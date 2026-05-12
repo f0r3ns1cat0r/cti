@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--532025bb-4948-428c-a130-0d0a27be8494",
+    "id": "bundle--79173fc3-815c-43b5-b6cf-88a55ba0dc4a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-15T19:05:57.225Z",
+            "modified": "2026-04-29T14:23:06.085Z",
             "description": "[TruffleHog](https://attack.mitre.org/software/S9009) has leveraged Cloud CLI in order to enumerate and gather credentials.(Citation: Github TruffleSecurity Trufflehog April 2025)",
             "relationship_type": "uses",
             "source_ref": "tool--76f8a686-3157-481f-9af6-e8558883a8d6",

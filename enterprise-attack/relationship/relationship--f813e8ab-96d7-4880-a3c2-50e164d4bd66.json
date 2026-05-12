@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a2d57db3-4d35-4d0a-b0ba-38c29e46ab4a",
+    "id": "bundle--56cd26bf-533e-4480-8b69-2c636bd7d473",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f813e8ab-96d7-4880-a3c2-50e164d4bd66",
             "created": "2022-09-16T21:36:39.578Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "McAfee Honeybee",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:58:42.821Z",
+            "modified": "2026-04-29T14:23:06.262Z",
             "description": "During [Operation Honeybee](https://attack.mitre.org/campaigns/C0006), malicious files were decoded prior to execution.(Citation: McAfee Honeybee)",
             "relationship_type": "uses",
             "source_ref": "campaign--4553292d-12c6-4a93-934d-12160370d4e0",
             "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

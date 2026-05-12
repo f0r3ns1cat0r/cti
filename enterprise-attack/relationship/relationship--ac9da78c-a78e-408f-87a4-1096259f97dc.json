@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6ddf63a7-1214-4870-bfd8-7a4f66fcc39f",
+    "id": "bundle--b766064d-a50f-4577-9825-f2817576fe0a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T21:29:37.723Z",
+            "modified": "2026-04-29T14:23:06.160Z",
             "description": "[ROAMINGHOUSE](https://attack.mitre.org/software/S9026) can embed a ZIP file containing [UPPERCUT](https://attack.mitre.org/software/S0275) components into three base64 encoded parts.(Citation: Trend Micro Earth Kasha Anel NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--251f1715-fc97-4487-b939-5c8823ef7a39",

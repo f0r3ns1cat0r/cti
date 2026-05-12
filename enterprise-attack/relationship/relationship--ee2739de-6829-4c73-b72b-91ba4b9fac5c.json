@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--556a9be4-5c43-4a40-928c-8b4c3c44ebb1",
+    "id": "bundle--0bb65478-3a7a-4f6c-9b21-c2805d8566ed",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ee2739de-6829-4c73-b72b-91ba4b9fac5c",
             "created": "2017-05-31T21:33:27.051Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "New DragonOK",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:16:23.130Z",
+            "modified": "2026-04-29T14:23:06.249Z",
             "description": "(Citation: New DragonOK)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f3bdec95-3d62-42d9-a840-29630f6cdc1a",
             "target_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

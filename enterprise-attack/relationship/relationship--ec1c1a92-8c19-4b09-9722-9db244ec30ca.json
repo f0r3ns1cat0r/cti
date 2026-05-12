@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8f018491-e6ed-419a-ba9c-2a0ba4720ad4",
+    "id": "bundle--e1b84941-2144-49e1-bde3-bdd6d9cc597e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ec1c1a92-8c19-4b09-9722-9db244ec30ca",
             "created": "2025-10-17T19:08:01.825Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Esentire ContagiousInterview BeaverTail InvisibleFerret November 2024",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T21:36:14.163Z",
+            "modified": "2026-04-29T14:23:06.246Z",
             "description": "[InvisibleFerret](https://attack.mitre.org/software/S1245) has used FTP to exfiltrate files and directories using the command `ssh_upload` which contains with six subcommands of `.sdira`, `sdir`, `sfile`, `sfinda`, `sfindr` and `sfind` that had varying functions.(Citation: ESET Contagious Interview BeaverTail InvisibleFerret February 2025)(Citation: Zscaler ContagiousInterview BeaverTail InvisibleFerret November 2024) [InvisibleFerret](https://attack.mitre.org/software/S1245) has exfiltrated stolen files and data to the C2 servers over ports 1224, 2245 and 8637.(Citation: Esentire ContagiousInterview BeaverTail InvisibleFerret November 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--1dac60f2-7d53-4a3e-95d1-cb2e875d5491",

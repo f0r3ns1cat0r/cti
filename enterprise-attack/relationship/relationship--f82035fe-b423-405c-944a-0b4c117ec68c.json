@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f3824c05-5c81-45d7-aec4-75e4a5ea1fa4",
+    "id": "bundle--965e6527-9304-48e7-a5d3-7aa187c946a0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f82035fe-b423-405c-944a-0b4c117ec68c",
             "created": "2026-04-14T12:58:13.026Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google UNC5221 Ivanti April 2025",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-14T12:58:13.026Z",
+            "modified": "2026-04-29T14:23:06.262Z",
             "description": "[TRAILBLAZE](https://attack.mitre.org/software/S9012) has leveraged raw syscalls to execute commands.(Citation: Google UNC5221 Ivanti April 2025)(Citation: Picus Security UNC5221 Ivanti May 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--b82b9e25-e37b-4f7c-b1f0-2c2eea4f4be9",

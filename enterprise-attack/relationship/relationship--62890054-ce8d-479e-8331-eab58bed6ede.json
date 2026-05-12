@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aebe67ad-8e0b-48d3-bee8-6c60592e9e55",
+    "id": "bundle--94c6ec7c-2e6a-40ea-84d7-7086e995d1c1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T00:04:17.675Z",
+            "modified": "2026-04-29T14:23:06.059Z",
             "description": "[BRICKSTORM](https://attack.mitre.org/software/S9015) has utilized XOR cipher encryption to hide key strings within their code, to include IPv4 addresses of public DNS-over-HTTPS (DOH) servers.(Citation: CISA BRICKSTORM UNC5221 AR25-338A February 2026)",
             "relationship_type": "uses",
             "source_ref": "malware--0450ed20-e9a7-4799-b601-2f2710300796",

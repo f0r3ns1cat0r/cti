@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1c57e323-9107-4e37-bf29-4598179ebf35",
+    "id": "bundle--fe3fe0c4-ed4b-4ee8-b351-7d5e83c0095b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1ca344f1-97fe-453c-9f12-86130ddcebbc",
             "created": "2020-11-10T16:24:47.269Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant FIN12 Oct 2021",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T16:26:04.861Z",
+            "modified": "2026-04-29T14:23:05.944Z",
             "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used `cmd.exe` to execute commands on a victim's machine.(Citation: DFIR Ryuk's Return October 2020)(Citation: Mandiant FIN12 Oct 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",

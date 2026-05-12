@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d29d711a-dd0a-4d14-8b54-e31a8cddd5f3",
+    "id": "bundle--c34b9e4a-2efe-4644-97cc-43d0d2d65e1e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--97a62430-6a83-4ead-b8c7-ce47f5d0cac0",
             "created": "2023-08-07T16:06:54.291Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant FIN12 Oct 2021",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T16:26:04.867Z",
+            "modified": "2026-04-29T14:23:06.132Z",
             "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has staged ZIP files in local directories such as, `C:\\PerfLogs\\1\\` and `C:\\User\\1\\` prior to exfiltration.(Citation: Mandiant FIN12 Oct 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",

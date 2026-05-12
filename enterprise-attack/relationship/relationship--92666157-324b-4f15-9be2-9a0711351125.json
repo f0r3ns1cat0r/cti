@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--634ea490-e47d-4cd1-9f45-6bfcf950f600",
+    "id": "bundle--6a01c558-8c9b-4a84-ae7a-2bbd00c68fb1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--92666157-324b-4f15-9be2-9a0711351125",
             "created": "2024-11-27T20:17:27.842Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Crambus OCT 2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:32:12.257Z",
+            "modified": "2026-04-29T14:23:06.124Z",
             "description": "[OilRig](https://attack.mitre.org/groups/G0049) has used a compromised Domain Controller to create a service on a remote host.(Citation: Symantec Crambus OCT 2023)\n",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
             "target_ref": "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

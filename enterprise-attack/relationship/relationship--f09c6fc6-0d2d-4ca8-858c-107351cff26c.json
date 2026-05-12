@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9c1f80ad-4e15-426b-b65e-3bcdb685b4f9",
+    "id": "bundle--ce725316-c28d-487e-a3b7-950a7cbc05e7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f09c6fc6-0d2d-4ca8-858c-107351cff26c",
             "created": "2025-02-25T17:53:34.319Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Nearest Neighbor Volexity",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:56:46.474Z",
+            "modified": "2026-04-29T14:23:06.252Z",
             "description": "During [APT28 Nearest Neighbor Campaign](https://attack.mitre.org/campaigns/C0051), [APT28](https://attack.mitre.org/groups/G0007) used the built-in <code>netsh portproxy</code> command to create internal proxies on compromised systems.(Citation: Nearest Neighbor Volexity)",
             "relationship_type": "uses",
             "source_ref": "campaign--a010610e-22cb-437e-bfde-b78861bdca7a",
             "target_ref": "attack-pattern--f6dacc85-b37d-458e-b58d-74fc4bbf5755",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

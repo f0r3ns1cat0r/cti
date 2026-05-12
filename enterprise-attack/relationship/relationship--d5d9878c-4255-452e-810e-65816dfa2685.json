@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f91285bf-7983-4f9d-8e9d-f26fbda3e104",
+    "id": "bundle--5acf72af-7103-40f4-b252-8b5891539db9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d5d9878c-4255-452e-810e-65816dfa2685",
             "created": "2025-10-19T13:48:51.715Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Contagious Interview BeaverTail InvisibleFerret February 2025",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-19T13:48:51.715Z",
+            "modified": "2026-04-29T14:23:06.217Z",
             "description": "[InvisibleFerret](https://attack.mitre.org/software/S1245) has used 7zip, RAR and zip files to archive collected data for exfiltration.(Citation: ESET Contagious Interview BeaverTail InvisibleFerret February 2025)(Citation: Zscaler ContagiousInterview BeaverTail InvisibleFerret November 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--1dac60f2-7d53-4a3e-95d1-cb2e875d5491",

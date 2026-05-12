@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d98fc596-1f6e-485f-a396-ed4417c62d0d",
+    "id": "bundle--01096917-783d-47c4-a95f-5f44c9fb8add",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d7770d18-bb2c-4a78-bf3f-a9abb1a58862",
             "created": "2024-12-17T00:27:45.289Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco BlackByte 2024",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:50:18.720Z",
+            "modified": "2026-04-29T14:23:06.219Z",
             "description": "[BlackByte](https://attack.mitre.org/groups/G1043) captured credentials for or impersonated domain administration users.(Citation: Microsoft BlackByte 2023)(Citation: Cisco BlackByte 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--02b16bd6-ae88-417a-8a3f-02c5e166175a",
             "target_ref": "attack-pattern--c3d4bdd9-2cfe-4a80-9d0c-07a29ecdce8f",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

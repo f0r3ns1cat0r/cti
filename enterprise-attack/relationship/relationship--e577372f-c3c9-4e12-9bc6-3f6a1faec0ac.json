@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d171d1ec-8a86-44ac-a004-49f12a0cf792",
+    "id": "bundle--d4ea087c-8e87-4c36-b191-5241869ebbe8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e577372f-c3c9-4e12-9bc6-3f6a1faec0ac",
             "created": "2017-05-31T21:33:27.064Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Scarlet Mimic Jan 2016",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:14:51.439Z",
+            "modified": "2026-04-29T14:23:06.237Z",
             "description": "(Citation: Scarlet Mimic Jan 2016)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c5574ca0-d5a4-490a-b207-e4658e5fd1d7",
             "target_ref": "malware--bb3c1098-d654-4620-bf40-694386d28921",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--65ba1c44-a5ee-4f3f-a242-0e3209d69bf3",
+    "id": "bundle--2a9ded29-ab9a-4572-8b21-399b0b1ebc6d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--3aacea96-941f-4a1d-8981-36d2a0e62cf3",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye Obfuscation June 2017",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:08:32.176Z",
+            "modified": "2026-04-29T14:23:06.001Z",
             "description": "[FIN8](https://attack.mitre.org/groups/G0061) has used malicious e-mail attachments to lure victims into executing malware.(Citation: FireEye Obfuscation June 2017)(Citation: FireEye Fin8 May 2016)(Citation: FireEye Know Your Enemy FIN8 Aug 2016)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
             "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

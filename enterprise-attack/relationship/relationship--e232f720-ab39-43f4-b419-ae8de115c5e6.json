@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8a5a1887-8fbe-44fd-a33b-cb86c7d35018",
+    "id": "bundle--42e4683f-8803-411e-b6a1-8255ad2a52de",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e232f720-ab39-43f4-b419-ae8de115c5e6",
             "created": "2017-05-31T21:33:27.079Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye FIN7 March 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:52:59.267Z",
+            "modified": "2026-04-29T14:23:06.233Z",
             "description": "(Citation: FireEye FIN7 March 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
             "target_ref": "malware--4f6aa78c-c3d4-4883-9840-96ca2f5d6d47",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

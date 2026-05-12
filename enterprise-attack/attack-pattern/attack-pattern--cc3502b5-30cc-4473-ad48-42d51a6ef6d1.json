@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3e3e0dfc-8f22-48eb-80fb-666602f8ce60",
+    "id": "bundle--aed0e6f0-b6c9-48b8-b9f5-a1ff69ba3eb1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:49:23.660Z",
+            "modified": "2026-05-12T15:12:00.716Z",
             "name": "Python",
             "description": "Adversaries may abuse Python commands and scripts for execution. Python is a very popular scripting/programming language, with capabilities to perform many functions. Python can be executed interactively from the command-line (via the <code>python.exe</code> interpreter) or via scripts (.py) that can be written and distributed to different systems. Python code can also be compiled into binary executables.(Citation: Zscaler APT31 Covid-19 October 2020)\n\nPython comes with many built-in packages to interact with the underlying system, such as file operations and device I/O. Adversaries can use these libraries to download and execute commands or other scripts as well as perform various malicious behaviors.",
             "kill_chain_phases": [
@@ -33,7 +33,7 @@
                     "phase_name": "execution"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "enterprise-attack"

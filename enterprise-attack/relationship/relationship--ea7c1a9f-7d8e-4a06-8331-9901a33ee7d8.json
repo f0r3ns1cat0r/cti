@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4c4a2947-6259-4802-86ce-58bbf90b09ca",
+    "id": "bundle--95f793c9-adfa-4f72-a4d4-4d71ca6d18c0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ea7c1a9f-7d8e-4a06-8331-9901a33ee7d8",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET OceanLotus",
@@ -38,14 +39,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:15:43.615Z",
+            "modified": "2026-04-29T14:23:06.244Z",
             "description": "[APT32](https://attack.mitre.org/groups/G0050) has attempted to lure users to execute a malicious dropper delivered via a spearphishing attachment.(Citation: ESET OceanLotus)(Citation: Cybereason Oceanlotus May 2017)(Citation: ESET OceanLotus Mar 2019)(Citation: FireEye APT32 April 2020)(Citation: Amnesty Intl. Ocean Lotus February 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--db63a45c-6043-4cb4-9aa1-3151e7814a1e",
+    "id": "bundle--e366bd56-5118-4229-be6b-b845df8b5bc1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--35373a50-d85d-4ac5-94bc-5896b48ac5c6",
             "created": "2019-04-19T19:02:03.938Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Networks BBSRAT",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:42:31.789Z",
+            "modified": "2026-04-29T14:23:05.991Z",
             "description": "[BBSRAT](https://attack.mitre.org/software/S0127) can compress data with ZLIB prior to sending it back to the C2 server.(Citation: Palo Alto Networks BBSRAT)",
             "relationship_type": "uses",
             "source_ref": "malware--64d76fa5-cf8f-469c-b78c-1a4f7c5bad80",
             "target_ref": "attack-pattern--41868330-6ee2-4d0f-b743-9f2294c3c9b6",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

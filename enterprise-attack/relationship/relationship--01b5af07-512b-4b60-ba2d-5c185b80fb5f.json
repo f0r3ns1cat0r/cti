@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a3835a4c-c986-483e-9bc7-6c2e3c98a94d",
+    "id": "bundle--77dae3a2-1726-4ec8-9ce4-81bdebe6ee6f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--01b5af07-512b-4b60-ba2d-5c185b80fb5f",
             "created": "2020-10-22T20:25:26.534Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Recorded Future Turla Infra 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:53:17.348Z",
+            "modified": "2026-04-29T14:23:05.905Z",
             "description": "[Turla](https://attack.mitre.org/groups/G0010) has frequently used compromised WordPress sites for C2 infrastructure.(Citation: Recorded Future Turla Infra 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
             "target_ref": "attack-pattern--ae797531-3219-49a4-bccf-324ad7a4c7b2",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1edfc228-2974-4580-9258-181b3896dc0a",
+    "id": "bundle--f1285786-dced-4c57-90d3-9428842b5b52",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c616ad2c-cfa1-4629-8f84-f102c7bc8d09",
             "created": "2019-09-23T23:14:16.658Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT41 Aug 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:45:54.148Z",
+            "modified": "2026-04-29T14:23:06.196Z",
             "description": "(Citation: FireEye APT41 Aug 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
             "target_ref": "malware--d69c8146-ab35-4d50-8382-6fc80e641d43",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

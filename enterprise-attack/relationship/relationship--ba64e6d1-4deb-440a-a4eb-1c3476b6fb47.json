@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f14e117f-ff65-4554-8008-916b26faf18b",
+    "id": "bundle--71cced6c-e642-4417-9453-85069b1dce36",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ba64e6d1-4deb-440a-a4eb-1c3476b6fb47",
             "created": "2017-05-31T21:33:27.041Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT28",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:42:40.312Z",
+            "modified": "2026-04-29T14:23:06.179Z",
             "description": "(Citation: FireEye APT28)(Citation: Secureworks IRON TWILIGHT Active Measures March 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "malware--60c18d06-7b91-4742-bae3-647845cd9d81",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f8c9979f-944b-4b81-9bf2-f335f17f799c",
+    "id": "bundle--0a50eb60-93ac-4ee1-ab4a-d2908c58739c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:47:11.255Z",
+            "modified": "2026-04-29T14:23:05.915Z",
             "description": "[JPIN](https://attack.mitre.org/software/S0201) can lower security settings by changing Registry keys.(Citation: Microsoft PLATINUM April 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--de6cb631-52f6-4169-a73b-7965390b0c30",

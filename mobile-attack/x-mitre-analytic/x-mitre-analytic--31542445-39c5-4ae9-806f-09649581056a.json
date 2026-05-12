@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--92a08bcc-8233-49af-ae33-780a6e94aebd",
+    "id": "bundle--ca21e2fa-ccdf-42a9-9a1c-056427f55f7e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-13T18:10:00.568Z",
+            "modified": "2026-05-12T16:30:18.376Z",
             "name": "Analytic 1718",
             "description": "Correlates (1) application interaction with elevation control mechanisms (e.g., Accessibility Service, Device Admin, overlay permissions, package installer flows), (2) rapid transition to elevated capability state without expected user interaction patterns, and (3) immediate privileged actions such as sensor access, UI manipulation, or background persistence. The defender observes a causal chain where an application gains elevated privileges through abuse of system-controlled consent flows and subsequently performs actions inconsistent with normal user-driven authorization.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

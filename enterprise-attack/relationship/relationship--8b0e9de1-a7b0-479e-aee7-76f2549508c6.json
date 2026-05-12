@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2c60422e-4013-4b34-95a8-3ac9f68db141",
+    "id": "bundle--9fb901ca-6d83-473a-a1e7-69ca7233055f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8b0e9de1-a7b0-479e-aee7-76f2549508c6",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT17",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:30:14.786Z",
+            "modified": "2026-04-29T14:23:06.115Z",
             "description": "[BLACKCOFFEE](https://attack.mitre.org/software/S0069) uses Microsoft\u2019s TechNet Web portal to obtain a dead drop resolver containing an encoded tag with the IP address of a command and control server.(Citation: FireEye APT17)(Citation: FireEye Periscope March 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--d69c8146-ab35-4d50-8382-6fc80e641d43",
             "target_ref": "attack-pattern--f7827069-0bf2-4764-af4f-23fae0d181b7",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

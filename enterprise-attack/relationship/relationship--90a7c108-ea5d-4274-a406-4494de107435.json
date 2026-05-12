@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c4687955-87d9-41e1-b623-669b40107ef1",
+    "id": "bundle--372ff33d-2fc8-4018-bc6b-29ac526d267c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--90a7c108-ea5d-4274-a406-4494de107435",
             "created": "2024-04-08T19:11:36.343Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye TRITON 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:31:45.001Z",
+            "modified": "2026-04-29T14:23:06.122Z",
             "description": "(Citation: FireEye TRITON 2018)",
             "relationship_type": "uses",
             "source_ref": "campaign--45a98f02-852f-49b2-94c0-c63207bebbbf",
             "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

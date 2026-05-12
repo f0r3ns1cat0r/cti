@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--50cd0325-e171-4f82-89fa-dc4d0120106d",
+    "id": "bundle--3a1ad697-6449-44dd-87f5-244861dec0b1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:31:38.446Z",
+            "modified": "2026-04-29T14:23:05.913Z",
             "description": "Prior to executing a backdoor [ToddyCat](https://attack.mitre.org/groups/G1022)  has run `cmd /c start /b netsh advfirewall firewall add rule name=\"SGAccessInboundRule\" dir=in protocol=udp action=allow localport=49683` to allow the targeted system to receive UDP packets on port 49683.(Citation: Kaspersky ToddyCat Check Logs October 2023)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--489ed966-11c5-426f-ba10-5730dcd77395",
+    "id": "bundle--c9447856-6cb5-48c9-b8ac-4057d2062681",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ae9befd5-d8b7-4492-9b47-422a40d610cc",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "F-Secure The Dukes",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:05:15.688Z",
+            "modified": "2026-04-29T14:23:06.163Z",
             "description": "[GeminiDuke](https://attack.mitre.org/software/S0049) collects information on programs and services on the victim that are configured to automatically run at startup.(Citation: F-Secure The Dukes)",
             "relationship_type": "uses",
             "source_ref": "malware--199463de-d9be-46d6-bb41-07234c1dd5a6",
             "target_ref": "attack-pattern--322bad5a-1c49-4d23-ab79-76d641794afa",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

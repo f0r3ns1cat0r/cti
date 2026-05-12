@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5adf4daa-692d-4d02-94f5-16a6f4c9cfc6",
+    "id": "bundle--21c92490-aa0f-423b-b1ba-dd94cb8b3c8b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--33162cc2-a800-4d42-89bb-13ac1e75dfce",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Dell Sakula",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:42:05.167Z",
+            "modified": "2026-04-29T14:23:05.986Z",
             "description": "[Sakula](https://attack.mitre.org/software/S0074) has the capability to download files.(Citation: Dell Sakula)",
             "relationship_type": "uses",
             "source_ref": "malware--96b08451-b27a-4ff6-893f-790e26393a8e",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

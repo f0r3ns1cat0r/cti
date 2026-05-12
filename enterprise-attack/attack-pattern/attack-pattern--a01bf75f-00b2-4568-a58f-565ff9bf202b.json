@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--357fa752-c07b-4865-b4f7-7a61204bae4a",
+    "id": "bundle--4d71d350-1897-47da-a305-77bd5e4c3fc3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:49:10.014Z",
+            "modified": "2026-05-12T15:12:00.706Z",
             "name": "Local Groups",
             "description": "Adversaries may attempt to find local system groups and permission settings. The knowledge of local system permission groups can help adversaries determine which groups exist and which users belong to a particular group. Adversaries may use this information to determine which users have elevated permissions, such as the users found within the local administrators group.\n\nCommands such as <code>net localgroup</code> of the [Net](https://attack.mitre.org/software/S0039) utility, <code>dscl . -list /Groups</code> on macOS, and <code>groups</code> on Linux can list local groups.",
             "kill_chain_phases": [
@@ -28,7 +28,7 @@
                     "phase_name": "discovery"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_contributors": [
                 "Harshal Tupsamudre, Qualys",
                 "Miriam Wiesner, @miriamxyra, Microsoft Security"

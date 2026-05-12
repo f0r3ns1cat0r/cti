@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--04200620-6601-4d0c-abac-08cb986eb72c",
+    "id": "bundle--937bc47e-e184-49a1-ac16-62cb0cb3c651",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a2378103-ad88-4cd2-a135-a0f5c02210da",
             "created": "2020-11-08T23:28:59.666Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Kimsuky November 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:02:58.900Z",
+            "modified": "2026-04-29T14:23:06.146Z",
             "description": "[KGH_SPY](https://attack.mitre.org/software/S0526) can send data to C2 with HTTP POST requests.(Citation: Cybereason Kimsuky November 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--8bdfe255-e658-4ddd-a11c-b854762e451d",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

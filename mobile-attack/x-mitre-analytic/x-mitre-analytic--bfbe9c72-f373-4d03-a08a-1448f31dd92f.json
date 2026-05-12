@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--95738215-0dc7-4525-99a0-ed82f97f4a1e",
+    "id": "bundle--67e4feaf-e5e4-433e-894a-7071e1c50ea5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-11T16:29:42.519Z",
+            "modified": "2026-05-12T16:30:18.382Z",
             "name": "Analytic 1713",
             "description": "Defender correlates an Android-specific causal chain where device connectivity degrades or oscillates across one or more radios, applications lose or repeatedly reattempt network access, and the radio or network failure pattern is inconsistent with ordinary mobility, coverage transition, or user-initiated airplane mode behavior. The defender correlates radio state, connectivity framework behavior, application state, network session failures, and location/network-provider degradation to distinguish network denial effects from routine weak-signal conditions.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

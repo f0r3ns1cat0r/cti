@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6590c158-0199-45ba-921b-238e8498c80e",
+    "id": "bundle--d3be16c4-1649-42d7-8055-f7bc10a026ae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--223a75cd-eb8f-4477-b4c3-e2a4e651d875",
             "created": "2021-07-30T15:54:30.815Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "GitHub Sliver C2",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:02:05.510Z",
+            "modified": "2026-04-29T14:23:05.952Z",
             "description": "[Sliver](https://attack.mitre.org/software/S0633) includes multiple methods to perform process injection to migrate the framework into other, potentially privileged processes on the victim machine.(Citation: Microsoft Sliver 2022)(Citation: Cybereason Sliver Undated)(Citation: Bishop Fox Sliver Framework August 2019)(Citation: GitHub Sliver C2)",
             "relationship_type": "uses",
             "source_ref": "tool--11f8d7eb-1927-4806-9267-3a11d4d4d6be",
             "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

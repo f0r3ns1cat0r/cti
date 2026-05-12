@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d7fa49fa-1928-44d2-9e8d-a676a93b06ef",
+    "id": "bundle--69334f29-c3f9-40ca-b3cf-cff3d37efeb6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f9c7cede-2f07-4a54-9dcd-14304055886a",
             "created": "2023-09-20T18:56:13.290Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Telefonica Snip3 December 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:59:05.534Z",
+            "modified": "2026-04-29T14:23:06.264Z",
             "description": "[AsyncRAT](https://attack.mitre.org/software/S1087) can create a scheduled task to maintain persistence on system start-up.(Citation: Telefonica Snip3 December 2021)",
             "relationship_type": "uses",
             "source_ref": "tool--6a5947f3-1a36-4653-8734-526df3e1d28d",
             "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

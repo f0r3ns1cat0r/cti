@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aad2fa6a-3ca8-4e5b-926a-88f154641f67",
+    "id": "bundle--aad0467d-2cc0-4653-9173-78074e7aff07",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--91a7667b-592f-45c1-a069-986380d29e71",
             "created": "2020-11-10T20:43:18.165Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Securelist Brazilian Banking Malware July 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:59:47.408Z",
+            "modified": "2026-04-29T14:23:06.124Z",
             "description": "[Melcoz](https://attack.mitre.org/software/S0530) has the ability to steal credentials from web browsers.(Citation: Securelist Brazilian Banking Malware July 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--d3105fb5-c494-4fd1-a7be-414eab9e0c96",
             "target_ref": "attack-pattern--58a3e6aa-4453-4cc8-a51f-4befe80b31a8",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--06f169f6-0c76-4ec8-ae61-5c3a4a56653f",
+    "id": "bundle--f752012c-9d0b-4bce-b96b-5bfc99c90376",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5a1876a1-144f-4416-b9bf-6df819613962",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye Know Your Enemy FIN8 Aug 2016",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:49:17.020Z",
+            "modified": "2026-04-29T14:23:06.048Z",
             "description": "[PUNCHBUGGY](https://attack.mitre.org/software/S0196) mimics filenames from %SYSTEM%\\System32 to hide DLLs in %WINDIR% and/or %TEMP%.(Citation: FireEye Know Your Enemy FIN8 Aug 2016)(Citation: Morphisec ShellTea June 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--5c6ed2dc-37f4-40ea-b2e1-4c76140a388c",
             "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ebc4dc17-f372-482b-bf55-a6b9ab2162d4",
+    "id": "bundle--7947b5fd-01b2-4d2b-848b-cb0a03d1d0e2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0c7d07b5-c838-4858-a404-5f9ba0733ca4",
             "created": "2025-10-20T11:56:03.946Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cyble Embargo Ransomware May 2024",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-20T20:52:38.262Z",
+            "modified": "2026-04-29T14:23:05.920Z",
             "description": "[Embargo](https://attack.mitre.org/software/S1247) has terminated active processes and services based on a hardcoded list using the `CloseServiceHandle()` function.(Citation: Cyble Embargo Ransomware May 2024) [Embargo](https://attack.mitre.org/software/S1247) has also leveraged MS4Killer to terminate processes contained in an embedded list of security software process names that were XOR-encrypted.(Citation: ESET Embargo Ransomware October 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--82adb90e-43b8-4bce-9efe-afeba65457b2",

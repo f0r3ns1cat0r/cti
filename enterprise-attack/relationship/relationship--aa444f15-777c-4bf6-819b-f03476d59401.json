@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2e79c3f5-8e52-428f-8426-d20aee657798",
+    "id": "bundle--2cbd5925-f7ad-4bc8-b735-2b4f5784fef8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--aa444f15-777c-4bf6-819b-f03476d59401",
             "created": "2021-09-28T19:55:11.015Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Crowdstrike Qakbot October 2020",
@@ -43,14 +44,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:38:33.115Z",
+            "modified": "2026-04-29T14:23:06.157Z",
             "description": "[QakBot](https://attack.mitre.org/software/S0650) has the ability to download additional components and malware.(Citation: Trend Micro Qakbot May 2020)(Citation: Crowdstrike Qakbot October 2020)(Citation: Trend Micro Qakbot December 2020)(Citation: Cyberint Qakbot May 2021)(Citation: Kaspersky QakBot September 2021)(Citation: Group IB Ransomware September 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--edc5e045-5401-42bb-ad92-52b5b2ee0de9",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

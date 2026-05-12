@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0d1b6df4-d8df-454c-9065-3f6ea8217276",
+    "id": "bundle--77256ab8-cab0-4b35-b455-66a9b577d9c8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--de99649c-2d3a-4cbc-be0c-003e399e3963",
             "created": "2025-10-22T02:34:29.749Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky Turla Aug 2014",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T02:34:29.749Z",
+            "modified": "2026-04-29T14:23:06.229Z",
             "description": "[Epic](https://attack.mitre.org/software/S0091) collects disk space information.(Citation: Kaspersky Turla Aug 2014)",
             "relationship_type": "uses",
             "source_ref": "malware--6b62e336-176f-417b-856a-8552dd8c44e1",

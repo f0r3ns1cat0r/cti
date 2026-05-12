@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4d7d63fa-deb1-40c4-934b-88217525367b",
+    "id": "bundle--108b7597-0225-411b-89ce-ef68bdda6b2a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:31.318Z",
+            "modified": "2026-05-12T15:12:00.622Z",
             "name": "Web Protocols",
             "description": "Adversaries may communicate using application layer protocols associated with web protocols traffic to avoid detection/network filtering by blending in with existing traffic. Commands to remote mobile devices, and often the results of those commands, will be embedded within the protocol traffic between the mobile client and server. \n\nWeb protocols such as HTTP and HTTPS are used for web traffic as well as well as notification services native to mobile messaging services such as Google Cloud Messaging (GCM) and newly, Firebase Cloud Messaging (FCM), (GCM/FCM: two-way communication) and Apple Push Notification Service (APNS; one-way server-to-device).  Such notification services leverage HTTP/S via the respective API and are commonly abused on Android and iOS respectively in order blend in with routine device traffic making it difficult for enterprises to inspect. ",
             "kill_chain_phases": [
@@ -33,7 +33,7 @@
                     "phase_name": "command-and-control"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "mobile-attack"

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--27583348-79d2-40b0-8786-102f401298cd",
+    "id": "bundle--e116ef29-8f71-49cf-9530-b2f75ae6d90c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bfd2f3f1-3a5f-4500-be4e-39e3f8d6cb8e",
             "created": "2023-08-03T18:36:07.015Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant FIN12 Oct 2021",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T16:26:04.868Z",
+            "modified": "2026-04-29T14:23:06.188Z",
             "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has dumped the lsass.exe memory to harvest credentials with the use of open-source tool [LaZagne](https://attack.mitre.org/software/S0349).(Citation: Mandiant FIN12 Oct 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",

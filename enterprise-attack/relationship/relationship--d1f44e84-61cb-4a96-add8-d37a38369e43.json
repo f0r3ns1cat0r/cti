@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2f401910-8954-4a8c-9251-a61dbeead0a6",
+    "id": "bundle--39af5b08-604f-4fb7-977f-a8d06192ffd1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d1f44e84-61cb-4a96-add8-d37a38369e43",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "S2 Grupo TrickBot June 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:11:32.907Z",
+            "modified": "2026-04-29T14:23:06.212Z",
             "description": "[TrickBot](https://attack.mitre.org/software/S0266) collects a list of install programs and services on the system\u2019s machine.(Citation: S2 Grupo TrickBot June 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--00806466-754d-44ea-ad6f-0caf59cb8556",
             "target_ref": "attack-pattern--322bad5a-1c49-4d23-ab79-76d641794afa",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

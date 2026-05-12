@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a3dbbf29-299b-409f-a197-f5cefbfb8267",
+    "id": "bundle--a249a887-4b7d-4f97-9cbe-5b7d42a044c3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T17:48:29.367Z",
+            "modified": "2026-04-29T14:23:06.152Z",
             "description": "[RustyWater](https://attack.mitre.org/software/S9037) has registered a Vectored Exception Handler (VEH) to catch debugging efforts.(Citation: CloudSEK_RustyWater_Jan2026)",
             "relationship_type": "uses",
             "source_ref": "malware--50be4e81-db74-41a2-a9aa-423314082bea",

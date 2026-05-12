@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--412d9440-33a3-4ebd-8163-23d73a36abf1",
+    "id": "bundle--63228afd-0831-485a-85e9-b04d72d86e3a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5a166a20-4191-429c-9fd0-f566a86f0753",
             "created": "2020-11-06T18:40:38.324Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cobalt Strike TTPs Dec 2017",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T15:49:13.819Z",
+            "modified": "2026-04-29T14:23:06.048Z",
             "description": "[Cobalt Strike](https://attack.mitre.org/software/S0154) can use VBA to perform execution.(Citation: Cobalt Strike TTPs Dec 2017)(Citation: CobaltStrike Daddy May 2017)(Citation: Talos Cobalt Strike September 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",

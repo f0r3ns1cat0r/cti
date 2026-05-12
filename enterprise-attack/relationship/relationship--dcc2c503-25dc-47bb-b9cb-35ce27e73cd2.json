@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a18d605a-c924-4ca2-8bd8-21eb44445be8",
+    "id": "bundle--394d86d3-4b9c-4b65-988b-0cfad5e3d59e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--dcc2c503-25dc-47bb-b9cb-35ce27e73cd2",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft SIR Vol 19",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:13:21.916Z",
+            "modified": "2026-04-29T14:23:06.227Z",
             "description": "[CORESHELL](https://attack.mitre.org/software/S0137) has established persistence by creating autostart extensibility point (ASEP) Registry entries in the Run key and other Registry keys, as well as by creating shortcuts in the Internet Explorer Quick Start folder.(Citation: Microsoft SIR Vol 19)",
             "relationship_type": "uses",
             "source_ref": "malware--60c18d06-7b91-4742-bae3-647845cd9d81",
             "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

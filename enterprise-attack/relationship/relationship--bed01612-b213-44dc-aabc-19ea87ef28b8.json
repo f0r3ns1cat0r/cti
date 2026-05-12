@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b6944026-9398-4c66-b8a3-fc8eb43d5c9f",
+    "id": "bundle--5f3f567e-828f-4099-996c-7629262a7d1b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bed01612-b213-44dc-aabc-19ea87ef28b8",
             "created": "2022-06-07T17:15:22.106Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ClearSky Siamesekitten August 2021",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:43:52.202Z",
+            "modified": "2026-04-29T14:23:06.186Z",
             "description": "(Citation: ClearSky Siamesekitten August 2021)(Citation: Zscaler Lyceum DnsSystem June 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
             "target_ref": "tool--294e2560-bd48-44b2-9da2-833b5588ad11",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

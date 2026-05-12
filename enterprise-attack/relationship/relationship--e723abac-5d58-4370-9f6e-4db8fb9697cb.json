@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a8440940-29fa-4fd0-8825-9881490c3e76",
+    "id": "bundle--74f19e85-9ff7-48d3-8542-1f4a004637d9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e723abac-5d58-4370-9f6e-4db8fb9697cb",
             "created": "2024-12-07T16:38:26.018Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Splunk ShrinkLocker 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:54:16.471Z",
+            "modified": "2026-04-29T14:23:06.240Z",
             "description": "[ShrinkLocker](https://attack.mitre.org/software/S1178) can initiate a destructive payload depending on the operating system check through resizing and reformatting portions of the victim machine's disk, leading to system instability and potential data corruption.(Citation: Splunk ShrinkLocker 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--3fc44c12-b16e-4de1-8869-cf0eb4446070",
             "target_ref": "attack-pattern--d45a3d09-b3cf-48f4-9f0f-f521ee5cb05c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

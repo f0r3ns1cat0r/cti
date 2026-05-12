@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--d90393f5-2c00-452f-b2f6-4d30ec6f9d2e",
+    "id": "bundle--ba221cda-ee34-4f28-a9b6-3d34b0332c1b",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--630ea167-088b-4958-ac19-0fc59310e262",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.679Z",
             "name": "Credential Stuffing Detection via Reused Breached Credentials Across Services",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -37,8 +38,7 @@
                 "x-mitre-analytic--23c7fff8-de08-49dd-a101-0c35ad40bd7e",
                 "x-mitre-analytic--1b3bbeab-2000-47d6-88f9-8ed519f9bed6",
                 "x-mitre-analytic--de41a23b-b07d-411b-80f7-d1a8f55ba459"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

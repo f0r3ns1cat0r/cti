@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6cdb5788-273a-4031-bc69-2466584f6870",
+    "id": "bundle--073f8892-2859-494c-ab35-470b88b9c921",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T19:26:49.148Z",
+            "modified": "2026-04-29T14:23:06.271Z",
             "description": "[Remcos](https://attack.mitre.org/software/S0332) can serialize collected data with Protobuf.(Citation: Check Point Blind Eagle MAR 2025)",
             "relationship_type": "uses",
             "source_ref": "tool--7cd0bc75-055b-4098-a00e-83dc8beaff14",

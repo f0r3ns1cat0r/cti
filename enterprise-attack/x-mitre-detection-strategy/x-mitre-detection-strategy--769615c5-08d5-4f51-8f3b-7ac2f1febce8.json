@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--d25ab427-f8f7-410a-8b6e-91367a749792",
+    "id": "bundle--d3591bdb-4691-48f6-bb13-88437f19f25c",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--769615c5-08d5-4f51-8f3b-7ac2f1febce8",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.681Z",
             "name": "Suspicious Use of Web Services for C2",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -32,8 +33,7 @@
                 "x-mitre-analytic--6e053521-1d6d-493f-8cd5-34f9a5992fc7",
                 "x-mitre-analytic--aff88199-cad0-47f8-b065-0ad7a86ec8a7",
                 "x-mitre-analytic--900bc498-4b81-43b6-bec2-3b55edc5c0ff"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

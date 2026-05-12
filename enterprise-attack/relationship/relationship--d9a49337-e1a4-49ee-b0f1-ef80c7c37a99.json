@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0c62e263-5821-48f5-958b-81bc80605a00",
+    "id": "bundle--0c33cf0b-0f61-4555-94a8-55889d9a8322",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d9a49337-e1a4-49ee-b0f1-ef80c7c37a99",
             "created": "2020-11-09T14:52:45.740Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Kimsuky November 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:12:49.025Z",
+            "modified": "2026-04-29T14:23:06.222Z",
             "description": "[CSPY Downloader](https://attack.mitre.org/software/S0527) can search loaded modules, PEB structure, file paths, Registry keys, and memory to determine if it is being debugged or running in a virtual environment.(Citation: Cybereason Kimsuky November 2020)",
             "relationship_type": "uses",
             "source_ref": "tool--5256c0f8-9108-4c92-8b09-482dfacdcd94",
             "target_ref": "attack-pattern--29be378d-262d-4e99-b00d-852d573628e6",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

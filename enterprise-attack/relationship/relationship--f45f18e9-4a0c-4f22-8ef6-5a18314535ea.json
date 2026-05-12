@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ab7dbff0-9b57-4866-b311-d230e5330f56",
+    "id": "bundle--a961e92c-6763-43e8-92f4-773cecf8b7ea",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f45f18e9-4a0c-4f22-8ef6-5a18314535ea",
             "created": "2020-05-26T18:03:17.256Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Medium Metamorfo Apr 2020",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:17:21.463Z",
+            "modified": "2026-04-29T14:23:06.257Z",
             "description": "[Metamorfo](https://attack.mitre.org/software/S0455) has searched the Program Files directories for specific folders and has searched for strings related to its mutexes.(Citation: Medium Metamorfo Apr 2020)(Citation: Fortinet Metamorfo Feb 2020)(Citation: FireEye Metamorfo Apr 2018) ",
             "relationship_type": "uses",
             "source_ref": "malware--81c57a96-fc8c-4f91-af8e-63e24c2927c2",
             "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

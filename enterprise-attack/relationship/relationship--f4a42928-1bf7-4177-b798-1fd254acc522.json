@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e46f887c-37f2-4a63-b48e-712fd903988a",
+    "id": "bundle--f9460ec6-1eb6-4ec5-bb00-0c1298308e7d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f4a42928-1bf7-4177-b798-1fd254acc522",
             "created": "2025-01-08T21:48:13.102Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Howling Scorpius DEC 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:57:48.893Z",
+            "modified": "2026-04-29T14:23:06.257Z",
             "description": "[Megazord](https://attack.mitre.org/software/S1191) can ignore specified directories for encryption.(Citation: Palo Alto Howling Scorpius DEC 2024)\n",
             "relationship_type": "uses",
             "source_ref": "malware--4e762e29-3c56-4a2b-b205-c5890c0856ed",
             "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

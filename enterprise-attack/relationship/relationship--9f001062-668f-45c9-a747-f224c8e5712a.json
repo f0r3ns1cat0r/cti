@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--20628d29-d0b3-4f1c-9cf0-2b6a88110ce1",
+    "id": "bundle--386bcf08-9573-4f18-a48a-fbde4a653ea2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9f001062-668f-45c9-a747-f224c8e5712a",
             "created": "2020-09-17T12:51:40.971Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Disable VBA Jan 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:02:28.692Z",
+            "modified": "2026-04-29T14:23:06.142Z",
             "description": "Turn off or restrict access to unneeded VB components.(Citation: Microsoft Disable VBA Jan 2020)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--eb88d97c-32f1-40be-80f0-d61a4b0b4b31",
             "target_ref": "attack-pattern--c898c4b5-bf36-4e6e-a4ad-5b8c4c13e35b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

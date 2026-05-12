@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d75bf2b1-b789-4949-8e36-bd05d50a51e0",
+    "id": "bundle--d1f6677d-f9fa-46d2-a716-8f99aad5a55d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--3511b2ef-7012-4a7f-8b38-d6b7ba508b59",
             "created": "2025-10-22T02:45:11.427Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET GreyEnergy Oct 2018",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T02:45:11.427Z",
+            "modified": "2026-04-29T14:23:05.990Z",
             "description": "[FELIXROOT](https://attack.mitre.org/software/S0267) collects the victim\u2019s volume serial number.(Citation: FireEye FELIXROOT July 2018)(Citation: ESET GreyEnergy Oct 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--cf8df906-179c-4a78-bd6e-6605e30f6624",

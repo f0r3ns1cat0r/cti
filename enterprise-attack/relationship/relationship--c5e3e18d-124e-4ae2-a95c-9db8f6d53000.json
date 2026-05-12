@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4368d152-089d-40e6-ac20-88e23519f467",
+    "id": "bundle--0935cd46-0e86-4370-8e61-85fbe7dcf244",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c5e3e18d-124e-4ae2-a95c-9db8f6d53000",
             "created": "2020-07-15T19:02:25.131Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "IBM IcedID November 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:09:21.188Z",
+            "modified": "2026-04-29T14:23:06.196Z",
             "description": "[IcedID](https://attack.mitre.org/software/S0483) has used web injection attacks to redirect victims to spoofed sites designed to harvest banking and other credentials.  [IcedID](https://attack.mitre.org/software/S0483) can use a self signed TLS certificate in connection with the spoofed site and simultaneously maintains a live connection with the legitimate site to display the correct URL and certificates in the browser.(Citation: IBM IcedID November 2017)(Citation: Juniper IcedID June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--5147ef15-1cae-4707-8ea1-bee8d98b7f1d",
             "target_ref": "attack-pattern--544b0346-29ad-41e1-a808-501bb4193f47",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

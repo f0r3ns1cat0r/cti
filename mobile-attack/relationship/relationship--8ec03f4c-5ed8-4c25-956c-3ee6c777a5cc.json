@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3817f725-a047-4dd2-ac9a-8b8eaad56187",
+    "id": "bundle--2c52b2b2-cee0-496a-a976-27e19e40940a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8ec03f4c-5ed8-4c25-956c-3ee6c777a5cc",
             "created": "2019-09-23T13:36:08.441Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "securelist rotexy 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:29:38.463Z",
+            "modified": "2026-04-29T14:23:06.120Z",
             "description": "[Rotexy](https://attack.mitre.org/software/S0411) retrieves a list of installed applications and sends it to the command and control server.(Citation: securelist rotexy 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--0626c181-93cb-4860-9cb0-dff3b1c13063",
             "target_ref": "attack-pattern--198ce408-1470-45ee-b47f-7056050d4fc2",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

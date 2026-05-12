@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4fcc6c28-eb11-43b3-90e2-d2b259a335d7",
+    "id": "bundle--7468aabb-fe1d-4b97-b10e-d97ac919762c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-19T00:24:26.478Z",
+            "modified": "2026-04-29T14:23:06.192Z",
             "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has executed malware with <code>regsvr32s</code>.(Citation: Gen Digital Kimsuky HTTPTroy October 2025)(Citation: KISA Operation Muzabi)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",

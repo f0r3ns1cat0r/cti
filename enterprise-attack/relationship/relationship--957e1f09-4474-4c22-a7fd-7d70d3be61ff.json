@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2a504681-def4-4a4c-8209-8f3c707cecac",
+    "id": "bundle--9d017ebd-0a6c-4f76-9484-c14d17528dad",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--957e1f09-4474-4c22-a7fd-7d70d3be61ff",
             "created": "2019-06-05T17:31:22.434Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro Ursnif Mar 2015",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:33:04.125Z",
+            "modified": "2026-04-29T14:23:06.129Z",
             "description": "[Ursnif](https://attack.mitre.org/software/S0386) has used HTTPS for C2.(Citation: TrendMicro Ursnif Mar 2015)(Citation: FireEye Ursnif Nov 2017)(Citation: ProofPoint Ursnif Aug 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--1492d0f8-7e14-4af3-9239-bc3fe10d3407",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

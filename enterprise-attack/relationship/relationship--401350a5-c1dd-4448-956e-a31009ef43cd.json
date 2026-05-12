@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--32788b79-c794-48f9-ad93-3cdc8a923fa2",
+    "id": "bundle--8c88f7a3-5740-45f9-aa52-68d5534996ab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T12:54:33.800Z",
+            "modified": "2026-04-29T14:23:06.012Z",
             "description": "[IronWind](https://attack.mitre.org/software/S9029) has used DLL sideloading for execution.(Citation: Check Point Wirte NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--089aa00a-99ac-46b4-9cf8-4224d463566d",

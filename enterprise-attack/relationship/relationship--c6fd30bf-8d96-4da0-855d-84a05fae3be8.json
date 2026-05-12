@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--00a7343f-f433-4966-89f9-bce0cb0ff41c",
+    "id": "bundle--872fcf5f-41de-4a63-9eef-371a16e9baf6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T21:14:15.842Z",
+            "modified": "2026-04-29T14:23:06.197Z",
             "description": "[LP-Notes](https://attack.mitre.org/software/S9036) has impersonated the security context of the taskhostw.exe process via the `ImpersonateLoggedOnUser` API.(Citation: ESET_MuddyWater_Dec2025)",
             "relationship_type": "uses",
             "source_ref": "malware--7fbf1f1e-cbd8-4060-8e3b-7ca0e56ce3fe",

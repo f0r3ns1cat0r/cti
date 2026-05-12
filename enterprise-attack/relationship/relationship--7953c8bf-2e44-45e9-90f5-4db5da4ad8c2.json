@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3e15afc1-3bee-464c-850b-13665aae22fa",
+    "id": "bundle--e3fae644-66bf-447d-94f1-1e6e69ae44dc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7953c8bf-2e44-45e9-90f5-4db5da4ad8c2",
             "created": "2022-09-22T20:15:26.807Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco Talos Transparent Tribe Education Campaign July 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:25:33.433Z",
+            "modified": "2026-04-29T14:23:06.091Z",
             "description": "[Crimson](https://attack.mitre.org/software/S0115) can exfiltrate stolen information over its C2.(Citation: Cisco Talos Transparent Tribe Education Campaign July 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--326af1cd-78e7-45b7-a326-125d2f7ef8f2",
             "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

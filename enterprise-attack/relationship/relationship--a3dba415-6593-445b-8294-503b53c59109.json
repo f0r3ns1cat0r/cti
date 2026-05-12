@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--33afd75e-2688-4b39-b9ed-c8ef7aae26e6",
+    "id": "bundle--a4c6eb5e-26bc-4e59-9a7e-ad9f3fabaca3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a3dba415-6593-445b-8294-503b53c59109",
             "created": "2024-11-20T22:03:28.244Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Volexity UPSTYLE 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:36:57.172Z",
+            "modified": "2026-04-29T14:23:06.148Z",
             "description": "[UPSTYLE](https://attack.mitre.org/software/S1164) retrieves a non-existent webpage from the command and control server then parses commands from the resulting error logs to decode commands to the web shell.(Citation: Volexity UPSTYLE 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--2692bdd0-da52-44ff-88a3-9db28b948ea2",
             "target_ref": "attack-pattern--f7c0689c-4dbd-489b-81be-7cb7c7079ade",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

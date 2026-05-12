@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3b71f5fc-1174-4446-b099-5d5a8b247c92",
+    "id": "bundle--11d6ecc7-e55a-4622-a44c-8f06f383584a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--db355151-5333-430e-8cb9-421bc688f874",
             "created": "2025-07-21T20:11:41.912Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Zscaler",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-25T15:15:31.236Z",
+            "modified": "2026-04-29T14:23:06.225Z",
             "description": "[StarProxy](https://attack.mitre.org/software/S1227) has proxied traffic between infected devices and their C2 servers.(Citation: Zscaler)",
             "relationship_type": "uses",
             "source_ref": "malware--e91d3543-ca5d-474b-8b20-5a753ebc6e49",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f05be01c-a345-4b03-9d1b-5dca2d26401a",
+    "id": "bundle--779aa8a8-d159-4fdb-a8a8-603cadc347d2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--75a8614f-bf92-455d-b2ef-7085aff9a64d",
             "created": "2023-08-16T16:33:56.014Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "cyble_chameleon_0423",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-08T20:23:56.915Z",
+            "modified": "2026-04-29T14:23:06.086Z",
             "description": "[Chameleon](https://attack.mitre.org/software/S1083) has logged keystrokes of an infected device.(Citation: cyble_chameleon_0423) Additionally, [Chameleon](https://attack.mitre.org/software/S1083) has stolen PINs, passwords and graphical keys through keylogging functionalities.(Citation: ThreatFabric_Chameleon_Dec2023) ",
             "relationship_type": "uses",
             "source_ref": "malware--2cf00c5a-857d-4cb6-8f03-82f15bee0f6f",

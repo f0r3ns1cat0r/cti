@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--20bcbfac-e32f-491c-a7ba-3d718366cf5e",
+    "id": "bundle--71edb881-1dbf-4f5f-89d9-36939bb8c205",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:55:09.816Z",
+            "modified": "2026-04-29T14:23:06.107Z",
             "description": "[Hildegard](https://attack.mitre.org/software/S0601) has modified DNS resolvers to evade DNS monitoring tools.(Citation: Unit 42 Hildegard Malware)",
             "relationship_type": "uses",
             "source_ref": "malware--40a1b8ec-7295-416c-a6b1-68181d86f120",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--99f4a0c9-656d-4152-8234-8f272eacc623",
+    "id": "bundle--e5b67bd2-b983-42c4-8b2c-6b9b9a10258d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--2cf01fbd-c940-4152-8173-bae63f37aedd",
             "created": "2022-09-07T13:43:37.050Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Frankenstein June 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:04:46.683Z",
+            "modified": "2026-04-29T14:23:05.965Z",
             "description": "During [Frankenstein](https://attack.mitre.org/campaigns/C0001) the threat actors used [Empire](https://attack.mitre.org/software/S0363) for discovery.(Citation: Talos Frankenstein June 2019)",
             "relationship_type": "uses",
             "source_ref": "campaign--26d9ebae-de59-427f-ae9a-349456bae4b1",
             "target_ref": "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b15b6e66-abeb-4325-a7f1-118ff48c9c6d",
+    "id": "bundle--54d478de-6e93-46f7-8238-67379836b2b2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--3752c235-0576-47dc-b05d-d3eaeaccfecc",
             "created": "2020-12-24T21:55:56.688Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lookout Uyghur Campaign",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:28:19.596Z",
+            "modified": "2026-04-29T14:23:05.995Z",
             "description": "[DoubleAgent](https://attack.mitre.org/software/S0550) has captured audio and can record phone calls.(Citation: Lookout Uyghur Campaign)",
             "relationship_type": "uses",
             "source_ref": "malware--3d6c4389-3489-40a3-beda-c56e650b6f68",
             "target_ref": "attack-pattern--6683aa0c-d98a-4f5b-ac57-ca7e9934a760",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5a31d7ca-268a-465e-921b-fca9b1f5f4b2",
+    "id": "bundle--93fd7865-d404-4902-9b36-95a10db1fcf1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-19T15:18:18.239Z",
+            "modified": "2026-04-29T14:23:06.196Z",
             "description": "[ANELLDR](https://attack.mitre.org/software/S9027) code implements anti-analysis techniques including control flow flattening and Mixed Boolean Arithmetic (MBA).(Citation: Trend Micro Earth Kasha Anel NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--c21edbd1-a0a4-4c3c-9b22-4a49634186c3",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e47af5ed-fb05-424e-a626-b5c16d51260f",
+    "id": "bundle--b1c757b3-6b3d-4f7f-9562-6cf1536d55f2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5ed383c7-a4b7-441b-8f99-a9927689aea0",
             "created": "2021-09-23T13:09:35.866Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "BlackBerry_FIN7_April2024",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-07-11T17:35:55.066Z",
+            "modified": "2026-04-29T14:23:06.054Z",
             "description": "[FIN7](https://attack.mitre.org/groups/G0046) has encrypted virtual disk volumes on ESXi servers using a version of Darkside ransomware.(Citation: CrowdStrike Carbon Spider August 2021)(Citation: Mandiant FIN7 Apr 2022) Additionally, [FIN7](https://attack.mitre.org/groups/G0046) has deployed ransomware as the end payload during big game hunting.(Citation: BlackBerry_FIN7_April2024)  ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
             "target_ref": "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

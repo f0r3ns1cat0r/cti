@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fc593ec1-e85d-4490-8e82-3eddfab94f18",
+    "id": "bundle--d51dea71-bc3b-4b58-ae62-62d49f3d86f6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d30d8fa0-7f24-41e5-ae8d-e4449e88d2f0",
             "created": "2017-05-31T21:33:27.080Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Gamaredon June 2020",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-21T17:04:38.431Z",
+            "modified": "2026-04-29T14:23:06.214Z",
             "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) tools have contained an application to check performance of USB flash drives. [Gamaredon Group](https://attack.mitre.org/groups/G0047) has also used malware to scan for removable drives.(Citation: Palo Alto Gamaredon Feb 2017)(Citation: ESET Gamaredon June 2020)(Citation: ESET Gamaredon Sept2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
             "target_ref": "attack-pattern--348f1eef-964b-4eb6-bb53-69b3dcb0c643",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

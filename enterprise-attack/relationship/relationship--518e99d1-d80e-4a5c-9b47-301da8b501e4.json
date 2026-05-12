@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--42e78c26-5e71-4853-8e41-12588cb0b24c",
+    "id": "bundle--b966b7fa-bbed-4838-b25e-bbf9a268ab79",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--518e99d1-d80e-4a5c-9b47-301da8b501e4",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET GreyEnergy Oct 2018",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:14:51.165Z",
+            "modified": "2026-04-29T14:23:06.037Z",
             "description": "[FELIXROOT](https://attack.mitre.org/software/S0267) uses HTTP and HTTPS to communicate with the C2 server.(Citation: FireEye FELIXROOT July 2018)(Citation: ESET GreyEnergy Oct 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--cf8df906-179c-4a78-bd6e-6605e30f6624",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

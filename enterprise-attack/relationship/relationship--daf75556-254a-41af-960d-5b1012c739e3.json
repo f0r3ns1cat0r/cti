@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d85abc93-b16b-47d3-a406-76e53c51390d",
+    "id": "bundle--b6da9377-08fb-45bb-ba53-065feae7efcb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--daf75556-254a-41af-960d-5b1012c739e3",
             "created": "2022-03-02T17:32:03.501Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ASEC Lazarus 2022",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:51:12.935Z",
+            "modified": "2026-04-29T14:23:06.224Z",
             "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) has replaced `win_fw.dll`, an internal component that is executed during IDA Pro installation, with a malicious DLL to download and execute a payload.(Citation: ESET Twitter Ida Pro Nov 2021) [Lazarus Group](https://attack.mitre.org/groups/G0032) utilized DLL side-loading to execute malicious payloads through abuse of the legitimate processes `wsmprovhost.exe` and `dfrgui.exe`.(Citation: ASEC Lazarus 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

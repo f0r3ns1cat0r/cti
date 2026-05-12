@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2b401b21-7875-4307-98c0-38d7e2aadeea",
+    "id": "bundle--95bd01ba-abc8-459d-923e-a6684a13027a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b9af8369-a6b2-4081-9f07-2ee15d56bffc",
             "created": "2020-06-02T14:32:31.871Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Project Zero Insomnia",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:30:19.584Z",
+            "modified": "2026-04-29T14:23:06.178Z",
             "description": "[INSOMNIA](https://attack.mitre.org/software/S0463) can collect application database files, including Gmail, Hangouts, device photos, and container directories of third-party apps.(Citation: Google Project Zero Insomnia)",
             "relationship_type": "uses",
             "source_ref": "malware--21b7e0b0-0dea-4ccc-8ad4-8da51fe3a901",
             "target_ref": "attack-pattern--e1c912a9-e305-434b-9172-8a6ce3ec9c4a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

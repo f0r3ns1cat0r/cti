@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7bedbfaf-f319-4454-824a-966c39869c86",
+    "id": "bundle--8fc1c96c-dbd1-444e-b75d-edd7f9901764",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b997c08e-f005-432f-8030-1903d18eec51",
             "created": "2021-08-31T17:00:18.537Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybersecurity Advisory GRU Brute Force Campaign July 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:07:03.770Z",
+            "modified": "2026-04-29T14:23:06.178Z",
             "description": "(Citation: Cybersecurity Advisory GRU Brute Force Campaign July 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "tool--ed7d0cb1-87a6-43b4-9f46-ef1bc56d6c68",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

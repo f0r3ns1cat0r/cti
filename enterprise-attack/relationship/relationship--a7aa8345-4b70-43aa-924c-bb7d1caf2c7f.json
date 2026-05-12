@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--12f93183-ff11-40f9-948c-e63f605e9b65",
+    "id": "bundle--05d6f50a-2269-46bb-961a-05b7a12fd450",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a7aa8345-4b70-43aa-924c-bb7d1caf2c7f",
             "created": "2024-12-17T00:10:23.400Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco BlackByte 2024",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:37:58.254Z",
+            "modified": "2026-04-29T14:23:06.153Z",
             "description": "[BlackByte](https://attack.mitre.org/groups/G1043) created malicious services for ransomware execution.(Citation: Symantec BlackByte 2022)(Citation: Cisco BlackByte 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--02b16bd6-ae88-417a-8a3f-02c5e166175a",
             "target_ref": "attack-pattern--f1951e8a-500e-4a26-8803-76d95c4554b4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

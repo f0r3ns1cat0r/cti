@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--966355b9-c598-4e03-988b-9e43ea15f925",
+    "id": "bundle--704be506-3469-45aa-8a0c-e8c0b60381d7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T17:53:31.236Z",
+            "modified": "2026-05-12T16:30:18.382Z",
             "name": "Analytic 1822",
             "description": "The defender correlates call-control capability or telecom role state with subsequent unauthorized call initiation, answer, block, redirect, or concealment behavior by an application outside expected telephony workflows. The analytic prioritizes Android-observable control-plane effects: dangerous or role-gated call-control permissions, default dialer or ConnectionService-related role changes, telecom framework invocation for call placement or handling, write activity against call-log records, and call-control activity occurring from background or locked-device context without recent user interaction.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

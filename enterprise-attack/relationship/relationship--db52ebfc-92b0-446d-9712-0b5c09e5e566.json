@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--29b25aa4-a2ad-4137-9967-fbd31bbc5e81",
+    "id": "bundle--7a25aa1b-f3b9-41a5-8a0e-4f9152c01a25",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--db52ebfc-92b0-446d-9712-0b5c09e5e566",
             "created": "2025-03-14T19:41:16.571Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sygnia VelvetAnt 2024A",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:51:20.113Z",
+            "modified": "2026-04-29T14:23:06.225Z",
             "description": "[Velvet Ant](https://attack.mitre.org/groups/G1047) has transferred tools within victim environments using SMB.(Citation: Sygnia VelvetAnt 2024A)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--e1fc262c-dad2-4b82-abda-5f08dd134971",
             "target_ref": "attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

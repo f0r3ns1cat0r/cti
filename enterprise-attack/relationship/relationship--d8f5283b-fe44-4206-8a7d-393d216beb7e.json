@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--966f75e9-ba47-48f2-8f69-ca0ef389ca03",
+    "id": "bundle--82e680ad-0fd4-46ab-a8ba-7f740f7a352f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d8f5283b-fe44-4206-8a7d-393d216beb7e",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cylance Cleaver",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:50:42.485Z",
+            "modified": "2026-04-29T14:23:06.221Z",
             "description": "[TinyZBot](https://attack.mitre.org/software/S0004) contains keylogger functionality.(Citation: Cylance Cleaver)",
             "relationship_type": "uses",
             "source_ref": "malware--c0c45d38-fe57-4cd4-b2b2-9ecd0ddd4ca9",
             "target_ref": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

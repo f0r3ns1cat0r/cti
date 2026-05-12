@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--37cb8162-02c2-4819-987e-c9ea8bc07130",
+    "id": "bundle--c99ddab3-98dc-4089-b125-5b8723e765a6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ef407819-f7e3-477c-8586-42ba108e5786",
             "created": "2020-09-30T14:52:08.973Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA WellMess July 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:16:34.782Z",
+            "modified": "2026-04-29T14:23:06.251Z",
             "description": "[WellMess](https://attack.mitre.org/software/S0514) can use junk data in the Base64 string for additional obfuscation.(Citation: CISA WellMess July 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--3a4197ae-ec63-4162-907b-9a073d1157e4",
             "target_ref": "attack-pattern--f7c0689c-4dbd-489b-81be-7cb7c7079ade",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

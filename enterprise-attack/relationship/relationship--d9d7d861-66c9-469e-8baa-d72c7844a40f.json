@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fc707108-1a99-46fd-8c1e-5a21eb53fbc0",
+    "id": "bundle--63d86ca9-6e51-4c0e-b4ca-c2c16499a4a3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d9d7d861-66c9-469e-8baa-d72c7844a40f",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET GreyEnergy Oct 2018",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:50:57.800Z",
+            "modified": "2026-04-29T14:23:06.223Z",
             "description": "[FELIXROOT](https://attack.mitre.org/software/S0267) collects the username from the victim\u2019s machine.(Citation: FireEye FELIXROOT July 2018)(Citation: ESET GreyEnergy Oct 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--cf8df906-179c-4a78-bd6e-6605e30f6624",
             "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

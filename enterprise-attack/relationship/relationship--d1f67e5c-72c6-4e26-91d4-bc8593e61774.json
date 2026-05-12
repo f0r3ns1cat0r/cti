@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3085aef4-b64c-4393-a370-3e63d4bf763e",
+    "id": "bundle--5f559849-d42b-411f-821c-540111e63d36",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d1f67e5c-72c6-4e26-91d4-bc8593e61774",
             "created": "2019-06-13T16:59:18.369Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "NIST 800-63-3",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:11:33.077Z",
+            "modified": "2026-04-29T14:23:06.212Z",
             "description": "Refer to NIST guidelines when creating password policies.(Citation: NIST 800-63-3)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--90c218c3-fbf8-4830-98a7-e8cfb7eaa485",
             "target_ref": "attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b2bc686d-d93c-4bba-907f-db4e750d07e4",
+    "id": "bundle--bc8cf356-d1de-4423-86ca-4858d999f1ac",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c7e92a33-f627-44bd-80be-d6e0cfcef656",
             "created": "2021-10-11T14:18:23.531Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Securelist APT10 March 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:09:41.108Z",
+            "modified": "2026-04-29T14:23:06.198Z",
             "description": "[Ecipekac](https://attack.mitre.org/software/S0624) has used a valid, legitimate digital signature to evade detection.(Citation: Securelist APT10 March 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--292eb0c5-b8e8-4af6-9e8f-0fda6b4528d3",
             "target_ref": "attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

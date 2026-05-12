@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c9043935-eb84-4e25-9dae-e6050cab349c",
+    "id": "bundle--46c9358e-e746-4ee2-a982-874d73cb2b93",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:47:49.424Z",
+            "modified": "2026-04-29T14:23:05.912Z",
             "description": "[MegaCortex](https://attack.mitre.org/software/S0576) was used to kill endpoint security processes.(Citation: IBM MegaCortex)",
             "relationship_type": "uses",
             "source_ref": "malware--909617c3-6d87-4330-8f32-bd3af38c3b92",

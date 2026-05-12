@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2a93cf22-13df-449a-9f1e-8b3da621d844",
+    "id": "bundle--7d461fd7-cc05-4b23-9f73-12d0523d9dcd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--989a5b4d-14d3-4942-8326-91d677e4d38a",
             "created": "2022-09-16T21:24:44.331Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "McAfee Honeybee",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:33:58.910Z",
+            "modified": "2026-04-29T14:23:06.133Z",
             "description": "For [Operation Honeybee](https://attack.mitre.org/campaigns/C0006), the threat actors stole a digital signature from Adobe Systems to use with their MaoCheng dropper.(Citation: McAfee Honeybee)",
             "relationship_type": "uses",
             "source_ref": "campaign--4553292d-12c6-4a93-934d-12160370d4e0",
             "target_ref": "attack-pattern--19401639-28d0-4c3c-adcc-bc2ba22f6421",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--66343f8a-f09e-45e4-9ca2-97e5123f3286",
+    "id": "bundle--702e193e-207c-4798-bcec-c937bdc16964",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6a924f93-6a3a-4931-b0b3-b8bc37f0587a",
             "created": "2024-03-26T18:49:57.818Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "fb_arid_viper",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:49:18.072Z",
+            "modified": "2026-04-29T14:23:06.070Z",
             "description": "[Phenakite](https://attack.mitre.org/software/S1126) can masquerade as the chat application \"Magic Smile.\"(Citation: fb_arid_viper)",
             "relationship_type": "uses",
             "source_ref": "malware--f97e2718-af50-41df-811f-215ebab45691",
             "target_ref": "attack-pattern--114fed8b-7eed-4136-8b9c-411c5c7fff4b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

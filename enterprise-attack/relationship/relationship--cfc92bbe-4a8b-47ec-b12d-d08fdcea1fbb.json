@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ca7358fc-5b68-4228-8965-d8dc0952c4ee",
+    "id": "bundle--5f813ce3-eea4-47e6-aefc-a2bf8c2bad1b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cfc92bbe-4a8b-47ec-b12d-d08fdcea1fbb",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos ROKRAT",
@@ -43,14 +44,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:11:10.801Z",
+            "modified": "2026-04-29T14:23:06.209Z",
             "description": "[ROKRAT](https://attack.mitre.org/software/S0240) can gather the hostname and the OS version to ensure it doesn\u2019t run on a Windows XP or Windows Server 2003 systems.(Citation: Talos ROKRAT)(Citation: Talos ROKRAT 2)(Citation: Securelist ScarCruft May 2019)(Citation: NCCGroup RokRat Nov 2018)(Citation: Volexity InkySquid RokRAT August 2021)(Citation: Malwarebytes RokRAT VBA January 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--60a9c2f0-b7a5-4e8e-959c-e1a3ff314a5f",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

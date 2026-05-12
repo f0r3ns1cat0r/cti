@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1013e47f-963e-4ee8-b72e-1c1f61505925",
+    "id": "bundle--4fe67cb5-31bd-4c08-9b7b-f16c6676a072",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T18:02:19.239Z",
+            "modified": "2026-04-29T14:23:06.098Z",
             "description": "[MuddyViper](https://attack.mitre.org/software/S9032) has displayed a fake Windows Security dialog to gather credentials.(Citation: ESET_MuddyWater_Dec2025)\u202f\u202f\u202f\u202f ",
             "relationship_type": "uses",
             "source_ref": "malware--7b92e996-b535-4159-be16-3c3aee4edf54",

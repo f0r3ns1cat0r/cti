@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f156dd17-e949-47a2-bdb7-da3e3c10d71d",
+    "id": "bundle--b7865912-fd0e-4474-a386-677f79866890",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T23:15:15.902Z",
+            "modified": "2026-04-29T14:23:06.219Z",
             "description": "[Qilin](https://attack.mitre.org/software/S1242) can reboot targeted systems in safe mode to avoid detection.(Citation: Trend Micro Agenda Ransomware AUG 2022)(Citation: BushidoToken Qilin RaaS JUN 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--e23d2777-b85d-44fc-861e-9149d399fbb9",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e83189da-5494-486e-9967-44bf2b4c7c9f",
+    "id": "bundle--2d2645c9-319e-4a26-8430-4761b22a77d5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:58:05.091Z",
+            "modified": "2026-04-29T14:23:06.163Z",
             "description": "[APT32](https://attack.mitre.org/groups/G0050) has cleared select event log entries.(Citation: FireEye APT32 May 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",

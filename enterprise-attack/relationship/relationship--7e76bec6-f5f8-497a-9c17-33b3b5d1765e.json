@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ac873a38-5275-4d5c-abe5-841e5dad6a6b",
+    "id": "bundle--e4dadf70-bdd6-46fb-950a-172d2dabac6d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7e76bec6-f5f8-497a-9c17-33b3b5d1765e",
             "created": "2025-09-12T17:06:10.306Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "IBM MUSTANG PANDA PUBLOAD CLAIMLOADER JUNE 2025",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-12T17:06:10.307Z",
+            "modified": "2026-04-29T14:23:06.098Z",
             "description": "[CLAIMLOADER](https://attack.mitre.org/software/S1236) has created hardcoded mutex to ensure only a single instance of the malware is running.(Citation: IBM MUSTANG PANDA PUBLOAD CLAIMLOADER JUNE 2025)(Citation: 2025_IBM_PUBLOAD_TONESHELL_HIUPAN_CLAIMLOADER_MUSTANG PANDA)",
             "relationship_type": "uses",
             "source_ref": "malware--47e4b55a-7803-4bf5-822c-906a1ecbdd6e",

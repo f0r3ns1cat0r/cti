@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6bd27c62-c15c-41b3-9cbb-60c8c0ea8590",
+    "id": "bundle--b13ffb22-f3c0-48d3-ad53-189cdc75d153",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4e52b5b5-5f7d-4900-aae0-34b2d71b90e0",
             "created": "2025-08-06T19:08:26.821Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Fortinet Havoc MAR 2025",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-06T19:08:26.821Z",
+            "modified": "2026-04-29T14:23:06.032Z",
             "description": "[Havoc](https://attack.mitre.org/software/S1229) can gather system information including hostname, domain, and OS details.(Citation: Fortinet Havoc MAR 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--1996aed9-6234-4c1d-a145-e8a4913679dd",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1781f8bb-c155-4208-ad34-ee521c0f5986",
+    "id": "bundle--dba7c6ca-40a2-4010-a265-daa37ea56639",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cef1859a-f4d6-42ca-9fa8-eb77b7ae6e7b",
             "created": "2026-01-26T18:52:35.710Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Halcyon_CloakRansomware_Dec2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-26T21:13:01.282Z",
+            "modified": "2026-04-29T14:23:06.208Z",
             "description": "[Diskpart](https://attack.mitre.org/software/S9002) can execute a disk partition script file, which attempts to mount a virtual hard disk.(Citation: Halcyon_CloakRansomware_Dec2024) [Diskpart](https://attack.mitre.org/software/S9002) can also assign and mount virtual disks.(Citation: Halcyon_CloakRansomware_Dec2024)   ",
             "relationship_type": "uses",
             "source_ref": "tool--080f872e-f1a3-4d42-bb00-9eb55949f6a9",

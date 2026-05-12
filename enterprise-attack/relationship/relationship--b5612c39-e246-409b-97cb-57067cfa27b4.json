@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a2c8b425-7537-4680-8318-1dc5b1a58de9",
+    "id": "bundle--ab083e39-c636-4711-9bed-15486303eb49",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b5612c39-e246-409b-97cb-57067cfa27b4",
             "created": "2019-05-02T14:41:03.408Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cofense RevengeRAT Feb 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:41:26.793Z",
+            "modified": "2026-04-29T14:23:06.173Z",
             "description": "[Revenge RAT](https://attack.mitre.org/software/S0379) uses the [Forfiles](https://attack.mitre.org/software/S0193) utility to execute commands on the system.(Citation: Cofense RevengeRAT Feb 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--bdb27a1d-1844-42f1-a0c0-826027ae0326",
             "target_ref": "attack-pattern--3b0e52ce-517a-4614-a523-1bd5deef6c5e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

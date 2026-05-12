@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ae6f4ded-ae91-4806-bb5c-4fc658bb3240",
+    "id": "bundle--65dfe5bd-155c-4381-acb9-d60d177d2b5d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ce4707f0-d5b8-4dd6-b5ab-cf1483dd236f",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto DNS Requests",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:10:53.758Z",
+            "modified": "2026-04-29T14:23:06.207Z",
             "description": "[Pisloader](https://attack.mitre.org/software/S0124) has a command to upload a file to the victim machine.(Citation: Palo Alto DNS Requests)",
             "relationship_type": "uses",
             "source_ref": "malware--b96680d1-5eb3-4f07-b95c-00ab904ac236",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

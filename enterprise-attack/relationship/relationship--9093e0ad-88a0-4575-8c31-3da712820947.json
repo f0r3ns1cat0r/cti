@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b7733630-528b-49fd-b2ee-5302415c482a",
+    "id": "bundle--30764a96-7fa4-47c0-9c74-e46002ddbeee",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9093e0ad-88a0-4575-8c31-3da712820947",
             "created": "2025-07-21T19:37:20.100Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Broadcom",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-25T13:32:53.722Z",
+            "modified": "2026-04-29T14:23:06.122Z",
             "description": "[BOOKWORM](https://attack.mitre.org/software/S1226) has used various Windows API calls during execution and defense evasion.(Citation: Broadcom) (Citation: Palo Alto Networks, Unit 42) [BOOKWORM](https://attack.mitre.org/software/S1226) has created a buffer on the heap using `HeapCreate` and `HeapAlloc` which allows for copying of shell code and then execution on the heap is initiated through callback function of legitimate API functions such as `EnumChildWindows` or `EnumSystemLanguageGroupsA`. (Citation: Palo Alto Networks, Unit 42)",
             "relationship_type": "uses",
             "source_ref": "malware--2ceddaf9-b16a-4f8b-b252-bcccccd3d79f",

@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--d6736ee4-e889-4325-a53e-0937870b6c94",
+    "id": "bundle--9a80c393-fd17-47ad-a258-1c8b003304e2",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--012e526a-dacd-4019-a019-bc68733395d2",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.667Z",
             "name": "Detection of Malicious Control Panel Item Execution via control.exe or Rundll32",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -29,8 +30,7 @@
             ],
             "x_mitre_analytic_refs": [
                 "x-mitre-analytic--8581bca4-9d34-4c78-87f7-29244581d140"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

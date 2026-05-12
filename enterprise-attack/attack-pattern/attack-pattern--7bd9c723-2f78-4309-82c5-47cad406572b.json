@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e35a3725-eff5-437b-9d8c-ead5c8f21468",
+    "id": "bundle--afe8912c-ca99-46cf-bd6b-07865e53d068",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "attack-pattern--7bd9c723-2f78-4309-82c5-47cad406572b",
             "created": "2020-03-10T17:28:11.747Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -38,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:49:00.128Z",
+            "modified": "2026-05-12T15:12:00.644Z",
             "name": "Dynamic Resolution",
             "description": "Adversaries may dynamically establish connections to command and control infrastructure to evade common detections and remediations. This may be achieved by using malware that shares a common algorithm with the infrastructure the adversary uses to receive the malware's communications. These calculations can be used to dynamically adjust parameters such as the domain name, IP address, or port number the malware uses for command and control.\n\nAdversaries may use dynamic resolution for the purpose of [Fallback Channels](https://attack.mitre.org/techniques/T1008). When contact is lost with the primary command and control server malware may employ dynamic resolution as a means to reestablishing command and control.(Citation: Talos CCleanup 2017)(Citation: FireEye POSHSPY April 2017)(Citation: ESET Sednit 2017 Activity)",
             "kill_chain_phases": [
@@ -47,7 +48,7 @@
                     "phase_name": "command-and-control"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_contributors": [
                 "Chris Roffe"
             ],
@@ -63,8 +64,7 @@
                 "macOS",
                 "Windows"
             ],
-            "x_mitre_version": "1.1",
-            "revoked": false
+            "x_mitre_version": "1.1"
         }
     ]
 }

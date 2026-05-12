@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1e117125-7964-42ef-a6f5-e3e6eef87558",
+    "id": "bundle--66a4693d-77e3-4ea5-b50d-e19e3e55d28e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cc31afad-6349-4b66-a0a9-cd8f9de46aec",
             "created": "2019-10-04T22:20:20.853Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "US-CERT SHARPKNOT June 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:10:31.051Z",
+            "modified": "2026-04-29T14:23:06.204Z",
             "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) has rebooted systems after destroying files and wiping the MBR on infected systems.(Citation: US-CERT SHARPKNOT June 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--ff73aa03-0090-4464-83ac-f89e233c02bc",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

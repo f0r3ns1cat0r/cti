@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--89cdd1b3-ba10-4bc0-b142-c981b39a9803",
+    "id": "bundle--e099464d-39dc-4641-bda5-aff7a90f3a82",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1b95cd32-155b-488d-bbf8-e16f22e2a1d5",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 Bisonal July 2018",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:37:41.187Z",
+            "modified": "2026-04-29T14:23:05.942Z",
             "description": "[Bisonal](https://attack.mitre.org/software/S0268) has the capability to download files to execute on the victim\u2019s machine.(Citation: Unit 42 Bisonal July 2018)(Citation: Kaspersky CactusPete Aug 2020)(Citation: Talos Bisonal Mar 2020) ",
             "relationship_type": "uses",
             "source_ref": "malware--65ffc206-d7c1-45b3-b543-f6b726e7840d",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

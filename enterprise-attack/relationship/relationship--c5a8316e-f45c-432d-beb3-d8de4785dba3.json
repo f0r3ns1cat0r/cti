@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2c81a4b0-dff9-4048-81f6-166a9a10af9f",
+    "id": "bundle--9e428372-2535-4441-bc4a-fea2ec5eb351",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c5a8316e-f45c-432d-beb3-d8de4785dba3",
             "created": "2022-04-11T17:18:45.080Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Profero APT27 December 2020",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:45:48.494Z",
+            "modified": "2026-04-29T14:23:06.196Z",
             "description": "[RCSession](https://attack.mitre.org/software/S0662) can collect data from a compromised host.(Citation: Profero APT27 December 2020)(Citation: Trend Micro DRBControl February 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--03acae53-9b98-46f6-b204-16b930839055",
             "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

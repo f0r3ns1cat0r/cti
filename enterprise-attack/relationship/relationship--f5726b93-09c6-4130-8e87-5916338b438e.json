@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--def32b91-b526-47e1-a975-23bba8eec4dd",
+    "id": "bundle--66fe8852-0cad-4a5d-aac8-4c8ec9bc3a43",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f5726b93-09c6-4130-8e87-5916338b438e",
             "created": "2024-03-15T19:37:56.826Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Security Mispadu Facebook Ads 2019",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:58:01.217Z",
+            "modified": "2026-04-29T14:23:06.258Z",
             "description": "[Mispadu](https://attack.mitre.org/software/S1122)\u2019s dropper uses VBS files to install payloads and perform execution.(Citation: SCILabs Malteiro 2021)(Citation: ESET Security Mispadu Facebook Ads 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--4e6464d2-69df-4e56-8d4c-1973f84d7b80",
             "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

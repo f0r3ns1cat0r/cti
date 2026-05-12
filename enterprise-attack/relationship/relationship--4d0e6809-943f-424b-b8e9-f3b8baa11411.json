@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a0439d33-47cd-4597-9375-a79d2cd3b4ce",
+    "id": "bundle--3ef68371-8c60-441b-8879-1938bcd541be",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4d0e6809-943f-424b-b8e9-f3b8baa11411",
             "created": "2023-08-03T18:35:08.910Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant FIN12 Oct 2021",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T16:26:04.864Z",
+            "modified": "2026-04-29T14:23:06.030Z",
             "description": "(Citation: Mandiant FIN12 Oct 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",

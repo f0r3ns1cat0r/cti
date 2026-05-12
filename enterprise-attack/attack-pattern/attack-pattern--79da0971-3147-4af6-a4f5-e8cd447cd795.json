@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6b999cab-1d52-4d3a-bfdf-64dab01c6bb6",
+    "id": "bundle--d91a4347-673f-484f-9e1d-a4653f59a6a9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:59.607Z",
+            "modified": "2026-05-12T15:12:00.643Z",
             "name": "Virtual Private Server",
             "description": "Adversaries may rent Virtual Private Servers (VPSs)\u00a0that can be used during targeting. There exist a variety of cloud service providers that will sell virtual machines/containers as a service. By utilizing a VPS, adversaries can make it difficult to physically tie back operations to them. The use of cloud infrastructure can also make it easier for adversaries to rapidly provision, modify, and shut down their infrastructure.\n\nAcquiring a VPS for use in later stages of the adversary lifecycle, such as Command and Control, can allow adversaries to benefit from the ubiquity and trust associated with higher reputation cloud service providers. Adversaries may also acquire infrastructure from VPS service providers that are known for renting VPSs with minimal registration information, allowing for more anonymous acquisitions of infrastructure.(Citation: TrendmicroHideoutsLease)",
             "kill_chain_phases": [
@@ -48,7 +48,7 @@
                     "phase_name": "resource-development"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "enterprise-attack"

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--792c6480-a1c4-4c09-aac5-fc05287cdab6",
+    "id": "bundle--33170285-3e79-46a6-b681-09d122c73d4e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--16510fcf-70a0-4da5-9b80-f4772abca436",
             "created": "2023-10-05T12:38:44.251Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T15:10:22.475Z",
+            "modified": "2026-04-29T14:23:05.934Z",
             "description": "[FIN13](https://attack.mitre.org/groups/G1016) can identify user accounts associated with a Service Principal Name and query Service Principal Names within the domain by utilizing the following scripts: `GetUserSPNs.vbs` and `querySpn.vbs`.(Citation: Mandiant FIN13 Aug 2022)(Citation: Sygnia Elephant Beetle Jan 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",

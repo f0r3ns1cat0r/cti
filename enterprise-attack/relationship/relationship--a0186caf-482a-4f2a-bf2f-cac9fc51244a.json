@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b47194c4-734c-45f7-9939-9b61efc10a19",
+    "id": "bundle--dbc016b6-98e3-48b6-980f-d89752e486ad",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a0186caf-482a-4f2a-bf2f-cac9fc51244a",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky Transparent Tribe August 2020",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:36:01.638Z",
+            "modified": "2026-04-29T14:23:06.143Z",
             "description": "[Crimson](https://attack.mitre.org/software/S0115) contains a command to retrieve files from its C2 server.(Citation: Proofpoint Operation Transparent Tribe March 2016)(Citation: Kaspersky Transparent Tribe August 2020)(Citation: Cisco Talos Transparent Tribe Education Campaign July 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--326af1cd-78e7-45b7-a326-125d2f7ef8f2",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

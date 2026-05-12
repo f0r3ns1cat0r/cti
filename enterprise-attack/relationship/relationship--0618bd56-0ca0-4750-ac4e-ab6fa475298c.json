@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--64c042ba-e354-4d90-bea5-bf7cf25e0a30",
+    "id": "bundle--a9f9872d-1059-4e80-9cff-854448a798b9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0618bd56-0ca0-4750-ac4e-ab6fa475298c",
             "created": "2025-07-21T20:11:02.527Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Zscaler",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-25T15:08:32.654Z",
+            "modified": "2026-04-29T14:23:05.911Z",
             "description": "[StarProxy](https://attack.mitre.org/software/S1227) has leveraged two 256-byte XOR keys to encrypt and decrypt  network packets using a custom algorithm.(Citation: Zscaler)",
             "relationship_type": "uses",
             "source_ref": "malware--e91d3543-ca5d-474b-8b20-5a753ebc6e49",

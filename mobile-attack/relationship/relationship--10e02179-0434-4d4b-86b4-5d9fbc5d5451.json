@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--309bcef9-6bb1-4574-9c05-a4e9603631e5",
+    "id": "bundle--aca8a5e5-bd51-42e2-afc6-04da6f2de91b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--10e02179-0434-4d4b-86b4-5d9fbc5d5451",
             "created": "2019-10-10T15:03:27.682Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SWB Exodus March 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:47:01.486Z",
+            "modified": "2026-04-29T14:23:05.927Z",
             "description": "[Exodus](https://attack.mitre.org/software/S0405) One encrypts data using XOR prior to exfiltration.(Citation: SWB Exodus March 2019) ",
             "relationship_type": "uses",
             "source_ref": "malware--3049b2f2-e323-4cdb-91cb-13b37b904cbb",
             "target_ref": "attack-pattern--e3b936a4-6321-4172-9114-038a866362ec",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

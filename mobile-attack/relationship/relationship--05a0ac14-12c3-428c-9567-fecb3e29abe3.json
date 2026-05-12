@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--61a37571-3787-482e-9060-29f368d6f3d1",
+    "id": "bundle--462d445e-d209-4519-aec2-a6baf10ba6ea",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--05a0ac14-12c3-428c-9567-fecb3e29abe3",
             "created": "2025-06-25T15:36:12.680Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro_CherryBlos_July2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-06-25T15:36:12.680Z",
+            "modified": "2026-04-29T14:23:05.911Z",
             "description": "[CherryBlos](https://attack.mitre.org/software/S1225) has utilized foreground services by showing a notification to evade detection.(Citation: TrendMicro_CherryBlos_July2023)  ",
             "relationship_type": "uses",
             "source_ref": "malware--3cf81957-489a-469f-b013-362d548a96c1",
             "target_ref": "attack-pattern--648f8051-1a35-46d3-b1d8-3a3f5cf2cc8e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

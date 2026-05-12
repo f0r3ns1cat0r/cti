@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7c4a2133-6a12-4218-86a0-2019034365d9",
+    "id": "bundle--341cd9e9-b684-43bd-93d4-c2a3a0fec9bd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--92c9106d-a71b-4a4f-a9d4-ef692a0294eb",
             "created": "2020-06-26T14:55:13.261Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason EventBot",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:29:42.445Z",
+            "modified": "2026-04-29T14:23:06.125Z",
             "description": "[EventBot](https://attack.mitre.org/software/S0478) can collect system information such as OS version, device vendor, and the type of screen lock that is active on the device.(Citation: Cybereason EventBot)",
             "relationship_type": "uses",
             "source_ref": "malware--aecc0097-c9f8-4786-9b39-e891ff173f54",
             "target_ref": "attack-pattern--e2ea7f6b-8d4f-49c3-819d-660530d12b77",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

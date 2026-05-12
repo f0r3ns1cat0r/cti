@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c29dd832-3698-4243-8cd0-667aeaeaa359",
+    "id": "bundle--b86d80bf-7653-4b26-87d7-370a35ef506b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c195f2cb-deff-400e-b89e-8625deaa9817",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Orangeworm April 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:08:32.998Z",
+            "modified": "2026-04-29T14:23:06.190Z",
             "description": "[Kwampirs](https://attack.mitre.org/software/S0236) collects a list of active and listening connections by using the command <code>netstat -nao</code> as well as a list of available network mappings with <code>net use</code>.(Citation: Symantec Orangeworm April 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--c2417bab-3189-4d4d-9d60-96de2cdaf0ab",
             "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d6012d22-e732-4be7-a0f4-c5535b93d5d0",
+    "id": "bundle--48b40ad5-2b42-42d8-b99a-5db77254831c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a38fd59c-489b-4d3a-b3be-54fe89244c71",
             "created": "2025-10-21T22:47:45.295Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelLabs Metador Sept 2022",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T22:47:45.296Z",
+            "modified": "2026-04-29T14:23:06.147Z",
             "description": "[Mafalda](https://attack.mitre.org/software/S1060) can enumerate all drives on a compromised host.(Citation: SentinelLabs Metador Sept 2022)(Citation: SentinelLabs Metador Technical Appendix Sept 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--3be1fb7a-0f7e-415e-8e3a-74a80d596e68",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6df5b0e9-f105-4ae9-8214-35361bc9e9bc",
+    "id": "bundle--ce1381e0-cd9a-4e4d-8d8d-b205c1a1b8ee",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T16:07:26.237Z",
+            "modified": "2026-04-29T14:23:06.059Z",
             "description": "[LODEINFO](https://attack.mitre.org/software/S9020) can capture keystrokes on targeted systems.(Citation: ESET MirrorFace DEC 2022)(Citation: ITOCHU LODEINFO JAN 2024)(Citation: Trend Micro Earth Kasha NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--7908f855-5b5b-4d6a-acbc-af6b45ec27ad",

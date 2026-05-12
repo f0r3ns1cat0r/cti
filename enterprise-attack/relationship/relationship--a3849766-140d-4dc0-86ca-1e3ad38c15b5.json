@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9bcac39a-6730-4afe-aa35-93f608446108",
+    "id": "bundle--6d26b721-6b08-437c-b5f3-aa2a95cf1faa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a3849766-140d-4dc0-86ca-1e3ad38c15b5",
             "created": "2023-04-04T22:23:07.721Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelLabs Metador Technical Appendix Sept 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:36:51.977Z",
+            "modified": "2026-04-29T14:23:06.147Z",
             "description": "[Mafalda](https://attack.mitre.org/software/S1060) can collect the username from a compromised host.(Citation: SentinelLabs Metador Technical Appendix Sept 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--3be1fb7a-0f7e-415e-8e3a-74a80d596e68",
             "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

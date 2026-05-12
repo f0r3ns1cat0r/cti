@@ -1,12 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--923d6711-c838-4f6e-bcdd-d35144ecb4de",
+    "id": "bundle--13d915f8-3137-4811-bbea-ce8130c80a00",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "relationship",
             "id": "relationship--152e1225-7b28-4954-85f1-ebd4300b6ab6",
             "created": "2022-09-08T15:11:29.680Z",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "McAfee Night Dragon",
@@ -17,14 +18,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:58:22.991Z",
+            "modified": "2026-04-29T14:23:05.933Z",
             "description": "During [Night Dragon](https://attack.mitre.org/campaigns/C0002), threat actors deployed [ASPXSpy](https://attack.mitre.org/software/S0073) on compromised web servers.(Citation: McAfee Night Dragon)",
             "relationship_type": "uses",
             "source_ref": "campaign--ae407e32-87e0-4d92-8705-3ae25d504d8a",
             "target_ref": "malware--56f46b17-8cfa-46c0-b501-dd52fef394e2",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

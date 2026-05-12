@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bfafcaa0-b8d4-427a-94ef-6e30f69323a3",
+    "id": "bundle--33a9c683-cae1-4d63-bde4-48348fbf5ad0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--dd84b767-1623-421b-8f31-048924be5f17",
             "created": "2020-06-16T17:53:19.063Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Gamaredon June 2020",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-21T20:01:32.499Z",
+            "modified": "2026-04-29T14:23:06.227Z",
             "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has delivered self-extracting 7z archive files within malicious document attachments.(Citation: ESET Gamaredon June 2020) Additionally, [Gamaredon Group](https://attack.mitre.org/groups/G0047) has used an obfuscated .drv file.(Citation: SymantecCarbonBlack_ShuckwormUSB_Apr2025) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--699dde99-ab49-448d-9d21-0ca40a42f6ee",
+    "id": "bundle--b78df4a2-bca2-497e-ac2d-484bb5821bf5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T15:19:52.632Z",
+            "modified": "2026-04-29T14:23:06.174Z",
             "description": "[njRAT](https://attack.mitre.org/software/S0385) has used C2 infrastructure to receive stolen information from the infected machine including screenshots and other system information.(Citation: Trend Micro njRAT 2018)(Citation: Kaspersky BlindEagle AUG 2024)\t",
             "relationship_type": "uses",
             "source_ref": "malware--d906e6f7-434c-44c0-b51a-ed50af8f7945",

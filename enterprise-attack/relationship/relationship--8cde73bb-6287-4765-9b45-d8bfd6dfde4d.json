@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8a6e0ad9-924b-4b21-a0ea-3f44694a7ed5",
+    "id": "bundle--a97869d6-40c3-47bb-908d-25078059055a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T21:12:39.504Z",
+            "modified": "2026-04-29T14:23:06.117Z",
             "description": "[SPAWNCHIMERA](https://attack.mitre.org/software/S9024) has encoded a private key with XOR.(Citation: JPCERT SPAWNCHIMERA Ivanti February 2025) [SPAWNCHIMERA](https://attack.mitre.org/software/S9024) has also encrypted data to be extracted using AES encryption.(Citation: Google UNC5221 Ivanti April 2025)(Citation: Picus Security UNC5221 Ivanti May 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--d1974f35-0e06-478e-bc74-7530545d814b",

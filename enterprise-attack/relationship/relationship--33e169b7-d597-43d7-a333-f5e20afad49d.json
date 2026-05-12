@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4648e06a-626a-449c-9c79-3fb4a55ff1ad",
+    "id": "bundle--ad17f3e2-540b-45f8-8e81-661cb3d00cc1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--33e169b7-d597-43d7-a333-f5e20afad49d",
             "created": "2025-10-16T16:28:30.148Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro SharePoint Attacks JUL 2025",
@@ -38,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-16T19:11:50.859Z",
+            "modified": "2026-04-29T14:23:05.988Z",
             "description": "During [SharePoint ToolShell Exploitation](https://attack.mitre.org/campaigns/C0058), threat actors issued HTTP `POST` requests to web shells with spoofed or empty Referrer headers, to circumvent authorization controls.(Citation: Microsoft SharePoint Exploit JUL 2025)(Citation: Eye Research ToolShell JUL 2025)(Citation: Trend Micro SharePoint Attacks JUL 2025)(Citation: SentinelOne ToolShell JUL 2025)(Citation: Palo Alto SharePoint Vulnerabilities JUL 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--1a0576df-df21-4775-843e-844d8a58a94b",

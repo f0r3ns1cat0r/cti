@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--edacd395-7f12-4e0a-a8f3-1f9367e567a5",
+    "id": "bundle--a5ec6646-32bc-446e-9f79-dccacc2372fe",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b921077b-4a62-461c-aaec-9cd70b5cf5f8",
             "created": "2022-06-15T12:55:32.032Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky Lyceum October 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:42:22.847Z",
+            "modified": "2026-04-29T14:23:06.178Z",
             "description": "[Kevin](https://attack.mitre.org/software/S1020) can assign hard-coded fallback domains for C2.(Citation: Kaspersky Lyceum October 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--e7863f5d-cb6a-4f81-8804-0a635eec160a",
             "target_ref": "attack-pattern--f24faf46-3b26-4dbb-98f2-63460498e433",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

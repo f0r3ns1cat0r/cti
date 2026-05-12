@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2f72b2fa-03bf-4960-af9e-ae63549746ac",
+    "id": "bundle--067fe74c-d904-42bd-ac02-6a5ef0b87b09",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T18:12:12.211Z",
+            "modified": "2026-04-29T14:23:06.055Z",
             "description": "[MuddyViper](https://attack.mitre.org/software/S9032) has the ability to collect running processes.(Citation: ESET_MuddyWater_Dec2025)\u202f\u202f\u202f\u202f",
             "relationship_type": "uses",
             "source_ref": "malware--7b92e996-b535-4159-be16-3c3aee4edf54",

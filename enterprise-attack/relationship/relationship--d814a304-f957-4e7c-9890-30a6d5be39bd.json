@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0011d312-6e90-4f87-b875-50b1c73b9478",
+    "id": "bundle--3a08095b-89f1-4bf1-af9c-14ce28b3024f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d814a304-f957-4e7c-9890-30a6d5be39bd",
             "created": "2021-03-04T14:49:27.358Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Volexity Exchange Marauder March 2021",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:50:29.210Z",
+            "modified": "2026-04-29T14:23:06.220Z",
             "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has created domain accounts.(Citation: Volexity Exchange Marauder March 2021)(Citation: Microsoft Silk Typhoon MAR 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
             "target_ref": "attack-pattern--7610cada-1499-41a4-b3dd-46467b68d177",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

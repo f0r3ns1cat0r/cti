@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ffc27606-b310-4ab6-82e1-5c9ac9a4fb51",
+    "id": "bundle--0d30182d-3dd4-49f9-8e0d-c6aa3e9a53e9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--83aac36d-6dfa-4c27-b1b1-c200c9240eb9",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 Playbook Dec 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:57:09.993Z",
+            "modified": "2026-04-29T14:23:06.105Z",
             "description": "A [JHUHUGIT](https://attack.mitre.org/software/S0044) variant accesses a screenshot saved in the clipboard and converts it to a JPG image.(Citation: Unit 42 Playbook Dec 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--8ae43c46-57ef-47d5-a77a-eebb35628db2",
             "target_ref": "attack-pattern--30973a08-aed9-4edf-8604-9084ce1b5c4f",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6403e95b-0630-4b50-9a17-df2b4354a648",
+    "id": "bundle--d052b74a-7e62-42b8-a15c-2289ac426685",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--82268341-e0a8-4937-8618-351e147daa0c",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Dell Wiper",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:56:55.399Z",
+            "modified": "2026-04-29T14:23:06.103Z",
             "description": "It is believed that a patch management system for an anti-virus product commonly installed among targeted companies was used to distribute the [Wiper](https://attack.mitre.org/software/S0041) malware.(Citation: Dell Wiper)",
             "relationship_type": "uses",
             "source_ref": "malware--a19c49aa-36fe-4c05-b817-23e1c7a7d085",
             "target_ref": "attack-pattern--92a78814-b191-47ca-909c-1ccfe3777414",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

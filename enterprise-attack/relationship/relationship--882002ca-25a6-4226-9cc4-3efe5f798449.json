@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2c7aec5d-5032-4ece-a808-8cc6a829a8ee",
+    "id": "bundle--4c9efb0c-5a24-4c59-aa99-4615b2f34a0f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--882002ca-25a6-4226-9cc4-3efe5f798449",
             "created": "2020-05-28T16:38:03.779Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Eset Ramsay May 2020",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:58:00.606Z",
+            "modified": "2026-04-29T14:23:06.111Z",
             "description": "[Ramsay](https://attack.mitre.org/software/S0458) has masqueraded as a 7zip installer.(Citation: Eset Ramsay May 2020)(Citation: Antiy CERT Ramsay April 2020)\t",
             "relationship_type": "uses",
             "source_ref": "malware--ba09b86c-1c40-4ff1-bda0-0d8c4ca35997",
             "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

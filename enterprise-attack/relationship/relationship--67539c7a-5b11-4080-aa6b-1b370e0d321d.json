@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a11116de-b342-4ce2-a46d-d7ea406c4726",
+    "id": "bundle--cc7ea8d3-57d3-40ca-a666-3bde545e5e1f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:49:27.083Z",
+            "modified": "2026-04-29T14:23:06.066Z",
             "description": "[Wevtutil](https://attack.mitre.org/software/S0645) can be used to disable specific event logs on the system.(Citation: Wevtutil Microsoft Documentation)",
             "relationship_type": "uses",
             "source_ref": "tool--f91162cc-1686-4ff8-8115-bf3f61a4cc7a",

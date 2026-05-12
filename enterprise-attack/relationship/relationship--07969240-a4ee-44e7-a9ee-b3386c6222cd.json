@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--14ba2ccc-32db-44f9-825d-6e3ebf8597ca",
+    "id": "bundle--da37b3b6-c3de-41d5-9420-bff5d4f79469",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:18:18.410Z",
+            "modified": "2026-04-29T14:23:05.914Z",
             "description": "Ensure that endpoint defenses run in safe mode.(Citation: CyberArk Labs Safe Mode 2016)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--b5dbb4c5-b0b1-40b1-80b6-e9e84ab90067",

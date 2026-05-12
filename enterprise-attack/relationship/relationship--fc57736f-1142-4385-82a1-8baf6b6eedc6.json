@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--653bf1c1-6a2a-4af6-bc49-1a191f395624",
+    "id": "bundle--c077601a-fdbb-4d03-9cae-9587108f47fd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fc57736f-1142-4385-82a1-8baf6b6eedc6",
             "created": "2024-08-27T21:08:37.911Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lumen Versa 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:59:45.119Z",
+            "modified": "2026-04-29T14:23:06.267Z",
             "description": "[VersaMem](https://attack.mitre.org/software/S1154) hooked the Catalina application filter chain `doFilter` on compromised systems to monitor all inbound requests to the local Tomcat web server, inspecting them for parameters like passwords and follow-on Java modules.(Citation: Lumen Versa 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--0a6ec267-83a9-41a5-98c7-57c3ff81e11f",
             "target_ref": "attack-pattern--3257eb21-f9a7-4430-8de1-d8b6e288f529",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

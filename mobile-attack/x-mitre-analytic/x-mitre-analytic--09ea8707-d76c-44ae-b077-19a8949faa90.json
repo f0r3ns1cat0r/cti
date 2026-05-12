@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6e0b0330-cd54-41c1-8c66-a7590b6444bc",
+    "id": "bundle--83c47ea7-f11e-4605-b632-754b78b39af2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-13T15:50:52.912Z",
+            "modified": "2026-05-12T16:30:18.375Z",
             "name": "Analytic 1807",
             "description": "Correlates (1) abnormal application or system resource resolution behavior (e.g., library loading, path resolution, or intent redirection), (2) execution of code or resources not aligned with the originating application\u2019s package identity or expected runtime context, and (3) follow-on execution or network activity originating from the hijacked flow. The defender observes a causal chain where execution is redirected from an expected code path to an alternate resource or payload, resulting in execution under a trusted context but with untrusted origin.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

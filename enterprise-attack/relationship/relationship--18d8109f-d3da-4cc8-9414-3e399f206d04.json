@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--10b11393-d7fd-44ad-a737-5a1e4f47fe89",
+    "id": "bundle--87c52377-b895-4efa-af10-8b2cd4887eab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:21:58.243Z",
+            "modified": "2026-04-29T14:23:05.938Z",
             "description": "[FinFisher](https://attack.mitre.org/software/S0182) clears the system event logs using <code> OpenEventLog/ClearEventLog APIs </code>.(Citation: FinFisher Citation)(Citation: Microsoft FinFisher March 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--a5528622-3a8a-4633-86ce-8cdaf8423858",

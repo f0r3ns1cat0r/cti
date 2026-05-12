@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4ca1fb84-bd33-4ef0-b5e7-a506e527b821",
+    "id": "bundle--ab345508-09ed-4071-b1d0-f8c8af143e8f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:34.355Z",
+            "modified": "2026-05-12T15:12:00.623Z",
             "name": "Ingress Tool Transfer",
             "description": "Adversaries may transfer tools or other files from an external system onto a compromised device to facilitate follow-on actions. Files may be copied from an external adversary-controlled system through the command and control channel  or through alternate protocols with another tool such as FTP.",
             "kill_chain_phases": [
@@ -28,7 +28,7 @@
                     "phase_name": "command-and-control"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "mobile-attack"

@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--e8c095b6-ea4b-460b-93fd-6314dc5ca6b2",
+    "id": "bundle--5c4fd843-bd9f-4fec-b68d-2156961e4d51",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--41107d12-dd2e-439f-af29-1a10dcfcb6ce",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.676Z",
             "name": "Detection Strategy for Runtime Data Manipulation.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -31,8 +32,7 @@
                 "x-mitre-analytic--c07e8730-b5cf-4a74-be3a-938184af42df",
                 "x-mitre-analytic--e2e39b7e-02e4-4e7a-966c-6b05721da8f7",
                 "x-mitre-analytic--a9c30b9d-6810-47d3-8bf5-ca787836e7ef"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e6c2679e-1f3d-4060-bed9-640297a7a12c",
+    "id": "bundle--f8aee1c8-a7ff-4b9a-9adf-93e6413406f4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-11T16:09:37.177Z",
+            "modified": "2026-05-12T16:30:18.379Z",
             "name": "Analytic 1724",
             "description": "Defender correlates an iOS-specific reduced-confidence chain where a supervised or managed device transitions from locked or inactive state to interactive or application-active state with weak evidence of expected user authentication, often accompanied by abnormal protected posture change, trust-state change, unexpected app wake, sensor use, or immediate downstream communication. Because direct visibility into lockscreen bypass mechanics on iOS is limited, the analytic prioritizes strong device-state effects and post-unlock behavior rather than pretending to observe the exact bypass method.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

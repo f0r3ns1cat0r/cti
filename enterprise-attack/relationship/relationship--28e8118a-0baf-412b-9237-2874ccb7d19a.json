@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6f594b78-e2d9-4edd-aaea-c5d1ee682622",
+    "id": "bundle--668b926c-3af1-4b4a-bb9d-055e25860aa7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-18T23:44:43.940Z",
+            "modified": "2026-04-29T14:23:05.960Z",
             "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has disabled actively running virtual environments using the `KillMe` function to include VMware, Microsoft Hypervisors, and VirtualBox.(Citation: Aryaka Kimsuky July 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",

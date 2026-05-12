@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--00763571-d432-4b2f-85e7-1f1fec4db5e9",
+    "id": "bundle--37b3f870-6a03-4fb7-9107-6c6c1fb1bfba",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--abdf9690-d578-4f86-a2cc-295c2789bb4e",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Orangeworm April 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:04:42.607Z",
+            "modified": "2026-04-29T14:23:06.159Z",
             "description": "[Kwampirs](https://attack.mitre.org/software/S0236) establishes persistence by adding a new service with the display name \"WMI Performance Adapter Extension\" in an attempt to masquerade as a legitimate WMI service.(Citation: Symantec Orangeworm April 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--c2417bab-3189-4d4d-9d60-96de2cdaf0ab",
             "target_ref": "attack-pattern--7bdca9d5-d500-4d7d-8c52-5fd47baf4c0c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

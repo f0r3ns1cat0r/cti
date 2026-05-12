@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0cba5326-be2e-40a9-a0f7-1ce7b8af0cd0",
+    "id": "bundle--48317fd8-15a5-4c01-824a-7a7a75438068",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ae16d5d7-9a6f-4865-863a-2ce336b45795",
             "created": "2020-10-19T19:42:19.956Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco IOS Software Integrity Assurance - Deploy Signed IOS",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:05:09.904Z",
+            "modified": "2026-04-29T14:23:06.162Z",
             "description": "Many vendors provide digitally signed operating system images to validate the integrity of the software used on their platform.  Make use of this feature where possible in order to prevent and/or detect attempts by adversaries to compromise the system image. (Citation: Cisco IOS Software Integrity Assurance - Deploy Signed IOS)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--590777b3-b475-4c7c-aaf8-f4a73b140312",
             "target_ref": "attack-pattern--ae7f3575-0a5e-427e-991b-fe03ad44c754",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

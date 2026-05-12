@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2fc9560d-56f0-4327-bf0e-c258e690b5d4",
+    "id": "bundle--9af5c300-a671-4c69-9113-dd6ddf166374",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a8e426d7-d4d8-44f4-b2f4-6d552e75908b",
             "created": "2021-01-04T20:42:22.291Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Industroyer",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:38:15.402Z",
+            "modified": "2026-04-29T14:23:06.155Z",
             "description": "[Industroyer](https://attack.mitre.org/software/S0604)\u2019s main backdoor connected to a remote C2 server using HTTPS.(Citation: ESET Industroyer)",
             "relationship_type": "uses",
             "source_ref": "malware--e401d4fe-f0c9-44f0-98e6-f93487678808",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

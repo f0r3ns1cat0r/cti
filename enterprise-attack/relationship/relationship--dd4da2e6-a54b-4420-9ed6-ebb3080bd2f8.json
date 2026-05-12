@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5f70a6bc-e07b-47fa-b375-042f9011d748",
+    "id": "bundle--4e709073-2751-4641-9f99-9d090ea0b266",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--dd4da2e6-a54b-4420-9ed6-ebb3080bd2f8",
             "created": "2020-05-06T15:26:38.958Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro BlackTech June 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:13:27.992Z",
+            "modified": "2026-04-29T14:23:06.227Z",
             "description": "[PLEAD](https://attack.mitre.org/software/S0435) has the ability to list processes on the compromised host.(Citation: TrendMicro BlackTech June 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--b57f419e-8b12-49d3-886b-145383725dcd",
             "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

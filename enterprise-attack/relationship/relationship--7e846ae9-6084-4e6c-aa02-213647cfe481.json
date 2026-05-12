@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2f95710b-585d-400c-94c2-c7ab2ff99cf3",
+    "id": "bundle--228f3946-aec2-465b-a867-1cb6289ab031",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T18:39:19.760Z",
+            "modified": "2026-04-29T14:23:06.098Z",
             "description": "[NOOPLDR](https://attack.mitre.org/software/S9025) can delete a file containing configuration instructions after use.(Citation: Trend Micro Earth Kasha NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--66637cd6-ae68-4bcd-af82-32f70a854175",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b82c9580-1f3e-416b-947a-d1e4dad0bd7c",
+    "id": "bundle--0c6a4259-cbbf-426f-b1ba-6d1b5dd64170",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T14:57:08.281Z",
+            "modified": "2026-04-29T14:23:06.254Z",
             "description": "[AshTag](https://attack.mitre.org/software/S9031) can use `volumeserialnumber` to enumerate volumes.(Citation: Palo Alto Ashen Lepus DEC 2025) ",
             "relationship_type": "uses",
             "source_ref": "malware--bb6f2a5c-dbc9-45b0-bd3f-a0b7849959c2",

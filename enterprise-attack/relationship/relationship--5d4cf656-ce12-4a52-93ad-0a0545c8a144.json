@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fd4d2c06-674d-47ca-abe4-4060e984de46",
+    "id": "bundle--03fabe76-4058-4644-bcce-4c9087ab3845",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5d4cf656-ce12-4a52-93ad-0a0545c8a144",
             "created": "2025-10-22T15:36:55.260Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Salesforce JUN 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T18:56:18.383Z",
+            "modified": "2026-04-29T14:23:06.052Z",
             "description": "During [Salesforce Data Exfiltration](https://attack.mitre.org/campaigns/C0059), threat actors used Mullvad VPN IPs to proxy voice phishing calls.(Citation: Google Salesforce JUN 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--9cea8bec-07c5-422b-84b8-99d3128ce570",

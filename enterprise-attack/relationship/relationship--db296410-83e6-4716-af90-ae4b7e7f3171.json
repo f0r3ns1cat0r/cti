@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--995804ec-3ea0-4798-ba36-5d4e4543a7ca",
+    "id": "bundle--d2449d5a-273b-4b9d-bb5a-3b92f80d569b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--db296410-83e6-4716-af90-ae4b7e7f3171",
             "created": "2020-06-26T16:17:18.138Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Cobalt Kitty 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:13:05.857Z",
+            "modified": "2026-04-29T14:23:06.225Z",
             "description": "[Goopy](https://attack.mitre.org/software/S0477) has the ability to exfiltrate data over the Microsoft Outlook C2 channel.(Citation: Cybereason Cobalt Kitty 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--eac3d77f-2b7b-4599-ba74-948dc16633ad",
             "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

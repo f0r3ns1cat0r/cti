@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--712b4eb3-c070-4946-a990-53e667ed6f5a",
+    "id": "bundle--29361615-1284-42a7-b0ec-4f660289bc0b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--98aeed7c-e88b-4c5b-8e8e-21ee3534abe9",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco H1N1 Part 1",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:01:12.700Z",
+            "modified": "2026-04-29T14:23:06.133Z",
             "description": "[H1N1](https://attack.mitre.org/software/S0132) uses a custom packing algorithm.(Citation: Cisco H1N1 Part 1)",
             "relationship_type": "uses",
             "source_ref": "malware--f8dfbc54-b070-4224-b560-79aaa5f835bd",
             "target_ref": "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

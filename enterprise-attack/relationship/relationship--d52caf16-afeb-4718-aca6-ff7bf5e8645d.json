@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c82caf8a-c122-4abe-85ad-42083acc5e62",
+    "id": "bundle--dd2d74aa-5ce5-470c-8799-8809975cdecc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T18:04:19.148Z",
+            "modified": "2026-04-29T14:23:06.217Z",
             "description": "[MuddyViper](https://attack.mitre.org/software/S9032) has used PowerShell.exe to launch a reverse shell.(Citation: ESET_MuddyWater_Dec2025) ",
             "relationship_type": "uses",
             "source_ref": "malware--7b92e996-b535-4159-be16-3c3aee4edf54",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3f1808a2-e695-498f-b0f1-2ce18587c185",
+    "id": "bundle--1d138261-bcfb-4af0-a5a2-f6103dbed318",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--082a573f-d760-4bd8-a830-8c5a57b4ea44",
             "created": "2025-10-22T03:02:12.719Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "McAfee Gold Dragon",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T03:02:12.719Z",
+            "modified": "2026-04-29T14:23:05.914Z",
             "description": "[RunningRAT](https://attack.mitre.org/software/S0253) gathers logical drives information and volume information.(Citation: McAfee Gold Dragon)",
             "relationship_type": "uses",
             "source_ref": "malware--60d50676-459a-47dd-92e9-a827a9fe9c58",

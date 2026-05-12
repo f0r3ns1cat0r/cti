@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e0af3f7e-3579-489c-a60f-af1d9891249a",
+    "id": "bundle--482a58d1-ce97-4fa6-a680-ec40abe057cd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cac0eda3-7d8c-42e2-b397-8923cd05f0b8",
             "created": "2025-10-21T03:17:00.415Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET DazzleSpy Jan 2022",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T03:17:00.415Z",
+            "modified": "2026-04-29T14:23:06.202Z",
             "description": "[MacMa](https://attack.mitre.org/software/S1016) can collect information about a compromised computer's disk sizes.(Citation: ESET DazzleSpy Jan 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--bdee9574-7479-4073-a7dc-e86d8acd073a",

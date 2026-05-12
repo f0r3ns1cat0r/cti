@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9c6a5d99-3262-43cb-987c-98cd48c142a1",
+    "id": "bundle--24d52e5e-20cb-4203-b5f1-6694beb4f7f3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:39:59.124Z",
+            "modified": "2026-04-29T14:23:06.116Z",
             "description": "[BlackByte Ransomware](https://attack.mitre.org/software/S1180) enables SMBv1 during execution.(Citation: Trustwave BlackByte 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--9454bb5d-3bdb-40f9-a878-b5fb446ded3d",

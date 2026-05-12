@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f7ec7317-9a1d-4336-86bd-0d4752dd0ffb",
+    "id": "bundle--4e96bb72-8f24-45ab-a62d-c3e7c483ff8e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a877e5c0-3fe6-40bb-bd02-ef4a9465aba3",
             "created": "2022-08-09T18:40:50.921Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 PingPull Jun 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:38:09.099Z",
+            "modified": "2026-04-29T14:23:06.155Z",
             "description": " [PingPull](https://attack.mitre.org/software/S1031) variants have the ability to communicate with C2 servers using ICMP or TCP.(Citation: Unit 42 PingPull Jun 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--3a0f6128-0a01-421d-8eca-e57d8671b1f1",
             "target_ref": "attack-pattern--c21d5a77-d422-4a69-acd7-2c53c1faa34b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

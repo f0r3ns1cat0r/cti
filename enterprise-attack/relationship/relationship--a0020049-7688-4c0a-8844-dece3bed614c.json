@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c91f3887-33b2-4681-ac5e-6666ff31cc3b",
+    "id": "bundle--3e02c95e-7c6e-4564-9500-616b63bf0ca5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a0020049-7688-4c0a-8844-dece3bed614c",
             "created": "2022-09-21T21:05:33.183Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant UNC3890 Aug 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:36:00.652Z",
+            "modified": "2026-04-29T14:23:06.143Z",
             "description": "[SUGARDUMP](https://attack.mitre.org/software/S1042) has collected browser bookmark and history information.(Citation: Mandiant UNC3890 Aug 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--9c10cede-c0bb-4c5c-91c0-8baec30abaf6",
             "target_ref": "attack-pattern--5e4a2073-9643-44cb-a0b5-e7f4048446c7",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

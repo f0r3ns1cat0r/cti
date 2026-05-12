@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--deddd3f4-c6db-43e9-b93e-27325c9a7028",
+    "id": "bundle--dc838b6f-aecd-4648-8be9-fa4ed92ccfc4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8e8aced5-9391-47d8-bef7-894453048810",
             "created": "2023-03-26T16:02:29.573Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft 365 Defender Solorigate",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:31:11.513Z",
+            "modified": "2026-04-29T14:23:06.119Z",
             "description": "During the [SolarWinds Compromise](https://attack.mitre.org/campaigns/C0024), [APT29](https://attack.mitre.org/groups/G0016) used a WMI event filter to invoke a command-line event consumer at system boot time to launch a backdoor with `rundll32.exe`.(Citation: Microsoft Deep Dive Solorigate January 2021)(Citation: Microsoft 365 Defender Solorigate)",
             "relationship_type": "uses",
             "source_ref": "campaign--808d6b30-df4e-4341-8248-724da4bac650",
             "target_ref": "attack-pattern--910906dd-8c0a-475a-9cc1-5e029e2fad58",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

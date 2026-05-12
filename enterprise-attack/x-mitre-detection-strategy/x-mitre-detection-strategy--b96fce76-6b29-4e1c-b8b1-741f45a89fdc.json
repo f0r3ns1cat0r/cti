@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--e0bc9b10-ebd6-4ce7-a35d-8edd37ab6648",
+    "id": "bundle--69903069-f24c-48a6-b65e-37cd59bdea54",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--b96fce76-6b29-4e1c-b8b1-741f45a89fdc",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.690Z",
             "name": "Behavioral Detection of Malicious File Deletion",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -32,8 +33,7 @@
                 "x-mitre-analytic--874f0437-1aab-4cfe-a30a-7586c0602b6f",
                 "x-mitre-analytic--175bf607-fca6-4555-a30b-3d6cd4cfe876",
                 "x-mitre-analytic--3f53ca22-5efe-43b3-8225-5fdd4b8a8194"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

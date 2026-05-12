@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e2aa2807-91a3-42b5-a698-b3f9a286ee2a",
+    "id": "bundle--1b4d890a-d4fb-47c7-b2bc-7841a65cb137",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1ebc8fee-78fd-4570-9fcd-060f4213b202",
             "created": "2024-05-17T13:56:09.879Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "HP RaspberryRobin 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:01:07.535Z",
+            "modified": "2026-04-29T14:23:05.946Z",
             "description": "[Raspberry Robin](https://attack.mitre.org/software/S1130) second stage payloads can be hosted as RAR files, containing a malicious EXE and DLL, on Discord servers.(Citation: HP RaspberryRobin 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--4e385fa6-ebe0-43fc-9ccf-5b51b5dc4d79",
             "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

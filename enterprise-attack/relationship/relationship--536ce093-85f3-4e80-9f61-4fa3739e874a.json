@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--df09c7a7-1813-4600-bc3a-f5091f265aed",
+    "id": "bundle--7745be0f-8a06-40dc-91ca-c473115f9577",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--536ce093-85f3-4e80-9f61-4fa3739e874a",
             "created": "2024-02-21T19:17:12.639Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco Akira Ransomware OCT 2024",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:15:19.701Z",
+            "modified": "2026-04-29T14:23:06.039Z",
             "description": "[Akira](https://attack.mitre.org/groups/G1024) uses valid account information to remotely access victim networks, such as VPN credentials.(Citation: Secureworks GOLD SAHARA)(Citation: Arctic Wolf Akira 2023)(Citation: Cisco Akira Ransomware OCT 2024)\n",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--46bb06cb-f2d9-4b37-8c92-a27e224ad90d",
             "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

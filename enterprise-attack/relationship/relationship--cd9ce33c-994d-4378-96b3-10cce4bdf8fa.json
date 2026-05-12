@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5d5a94cf-e3dd-4d46-ad9f-245c9968d375",
+    "id": "bundle--0c8af736-4975-4c30-99b9-e236adf7c660",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cd9ce33c-994d-4378-96b3-10cce4bdf8fa",
             "created": "2025-06-04T19:55:19.128Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Cloud Mandiant UNC3886 2024",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-06-16T21:06:40.904Z",
+            "modified": "2026-04-29T14:23:06.206Z",
             "description": "[UNC3886](https://attack.mitre.org/groups/G1048) has deployed backdoors that communicate over TCP to compromised network devices and over VMCI to ESXi hosts.(Citation: Google Cloud Threat Intelligence VMWare ESXi Zero-Day 2023)(Citation: Google Cloud Mandiant UNC3886 2024)(Citation: Mandiant Fortinet Zero Day)\n",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--461b8e25-8f4a-4ea2-a4a8-e39df7ce6630",
             "target_ref": "attack-pattern--c21d5a77-d422-4a69-acd7-2c53c1faa34b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

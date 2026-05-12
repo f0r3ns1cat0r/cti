@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d293707b-73ec-4d85-8c8c-167ebfe9e279",
+    "id": "bundle--6e46640c-709d-433a-ab1e-32c31e2e15f8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--604eeaa1-b458-43a6-9618-7c55b8bc7a62",
             "created": "2025-10-19T20:00:03.304Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Storm-0501 Embargo Ransomware August 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-19T20:00:03.304Z",
+            "modified": "2026-04-29T14:23:06.056Z",
             "description": "[Storm-0501](https://attack.mitre.org/groups/G1053) has used compromised Entra Connect Sync Server to move laterally within the victim environment.(Citation: Microsoft Storm-0501 Embargo Ransomware August 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7b404cd0-3ae9-41d4-90c0-023793d35d97",

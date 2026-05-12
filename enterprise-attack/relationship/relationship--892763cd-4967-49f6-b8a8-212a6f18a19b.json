@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--56a9e50c-e4a2-4913-bd33-f00f69b45740",
+    "id": "bundle--18eea6dc-78f5-41b6-8e94-07000cde69aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--892763cd-4967-49f6-b8a8-212a6f18a19b",
             "created": "2021-08-31T22:15:50.362Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Lokibot Jan 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:58:13.466Z",
+            "modified": "2026-04-29T14:23:06.112Z",
             "description": "\n[Lokibot](https://attack.mitre.org/software/S0447) has utilized multiple techniques to bypass UAC.(Citation: Talos Lokibot Jan 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--cb741463-f0fe-42e0-8d45-bc7e8335f5ae",
             "target_ref": "attack-pattern--120d5519-3098-4e1c-9191-2aa61232f073",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

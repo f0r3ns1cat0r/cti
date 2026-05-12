@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2149697d-08da-4fed-83c3-4da63cc0a62e",
+    "id": "bundle--561f0897-eb0e-42eb-abd7-7c05a042a759",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T20:07:52.862Z",
+            "modified": "2026-05-12T15:12:00.717Z",
             "name": "Create Cloud Instance",
             "description": "An adversary may create a new instance or virtual machine (VM) within the compute service of a cloud account to evade defenses. Creating a new instance may allow an adversary to bypass firewall rules and permissions that exist on instances currently residing within an account. An adversary may [Create Snapshot](https://attack.mitre.org/techniques/T1578/001) of one or more volumes in an account, create a new instance, mount the snapshots, and then apply a less restrictive security policy to collect [Data from Local System](https://attack.mitre.org/techniques/T1005) or for [Remote Data Staging](https://attack.mitre.org/techniques/T1074/002).(Citation: Mandiant M-Trends 2020)\n\nCreating a new instance may also allow an adversary to carry out malicious activity within an environment without affecting the execution of current running instances.",
             "kill_chain_phases": [

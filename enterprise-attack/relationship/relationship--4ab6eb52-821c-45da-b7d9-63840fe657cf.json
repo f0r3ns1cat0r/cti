@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fc668556-e3fa-4da6-af8a-f4e8584fee3a",
+    "id": "bundle--99fad454-2e3f-475f-b369-91c050add51a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4ab6eb52-821c-45da-b7d9-63840fe657cf",
             "created": "2019-01-29T17:59:44.440Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "GDATA Zeus Panda June 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:46:35.260Z",
+            "modified": "2026-04-29T14:23:06.027Z",
             "description": "[Zeus Panda](https://attack.mitre.org/software/S0330) can take screenshots of the victim\u2019s machine.(Citation: GDATA Zeus Panda June 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--198db886-47af-4f4c-bff5-11b891f85946",
             "target_ref": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

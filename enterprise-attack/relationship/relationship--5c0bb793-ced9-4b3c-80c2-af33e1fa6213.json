@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--996d4de5-2c79-41a1-8080-bd776f5d7a89",
+    "id": "bundle--a3bf7b28-d13d-40ba-9113-2e57384c69c0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5c0bb793-ced9-4b3c-80c2-af33e1fa6213",
             "created": "2021-11-29T19:16:55.951Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lunghi Iron Tiger Linux",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:17:43.350Z",
+            "modified": "2026-04-29T14:23:06.051Z",
             "description": "[SysUpdate](https://attack.mitre.org/software/S0663) can search files on a compromised host.(Citation: Trend Micro Iron Tiger April 2021)(Citation: Lunghi Iron Tiger Linux)",
             "relationship_type": "uses",
             "source_ref": "malware--c009560a-f097-45a3-8f9f-78ec1440a783",
             "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

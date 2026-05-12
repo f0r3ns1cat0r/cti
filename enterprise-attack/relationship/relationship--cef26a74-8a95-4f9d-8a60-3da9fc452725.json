@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--802b3656-0f6f-4e16-91c8-3e73dc2431f7",
+    "id": "bundle--73a0d14d-9c62-4f78-9c14-a942942e6782",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:09:06.568Z",
+            "modified": "2026-04-29T14:23:06.208Z",
             "description": "[ShrinkLocker](https://attack.mitre.org/software/S1178) turns on the system firewall and deletes all of its rules during execution.(Citation: Kaspersky ShrinkLocker 2024)(Citation: Splunk ShrinkLocker 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--3fc44c12-b16e-4de1-8869-cf0eb4446070",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5e926841-5fc1-4477-9920-cfaa6806eaba",
+    "id": "bundle--2f2e0267-edc8-4273-9ab2-c85d48c4f083",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:12:06.256Z",
+            "modified": "2026-04-29T14:23:06.175Z",
             "description": "[Carberp](https://attack.mitre.org/software/S0484) has attempted to disable security software by creating a suspended process for the security software and injecting code to delete antivirus core files when the process is resumed.(Citation: Prevx Carberp March 2011)",
             "relationship_type": "uses",
             "source_ref": "malware--bbcd7a02-ef24-4171-ac94-a93540173b94",

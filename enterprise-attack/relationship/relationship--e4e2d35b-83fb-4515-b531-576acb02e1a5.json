@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--556b906b-1248-44f3-ba19-29a38e1ab177",
+    "id": "bundle--dbca9364-9318-4a28-b23a-f901623f6cea",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e4e2d35b-83fb-4515-b531-576acb02e1a5",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SecureWorks BRONZE UNION June 2017",
@@ -43,14 +44,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:53:43.012Z",
+            "modified": "2026-04-29T14:23:06.237Z",
             "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) has performed DLL search order hijacking to execute their payload.(Citation: Nccgroup Emissary Panda May 2018) [Threat Group-3390](https://attack.mitre.org/groups/G0027) has also used DLL side-loading, including by using legitimate Kaspersky antivirus variants as well as `rc.exe`, a legitimate Microsoft Resource Compiler.(Citation: Dell TG-3390)(Citation: SecureWorks BRONZE UNION June 2017)(Citation: Securelist LuckyMouse June 2018)(Citation: Unit42 Emissary Panda May 2019)(Citation: Lunghi Iron Tiger Linux)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
             "target_ref": "attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

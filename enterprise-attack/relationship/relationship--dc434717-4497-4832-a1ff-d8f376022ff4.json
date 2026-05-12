@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6098e17b-77fb-4e67-9583-c4893b965473",
+    "id": "bundle--96c6dc73-7edc-42e6-bc04-2d9fcc11d9df",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--dc434717-4497-4832-a1ff-d8f376022ff4",
             "created": "2024-05-17T20:23:39.837Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Huntress NPPSPY 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:51:33.112Z",
+            "modified": "2026-04-29T14:23:06.226Z",
             "description": "[NPPSPY](https://attack.mitre.org/software/S1131) captures credentials by recording them through an alternative network listener registered to the <code>mpnotify.exe</code> process, allowing for cleartext recording of logon information.(Citation: Huntress NPPSPY 2022)",
             "relationship_type": "uses",
             "source_ref": "tool--0630d1a7-54da-4a48-a6af-eb8a62b13c17",
             "target_ref": "attack-pattern--435dfb86-2697-4867-85b5-2fef496c0517",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

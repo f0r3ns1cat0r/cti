@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--92787cf4-aeb9-4b2c-930b-a15cf5be6779",
+    "id": "bundle--ba9e3b27-ab10-4dcc-bb17-f6e02e0e0e10",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5cd6e7fd-b6c6-4796-91d5-6cf4ab724adf",
             "created": "2023-02-23T18:20:23.111Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Bitdefender LuminousMoth July 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:17:57.734Z",
+            "modified": "2026-04-29T14:23:06.052Z",
             "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has used ARP spoofing to redirect a compromised machine to an actor-controlled website.(Citation: Bitdefender LuminousMoth July 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
             "target_ref": "attack-pattern--cabe189c-a0e3-4965-a473-dcff00f17213",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

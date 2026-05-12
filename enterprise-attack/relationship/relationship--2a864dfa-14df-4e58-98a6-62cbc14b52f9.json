@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--191766f6-af89-432e-baa2-d905ec9019a7",
+    "id": "bundle--c6efaecf-cc4b-4ba0-a795-5e9f7f0da106",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:59:20.106Z",
+            "modified": "2026-04-29T14:23:05.962Z",
             "description": "[QakBot](https://attack.mitre.org/software/S0650) has the ability to modify the Registry to add its binaries to the Windows Defender exclusion list.(Citation: Group IB Ransomware September 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--edc5e045-5401-42bb-ad92-52b5b2ee0de9",

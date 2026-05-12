@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eaf4e913-a71c-4ff8-8e03-51933935cc6b",
+    "id": "bundle--72dc36b5-64c1-4f76-bc81-887cafd3825d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:13:17.460Z",
+            "modified": "2026-04-29T14:23:06.104Z",
             "description": "[SILENTTRINITY](https://attack.mitre.org/software/S0692) can bypass ScriptBlock logging to execute unmanaged PowerShell code from memory.(Citation: GitHub SILENTTRINITY Modules July 2019)",
             "relationship_type": "uses",
             "source_ref": "tool--1244e058-fa10-48cb-b484-0bcf671107ae",

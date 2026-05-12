@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5542801d-2b0f-4ebe-aba9-e6f0e7d4c6e6",
+    "id": "bundle--d631009d-a8c7-4f39-98e3-2915a29f708a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a5cbd480-0147-4e70-9551-03a2b5b8fdcb",
             "created": "2021-08-18T19:24:12.200Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Zeus Panda Nov 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:03:36.815Z",
+            "modified": "2026-04-29T14:23:06.151Z",
             "description": "[Zeus Panda](https://attack.mitre.org/software/S0330) queries the system's keyboard mapping to determine the language used on the system. It will terminate execution if it detects LANG_RUSSIAN, LANG_BELARUSIAN, LANG_KAZAK, or LANG_UKRAINIAN.(Citation: Talos Zeus Panda Nov 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--198db886-47af-4f4c-bff5-11b891f85946",
             "target_ref": "attack-pattern--c1b68a96-3c48-49ea-a6c0-9b27359f9c19",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

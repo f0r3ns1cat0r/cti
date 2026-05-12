@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--970cf094-a413-431c-a3a7-a252d414bf4a",
+    "id": "bundle--126f8f38-0200-4d13-8600-ac4aceefff60",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:36:49.511Z",
+            "modified": "2026-04-29T14:23:06.186Z",
             "description": "Automatically forward events to a log server or data repository to prevent conditions in which the adversary can locate and manipulate data on the local system. When possible, minimize time delay on event reporting to avoid prolonged storage on the local system.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--20a2baeb-98c2-4901-bad7-dc62d0a03dea",

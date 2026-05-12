@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1be8c456-5233-42c4-9782-5c03692ff987",
+    "id": "bundle--7d48f5a6-8152-4996-bed4-7c8617ac43cd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T18:57:45.410Z",
+            "modified": "2026-04-29T14:23:06.219Z",
             "description": "[NOOPLDR](https://attack.mitre.org/software/S9025) can hide services used to aid execution.(Citation: JPCERT MirrorFace JUL 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--66637cd6-ae68-4bcd-af82-32f70a854175",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--05421039-471f-449c-824a-b153b64fc9dd",
+    "id": "bundle--2bb13c88-8cdf-4d10-a762-b25edef03fae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T21:33:42.076Z",
+            "modified": "2026-04-29T14:23:05.943Z",
             "description": "[Fooder](https://attack.mitre.org/software/S9033) has stored its embedded payload in encrypted form within the binary, using a hardcoded key modified at runtime to produce the AES decryption key.(Citation: ESET_MuddyWater_Dec2025)",
             "relationship_type": "uses",
             "source_ref": "malware--7c8865dc-1bf9-49ce-b5f2-f15abde0909a",

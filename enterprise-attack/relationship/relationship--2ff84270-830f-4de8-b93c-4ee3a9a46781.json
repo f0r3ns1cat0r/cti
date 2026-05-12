@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0d10a317-7988-4c6a-b2cc-438d3f1caec9",
+    "id": "bundle--451da418-e49e-4bc2-af90-72cec401559c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--2ff84270-830f-4de8-b93c-4ee3a9a46781",
             "created": "2021-03-12T16:55:09.340Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MSTIC NOBELIUM Mar 2021",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:41:27.100Z",
+            "modified": "2026-04-29T14:23:05.975Z",
             "description": "[GoldMax](https://attack.mitre.org/software/S0588) can check the current date-time value of the compromised system, comparing it to the hardcoded execution trigger and can send the current timestamp to the C2 server.(Citation: MSTIC NOBELIUM Mar 2021)(Citation: FireEye SUNSHUTTLE Mar 2021) ",
             "relationship_type": "uses",
             "source_ref": "malware--5c747acd-47f0-4c5a-b9e5-213541fc01e0",
             "target_ref": "attack-pattern--f3c544dc-673c-4ef3-accb-53229f1ae077",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

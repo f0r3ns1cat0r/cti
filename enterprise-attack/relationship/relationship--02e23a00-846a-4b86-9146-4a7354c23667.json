@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e272f559-516e-470a-9f3a-140a9343ce50",
+    "id": "bundle--0bcf511f-bdde-444b-b494-9cc7962dddea",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--02e23a00-846a-4b86-9146-4a7354c23667",
             "created": "2019-04-12T15:55:48.135Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT38 Oct 2018",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-11-13T19:21:05.134Z",
+            "modified": "2026-04-29T14:23:05.907Z",
             "description": "[APT38](https://attack.mitre.org/groups/G0082) has used Hermes ransomware to encrypt files with AES256.(Citation: FireEye APT38 Oct 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",

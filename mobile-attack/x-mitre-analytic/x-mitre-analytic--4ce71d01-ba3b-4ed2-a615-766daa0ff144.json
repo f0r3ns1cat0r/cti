@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--91640c96-4f72-4e7e-a60e-744a7aadb075",
+    "id": "bundle--0362b18c-41b1-48d7-a1df-6bdfa80acf8b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-06T18:43:26.902Z",
+            "modified": "2026-05-12T16:30:18.377Z",
             "name": "Analytic 1748",
             "description": "A defender correlates an unexpected change in cellular subscription state (eSIM/SIM profile change, carrier/operator change, or sudden persistent loss of cellular service) with near-term disruption signals and a rapid increase in authentication-related network activity consistent with SMS verification or account recovery flows, suggesting the user\u2019s number has been ported to an adversary-controlled SIM/device (SIM swap impact).",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

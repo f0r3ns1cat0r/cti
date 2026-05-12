@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a5b4408d-dd40-4bb7-9c74-82e3983a59c5",
+    "id": "bundle--167cdd92-33de-41b4-b19c-29b4b7aba9b4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T23:24:24.394Z",
+            "modified": "2026-04-29T14:23:06.057Z",
             "description": "[SPAWNCHIMERA](https://attack.mitre.org/software/S9024) has searched the contents of two Python files scanner.py and scanner_legacy.py by searching for specific lines and replacing them with values that reduce their ability to track mismatches or new files.(Citation: CISA SPAWNCHIMERA RESURGE February 2026)",
             "relationship_type": "uses",
             "source_ref": "malware--d1974f35-0e06-478e-bc74-7530545d814b",

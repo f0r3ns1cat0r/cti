@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fb1bd063-4038-4e02-8f97-685f5fd521db",
+    "id": "bundle--e30acedb-0508-46c8-aae5-95b85c2af692",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5779f61c-d06b-424d-92b9-3690e5d42a42",
             "created": "2024-08-01T22:13:44.187Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sekoia Raccoon2 2022",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:16:28.509Z",
+            "modified": "2026-04-29T14:23:06.045Z",
             "description": "[Raccoon Stealer](https://attack.mitre.org/software/S1148) gathers victim machine timezone information.(Citation: S2W Racoon 2022)(Citation: Sekoia Raccoon2 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--b5a8fb8b-4ff1-43e5-a1ad-75ae565f5175",
             "target_ref": "attack-pattern--f3c544dc-673c-4ef3-accb-53229f1ae077",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

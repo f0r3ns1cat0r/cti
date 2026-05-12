@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c4f27d98-9a23-4876-acd1-2be4d6de3176",
+    "id": "bundle--1c09554b-1b98-47f2-a7de-7f42d858e97e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e61e5dc3-b6ac-4909-b188-eaede02385df",
             "created": "2020-03-30T20:44:34.666Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos GravityRAT",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:14:56.631Z",
+            "modified": "2026-04-29T14:23:06.238Z",
             "description": "[GravityRAT](https://attack.mitre.org/software/S0237) has used HTTP over a non-standard port, such as TCP port 46769.(Citation: Talos GravityRAT)",
             "relationship_type": "uses",
             "source_ref": "malware--1d1fce2f-0db5-402b-9843-4278a0694637",
             "target_ref": "attack-pattern--b18eae87-b469-4e14-b454-b171b416bc18",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

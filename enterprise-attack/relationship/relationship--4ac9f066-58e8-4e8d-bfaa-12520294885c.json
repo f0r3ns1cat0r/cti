@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1bddc9e4-47ab-4eae-900d-77d704b5f8b8",
+    "id": "bundle--13594603-e722-4b19-a519-33a9fe978a09",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T14:31:26.798Z",
+            "modified": "2026-04-29T14:23:06.027Z",
             "description": "[AshTag](https://attack.mitre.org/software/S9031) has enabled execution via DLL sideloading using a legitimate executable paired with a malicious DLL named wtsapi32.(Citation: Palo Alto Ashen Lepus DEC 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--bb6f2a5c-dbc9-45b0-bd3f-a0b7849959c2",

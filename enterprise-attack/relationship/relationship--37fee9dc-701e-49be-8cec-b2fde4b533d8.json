@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b3967755-e9f3-4522-b6a7-14a2d26471cb",
+    "id": "bundle--29d47cef-7085-4828-b1f3-50ff5a6ece3c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--37fee9dc-701e-49be-8cec-b2fde4b533d8",
             "created": "2020-07-17T15:58:56.120Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT39 Jan 2019",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:07:49.684Z",
+            "modified": "2026-04-29T14:23:05.996Z",
             "description": "(Citation: FireEye APT39 Jan 2019)(Citation: BitDefender Chafer May 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
             "target_ref": "tool--c4810609-7da6-48ec-8057-1b70a7814db0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

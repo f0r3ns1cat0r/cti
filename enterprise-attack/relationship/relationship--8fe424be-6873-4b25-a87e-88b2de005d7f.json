@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9ba4d7de-a502-4e0d-bdf1-b39494261ec5",
+    "id": "bundle--358f7ab2-e1da-447d-96a6-22aefbe5a8e0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8fe424be-6873-4b25-a87e-88b2de005d7f",
             "created": "2021-03-12T18:46:47.334Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MSTIC NOBELIUM Mar 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:59:28.692Z",
+            "modified": "2026-04-29T14:23:06.121Z",
             "description": "[Sibot](https://attack.mitre.org/software/S0589) can download and execute a payload onto a compromised system.(Citation: MSTIC NOBELIUM Mar 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--979adb5a-dc30-48f0-9e3d-9a26d866928c",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

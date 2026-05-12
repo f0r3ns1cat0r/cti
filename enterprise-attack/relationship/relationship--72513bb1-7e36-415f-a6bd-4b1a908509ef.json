@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4495cd6e-f4c6-4a99-911b-f6c4b7ea93fc",
+    "id": "bundle--fd6bd401-bb44-4c2b-9f66-96fc4da63591",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--72513bb1-7e36-415f-a6bd-4b1a908509ef",
             "created": "2024-08-01T22:26:22.254Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sekoia Raccoon2 2022",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:23:34.054Z",
+            "modified": "2026-04-29T14:23:06.081Z",
             "description": "[Raccoon Stealer](https://attack.mitre.org/software/S1148) will automatically collect and exfiltrate data identified in received configuration files from command and control nodes.(Citation: S2W Racoon 2022)(Citation: Sekoia Raccoon1 2022)(Citation: Sekoia Raccoon2 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--b5a8fb8b-4ff1-43e5-a1ad-75ae565f5175",
             "target_ref": "attack-pattern--774a3188-6ba9-4dc4-879d-d54ee48a5ce9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--02fab59e-1433-47e7-a203-0d1e762e82f7",
+    "id": "bundle--608da287-cf79-4610-8e65-344c0b31eb39",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-23T20:22:40.361Z",
+            "modified": "2026-05-12T16:30:18.383Z",
             "name": "Analytic 1782",
             "description": "OLD: Application vetting services could look for `android.permission.READ_CONTACTS` in an Android application\u2019s manifest, or `NSContactsUsageDescription` in an iOS application\u2019s `Info.plist` file. Most applications do not need contact list access, so extra scrutiny could be applied to those that request it.\nOn both Android and iOS, the user can manage which applications have permission to access the contact list through the device settings screen, revoking the permission if necessary. \n\nNEW: A defender observes an Android application requesting for android.permission.READ_CONTACTS, which may also be listed in the application's manifest file. ",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--96760135-ca29-4bdd-86d2-f9fc9f7ad3ab",
+    "id": "bundle--3a1e8270-3dfe-4bd4-8ef3-46a6b1e1bf1d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--54d5380e-07a4-49b0-8ffd-c34428c90bbe",
             "created": "2019-02-21T21:17:37.821Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FBI FLASH APT39 September 2020",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:15:43.831Z",
+            "modified": "2026-04-29T14:23:06.041Z",
             "description": "[APT39](https://attack.mitre.org/groups/G0087) has created scheduled tasks for persistence.(Citation: FireEye APT39 Jan 2019)(Citation: BitDefender Chafer May 2020)(Citation: FBI FLASH APT39 September 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
             "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

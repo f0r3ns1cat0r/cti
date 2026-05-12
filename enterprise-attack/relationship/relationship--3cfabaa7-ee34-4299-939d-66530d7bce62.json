@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9d46b1a8-94be-4083-af20-de6fcf33c86f",
+    "id": "bundle--ddadc5aa-959d-44ce-89cf-d9e47df47f29",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:56:51.786Z",
+            "modified": "2026-04-29T14:23:06.008Z",
             "description": "[Meteor](https://attack.mitre.org/software/S0688) can use [Wevtutil](https://attack.mitre.org/software/S0645) to remove Security, System and Application Event Viewer logs.(Citation: Check Point Meteor Aug 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--d79e7a60-5de9-448e-a074-f95d2d80f8d0",

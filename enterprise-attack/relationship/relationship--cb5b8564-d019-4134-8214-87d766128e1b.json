@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--34557c92-855c-4fb1-b509-1cbe32e23a19",
+    "id": "bundle--9a00a44f-4360-46eb-84fd-6810af524b8a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:46:56.679Z",
+            "modified": "2026-04-29T14:23:06.203Z",
             "description": "[Lucifer](https://attack.mitre.org/software/S0532) can clear and remove event logs.(Citation: Unit 42 Lucifer June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--54a73038-1937-4d71-a253-316e76d5413c",

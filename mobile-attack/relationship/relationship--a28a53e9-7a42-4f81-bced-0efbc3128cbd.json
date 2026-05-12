@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5269c0c2-1b16-4d28-b74f-95c39fac67e4",
+    "id": "bundle--b993b274-feb3-4b9b-86ba-fd1b97d66822",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a28a53e9-7a42-4f81-bced-0efbc3128cbd",
             "created": "2019-09-04T15:38:56.597Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FortiGuard-FlexiSpy",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:29:57.561Z",
+            "modified": "2026-04-29T14:23:06.146Z",
             "description": "[FlexiSpy](https://attack.mitre.org/software/S0408) encrypts its configuration file using AES.(Citation: FortiGuard-FlexiSpy)",
             "relationship_type": "uses",
             "source_ref": "tool--1622fd3d-fcfc-4d02-ac49-f2d786f79b81",
             "target_ref": "attack-pattern--d13fa042-8f26-44e1-a2a8-af0bf8e2ac9a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

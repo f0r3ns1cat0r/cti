@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--64d5222f-2f7b-4840-945a-900cca4072a3",
+    "id": "bundle--edc93524-bfa1-4587-b7f1-02a9debca778",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f83167c8-b964-44d2-b370-5f5e86460568",
             "created": "2020-07-15T20:23:36.324Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trusteer Carberp October 2010",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:18:01.396Z",
+            "modified": "2026-04-29T14:23:06.262Z",
             "description": "[Carberp](https://attack.mitre.org/software/S0484) has collected a list of running processes.(Citation: Trusteer Carberp October 2010)",
             "relationship_type": "uses",
             "source_ref": "malware--bbcd7a02-ef24-4171-ac94-a93540173b94",
             "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bbde9241-06ac-40a6-9078-a9c903014b60",
+    "id": "bundle--1b6f7620-f864-4a7a-9b9b-3419d8e5769d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5d8af397-e47d-4665-b8f7-19f81fd646f9",
             "created": "2026-04-10T18:39:13.791Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Koi Glassworm New Tricks December 2025",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-10T18:39:13.791Z",
+            "modified": "2026-04-29T14:23:06.053Z",
             "description": "[GlassWorm](https://attack.mitre.org/software/S9010) has the ability to steal credentials for cryptocurrency wallets.(Citation: Koi Glassworm New Tricks December 2025)(Citation: Koi Glassworm InvisibleCode October 2025)(Citation: Socket GlassWorm January 2026)",
             "relationship_type": "uses",
             "source_ref": "malware--809bc57b-4d4c-43de-b698-448334ed8185",

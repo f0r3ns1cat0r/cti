@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--11f93c08-9459-42aa-bfa2-fed5ed625dbd",
+    "id": "bundle--8edb97ad-8d69-43b0-97ff-f44439e20dae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--945e586b-1543-4c24-95ee-e1282ad16823",
             "created": "2024-07-17T20:24:37.440Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro Pikabot 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:32:47.247Z",
+            "modified": "2026-04-29T14:23:06.127Z",
             "description": "[Water Curupira Pikabot Distribution](https://attack.mitre.org/campaigns/C0037) distributed [Pikabot](https://attack.mitre.org/software/S1145) as an initial access mechanism.(Citation: TrendMicro Pikabot 2024)",
             "relationship_type": "uses",
             "source_ref": "campaign--57541e3b-657e-463a-a4ab-ca08d7ea9965",
             "target_ref": "malware--02739f57-7585-4319-acd3-794ae8ff3a70",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

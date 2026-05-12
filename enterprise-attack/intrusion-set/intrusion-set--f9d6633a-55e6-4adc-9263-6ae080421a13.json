@@ -1,32 +1,10 @@
 {
     "type": "bundle",
-    "id": "bundle--2d0b1b85-1628-4317-8973-5d70db9a7a5b",
+    "id": "bundle--cb4dcff2-84e4-4946-9fcb-1560a713c032",
     "spec_version": "2.0",
     "objects": [
         {
-            "modified": "2024-11-17T16:17:26.385Z",
-            "name": "Magic Hound",
-            "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) is an Iranian-sponsored threat group that conducts long term, resource-intensive cyber espionage operations, likely on behalf of the Islamic Revolutionary Guard Corps. They have targeted European, U.S., and Middle Eastern government and military personnel, academics, journalists, and organizations such as the World Health Organization (WHO), via complex social engineering campaigns since at least 2014.(Citation: FireEye APT35 2018)(Citation: ClearSky Kittens Back 3 August 2020)(Citation: Certfa Charming Kitten January 2021)(Citation: Secureworks COBALT ILLUSION Threat Profile)(Citation: Proofpoint TA453 July2021)",
-            "aliases": [
-                "Magic Hound",
-                "TA453",
-                "COBALT ILLUSION",
-                "Charming Kitten",
-                "ITG18",
-                "Phosphorus",
-                "Newscaster",
-                "APT35",
-                "Mint Sandstorm"
-            ],
-            "x_mitre_deprecated": false,
-            "x_mitre_version": "6.1",
-            "x_mitre_contributors": [
-                "Anastasios Pingios",
-                "Bryan Lee",
-                "Daniyal Naeem, BT Security"
-            ],
             "type": "intrusion-set",
-            "spec_version": "2.1",
             "id": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -157,8 +135,29 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "modified": "2026-05-12T15:12:00.732Z",
+            "name": "Magic Hound",
+            "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) is an Iranian-sponsored threat group that conducts long term, resource-intensive cyber espionage operations, likely on behalf of the Islamic Revolutionary Guard Corps. They have targeted European, U.S., and Middle Eastern government and military personnel, academics, journalists, and organizations such as the World Health Organization (WHO), via complex social engineering campaigns since at least 2014.(Citation: FireEye APT35 2018)(Citation: ClearSky Kittens Back 3 August 2020)(Citation: Certfa Charming Kitten January 2021)(Citation: Secureworks COBALT ILLUSION Threat Profile)(Citation: Proofpoint TA453 July2021)",
+            "aliases": [
+                "Magic Hound",
+                "TA453",
+                "COBALT ILLUSION",
+                "Charming Kitten",
+                "ITG18",
+                "Phosphorus",
+                "Newscaster",
+                "APT35",
+                "Mint Sandstorm"
+            ],
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "6.1",
+            "x_mitre_attack_spec_version": "3.3.0",
+            "x_mitre_contributors": [
+                "Anastasios Pingios",
+                "Bryan Lee",
+                "Daniyal Naeem, BT Security"
+            ],
             "x_mitre_domains": [
                 "enterprise-attack"
             ]

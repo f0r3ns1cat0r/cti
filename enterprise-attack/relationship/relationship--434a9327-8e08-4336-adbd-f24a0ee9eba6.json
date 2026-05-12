@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6363c573-8e00-473b-9095-a04db38abfba",
+    "id": "bundle--0d654fbb-a9bc-44a6-8071-c66df675d0a3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--434a9327-8e08-4336-adbd-f24a0ee9eba6",
             "created": "2020-03-30T18:49:40.258Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto menuPass Feb 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:10:55.261Z",
+            "modified": "2026-04-29T14:23:06.017Z",
             "description": "[ChChes](https://attack.mitre.org/software/S0144) can encode C2 data with a custom technique that utilizes Base64.(Citation: Palo Alto menuPass Feb 2017)(Citation: JPCERT ChChes Feb 2017)\t",
             "relationship_type": "uses",
             "source_ref": "malware--dc5d1a33-62aa-4a0c-aa8c-589b87beb11e",
             "target_ref": "attack-pattern--04fd5427-79c7-44ea-ae13-11b24778ff1c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

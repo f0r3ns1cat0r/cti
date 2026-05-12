@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5129a13c-347a-4a5a-82d1-f67b518428bb",
+    "id": "bundle--2642c344-43a2-41d0-9da1-4c21f72a611f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--caf19942-8346-447f-9781-28a0b858c43f",
             "created": "2020-06-24T22:37:51.034Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Beechey 2010",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:10:15.116Z",
+            "modified": "2026-04-29T14:23:06.202Z",
             "description": "Identify and block potentially malicious unmanaged COR_PROFILER profiling DLLs  by using application control solutions like AppLocker that are capable of auditing and/or blocking unapproved DLLs.(Citation: Beechey 2010)(Citation: Windows Commands JPCERT)(Citation: NSA MS AppLocker)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--47e0e9fe-96ce-4f65-8bb1-8be1feacb5db",
             "target_ref": "attack-pattern--ffeb0780-356e-4261-b036-cfb6bd234335",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fef2362a-6136-43e8-8b85-541da71522b7",
+    "id": "bundle--d8d7cfbd-c96c-41f3-abd8-72cc346a2cf3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5b87bb01-9587-42bd-aa6b-30158ca8f55f",
             "created": "2020-04-08T15:41:19.427Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cofense Anubis",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:48:57.384Z",
+            "modified": "2026-04-29T14:23:06.050Z",
             "description": "[Anubis](https://attack.mitre.org/software/S0422) can send, receive, and delete SMS messages.(Citation: Cofense Anubis)",
             "relationship_type": "uses",
             "source_ref": "malware--a3c59d82-2c7c-44e5-a869-68e0a3e5935e",
             "target_ref": "attack-pattern--b327a9c0-e709-495c-aa6e-00b042136e2b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

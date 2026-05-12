@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8beb71c1-c1c6-46d4-ae07-350acc99e5b0",
+    "id": "bundle--b52e15aa-6567-4f0f-835d-16429668849c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-15T18:04:23.352Z",
+            "modified": "2026-04-29T14:23:06.088Z",
             "description": "[TruffleHog](https://attack.mitre.org/software/S9009) has the ability to scan code repositories and CI/CD platforms.(Citation: Black Hills Information Security TruffleHog January 2024)(Citation: Github TruffleSecurity Trufflehog April 2025)",
             "relationship_type": "uses",
             "source_ref": "tool--76f8a686-3157-481f-9af6-e8558883a8d6",

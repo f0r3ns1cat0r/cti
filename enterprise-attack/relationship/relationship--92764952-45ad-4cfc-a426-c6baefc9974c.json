@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c50c0ed4-eb15-4ef0-b272-0b1b59e0ccb6",
+    "id": "bundle--3486a8e0-016b-4cff-a8b9-edb7cecfb1ca",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--92764952-45ad-4cfc-a426-c6baefc9974c",
             "created": "2020-03-13T18:11:08.483Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft More information about DLL",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:32:14.302Z",
+            "modified": "2026-04-29T14:23:06.125Z",
             "description": "Disallow loading of remote DLLs. This is included by default in Windows Server 2012+ and is available by patch for XP+ and Server 2003+.(Citation: Microsoft More information about DLL)\n\nEnable Safe DLL Search Mode to move the user's current folder later in the search order. This is included by default in modern versions of Windows; the associated Windows Registry key is located at <code>HKLM\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\SafeDLLSearchMode</code>.(Citation: Microsoft Dynamic Link Library Search Order)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--e8242a33-481c-4891-af63-4cf3e4cf6aff",
             "target_ref": "attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

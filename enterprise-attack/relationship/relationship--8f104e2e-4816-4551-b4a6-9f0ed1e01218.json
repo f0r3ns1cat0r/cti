@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5c5b6917-5c7b-43d2-b939-d368b8ddb5d5",
+    "id": "bundle--302506d7-e231-4412-a72f-d2a78db20a26",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8f104e2e-4816-4551-b4a6-9f0ed1e01218",
             "created": "2019-01-29T19:36:02.755Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Carbon Mar 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:59:19.696Z",
+            "modified": "2026-04-29T14:23:06.120Z",
             "description": "[Carbon](https://attack.mitre.org/software/S0335) uses HTTP to send data to the C2 server.(Citation: ESET Carbon Mar 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--b7e9880a-7a7c-4162-bddb-e28e8ef2bf1f",
             "target_ref": "attack-pattern--fb8d023d-45be-47e9-bc51-f56bcae6435b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

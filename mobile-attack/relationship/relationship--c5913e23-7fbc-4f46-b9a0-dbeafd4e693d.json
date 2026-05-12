@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--55cc7b6f-9295-4364-8919-fd7641b22d1b",
+    "id": "bundle--e52f6282-7ea2-4f7a-b125-47bb75b8d407",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c5913e23-7fbc-4f46-b9a0-dbeafd4e693d",
             "created": "2026-03-09T15:19:41.531Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET_VajraSpy_Feb2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-09T15:19:41.531Z",
+            "modified": "2026-04-29T14:23:06.195Z",
             "description": "[VajraSpy](https://attack.mitre.org/software/S9006) has used a romance trap scam to convince victims into downloading the trojanized application.(Citation: ESET_VajraSpy_Feb2024)  ",
             "relationship_type": "uses",
             "source_ref": "malware--8205a875-3ed5-4be2-ab9b-14a7d29431d0",

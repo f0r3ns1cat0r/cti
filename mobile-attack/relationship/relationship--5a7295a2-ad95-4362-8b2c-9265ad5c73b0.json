@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1e1c29e2-09e4-4be7-834c-d3e5a906d81d",
+    "id": "bundle--fd71a196-1bd4-4293-9b89-124fb47fa7f4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5a7295a2-ad95-4362-8b2c-9265ad5c73b0",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lookout-StealthMango",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:48:55.051Z",
+            "modified": "2026-04-29T14:23:06.049Z",
             "description": "[Stealth Mango](https://attack.mitre.org/software/S0328) uses commands received from text messages for C2.(Citation: Lookout-StealthMango)",
             "relationship_type": "uses",
             "source_ref": "malware--085eb36d-697d-4d9a-bac3-96eb879fe73c",
             "target_ref": "attack-pattern--ec4c4baa-026f-43e8-8f56-58c36f3162dd",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

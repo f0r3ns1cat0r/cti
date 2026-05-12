@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cca69879-f991-46fc-9e89-ab4ac20cf982",
+    "id": "bundle--bf014975-8919-44e0-8e29-b9177e9cf903",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T22:47:45.689Z",
+            "modified": "2026-04-29T14:23:06.231Z",
             "description": "[DRYHOOK](https://attack.mitre.org/software/S9013) is a Python-based script that executes within the victim environment.(Citation: Google UNC5221 Ivanti January 2025)(Citation: Picus Security UNC5221 Ivanti May 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--e9c72c02-b55a-4852-b2eb-c7031d215414",

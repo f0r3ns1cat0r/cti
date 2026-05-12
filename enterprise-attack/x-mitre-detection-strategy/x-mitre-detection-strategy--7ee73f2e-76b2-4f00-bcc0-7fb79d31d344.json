@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--827b5685-5886-476c-807d-665046709809",
+    "id": "bundle--7e563120-bb7b-4878-b7dc-7504f1a6a4fa",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--7ee73f2e-76b2-4f00-bcc0-7fb79d31d344",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.682Z",
             "name": "Detection Strategy for Phishing across platforms.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -34,8 +35,7 @@
                 "x-mitre-analytic--46ecb875-0842-4171-bb36-9b361453a89f",
                 "x-mitre-analytic--09df0b88-e1ae-4a1e-86c4-8bb00e79baed",
                 "x-mitre-analytic--4da63d13-d9bb-41c6-88c8-31bc9f2579fb"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

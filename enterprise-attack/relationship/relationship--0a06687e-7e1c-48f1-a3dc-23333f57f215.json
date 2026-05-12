@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--06352034-0e3d-4adf-a9e3-c5c99ed485ad",
+    "id": "bundle--f9fc5ae4-630b-401c-af28-9bfd2a3924ae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0a06687e-7e1c-48f1-a3dc-23333f57f215",
             "created": "2025-09-15T17:41:48.680Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "2025_IBM_PUBLOAD_TONESHELL_HIUPAN_CLAIMLOADER_MUSTANG PANDA",
@@ -33,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-15T17:41:48.680Z",
+            "modified": "2026-04-29T14:23:05.917Z",
             "description": "[TONESHELL](https://attack.mitre.org/software/S1239) has generated unique GUIDs to identify victim devices.(Citation: Trend Micro Mustang Panda Earth Preta Toneshell February 2025)(Citation: 2022 November_TrendMicro_Earth Preta_Toneshell_Pubload)(Citation: Zscaler) [TONESHELL](https://attack.mitre.org/software/S1239) has leveraged environmental keying in payload delivery using the victim computer name and other configuration values.(Citation: 2025_IBM_PUBLOAD_TONESHELL_HIUPAN_CLAIMLOADER_MUSTANG PANDA) [TONESHELL](https://attack.mitre.org/software/S1239) has also tracked IDs associated with reverse shell subprocesses to manage interactions and terminations from C2.(Citation: Trend Micro Mustang Panda Earth Preta Toneshell February 2025)(Citation: Zscaler)",
             "relationship_type": "uses",
             "source_ref": "malware--2683fde8-1dc4-415c-94bd-9bb95cc5b7ff",

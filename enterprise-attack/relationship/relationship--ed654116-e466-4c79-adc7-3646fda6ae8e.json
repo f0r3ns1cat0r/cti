@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f36df75d-dd7f-440f-9dbc-9ee955b91a38",
+    "id": "bundle--75ae6cdd-4cfd-41f9-9e1e-7d57878e3937",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T18:07:10.007Z",
+            "modified": "2026-04-29T14:23:06.248Z",
             "description": "[VOID MANTICORE](https://attack.mitre.org/groups/G1055) has leveraged valid accounts to log into VPN infrastructure.(Citation: Check Point VOID MANTICORE Handala Hack March 2026) [VOID MANTICORE](https://attack.mitre.org/groups/G1055) has used compromised valid credentials to gain access to management infrastructure and enterprise control systems.(Citation: Domain Tools Handala Hack Karma Homeland Justice MOIS April 2026) [VOID MANTICORE](https://attack.mitre.org/groups/G1055) has also validated and tested authentication using compromised credentials prior to malicious actions.(Citation: Check Point VOID MANTICORE Handala Hack March 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--ebd7ce77-c9ba-4fba-bb28-58296ac66559",

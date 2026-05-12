@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9d17646a-8b7e-48b9-8c20-a8e8c8078db6",
+    "id": "bundle--05e37755-3fd0-441a-9b56-93fef811154b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cce82a76-5390-473d-9e7c-9450d1509d1d",
             "created": "2020-07-15T20:20:59.314Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Bitdefender Mandrake",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:30:41.019Z",
+            "modified": "2026-04-29T14:23:06.205Z",
             "description": "[Mandrake](https://attack.mitre.org/software/S0485) can download its second (Loader) and third (Core) stages after the dropper is installed.(Citation: Bitdefender Mandrake)",
             "relationship_type": "uses",
             "source_ref": "malware--52c994fa-b6c8-45a8-9586-a4275cf19307",
             "target_ref": "attack-pattern--6c49d50f-494d-4150-b774-a655022d20a6",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

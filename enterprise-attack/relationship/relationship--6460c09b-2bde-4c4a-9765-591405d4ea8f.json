@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--244b12a6-69f8-4ab1-a9c0-91900772ec6d",
+    "id": "bundle--8c120138-9f19-477a-9beb-d55a43095e29",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T13:10:52.765Z",
+            "modified": "2026-04-29T14:23:06.061Z",
             "description": "[LAMEHUG](https://attack.mitre.org/software/S9035) has the ability to collect system information and files of interest from compromised systems.(Citation: Splunk LAMEHUG SEP 2025)(Citation: Nov AI Threat Tracker)",
             "relationship_type": "uses",
             "source_ref": "malware--c55e0410-842d-4365-a2c8-26c0330f85b8",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--937d0347-bc7b-4808-9ff1-797fc8954864",
+    "id": "bundle--962e9c96-bba3-495b-a9b9-2d4b9dda4a26",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c8bceb4a-0cf2-43c9-9729-20ed706c4c72",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Gamaredon Feb 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:09:50.302Z",
+            "modified": "2026-04-29T14:23:06.200Z",
             "description": "[Pteranodon](https://attack.mitre.org/software/S0147) can delete files that may interfere with it executing. It also can delete temporary files and itself after the initial script executes.(Citation: Palo Alto Gamaredon Feb 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--5f9f7648-04ba-4a9f-bb4c-2a13e74572bd",
             "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7d96b444-5f2f-4ecd-ba58-e0e8748bea25",
+    "id": "bundle--9e78c15c-91fc-4612-9790-ed3bfd1efe83",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:29:01.045Z",
+            "modified": "2026-04-29T14:23:06.095Z",
             "description": "An adversary must already have root level access on the local system to make full use of this technique; be sure to restrict users and accounts to the least privileges they require.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317",

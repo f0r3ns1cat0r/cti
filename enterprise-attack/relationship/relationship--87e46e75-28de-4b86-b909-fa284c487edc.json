@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--24cfbf88-c92a-4491-a72c-083fde69e8ca",
+    "id": "bundle--e62ebd56-c455-4eaa-863f-2a129d55e36d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T00:07:04.493Z",
+            "modified": "2026-04-29T14:23:06.111Z",
             "description": "[BRICKSTORM](https://attack.mitre.org/software/S9015) has the ability to delete files and directories.(Citation: CISA BRICKSTORM UNC5221 AR25-338A February 2026) [BRICKSTORM](https://attack.mitre.org/software/S9015) also has deleted installer files after execution to reduce detection.(Citation: Picus Security BRICKSTORM UNC5221 October 2025)(Citation: Google UNC5221 BRICKSTORM SPAWNCHIMERA April 2024)(Citation: NVISO BRICKSTORM April 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--0450ed20-e9a7-4799-b601-2f2710300796",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9293dffd-12db-49d1-af49-8ebc4899cc16",
+    "id": "bundle--b73ae363-e367-487f-af75-f64422a65518",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T18:22:55.969Z",
+            "modified": "2026-04-29T14:23:06.182Z",
             "description": "[HiddenFace](https://attack.mitre.org/software/S9023) can inject code directly into legitimate applications.(Citation: JPCERT MirrorFace JUL 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--9edc41d1-a13d-4acf-b400-d47fb2f6809d",

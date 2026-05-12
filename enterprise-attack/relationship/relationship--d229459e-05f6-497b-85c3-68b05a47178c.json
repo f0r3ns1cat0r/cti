@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a9ffea84-8397-4382-b461-6d75ff13f3c8",
+    "id": "bundle--9fcb8821-5a03-441c-935e-195b9878cb8f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d229459e-05f6-497b-85c3-68b05a47178c",
             "created": "2025-06-09T20:49:30.752Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Cloud Mandiant UNC3886 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-06-09T20:49:30.752Z",
+            "modified": "2026-04-29T14:23:06.213Z",
             "description": "(Citation: Google Cloud Mandiant UNC3886 2024)\n",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--461b8e25-8f4a-4ea2-a4a8-e39df7ce6630",
             "target_ref": "malware--0a615414-1dad-4131-802d-38f5d72ef852",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

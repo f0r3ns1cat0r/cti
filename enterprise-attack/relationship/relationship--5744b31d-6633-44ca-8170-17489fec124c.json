@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a127d6e7-4a6e-42f3-a9f0-14421da0f422",
+    "id": "bundle--80271f6d-5dbd-466d-a047-5f06dc54c626",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5744b31d-6633-44ca-8170-17489fec124c",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto OilRig May 2016",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:16:25.363Z",
+            "modified": "2026-04-29T14:23:06.044Z",
             "description": "(Citation: Palo Alto OilRig May 2016)(Citation: FireEye APT34 Dec 2017)(Citation: Symantec Crambus OCT 2023)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
             "target_ref": "tool--4664b683-f578-434f-919b-1c1aad2a1111",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

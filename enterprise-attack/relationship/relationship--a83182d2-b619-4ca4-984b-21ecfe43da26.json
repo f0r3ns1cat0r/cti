@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aaab928f-41dc-493a-8587-ce1ebda06fd5",
+    "id": "bundle--33f15e10-b723-4a41-80a3-4b721a8702f2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a83182d2-b619-4ca4-984b-21ecfe43da26",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET RTM Feb 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:04:06.479Z",
+            "modified": "2026-04-29T14:23:06.154Z",
             "description": "[RTM](https://attack.mitre.org/software/S0148) monitors browsing activity and automatically captures screenshots if a victim browses to a URL matching one of a list of strings.(Citation: ESET RTM Feb 2017)(Citation: Unit42 Redaman January 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--92ec0cbd-2c30-44a2-b270-73f4ec949841",
             "target_ref": "attack-pattern--30208d3e-0d6b-43c8-883e-44462a514619",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

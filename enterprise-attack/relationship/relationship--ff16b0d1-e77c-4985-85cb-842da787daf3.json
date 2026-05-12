@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aea76e35-e3fe-48d2-8a55-ff2696ff86b3",
+    "id": "bundle--810a8b66-1d53-41cc-84cc-229b5efd7910",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ff16b0d1-e77c-4985-85cb-842da787daf3",
             "created": "2022-04-08T18:29:35.467Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ClearSky Kittens Back 3 August 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:00:32.976Z",
+            "modified": "2026-04-29T14:23:06.271Z",
             "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has conducted watering-hole attacks through media and magazine websites.(Citation: ClearSky Kittens Back 3 August 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
             "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

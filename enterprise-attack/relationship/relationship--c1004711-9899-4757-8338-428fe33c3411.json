@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e0cb06b7-1a0c-4de9-9f74-2eb472fcab01",
+    "id": "bundle--2310f435-fc7c-4610-bdba-947145b46ed1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c1004711-9899-4757-8338-428fe33c3411",
             "created": "2023-09-27T17:45:37.065Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MoustachedBouncer ESET August 2023",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T04:02:13.817Z",
+            "modified": "2026-04-29T14:23:06.189Z",
             "description": "[SharpDisco](https://attack.mitre.org/software/S1089) can use a plugin to enumerate system drives.(Citation: MoustachedBouncer ESET August 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--1fefb062-feda-484a-8f10-0cebf65e20e3",

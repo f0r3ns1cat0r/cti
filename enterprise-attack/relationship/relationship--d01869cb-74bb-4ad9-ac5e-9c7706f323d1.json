@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--26520d3a-dc2f-411b-b35e-4097dbb0a349",
+    "id": "bundle--5e9750e0-cd00-49a2-99c9-1e77943a8365",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d01869cb-74bb-4ad9-ac5e-9c7706f323d1",
             "created": "2020-03-19T22:38:12.955Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "F-Secure The Dukes",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:11:14.754Z",
+            "modified": "2026-04-29T14:23:06.210Z",
             "description": "[CosmicDuke](https://attack.mitre.org/software/S0050) collects Windows account hashes.(Citation: F-Secure The Dukes)",
             "relationship_type": "uses",
             "source_ref": "malware--2eb9b131-d333-4a48-9eb4-d8dec46c19ee",
             "target_ref": "attack-pattern--1644e709-12d2-41e5-a60f-3470991f5011",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

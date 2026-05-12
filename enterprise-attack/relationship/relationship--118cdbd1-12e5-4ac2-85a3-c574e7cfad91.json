@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--18de4f2e-067f-451f-902a-6b45dfc86056",
+    "id": "bundle--aacd61af-0b5d-4892-8866-abe42419d736",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--118cdbd1-12e5-4ac2-85a3-c574e7cfad91",
             "created": "2023-01-03T20:31:04.559Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant APT41",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T02:10:18.456Z",
+            "modified": "2026-04-29T14:23:05.928Z",
             "description": "During [C0017](https://attack.mitre.org/campaigns/C0017), [APT41](https://attack.mitre.org/groups/G0096) issued `ping -n 1 ((cmd /c dir c:\\|findstr Number).split()[-1]+` commands to find the volume serial number of compromised systems.(Citation: Mandiant APT41)\n",
             "relationship_type": "uses",
             "source_ref": "campaign--ba6dfa37-f401-4140-88b0-8938f2895e61",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d450ec84-34a0-4a09-a1e6-7864bc35a1bd",
+    "id": "bundle--7feb1848-6b7a-4115-a330-7ea20f6478c5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-15T20:49:00.264Z",
+            "modified": "2026-05-12T15:12:00.773Z",
             "name": "Application State",
             "description": "Application State represents the operational status and lifecycle context of a mobile application at a given point in time. This includes whether the application is running in the foreground or background, its activity state, recent user interaction, and transitions between lifecycle states.\n\nMonitoring application state helps defenders identify suspicious behavior where an application performs sensitive actions while inactive, in the background, or without recent user interaction.\n\nApplication state is particularly useful when detecting malicious activity that occurs outside normal user-driven workflows.\n\nExamples\nAndroid\n\n- Application transitions from foreground to background\n- Application running as a background service\n- Application started via broadcast receiver\n- Application launched automatically after device boot\n\niOS\n\n- Application entering active, inactive, or background state\n- Background task execution\n- Background fetch activity\n- Application wake events triggered by push notifications or system services\n\nData Collection Measures\n- Mobile EDR / MTD runtime monitoring\n- OS lifecycle event telemetry\n- Application runtime instrumentation\n- Mobile security platform behavioral monitoring\n",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--31c4c4a2-d6d9-4d67-bd08-e45dc533682a",
+    "id": "bundle--30ab13d2-2df2-4922-874f-4f8043cdf6e4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T17:47:32.370Z",
+            "modified": "2026-04-29T14:23:06.175Z",
             "description": "[RustyWater](https://attack.mitre.org/software/S9037) has used a WScript.Shell COM object to execute the CertificationKit.ini file.(Citation: CloudSEK_RustyWater_Jan2026)\u202f\u202f\u202f",
             "relationship_type": "uses",
             "source_ref": "malware--50be4e81-db74-41a2-a9aa-423314082bea",

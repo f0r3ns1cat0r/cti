@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--89bcde98-caf5-49c5-85ab-3de4f45722a3",
+    "id": "bundle--61e627cf-0a1d-41f8-9ad9-e52ad8744874",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d7d7b5e5-aceb-473b-aeaa-f1287d8d0542",
             "created": "2019-01-30T14:00:49.822Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "PaloAlto DNS Requests May 2016",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:12:29.319Z",
+            "modified": "2026-04-29T14:23:06.220Z",
             "description": "[APT18](https://attack.mitre.org/groups/G0026) uses HTTP for C2 communications.(Citation: PaloAlto DNS Requests May 2016)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--38fd6a28-3353-4f2b-bb2b-459fecd5c648",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7bb1a3c2-3be8-4ac9-baaa-9a2c3e31aff2",
+    "id": "bundle--d0f06f84-0ef1-4484-8da0-0dc1e86be64c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1a2119a2-6a39-4062-b90c-bffd15b259ec",
             "created": "2021-02-04T14:12:26.131Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Phish Labs Silent Librarian",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:37:20.895Z",
+            "modified": "2026-04-29T14:23:05.940Z",
             "description": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has obtained free Let's Encrypt SSL certificates for use on their phishing pages.(Citation: Phish Labs Silent Librarian)(Citation: Secureworks COBALT DICKENS September 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384",
             "target_ref": "attack-pattern--19401639-28d0-4c3c-adcc-bc2ba22f6421",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--663ffeab-2bc2-4e06-a48c-cd9f3ce82a51",
+    "id": "bundle--50f0a616-5d21-45da-adfa-1e5685778ee6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7e8293be-b9d6-4a27-8d49-216f17df3bd0",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Securelist Calisto July 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:56:18.778Z",
+            "modified": "2026-04-29T14:23:06.098Z",
             "description": "[Calisto](https://attack.mitre.org/software/S0274) can collect data from user directories.(Citation: Securelist Calisto July 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--b8fdef82-d2cf-4948-8949-6466357b1be1",
             "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

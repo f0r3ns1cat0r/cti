@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a835092a-6563-4543-ab6c-85afe3b39f5e",
+    "id": "bundle--7ac8505e-9988-4273-914f-a92bcab790f3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c5ffbfc0-fd5d-409a-bc0c-e14a75d2c382",
             "created": "2025-10-22T21:36:33.212Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sentinel One Contagious Interview ClickFix September 2025",
@@ -73,7 +74,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T21:36:33.212Z",
+            "modified": "2026-04-29T14:23:06.196Z",
             "description": "[Contagious Interview](https://attack.mitre.org/groups/G1052) has hosted malicious payloads on code repositories used as lures for victims to download.(Citation: Sentinel One Contagious Interview ClickFix September 2025)(Citation: Validin Contagious Interview North Korea ClickFix January 2025)(Citation: Esentire ContagiousInterview BeaverTail InvisibleFerret November 2024)(Citation: Recorded Future Contagious Inteview BeaverTail InvisibleFerret OtterCookie February 2025)(Citation: Socket Contagious Interview NPM April 2025)(Citation: Socket BeaverTail XORIndex HexEval Contagious Interview July 2025)(Citation: Socket HexEval BeaverTail Contagious Interview June 2025)(Citation: ESET Contagious Interview BeaverTail InvisibleFerret February 2025)(Citation: SecurityScorecard Contagious Interview October 2024)(Citation: Securonix Contagious Interview DEVPOPPER April 2024)(Citation: Zscaler ContagiousInterview BeaverTail InvisibleFerret November 2024)(Citation: PaloAlto ContagiousInterview BeaverTail InvisibleFerret November 2023)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--46599a4a-77ee-4697-9474-2683b6464859",

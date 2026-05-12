@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--478fe1b9-bfbe-4bdf-9c92-a84066fe69c1",
+    "id": "bundle--b666081f-e038-4283-a001-b0c1ab1648bf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f751a3d3-1fe5-4be9-8a01-511481458f7f",
             "created": "2024-04-03T20:55:29.732Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Ransomware as a Service",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:58:30.525Z",
+            "modified": "2026-04-29T14:23:06.261Z",
             "description": "[Cinnamon Tempest](https://attack.mitre.org/groups/G1021) has executed ransomware using batch scripts deployed via GPO.(Citation: Microsoft Ransomware as a Service)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
             "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

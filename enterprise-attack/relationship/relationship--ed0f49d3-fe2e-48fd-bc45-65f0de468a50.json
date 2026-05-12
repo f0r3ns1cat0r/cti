@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--33824c75-ee8a-47be-908a-ef9fd904a19e",
+    "id": "bundle--dbd8a8b8-3f3a-41ea-878a-768bf08cbe19",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T22:52:48.904Z",
+            "modified": "2026-04-29T14:23:06.248Z",
             "description": "[DRYHOOK](https://attack.mitre.org/software/S9013) has terminated all instances of the `cgi-server` process before activating the modified DSAuth.pm file.(Citation: Google UNC5221 Ivanti January 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--e9c72c02-b55a-4852-b2eb-c7031d215414",

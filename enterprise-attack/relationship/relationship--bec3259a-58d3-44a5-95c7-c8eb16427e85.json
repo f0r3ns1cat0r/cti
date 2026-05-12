@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7a597fdc-4789-41b0-9660-6175ac972cfb",
+    "id": "bundle--c76fd30a-5e8d-4246-84e3-489cbb67ec9d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bec3259a-58d3-44a5-95c7-c8eb16427e85",
             "created": "2023-03-02T18:52:48.097Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sophos BlackCat Jul 2022",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:43:51.809Z",
+            "modified": "2026-04-29T14:23:06.186Z",
             "description": "[BlackCat](https://attack.mitre.org/software/S1068) can change the desktop wallpaper on compromised hosts.(Citation: Microsoft BlackCat Jun 2022)(Citation: Sophos BlackCat Jul 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--50c44c34-3abb-48ae-9433-a2337de5b0bc",
             "target_ref": "attack-pattern--8c41090b-aa47-4331-986b-8c9a51a91103",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

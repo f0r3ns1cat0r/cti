@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c1dd0a96-0240-4840-a527-bd8bf8a04ce9",
+    "id": "bundle--ad916d94-8be7-43c5-862b-01553a707b0d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-15T19:04:39.800Z",
+            "modified": "2026-04-29T14:23:06.263Z",
             "description": "[TruffleHog](https://attack.mitre.org/software/S9009) has collected credentials and data associated with Confluence.(Citation: Github TruffleSecurity Trufflehog April 2025)",
             "relationship_type": "uses",
             "source_ref": "tool--76f8a686-3157-481f-9af6-e8558883a8d6",

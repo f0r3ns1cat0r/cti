@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dd652dd5-8b8e-4f26-8ffa-e6f9a761ee2f",
+    "id": "bundle--f7bcfcf1-2aa9-427c-931c-6ba000239df5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:20.077Z",
+            "modified": "2026-05-12T15:12:00.619Z",
             "name": "Boot or Logon Initialization Scripts",
             "description": "Adversaries may use scripts automatically executed at boot or logon initialization to establish persistence.(Citation: Mandiant APT29 Eye Spy Email Nov 22)(Citation: Anomali Rocke March 2019) Initialization scripts can be used to perform administrative functions, which may often execute other programs or send information to an internal logging server. These scripts can vary based on operating system and whether applied locally or remotely.  \n\nAdversaries may use these scripts to maintain persistence on a single system. Depending on the access configuration of the logon scripts, either local credentials or an administrator account may be necessary. \n\nAn adversary may also be able to escalate their privileges since some boot or logon initialization scripts run with higher privileges.",
             "kill_chain_phases": [
@@ -42,7 +42,7 @@
                     "phase_name": "privilege-escalation"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "enterprise-attack"

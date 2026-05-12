@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--98e4d841-0132-4cf5-8332-10c6f05a30e9",
+    "id": "bundle--cc71c5ad-2a39-4300-9cd8-a29ae814a700",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b0cbc281-81ce-4c78-add4-1e9a46c94a28",
             "created": "2025-10-19T13:53:40.006Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Esentire ContagiousInterview BeaverTail InvisibleFerret November 2024",
@@ -38,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-19T13:53:40.006Z",
+            "modified": "2026-04-29T14:23:06.166Z",
             "description": "[InvisibleFerret](https://attack.mitre.org/software/S1245) is written in Python and has used Python scripts for execution.(Citation: Esentire ContagiousInterview BeaverTail InvisibleFerret November 2024)(Citation: Recorded Future Contagious Inteview BeaverTail InvisibleFerret OtterCookie February 2025)(Citation: ESET Contagious Interview BeaverTail InvisibleFerret February 2025)(Citation: Zscaler ContagiousInterview BeaverTail InvisibleFerret November 2024)(Citation: PaloAlto ContagiousInterview BeaverTail InvisibleFerret November 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--1dac60f2-7d53-4a3e-95d1-cb2e875d5491",

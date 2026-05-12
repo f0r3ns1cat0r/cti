@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--63c638ca-9d06-477e-b38d-24cbede25555",
+    "id": "bundle--88e45f85-2356-40ed-8bf4-7947b30ccead",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:30:21.803Z",
+            "modified": "2026-05-12T16:30:18.377Z",
             "name": "Analytic 1734",
             "description": "Correlates (1) application activity that creates, modifies, or accesses local artifacts relevant to detection or device compromise state, (2) subsequent deletion, alteration, renaming, relocation, or visibility suppression of those artifacts, including files, application presence, media, or root-compromise indicators, and (3) continued application execution, reduced telemetry quality, or outbound activity after the artifact state changes. The defender observes a causal chain where host-side evidence is first manipulated and expected visibility or reporting degrades while the initiating application remains active.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

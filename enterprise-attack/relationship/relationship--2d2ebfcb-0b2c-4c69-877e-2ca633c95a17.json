@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dddae525-fdfb-4653-91e9-8912eaba43d4",
+    "id": "bundle--11221323-b439-4f00-aa56-6399ed0bf35f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--2d2ebfcb-0b2c-4c69-877e-2ca633c95a17",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "GitHub PowerSploit May 2012",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:40:57.186Z",
+            "modified": "2026-04-29T14:23:05.966Z",
             "description": "[PowerSploit](https://attack.mitre.org/software/S0194)'s <code>Invoke-WmiCommand</code> CodeExecution module uses WMI to execute and retrieve the output from a [PowerShell](https://attack.mitre.org/techniques/T1086) payload.(Citation: GitHub PowerSploit May 2012)(Citation: PowerSploit Documentation)",
             "relationship_type": "uses",
             "source_ref": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
             "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

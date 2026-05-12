@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e126d489-f996-42bb-bcad-5beffbff4efe",
+    "id": "bundle--848d264a-3194-4ba1-8aaa-6baa288a96d3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--99c0cda4-91b1-4845-9891-9a4b89c128f9",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye Clandestine Fox",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:34:16.552Z",
+            "modified": "2026-04-29T14:23:06.135Z",
             "description": "[APT3](https://attack.mitre.org/groups/G0022) has been known to side load DLLs with a valid version of Chrome with one of their tools.(Citation: FireEye Clandestine Fox)(Citation: FireEye Clandestine Fox Part 2)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

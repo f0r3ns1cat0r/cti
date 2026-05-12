@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e8439fe7-c433-4852-a57f-326353aa2285",
+    "id": "bundle--c2e78b14-da64-4141-9d86-f4b2afb4f504",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--80e06d13-4c96-464c-9b9f-d0cb2b5fac18",
             "created": "2020-12-15T18:01:09.595Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA AA20-301A Kimsuky",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:56:41.564Z",
+            "modified": "2026-04-29T14:23:06.102Z",
             "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has used pass the hash for authentication to remote access software used in C2.(Citation: CISA AA20-301A Kimsuky)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
             "target_ref": "attack-pattern--e624264c-033a-424d-9fd7-fc9c3bbdb03e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

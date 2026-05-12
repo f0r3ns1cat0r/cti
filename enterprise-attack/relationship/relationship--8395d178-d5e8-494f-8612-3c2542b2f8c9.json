@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--190d3de6-99e3-48bc-8056-76b89e0796f8",
+    "id": "bundle--77399948-5867-48d2-8bf2-30b6869ebac3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8395d178-d5e8-494f-8612-3c2542b2f8c9",
             "created": "2021-04-05T20:52:47.408Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lastline DarkHotel Just In Time Decryption Nov 2015",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:57:09.211Z",
+            "modified": "2026-04-29T14:23:06.105Z",
             "description": "[Darkhotel](https://attack.mitre.org/groups/G0012) malware has used a series of checks to determine if it's being analyzed; checks include the length of executable names, if a filename ends with <code>.Md5.exe</code>, and if the program is executed from the root of the C:\\ drive, as well as checks for sandbox-related libraries.(Citation: Lastline DarkHotel Just In Time Decryption Nov 2015)(Citation: Microsoft DUBNIUM June 2016)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--9e729a7e-0dd6-4097-95bf-db8d64911383",
             "target_ref": "attack-pattern--29be378d-262d-4e99-b00d-852d573628e6",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

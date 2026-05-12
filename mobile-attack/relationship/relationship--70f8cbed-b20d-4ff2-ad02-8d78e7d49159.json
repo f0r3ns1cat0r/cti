@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9a1b2096-7b3c-4b14-973f-4ebf69a7a3be",
+    "id": "bundle--1d9ed4ba-c88a-41ae-ae68-735984796676",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--70f8cbed-b20d-4ff2-ad02-8d78e7d49159",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "PaloAlto-Xbot",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:29:13.703Z",
+            "modified": "2026-04-29T14:23:06.079Z",
             "description": "[Xbot](https://attack.mitre.org/software/S0298) can encrypt the victim's files in external storage (e.g., SD card) and then request a PayPal cash card as ransom.(Citation: PaloAlto-Xbot)",
             "relationship_type": "uses",
             "source_ref": "tool--da21929e-40c0-443d-bdf4-6b60d15448b4",
             "target_ref": "attack-pattern--d9e88203-2b5d-405f-a406-2933b1e3d7e4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

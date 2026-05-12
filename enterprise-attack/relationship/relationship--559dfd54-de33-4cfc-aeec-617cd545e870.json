@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--851bfc85-3d66-4f7a-821e-96c117937108",
+    "id": "bundle--12266279-c586-4981-b2ef-9bac6efb9137",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--559dfd54-de33-4cfc-aeec-617cd545e870",
             "created": "2019-01-29T21:27:25.298Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT38 Oct 2018",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-11-13T19:21:05.137Z",
+            "modified": "2026-04-29T14:23:06.042Z",
             "description": "[APT38](https://attack.mitre.org/groups/G0082) used a backdoor, NESTEGG, that has the capability to download and upload files to and from a victim\u2019s machine.(Citation: FireEye APT38 Oct 2018) Additionally, [APT38](https://attack.mitre.org/groups/G0082) has downloaded other payloads onto a victim\u2019s machine.(Citation: 1 - appv) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",

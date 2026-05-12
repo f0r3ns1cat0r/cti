@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--afec7f5a-d563-433a-b50a-0176fff3cf56",
+    "id": "bundle--a52d3076-127d-4a1a-b14f-cff1d4213e0c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T22:24:16.790Z",
+            "modified": "2026-04-29T14:23:06.101Z",
             "description": "[DynoWiper](https://attack.mitre.org/software/S9038) has used multiple native Windows functions, such as `GetLogicalDrives` and `FindNextFile` for discovery and file deletion.(Citation: CERT Polska)(Citation: ESET DynoWiper Update JAN 2026)",
             "relationship_type": "uses",
             "source_ref": "malware--34057cb6-0a56-48a3-92e5-3af1357808da",

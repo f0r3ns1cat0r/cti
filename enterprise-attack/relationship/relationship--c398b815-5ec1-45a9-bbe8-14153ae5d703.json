@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dd04a1dc-1cfc-42ff-9d96-69db6c8c9cff",
+    "id": "bundle--e97cd61b-8e1e-442a-adc7-d22455fa7b82",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c398b815-5ec1-45a9-bbe8-14153ae5d703",
             "created": "2025-09-17T16:44:22.270Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Splunk RedLine Stealer June 2023",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-17T16:44:22.270Z",
+            "modified": "2026-04-29T14:23:06.192Z",
             "description": "[RedLine Stealer](https://attack.mitre.org/software/S1240) has an anti-sandbox technique that requires the malware to consistently check with the C2 server, if the communication fails [RedLine Stealer](https://attack.mitre.org/software/S1240) will not continue execution.(Citation: Splunk RedLine Stealer June 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--8c8e8b01-b4b1-479b-a7a9-78c40a12b916",

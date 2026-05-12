@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bc1d131c-f63b-4a73-864b-e29141c9f9bb",
+    "id": "bundle--020d895e-b23e-409d-8b0d-e443917f9933",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--96062ede-31e8-4777-8b81-39e8a9e8b88e",
             "created": "2021-03-24T20:25:01.292Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Antiy CERT Ramsay April 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:00:40.560Z",
+            "modified": "2026-04-29T14:23:06.130Z",
             "description": "[Ramsay](https://attack.mitre.org/software/S0458) has created Registry Run keys to establish persistence.(Citation: Antiy CERT Ramsay April 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--ba09b86c-1c40-4ff1-bda0-0d8c4ca35997",
             "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e4294c1a-15bc-44c6-acb7-1ac5f0ed36ea",
+    "id": "bundle--c16956a1-23bf-4026-87c7-0f8980fede3f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--110fd4fd-3b1c-47d4-9e23-fb6b5346fc5e",
             "created": "2025-10-22T17:18:00.426Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FBI Salesforce Data Theft SEP 2025",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T18:00:01.277Z",
+            "modified": "2026-04-29T14:23:05.927Z",
             "description": "During [Salesforce Data Exfiltration](https://attack.mitre.org/campaigns/C0059), threat actors established an Okta phishing panel which victims were tricked into accessing from mobile phones or work computers during social engineering calls.(Citation: FBI Salesforce Data Theft SEP 2025)(Citation: Google Salesforce JUN 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--9cea8bec-07c5-422b-84b8-99d3128ce570",

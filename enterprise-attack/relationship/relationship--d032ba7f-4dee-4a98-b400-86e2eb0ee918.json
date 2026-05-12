@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8b7c3448-4807-4e2e-8846-936345b08f57",
+    "id": "bundle--7f8c7b4f-de81-43b3-9745-0d38935f6a32",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d032ba7f-4dee-4a98-b400-86e2eb0ee918",
             "created": "2019-04-12T15:20:35.934Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT38 Oct 2018",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-11-13T19:21:05.141Z",
+            "modified": "2026-04-29T14:23:06.210Z",
             "description": "[APT38](https://attack.mitre.org/groups/G0082) has used DYEPACK to create, delete, and alter records in databases used for SWIFT transactions.(Citation: FireEye APT38 Oct 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",

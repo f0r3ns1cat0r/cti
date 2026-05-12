@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7158626d-53f8-4141-a868-71bd99f29ceb",
+    "id": "bundle--ac510390-fe19-4721-8c87-a53215ae3a0f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fe0c8388-46fb-4064-9837-56a23339ffaa",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto menuPass Feb 2017",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:00:15.072Z",
+            "modified": "2026-04-29T14:23:06.270Z",
             "description": "[ChChes](https://attack.mitre.org/software/S0144) samples were digitally signed with a certificate originally used by Hacking Team that was later leaked and subsequently revoked.(Citation: Palo Alto menuPass Feb 2017)(Citation: JPCERT ChChes Feb 2017)(Citation: PWC Cloud Hopper Technical Annex April 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--dc5d1a33-62aa-4a0c-aa8c-589b87beb11e",
             "target_ref": "attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

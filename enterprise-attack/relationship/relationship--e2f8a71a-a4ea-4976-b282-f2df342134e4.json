@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7b3e9e0c-8bac-40df-9977-0f250eada559",
+    "id": "bundle--1c681720-73b6-4166-8dbd-5760ac9aa82f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e2f8a71a-a4ea-4976-b282-f2df342134e4",
             "created": "2024-01-02T19:08:35.096Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SecureWorks BRONZE STARLIGHT Ransomware Operations June 2022",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:53:13.111Z",
+            "modified": "2026-04-29T14:23:06.234Z",
             "description": "(Citation: SecureWorks BRONZE STARLIGHT Ransomware Operations June 2022)(Citation: Dell SecureWorks BRONZE STARLIGHT Profile)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
             "target_ref": "malware--54089fba-8662-4f37-9a44-6ad25a5f630a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--590d8589-52f6-4728-b753-86c95f8544cc",
+    "id": "bundle--1338204d-3257-4d65-b5df-cefd2aeea8aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9901b17d-551e-4971-9ff7-7142e7c2bb4e",
             "created": "2019-09-13T13:40:47.879Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Machete July 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:01:17.295Z",
+            "modified": "2026-04-29T14:23:06.134Z",
             "description": " [Machete](https://attack.mitre.org/software/S0409) can download additional files for execution on the victim\u2019s machine.(Citation: ESET Machete July 2019) ",
             "relationship_type": "uses",
             "source_ref": "malware--35cd1d01-1ede-44d2-b073-a264d727bc04",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

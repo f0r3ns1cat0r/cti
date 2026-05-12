@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4f531d9a-02d1-4bea-895b-01b2d739a9fc",
+    "id": "bundle--f2f3af75-791c-4442-9d04-53bc3a85360a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:59:20.717Z",
+            "modified": "2026-04-29T14:23:06.155Z",
             "description": "During [Night Dragon](https://attack.mitre.org/campaigns/C0002), threat actors disabled anti-virus and anti-spyware tools in some instances on the victim\u2019s machines. The actors also disabled proxy settings to allow direct communication from victims to the Internet.(Citation: McAfee Night Dragon)",
             "relationship_type": "uses",
             "source_ref": "campaign--ae407e32-87e0-4d92-8705-3ae25d504d8a",

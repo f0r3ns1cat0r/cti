@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--57f394e8-20e8-4b1a-bb6a-bea10fc2ad5a",
+    "id": "bundle--6cdfbdf4-235b-4255-b416-b4086ad32ffc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a1fab866-6486-4775-8caf-2b5744971477",
             "created": "2020-03-18T22:53:32.233Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Buckeye",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T15:46:53.922Z",
+            "modified": "2026-04-29T14:23:06.145Z",
             "description": "[OSInfo](https://attack.mitre.org/software/S0165) specifically looks for Domain Admins and power users within the domain.(Citation: Symantec Buckeye) ",
             "relationship_type": "uses",
             "source_ref": "malware--f6d1d2cb-12f5-4221-9636-44606ea1f3f8",

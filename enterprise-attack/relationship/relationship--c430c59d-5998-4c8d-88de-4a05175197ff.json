@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--536cafe8-5488-49e0-ac49-67b2ccc10ccd",
+    "id": "bundle--7df80d69-9a92-4e36-b068-545e8cc04774",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:35:11.690Z",
+            "modified": "2026-04-29T14:23:06.193Z",
             "description": "[SynAck](https://attack.mitre.org/software/S0242) clears event logs.(Citation: SecureList SynAck Doppelg\u00e4nging May 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--04227b24-7817-4de1-9050-b7b1b57f5866",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7df73367-d83c-4dbf-a216-d2f9ca51ca81",
+    "id": "bundle--85d2227a-e73a-42cc-a267-226a9330950a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-19T00:15:24.998Z",
+            "modified": "2026-04-29T14:23:06.061Z",
             "description": "[Kimsuky](https://attack.mitre.org/groups/G0094)  has used HTTP GET and POST requests for C2.(Citation: Talos Kimsuky Nov 2021)(Citation: Aryaka Kimsuky July 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6b6ee990-4225-4dc7-812b-d7a1c7242f4b",
+    "id": "bundle--19950008-f175-479c-ad77-06818cb3384f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4a37d414-b97a-4216-bab7-dfd8417a3508",
             "created": "2025-10-19T17:57:05.814Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Esentire ContagiousInterview BeaverTail InvisibleFerret November 2024",
@@ -48,7 +49,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-19T17:57:05.814Z",
+            "modified": "2026-04-29T14:23:06.027Z",
             "description": "[BeaverTail](https://attack.mitre.org/software/S1246) has searched the victim device for browser extensions including those commonly associated with cryptocurrency wallets.(Citation: Esentire ContagiousInterview BeaverTail InvisibleFerret November 2024)(Citation: Recorded Future Contagious Inteview BeaverTail InvisibleFerret OtterCookie February 2025)(Citation: Socket BeaverTail XORIndex HexEval Contagious Interview July 2025)(Citation: Socket HexEval BeaverTail Contagious Interview June 2025)(Citation: ESET Contagious Interview BeaverTail InvisibleFerret February 2025)(Citation: PaloAlto ContagiousInterview BeaverTail InvisibleFerret November 2023)(Citation: PaloAlto Unit42 ContagiousInterview BeaverTail InvisibileFerret October 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--6055aee2-d1c6-4877-94e9-a3bde9936470",

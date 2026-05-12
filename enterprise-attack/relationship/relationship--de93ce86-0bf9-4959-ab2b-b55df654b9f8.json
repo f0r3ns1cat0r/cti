@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0f5142dc-8dc8-4ab7-b001-0e8826ab7d10",
+    "id": "bundle--7503acb6-a8fd-4827-ba0f-f093f35a4a2b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--de93ce86-0bf9-4959-ab2b-b55df654b9f8",
             "created": "2025-09-30T17:58:37.016Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sophos Qilin MSP APR 2025",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T19:15:29.753Z",
+            "modified": "2026-04-29T14:23:06.229Z",
             "description": "[Qilin](https://attack.mitre.org/software/S1242) can enumerate domain-connected hosts during its discovery phase.(Citation: Picus Qilin MAR 2025)(Citation: Sophos Qilin MSP APR 2025)(Citation: Cisco Talos Qilin Ransomware OCT 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--e23d2777-b85d-44fc-861e-9149d399fbb9",

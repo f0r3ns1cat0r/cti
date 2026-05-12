@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--278e1357-8816-4dda-b949-d9818bed023f",
+    "id": "bundle--95978608-d14a-42f4-adfb-8aa702c1d27c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cacc0b72-9d73-4381-90e9-545ba908722c",
             "created": "2019-09-15T15:35:33.215Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Gustuff Apr 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:30:38.774Z",
+            "modified": "2026-04-29T14:23:06.202Z",
             "description": "[Gustuff](https://attack.mitre.org/software/S0406) injects the global action `GLOBAL_ACTION_BACK` to mimic pressing the back button to close the application if a call to an open antivirus application is detected.(Citation: Talos Gustuff Apr 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--ff8e0c38-be47-410f-a2d3-a3d24a87c617",
             "target_ref": "attack-pattern--d1f1337e-aea7-454c-86bd-482a98ffaf62",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

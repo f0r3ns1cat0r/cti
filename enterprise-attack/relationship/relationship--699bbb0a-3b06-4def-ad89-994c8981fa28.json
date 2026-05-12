@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ffcd7cac-3850-4a76-822a-beacb899d694",
+    "id": "bundle--33c98afe-c34a-4911-92c4-91c2380e63ea",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--699bbb0a-3b06-4def-ad89-994c8981fa28",
             "created": "2022-02-01T20:04:13.561Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky WIRTE November 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:52:10.309Z",
+            "modified": "2026-04-29T14:23:06.069Z",
             "description": "[Ferocious](https://attack.mitre.org/software/S0679) has the ability to use Visual Basic scripts for execution.(Citation: Kaspersky WIRTE November 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--73d08401-005f-4e1f-90b9-8f45d120879f",
             "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

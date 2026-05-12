@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cd85f30b-622a-4a42-96a0-f6d44e2e061e",
+    "id": "bundle--24fdf4d7-101c-4e80-bbf5-ff5e08c028d1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-15T20:32:00.311Z",
+            "modified": "2026-05-12T15:12:00.629Z",
             "name": "Masquerading",
             "description": "Adversaries may attempt to manipulate features of their artifacts to make them appear legitimate or benign to users and/or security tools. Masquerading occurs when the name or location of an object, legitimate or malicious, is manipulated or abused for the sake of evading defenses and observation. This may include manipulating file metadata, tricking users into misidentifying the file type, and giving legitimate task or service names.\n\nRenaming abusable system utilities to evade security monitoring is also a form of [Masquerading](https://attack.mitre.org/techniques/T1036).(Citation: LOLBAS Main Site)",
             "kill_chain_phases": [

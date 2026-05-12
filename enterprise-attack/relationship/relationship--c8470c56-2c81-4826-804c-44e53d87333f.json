@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fb141aa4-989d-440d-ae4b-f381c9c8be5b",
+    "id": "bundle--6e376b77-a9f6-4ad4-90b8-c3ed6bf109b6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c8470c56-2c81-4826-804c-44e53d87333f",
             "created": "2022-06-16T13:32:04.610Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky Lyceum October 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:46:26.777Z",
+            "modified": "2026-04-29T14:23:06.199Z",
             "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has used [netstat](https://attack.mitre.org/software/S0104) to monitor connections to specific ports.(Citation: Kaspersky Lyceum October 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
             "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8561e57d-f4ce-49f8-9a69-98749c1d9755",
+    "id": "bundle--ec812ba3-e5b6-4927-bbf9-86a5028907de",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--eac61f60-a87d-4f83-b5e0-64542efeca6b",
             "created": "2020-06-22T20:34:05.416Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Medium Metamorfo Apr 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:15:47.695Z",
+            "modified": "2026-04-29T14:23:06.245Z",
             "description": "[Metamorfo](https://attack.mitre.org/software/S0455) has performed process name checks and has monitored applications.(Citation: Medium Metamorfo Apr 2020) ",
             "relationship_type": "uses",
             "source_ref": "malware--81c57a96-fc8c-4f91-af8e-63e24c2927c2",
             "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--25cbec8b-2095-4814-ad23-773fa14db12c",
+    "id": "bundle--08fdebca-6fa4-47c7-9474-f350cbf21a8f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0f4a9bce-7e94-4c6f-83b1-49f842aa42c9",
             "created": "2025-10-16T18:51:44.923Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Security Scorecard Medusa Ransomware January 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-16T18:51:44.923Z",
+            "modified": "2026-04-29T14:23:05.925Z",
             "description": "[Medusa Group](https://attack.mitre.org/groups/G1051) has leveraged Windows Native API functions to execute payloads.(Citation: Security Scorecard Medusa Ransomware January 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--918da025-04bd-48af-b6c4-f3e4d1b915eb",

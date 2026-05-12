@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--83b1bbd1-4bb5-4de9-825f-cb17ba5e6c14",
+    "id": "bundle--875a09b4-491c-4b69-aff8-781d174cb72d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9aa9b9f6-a22f-4763-a2ff-7635f5022727",
             "created": "2022-03-16T18:08:15.496Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "US District Court Indictment GRU Oct 2018",
@@ -38,14 +39,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:34:29.172Z",
+            "modified": "2026-04-29T14:23:06.136Z",
             "description": "[APT28](https://attack.mitre.org/groups/G0007) has conducted credential phishing campaigns with links that redirect to credential harvesting sites.(Citation: Google TAG Ukraine Threat Landscape March 2022)(Citation: DOJ GRU Indictment Jul 2018)(Citation: ESET Zebrocy May 2019)(Citation: US District Court Indictment GRU Oct 2018)(Citation: Secureworks IRON TWILIGHT Active Measures March 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--2d3f5b3c-54ca-4f4d-bb1f-849346d31230",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

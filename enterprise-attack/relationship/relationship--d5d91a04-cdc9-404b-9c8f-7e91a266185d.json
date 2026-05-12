@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--973778e4-4fac-45e7-99b7-74e6a08b2bf6",
+    "id": "bundle--e2fdb729-ff54-4c13-a80b-fe7b4ea68cef",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d5d91a04-cdc9-404b-9c8f-7e91a266185d",
             "created": "2022-06-15T15:12:32.741Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky Lyceum October 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:49:56.008Z",
+            "modified": "2026-04-29T14:23:06.217Z",
             "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has used a VisualBasic script named `MicrosoftUpdator.vbs` for execution of a PowerShell keylogger.(Citation: Kaspersky Lyceum October 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
             "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

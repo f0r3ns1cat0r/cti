@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ee0dc20c-77c9-4b17-b5b5-52ccf27004aa",
+    "id": "bundle--59f4b353-c009-4b3c-aa38-df77bc35d8f4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d6021195-ac74-472e-99ef-ba75d42ce7bf",
             "created": "2024-08-20T20:24:29.721Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kandji Cuckoo April 2024",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:49:59.629Z",
+            "modified": "2026-04-29T14:23:06.218Z",
             "description": "[Cuckoo Stealer](https://attack.mitre.org/software/S1153) can use osascript to generate a password-stealing prompt, duplicate files and folders, and set environmental variables.(Citation: Kandji Cuckoo April 2024)(Citation: SentinelOne Cuckoo Stealer May 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--457a5e8d-d964-4130-bde3-c07bb41a093e",
             "target_ref": "attack-pattern--37b11151-1776-4f8f-b328-30939fbf2ceb",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

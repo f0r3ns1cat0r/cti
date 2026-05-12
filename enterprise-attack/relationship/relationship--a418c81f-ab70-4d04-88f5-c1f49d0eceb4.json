@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e89ac69f-3beb-4eb9-af1d-2258390d1b30",
+    "id": "bundle--0bf38523-866c-477d-a60e-94d8ee65806f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T22:57:58.306Z",
+            "modified": "2026-04-29T14:23:06.148Z",
             "description": "[TRAILBLAZE](https://attack.mitre.org/software/S9012) has injected a hook into an existing process to load [BRUSHFIRE](https://attack.mitre.org/software/S9011) in the spaces allocated memory to include the Ivanti Connect Secure (ICS) web process named `web`.(Citation: Google UNC5221 Ivanti April 2025)(Citation: Picus Security UNC5221 Ivanti May 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--b82b9e25-e37b-4f7c-b1f0-2c2eea4f4be9",

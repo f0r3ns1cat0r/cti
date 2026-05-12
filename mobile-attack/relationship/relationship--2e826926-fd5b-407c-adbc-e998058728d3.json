@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b12905aa-f387-4986-90e4-aeb71176a645",
+    "id": "bundle--80f06ae1-3821-4437-ba4a-77a3c5c0478b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--2e826926-fd5b-407c-adbc-e998058728d3",
             "created": "2019-09-04T15:38:56.786Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CyberMerchants-FlexiSpy",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:28:11.836Z",
+            "modified": "2026-04-29T14:23:05.967Z",
             "description": "[FlexiSpy](https://attack.mitre.org/software/S0408) can record both incoming and outgoing phone calls, as well as microphone audio.(Citation: CyberMerchants-FlexiSpy)",
             "relationship_type": "uses",
             "source_ref": "tool--1622fd3d-fcfc-4d02-ac49-f2d786f79b81",
             "target_ref": "attack-pattern--6683aa0c-d98a-4f5b-ac57-ca7e9934a760",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

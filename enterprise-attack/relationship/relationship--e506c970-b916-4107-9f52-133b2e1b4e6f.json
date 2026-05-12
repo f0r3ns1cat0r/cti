@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2bf17d6d-769a-418c-817e-d81b95fda671",
+    "id": "bundle--10403d9b-8072-4cca-9dc2-0c3e80cc4ee7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e506c970-b916-4107-9f52-133b2e1b4e6f",
             "created": "2025-06-26T18:59:34.031Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Censys RedPenguin MAR 2025",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-20T20:35:16.659Z",
+            "modified": "2026-04-29T14:23:06.237Z",
             "description": "During [RedPenguin](https://attack.mitre.org/campaigns/C0056), [UNC3886](https://attack.mitre.org/groups/G1048) leveraged malware that used UDP and TCP sockets for C2.(Citation: Mandiant UNC3886 Juniper Routers MAR 2025)(Citation: Censys RedPenguin MAR 2025)(Citation: Juniper RedPenguin MAR 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--35879bf3-0a21-4cc1-9e42-6de917a22501",

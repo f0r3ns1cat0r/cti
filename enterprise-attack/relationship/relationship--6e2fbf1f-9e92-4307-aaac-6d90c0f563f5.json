@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d8afc451-0bf6-42e4-a244-777993c59ecb",
+    "id": "bundle--00142ea1-b6be-47d2-9028-4e3a9f778e30",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6e2fbf1f-9e92-4307-aaac-6d90c0f563f5",
             "created": "2025-10-19T18:29:16.991Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Socket BeaverTail XORIndex HexEval Contagious Interview July 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-19T18:29:16.991Z",
+            "modified": "2026-04-29T14:23:06.075Z",
             "description": "[BeaverTail](https://attack.mitre.org/software/S1246) has collected and archived sensitive data in a zip file.(Citation: Socket BeaverTail XORIndex HexEval Contagious Interview July 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--6055aee2-d1c6-4877-94e9-a3bde9936470",

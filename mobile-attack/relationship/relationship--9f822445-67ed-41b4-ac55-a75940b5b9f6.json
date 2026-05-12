@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f2bbaab5-d763-4ba9-854d-af4f4a0a92ba",
+    "id": "bundle--8c5159bd-3ba5-4bc7-ab87-1694a272e598",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9f822445-67ed-41b4-ac55-a75940b5b9f6",
             "created": "2025-08-29T22:10:06.592Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ZimperiumOrtegaPratapagiri_GodFather_Jun2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-29T22:10:06.592Z",
+            "modified": "2026-04-29T14:23:06.142Z",
             "description": "[GodFather](https://attack.mitre.org/software/S1231) has utilized a timer to initiate a WebSocket connection.(Citation: ZimperiumOrtegaPratapagiri_GodFather_Jun2025)   ",
             "relationship_type": "uses",
             "source_ref": "malware--bf064476-25b8-493c-a1e7-dd707b3f7f52",

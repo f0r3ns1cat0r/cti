@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b70c9c5a-770d-42aa-8e9c-249df2c19f67",
+    "id": "bundle--bec45f98-3a99-4c9d-90f6-e0b4051bdc4d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4d2c0b15-fb83-4ec1-9e3c-3b0707519278",
             "created": "2021-05-05T17:19:35.885Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky CactusPete Aug 2020",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:46:58.897Z",
+            "modified": "2026-04-29T14:23:06.030Z",
             "description": "(Citation: Kaspersky CactusPete Aug 2020)(Citation: Secureworks BRONZE HUNTLEY )(Citation: Talos Bisonal Mar 2020) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c5b81590-6814-4d2a-8baa-15c4b6c7f960",
             "target_ref": "malware--65ffc206-d7c1-45b3-b543-f6b726e7840d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

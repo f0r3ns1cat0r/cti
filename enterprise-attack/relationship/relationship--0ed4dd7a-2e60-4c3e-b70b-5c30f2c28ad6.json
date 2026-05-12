@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bde7afd7-93c5-4445-afab-d2e70898ff5b",
+    "id": "bundle--3bce60b8-f1cd-4e9e-9e05-d80aad57d204",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:23:19.376Z",
+            "modified": "2026-04-29T14:23:05.924Z",
             "description": "[BlackCat](https://attack.mitre.org/software/S1068) can clear Windows event logs using `wevtutil.exe`.(Citation: Microsoft BlackCat Jun 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--50c44c34-3abb-48ae-9433-a2337de5b0bc",

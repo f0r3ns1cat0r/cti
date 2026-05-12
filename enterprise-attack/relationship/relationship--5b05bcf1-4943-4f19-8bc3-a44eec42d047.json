@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e47e0a4d-476f-4cb2-b3c1-7c2ce20dcdad",
+    "id": "bundle--b188a49f-e8d0-4075-a209-862c1b1e76e3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5b05bcf1-4943-4f19-8bc3-a44eec42d047",
             "created": "2025-09-17T14:58:12.978Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET RedLine Stealer November 2024",
@@ -38,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-17T14:58:12.978Z",
+            "modified": "2026-04-29T14:23:06.049Z",
             "description": "[RedLine Stealer](https://attack.mitre.org/software/S1240) has collected data from cryptocurrency wallets and harvested credit cards details from browsers.(Citation: ESET RedLine Stealer November 2024)(Citation: Kroll RedLine Stealer August 2024)(Citation: Proofpoint RedLine Stealer March 2020)(Citation: Splunk RedLine Stealer June 2023)(Citation: Veriti RedLine Stealer MAAS April 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--8c8e8b01-b4b1-479b-a7a9-78c40a12b916",

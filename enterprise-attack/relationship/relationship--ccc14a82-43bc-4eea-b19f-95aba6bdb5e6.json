@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5f6ed16f-3ba2-4bd0-b379-2e07e07bed7f",
+    "id": "bundle--96d96604-2352-4300-98ce-e73d6fd833e5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ccc14a82-43bc-4eea-b19f-95aba6bdb5e6",
             "created": "2021-06-30T16:13:40.484Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Chaes Nov 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:10:37.672Z",
+            "modified": "2026-04-29T14:23:06.205Z",
             "description": "[Chaes](https://attack.mitre.org/software/S0631) has used JavaScript and Node.Js information stealer script that exfiltrates data using the node process.(Citation: Cybereason Chaes Nov 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--77e0ecf7-ca91-4c06-8012-8e728986a87a",
             "target_ref": "attack-pattern--0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4973035e-84de-459f-ac0f-0623bbffe4a4",
+    "id": "bundle--a6133cd6-48ef-43c9-8598-cdab98abfa53",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T22:21:21.233Z",
+            "modified": "2026-04-29T14:23:05.931Z",
             "description": "[DynoWiper](https://attack.mitre.org/software/S9038) has used the Microsoft Windows native `ExitWindowsEx()` function to log off the interactive user and shutdown the system.(Citation: CERT Polska)",
             "relationship_type": "uses",
             "source_ref": "malware--34057cb6-0a56-48a3-92e5-3af1357808da",

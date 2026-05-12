@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7522e450-c28e-48c9-bd48-e08015365768",
+    "id": "bundle--8fb1df81-44a6-45d7-aae6-0f9189260232",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cf50c68f-0fbe-4151-99e6-ef29a4959887",
             "created": "2024-07-18T21:23:25.553Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro Pikabot 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:48:19.631Z",
+            "modified": "2026-04-29T14:23:06.209Z",
             "description": "[Water Curupira Pikabot Distribution](https://attack.mitre.org/campaigns/C0037) included distribution of [IcedID](https://attack.mitre.org/software/S0483) en route to ransomware deployment.(Citation: TrendMicro Pikabot 2024)",
             "relationship_type": "uses",
             "source_ref": "campaign--57541e3b-657e-463a-a4ab-ca08d7ea9965",
             "target_ref": "malware--5147ef15-1cae-4707-8ea1-bee8d98b7f1d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--053eb2cc-4345-41d2-9f45-9b35cf263e7f",
+    "id": "bundle--fb06547d-0f5c-4f95-beb3-b59570e01c13",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--2a42bba4-1bb8-4119-9d55-80d0d37d6313",
             "created": "2025-01-29T18:51:00.803Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Lockbit 2.0",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:04:10.454Z",
+            "modified": "2026-04-29T14:23:05.962Z",
             "description": "[LockBit 2.0](https://attack.mitre.org/software/S1199) can use the Windows command shell for multiple post-compromise actions on objective.(Citation: FBI Lockbit 2.0 FEB 2022)(Citation: Palo Alto Lockbit 2.0 JUN 2022)(Citation: Cybereason Lockbit 2.0)",
             "relationship_type": "uses",
             "source_ref": "malware--a4578560-42cf-4075-9fa2-056f0058c881",
             "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

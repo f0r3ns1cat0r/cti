@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--73104bd8-8920-4261-bedd-7cad347fb51f",
+    "id": "bundle--3d2bd242-077b-4253-986e-cab9fea948cb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--39ef8d48-fb74-412a-8c6d-b889e3fca644",
             "created": "2025-10-21T23:34:46.804Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Joint Cybersecurity Advisory LockBit 3.0 MAR 2023",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T23:34:46.804Z",
+            "modified": "2026-04-29T14:23:05.999Z",
             "description": "[LockBit 3.0](https://attack.mitre.org/software/S1202) can enumerate local drive configuration.(Citation: Joint Cybersecurity Advisory LockBit 3.0 MAR 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--71fe9df1-1c6f-430c-ab9b-ff3c11074e52",

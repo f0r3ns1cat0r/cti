@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8ea6658f-1bd5-4b52-86d9-06a9a75b593c",
+    "id": "bundle--743b2873-9320-4d7e-ac41-79a13ab522fb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e43098c9-bbdf-4330-baf2-1d04f93255ba",
             "created": "2026-02-06T21:29:50.548Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ThreatFabric_Crocodilus_March2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-02-06T21:29:50.548Z",
+            "modified": "2026-04-29T14:23:06.236Z",
             "description": "[Crocodilus](https://attack.mitre.org/software/S9004) has the ability to collect a list of installed applications.(Citation: ThreatFabric_Crocodilus_March2025)",
             "relationship_type": "uses",
             "source_ref": "malware--eed7b988-0279-4c4f-bfa9-d81f5444a04b",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5e8ed4d4-f803-4fa0-9aef-05d17fbe5b15",
+    "id": "bundle--7cca55a2-f750-4f05-a1be-17cc446aa5dd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T10:39:58.207Z",
+            "modified": "2026-04-29T14:23:06.079Z",
             "description": "[PureCrypter](https://attack.mitre.org/software/S9019) can maintain persistence with scheduled tasks.(Citation: Check Point Blind Eagle MAR 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--6f22487c-dbbf-4a5b-85ca-a8c85e8f2f80",

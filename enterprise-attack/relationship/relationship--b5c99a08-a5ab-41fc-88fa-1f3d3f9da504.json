@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--52d00d69-4103-453f-a22f-7f426682912a",
+    "id": "bundle--add4b255-1cbc-4052-9a39-594f4ad53786",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b5c99a08-a5ab-41fc-88fa-1f3d3f9da504",
             "created": "2024-08-14T22:18:27.331Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "PWC Yellow Liderc 2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:41:34.040Z",
+            "modified": "2026-04-29T14:23:06.173Z",
             "description": "[IMAPLoader](https://attack.mitre.org/software/S1152) hides the Windows Console window created by its execution by directly importing the `kernel32.dll` and `user32.dll` libraries `GetConsoleWindow` and `ShowWindow` APIs.(Citation: PWC Yellow Liderc 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--3058b264-fe6b-46be-8948-2d1fadaf8adf",
             "target_ref": "attack-pattern--cbb66055-0325-4111-aca0-40547b6ad5b0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

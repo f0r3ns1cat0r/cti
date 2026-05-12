@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d25ac6cb-e461-478b-be1e-050d3e8263ef",
+    "id": "bundle--1eab5983-2123-4fe9-a9c1-1a779d694bb9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T20:37:17.277Z",
+            "modified": "2026-05-12T16:30:18.379Z",
             "name": "Analytic 1742",
             "description": "The defender correlates managed-app runtime behavior indicative of command or shell invocation with subsequent spawned process or shell-like execution effects, then raises confidence when the resulting activity produces local artifacts or network communication outside expected user context. Because direct shell-process visibility can be weaker on iOS in many enterprise deployments, the analytic anchors first on process-creation or lower-level OS API effects where mobile telemetry can observe them, then on lifecycle context and post-execution network or file behavior. Confidence is strongest when the same app shows command invocation followed by process execution and immediate follow-on effects.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

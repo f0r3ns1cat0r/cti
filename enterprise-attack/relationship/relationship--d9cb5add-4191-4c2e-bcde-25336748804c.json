@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--65d9d171-237c-437b-8318-bec4f51924e0",
+    "id": "bundle--87567db6-d2b9-42f0-969e-00b60c1cb897",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d9cb5add-4191-4c2e-bcde-25336748804c",
             "created": "2021-02-17T19:22:30.953Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Conti Jan 2021",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:12:52.025Z",
+            "modified": "2026-04-29T14:23:06.223Z",
             "description": "[Conti](https://attack.mitre.org/software/S0575) can spread itself by infecting other remote machines via network shared drives.(Citation: Cybereason Conti Jan 2021)(Citation: CarbonBlack Conti July 2020) ",
             "relationship_type": "uses",
             "source_ref": "malware--4dea7d8e-af94-4bfb-afe4-7ff54f59308b",
             "target_ref": "attack-pattern--246fd3c7-f5e3-466d-8787-4c13d9e3b61c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2b8ddeae-6815-4300-b596-d8b78ee034cb",
+    "id": "bundle--5850b3a1-2e91-45e3-aeb4-36b3e955472d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cba11c5f-afe2-42e1-8995-8b1105d75e7a",
             "created": "2021-04-13T12:56:16.352Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ANSSI Sandworm January 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-05-22T19:05:29.974Z",
+            "modified": "2026-04-29T14:23:06.204Z",
             "description": "[P.A.S. Webshell](https://attack.mitre.org/software/S0598) has the ability to list and extract data from SQL databases.(Citation: ANSSI Sandworm January 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--4800d0f9-00aa-47cd-a4d2-92198585b8fd",
             "target_ref": "attack-pattern--248d3fe1-7fe1-4d71-91c7-8bb7ef35cad3",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

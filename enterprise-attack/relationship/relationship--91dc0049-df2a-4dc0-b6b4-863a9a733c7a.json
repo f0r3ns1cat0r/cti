@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bf3aa24a-97c5-4a01-a216-5954ef1bb2b6",
+    "id": "bundle--555795d8-4cf2-4a89-b0ec-960939134568",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--91dc0049-df2a-4dc0-b6b4-863a9a733c7a",
             "created": "2022-03-24T21:39:40.369Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "GitHub SILENTTRINITY Modules July 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:59:50.053Z",
+            "modified": "2026-04-29T14:23:06.124Z",
             "description": "[SILENTTRINITY](https://attack.mitre.org/software/S0692) contains a module to conduct Kerberoasting.(Citation: GitHub SILENTTRINITY Modules July 2019)",
             "relationship_type": "uses",
             "source_ref": "tool--1244e058-fa10-48cb-b484-0bcf671107ae",
             "target_ref": "attack-pattern--f2877f7f-9a4c-4251-879f-1224e3006bee",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b2d081d7-c7bd-4496-afff-9eb0b4c23e2f",
+    "id": "bundle--c22f349d-57ff-404b-b5b4-8b0a6b562856",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e875898e-fa8e-41f9-90da-79cdfb748dba",
             "created": "2022-09-07T19:43:53.828Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Frankenstein June 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:54:38.435Z",
+            "modified": "2026-04-29T14:23:06.241Z",
             "description": "During [Frankenstein](https://attack.mitre.org/campaigns/C0001), the threat actors used MSbuild to execute an actor-created file.(Citation: Talos Frankenstein June 2019)",
             "relationship_type": "uses",
             "source_ref": "campaign--26d9ebae-de59-427f-ae9a-349456bae4b1",
             "target_ref": "attack-pattern--c92e3d68-2349-49e4-a341-7edca2deff96",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

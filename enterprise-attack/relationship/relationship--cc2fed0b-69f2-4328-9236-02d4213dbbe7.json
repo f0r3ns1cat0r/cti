@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d0bff13e-602d-4e44-ab4b-7a4ce25bb29c",
+    "id": "bundle--1c51cf0b-d077-4a43-8b9a-30cda0d66557",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cc2fed0b-69f2-4328-9236-02d4213dbbe7",
             "created": "2025-03-11T19:53:31.492Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Acronis XLoader 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:47:31.990Z",
+            "modified": "2026-04-29T14:23:06.204Z",
             "description": "[XLoader](https://attack.mitre.org/software/S1207) can identify the username from a victim machine.(Citation: Acronis XLoader 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--9c629607-03e4-4952-b481-2d54221d2783",
             "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--115ce89b-5bb8-472f-ae63-74231eda07db",
+    "id": "bundle--1300ae8e-7224-4ace-bc96-4782c7882c81",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ebebb43d-aeec-4436-9d6f-c11fc8de82f3",
             "created": "2026-02-06T21:31:33.092Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ThreatFabric_Crocodilus_March2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-02-06T21:31:33.092Z",
+            "modified": "2026-04-29T14:23:06.246Z",
             "description": "[Crocodilus](https://attack.mitre.org/software/S9004) has the ability to prevent application removal.(Citation: ThreatFabric_Crocodilus_March2025)",
             "relationship_type": "uses",
             "source_ref": "malware--eed7b988-0279-4c4f-bfa9-d81f5444a04b",

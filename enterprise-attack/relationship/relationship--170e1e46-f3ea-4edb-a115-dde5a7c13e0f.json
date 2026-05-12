@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0888d695-4973-4331-b1f9-32ca49d379f2",
+    "id": "bundle--50d6b710-adbf-4bcc-9a66-07e52b28a608",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T13:09:44.739Z",
+            "modified": "2026-04-29T14:23:05.936Z",
             "description": "[LAMEHUG](https://attack.mitre.org/software/S9035) has the ability to execute Windows commands returned from C2 to gather system information.(Citation: Splunk LAMEHUG SEP 2025)(Citation: Nov AI Threat Tracker)",
             "relationship_type": "uses",
             "source_ref": "malware--c55e0410-842d-4365-a2c8-26c0330f85b8",

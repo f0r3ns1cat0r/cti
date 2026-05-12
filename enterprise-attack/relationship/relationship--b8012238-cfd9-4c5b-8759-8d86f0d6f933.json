@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--27d83a76-2d31-4342-92f6-0e9cba9f88a7",
+    "id": "bundle--f3e244b3-ffa6-4e0e-a3bf-e70fbc01a96f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b8012238-cfd9-4c5b-8759-8d86f0d6f933",
             "created": "2022-07-18T17:59:30.120Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro EarthLusca 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:42:07.000Z",
+            "modified": "2026-04-29T14:23:06.176Z",
             "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has compromised victims by directly exploiting vulnerabilities of public-facing servers, including those associated with Microsoft Exchange and Oracle GlassFish.(Citation: TrendMicro EarthLusca 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
             "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--af507df6-c719-48a3-ad79-4225449732ac",
+    "id": "bundle--4ba6f2aa-af11-49ab-ad89-accee0b9b295",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d93b7c7b-e4b2-416c-9122-6f687642ce6e",
             "created": "2023-09-05T17:45:22.042Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec FIN8 Jul 2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:50:46.862Z",
+            "modified": "2026-04-29T14:23:06.222Z",
             "description": "[Sardonic](https://attack.mitre.org/software/S1085) can use certain ConfuserEx features for obfuscation and can be encoded in a base64 string.(Citation: Symantec FIN8 Jul 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--0c52f5bc-557d-4083-bd27-66d7cdb794bb",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

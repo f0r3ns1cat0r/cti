@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--abfcafff-f017-4fbb-8349-11f1b64b36ee",
+    "id": "bundle--5ed860f7-00d8-42e5-8c2e-375d2c7bbaff",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T18:07:35.617Z",
+            "modified": "2026-04-29T14:23:05.947Z",
             "description": "[Caminho](https://attack.mitre.org/software/S9016) can deobfuscate downloaded files prior to execution.(Citation: Zscaler BlindEagle DEC 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--97da6467-c9c5-4eb0-84d4-1234e937e534",

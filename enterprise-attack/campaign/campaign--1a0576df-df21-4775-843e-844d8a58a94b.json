@@ -1,11 +1,10 @@
 {
     "type": "bundle",
-    "id": "bundle--8eb51351-d14d-4b69-8d46-b27602a078b0",
+    "id": "bundle--5b43be4e-dd62-4327-86d2-b3bc17e8239b",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "campaign",
-            "spec_version": "2.1",
             "id": "campaign--1a0576df-df21-4775-843e-844d8a58a94b",
             "created": "2025-10-15T19:31:55.608Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -61,6 +60,9 @@
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_contributors": [
                 "Wai Linn Oo, Kernellix Co.,Ltd."
+            ],
+            "x_mitre_domains": [
+                "enterprise-attack"
             ]
         }
     ]

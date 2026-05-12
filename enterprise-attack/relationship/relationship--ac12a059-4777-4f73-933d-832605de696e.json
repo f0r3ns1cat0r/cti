@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a91eb454-81ed-43c5-9cf3-899ff40d11df",
+    "id": "bundle--ecf282da-faac-457a-aae6-b6c3a4ec96b7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T00:14:34.608Z",
+            "modified": "2026-04-29T14:23:06.159Z",
             "description": "[BRICKSTORM](https://attack.mitre.org/software/S9015) has embedded delayed-start logic that attempts to circumvent detection for long-term persistence.(Citation: Picus Security BRICKSTORM UNC5221 October 2025)(Citation: NVISO BRICKSTORM April 2025) [BRICKSTORM](https://attack.mitre.org/software/S9015) has been observed configured with a \u201cdelay\u201d timer built-in that waited for a hard-coded date months in the future before beginning to beacon to the configured C2 domain.(Citation: Google BRICKSTORM September 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--0450ed20-e9a7-4799-b601-2f2710300796",

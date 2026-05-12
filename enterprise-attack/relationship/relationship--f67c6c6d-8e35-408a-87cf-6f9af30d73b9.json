@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d4b12a9d-640f-4236-b86b-4bc39f72e140",
+    "id": "bundle--1ded53d1-cefc-4392-b15c-57cdcae322b9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f67c6c6d-8e35-408a-87cf-6f9af30d73b9",
             "created": "2025-01-09T18:50:24.367Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA Akira Ransomware APR 2024",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:58:18.951Z",
+            "modified": "2026-04-29T14:23:06.260Z",
             "description": "[Akira _v2](https://attack.mitre.org/software/S1194) can stop running virtual machines.(Citation: CISA Akira Ransomware APR 2024)(Citation: Cisco Akira Ransomware OCT 2024)(Citation: Palo Alto Howling Scorpius DEC 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--929d0d4d-b7c6-4ee8-81eb-43c849294e27",
             "target_ref": "attack-pattern--20fb2507-d71c-455d-9b6d-6104461cf26b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

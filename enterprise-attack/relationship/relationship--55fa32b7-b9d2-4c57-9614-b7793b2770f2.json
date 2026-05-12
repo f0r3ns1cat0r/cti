@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bc99bbb6-b58b-410f-99d4-20d1ea01b21e",
+    "id": "bundle--d4c33d03-da2c-4b8f-a018-9452bb7817ef",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--55fa32b7-b9d2-4c57-9614-b7793b2770f2",
             "created": "2019-10-05T02:15:30.004Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Amazon S3 Security, 2019",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:48:34.330Z",
+            "modified": "2026-04-29T14:23:06.043Z",
             "description": "Encrypt data stored at rest in cloud storage.(Citation: Amazon S3 Security, 2019)(Citation: Microsoft Azure Storage Security, 2019) Managed encryption keys can be rotated by most providers. At a minimum, ensure an incident response plan to storage breach includes rotating the keys and test for impact on client applications.(Citation: Google Cloud Encryption Key Rotation)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--feff9142-e8c2-46f4-842b-bd6fb3d41157",
             "target_ref": "attack-pattern--3298ce88-1628-43b1-87d9-0b5336b193d7",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

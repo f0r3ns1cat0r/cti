@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2a283e33-f663-4edf-a13d-43c07a611ef7",
+    "id": "bundle--247cd396-e4f8-45cb-af2b-3db3ba9f2d3e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--aa308c15-3c8d-4df7-a6b2-0a4f61ef8d03",
             "created": "2023-09-22T19:39:34.730Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Crowdstrike TELCO BPO Campaign December 2022",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-13T20:11:31.401Z",
+            "modified": "2026-04-29T14:23:06.157Z",
             "description": "During [C0027](https://attack.mitre.org/campaigns/C0027), [Scattered Spider](https://attack.mitre.org/groups/G1015) directed victims to run remote monitoring and management (RMM) tools.(Citation: Crowdstrike TELCO BPO Campaign December 2022)",
             "relationship_type": "uses",
             "source_ref": "campaign--df74f7ad-b10d-431c-9f1d-a2bc18dadefa",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c5544d64-1b0b-4540-9b9e-052840900c80",
+    "id": "bundle--0fecab14-fde3-4bd5-88d6-d0728ef20440",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:27.789Z",
+            "modified": "2026-05-12T15:12:00.622Z",
             "name": "Software Discovery",
             "description": "Adversaries may attempt to get a listing of applications that are installed on a device. Adversaries may use the information from [Software Discovery](https://attack.mitre.org/techniques/T1418) during automated discovery to shape follow-on behaviors, including whether or not to fully infect the target and/or attempts specific actions. \n\n \n\nAdversaries may attempt to enumerate applications for a variety of reasons, such as figuring out what security measures are present or to identify the presence of target applications. ",
             "kill_chain_phases": [
@@ -33,7 +33,7 @@
                     "phase_name": "discovery"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "mobile-attack"

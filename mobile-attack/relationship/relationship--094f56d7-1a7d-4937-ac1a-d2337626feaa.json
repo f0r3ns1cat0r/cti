@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--686dc715-5d53-4f5c-a893-5c296736047b",
+    "id": "bundle--5b545bf4-b59b-462e-b8c1-813fa8ca7945",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--094f56d7-1a7d-4937-ac1a-d2337626feaa",
             "created": "2025-03-27T23:00:01.923Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SecureList OpTriangulation 21Jun2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:46:50.460Z",
+            "modified": "2026-04-29T14:23:05.916Z",
             "description": "[TriangleDB](https://attack.mitre.org/software/S1216) has encrypted data using 3DES.(Citation: SecureList OpTriangulation 21Jun2023) ",
             "relationship_type": "uses",
             "source_ref": "malware--1393fb21-d09f-4ce8-96cf-1bcc9881765f",
             "target_ref": "attack-pattern--bb4387ab-7a51-468b-bf5f-a9a8612f0303",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

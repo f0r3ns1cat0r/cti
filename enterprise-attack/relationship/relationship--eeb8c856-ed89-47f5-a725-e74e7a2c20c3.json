@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1f0f1893-995b-4f56-90e2-8d309c5e7f0a",
+    "id": "bundle--72a89865-937b-45c9-a8d9-3906ede11352",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--eeb8c856-ed89-47f5-a725-e74e7a2c20c3",
             "created": "2022-09-29T17:36:47.698Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CYBERCOM Iranian Intel Cyber January 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:56:20.904Z",
+            "modified": "2026-04-29T14:23:06.250Z",
             "description": "[PowGoop](https://attack.mitre.org/software/S1046) can use a modified Base64 encoding mechanism to send data to and from the C2 server.(Citation: CYBERCOM Iranian Intel Cyber January 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--c19d19ae-dd58-4584-8469-966bbeaa80e3",
             "target_ref": "attack-pattern--d467bc38-284b-4a00-96ac-125f447799fc",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

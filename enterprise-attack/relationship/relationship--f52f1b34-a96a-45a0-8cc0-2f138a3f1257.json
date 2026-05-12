@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1d4fc75f-6683-4940-a01a-d0322b3ed8e3",
+    "id": "bundle--5240827f-18e5-48c8-a06d-92873de90ac9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f52f1b34-a96a-45a0-8cc0-2f138a3f1257",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro Daserf Nov 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:17:28.751Z",
+            "modified": "2026-04-29T14:23:06.258Z",
             "description": "(Citation: Trend Micro Daserf Nov 2017)(Citation: Symantec Tick Apr 2016)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
             "target_ref": "malware--b6b3dfc7-9a81-43ff-ac04-698bad48973a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

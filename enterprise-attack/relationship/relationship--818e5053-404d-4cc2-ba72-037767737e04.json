@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8f50cdfc-b555-42eb-842f-6f35e8d0e12a",
+    "id": "bundle--692f7d43-65b4-4d30-b631-69aa5029beab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--818e5053-404d-4cc2-ba72-037767737e04",
             "created": "2019-07-17T20:22:08.552Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft GPO Bluetooth FEB 2009",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:27:45.452Z",
+            "modified": "2026-04-29T14:23:06.103Z",
             "description": "Prevent the creation of new network adapters where possible.(Citation: Microsoft GPO Bluetooth FEB 2009)(Citation: TechRepublic Wireless GPO FEB 2009)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--2f316f6c-ae42-44fe-adf8-150989e0f6d3",
             "target_ref": "attack-pattern--51ea26b1-ff1e-4faa-b1a0-1114cd298c87",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

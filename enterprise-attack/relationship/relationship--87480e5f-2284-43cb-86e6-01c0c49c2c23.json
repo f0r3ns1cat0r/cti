@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a84a4c3c-dcc6-4d67-b343-156839cb78e2",
+    "id": "bundle--716612b3-6144-4de0-9944-56bb03f9ad1a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--87480e5f-2284-43cb-86e6-01c0c49c2c23",
             "created": "2021-02-10T18:12:09.761Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ClearSky Lebanese Cedar Jan 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:57:48.871Z",
+            "modified": "2026-04-29T14:23:06.110Z",
             "description": "[Explosive](https://attack.mitre.org/software/S0569) has encrypted communications with the RC4 method.(Citation: ClearSky Lebanese Cedar Jan 2021) ",
             "relationship_type": "uses",
             "source_ref": "malware--6a21e3a4-5ffe-4581-af9a-6a54c7536f44",
             "target_ref": "attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

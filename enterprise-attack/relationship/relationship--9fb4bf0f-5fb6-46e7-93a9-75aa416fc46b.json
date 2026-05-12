@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0cdfbbe8-7dc8-4dd8-a133-a7850b916bdd",
+    "id": "bundle--b79b3fc0-d71a-4be2-a40b-4ddee90bdb22",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T22:33:54.322Z",
+            "modified": "2026-04-29T14:23:06.143Z",
             "description": "[LazyWiper](https://attack.mitre.org/software/S9039) was used to conduct destructive attacks during the [2025 Poland Wiper Attacks](https://attack.mitre.org/campaigns/C0063).(Citation: CERT Polska)",
             "relationship_type": "uses",
             "source_ref": "campaign--a6aba167-5ada-4812-9da1-912c0e73335d",

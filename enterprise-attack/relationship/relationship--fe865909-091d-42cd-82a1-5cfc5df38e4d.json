@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5959f0f6-b281-44d5-9206-8df0329b2185",
+    "id": "bundle--d8b2d45c-b127-4e96-930b-6479cc1d9cea",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fe865909-091d-42cd-82a1-5cfc5df38e4d",
             "created": "2025-03-22T15:23:06.573Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro LummaStealer 2025",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:00:23.554Z",
+            "modified": "2026-04-29T14:23:06.271Z",
             "description": "[Lumma Stealer](https://attack.mitre.org/software/S1213) has gathered various system information from victim machines.(Citation: Cybereason LumaStealer Undated)(Citation: Fortinet LummaStealer 2024)(Citation: TrendMicro LummaStealer 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--674c514f-e485-47a8-9d49-1aaa70de155b",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

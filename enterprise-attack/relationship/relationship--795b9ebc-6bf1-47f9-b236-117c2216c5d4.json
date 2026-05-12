@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6fbe448d-5434-41b1-84bd-402c6abb26a7",
+    "id": "bundle--20991c5e-e8ff-4edc-802f-48759af5ebda",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--795b9ebc-6bf1-47f9-b236-117c2216c5d4",
             "created": "2020-05-05T20:54:53.144Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro BlackTech June 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:25:33.830Z",
+            "modified": "2026-04-29T14:23:06.091Z",
             "description": "[BlackTech](https://attack.mitre.org/groups/G0098) has used spearphishing e-mails with malicious password-protected archived files (ZIP or RAR) to deliver malware.(Citation: TrendMicro BlackTech June 2017)(Citation: NTT Security Flagpro new December 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--6fe8a2a1-a1b0-4af8-953d-4babd329f8f8",
             "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

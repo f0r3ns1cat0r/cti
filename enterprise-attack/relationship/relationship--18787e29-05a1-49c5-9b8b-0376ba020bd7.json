@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9d9d8ec5-900e-424f-a715-79eb78e8ad6c",
+    "id": "bundle--14b10b62-889d-4452-8ceb-2382ab24ab70",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-19T17:13:16.546Z",
+            "modified": "2026-04-29T14:23:05.938Z",
             "description": "[AsyncRAT](https://attack.mitre.org/software/S1087) can check whether the current system hour and day of the week are within operating hours defined it its configuration.(Citation: ESET MirrorFace 2025)",
             "relationship_type": "uses",
             "source_ref": "tool--6a5947f3-1a36-4653-8734-526df3e1d28d",

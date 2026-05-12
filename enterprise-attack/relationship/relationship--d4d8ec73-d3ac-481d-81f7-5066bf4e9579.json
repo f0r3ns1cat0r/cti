@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--52081d8d-6dde-4612-842f-05edd28cbc47",
+    "id": "bundle--cdbc58bd-c45c-4c23-94db-124c9f505008",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d4d8ec73-d3ac-481d-81f7-5066bf4e9579",
             "created": "2025-10-17T12:03:39.179Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Security Scorecard Medusa Ransomware January 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-17T12:03:39.179Z",
+            "modified": "2026-04-29T14:23:06.216Z",
             "description": "[Medusa Ransomware](https://attack.mitre.org/software/S1244) has discovered device uptime through `GetTickCount()`.(Citation: Security Scorecard Medusa Ransomware January 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--28d93902-30e7-4436-8885-6d312c51c9a3",

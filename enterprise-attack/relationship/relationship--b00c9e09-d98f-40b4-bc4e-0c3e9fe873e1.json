@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--08f1704a-25e9-497c-95a9-6505cc30fa58",
+    "id": "bundle--18eec870-2a42-4bcf-b19d-5b903e18d8a6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b00c9e09-d98f-40b4-bc4e-0c3e9fe873e1",
             "created": "2019-04-12T16:59:08.040Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Novetta Blockbuster",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:40:08.662Z",
+            "modified": "2026-04-29T14:23:06.165Z",
             "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) malware SHARPKNOT overwrites and deletes the Master Boot Record (MBR) on the victim's machine and has possessed MBR wiper malware since at least 2009.(Citation: US-CERT SHARPKNOT June 2018)(Citation: Novetta Blockbuster)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--0af0ca99-357d-4ba1-805f-674fdfb7bef9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

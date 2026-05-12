@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--73ba1283-5029-4a82-8e03-26056eac7a10",
+    "id": "bundle--62aeeef1-705d-4d7b-808a-422fd6c0e727",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--945108e9-bf13-48ed-bdf5-a7888d0f9fba",
             "created": "2025-03-11T19:07:34.992Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Netskope XLoader 2022",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:32:46.183Z",
+            "modified": "2026-04-29T14:23:06.127Z",
             "description": "[XLoader](https://attack.mitre.org/software/S1207) can gather credentials from several web browsers.(Citation: Zscaler XLoader 2025)(Citation: Google XLoader 2017)(Citation: Netskope XLoader 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--9c629607-03e4-4952-b481-2d54221d2783",
             "target_ref": "attack-pattern--58a3e6aa-4453-4cc8-a51f-4befe80b31a8",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

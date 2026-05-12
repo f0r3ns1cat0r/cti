@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--886bdbeb-96fb-4b22-8ac3-7dddc73e33c2",
+    "id": "bundle--1c21ed5f-4bca-4f77-8a3a-461c28afc2ae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--03e7f671-763a-4027-af51-d01606c14a2a",
             "created": "2021-09-30T12:22:35.676Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cyberint Qakbot May 2021",
@@ -43,14 +44,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:53:56.553Z",
+            "modified": "2026-04-29T14:23:05.908Z",
             "description": "[QakBot](https://attack.mitre.org/software/S0650) can use Regsvr32 to execute malicious DLLs.(Citation: Red Canary Qbot)(Citation: Cyberint Qakbot May 2021)(Citation: ATT QakBot April 2021)(Citation: Trend Micro Black Basta October 2022)(Citation: NCC Group Black Basta June 2022)(Citation: Deep Instinct Black Basta August 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--edc5e045-5401-42bb-ad92-52b5b2ee0de9",
             "target_ref": "attack-pattern--b97f1d35-4249-4486-a6b5-ee60ccf24fab",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

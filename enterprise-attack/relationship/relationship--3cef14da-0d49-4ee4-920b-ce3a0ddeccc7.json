@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e8cf78f6-2aee-4cbb-8a32-d3fee55ba705",
+    "id": "bundle--043ecb88-0c41-4cb7-92fc-f417ddfa8ae1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T12:48:42.694Z",
+            "modified": "2026-04-29T14:23:06.008Z",
             "description": "[IronWind](https://attack.mitre.org/software/S9029) can enumerate the username on victim's systems.(Citation: Check Point Wirte NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--089aa00a-99ac-46b4-9cf8-4224d463566d",

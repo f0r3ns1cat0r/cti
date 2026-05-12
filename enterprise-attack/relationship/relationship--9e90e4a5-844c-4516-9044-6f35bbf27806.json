@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--33aebc6b-f356-4934-a906-1f64f2d23407",
+    "id": "bundle--3330bcc9-ba9f-4d20-b7f7-461b9d648b11",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9e90e4a5-844c-4516-9044-6f35bbf27806",
             "created": "2017-05-31T21:33:27.039Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Sednit Part 3",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:02:22.866Z",
+            "modified": "2026-04-29T14:23:06.141Z",
             "description": "[APT28](https://attack.mitre.org/groups/G0007) has deployed a bootkit along with [Downdelph](https://attack.mitre.org/software/S0134) to ensure its persistence on the victim. The bootkit shares code with some variants of [BlackEnergy](https://attack.mitre.org/software/S0089).(Citation: ESET Sednit Part 3)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--1b7b1806-7746-41a1-a35d-e48dae25ddba",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b5e5ec86-cd3f-4b6c-a798-ed2d3fdf300a",
+    "id": "bundle--1ac5c472-c116-4824-865e-d3380632f120",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e7f2fab9-7a97-4892-9fee-fe9b98c8f0a0",
             "created": "2023-03-26T22:04:46.624Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Deep Dive Solorigate January 2021",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:54:28.572Z",
+            "modified": "2026-04-29T14:23:06.241Z",
             "description": "(Citation: Microsoft Deep Dive Solorigate January 2021)(Citation: Symantec RAINDROP January 2021)",
             "relationship_type": "uses",
             "source_ref": "campaign--808d6b30-df4e-4341-8248-724da4bac650",
             "target_ref": "malware--4efc3e00-72f2-466a-ab7c-8a7dc6603b19",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

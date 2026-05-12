@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--791185c4-b5ce-48fd-8f61-5dd0abe9ce0d",
+    "id": "bundle--d4ada206-203a-416a-9f20-7f99444dbdb5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d5cd9334-11f1-42c8-b332-8a0aa884e254",
             "created": "2025-02-19T18:43:40.803Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lumen J-Magic JAN 2025",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:49:55.401Z",
+            "modified": "2026-04-29T14:23:06.217Z",
             "description": "[J-magic](https://attack.mitre.org/software/S1203) has a pcap listener function that can create an Extended Berkley Packet Filter (eBPF) on designated interfaces and ports.(Citation: Lumen J-Magic JAN 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--2ade64da-5114-42e4-9d56-335379cca561",
             "target_ref": "attack-pattern--3257eb21-f9a7-4430-8de1-d8b6e288f529",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

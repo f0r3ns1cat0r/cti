@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3c8d3de5-12fd-4601-8a1e-da01ab20a364",
+    "id": "bundle--38293d19-fc18-4def-ad05-8e1aedf63f63",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6f201842-1ce8-459f-a7a7-a81d6e7950a9",
             "created": "2021-03-01T14:07:36.957Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Proofpoint LookBack Malware Aug 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:53:17.228Z",
+            "modified": "2026-04-29T14:23:06.077Z",
             "description": "[LookBack](https://attack.mitre.org/software/S0582) has a C2 proxy tool that masquerades as <code>GUP.exe</code>, which is software used by Notepad++.(Citation: Proofpoint LookBack Malware Aug 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--c9ccc4df-1f56-49e7-ad57-b383e1451688",
             "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

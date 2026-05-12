@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a546682e-e747-4a8c-a6e0-49c72ba7647b",
+    "id": "bundle--fd8b47fc-d0b9-4ec1-a737-9aee10580cfc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f776a4da-0fa6-414c-a705-e9e8b419e056",
             "created": "2020-06-26T15:32:25.058Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Threat Fabric Cerberus",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:31:18.473Z",
+            "modified": "2026-04-29T14:23:06.261Z",
             "description": "[Cerberus](https://attack.mitre.org/software/S0480) can inject input to grant itself additional permissions without user interaction and to prevent application removal.(Citation: Threat Fabric Cerberus)(Citation: CheckPoint Cerberus)",
             "relationship_type": "uses",
             "source_ref": "malware--037f44f0-0c07-4c7f-b40e-0325b5b228a9",
             "target_ref": "attack-pattern--d1f1337e-aea7-454c-86bd-482a98ffaf62",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

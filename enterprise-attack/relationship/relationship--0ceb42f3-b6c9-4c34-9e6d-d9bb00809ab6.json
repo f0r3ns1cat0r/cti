@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--367b76dd-d2ec-4636-91a2-b0e145397cd4",
+    "id": "bundle--88f5c3d4-0131-48de-a873-6810d31698b8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:01:47.053Z",
+            "modified": "2026-04-29T14:23:05.921Z",
             "description": "Routinely check account role permissions to ensure only expected users and roles have permission to modify cloud firewalls. ",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8",

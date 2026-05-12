@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1f41ed25-5448-469a-aec9-03b97bf7d221",
+    "id": "bundle--700a5e78-c316-4577-aca1-3bfc57375cf0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--98d0fca0-b3e7-4f69-b5f3-527cdd4f48c9",
             "created": "2020-01-23T19:59:52.901Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Beechey 2010",
@@ -43,14 +44,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:34:04.040Z",
+            "modified": "2026-04-29T14:23:06.134Z",
             "description": "Identify and block potentially malicious and unknown .cpl files by using application control (Citation: Beechey 2010) tools, like Windows Defender Application Control(Citation: Microsoft Windows Defender Application Control), AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--47e0e9fe-96ce-4f65-8bb1-8be1feacb5db",
             "target_ref": "attack-pattern--4ff5d6a8-c062-4c68-a778-36fc5edd564f",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

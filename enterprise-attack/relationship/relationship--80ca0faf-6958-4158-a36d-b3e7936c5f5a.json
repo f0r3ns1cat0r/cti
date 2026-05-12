@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a2c919d4-ddf8-4a10-bcb5-00eb5a5fe950",
+    "id": "bundle--3eb7306a-acb3-4400-967d-4581490afcbc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--80ca0faf-6958-4158-a36d-b3e7936c5f5a",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Tasklist",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:56:40.246Z",
+            "modified": "2026-04-29T14:23:06.101Z",
             "description": "[Tasklist](https://attack.mitre.org/software/S0057) can be used to enumerate security software currently running on a system by process name of known products.(Citation: Microsoft Tasklist)",
             "relationship_type": "uses",
             "source_ref": "tool--2e45723a-31da-4a7e-aaa6-e01998a6788f",
             "target_ref": "attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

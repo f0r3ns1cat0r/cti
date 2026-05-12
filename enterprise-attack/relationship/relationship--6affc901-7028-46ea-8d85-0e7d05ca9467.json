@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--49e4550b-7681-4f6b-920c-6d18ab48523c",
+    "id": "bundle--c6b8e29a-c928-45ca-ae97-5560c57b05e6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6affc901-7028-46ea-8d85-0e7d05ca9467",
             "created": "2023-10-03T14:51:12.881Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T15:10:22.479Z",
+            "modified": "2026-04-29T14:23:06.071Z",
             "description": "[FIN13](https://attack.mitre.org/groups/G1016) has observed the victim's software and infrastructure over several months to understand the technical process of legitimate financial transactions, prior to attempting to conduct fraudulent transactions.(Citation: Sygnia Elephant Beetle Jan 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--96c48d23-d9ea-42eb-83ed-2a7407e8f8cc",
+    "id": "bundle--368d029b-c9a7-437a-9352-1f0ac52e02ba",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e89d06bc-31f3-49c0-a555-360eeff7f7c6",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cylance Cleaver",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:54:42.101Z",
+            "modified": "2026-04-29T14:23:06.242Z",
             "description": "[Net Crawler](https://attack.mitre.org/software/S0056) uses Windows admin shares to establish authenticated sessions to remote systems over SMB as part of lateral movement.(Citation: Cylance Cleaver)",
             "relationship_type": "uses",
             "source_ref": "malware--fde50aaa-f5de-4cb8-989a-babb57d6a704",
             "target_ref": "attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

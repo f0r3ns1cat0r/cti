@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ae193ebb-8a38-4616-9d31-9841649f2652",
+    "id": "bundle--44381e93-844f-42cc-aaa0-e9634196d5be",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-20T11:43:40.354Z",
+            "modified": "2026-04-29T14:23:05.954Z",
             "description": "[Embargo](https://attack.mitre.org/software/S1247) has used a DLL variant of MDeployer to disable security solutions through Safe Mode.(Citation: ESET Embargo Ransomware October 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--82adb90e-43b8-4bce-9efe-afeba65457b2",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ac44e178-28f5-46a8-999a-df75bc2edc1b",
+    "id": "bundle--8e82ec22-737b-4cfa-8c3e-96cb399fc8b6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T14:34:40.286Z",
+            "modified": "2026-04-29T14:23:06.221Z",
             "description": "[Tsundere Botnet](https://attack.mitre.org/software/S9034) has been distributed via an MSI installer.(Citation: SecureListUbiedo_Tsundere_Nov2025)",
             "relationship_type": "uses",
             "source_ref": "malware--18f5f8c6-bba5-4aba-93e7-3539fe565883",

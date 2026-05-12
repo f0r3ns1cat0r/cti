@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--03de38a4-9495-4d45-a7ce-1d8f052931e9",
+    "id": "bundle--0ad7758e-79c8-4200-a269-3e40f62e13f2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8f9cee62-46ce-4ede-a478-6002962528a7",
             "created": "2022-06-24T14:28:07.040Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Zscaler Lyceum DnsSystem June 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:31:29.751Z",
+            "modified": "2026-04-29T14:23:06.121Z",
             "description": "[DnsSystem](https://attack.mitre.org/software/S1021) can use the Windows user name to create a unique identification for infected users and systems.(Citation: Zscaler Lyceum DnsSystem June 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--8a2867f9-e8fc-4bf1-a860-ef6e46311900",
             "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

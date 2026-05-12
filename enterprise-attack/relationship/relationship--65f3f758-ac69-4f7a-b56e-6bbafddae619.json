@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e53cd240-c91d-455d-b018-17c56d05bd3d",
+    "id": "bundle--f21ec26c-b21c-4b9a-b9b0-0556dbb2d0d3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--65f3f758-ac69-4f7a-b56e-6bbafddae619",
             "created": "2025-01-29T18:37:56.897Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Lockbit 2.0 JUN 2022",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T17:57:46.057Z",
+            "modified": "2026-04-29T14:23:06.064Z",
             "description": "[LockBit 2.0](https://attack.mitre.org/software/S1199) can enumerate system information including hostname and domain information.(Citation: FBI Lockbit 2.0 FEB 2022)(Citation: Palo Alto Lockbit 2.0 JUN 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--a4578560-42cf-4075-9fa2-056f0058c881",

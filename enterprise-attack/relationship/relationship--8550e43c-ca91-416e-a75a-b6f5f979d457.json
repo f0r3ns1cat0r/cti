@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d0db44f0-bf38-4f42-ba1e-3930277f16ef",
+    "id": "bundle--cef7cfa3-305e-4bb9-aecd-f06574adf4b3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8550e43c-ca91-416e-a75a-b6f5f979d457",
             "created": "2021-02-17T20:27:27.446Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "IBM MegaCortex",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:28:42.829Z",
+            "modified": "2026-04-29T14:23:06.107Z",
             "description": "[MegaCortex](https://attack.mitre.org/software/S0576) can wipe deleted data from all drives using <code>[cipher.exe](https://attack.mitre.org/software/S1205)</code>.(Citation: IBM MegaCortex)",
             "relationship_type": "uses",
             "source_ref": "malware--909617c3-6d87-4330-8f32-bd3af38c3b92",
             "target_ref": "attack-pattern--fb640c43-aa6b-431e-a961-a279010424ac",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

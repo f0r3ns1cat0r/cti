@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--53754c2b-9f84-415c-a29f-9284c976c595",
+    "id": "bundle--afb71941-e8f3-4edb-bb8e-50da38679ee6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--3b6fc69c-9759-465a-b09c-a6161e4e2f56",
             "created": "2017-05-31T21:33:27.063Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Dell TG-3390",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:43:40.348Z",
+            "modified": "2026-04-29T14:23:06.003Z",
             "description": "(Citation: Dell TG-3390)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
             "target_ref": "tool--b07c2c47-fefb-4d7c-a69e-6a3296171f54",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

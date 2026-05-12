@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fab2e0f8-9087-48b7-bd52-3c20212be338",
+    "id": "bundle--81bc960e-cd39-4129-b357-4843b1f5ac3d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T17:01:25.914Z",
+            "modified": "2026-04-29T14:23:06.206Z",
             "description": "[AsyncRAT](https://attack.mitre.org/software/S1087) has been executed through victims opening malicious file attachments.(Citation: Recorded Future TAG-144 AUG 2025)",
             "relationship_type": "uses",
             "source_ref": "tool--6a5947f3-1a36-4653-8734-526df3e1d28d",

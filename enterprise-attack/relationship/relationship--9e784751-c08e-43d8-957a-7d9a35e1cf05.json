@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3ae165ec-3137-42ff-bff4-8df615fa4863",
+    "id": "bundle--407f8742-ef99-4f28-a6b2-8f0cd12e9cea",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9e784751-c08e-43d8-957a-7d9a35e1cf05",
             "created": "2022-10-13T15:30:51.342Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Threatpost New Op Sharpshooter Data March 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:35:34.075Z",
+            "modified": "2026-04-29T14:23:06.141Z",
             "description": "During [Operation Sharpshooter](https://attack.mitre.org/campaigns/C0013), threat actors leveraged embedded shellcode to inject a downloader into the memory of Word.(Citation: Threatpost New Op Sharpshooter Data March 2019)    ",
             "relationship_type": "uses",
             "source_ref": "campaign--37764c78-2a99-46d1-a7ea-6454b9bf93a0",
             "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

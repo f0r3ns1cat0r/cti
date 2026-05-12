@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--82b1fab9-a4f7-4722-8611-4c40c55a4efd",
+    "id": "bundle--61c47c7e-ce73-4563-846d-c8b108cef20d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c1108137-b707-4358-b4b2-b2f139418f7e",
             "created": "2019-04-24T20:50:12.425Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky Adwind Feb 2016",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:08:25.888Z",
+            "modified": "2026-04-29T14:23:06.189Z",
             "description": "[jRAT](https://attack.mitre.org/software/S0283) can capture passwords from common chat applications such as MSN Messenger, AOL, Instant Messenger, and and Google Talk.(Citation: Kaspersky Adwind Feb 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--efece7e8-e40b-49c2-9f84-c55c5c93d05c",
             "target_ref": "attack-pattern--837f9164-50af-4ac0-8219-379d8a74cefc",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e378cdef-906a-4e9a-a0ef-cfd43b7b1673",
+    "id": "bundle--8023fa9d-d217-4c4c-af60-f44ad6946cc3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:14:45.957Z",
+            "modified": "2026-04-29T14:23:06.169Z",
             "description": "[ArcaneDoor](https://attack.mitre.org/campaigns/C0046) included disabling logging on targeted Cisco ASA appliances.(Citation: Cisco ArcaneDoor 2024)(Citation: CCCS ArcaneDoor 2024)",
             "relationship_type": "uses",
             "source_ref": "campaign--a543ef15-91ea-4aa9-9c10-267d56e1ee82",

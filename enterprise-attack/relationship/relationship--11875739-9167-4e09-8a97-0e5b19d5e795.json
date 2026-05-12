@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--045f6d3d-4082-4a69-ad98-eb1407b13b73",
+    "id": "bundle--2274efaa-ba6c-4c79-91ac-bfc944a9ef69",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--11875739-9167-4e09-8a97-0e5b19d5e795",
             "created": "2025-10-16T16:13:16.582Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft SharePoint Exploit JUL 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-16T16:13:16.582Z",
+            "modified": "2026-04-29T14:23:05.928Z",
             "description": "During [SharePoint ToolShell Exploitation](https://attack.mitre.org/campaigns/C0058), threat actors used scheduled tasks to help establish persistence.(Citation: Microsoft SharePoint Exploit JUL 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--1a0576df-df21-4775-843e-844d8a58a94b",

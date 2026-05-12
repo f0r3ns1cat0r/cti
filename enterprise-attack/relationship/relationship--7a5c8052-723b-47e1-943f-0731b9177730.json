@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3080a96d-a53c-48bd-b52b-eac67759133e",
+    "id": "bundle--3281f16b-1aa9-46fb-8c3f-6dc35379860c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7a5c8052-723b-47e1-943f-0731b9177730",
             "created": "2022-02-02T16:36:53.678Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "AADInternals Documentation",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:25:52.883Z",
+            "modified": "2026-04-29T14:23:06.093Z",
             "description": "[AADInternals](https://attack.mitre.org/software/S0677) can create new Azure AD users.(Citation: AADInternals Documentation)",
             "relationship_type": "uses",
             "source_ref": "tool--2c5281dd-b5fd-4531-8aea-c1bf8a0f8756",
             "target_ref": "attack-pattern--a009cb25-4801-4116-9105-80a91cf15c1b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

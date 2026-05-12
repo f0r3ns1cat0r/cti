@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7abb79e4-207a-4dc6-9069-c8852cddd81c",
+    "id": "bundle--fac1bead-e906-44c1-8a55-1b7189072fb2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--de45db46-2251-4a29-b4d7-3fcf679e9484",
             "created": "2019-09-04T15:38:56.877Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CyberMerchants-FlexiSpy",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:52:04.281Z",
+            "modified": "2026-04-29T14:23:06.228Z",
             "description": "[FlexiSpy](https://attack.mitre.org/software/S0408) can intercept SMS and MMS messages as well as monitor messages for keywords.(Citation: CyberMerchants-FlexiSpy)(Citation: FlexiSpy-Features)",
             "relationship_type": "uses",
             "source_ref": "tool--1622fd3d-fcfc-4d02-ac49-f2d786f79b81",
             "target_ref": "attack-pattern--c6421411-ae61-42bb-9098-73fddb315002",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--326a1517-d50f-4de7-a5a5-7fa463742a01",
+    "id": "bundle--fb0acae8-9fad-455c-9503-cb845875f9cc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ac47da26-22ae-43b9-947b-ed4ea6943d42",
             "created": "2022-03-23T16:57:13.648Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Qualys LolZarus",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:39:04.457Z",
+            "modified": "2026-04-29T14:23:06.159Z",
             "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) has used shellcode within macros to decrypt and manually map DLLs and shellcode into memory at runtime.(Citation: Lazarus APT January 2022)(Citation: Qualys LolZarus)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f6637a5e-57e1-458b-85a7-6ea523ac3605",
+    "id": "bundle--27421c09-2943-4aba-b461-c92e1d5ef764",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--12e24dfb-3b4c-4244-90c9-2f9675dc6eaa",
             "created": "2022-02-17T16:16:01.705Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CERT-EE Gamaredon January 2021",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-21T20:05:34.300Z",
+            "modified": "2026-04-29T14:23:05.930Z",
             "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has used WMI to execute scripts used for discovery and for determining the C2 IP address.(Citation: CERT-EE Gamaredon January 2021)(Citation: unit42_gamaredon_dec2022)(Citation: SymantecCarbonBlack_ShuckwormUSB_Apr2025)(Citation: ESET Gamaredon Sept2024) [Gamaredon Group](https://attack.mitre.org/groups/G0047) has used the following WMI query to search for a ping record: `Select * From Win32_PingStatus where Address = 'mil.gov.ua'`.(Citation: SymantecCarbonBlack_ShuckwormUSB_Apr2025) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
             "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

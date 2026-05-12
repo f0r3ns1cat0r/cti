@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--53a1568f-4901-4e2d-95f8-bc6d3bd7c154",
+    "id": "bundle--3d5efe7b-e05a-4626-b6f0-85cd3a11c355",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--72afd916-54df-4524-acbd-1058b5dbe650",
             "created": "2025-10-19T19:57:39.477Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Storm-0501 Embargo Ransomware August 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-19T20:18:53.952Z",
+            "modified": "2026-04-29T14:23:06.082Z",
             "description": "[Storm-0501](https://attack.mitre.org/groups/G1053) has encrypted files in victim environments using ransomware as a service (RaaS) including Sabbath, Hive, [BlackCat](https://attack.mitre.org/software/S1068), Hunters International, [LockBit 3.0](https://attack.mitre.org/software/S1202) and [Embargo](https://attack.mitre.org/software/S1247) ransomware.(Citation: Microsoft Storm-0501 Embargo Ransomware August 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7b404cd0-3ae9-41d4-90c0-023793d35d97",

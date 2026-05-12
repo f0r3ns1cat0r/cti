@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b491d9dc-a108-424e-b123-64dd288f0587",
+    "id": "bundle--4a6704e2-d81a-4953-be83-eb62f6d8cc53",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cade04ba-4229-4655-9fe9-9e2d9b44536c",
             "created": "2025-01-15T21:09:42.205Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Volexity UPSTYLE 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:47:08.670Z",
+            "modified": "2026-04-29T14:23:06.202Z",
             "description": "During [Operation MidnightEclipse](https://attack.mitre.org/campaigns/C0048), threat actors used WinRM to move laterally in targeted networks.(Citation: Volexity UPSTYLE 2024)",
             "relationship_type": "uses",
             "source_ref": "campaign--455b011a-2510-49ab-a96f-2f84d6a80189",
             "target_ref": "attack-pattern--60d0c01d-e2bf-49dd-a453-f8a9c9fa6f65",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

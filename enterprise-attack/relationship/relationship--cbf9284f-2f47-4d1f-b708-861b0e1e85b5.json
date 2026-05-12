@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aef05781-d8cb-4f87-884e-508bea60fc36",
+    "id": "bundle--c9367a84-2521-45b2-8b9f-bfe547d0a5e2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cbf9284f-2f47-4d1f-b708-861b0e1e85b5",
             "created": "2020-06-19T21:25:43.678Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Cobalt Kitty 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:47:28.426Z",
+            "modified": "2026-04-29T14:23:06.204Z",
             "description": "[Goopy](https://attack.mitre.org/software/S0477) has the ability to side-load malicious DLLs with legitimate applications from Kaspersky, Microsoft, and Google.(Citation: Cybereason Cobalt Kitty 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--eac3d77f-2b7b-4599-ba74-948dc16633ad",
             "target_ref": "attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

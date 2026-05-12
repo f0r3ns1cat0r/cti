@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4235830c-7b4a-4bfb-b7b3-27bc3f37a61e",
+    "id": "bundle--d07aed6e-668a-411e-bc36-a309ab2561a5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b2ac3f9c-b43a-417f-8f9f-0c86bee2e219",
             "created": "2020-10-20T19:09:24.323Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco IOS Software Integrity Assurance - Image File Integrity",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:05:55.638Z",
+            "modified": "2026-04-29T14:23:06.169Z",
             "description": "Periodically check the integrity of system image to ensure it has not been modified. (Citation: Cisco IOS Software Integrity Assurance - Image File Integrity) (Citation: Cisco IOS Software Integrity Assurance - Image File Verification) (Citation: Cisco IOS Software Integrity Assurance - Change Control) ",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8",
             "target_ref": "attack-pattern--a6557c75-798f-42e4-be70-ab4502e0a3bc",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

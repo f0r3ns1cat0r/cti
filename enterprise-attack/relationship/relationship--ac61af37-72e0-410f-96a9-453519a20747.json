@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9180d359-4f34-4d08-a3f0-ba004b7bd242",
+    "id": "bundle--fcadffcf-76ef-4579-a0c8-6e5b142458fb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:33:38.135Z",
+            "modified": "2026-04-29T14:23:06.160Z",
             "description": "[REvil](https://attack.mitre.org/software/S0496) can force a reboot in safe mode with networking.(Citation: BleepingComputer REvil 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--ac61f1f9-7bb1-465e-9b8a-c2ce8e88baf5",

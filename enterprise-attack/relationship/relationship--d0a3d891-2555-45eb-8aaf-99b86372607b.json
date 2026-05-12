@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--de7a75f2-013a-457b-81da-b76fe9eaaa6c",
+    "id": "bundle--078f223d-5c56-4309-b94d-da2a62cb94b2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d0a3d891-2555-45eb-8aaf-99b86372607b",
             "created": "2022-07-18T20:53:43.160Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro EarthLusca 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:48:41.216Z",
+            "modified": "2026-04-29T14:23:06.211Z",
             "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has used WinRAR to compress stolen files into an archive prior to exfiltration.(Citation: TrendMicro EarthLusca 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
             "target_ref": "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

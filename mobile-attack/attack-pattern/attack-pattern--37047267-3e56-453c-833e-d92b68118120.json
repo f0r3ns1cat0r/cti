@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--de801697-18c5-4d9a-8a8a-c20e6ac26da6",
+    "id": "bundle--382f26c7-effc-49b6-b3fd-0a17670e20c4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:38.977Z",
+            "modified": "2026-05-12T15:12:00.626Z",
             "name": "Exfiltration Over Unencrypted Non-C2 Protocol",
             "description": "Adversaries may steal data by exfiltrating it over an un-encrypted network protocol other than that of the existing command and control channel. The data may also be sent to an alternate network location from the main command and control server.\n\nAdversaries may opt to obfuscate this data, without the use of encryption, within network protocols that are natively unencrypted (such as HTTP, FTP, or DNS). Adversaries may employ custom or publicly available encoding/compression algorithms (such as base64) or embed data within protocol headers and fields.",
             "kill_chain_phases": [
@@ -33,7 +33,7 @@
                     "phase_name": "exfiltration"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "mobile-attack"

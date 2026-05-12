@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ee1c9bf7-2559-4fa2-9646-7f4c28df8fe1",
+    "id": "bundle--f4d6fac2-4cd1-49c1-89ab-cb9cb14c6cf7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c6a76d93-7007-4e1e-81ff-43341ca9932c",
             "created": "2025-06-04T16:14:24.785Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Bitsight 7777 Botnet",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-06-05T14:58:51.061Z",
+            "modified": "2026-04-29T14:23:06.197Z",
             "description": "[Quad7 Activity](https://attack.mitre.org/campaigns/C0055) has enabled the creation of an access-controlled command shell <code>/bin/sh</code> on compromised routers.(Citation: Microsoft Storm-0940)(Citation: Bitsight 7777 Botnet)",
             "relationship_type": "uses",
             "source_ref": "campaign--e7511089-1076-4a3b-984d-1a0a8afe31e9",
             "target_ref": "attack-pattern--a9d4b653-6915-42af-98b2-5758c4ceee56",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

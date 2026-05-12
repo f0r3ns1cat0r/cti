@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ac6ede38-196b-4b0a-82c7-7d8ebdd6a195",
+    "id": "bundle--64d5b3aa-3fd6-461a-aee5-b3610d92892c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T23:41:27.400Z",
+            "modified": "2026-04-29T14:23:06.250Z",
             "description": "[BRICKSTORM](https://attack.mitre.org/software/S9015) has used DNS over HTTPS to resolve C2 infrastructure and obscure DNS traffic from inspection.(Citation: CrowdStrike BRICKSTORM WARP PANDA UNC5221 December 2025)(Citation: CISA BRICKSTORM UNC5221 AR25-338A February 2026)(Citation: Picus Security BRICKSTORM UNC5221 October 2025)(Citation: Google UNC5221 BRICKSTORM SPAWNCHIMERA April 2024)(Citation: NVISO BRICKSTORM April 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--0450ed20-e9a7-4799-b601-2f2710300796",

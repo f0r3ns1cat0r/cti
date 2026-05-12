@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2e4ee57d-265a-4df3-a2f2-6f95d0270fe3",
+    "id": "bundle--e17b4512-0c08-4712-8407-a15b122c4134",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--34e75ef5-b2de-41dc-96d3-2c5388c570be",
             "created": "2020-03-21T00:27:23.580Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro Taidoor",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:42:27.191Z",
+            "modified": "2026-04-29T14:23:05.990Z",
             "description": "[Taidoor](https://attack.mitre.org/software/S0011) uses RC4 to encrypt the message body of HTTP content.(Citation: TrendMicro Taidoor)(Citation: CISA MAR-10292089-1.v2 TAIDOOR August 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--b143dfa4-e944-43ff-8429-bfffc308c517",
             "target_ref": "attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

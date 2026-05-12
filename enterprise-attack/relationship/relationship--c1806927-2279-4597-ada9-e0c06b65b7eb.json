@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a25fa511-3e13-4a89-8f7f-15a95644a99c",
+    "id": "bundle--a0a6d0e6-3c3d-4b71-a857-2d32aebaa978",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c1806927-2279-4597-ada9-e0c06b65b7eb",
             "created": "2021-04-23T22:56:14.733Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Ebury Oct 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:08:31.374Z",
+            "modified": "2026-04-29T14:23:06.190Z",
             "description": "[Ebury](https://attack.mitre.org/software/S0377) has used Python to implement its DGA.(Citation: ESET Ebury Oct 2017)\t",
             "relationship_type": "uses",
             "source_ref": "malware--d6b3fcd0-1c86-4350-96f0-965ed02fcc51",
             "target_ref": "attack-pattern--cc3502b5-30cc-4473-ad48-42d51a6ef6d1",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

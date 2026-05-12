@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d029a15e-0dec-441a-8cab-73474994447c",
+    "id": "bundle--9e66152d-3113-45cc-b1aa-c3e626eb7582",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--98d908da-f2b1-47f8-a74a-41984e88f55e",
             "created": "2024-07-24T16:27:32.287Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Crowdstrike HuntReport 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:34:04.629Z",
+            "modified": "2026-04-29T14:23:06.134Z",
             "description": "[Aquatic Panda](https://attack.mitre.org/groups/G0143) used WMI for lateral movement in victim environments.(Citation: Crowdstrike HuntReport 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--64b52e7d-b2c4-4a02-9372-08a463f5dc11",
             "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

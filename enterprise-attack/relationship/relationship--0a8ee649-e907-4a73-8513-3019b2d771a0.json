@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9567ec9f-0df7-4c68-9792-a41f9c876bb3",
+    "id": "bundle--df73f2db-764a-44ab-a465-61481ff0d2f6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0a8ee649-e907-4a73-8513-3019b2d771a0",
             "created": "2017-05-31T21:33:27.069Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Novetta Blockbuster RATs",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:55:36.370Z",
+            "modified": "2026-04-29T14:23:05.918Z",
             "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) malware SierraBravo-Two generates an email message via SMTP containing information about newly infected victims.(Citation: Novetta Blockbuster)(Citation: Novetta Blockbuster RATs)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--fb8d023d-45be-47e9-bc51-f56bcae6435b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

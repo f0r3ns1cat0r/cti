@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9bb86acd-3870-4f32-8981-9008f740439c",
+    "id": "bundle--78c1dc02-785e-40a6-8502-5780e92dd696",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T13:58:50.662Z",
+            "modified": "2026-04-29T14:23:06.221Z",
             "description": "[WIRTE](https://attack.mitre.org/groups/G0090) has compressed malicious files within RAR and ZIP archives for obfuscation.  (Citation: Check Point Wirte NOV 2024)(Citation: Palo Alto Ashen Lepus DEC 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f8cb7b36-62ef-4488-8a6d-a7033e3271c1",

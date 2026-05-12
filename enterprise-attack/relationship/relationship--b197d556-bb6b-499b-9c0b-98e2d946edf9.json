@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d0d60484-dd69-46e4-92e6-1c8f894c9093",
+    "id": "bundle--2931c37e-56c1-4cee-9d1c-289c404806a1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b197d556-bb6b-499b-9c0b-98e2d946edf9",
             "created": "2024-11-20T21:15:35.128Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Hunt Sea Turtle 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-05-22T19:05:59.041Z",
+            "modified": "2026-04-29T14:23:06.168Z",
             "description": "[Sea Turtle](https://attack.mitre.org/groups/G1041) used the tool Adminer to remotely logon to the MySQL service of victim machines.(Citation: Hunt Sea Turtle 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--56a05d27-4d47-418a-b330-781c5614f202",
             "target_ref": "attack-pattern--248d3fe1-7fe1-4d71-91c7-8bb7ef35cad3",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

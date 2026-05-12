@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--29ba026f-3d8c-4765-be71-aacf2751b9de",
+    "id": "bundle--006a8d69-7ce6-4b26-b795-2c15c8c71a97",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--24a7379e-a994-411b-b17c-add6c6c6fc07",
             "created": "2020-12-24T21:45:56.949Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lookout Uyghur Campaign",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:28:03.328Z",
+            "modified": "2026-04-29T14:23:05.955Z",
             "description": "[SilkBean](https://attack.mitre.org/software/S0549) has hidden malicious functionality in a second stage file and has encrypted C2 server information.(Citation: Lookout Uyghur Campaign)",
             "relationship_type": "uses",
             "source_ref": "malware--ddbe5657-e21e-4a89-8221-2f1362d397ec",
             "target_ref": "attack-pattern--d13fa042-8f26-44e1-a2a8-af0bf8e2ac9a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

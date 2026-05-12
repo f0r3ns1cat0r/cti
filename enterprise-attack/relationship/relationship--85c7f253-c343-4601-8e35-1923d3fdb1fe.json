@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f7633c4b-3c5a-49a8-89b8-e73143b630e7",
+    "id": "bundle--1ea56a48-de9f-406a-9b82-269a84f1703c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T14:36:56.386Z",
+            "modified": "2026-04-29T14:23:06.108Z",
             "description": "[Tsundere Botnet](https://attack.mitre.org/software/S9034)\u2019s loader contained AES-CBC/PKCS7 encrypted blobs, which were descrypted and written to disk.(Citation: CAL_MuddyWater_Mar2026)",
             "relationship_type": "uses",
             "source_ref": "malware--18f5f8c6-bba5-4aba-93e7-3539fe565883",

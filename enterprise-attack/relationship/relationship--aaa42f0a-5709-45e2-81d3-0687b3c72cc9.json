@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cef4e536-359b-49f6-8671-4db2fcdf1fef",
+    "id": "bundle--7b78da65-4807-42db-a5df-449f60074baa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--aaa42f0a-5709-45e2-81d3-0687b3c72cc9",
             "created": "2022-02-04T22:03:05.852Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "BiZone Lizar May 2021",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-01T19:25:03.840Z",
+            "modified": "2026-04-29T14:23:06.157Z",
             "description": "[Lizar](https://attack.mitre.org/software/S0681) can collect the computer name from the machine.(Citation: BiZone Lizar May 2021)(Citation: SekoiaBourhis_DiceLoader_Feb2024)",
             "relationship_type": "uses",
             "source_ref": "malware--f74a5069-015d-4404-83ad-5ca01056c0dc",

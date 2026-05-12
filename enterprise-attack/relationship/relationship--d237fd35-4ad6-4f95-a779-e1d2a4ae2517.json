@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a3933314-cc5b-48f0-8c67-16a9ed5cb067",
+    "id": "bundle--2da6cf05-d439-45d4-b7b3-83a35acec0f8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d237fd35-4ad6-4f95-a779-e1d2a4ae2517",
             "created": "2022-08-18T15:29:46.996Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant UNC3313 Feb 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:49:05.594Z",
+            "modified": "2026-04-29T14:23:06.213Z",
             "description": "[STARWHALE](https://attack.mitre.org/software/S1037) has the ability to execute commands via `cmd.exe`.(Citation: Mandiant UNC3313 Feb 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--e355fc84-6f3c-4888-8e0a-d7fa9c378532",
             "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

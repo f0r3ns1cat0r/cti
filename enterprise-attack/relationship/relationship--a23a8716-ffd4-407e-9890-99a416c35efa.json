@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d18f14fd-759c-4a75-b718-4b243c4c01cb",
+    "id": "bundle--e135d0fb-6ef9-4688-9279-117eab087596",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a23a8716-ffd4-407e-9890-99a416c35efa",
             "created": "2025-06-04T16:20:49.255Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Bitsight 7777 Botnet",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-06-05T14:59:36.273Z",
+            "modified": "2026-04-29T14:23:06.146Z",
             "description": "[Quad7 Activity](https://attack.mitre.org/campaigns/C0055) has infected victim network devices by storing artifacts in the <code>/tmp</code> directory which is volatile in memory and will clear its contents upon shutdown or restart.(Citation: Bitsight 7777 Botnet)",
             "relationship_type": "uses",
             "source_ref": "campaign--e7511089-1076-4a3b-984d-1a0a8afe31e9",
             "target_ref": "attack-pattern--02c5abff-30bf-4703-ab92-1f6072fae939",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--31c372e1-30e9-4cf1-ab23-70e8991b4be8",
+    "id": "bundle--55317f2a-617f-4498-811c-1a3708199e37",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fff16b5e-49c2-45e2-8b3a-fd5f82c96dd9",
             "created": "2020-04-08T15:51:25.149Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ThreatFabric Ginp",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:52:48.285Z",
+            "modified": "2026-04-29T14:23:06.272Z",
             "description": "[Ginp](https://attack.mitre.org/software/S0423) can download the device\u2019s contact list.(Citation: ThreatFabric Ginp)",
             "relationship_type": "uses",
             "source_ref": "malware--6146be90-470c-4049-bb3a-9986b8ffb65b",
             "target_ref": "attack-pattern--e0b9ecb8-a7d1-43c7-aa30-8e19c6a92c86",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

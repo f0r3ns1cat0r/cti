@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eba26461-0064-4950-bd4b-35cbd8aa2abb",
+    "id": "bundle--0fa7f121-b35b-435e-b34d-7ff3813c1be8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8ecdf71c-41cf-454e-98cb-a2d6678d1b1c",
             "created": "2025-02-25T17:34:03.352Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Nearest Neighbor Volexity",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:31:15.437Z",
+            "modified": "2026-04-29T14:23:06.120Z",
             "description": "(Citation: Nearest Neighbor Volexity)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "tool--da66959d-9875-4fde-bfed-11111a55895e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

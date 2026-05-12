@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cad0fea1-0138-428c-9cf6-617cced3cb44",
+    "id": "bundle--291a4588-084c-4623-9e22-c6dcb80ae5a9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d64c4924-76f0-4b2e-858d-b0df733334d0",
             "created": "2023-02-06T19:03:11.265Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "lookout_abstractemu_1021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:51:54.100Z",
+            "modified": "2026-04-29T14:23:06.218Z",
             "description": "[AbstractEmu](https://attack.mitre.org/software/S1061) can modify system settings to give itself device administrator privileges.(Citation: lookout_abstractemu_1021)",
             "relationship_type": "uses",
             "source_ref": "malware--2aec175b-4429-4048-8e09-3ef6cbecfc64",
             "target_ref": "attack-pattern--9c049d7b-c92a-4733-9381-27e2bd2ccadc",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

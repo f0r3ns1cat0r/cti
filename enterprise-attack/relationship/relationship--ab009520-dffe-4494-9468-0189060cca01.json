@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d3ce5bca-0bf4-4089-8fba-2efd06f194e5",
+    "id": "bundle--d732904a-8ad6-4e66-ad84-e7b034161fd7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ab009520-dffe-4494-9468-0189060cca01",
             "created": "2021-03-15T15:05:13.845Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Leonardo Turla Penquin May 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:38:42.486Z",
+            "modified": "2026-04-29T14:23:06.158Z",
             "description": "[Penquin](https://attack.mitre.org/software/S0587) can remove strings from binaries.(Citation: Leonardo Turla Penquin May 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--d18cb958-f4ad-4fb3-bb4f-e8994d206550",
             "target_ref": "attack-pattern--b0533c6e-8fea-4788-874f-b799cacc4b92",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

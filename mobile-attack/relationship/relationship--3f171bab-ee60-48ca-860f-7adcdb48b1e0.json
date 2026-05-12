@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--366e4edb-6a5b-43bf-8b91-0f0e94f35c2a",
+    "id": "bundle--a23174cb-f8fa-497f-8176-8daea99cec3d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T02:04:07.171Z",
+            "modified": "2026-04-29T14:23:06.011Z",
             "description": "[DocSwap](https://attack.mitre.org/software/S9005) has checked for the `READ_SMS` and `RECEIVE_SMS` permissions.(Citation: EnkiWhiteHat_KimsukyDOCSWAP_Dec2025)(Citation: S2W_DocSwap_Mar2025) [DocSwap](https://attack.mitre.org/software/S9005) also has the ability to send SMS information, including the sender or receiver, the message content, and the timestamp.(Citation: S2W_DocSwap_Mar2025)",
             "relationship_type": "uses",
             "source_ref": "malware--3dbef387-12df-4547-9dd3-075c7ffec9e3",

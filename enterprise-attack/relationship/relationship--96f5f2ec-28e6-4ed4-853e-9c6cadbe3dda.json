@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2e21c7b2-3bcd-4b2f-82e5-c9a5eebcb089",
+    "id": "bundle--2d6d790b-62b8-4272-9f71-4f0d9cf475ee",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--96f5f2ec-28e6-4ed4-853e-9c6cadbe3dda",
             "created": "2020-08-24T14:27:37.302Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET PipeMon May 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:00:51.521Z",
+            "modified": "2026-04-29T14:23:06.131Z",
             "description": "[PipeMon](https://attack.mitre.org/software/S0501) can send time zone information from a compromised host to C2.(Citation: ESET PipeMon May 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--8393dac0-0583-456a-9372-fd81691bca20",
             "target_ref": "attack-pattern--f3c544dc-673c-4ef3-accb-53229f1ae077",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

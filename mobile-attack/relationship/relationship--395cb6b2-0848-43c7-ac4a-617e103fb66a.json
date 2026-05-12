@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--81621dbf-a6da-4533-89d5-ac3c7aa28512",
+    "id": "bundle--680a46fb-ccc4-407f-a8eb-39564622cea1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--395cb6b2-0848-43c7-ac4a-617e103fb66a",
             "created": "2020-11-20T16:37:28.591Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec GoldenCup",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:48:01.358Z",
+            "modified": "2026-04-29T14:23:05.998Z",
             "description": "[Golden Cup](https://attack.mitre.org/software/S0535) has communicated with the C2 using MQTT and HTTP.(Citation: Symantec GoldenCup)",
             "relationship_type": "uses",
             "source_ref": "malware--f3975cc0-72bc-4308-836e-ac701b83860e",
             "target_ref": "attack-pattern--2282a98b-5049-4f61-9381-55baca7c1add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

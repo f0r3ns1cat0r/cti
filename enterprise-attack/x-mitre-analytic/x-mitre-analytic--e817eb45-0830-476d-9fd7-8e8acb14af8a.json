@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--21c539f8-9879-4af8-9337-5fcb66c42979",
+    "id": "bundle--406941c8-eba4-41bf-968c-ae7a5a37a5d3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:33:35.460Z",
+            "modified": "2026-05-12T16:30:18.383Z",
             "name": "Analytic 2034",
             "description": "Detects consent grants, password resets, role changes, external sharing, or token creation shortly after user interaction with messages, invites, or help desk workflows. Emphasis is placed on unusual requester relationships, new device context, or off-hours approvals.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

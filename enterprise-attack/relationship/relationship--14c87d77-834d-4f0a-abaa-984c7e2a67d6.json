@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1b5bde81-4ecc-4931-a21f-7db404aea863",
+    "id": "bundle--9bcc2471-5783-4f9f-92a8-e8635a2eaf71",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--14c87d77-834d-4f0a-abaa-984c7e2a67d6",
             "created": "2025-12-16T00:09:20.339Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SophosGnGal_SystemBC_Dec2020",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-12-16T00:09:20.339Z",
+            "modified": "2026-04-29T14:23:05.932Z",
             "description": "[SystemBC](https://attack.mitre.org/software/S9001) has used `cmd.exe` to execute VBS scripts, BAT scripts and CMD scripts.(Citation: SophosGnGal_SystemBC_Dec2020)",
             "relationship_type": "uses",
             "source_ref": "malware--39643fb9-00c1-4a45-85e5-801a3f2665d1",

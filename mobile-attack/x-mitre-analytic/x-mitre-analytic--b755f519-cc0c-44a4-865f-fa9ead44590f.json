@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--74a445d8-1ad8-4f32-aaec-ed5ee46cc621",
+    "id": "bundle--a31a2804-245e-44f3-8a7b-1c490670d312",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-29T18:00:59.178Z",
+            "modified": "2026-05-12T16:30:18.381Z",
             "name": "Analytic 1684",
             "description": "Defender correlates attempts to access other apps\u2019 data via shared containers (App Groups), Photos/Files providers, pasteboard abuse, or jailbroken cross-container reads, followed by aggregation/packaging and optional exfil/share. Sequence: capability/consent (TCC/entitlements) \u2192 target discovery (AppGroup/Photos/Files enumeration, URL schemes) \u2192 bulk read from shared/foreign container or provider \u2192 package/encode \u2192 exfil/share.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

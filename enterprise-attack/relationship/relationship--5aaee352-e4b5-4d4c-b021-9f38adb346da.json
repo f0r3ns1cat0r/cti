@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fd16a6e9-91cd-4a23-a25a-280f738eae9b",
+    "id": "bundle--b8c2a3c6-a269-4ab1-a31f-bbff60fd7ba6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5aaee352-e4b5-4d4c-b021-9f38adb346da",
             "created": "2019-05-28T16:53:41.745Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "IBM TA505 April 2020",
@@ -33,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T15:50:34.669Z",
+            "modified": "2026-04-29T14:23:06.049Z",
             "description": "[TA505](https://attack.mitre.org/groups/G0092) has used VBS for code execution.(Citation: Proofpoint TA505 Sep 2017)(Citation: Proofpoint TA505 June 2018)(Citation: Trend Micro TA505 June 2019)(Citation: IBM TA505 April 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7eda3dd8-b09b-4705-8090-c2ad9fb8c14d",

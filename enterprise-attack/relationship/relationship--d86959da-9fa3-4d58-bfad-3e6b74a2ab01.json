@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7716af14-cef6-47c9-b9b7-f972e6099853",
+    "id": "bundle--4d777e73-c7ed-4697-ae13-e08b4f5f025e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d86959da-9fa3-4d58-bfad-3e6b74a2ab01",
             "created": "2025-01-17T20:07:04.470Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "S2W Troll Stealer 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:50:33.015Z",
+            "modified": "2026-04-29T14:23:06.221Z",
             "description": "[Troll Stealer](https://attack.mitre.org/software/S1196) creates and can execute a BAT script that will delete the malware.(Citation: S2W Troll Stealer 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--d6748457-75c2-4989-a41f-2d017994057e",
             "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

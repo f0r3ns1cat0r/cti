@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--40304cf3-9bf7-47c1-8803-8ea5d07438e4",
+    "id": "bundle--60dbd705-2303-4b08-aa8c-c4e25f84e0cb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T16:24:20.008Z",
+            "modified": "2026-04-29T14:23:06.125Z",
             "description": "[LODEINFO](https://attack.mitre.org/software/S9020) can inject shellcode into the memory of compromised hosts.(Citation: Kaspersky LODEINFO Part II OCT 2022)(Citation: ESET MirrorFace DEC 2022)(Citation: ITOCHU LODEINFO JAN 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--7908f855-5b5b-4d6a-acbc-af6b45ec27ad",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5729947c-be4a-4ec2-93ea-ec08fa7dc550",
+    "id": "bundle--03927896-33f7-4362-9d7b-430a8d70c836",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T12:51:01.019Z",
+            "modified": "2026-04-29T14:23:06.161Z",
             "description": "[IronWind](https://attack.mitre.org/software/S9029) can deobfuscate the next stage payload using Base64 and XOR operations with the key \"53\".(Citation: Check Point Wirte NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--089aa00a-99ac-46b4-9cf8-4224d463566d",

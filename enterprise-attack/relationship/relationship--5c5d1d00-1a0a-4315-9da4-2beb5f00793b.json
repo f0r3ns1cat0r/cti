@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7586392f-0742-4c8c-ab20-499b07c95819",
+    "id": "bundle--5891bc66-5429-4513-834b-34df2fb63fdc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5c5d1d00-1a0a-4315-9da4-2beb5f00793b",
             "created": "2022-08-24T15:46:00.025Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MalwareBytes SideCopy Dec 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:17:47.613Z",
+            "modified": "2026-04-29T14:23:06.051Z",
             "description": "[SideCopy](https://attack.mitre.org/groups/G1008) has used compromised domains to host its malicious payloads.(Citation: MalwareBytes SideCopy Dec 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--03be849d-b5a2-4766-9dda-48976bae5710",
             "target_ref": "attack-pattern--3ee16395-03f0-4690-a32e-69ce9ada0f9e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

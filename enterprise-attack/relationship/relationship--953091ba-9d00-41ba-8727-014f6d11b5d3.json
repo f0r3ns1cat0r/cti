@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e0a689c3-a6ff-47b2-9b88-f655d1bad695",
+    "id": "bundle--fab80464-9f87-4a9e-95b0-0b5e355e2f91",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--953091ba-9d00-41ba-8727-014f6d11b5d3",
             "created": "2021-10-01T21:53:33.692Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Volexity InkySquid BLUELIGHT August 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:00:29.816Z",
+            "modified": "2026-04-29T14:23:06.128Z",
             "description": "[BLUELIGHT](https://attack.mitre.org/software/S0657) can harvest cookies from Internet Explorer, Edge, Chrome, and Naver Whale browsers.(Citation: Volexity InkySquid BLUELIGHT August 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--8bd47506-29ae-44ea-a5c1-c57e8a1ab6b0",
             "target_ref": "attack-pattern--10ffac09-e42d-4f56-ab20-db94c67d76ff",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

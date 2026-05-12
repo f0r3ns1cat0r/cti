@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--86c326ea-3019-4542-994b-1bb50dd5002b",
+    "id": "bundle--07dcbc74-f4f3-44ee-aa01-a6650845fec4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--094a2284-eeab-47fd-b6fb-6351d98330aa",
             "created": "2020-11-06T18:40:38.198Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Bumblebee August 2022",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:55:18.139Z",
+            "modified": "2026-04-29T14:23:05.916Z",
             "description": "[Cobalt Strike](https://attack.mitre.org/software/S0154) can start a VNC-based remote desktop server and tunnel the connection through the already established C2 channel.(Citation: cobaltstrike manual)(Citation: Cybereason Bumblebee August 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
             "target_ref": "attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

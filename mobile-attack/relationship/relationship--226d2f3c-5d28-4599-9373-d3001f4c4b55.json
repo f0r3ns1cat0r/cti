@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eaccbd14-0f93-49f9-ba9c-0f7712f45893",
+    "id": "bundle--ff3f839b-d3c8-491f-bd1e-c9cc8d152a0e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--226d2f3c-5d28-4599-9373-d3001f4c4b55",
             "created": "2025-09-18T14:38:43.084Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ZimperiumGupta_RatMilad_Oct2022",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-18T14:38:43.084Z",
+            "modified": "2026-04-29T14:23:05.952Z",
             "description": "[RatMilad](https://attack.mitre.org/software/S1241) has listed files and pictures on the device starting from `/mnt/sdcard/`.(Citation: ZimperiumGupta_RatMilad_Oct2022) ",
             "relationship_type": "uses",
             "source_ref": "malware--6ceb0644-0ae9-4ee1-a659-3888687cb03b",

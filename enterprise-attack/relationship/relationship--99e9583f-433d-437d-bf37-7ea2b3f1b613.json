@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--04e30c6d-618a-4120-aed0-eb2ea679928c",
+    "id": "bundle--03f18d56-5afa-4c93-a97c-2e0a52abc732",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--99e9583f-433d-437d-bf37-7ea2b3f1b613",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Secureworks BRONZE BUTLER Oct 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:01:26.605Z",
+            "modified": "2026-04-29T14:23:06.135Z",
             "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has compressed data into password-protected RAR archives prior to exfiltration.(Citation: Secureworks BRONZE BUTLER Oct 2017)(Citation: Trend Micro Tick November 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
             "target_ref": "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

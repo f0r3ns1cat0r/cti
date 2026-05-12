@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6eacad4b-32a7-4ef5-a8d2-835a4d4f784f",
+    "id": "bundle--b3450962-54d8-4e0a-9e50-6f3c99b5634b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--3f42c6bd-332d-40b0-9e5f-ead557d021c9",
             "created": "2022-10-11T15:44:11.541Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelOne Aoqin Dragon June 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:09:46.171Z",
+            "modified": "2026-04-29T14:23:06.011Z",
             "description": "[Aoqin Dragon](https://attack.mitre.org/groups/G1007) has used the Themida packer to obfuscate malicious payloads.(Citation: SentinelOne Aoqin Dragon June 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--64d5f96a-f121-4d19-89f6-6709f5c49faa",
             "target_ref": "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4dc343c9-5b59-484a-af4f-1a15944a4cfc",
+    "id": "bundle--59263565-194a-4051-ba04-a4daf3a74e3c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T14:56:53.461Z",
+            "modified": "2026-04-29T14:23:05.945Z",
             "description": "[LODEINFO](https://attack.mitre.org/software/S9020) can use legitimate EXE files to sideload malicious DLLs.(Citation: Kaspersky LODEINFO OCT 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--7908f855-5b5b-4d6a-acbc-af6b45ec27ad",

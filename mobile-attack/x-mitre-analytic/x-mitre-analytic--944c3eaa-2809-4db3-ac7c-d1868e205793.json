@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--240c494f-8dbb-4e6d-a254-81c0e5a551d0",
+    "id": "bundle--b3806ca3-3eb6-4662-aca7-094852a82f76",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:30:29.495Z",
+            "modified": "2026-05-12T16:30:18.380Z",
             "name": "Analytic 1842",
             "description": "Correlates (1) suppression or disablement of launcher-visible application components or effective reduction of user-facing launcher presence, (2) persistence of installed application state after icon suppression, and (3) continued runtime activity such as background execution, framework use, sensor access, or network communication after the icon becomes unavailable or is replaced by reduced-discoverability launcher behavior. The defender observes a causal chain where an app removes or reduces its launcher visibility while remaining operational and continuing meaningful activity.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

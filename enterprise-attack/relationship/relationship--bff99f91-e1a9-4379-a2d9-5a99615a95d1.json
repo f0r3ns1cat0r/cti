@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a551bf41-8dd5-4e8b-b539-a85931054ff5",
+    "id": "bundle--0db9b18a-27e0-4745-b2e6-d0d794d8a495",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bff99f91-e1a9-4379-a2d9-5a99615a95d1",
             "created": "2020-09-22T19:41:27.951Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Secureworks REvil September 2019",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:26:46.060Z",
+            "modified": "2026-04-29T14:23:06.188Z",
             "description": "(Citation: Secureworks REvil September 2019)(Citation: Secureworks GandCrab and REvil September 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c77c5576-ca19-42ed-a36f-4b4486a84133",
             "target_ref": "malware--ac61f1f9-7bb1-465e-9b8a-c2ce8e88baf5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

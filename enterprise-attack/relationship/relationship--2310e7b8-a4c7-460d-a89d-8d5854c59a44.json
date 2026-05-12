@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--82ea65ec-4a58-4b11-b4b4-c3d7c3beb1c2",
+    "id": "bundle--f9345c08-2a19-4fb7-980c-8b57e7f5d7b0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--2310e7b8-a4c7-460d-a89d-8d5854c59a44",
             "created": "2022-07-25T17:50:47.801Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelOne Aoqin Dragon June 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:02:19.562Z",
+            "modified": "2026-04-29T14:23:05.953Z",
             "description": "[Mongall](https://attack.mitre.org/software/S1026) has the ability to decrypt its payload prior to execution.(Citation: SentinelOne Aoqin Dragon June 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--6fb36c6f-bb3d-4ed6-9471-cb9933e5c154",
             "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

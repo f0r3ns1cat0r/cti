@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eb03330a-9bd5-4cf2-b00e-a94bf6d6a3fb",
+    "id": "bundle--79dafb58-8b56-4d80-9ad3-e0e3664bf08b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c5e0e6d9-b7ac-48b2-b22f-d3a3efd1f8f0",
             "created": "2024-05-22T20:22:42.478Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelOne Agrius 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:45:52.055Z",
+            "modified": "2026-04-29T14:23:06.196Z",
             "description": "[Apostle](https://attack.mitre.org/software/S1133) achieves persistence by creating a scheduled task, such as <code>MicrosoftCrashHandlerUAC</code>.(Citation: SentinelOne Agrius 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--48d96fa0-d027-45aa-a8c3-5d09f65d596d",
             "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

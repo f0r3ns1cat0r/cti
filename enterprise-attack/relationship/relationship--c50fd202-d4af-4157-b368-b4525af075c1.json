@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d05681ac-c73d-41da-920f-1a8b33b0547a",
+    "id": "bundle--dd79e342-d8d1-4ed8-a800-e37d870edf38",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c50fd202-d4af-4157-b368-b4525af075c1",
             "created": "2019-01-29T18:55:20.860Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Fortinet Remcos Feb 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:09:11.419Z",
+            "modified": "2026-04-29T14:23:06.194Z",
             "description": "[Remcos](https://attack.mitre.org/software/S0332) has a command for keylogging.(Citation: Fortinet Remcos Feb 2017)(Citation: Talos Remcos Aug 2018)",
             "relationship_type": "uses",
             "source_ref": "tool--7cd0bc75-055b-4098-a00e-83dc8beaff14",
             "target_ref": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

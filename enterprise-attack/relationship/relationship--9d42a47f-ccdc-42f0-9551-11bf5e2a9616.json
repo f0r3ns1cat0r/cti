@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cbf61c51-2743-4da0-8858-d7abb2f9d757",
+    "id": "bundle--2511e163-10aa-4dd2-a7b9-d26b4a643d25",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9d42a47f-ccdc-42f0-9551-11bf5e2a9616",
             "created": "2019-05-02T00:08:18.466Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cylance Shaheen Nov 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:02:06.970Z",
+            "modified": "2026-04-29T14:23:06.139Z",
             "description": "[The White Company](https://attack.mitre.org/groups/G0089) has the ability to delete its malware entirely from the target system.(Citation: Cylance Shaheen Nov 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--6688d679-ccdb-4f12-abf6-c7545dd767a4",
             "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f99f5c17-26ce-4542-a6e9-3dc04c02db0f",
+    "id": "bundle--8e867e95-68f7-46e9-bdc5-702a50323846",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:08:44.411Z",
+            "modified": "2026-04-29T14:23:06.131Z",
             "description": "[ZxShell](https://attack.mitre.org/software/S0412) can kill AV products' processes.(Citation: Talos ZxShell Oct 2014) ",
             "relationship_type": "uses",
             "source_ref": "malware--cfc75b0d-e579-40ae-ad07-a1ce00d49a6c",

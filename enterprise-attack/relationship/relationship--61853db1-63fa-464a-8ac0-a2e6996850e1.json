@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b2f139a8-0144-496e-9bbc-a4184d898cfa",
+    "id": "bundle--ba44c541-abb9-4b99-808d-6800926dfb9d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T16:59:57.060Z",
+            "modified": "2026-04-29T14:23:06.058Z",
             "description": "[AsyncRAT](https://attack.mitre.org/software/S1087) has been delivered via malicious email attachments.(Citation: Recorded Future TAG-144 AUG 2025)",
             "relationship_type": "uses",
             "source_ref": "tool--6a5947f3-1a36-4653-8734-526df3e1d28d",

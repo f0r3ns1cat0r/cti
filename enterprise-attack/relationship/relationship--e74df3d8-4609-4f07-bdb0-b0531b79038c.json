@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6764b398-ac39-42eb-8c15-6f40feb02719",
+    "id": "bundle--97d51ac9-fe1a-47d7-bb8e-2aa2526b2921",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T18:19:37.626Z",
+            "modified": "2026-04-29T14:23:06.240Z",
             "description": "[HiddenFace](https://attack.mitre.org/software/S9023) has the ability to decrypt its payload prior to execution.(Citation: ESET HiddenFace 2024)(Citation: JPCERT MirrorFace JUL 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--9edc41d1-a13d-4acf-b400-d47fb2f6809d",

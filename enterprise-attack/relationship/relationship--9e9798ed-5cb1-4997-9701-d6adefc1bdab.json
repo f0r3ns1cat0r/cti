@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6d6164f3-83cd-4bc0-837b-9a0168714ff6",
+    "id": "bundle--d2421f65-42f9-4fd6-a3cd-8846894fb52b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9e9798ed-5cb1-4997-9701-d6adefc1bdab",
             "created": "2025-01-14T23:07:44.823Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Recorded Future RedDelta 2025",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:35:36.634Z",
+            "modified": "2026-04-29T14:23:06.141Z",
             "description": "[Mustang Panda](https://attack.mitre.org/groups/G0129) activities during [RedDelta Modified PlugX Infection Chain Operations](https://attack.mitre.org/campaigns/C0047) largely focused on ways to install a variant of [PlugX](https://attack.mitre.org/software/S0013) on victim machines.(Citation: Recorded Future RedDelta 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--276671b5-5425-48db-ad65-c8c2564a969b",
             "target_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

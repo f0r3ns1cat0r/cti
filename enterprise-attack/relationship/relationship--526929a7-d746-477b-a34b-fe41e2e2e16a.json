@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e2700bd1-4cc0-42a2-9dff-4f16389cb9ef",
+    "id": "bundle--34b756cc-16e9-46af-8047-a1b1bc52b0ee",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T16:41:43.622Z",
+            "modified": "2026-04-29T14:23:06.038Z",
             "description": "[DOWNIISSA](https://attack.mitre.org/software/S9021) can download files to the compromised host.(Citation: Kaspersky LODEINFO OCT 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--eddb863e-fc77-41c1-86e9-5210d6d58b88",

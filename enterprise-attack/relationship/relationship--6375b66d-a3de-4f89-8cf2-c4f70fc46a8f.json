@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--11a58ee2-a584-4a4c-8d3f-76026da50d4e",
+    "id": "bundle--f9c11e30-400d-4ef7-9c86-8afcd36cc257",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6375b66d-a3de-4f89-8cf2-c4f70fc46a8f",
             "created": "2025-12-16T00:08:36.114Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SophosGnGal_SystemBC_Dec2020",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-12-16T00:08:36.114Z",
+            "modified": "2026-04-29T14:23:06.060Z",
             "description": "[SystemBC](https://attack.mitre.org/software/S9001) has utilized the `-WindowStyle Hidden -ep bypass -file `to conceal PowerShell windows.(Citation: SophosGnGal_SystemBC_Dec2020)  ",
             "relationship_type": "uses",
             "source_ref": "malware--39643fb9-00c1-4a45-85e5-801a3f2665d1",

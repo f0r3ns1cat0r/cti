@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--288f9fea-12eb-4497-877e-6d0be9fcd0a4",
+    "id": "bundle--c93c71a4-619c-426c-a6c5-28355765c6a2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ec2eb361-4544-4599-88a1-ba6c13268b08",
             "created": "2025-09-15T18:11:12.744Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CSIRT CTI MUSTANG PANDA PUBLOAD TONESHELL JAN 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-15T18:11:12.744Z",
+            "modified": "2026-04-29T14:23:06.246Z",
             "description": "[TONESHELL](https://attack.mitre.org/software/S1239) has been initiated using LNK files that were programmed to display a PDF icon to entice the victim to click on the file to execute an office.exe binary.(Citation: CSIRT CTI MUSTANG PANDA PUBLOAD TONESHELL JAN 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--2683fde8-1dc4-415c-94bd-9bb95cc5b7ff",

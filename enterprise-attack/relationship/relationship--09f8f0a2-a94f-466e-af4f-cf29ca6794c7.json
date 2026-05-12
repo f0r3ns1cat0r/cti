@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c94d1dfc-9603-495f-9cce-55904f7ad72a",
+    "id": "bundle--0f069684-e8b6-48a5-918e-7ee6c464335b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--09f8f0a2-a94f-466e-af4f-cf29ca6794c7",
             "created": "2024-09-23T20:41:55.525Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Huntio_GamaredonFlux_Apr2025",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-21T20:08:05.725Z",
+            "modified": "2026-04-29T14:23:05.917Z",
             "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has used VPS hosting providers for infrastructure outside of Russia.(Citation: unit42_gamaredon_dec2022)(Citation: ESET Gamaredon Sept2024)(Citation: Huntio_GamaredonFlux_Apr2025) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
             "target_ref": "attack-pattern--79da0971-3147-4af6-a4f5-e8cd447cd795",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

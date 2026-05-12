@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--627797cd-a385-46ce-bf2d-7018dbde6308",
+    "id": "bundle--200fbdf6-80eb-4780-a49d-6b50240f83c6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7a38509d-5468-4b8f-831e-a4233a36a845",
             "created": "2021-06-15T14:11:27.407Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Ransomware as a Service",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T16:26:04.866Z",
+            "modified": "2026-04-29T14:23:06.092Z",
             "description": "(Citation: CrowdStrike Wizard Spider October 2020)(Citation: Mandiant FIN12 Oct 2021)(Citation: Microsoft Ransomware as a Service)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",

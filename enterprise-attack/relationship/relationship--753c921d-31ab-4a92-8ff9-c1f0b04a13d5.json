@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f642b030-a22d-4404-ab88-62a643787046",
+    "id": "bundle--ebe1dfcd-f0ec-4b43-a81c-4020ced14b77",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--753c921d-31ab-4a92-8ff9-c1f0b04a13d5",
             "created": "2025-12-16T00:12:50.260Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SophosGnGal_SystemBC_Dec2020",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-12-16T00:12:50.260Z",
+            "modified": "2026-04-29T14:23:06.085Z",
             "description": "[SystemBC](https://attack.mitre.org/software/S9001) has the ability to enumerate running processes.(Citation: SophosGnGal_SystemBC_Dec2020)  ",
             "relationship_type": "uses",
             "source_ref": "malware--39643fb9-00c1-4a45-85e5-801a3f2665d1",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cb55d477-ce9a-44dc-99ce-f84966b5a6d3",
+    "id": "bundle--4f3d5a3c-6fb9-4850-9acd-417eeb88459b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9f00ebba-7e80-4495-8ba0-081e6a8cc0c8",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 Gorgon Group Aug 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:02:28.868Z",
+            "modified": "2026-04-29T14:23:06.142Z",
             "description": "[Gorgon Group](https://attack.mitre.org/groups/G0078) malware can deactivate security mechanisms in Microsoft Office by editing several keys and values under <code>HKCU\\Software\\Microsoft\\Office\\</code>.(Citation: Unit 42 Gorgon Group Aug 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--1f21da59-6a13-455b-afd0-d58d0a5a7d27",
             "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

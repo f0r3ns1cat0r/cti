@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a1d195fc-269e-41b2-be0b-da4a466f1a77",
+    "id": "bundle--d672a0d2-6609-4ee1-b54e-35ab4fcefcbc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--643a223a-76fa-4a34-9197-3acbc5aff205",
             "created": "2023-08-01T20:44:51.356Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T16:08:58.160Z",
+            "modified": "2026-04-29T14:23:06.061Z",
             "description": "\n[Volt Typhoon](https://attack.mitre.org/groups/G1017) has used `netstat -ano` on compromised hosts to enumerate network connections.(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)(Citation: Secureworks BRONZE SILHOUETTE May 2023)                                                   ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",

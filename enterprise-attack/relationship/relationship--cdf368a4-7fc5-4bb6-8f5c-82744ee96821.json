@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--67f49504-f446-4494-a6d0-bf09b8c07888",
+    "id": "bundle--6f4f21d4-f747-46e8-a594-100c17f8c820",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cdf368a4-7fc5-4bb6-8f5c-82744ee96821",
             "created": "2024-11-26T21:03:34.049Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET OilRig Downloaders DEC 2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:47:57.899Z",
+            "modified": "2026-04-29T14:23:06.207Z",
             "description": "(Citation: ESET OilRig Downloaders DEC 2023)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
             "target_ref": "malware--b0381480-d5ba-4dd8-a39e-fb8f1afea3a0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

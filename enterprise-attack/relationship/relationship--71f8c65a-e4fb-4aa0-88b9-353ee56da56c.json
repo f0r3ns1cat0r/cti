@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--919fd6e7-5c35-4004-91b0-7d01f2b70701",
+    "id": "bundle--7f84a0c4-4019-4490-926d-ad7a49104458",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--71f8c65a-e4fb-4aa0-88b9-353ee56da56c",
             "created": "2025-10-17T11:41:14.002Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA Medusa Group Medusa Ransomware March 2025",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:13:50.181Z",
+            "modified": "2026-04-29T14:23:06.081Z",
             "description": "[Medusa Ransomware](https://attack.mitre.org/software/S1244) has the capability to terminate services related to backups, security, databases, communication, filesharing and websites.(Citation: CISA Medusa Group Medusa Ransomware March 2025)(Citation: Broadcom Medusa Ransomware Medusa Group March 2025)(Citation: Security Scorecard Medusa Ransomware January 2024) [Medusa Ransomware](https://attack.mitre.org/software/S1244) has also utilized the `taskkill /F /IM <process> /T` command to stop targeted processes and `net stop <process>` command to stop designated services.(Citation: Broadcom Medusa Ransomware Medusa Group March 2025)(Citation: Security Scorecard Medusa Ransomware January 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--28d93902-30e7-4436-8885-6d312c51c9a3",

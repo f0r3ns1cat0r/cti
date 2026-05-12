@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--131fa4a0-fa38-45ee-a92f-8400c971fd77",
+    "id": "bundle--c66b27f3-2a96-4835-89d1-923f9dff5dd4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--2caddf52-2bc2-4f75-90bb-0f292952ada6",
             "created": "2023-01-19T18:07:26.323Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "trendmicro_tianyspy_0122",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:47:42.315Z",
+            "modified": "2026-04-29T14:23:05.965Z",
             "description": "[TianySpy](https://attack.mitre.org/software/S1056) can utilize WebViews to display fake authentication pages that capture user credentials.(Citation: trendmicro_tianyspy_0122) ",
             "relationship_type": "uses",
             "source_ref": "malware--fd6d56b2-d84e-4d2a-b37d-d4678d3e08a6",
             "target_ref": "attack-pattern--4c58b7c6-a839-4789-bda9-9de33e4d4512",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

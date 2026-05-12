@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--55cd6c1c-00e9-46b1-a866-83fc7713c4d7",
+    "id": "bundle--78c26da5-b8a2-4821-9066-97cc81c744ab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7ac39d41-f859-447e-947b-5da935d30894",
             "created": "2019-06-05T14:33:01.036Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Fidelis njRAT June 2013",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:55:36.466Z",
+            "modified": "2026-04-29T14:23:06.093Z",
             "description": "[njRAT](https://attack.mitre.org/software/S0385) uses Base64 encoding for C2 traffic.(Citation: Fidelis njRAT June 2013)",
             "relationship_type": "uses",
             "source_ref": "malware--d906e6f7-434c-44c0-b51a-ed50af8f7945",
             "target_ref": "attack-pattern--04fd5427-79c7-44ea-ae13-11b24778ff1c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

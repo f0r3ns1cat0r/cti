@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--31533135-53ab-4449-9511-c26f5aebeeee",
+    "id": "bundle--d9732567-5d60-4a81-929f-75f704b8b179",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--afee7475-8e61-4bed-98f6-2cee6926e1c8",
             "created": "2020-02-20T18:50:53.671Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Disable NTLM Nov 2012",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:05:29.743Z",
+            "modified": "2026-04-29T14:23:06.165Z",
             "description": "Consider disabling or restricting NTLM.(Citation: Microsoft Disable NTLM Nov 2012)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--2f316f6c-ae42-44fe-adf8-150989e0f6d3",
             "target_ref": "attack-pattern--1644e709-12d2-41e5-a60f-3470991f5011",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

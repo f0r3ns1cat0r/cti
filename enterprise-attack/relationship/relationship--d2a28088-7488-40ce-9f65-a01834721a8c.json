@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1aa65c2b-08e3-476d-a21a-e688afbe5828",
+    "id": "bundle--7185a4a7-9ef1-4c8d-9086-64693a525fdf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d2a28088-7488-40ce-9f65-a01834721a8c",
             "created": "2025-10-01T20:56:00.021Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "BiZone Lizar May 2021",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-01T20:56:00.021Z",
+            "modified": "2026-04-29T14:23:06.213Z",
             "description": "[FIN7](https://attack.mitre.org/groups/G0046) has obtained and used tools such as [Impacket](https://attack.mitre.org/software/S0357), [Mimikatz](https://attack.mitre.org/software/S0002), and [PsExec](https://attack.mitre.org/software/S0029).(Citation: BiZone Lizar May 2021) ",
             "relationship_type": "uses",
             "source_ref": "malware--f74a5069-015d-4404-83ad-5ca01056c0dc",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8046cea5-e0de-4a25-a6e8-3f09b21c35c3",
+    "id": "bundle--a4649492-c074-4a2d-8fbf-58a07259f8c2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T23:21:02.804Z",
+            "modified": "2026-04-29T14:23:05.906Z",
             "description": "[SPAWNCHIMERA](https://attack.mitre.org/software/S9024) has searched for running processes to include web or dsmdm.(Citation: CISA SPAWNCHIMERA RESURGE February 2026)(Citation: Google UNC5221 BRICKSTORM SPAWNCHIMERA April 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--d1974f35-0e06-478e-bc74-7530545d814b",

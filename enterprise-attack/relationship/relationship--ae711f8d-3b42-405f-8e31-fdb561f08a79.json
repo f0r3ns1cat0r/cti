@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--95695790-b083-455e-9206-b5e3e0773b59",
+    "id": "bundle--3dfdabe5-18a1-4b76-9096-8a63ddfe21b6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ae711f8d-3b42-405f-8e31-fdb561f08a79",
             "created": "2025-09-17T16:06:46.570Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "McAfee RedLine Stealer April 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-17T16:06:46.570Z",
+            "modified": "2026-04-29T14:23:06.162Z",
             "description": "[RedLine Stealer](https://attack.mitre.org/software/S1240) has been installed via MSI Installer.(Citation: McAfee RedLine Stealer April 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--8c8e8b01-b4b1-479b-a7a9-78c40a12b916",

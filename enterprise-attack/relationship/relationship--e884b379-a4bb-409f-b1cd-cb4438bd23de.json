@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--be755ba2-9226-46bf-97c9-c00c62b2e108",
+    "id": "bundle--c6b85b75-9c3c-4254-a7be-6fd8aed2d5c4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e884b379-a4bb-409f-b1cd-cb4438bd23de",
             "created": "2025-10-17T18:49:10.472Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Esentire ContagiousInterview BeaverTail InvisibleFerret November 2024",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-17T18:49:10.472Z",
+            "modified": "2026-04-29T14:23:06.242Z",
             "description": "[InvisibleFerret](https://attack.mitre.org/software/S1245) has utilized the XOR and Base64 encoding for each of its modules.(Citation: ESET Contagious Interview BeaverTail InvisibleFerret February 2025) [InvisibleFerret](https://attack.mitre.org/software/S1245) has also obfuscated files with a combination of zlib, Base64 and reverse string order.(Citation: Esentire ContagiousInterview BeaverTail InvisibleFerret November 2024) [InvisibleFerret](https://attack.mitre.org/software/S1245) has also utilized the XOR and Base64 encoding some of its Python scripts.(Citation: PaloAlto ContagiousInterview BeaverTail InvisibleFerret November 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--1dac60f2-7d53-4a3e-95d1-cb2e875d5491",

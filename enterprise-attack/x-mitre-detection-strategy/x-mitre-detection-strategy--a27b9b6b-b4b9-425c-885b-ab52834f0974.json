@@ -1,11 +1,10 @@
 {
     "type": "bundle",
-    "id": "bundle--71f1ac76-d51c-47f1-8729-055c05fc0096",
+    "id": "bundle--e4f06d4f-5d6c-4513-82fc-9b0cc902266c",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--a27b9b6b-b4b9-425c-885b-ab52834f0974",
             "created": "2026-04-23T14:58:03.627Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -20,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:23:36.872Z",
+            "modified": "2026-05-12T16:30:18.390Z",
             "name": "Detection of Audio-Visual Content",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,

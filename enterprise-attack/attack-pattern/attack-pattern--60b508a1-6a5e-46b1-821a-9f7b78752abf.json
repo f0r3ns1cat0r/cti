@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bb43d1b5-935e-4f41-b3f2-389d269bb341",
+    "id": "bundle--24a9724a-04b0-4090-85f8-be0ccebbb176",
     "spec_version": "2.0",
     "objects": [
         {
@@ -49,7 +49,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:50.819Z",
+            "modified": "2026-05-12T15:12:00.635Z",
             "name": "Private Keys",
             "description": "Adversaries may search for private key certificate files on compromised systems for insecurely stored credentials. Private cryptographic keys and certificates are used for authentication, encryption/decryption, and digital signatures.(Citation: Wikipedia Public Key Crypto) Common key and certificate file extensions include: .key, .pgp, .gpg, .ppk., .p12, .pem, .pfx, .cer, .p7b, .asc. \n\nAdversaries may also look in common key directories, such as <code>~/.ssh</code> for SSH keys on * nix-based systems or <code>C:&#92;Users&#92;(username)&#92;.ssh&#92;</code> on Windows. Adversary tools may also search compromised systems for file extensions relating to cryptographic keys and certificates.(Citation: Kaspersky Careto)(Citation: Palo Alto Prince of Persia)\n\nWhen a device is registered to Entra ID, a device key and a transport key are generated and used to verify the device\u2019s identity.(Citation: Microsoft Primary Refresh Token) An adversary with access to the device may be able to export the keys in order to impersonate the device.(Citation: AADInternals Azure AD Device Identities)\n\nOn network devices, private keys may be exported via [Network Device CLI](https://attack.mitre.org/techniques/T1059/008) commands such as `crypto pki export`.(Citation: cisco_deploy_rsa_keys) \n\nSome private keys require a password or passphrase for operation, so an adversary may also use [Input Capture](https://attack.mitre.org/techniques/T1056) for keylogging or attempt to [Brute Force](https://attack.mitre.org/techniques/T1110) the passphrase off-line. These private keys can be used to authenticate to [Remote Services](https://attack.mitre.org/techniques/T1021) like SSH or for use in decrypting other collected files such as email.",
             "kill_chain_phases": [
@@ -58,7 +58,7 @@
                     "phase_name": "credential-access"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_contributors": [
                 "Itzik Kotler, SafeBreach",
                 "Austin Clark, @c2defense"

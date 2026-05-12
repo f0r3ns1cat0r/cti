@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--13403d17-64fd-45a3-805d-d75ddd5eec3d",
+    "id": "bundle--ae7258c8-dbf2-4250-b221-44bb1a139cdf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -44,7 +44,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T23:39:45.558Z",
+            "modified": "2026-04-29T14:23:06.231Z",
             "description": "[BRICKSTORM](https://attack.mitre.org/software/S9015) has leveraged SOCKS Proxy to pivot into victim networks in attempts to resemble legitimate administrative traffic.(Citation: CrowdStrike BRICKSTORM WARP PANDA UNC5221 December 2025)(Citation: CISA BRICKSTORM UNC5221 AR25-338A February 2026)(Citation: Picus Security BRICKSTORM UNC5221 October 2025)(Citation: Google UNC5221 BRICKSTORM SPAWNCHIMERA April 2024)(Citation: NVISO BRICKSTORM April 2025)(Citation: Google BRICKSTORM September 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--0450ed20-e9a7-4799-b601-2f2710300796",

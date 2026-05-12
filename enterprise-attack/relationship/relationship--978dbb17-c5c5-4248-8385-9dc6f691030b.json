@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0121d99e-eb89-489f-8dff-b0ad7634deae",
+    "id": "bundle--09775459-0be5-4cc6-995b-6b42e63f57ea",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--978dbb17-c5c5-4248-8385-9dc6f691030b",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 OopsIE! Feb 2018",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:00:58.900Z",
+            "modified": "2026-04-29T14:23:06.132Z",
             "description": "[OopsIE](https://attack.mitre.org/software/S0264) can download files from its C2 server to the victim's machine.(Citation: Unit 42 OopsIE! Feb 2018)(Citation: Unit 42 OilRig Sept 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--8e101fdd-9f7f-4916-bb04-6bd9e94c129c",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

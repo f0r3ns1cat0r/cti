@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--447633ab-c945-408f-8ae1-6887f605d73f",
+    "id": "bundle--3b41a491-3811-4c98-a36a-b4d3f47c1ee9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--447f5271-30fc-4d12-8b60-b0af862b9b03",
             "created": "2024-03-06T19:30:32.646Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Volexity Ivanti Zero-Day Exploitation January 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:11:14.889Z",
+            "modified": "2026-04-29T14:23:06.019Z",
             "description": "[GLASSTOKEN](https://attack.mitre.org/software/S1117) can use PowerShell for command execution.(Citation: Volexity Ivanti Zero-Day Exploitation January 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--554e010d-726b-439d-9a1a-f60fff0cc109",
             "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

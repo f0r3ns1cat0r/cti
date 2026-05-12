@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c4b4a129-c83f-4a47-984c-674b291c0695",
+    "id": "bundle--a9d5f0e4-bd9e-415e-97a0-4736348ffd32",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e7187197-205f-496f-b41c-34d57c52a997",
             "created": "2022-09-29T20:10:02.778Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "DFIR Conti Bazar Nov 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:54:15.853Z",
+            "modified": "2026-04-29T14:23:06.240Z",
             "description": "During [C0015](https://attack.mitre.org/campaigns/C0015), the threat actors used WMI to load [Cobalt Strike](https://attack.mitre.org/software/S0154) onto additional hosts within a compromised network.(Citation: DFIR Conti Bazar Nov 2021)",
             "relationship_type": "uses",
             "source_ref": "campaign--78068e68-4124-4243-b6f4-76e4e5be8a06",
             "target_ref": "attack-pattern--bf90d72c-c00b-45e3-b3aa-68560560d4c5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

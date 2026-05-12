@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--52201769-010b-4dda-b650-2d5c7f5c041f",
+    "id": "bundle--9adf2bfe-c683-4182-abc3-de459da5f930",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e1269d18-6cc9-45cc-9c99-06f765bea366",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Elderwood Sept 2012",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:52:44.078Z",
+            "modified": "2026-04-29T14:23:06.232Z",
             "description": "[Elderwood](https://attack.mitre.org/groups/G0066) has used exploitation of endpoint software, including Microsoft Internet Explorer Adobe Flash vulnerabilities, to gain execution. They have also used zero-day exploits.(Citation: Symantec Elderwood Sept 2012)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
             "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0c439c8c-03ed-4ab9-aa14-db3723f96d0d",
+    "id": "bundle--e377f7af-106f-412f-8f09-fcb69cfd62e2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:58:52.874Z",
+            "modified": "2026-04-29T14:23:06.061Z",
             "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has incorporated code into several tools that attempts to terminate anti-virus processes.(Citation: Trend Micro Tick November 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",

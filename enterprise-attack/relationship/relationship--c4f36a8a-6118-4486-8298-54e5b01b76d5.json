@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b3919a25-da16-4cf8-8a01-b445ba3d3d98",
+    "id": "bundle--6830f0f7-49e4-446a-95ad-9fdc5ef26743",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c4f36a8a-6118-4486-8298-54e5b01b76d5",
             "created": "2024-12-17T01:53:25.369Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trustwave BlackByte 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:45:36.691Z",
+            "modified": "2026-04-29T14:23:06.194Z",
             "description": "[BlackByte Ransomware](https://attack.mitre.org/software/S1180) uses the `mountvol.exe` command to mount volume names and leverages the Microsoft Discretionary Access Control List tool, `icacls.exe`, to grant the group to \u201cEveryone\u201d full access to the root of the drive.(Citation: Trustwave BlackByte 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--9454bb5d-3bdb-40f9-a878-b5fb446ded3d",
             "target_ref": "attack-pattern--34e793de-0274-4982-9c1a-246ed1c19dee",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

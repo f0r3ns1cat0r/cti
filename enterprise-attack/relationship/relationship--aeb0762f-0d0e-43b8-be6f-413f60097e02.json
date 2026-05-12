@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--08bf3e25-7b19-4f30-9d5e-f53537c2d703",
+    "id": "bundle--b430dd15-e093-4f57-8434-02120059eaa3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--aeb0762f-0d0e-43b8-be6f-413f60097e02",
             "created": "2019-01-29T19:18:28.824Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro DarkComet Sept 2014",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:05:16.344Z",
+            "modified": "2026-04-29T14:23:06.163Z",
             "description": "[DarkComet](https://attack.mitre.org/software/S0334) adds several Registry entries to enable automatic execution at every system startup.(Citation: TrendMicro DarkComet Sept 2014)(Citation: Malwarebytes DarkComet March 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--53ab35c2-d00e-491a-8753-41d35ae7e547",
             "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

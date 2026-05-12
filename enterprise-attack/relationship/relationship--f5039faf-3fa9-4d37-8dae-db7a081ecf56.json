@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--20a930aa-f11c-4df2-b1f3-5083a2cb6e07",
+    "id": "bundle--2966639c-ac1f-4e10-b35f-1c4fccadb34b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T09:44:40.476Z",
+            "modified": "2026-04-29T14:23:06.258Z",
             "description": "[PureCrypter](https://attack.mitre.org/software/S9019) has the ability to delay for a specified number of seconds before execution.(Citation: Zscaler PureCrypter JUN 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--6f22487c-dbbf-4a5b-85ca-a8c85e8f2f80",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--695f26af-803a-4ba3-babc-f5975de1e864",
+    "id": "bundle--a122b219-0498-4866-9551-e3b7d637a06e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -44,7 +44,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-15T20:07:21.724Z",
+            "modified": "2026-05-12T15:12:00.630Z",
             "name": "Mutual Exclusion",
             "description": "Adversaries may constrain execution or actions based on the presence of a mutex associated with malware. A mutex is a locking mechanism used to synchronize access to a resource. Only one thread or process can acquire a mutex at a given time.(Citation: Microsoft Mutexes)\n\nWhile local mutexes only exist within a given process, allowing multiple threads to synchronize access to a resource, system mutexes can be used to synchronize the activities of multiple processes.(Citation: Microsoft Mutexes) By creating a unique system mutex associated with a particular malware, adversaries can verify whether or not a system has already been compromised.(Citation: Sans Mutexes 2012)\n\nIn Linux environments, malware may instead attempt to acquire a lock on a mutex file. If the malware is able to acquire the lock, it continues to execute; if it fails, it exits to avoid creating a second instance of itself.(Citation: Intezer RedXOR 2021)(Citation: Deep Instinct BPFDoor 2023)\n\nMutex names may be hard-coded or dynamically generated using a predictable algorithm.(Citation: ICS Mutexes 2015)",
             "kill_chain_phases": [

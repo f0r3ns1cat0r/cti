@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--42c2031e-a525-419f-9b3e-69f2bcb581bb",
+    "id": "bundle--9b7f80ce-ed46-4eb0-a5ac-750a263b8b0a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4c06f698-1d15-4758-a38f-d3476ac65fa8",
             "created": "2025-10-21T23:09:34.751Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET EvasivePanda 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T23:09:34.751Z",
+            "modified": "2026-04-29T14:23:06.029Z",
             "description": "[Nightdoor](https://attack.mitre.org/software/S1147) can collect information about disk drives, their total and free space, and file system type.(Citation: ESET EvasivePanda 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--51f78dfc-52f9-424e-8753-bb4246188313",

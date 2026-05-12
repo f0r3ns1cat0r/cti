@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d661d72b-a9a8-4933-950d-d8704dcb9714",
+    "id": "bundle--2748ed4b-e123-4dfd-890e-51c55e6415d4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cf3ec188-0f5d-4f7b-837b-1bdb79508aa6",
             "created": "2025-10-22T03:21:09.613Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Reaver Nov 2017",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T03:21:09.613Z",
+            "modified": "2026-04-29T14:23:06.209Z",
             "description": "[Reaver](https://attack.mitre.org/software/S0172) collects volume serial number from the victim.(Citation: Palo Alto Reaver Nov 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--65341f30-bec6-4b1d-8abf-1a5620446c29",

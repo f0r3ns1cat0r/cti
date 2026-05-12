@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0b59a66f-622d-4e7b-b0fe-5119aa5ab74a",
+    "id": "bundle--034c6a22-322c-49f5-9265-a0248cd9dffc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a4710756-98de-4242-b908-f9a0d6148a97",
             "created": "2025-10-17T11:43:45.745Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Unit 42 Medusa Group Medusa Ransomware January 2024",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-17T11:43:45.745Z",
+            "modified": "2026-04-29T14:23:06.149Z",
             "description": "[Medusa Ransomware](https://attack.mitre.org/software/S1244) has searched for files within the victim environment for encryption and exfiltration.(Citation: Palo Alto Unit 42 Medusa Group Medusa Ransomware January 2024)(Citation: CISA Medusa Group Medusa Ransomware March 2025)(Citation: Security Scorecard Medusa Ransomware January 2024)  [Medusa Ransomware](https://attack.mitre.org/software/S1244) has also identified files associated with remote management services.(Citation: Palo Alto Unit 42 Medusa Group Medusa Ransomware January 2024)(Citation: CISA Medusa Group Medusa Ransomware March 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--28d93902-30e7-4436-8885-6d312c51c9a3",

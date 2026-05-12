@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--190d83a0-04fa-4cb2-80d8-346f4921b159",
+    "id": "bundle--0e8f1a78-28a3-4d4f-a87d-36e809901408",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-17T20:24:52.509Z",
+            "modified": "2026-05-12T16:30:18.381Z",
             "name": "Analytic 1771",
             "description": "The defender correlates communication to legitimate external web-service platforms with supervised managed-app context and device-state information showing that the traffic is inconsistent with the app's expected role, background-refresh profile, or user interaction timing. On iOS, the strongest reliable evidence is network telemetry tied to a managed app or device plus app state and supervision context, especially when traffic to social, collaboration, cloud-storage, or generic HTTPS platforms occurs shortly after background activity, while the device is locked, or without expected user-driven foreground execution. Direct low-level framework visibility is weaker than Android, so primary analytic confidence should be anchored to supervised app context plus network behavior rather than assumed host-level proof.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

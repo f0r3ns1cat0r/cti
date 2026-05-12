@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f48c645a-6480-41f0-abb8-f7712946ad48",
+    "id": "bundle--cb4c2ebd-17e4-4525-b481-852d4328e9d4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0b1c0282-8190-465a-9944-0874e3ee65f6",
             "created": "2025-09-18T14:40:36.756Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ZimperiumGupta_RatMilad_Oct2022",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-18T14:40:36.756Z",
+            "modified": "2026-04-29T14:23:05.918Z",
             "description": "[RatMilad](https://attack.mitre.org/software/S1241) has accessed the device\u2019s contact list.(Citation: ZimperiumGupta_RatMilad_Oct2022)",
             "relationship_type": "uses",
             "source_ref": "malware--6ceb0644-0ae9-4ee1-a659-3888687cb03b",

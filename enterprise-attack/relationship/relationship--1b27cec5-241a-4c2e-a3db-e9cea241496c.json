@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0aee46f3-0f7b-4d86-934c-ad6be060cec1",
+    "id": "bundle--e878398e-3b6e-4cca-a6f1-65e25c620828",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1b27cec5-241a-4c2e-a3db-e9cea241496c",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Operation Quantum Entanglement",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:00:06.073Z",
+            "modified": "2026-04-29T14:23:05.942Z",
             "description": "[HTRAN](https://attack.mitre.org/software/S0040) can proxy TCP socket connections to obfuscate command and control infrastructure.(Citation: Operation Quantum Entanglement)(Citation: NCSC Joint Report Public Tools)",
             "relationship_type": "uses",
             "source_ref": "tool--d5e96a35-7b0b-4c6a-9533-d63ecbda563e",
             "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

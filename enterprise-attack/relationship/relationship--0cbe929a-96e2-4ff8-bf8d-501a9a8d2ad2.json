@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0e221b89-b4eb-4e64-854c-4ccf122997f2",
+    "id": "bundle--6174ce7c-607e-4295-b40f-4ffb2a185afe",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0cbe929a-96e2-4ff8-bf8d-501a9a8d2ad2",
             "created": "2021-09-28T20:33:51.551Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Crowdstrike Qakbot October 2020",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:56:04.819Z",
+            "modified": "2026-04-29T14:23:05.920Z",
             "description": "[QakBot](https://attack.mitre.org/software/S0650) can identify remote systems through the <code>net view</code> command.(Citation: Crowdstrike Qakbot October 2020)(Citation: Kaspersky QakBot September 2021)(Citation: Trend Micro Black Basta October 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--edc5e045-5401-42bb-ad92-52b5b2ee0de9",
             "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bed33d29-5ec2-4bd5-bfc6-8205d6acd5c8",
+    "id": "bundle--c45ee50c-48ed-4545-94a3-16af26d29dcc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f0094ba8-a513-49bf-a5d7-961aaab13380",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco Group 72",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:56:39.368Z",
+            "modified": "2026-04-29T14:23:06.252Z",
             "description": "(Citation: Novetta-Axiom)(Citation: Cisco Group 72)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
             "target_ref": "malware--73a4793a-ce55-4159-b2a6-208ef29b326f",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

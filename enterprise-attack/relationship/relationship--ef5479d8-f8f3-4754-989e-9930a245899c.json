@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0a50c191-7334-4fa2-9b11-a60c969c2e74",
+    "id": "bundle--1262901a-e8c0-4f2c-83fb-fb745af90614",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ef5479d8-f8f3-4754-989e-9930a245899c",
             "created": "2020-11-17T20:53:33.488Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 Lucifer June 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:16:35.435Z",
+            "modified": "2026-04-29T14:23:06.251Z",
             "description": "[Lucifer](https://attack.mitre.org/software/S0532) can infect victims by brute forcing SMB.(Citation: Unit 42 Lucifer June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--54a73038-1937-4d71-a253-316e76d5413c",
             "target_ref": "attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

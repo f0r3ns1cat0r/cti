@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7629ae62-2a40-4b32-91ec-37fc619cf869",
+    "id": "bundle--a43e3ed3-36ce-4306-8c4e-f900f0de29aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4901215f-3cfb-4db3-9afb-4d063c1eb83a",
             "created": "2021-04-13T12:53:33.221Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ANSSI Sandworm January 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:46:13.324Z",
+            "modified": "2026-04-29T14:23:06.025Z",
             "description": "[P.A.S. Webshell](https://attack.mitre.org/software/S0598) can issue commands via HTTP POST.(Citation: ANSSI Sandworm January 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--4800d0f9-00aa-47cd-a4d2-92198585b8fd",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

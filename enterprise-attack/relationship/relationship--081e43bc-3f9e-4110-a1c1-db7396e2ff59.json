@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f9fdad62-8eec-4655-84c7-5e0f2b3aecc0",
+    "id": "bundle--2b2a3896-0d0e-4c8c-b98d-c31e38d31e84",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--081e43bc-3f9e-4110-a1c1-db7396e2ff59",
             "created": "2020-06-19T20:39:21.802Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Cobalt Kitty 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:33:16.322Z",
+            "modified": "2026-04-29T14:23:05.914Z",
             "description": "[Denis](https://attack.mitre.org/software/S0354) ran multiple system checks, looking for processor and register characteristics, to evade emulation and analysis.(Citation: Cybereason Cobalt Kitty 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--f25aab1a-0cef-4910-a85d-bb38b32ea41a",
             "target_ref": "attack-pattern--29be378d-262d-4e99-b00d-852d573628e6",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

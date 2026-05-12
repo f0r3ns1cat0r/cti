@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--741e6d4b-a903-4de0-90ec-1675de3b8e74",
+    "id": "bundle--aa8065be-1ad3-4dfe-8737-3379c6c60b00",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--47217be3-b80b-459c-acad-01fc0190e8ac",
             "created": "2026-02-16T15:58:18.776Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "EnkiWhiteHat_KimsukyDOCSWAP_Dec2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-02-16T15:58:18.776Z",
+            "modified": "2026-04-29T14:23:06.022Z",
             "description": "[DocSwap](https://attack.mitre.org/software/S9005) has checked for the `ACCESS_WIFI_STATE` and `CHANGE_WIFI_STATE` permissions.(Citation: EnkiWhiteHat_KimsukyDOCSWAP_Dec2025)",
             "relationship_type": "uses",
             "source_ref": "malware--3dbef387-12df-4547-9dd3-075c7ffec9e3",

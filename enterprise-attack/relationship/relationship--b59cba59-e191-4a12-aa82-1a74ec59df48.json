@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d4c0ec7f-869b-4a98-b394-8c5d987c76cf",
+    "id": "bundle--dfe0a958-a3ea-4650-bd29-2152783b4711",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b59cba59-e191-4a12-aa82-1a74ec59df48",
             "created": "2024-05-22T21:54:12.051Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelOne Agrius 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:41:31.056Z",
+            "modified": "2026-04-29T14:23:06.173Z",
             "description": "[DEADWOOD](https://attack.mitre.org/software/S1134) will set a timestamp value to determine when wiping functionality starts. When the timestamp is met on the system, a trigger file is created on the operating system allowing for execution to proceed. If the timestamp is in the past, the wiper will execute immediately.(Citation: SentinelOne Agrius 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--f2e6af17-3828-4f10-88e7-343591618ddb",
             "target_ref": "attack-pattern--f3c544dc-673c-4ef3-accb-53229f1ae077",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

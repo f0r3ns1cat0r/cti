@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--9b37eed9-5e3a-4ca5-a446-9b0647a39011",
+    "id": "bundle--c7b564d8-6a33-4bae-b2a4-4d6f8e219560",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--e3776b4e-00b0-44cd-9e77-5df960a979d7",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.695Z",
             "name": "Detection Strategy for Stored Data Manipulation across OS Platforms.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -31,8 +32,7 @@
                 "x-mitre-analytic--e08eb9fa-4a45-434b-9776-277bd545f1f7",
                 "x-mitre-analytic--425a3e89-ac22-4ff3-bc1e-ca1672113075",
                 "x-mitre-analytic--23b6aee9-90fc-46b8-bf8b-36043218f393"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--01629632-63e9-4c4b-baff-ba98b910401b",
+    "id": "bundle--f7e68708-8ac4-409d-9159-7f71cf6c2c1d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:05:20.079Z",
+            "modified": "2026-04-29T14:23:06.083Z",
             "description": "[Hydraq](https://attack.mitre.org/software/S0203) creates a backdoor through which remote attackers can clear all system event logs.(Citation: Symantec Trojan.Hydraq Jan 2010)(Citation: Symantec Hydraq Jan 2010)",
             "relationship_type": "uses",
             "source_ref": "malware--73a4793a-ce55-4159-b2a6-208ef29b326f",

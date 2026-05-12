@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--46c17a30-a132-49d7-b238-a4caf5616fcf",
+    "id": "bundle--ec25ff51-c8f8-4ec7-870d-b7251e21b10e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-13T18:17:45.586Z",
+            "modified": "2026-05-12T16:30:18.378Z",
             "name": "Analytic 1701",
             "description": "Correlates (1) activation of Device Administrator privileges by an application, (2) absence or mismatch of legitimate user interaction during the approval flow, and (3) immediate execution of administrator-level control actions (e.g., password reset, device lock, policy enforcement, prevention of uninstall). The defender observes a causal chain where an application transitions into a privileged device control role and rapidly exercises those capabilities outside expected user-driven patterns.\n\nApplication vetting services can check for the string `BIND_DEVICE_ADMIN` in the application\u2019s manifest. ",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6e7440f7-4f48-4d03-aebe-25ce52f5b5f3",
+    "id": "bundle--2bea4d73-3646-4e10-b69b-e6fd311d8927",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--72b81f9e-8760-4d46-9ed3-4b91b12f6299",
             "created": "2023-07-28T18:15:58.016Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T15:10:22.479Z",
+            "modified": "2026-04-29T14:23:06.082Z",
             "description": "[FIN13](https://attack.mitre.org/groups/G1016) has utilized publicly available tools such as [Mimikatz](https://attack.mitre.org/software/S0002), [Impacket](https://attack.mitre.org/software/S0357), PWdump7, ProcDump, Nmap, and Incognito V2 for targeting efforts.(Citation: Sygnia Elephant Beetle Jan 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",

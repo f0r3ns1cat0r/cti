@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aee87dd5-b06d-42a8-b452-c48440402db6",
+    "id": "bundle--77d8f2e8-1463-48b8-8230-494895443699",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0038b0b8-f51c-4fd1-8b04-2fd7ebd1d61d",
             "created": "2023-08-07T16:03:40.742Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant FIN12 Oct 2021",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T16:26:04.860Z",
+            "modified": "2026-04-29T14:23:05.903Z",
             "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has created local administrator accounts to maintain persistence in compromised networks.(Citation: Mandiant FIN12 Oct 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",

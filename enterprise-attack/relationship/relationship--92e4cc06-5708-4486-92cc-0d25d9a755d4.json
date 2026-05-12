@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7720abbf-7813-431b-89d1-c81755a0300e",
+    "id": "bundle--2bcc33ce-e4a9-4658-b0d7-cebd884b299f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--92e4cc06-5708-4486-92cc-0d25d9a755d4",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Dingledine Tor The Second-Generation Onion Router",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:00:03.385Z",
+            "modified": "2026-04-29T14:23:06.125Z",
             "description": "Traffic traversing the [Tor](https://attack.mitre.org/software/S0183) network will be forwarded to multiple nodes before exiting the [Tor](https://attack.mitre.org/software/S0183) network and continuing on to its intended destination.(Citation: Dingledine Tor The Second-Generation Onion Router)",
             "relationship_type": "uses",
             "source_ref": "tool--ed7d0cb1-87a6-43b4-9f46-ef1bc56d6c68",
             "target_ref": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

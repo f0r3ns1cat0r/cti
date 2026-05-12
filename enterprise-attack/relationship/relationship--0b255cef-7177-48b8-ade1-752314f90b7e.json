@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2a0849cc-da7a-421f-9fb3-5b241688815d",
+    "id": "bundle--714383b4-1c15-4974-ae28-048a92f57b6b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0b255cef-7177-48b8-ade1-752314f90b7e",
             "created": "2020-03-27T21:01:19.133Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Novetta Blockbuster Destructive Malware",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:55:43.049Z",
+            "modified": "2026-04-29T14:23:05.918Z",
             "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) malware also uses a unique form of communication encryption known as FakeTLS that mimics TLS but uses a different encryption method, potentially evading SSL traffic inspection/decryption.(Citation: Novetta Blockbuster)(Citation: Novetta Blockbuster Destructive Malware)(Citation: McAfee Lazarus Resurfaces Feb 2018)(Citation: McAfee-GhostSecret-fixurl)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--c325b232-d5bc-4dde-a3ec-71f3db9e8adc",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8aa17767-8b28-408e-82ed-903841b30a7d",
+    "id": "bundle--d3b71d16-5a17-4e54-a35f-524f95b32c5c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T23:17:50.526Z",
+            "modified": "2026-04-29T14:23:05.919Z",
             "description": "[DarkComet](https://attack.mitre.org/software/S0334) can disable Security Center functions like the Windows Firewall.(Citation: TrendMicro DarkComet Sept 2014)(Citation: Malwarebytes DarkComet March 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--53ab35c2-d00e-491a-8753-41d35ae7e547",

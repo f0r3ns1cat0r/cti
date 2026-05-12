@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2f6bafba-0914-4019-b62d-69be4274edad",
+    "id": "bundle--ba0eacdc-b420-4702-ae6c-f5eb1fbe6684",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T18:47:01.102Z",
+            "modified": "2026-04-29T14:23:05.946Z",
             "description": "[evilginx2](https://attack.mitre.org/software/S9003) can inject JavaScript code into HTML content to customize phishing attacks.(Citation: Breakdev Evilginx 2.3 JAN 2019)",
             "relationship_type": "uses",
             "source_ref": "tool--1eb9627d-a661-4db6-bf53-41b7dcc63087",

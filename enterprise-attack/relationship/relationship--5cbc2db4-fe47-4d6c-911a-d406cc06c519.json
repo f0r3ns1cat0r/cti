@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--32688873-798e-4734-8121-ef0249d8032e",
+    "id": "bundle--f198939e-8a42-484a-8f36-0a825ce6181d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5cbc2db4-fe47-4d6c-911a-d406cc06c519",
             "created": "2026-04-10T18:30:23.612Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Koi Glassworm New Tricks December 2025",
@@ -33,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-10T18:30:23.612Z",
+            "modified": "2026-04-29T14:23:06.052Z",
             "description": "[GlassWorm](https://attack.mitre.org/software/S9010) has leveraged AES-256-CBC encryption to obfuscate its malicious JavaScript payload.(Citation: Koi Glassworm New Tricks December 2025)(Citation: Koi Glassworm InvisibleCode October 2025)(Citation: Socket GlassWorm January 2026)(Citation: Koi GlassWorm Rust December 2025)  [GlassWorm](https://attack.mitre.org/software/S9010) has also utilized Base64 encoding to obfuscate the C2 details stored in the Solana memo field.(Citation: Koi Glassworm New Tricks December 2025)(Citation: Koi Glassworm InvisibleCode October 2025)(Citation: Koi GlassWorm Rust December 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--809bc57b-4d4c-43de-b698-448334ed8185",

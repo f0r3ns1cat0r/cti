@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8a255d58-c2af-4c7c-bd19-cf7bb12e3234",
+    "id": "bundle--cd14f3e1-3cb0-48c1-9c1e-0bfe49e6f6c5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8f56f7af-962a-4d2f-89db-7c1d89b79a32",
             "created": "2020-03-20T23:57:45.660Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET GreyEnergy Oct 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:59:22.839Z",
+            "modified": "2026-04-29T14:23:06.120Z",
             "description": "[GreyEnergy](https://attack.mitre.org/software/S0342) encrypts communications using RSA-2048.(Citation: ESET GreyEnergy Oct 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--308b3d68-a084-4dfb-885a-3125e1a9c1e8",
             "target_ref": "attack-pattern--bf176076-b789-408e-8cba-7275e81c0ada",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

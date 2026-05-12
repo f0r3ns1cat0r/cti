@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--56806078-715d-466f-9021-633e1fd99e03",
+    "id": "bundle--28dcae1c-2727-42bd-bfc3-7f6fe79d3238",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--42f4db8f-ef8b-4dcc-8c8f-4d0b5219c8b7",
             "created": "2019-06-20T14:28:20.218Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Beechey 2010",
@@ -43,14 +44,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:10:49.696Z",
+            "modified": "2026-04-29T14:23:06.016Z",
             "description": "Identify and block potentially malicious software executed that may be executed through this technique by using application control (Citation: Beechey 2010) tools, like Windows Defender Application Control(Citation: Microsoft Windows Defender Application Control), AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--47e0e9fe-96ce-4f65-8bb1-8be1feacb5db",
             "target_ref": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

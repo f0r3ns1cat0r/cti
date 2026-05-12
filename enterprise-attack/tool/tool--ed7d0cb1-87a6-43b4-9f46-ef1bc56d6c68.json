@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--de6041bc-2e20-4fcb-8f90-5c47aaf821ca",
+    "id": "bundle--3c1b4976-bdf3-499c-a1b8-a44d48f2cd30",
     "spec_version": "2.0",
     "objects": [
         {
@@ -28,7 +28,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T21:19:41.095Z",
+            "modified": "2026-05-12T15:12:00.741Z",
             "name": "Tor",
             "description": "[Tor](https://attack.mitre.org/software/S0183) is a software suite and network that provides increased anonymity on the Internet. It creates a multi-hop proxy network and utilizes multilayer encryption to protect both the message and routing information. [Tor](https://attack.mitre.org/software/S0183) utilizes \"Onion Routing,\" in which messages are encrypted with multiple layers of encryption; at each step in the proxy network, the topmost layer is decrypted and the contents forwarded on to the next node until it reaches its destination. (Citation: Dingledine Tor The Second-Generation Onion Router)",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

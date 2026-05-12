@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cf93ee85-7413-427b-8300-e26c1af285fd",
+    "id": "bundle--ce534112-f5b3-4650-9575-15bdf50f9e4d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--53356453-2cf1-46d9-ac8f-77fc3a2274d9",
             "created": "2020-05-29T20:09:48.844Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro TA505 June 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:48:02.925Z",
+            "modified": "2026-04-29T14:23:06.039Z",
             "description": "[TA505](https://attack.mitre.org/groups/G0092) has used fast flux to mask botnets by distributing payloads across multiple IPs.(Citation: Trend Micro TA505 June 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7eda3dd8-b09b-4705-8090-c2ad9fb8c14d",
             "target_ref": "attack-pattern--29ba5a15-3b7b-4732-b817-65ea8f6468e6",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

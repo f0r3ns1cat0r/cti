@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ff5d14b5-c67c-4e29-aa0b-4cd1931d1f67",
+    "id": "bundle--8d936f9c-240b-4761-a268-f1651dac0136",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:53:38.650Z",
+            "modified": "2026-04-29T14:23:05.933Z",
             "description": "[FIN6](https://attack.mitre.org/groups/G0037) has deployed a utility script named <code>kill.bat</code> to disable anti-virus.(Citation: FireEye FIN6 Apr 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",

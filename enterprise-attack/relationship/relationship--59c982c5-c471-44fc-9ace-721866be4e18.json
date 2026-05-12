@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--07276a3d-66ce-43b4-a2d8-500676d86909",
+    "id": "bundle--d8f76ac2-4fa3-4c85-9dcd-e014e1823db6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:55:02.361Z",
+            "modified": "2026-04-29T14:23:06.047Z",
             "description": "During the [2016 Ukraine Electric Power Attack](https://attack.mitre.org/campaigns/C0025), [Sandworm Team](https://attack.mitre.org/groups/G0034) disabled event logging on compromised systems.(Citation: Dragos Crashoverride 2018)",
             "relationship_type": "uses",
             "source_ref": "campaign--aa73efef-1418-4dbe-b43c-87a498e97234",

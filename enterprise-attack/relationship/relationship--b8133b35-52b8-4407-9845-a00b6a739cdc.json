@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--64cf09db-dacf-4e5e-9069-018ed26752aa",
+    "id": "bundle--a563e01f-1b21-4543-96b3-5220d4806d3a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b8133b35-52b8-4407-9845-a00b6a739cdc",
             "created": "2019-04-16T17:43:42.905Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT33 Guardrail",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:06:49.514Z",
+            "modified": "2026-04-29T14:23:06.176Z",
             "description": "[POWERTON](https://attack.mitre.org/software/S0371) has the ability to dump password hashes.(Citation: FireEye APT33 Guardrail)",
             "relationship_type": "uses",
             "source_ref": "malware--e85cae1a-bce3-4ac4-b36b-b00acac0567b",
             "target_ref": "attack-pattern--1644e709-12d2-41e5-a60f-3470991f5011",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

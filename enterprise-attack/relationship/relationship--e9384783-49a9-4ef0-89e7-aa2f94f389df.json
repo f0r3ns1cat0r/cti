@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2f264dcd-8b9d-44d9-b253-6e6f7af76ae7",
+    "id": "bundle--54ff0537-6e4f-469d-98fc-969e6955d4dd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e9384783-49a9-4ef0-89e7-aa2f94f389df",
             "created": "2025-10-16T19:17:40.610Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto SharePoint Vulnerabilities JUL 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-16T19:17:40.610Z",
+            "modified": "2026-04-29T14:23:06.243Z",
             "description": "During [SharePoint ToolShell Exploitation](https://attack.mitre.org/campaigns/C0058), threat actors used a loader to download and execute ransomware.(Citation: Palo Alto SharePoint Vulnerabilities JUL 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--1a0576df-df21-4775-843e-844d8a58a94b",

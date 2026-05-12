@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bbeb7c69-d4e6-4495-b5db-4b34fbf2a2ec",
+    "id": "bundle--89b23a11-1c5c-4fc5-b404-0861bb6671d0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e29b85ff-9ae1-42ad-ba2e-53781b638e42",
             "created": "2021-12-01T18:13:26.017Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky ThreatNeedle Feb 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:14:21.152Z",
+            "modified": "2026-04-29T14:23:06.234Z",
             "description": "(Citation: Kaspersky ThreatNeedle Feb 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "malware--16040b1c-ed28-4850-9d8f-bb8b81c42092",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

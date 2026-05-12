@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c4fb7f65-8213-4e70-9175-5b507162b1e6",
+    "id": "bundle--b07ba3d6-9b83-4d18-8283-958c21977c09",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ecb55914-837c-4600-a0f8-65d83d2d726b",
             "created": "2022-01-10T19:52:49.118Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Prevailion DarkWatchman 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:55:45.061Z",
+            "modified": "2026-04-29T14:23:06.247Z",
             "description": "[DarkWatchman](https://attack.mitre.org/software/S0673) can collect the OS version, system architecture, and computer name.(Citation: Prevailion DarkWatchman 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--63686509-069b-4143-99ea-4e59cad6cb2a",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

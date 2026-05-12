@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ee89fe8e-f3af-4d7a-95c9-69b71320e2be",
+    "id": "bundle--d5b8ff39-94d6-47c7-b800-122051b95b3c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--932fa199-f4c0-4c39-bb30-a412607ee299",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "F-Secure CozyDuke",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:00:06.844Z",
+            "modified": "2026-04-29T14:23:06.126Z",
             "description": "Password stealer and NTLM stealer modules in [CozyCar](https://attack.mitre.org/software/S0046) harvest stored credentials from the victim, including credentials used as part of Windows NTLM user authentication.(Citation: F-Secure CozyDuke)",
             "relationship_type": "uses",
             "source_ref": "malware--e6ef745b-077f-42e1-a37d-29eecff9c754",
             "target_ref": "attack-pattern--1644e709-12d2-41e5-a60f-3470991f5011",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

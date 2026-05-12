@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--882aad2d-54fd-429e-823c-b96c4680d9f6",
+    "id": "bundle--7ae21d2e-35a1-404e-bc7f-82ad31b9f1e3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6e642c09-751c-43d8-9b99-aabb1703cad7",
             "created": "2025-03-24T17:57:15.381Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "LinkedIn Dmitry LightSpy 2025",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:49:23.803Z",
+            "modified": "2026-04-29T14:23:06.075Z",
             "description": "[LightSpy](https://attack.mitre.org/software/S1185) gains initial execution when a victim visits a compromised or adversary-controlled website, including those mimicking legitimate sources such as a Hong Kong newspaper. Upon loading `index.html`, a Safari WebKit exploit is triggered, leading to the download of a Mach-O binary disguised with a `.png` extension.(Citation: FirshSecureList LightSpy 2020)(Citation: Shoshin_Kaspersky LightSpy 2020)(Citation: LinkedIn Dmitry LightSpy 2025)(Citation: Threatfabric LightSpy 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--5b5d1e6c-e7de-4b46-ab8f-8556e8745927",
             "target_ref": "attack-pattern--fd339382-bfec-4bf0-8d47-1caedc9e7e57",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

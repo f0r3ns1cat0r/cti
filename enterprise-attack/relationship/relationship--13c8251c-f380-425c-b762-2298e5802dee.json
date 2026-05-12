@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b58cf33e-7c06-42d1-ae86-25d8d74baf9b",
+    "id": "bundle--26c3e17e-7482-4845-b842-d210da8b8a08",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--13c8251c-f380-425c-b762-2298e5802dee",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Elderwood Sept 2012",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:58:01.097Z",
+            "modified": "2026-04-29T14:23:05.931Z",
             "description": "(Citation: Symantec Elderwood Sept 2012)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
             "target_ref": "malware--48523614-309e-43bf-a2b8-705c2b45d7b2",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

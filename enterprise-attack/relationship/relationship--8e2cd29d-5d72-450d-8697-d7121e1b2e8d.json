@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cdef0c53-cc1e-4617-a2b5-f8e5c7d38f08",
+    "id": "bundle--d9548b2a-fca5-448c-b4b0-e4d20d15da66",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8e2cd29d-5d72-450d-8697-d7121e1b2e8d",
             "created": "2022-04-18T13:58:40.727Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "GitHub SILENTTRINITY Modules July 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:31:06.035Z",
+            "modified": "2026-04-29T14:23:06.119Z",
             "description": "[SILENTTRINITY](https://attack.mitre.org/software/S0692) can collect clear text web credentials for Internet Explorer/Edge.(Citation: GitHub SILENTTRINITY Modules July 2019)",
             "relationship_type": "uses",
             "source_ref": "tool--1244e058-fa10-48cb-b484-0bcf671107ae",
             "target_ref": "attack-pattern--58a3e6aa-4453-4cc8-a51f-4befe80b31a8",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d8673095-77eb-44d3-8a61-ca9a95506188",
+    "id": "bundle--737bb2c9-6320-4289-b170-0e4978e1cbcf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--403e9797-7824-4840-87ad-b975023d9199",
             "created": "2021-09-28T15:46:27.084Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Crowdstrike Qakbot October 2020",
@@ -63,14 +64,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:10:01.758Z",
+            "modified": "2026-04-29T14:23:06.012Z",
             "description": "[QakBot](https://attack.mitre.org/software/S0650) has gained execution through users opening malicious attachments.(Citation: Trend Micro Qakbot May 2020)(Citation: Kroll Qakbot June 2020)(Citation: Crowdstrike Qakbot October 2020)(Citation: Trend Micro Qakbot December 2020)(Citation: Cyberint Qakbot May 2021)(Citation: ATT QakBot April 2021)(Citation: Kaspersky QakBot September 2021)(Citation: Group IB Ransomware September 2020)(Citation: Deep Instinct Black Basta August 2022)(Citation: Microsoft Ransomware as a Service)",
             "relationship_type": "uses",
             "source_ref": "malware--edc5e045-5401-42bb-ad92-52b5b2ee0de9",
             "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

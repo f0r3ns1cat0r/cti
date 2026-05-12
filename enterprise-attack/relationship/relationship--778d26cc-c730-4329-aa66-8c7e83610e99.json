@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4a6a673d-1808-4bc1-93db-2b721715ab33",
+    "id": "bundle--50e3c967-0c32-4ef8-830b-2e631ba2bf62",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:44:16.765Z",
+            "modified": "2026-04-29T14:23:06.089Z",
             "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) can disable the system's local proxy settings.(Citation: Trend Micro Muddy Water March 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",

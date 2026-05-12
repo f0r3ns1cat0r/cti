@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7631ec92-73ff-451a-9c2b-49294a7011d8",
+    "id": "bundle--3dc2a43e-bb31-4103-a8cb-30f7a969af6f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "tool--b35068ec-107a-4266-bda8-eb7036267aea",
             "created": "2017-05-31T21:33:03.773Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-25T14:45:26.343Z",
+            "modified": "2026-05-12T15:12:00.740Z",
             "name": "nbtstat",
             "description": "[nbtstat](https://attack.mitre.org/software/S0102) is a utility used to troubleshoot NetBIOS name resolution. (Citation: TechNet Nbtstat)",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -32,8 +33,7 @@
                 "enterprise-attack"
             ],
             "x_mitre_version": "1.0",
-            "x_mitre_attack_spec_version": "3.2.0",
-            "revoked": false,
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_aliases": [
                 "nbtstat"
             ],

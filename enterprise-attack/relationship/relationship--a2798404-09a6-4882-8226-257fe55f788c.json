@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2031bb3a-61fe-404f-bef5-5ba7c4318531",
+    "id": "bundle--b3652307-abe2-4da5-a446-eb9b38c6cae4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a2798404-09a6-4882-8226-257fe55f788c",
             "created": "2022-06-10T17:24:04.236Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:36:34.704Z",
+            "modified": "2026-04-29T14:23:06.146Z",
             "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has removed a targeted organization's global admin accounts to lock the organization out of all access.(Citation: MSTIC DEV-0537 Mar 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
             "target_ref": "attack-pattern--b24e2a20-3b3d-4bf0-823b-1ed765398fb0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

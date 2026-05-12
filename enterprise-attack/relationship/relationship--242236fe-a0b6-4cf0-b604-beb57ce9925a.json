@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--37cf9ca7-a49e-4166-be04-c2471ded809e",
+    "id": "bundle--15f6b9e3-32ff-495c-86cb-ecff432264ef",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T21:21:08.539Z",
+            "modified": "2026-04-29T14:23:05.955Z",
             "description": "[UPPERCUT](https://attack.mitre.org/software/S0275) has the capability to obtain the time zone information and the current timestamp of the victim\u2019s machine.(Citation: FireEye APT10 Sept 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--fb4e3792-e915-4fdd-a9cd-92dfa2ace7aa",

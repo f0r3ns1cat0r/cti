@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c733d00f-644d-4e48-975b-b7a6eb1f4044",
+    "id": "bundle--d19d0cf7-0c32-4a34-a700-0a26b2193d04",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6f57b4eb-ba87-4755-9b96-3715e1da1de1",
             "created": "2020-03-19T17:35:11.637Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Proofpoint TA505 Sep 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:53:19.127Z",
+            "modified": "2026-04-29T14:23:06.077Z",
             "description": "[TA505](https://attack.mitre.org/groups/G0092) has used JavaScript for code execution.(Citation: Proofpoint TA505 Sep 2017)(Citation: Proofpoint TA505 June 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7eda3dd8-b09b-4705-8090-c2ad9fb8c14d",
             "target_ref": "attack-pattern--0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

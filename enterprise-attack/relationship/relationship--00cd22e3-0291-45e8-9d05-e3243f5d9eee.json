@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1c12ef6e-44f9-4ae9-9a0e-13a12bd4a486",
+    "id": "bundle--2189d96c-02fe-40d0-ba74-079a3d01a68d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T14:46:12.395Z",
+            "modified": "2026-04-29T14:23:05.904Z",
             "description": "The [AshTag](https://attack.mitre.org/software/S9031) AshenOrchestrator component has the ability to take screenshots.(Citation: Palo Alto Ashen Lepus DEC 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--bb6f2a5c-dbc9-45b0-bd3f-a0b7849959c2",

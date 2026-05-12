@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e3443191-36e2-4c65-9c97-cf832974c46f",
+    "id": "bundle--5ca84395-24b2-4c20-86ba-133fb4c9275f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ada346d2-69ce-489a-9a95-14ddc998a960",
             "created": "2025-10-19T19:44:31.274Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Storm-501 Sabbath Ransomware Embargo September 2024",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-19T19:44:31.274Z",
+            "modified": "2026-04-29T14:23:06.161Z",
             "description": "[Storm-0501](https://attack.mitre.org/groups/G1053) created a new federated domain within the victim Microsoft Entra tenant using Global Administrator level access to establish a persistent backdoor for later use.(Citation: Microsoft Storm-501 Sabbath Ransomware Embargo September 2024)(Citation: Microsoft Storm-0501 Embargo Ransomware August 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7b404cd0-3ae9-41d4-90c0-023793d35d97",

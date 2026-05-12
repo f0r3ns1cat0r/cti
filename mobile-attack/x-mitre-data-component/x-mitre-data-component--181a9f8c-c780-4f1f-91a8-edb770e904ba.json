@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cd853e32-dbfc-44ed-ad64-14ad257cb086",
+    "id": "bundle--e5fdca3b-e404-4924-8a76-4119c3b79529",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T18:37:33.992Z",
+            "modified": "2026-05-12T15:12:00.770Z",
             "name": "Network Connection Creation",
             "description": "The initial establishment of a network session, where a system or process initiates a connection to a local or remote endpoint. This typically involves capturing socket information (source/destination IP, ports, protocol) and tracking session metadata. Monitoring these events helps detect lateral movement, exfiltration, and command-and-control (C2) activities.\n\n*Data Collection Measures:*\n\n- Windows:\n    - Event ID 5156 \u2013 Filtering Platform Connection - Logs network connections permitted by Windows Filtering Platform (WFP).\n    - Sysmon Event ID 3 \u2013 Network Connection Initiated - Captures process, source/destination IP, ports, and parent process.\n- Linux/macOS:\n    - Netfilter (iptables), nftables logs - Tracks incoming and outgoing network connections.\n    - AuditD (`connect` syscall) - Logs TCP, UDP, and ICMP connections.\n    - Zeek (`conn.log`) - Captures protocol, duration, and bytes transferred.\n- Cloud & Network Infrastructure:\n    - AWS VPC Flow Logs / Azure NSG Flow Logs - Logs IP traffic at the network level in cloud environments.\n    - Zeek (conn.log) or Suricata (network events) - Captures packet metadata for detection and correlation.\n- Endpoint Detection & Response (EDR):\n    - Detect anomalous network activity such as new C2 connections or data exfiltration attempts.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

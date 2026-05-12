@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bc80a53d-4636-42ed-80a1-d955a63ee0d4",
+    "id": "bundle--e37159c7-683c-403b-b6bc-7335adf37e76",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f2304e7f-50b3-41cc-81df-5c7baed21b89",
             "created": "2024-05-22T22:56:01.224Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit42 Agrius 2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:57:07.195Z",
+            "modified": "2026-04-29T14:23:06.254Z",
             "description": "[BFG Agonizer](https://attack.mitre.org/software/S1136) wipes the boot sector of infected machines to inhibit system recovery.(Citation: Unit42 Agrius 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--d6aefbbf-fbef-485a-973e-b5403d8f8b18",
             "target_ref": "attack-pattern--f5d8eed6-48a9-4cdf-a3d7-d1ffa99c3d2a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

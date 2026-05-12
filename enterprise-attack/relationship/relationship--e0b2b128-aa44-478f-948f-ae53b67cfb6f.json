@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7406df2e-e414-45af-af15-6606f4228458",
+    "id": "bundle--2dfcab7a-f340-4133-bfb0-acbc3263099b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:31:37.907Z",
+            "modified": "2026-04-29T14:23:06.231Z",
             "description": "Make sure that the <code>HISTCONTROL</code> environment variable is set to \u201cignoredups\u201d instead of \u201cignoreboth\u201d or \u201cignorespace\u201d.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--2f316f6c-ae42-44fe-adf8-150989e0f6d3",

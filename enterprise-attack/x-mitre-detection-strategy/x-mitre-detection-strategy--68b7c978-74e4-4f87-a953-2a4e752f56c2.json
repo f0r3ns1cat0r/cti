@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--87dc5431-e72d-4865-bd03-77d5fd73fd35",
+    "id": "bundle--3b3d7549-625f-4e90-a2b2-ae5e330b10ee",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--68b7c978-74e4-4f87-a953-2a4e752f56c2",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.680Z",
             "name": "Port-knock \u2192 rule/daemon change \u2192 first successful connect (T1205.001)",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -32,8 +33,7 @@
                 "x-mitre-analytic--7bf8954f-5028-419d-b93f-9c6bfe6e5086",
                 "x-mitre-analytic--39da0718-fa22-4f77-8bd2-ea8300087658",
                 "x-mitre-analytic--fe82e2a6-a928-4fe0-a899-fead90eabb29"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

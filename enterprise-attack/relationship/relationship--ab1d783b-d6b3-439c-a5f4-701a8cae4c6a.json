@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ed42c417-bdc1-456e-8651-f0e98f6ce947",
+    "id": "bundle--69058a9a-340c-451b-bfe4-a50d6dfcdfe9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ab1d783b-d6b3-439c-a5f4-701a8cae4c6a",
             "created": "2021-11-22T16:37:40.733Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Profero APT27 December 2020",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:38:44.917Z",
+            "modified": "2026-04-29T14:23:06.158Z",
             "description": "[RCSession](https://attack.mitre.org/software/S0662) has the ability to modify a Registry Run key to establish persistence.(Citation: Trend Micro DRBControl February 2020)(Citation: Profero APT27 December 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--03acae53-9b98-46f6-b204-16b930839055",
             "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

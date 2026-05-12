@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b77f6bfe-1099-4a33-b534-6c58adf2e480",
+    "id": "bundle--ff7f02a7-edcc-48b7-b169-0784465c5711",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c4ce39f8-371c-45dd-a8d2-a411a6f0678d",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Moran 2014",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:09:07.921Z",
+            "modified": "2026-04-29T14:23:06.194Z",
             "description": "[APT12](https://attack.mitre.org/groups/G0005) has used [RIPTIDE](https://attack.mitre.org/software/S0003), a RAT that uses HTTP to communicate.(Citation: Moran 2014)",
             "relationship_type": "uses",
             "source_ref": "malware--ad4f146f-e3ec-444a-ba71-24bffd7f0f8e",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

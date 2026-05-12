@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--38b4a012-7383-4b19-a0a0-134e32c306d3",
+    "id": "bundle--7dd147ee-885c-463e-8729-ac6ac2764f5e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8a48e56d-f837-4a5a-99b6-db0f60b541a0",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 SeaDuke 2015",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:58:26.296Z",
+            "modified": "2026-04-29T14:23:06.114Z",
             "description": "[SeaDuke](https://attack.mitre.org/software/S0053) has been packed with the UPX packer.(Citation: Unit 42 SeaDuke 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--67e6d66b-1b82-4699-b47a-e2efb6268d14",
             "target_ref": "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

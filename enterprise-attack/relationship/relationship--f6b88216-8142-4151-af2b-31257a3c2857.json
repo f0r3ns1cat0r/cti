@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fcf98c26-bc3d-40de-9f5a-257d7f8a6453",
+    "id": "bundle--ed90e077-a0a5-43e1-a441-1dd7dc9431aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f6b88216-8142-4151-af2b-31257a3c2857",
             "created": "2023-07-27T20:46:04.835Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant FIN13 Aug 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:58:21.198Z",
+            "modified": "2026-04-29T14:23:06.260Z",
             "description": "[FIN13](https://attack.mitre.org/groups/G1016) has used `netstat` and other net  commands for network reconnaissance efforts.(Citation: Mandiant FIN13 Aug 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
             "target_ref": "attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

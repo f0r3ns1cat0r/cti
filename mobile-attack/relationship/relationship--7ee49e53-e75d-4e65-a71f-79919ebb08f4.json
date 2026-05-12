@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--452464b1-6911-4a9b-8789-5bfdc554d79a",
+    "id": "bundle--db97bf5f-52bd-4578-a351-c86abd52c24e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7ee49e53-e75d-4e65-a71f-79919ebb08f4",
             "created": "2020-04-08T15:41:19.340Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cofense Anubis",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:49:46.713Z",
+            "modified": "2026-04-29T14:23:06.099Z",
             "description": "[Anubis](https://attack.mitre.org/software/S0422) can use its ransomware module to encrypt device data and hold it for ransom.(Citation: Cofense Anubis)",
             "relationship_type": "uses",
             "source_ref": "malware--a3c59d82-2c7c-44e5-a869-68e0a3e5935e",
             "target_ref": "attack-pattern--d9e88203-2b5d-405f-a406-2933b1e3d7e4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--144d5ed9-72de-46ca-a935-330508472827",
+    "id": "bundle--15e4aa89-6aae-4cff-8027-5e6f07f70dd2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--94229aa6-c862-48b8-9959-1e1d3c04dd5e",
             "created": "2020-07-15T19:02:25.123Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "DFIR_Quantum_Ransomware",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:32:43.605Z",
+            "modified": "2026-04-29T14:23:06.127Z",
             "description": "[IcedID](https://attack.mitre.org/software/S0483) can query LDAP and can use built-in `net` commands to identify additional users on the network to infect.(Citation: IBM IcedID November 2017)(Citation: DFIR_Quantum_Ransomware)",
             "relationship_type": "uses",
             "source_ref": "malware--5147ef15-1cae-4707-8ea1-bee8d98b7f1d",
             "target_ref": "attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

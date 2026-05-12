@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8099ab0e-c60a-45b0-bae5-5c5873349052",
+    "id": "bundle--b8ff4da9-9ab2-47a0-b19a-c39baddc96f2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4b3f0b38-d4e2-49e8-a8f9-6a186c31967f",
             "created": "2019-01-30T17:43:28.261Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Securelist Darkhotel Aug 2015",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:46:41.643Z",
+            "modified": "2026-04-29T14:23:06.028Z",
             "description": "[Darkhotel](https://attack.mitre.org/groups/G0012) has decrypted strings and imports using RC4 during execution.(Citation: Securelist Darkhotel Aug 2015)(Citation: Microsoft DUBNIUM July 2016)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--9e729a7e-0dd6-4097-95bf-db8d64911383",
             "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

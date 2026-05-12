@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4c439601-0950-45a5-b24b-7d582ecb0bad",
+    "id": "bundle--d8a2f8c6-93a3-426e-b3c2-cab2a7b4a1db",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0cc89d3e-9fe9-42f1-acb5-a7bce55840c0",
             "created": "2025-10-20T12:07:56.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cyble Embargo Ransomware May 2024",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-20T15:36:35.649Z",
+            "modified": "2026-04-29T14:23:05.920Z",
             "description": "[Embargo](https://attack.mitre.org/software/S1247) has utilized a hardcoded mutex name of \u201cLoadUpOnGunsBringYourFriends\u201d using the `CreateMutexW()` function.(Citation: Cyble Embargo Ransomware May 2024) [Embargo](https://attack.mitre.org/software/S1247) has also utilized a hardcoded mutex name of \u201cIntoTheFloodAgainSameOldTrip.\"(Citation: ESET Embargo Ransomware October 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--82adb90e-43b8-4bce-9efe-afeba65457b2",

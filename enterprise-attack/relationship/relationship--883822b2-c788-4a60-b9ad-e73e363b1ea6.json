@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--61ca9195-c67d-403d-a73a-408c2502e5df",
+    "id": "bundle--edc0839f-515e-4ddb-8d61-1d71aca84de5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--883822b2-c788-4a60-b9ad-e73e363b1ea6",
             "created": "2023-02-14T18:27:58.845Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MalwareBytes WoodyRAT Aug 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:29:31.787Z",
+            "modified": "2026-04-29T14:23:06.111Z",
             "description": "[Woody RAT](https://attack.mitre.org/software/S1065) can deobfuscate Base64-encoded strings and scripts.(Citation: MalwareBytes WoodyRAT Aug 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--3bc7e862-5610-4c02-9c48-15b2e2dc1ddb",
             "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

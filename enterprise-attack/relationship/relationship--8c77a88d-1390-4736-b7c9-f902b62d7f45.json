@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cf172247-c36b-4482-a58b-0e02873e4d7b",
+    "id": "bundle--d6d08f83-add9-4eef-824b-5c88117bacf2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8c77a88d-1390-4736-b7c9-f902b62d7f45",
             "created": "2020-05-06T21:31:07.590Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Okrum July 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:58:50.498Z",
+            "modified": "2026-04-29T14:23:06.117Z",
             "description": "Before exfiltration, [Okrum](https://attack.mitre.org/software/S0439)'s backdoor has used hidden files to store logs and outputs from backdoor commands.(Citation: ESET Okrum July 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--4b6ec280-7bbb-48ff-ae59-b189520ebe83",
             "target_ref": "attack-pattern--ec8fc7e2-b356-455c-8db5-2e37be158e7d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

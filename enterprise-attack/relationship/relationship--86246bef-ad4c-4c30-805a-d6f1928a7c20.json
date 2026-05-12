@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c42ac8e7-dae0-437a-87a8-744866ef9476",
+    "id": "bundle--40f6f39b-dd67-4c14-8f93-26c0d39a71fc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--86246bef-ad4c-4c30-805a-d6f1928a7c20",
             "created": "2019-07-19T17:14:24.040Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Soft Cell June 2019",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:57:35.473Z",
+            "modified": "2026-04-29T14:23:06.108Z",
             "description": "[GALLIUM](https://attack.mitre.org/groups/G0093) used WinRAR to compress and encrypt stolen data prior to exfiltration.(Citation: Cybereason Soft Cell June 2019)(Citation: Microsoft GALLIUM December 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
             "target_ref": "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

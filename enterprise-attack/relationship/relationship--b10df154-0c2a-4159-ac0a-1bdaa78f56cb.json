@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5e7213dd-c8a4-4c50-a095-cc1d2d5da10a",
+    "id": "bundle--b4627a65-b0c5-4fd7-ba6f-9990ac083bc2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b10df154-0c2a-4159-ac0a-1bdaa78f56cb",
             "created": "2019-07-19T16:38:05.311Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Soft Cell June 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:05:41.096Z",
+            "modified": "2026-04-29T14:23:06.167Z",
             "description": "[GALLIUM](https://attack.mitre.org/groups/G0093) used <code>ipconfig /all</code> to obtain information about the victim network configuration. The group also ran a modified version of [NBTscan](https://attack.mitre.org/software/S0590) to identify available NetBIOS name servers.(Citation: Cybereason Soft Cell June 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
             "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

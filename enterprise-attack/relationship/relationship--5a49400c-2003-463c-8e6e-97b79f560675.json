@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c4b2da7d-05fe-4b36-afab-729c61c6c13a",
+    "id": "bundle--b6ba577d-bf14-42dc-8764-f40fe548bdb3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5a49400c-2003-463c-8e6e-97b79f560675",
             "created": "2019-06-10T16:34:59.315Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Meyers Numbered Panda",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:49:18.692Z",
+            "modified": "2026-04-29T14:23:06.048Z",
             "description": "[APT12](https://attack.mitre.org/groups/G0005) has used blogs and WordPress for C2 infrastructure.(Citation: Meyers Numbered Panda)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c47f937f-1022-4f42-8525-e7a4779a14cb",
             "target_ref": "attack-pattern--be055942-6e63-49d7-9fa1-9cb7d8a8f3f4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--44e7063c-a954-474b-a3b1-d7efc058c2c3",
+    "id": "bundle--0460c549-7ee7-45cd-b54e-267ac4459c01",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--3fe9b64a-6435-4592-9181-2ad50ee93044",
             "created": "2017-05-31T21:33:27.069Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Novetta Blockbuster Loaders",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:09:55.137Z",
+            "modified": "2026-04-29T14:23:06.012Z",
             "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) has collected data and files from compromised networks.(Citation: Novetta Blockbuster)(Citation: Novetta Blockbuster Loaders)(Citation: Novetta Blockbuster RATs)(Citation: Kaspersky ThreatNeedle Feb 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

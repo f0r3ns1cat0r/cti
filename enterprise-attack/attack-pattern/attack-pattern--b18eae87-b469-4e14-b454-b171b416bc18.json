@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--424b07cc-93b7-4cbc-acac-37ee320a3461",
+    "id": "bundle--3dd196db-7410-4cb3-9bd9-c43c3110360a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:49:14.187Z",
+            "modified": "2026-05-12T15:12:00.707Z",
             "name": "Non-Standard Port",
             "description": "Adversaries may communicate using a protocol and port pairing that are typically not associated. For example, HTTPS over port 8088(Citation: Symantec Elfin Mar 2019) or port 587(Citation: Fortinet Agent Tesla April 2018) as opposed to the traditional port 443. Adversaries may make changes to the standard port used by a protocol to bypass filtering or muddle analysis/parsing of network data.\n\nAdversaries may also make changes to victim systems to abuse non-standard ports. For example, Registry keys and other configuration settings can be used to modify protocol and port pairings.(Citation: change_rdp_port_conti)",
             "kill_chain_phases": [
@@ -48,7 +48,7 @@
                     "phase_name": "command-and-control"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "enterprise-attack"

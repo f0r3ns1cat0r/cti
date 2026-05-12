@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b8600da9-19ad-4fb5-8ea1-bb952c85eb0a",
+    "id": "bundle--19a433d9-4a2b-45bf-b90c-da714720dc97",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1a49c7e5-32b0-4393-a464-1491b1ebc279",
             "created": "2019-01-29T21:27:25.292Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT38 Oct 2018",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-11-13T19:21:05.135Z",
+            "modified": "2026-04-29T14:23:05.940Z",
             "description": "[APT38](https://attack.mitre.org/groups/G0082) used a Trojan called KEYLIME to capture keystrokes from the victim\u2019s machine.(Citation: FireEye APT38 Oct 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e725982e-da5f-4e50-8801-a98bacf7f303",
+    "id": "bundle--d170cf95-9803-4b69-9cf4-60ad421a6d7f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d13ebdb9-f3c4-4296-b3a5-ac44d29c5c3e",
             "created": "2025-03-24T16:09:31.323Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Sliver Undated",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:48:50.750Z",
+            "modified": "2026-04-29T14:23:06.212Z",
             "description": "[Sliver](https://attack.mitre.org/software/S0633) can leverage multiple techniques to bypass User Account Control (UAC) on Windows systems.(Citation: Cybereason Sliver Undated)",
             "relationship_type": "uses",
             "source_ref": "tool--11f8d7eb-1927-4806-9267-3a11d4d4d6be",
             "target_ref": "attack-pattern--120d5519-3098-4e1c-9191-2aa61232f073",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

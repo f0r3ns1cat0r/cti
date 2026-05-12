@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c60d6eb7-026e-40b9-b4da-4148d8f5c23f",
+    "id": "bundle--a4f88e0c-061f-4922-85a7-f3d375e0d51c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-15T21:03:38.486Z",
+            "modified": "2026-04-29T14:23:05.981Z",
             "description": "[Shai-Hulud](https://attack.mitre.org/software/S9008) has destroyed the victim\u2019s home directory by overwriting and deleting every writable file within the user's home folder.(Citation: Palo Alto Unit 42 Shai-Hulud November 2025)(Citation: Socket Shai-Hulud November 2025) [Shai-Hulud](https://attack.mitre.org/software/S9008) has also utilized the `shred` command on Linux devices.(Citation: Microsoft Shai-Hulud December 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--de376fb9-1093-4f59-8d13-aed61042701d",

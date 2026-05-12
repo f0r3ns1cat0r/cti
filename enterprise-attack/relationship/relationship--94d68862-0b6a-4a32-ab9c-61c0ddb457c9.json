@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5084092d-0e61-44b9-afe8-5bdbc006347b",
+    "id": "bundle--408b8151-01de-464d-b375-865933ae6b31",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T21:38:59.698Z",
+            "modified": "2026-04-29T14:23:06.128Z",
             "description": "[Fooder](https://attack.mitre.org/software/S9033) has frequently masqueraded as the Snake game, using strings such as \u201cWelcome to snake Game\u201d and mutexes such as \u201cSNAKE_G.\u201d(Citation: ESET_MuddyWater_Dec2025)\u202f\u202f\u202f",
             "relationship_type": "uses",
             "source_ref": "malware--7c8865dc-1bf9-49ce-b5f2-f15abde0909a",

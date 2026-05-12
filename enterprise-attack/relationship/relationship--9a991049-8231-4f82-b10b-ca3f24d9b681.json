@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--694aba99-a4c6-43f7-8788-ddbe9879f342",
+    "id": "bundle--b49f6d3b-c92f-41c9-ad84-f6df0fd6919e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9a991049-8231-4f82-b10b-ca3f24d9b681",
             "created": "2024-05-22T22:52:56.417Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit42 Agrius 2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:34:28.358Z",
+            "modified": "2026-04-29T14:23:06.136Z",
             "description": "[BFG Agonizer](https://attack.mitre.org/software/S1136) has been used by [Agrius](https://attack.mitre.org/groups/G1030) for wiping operations.(Citation: Unit42 Agrius 2023)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--b8137919-38cb-4db0-90f3-437be885faba",
             "target_ref": "malware--d6aefbbf-fbef-485a-973e-b5403d8f8b18",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

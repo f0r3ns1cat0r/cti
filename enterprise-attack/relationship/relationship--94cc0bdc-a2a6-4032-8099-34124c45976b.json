@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--19fa2cdb-dff3-49fe-a883-b422cae08792",
+    "id": "bundle--1df59d7b-537b-4459-b343-275a63074199",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--94cc0bdc-a2a6-4032-8099-34124c45976b",
             "created": "2024-03-28T14:26:06.163Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye TRITON 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:32:53.795Z",
+            "modified": "2026-04-29T14:23:06.128Z",
             "description": "In the [Triton Safety Instrumented System Attack](https://attack.mitre.org/campaigns/C0030), [TEMP.Veles](https://attack.mitre.org/groups/G0088) used Mimikatz.(Citation: FireEye TRITON 2018)",
             "relationship_type": "uses",
             "source_ref": "campaign--45a98f02-852f-49b2-94c0-c63207bebbbf",
             "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

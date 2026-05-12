@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1a4119bf-eaf3-4c3b-8dbc-71b273c2b017",
+    "id": "bundle--9a758a00-31a8-4cf9-a869-0e5a9a370802",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5a73d370-7d3d-45ff-b096-acd5bcacad08",
             "created": "2022-07-07T14:47:27.297Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft POLONIUM June 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:17:16.425Z",
+            "modified": "2026-04-29T14:23:06.049Z",
             "description": "[CreepyDrive](https://attack.mitre.org/software/S1023) can use OneDrive for C2.(Citation: Microsoft POLONIUM June 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--750eb92a-7fdf-451e-9592-1d42357018f1",
             "target_ref": "attack-pattern--be055942-6e63-49d7-9fa1-9cb7d8a8f3f4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

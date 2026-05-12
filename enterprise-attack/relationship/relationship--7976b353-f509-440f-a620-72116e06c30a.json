@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4d42e42c-8b02-4ac4-83ef-1c6149788a07",
+    "id": "bundle--071e1ddc-1bf0-48b9-a4a9-359870f14b5f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7976b353-f509-440f-a620-72116e06c30a",
             "created": "2022-03-10T20:37:03.622Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 WhisperGate January 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:25:35.902Z",
+            "modified": "2026-04-29T14:23:06.091Z",
             "description": "[WhisperGate](https://attack.mitre.org/software/S0689) can stop its execution when it recognizes the presence of certain monitoring tools.(Citation: Unit 42 WhisperGate January 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--49fee0b0-390e-4bde-97f8-97ed46bd19b7",
             "target_ref": "attack-pattern--29be378d-262d-4e99-b00d-852d573628e6",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

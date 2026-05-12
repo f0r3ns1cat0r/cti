@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1b58ba1e-2523-43d6-aea0-ffb14d191ac7",
+    "id": "bundle--5e42d986-1cff-49ab-8731-00cc9211ef7c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f2a5153d-95fa-41b3-8d5f-d99d2b0b1aa4",
             "created": "2024-09-16T08:56:56.802Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Cloud APT41 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:57:15.323Z",
+            "modified": "2026-04-29T14:23:06.255Z",
             "description": "[DUSTTRAP](https://attack.mitre.org/software/S1159) can identify infected system log information.(Citation: Google Cloud APT41 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--33139388-de0c-49ff-862a-041c315b142d",
             "target_ref": "attack-pattern--866d0d6d-02c6-42bd-aa2f-02907fdc0969",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

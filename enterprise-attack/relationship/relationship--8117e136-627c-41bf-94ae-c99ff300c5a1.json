@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4bb32d84-4b04-4df8-ae49-c790f7177028",
+    "id": "bundle--39e2bab5-58b2-451b-89c9-65939e5432f7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8117e136-627c-41bf-94ae-c99ff300c5a1",
             "created": "2025-10-19T13:28:30.156Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Esentire ContagiousInterview BeaverTail InvisibleFerret November 2024",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T21:39:45.124Z",
+            "modified": "2026-04-29T14:23:06.102Z",
             "description": "[InvisibleFerret](https://attack.mitre.org/software/S1245) has stolen login data, autofill data, cryptocurrency wallets, and payment information saved in web browsers such as Chrome, Brave, Opera, Yandex and Edge, to include versions affiliated with major operating systems on Windows, Linux, and macOS.(Citation: Esentire ContagiousInterview BeaverTail InvisibleFerret November 2024)(Citation: ESET Contagious Interview BeaverTail InvisibleFerret February 2025) [InvisibleFerret](https://attack.mitre.org/software/S1245) has also leveraged the command `ssh_zcp` to copy browser data to include extensions and cryptocurrency wallet data.(Citation: Zscaler ContagiousInterview BeaverTail InvisibleFerret November 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--1dac60f2-7d53-4a3e-95d1-cb2e875d5491",

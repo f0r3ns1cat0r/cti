@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--01b97127-1ec1-45c5-a0f3-d3e8f47973ea",
+    "id": "bundle--0f8e40a5-6c50-490f-8ffe-d2cd06000b0b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8d918445-6d96-4729-98e7-e01a318647aa",
             "created": "2022-10-04T21:51:00.920Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant UNC3890 Aug 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:30:54.387Z",
+            "modified": "2026-04-29T14:23:06.118Z",
             "description": "(Citation: Mandiant UNC3890 Aug 2022)",
             "relationship_type": "uses",
             "source_ref": "campaign--ab747e62-1bcb-479f-a26b-1cd39d413d81",
             "target_ref": "malware--44e2a842-415b-47f4-8549-83fbdb8a5674",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

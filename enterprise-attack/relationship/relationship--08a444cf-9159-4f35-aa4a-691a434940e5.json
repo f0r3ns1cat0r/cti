@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--32329589-ecd3-45fd-ae45-a7285c45ce32",
+    "id": "bundle--cd7069c2-8119-44d4-84a0-b54d181c343e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T14:47:15.115Z",
+            "modified": "2026-04-29T14:23:05.915Z",
             "description": "The [AshTag](https://attack.mitre.org/software/S9031) AshenOrchestrator component can enumerate files on victim hosts.(Citation: Palo Alto Ashen Lepus DEC 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--bb6f2a5c-dbc9-45b0-bd3f-a0b7849959c2",

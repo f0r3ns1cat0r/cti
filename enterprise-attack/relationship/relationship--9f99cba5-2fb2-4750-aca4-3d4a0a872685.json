@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1fbd2581-be90-4fa5-bf25-962dadf64f16",
+    "id": "bundle--7153e4b8-b524-4f9e-a7b1-ee5f1ef76d02",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9f99cba5-2fb2-4750-aca4-3d4a0a872685",
             "created": "2019-05-02T14:41:03.467Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cofense RevengeRAT Feb 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:35:53.517Z",
+            "modified": "2026-04-29T14:23:06.142Z",
             "description": "[Revenge RAT](https://attack.mitre.org/software/S0379) uses mshta.exe to run malicious scripts on the system.(Citation: Cofense RevengeRAT Feb 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--bdb27a1d-1844-42f1-a0c0-826027ae0326",
             "target_ref": "attack-pattern--840a987a-99bd-4a80-a5c9-0cb2baa6cade",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

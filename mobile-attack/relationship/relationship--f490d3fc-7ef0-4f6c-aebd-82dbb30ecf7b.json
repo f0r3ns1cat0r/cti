@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--614cf29f-737e-47bf-a8eb-48b453a6e14b",
+    "id": "bundle--b7e334b8-d728-4589-b5b4-e0e195698464",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f490d3fc-7ef0-4f6c-aebd-82dbb30ecf7b",
             "created": "2026-03-09T15:36:31.337Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET_VajraSpy_Feb2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-09T15:36:31.337Z",
+            "modified": "2026-04-29T14:23:06.257Z",
             "description": "[VajraSpy](https://attack.mitre.org/software/S9006) has logged keystrokes of an infected device.(Citation: ESET_VajraSpy_Feb2024) ",
             "relationship_type": "uses",
             "source_ref": "malware--8205a875-3ed5-4be2-ab9b-14a7d29431d0",

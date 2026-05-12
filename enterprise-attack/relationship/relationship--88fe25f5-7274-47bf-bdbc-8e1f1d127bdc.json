@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cc7615b3-c414-4387-9376-6c375e737bbb",
+    "id": "bundle--6a1b7b64-1bd0-4efb-9b54-ca134e5b7dee",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--88fe25f5-7274-47bf-bdbc-8e1f1d127bdc",
             "created": "2025-10-16T14:46:19.261Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Unit 42 Medusa Group Medusa Ransomware January 2024",
@@ -33,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-16T14:46:19.261Z",
+            "modified": "2026-04-29T14:23:06.112Z",
             "description": "[Medusa Group](https://attack.mitre.org/groups/G1051) has leveraged Remote Access Software for lateral movement and data exfiltration.(Citation: Palo Alto Unit 42 Medusa Group Medusa Ransomware January 2024)(Citation: CISA Medusa Group Medusa Ransomware March 2025)(Citation: Broadcom Medusa Ransomware Medusa Group March 2025)(Citation: Security Scorecard Medusa Ransomware January 2024) [Medusa Group](https://attack.mitre.org/groups/G1051) has also been known to utilize Remote Access Software such as AnyDesk, Atera, ConnectWise, eHorus, N-Able, PDQ Deploy, PDQ Inventory, SimpleHelp and Splashtop.(Citation: CISA Medusa Group Medusa Ransomware March 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--918da025-04bd-48af-b6c4-f3e4d1b915eb",

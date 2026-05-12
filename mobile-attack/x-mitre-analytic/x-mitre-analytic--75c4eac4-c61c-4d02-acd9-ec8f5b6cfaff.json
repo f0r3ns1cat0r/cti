@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c522ee75-97b8-46e4-9797-72e599126d4f",
+    "id": "bundle--ca49c3ca-8c02-43a2-bbda-3c01ea924855",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T16:22:36.406Z",
+            "modified": "2026-05-12T16:30:18.379Z",
             "name": "Analytic 1730",
             "description": "The defender correlates anomalous application package replacement, update, or executable-content drift with subsequent execution under the trusted application's identity, especially when package metadata, signing lineage, install source, file integrity, or native/DEX component characteristics change without a corresponding trusted distribution path. The analytic prioritizes Android-observable control-plane effects: package install/update events, package hash or code-section drift, signer mismatch or lineage break, unexpected app process behavior after replacement, and optional near-term network or sensor activity inconsistent with the legitimate application's baseline.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

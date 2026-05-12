@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--727766fa-38d0-466d-9cdc-823215373faa",
+    "id": "bundle--3773bffa-e35b-4c88-b29e-203baabf8306",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-16T16:27:24.678Z",
+            "modified": "2026-05-12T16:30:18.378Z",
             "name": "Analytic 1851",
             "description": "Defender correlates a sandboxed app writing high-entropy or encoded artifacts (often in app-private or shared storage), performing decode/decompress/reassembly, then dynamically loading/execing the resulting code (DexClassLoader/JNI dlopen) or spawning a helper process. Sequence: high-entropy file writes \u2192 decode/unpack bursts \u2192 new .dex/.so/.jar creation in temp/obfuscated paths \u2192 dynamic load or shell spawn within a tight window.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

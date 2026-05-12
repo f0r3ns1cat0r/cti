@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3e853024-035a-4b46-8806-9780b09ebeef",
+    "id": "bundle--a452acb5-5624-4e6b-9f21-5d08735d3b98",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5c1e3aa9-160d-49fd-83a2-2ed2f8c5435c",
             "created": "2021-02-17T20:43:52.324Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lookout FrozenCell",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:28:55.647Z",
+            "modified": "2026-04-29T14:23:06.051Z",
             "description": "[FrozenCell](https://attack.mitre.org/software/S0577) has collected phone metadata such as cell location, mobile country code (MCC), and mobile network code (MNC).(Citation: Lookout FrozenCell)",
             "relationship_type": "uses",
             "source_ref": "malware--96ea1e13-d50f-45f1-b0cf-4ac9bc5a2d62",
             "target_ref": "attack-pattern--d4536441-1bcc-49fa-80ae-a596ed3f7ffd",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

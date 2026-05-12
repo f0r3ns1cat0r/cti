@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--68ac470f-3517-4bdb-8849-0daf8c0df0ef",
+    "id": "bundle--67379362-3ce4-4ebf-a9af-361a2cc37031",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ce459961-3a5a-45f9-b8a4-646e9b475e19",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 OopsIE! Feb 2018",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:10:53.436Z",
+            "modified": "2026-04-29T14:23:06.207Z",
             "description": "[OopsIE](https://attack.mitre.org/software/S0264) creates a scheduled task to run itself every three minutes.(Citation: Unit 42 OopsIE! Feb 2018)(Citation: Unit 42 OilRig Sept 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--8e101fdd-9f7f-4916-bb04-6bd9e94c129c",
             "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

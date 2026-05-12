@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bc6e3f0b-c115-4630-b484-e74988905338",
+    "id": "bundle--65b44286-678d-4eb3-ae20-658c3ae212fa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4819f391-01de-4525-992b-7e4a4f6667de",
             "created": "2020-11-20T15:46:51.603Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec GoldenCup",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:28:34.987Z",
+            "modified": "2026-04-29T14:23:06.023Z",
             "description": "[Golden Cup](https://attack.mitre.org/software/S0535) can take pictures with the camera.(Citation: Symantec GoldenCup)",
             "relationship_type": "uses",
             "source_ref": "malware--f3975cc0-72bc-4308-836e-ac701b83860e",
             "target_ref": "attack-pattern--d8940e76-f9c1-4912-bea6-e21c251370b6",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

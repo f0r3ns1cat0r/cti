@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f002a4be-6092-4e26-96e5-ade5e7971497",
+    "id": "bundle--5a84c330-7c6c-48dc-b39e-4de6c7d4ebd0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T22:30:23.047Z",
+            "modified": "2026-04-29T14:23:05.945Z",
             "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has used compromised mailboxes within target organizations to send spearphishing emails.(Citation: FalconFeeds_Iran_Mar2026)   ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",

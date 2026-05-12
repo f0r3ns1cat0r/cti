@@ -1,11 +1,10 @@
 {
     "type": "bundle",
-    "id": "bundle--49f3f9ed-784f-4ca8-9e6a-71debe8293cf",
+    "id": "bundle--b421f9b2-623b-4ab6-9b16-641284c9cf7e",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--e2c3189b-34cf-4160-bc9f-2dcf4df451c6",
             "created": "2026-04-23T14:59:37.388Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -20,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:23:56.287Z",
+            "modified": "2026-05-12T16:30:18.391Z",
             "name": "Detection of Query Public AI Services",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,

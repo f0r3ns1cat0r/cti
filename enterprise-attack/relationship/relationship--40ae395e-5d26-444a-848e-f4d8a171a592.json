@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--376002e2-94ce-4527-93ca-aecc1043121c",
+    "id": "bundle--84432945-33d4-4db0-ac55-0ad5c17463a4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T17:39:43.956Z",
+            "modified": "2026-04-29T14:23:06.013Z",
             "description": "[HiddenFace](https://attack.mitre.org/software/S9023) can create a mutex to ensure only one instance is running at a time.(Citation: ESET HiddenFace 2024)\n",
             "relationship_type": "uses",
             "source_ref": "malware--9edc41d1-a13d-4acf-b400-d47fb2f6809d",

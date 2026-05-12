@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dcd9f0e5-e0ae-4d29-9074-ba42155f79ba",
+    "id": "bundle--d4a0ecc0-3bc5-48b7-b0ca-6c32b70c246d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--179cb2c1-5069-479d-ab51-6e1adfd2d983",
             "created": "2025-12-16T00:05:10.697Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SophosGnGal_SystemBC_Dec2020",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-12-16T00:05:10.697Z",
+            "modified": "2026-04-29T14:23:05.936Z",
             "description": "[SystemBC](https://attack.mitre.org/software/S9001) has collected the Windows account username on the victim machine.(Citation: SophosGnGal_SystemBC_Dec2020)",
             "relationship_type": "uses",
             "source_ref": "malware--39643fb9-00c1-4a45-85e5-801a3f2665d1",

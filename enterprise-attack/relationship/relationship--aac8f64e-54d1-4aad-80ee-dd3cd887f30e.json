@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2bbbc7b7-5942-422a-9996-3b6881cd0a95",
+    "id": "bundle--a9ba3bb6-ecb4-46b4-87d9-edb90228e8b9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--aac8f64e-54d1-4aad-80ee-dd3cd887f30e",
             "created": "2019-03-26T16:19:52.411Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Nyetya June 2017",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:04:29.058Z",
+            "modified": "2026-04-29T14:23:06.157Z",
             "description": "[NotPetya](https://attack.mitre.org/software/S0368) encrypts user files and disk structures like the MBR with 2048-bit RSA.(Citation: Talos Nyetya June 2017)(Citation: US-CERT NotPetya 2017)(Citation: US District Court Indictment GRU Unit 74455 October 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--5719af9d-6b16-46f9-9b28-fb019541ddbb",
             "target_ref": "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

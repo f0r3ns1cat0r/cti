@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--84b3a9d1-83ad-4878-87c5-19e5220d29b2",
+    "id": "bundle--efad87de-d2a3-4ac2-8037-573fcfdb238f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c1d557cf-646d-4cac-bd2a-20889431372f",
             "created": "2024-04-18T13:59:55.669Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MSTIC Octo Tempest Operations October 2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:44:43.406Z",
+            "modified": "2026-04-29T14:23:06.190Z",
             "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) has created volume shadow copies of virtual domain controller disks to extract the `NTDS.dit` file.(Citation: MSTIC Octo Tempest Operations October 2023)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
             "target_ref": "attack-pattern--0c8ab3eb-df48-4b9c-ace7-beacaac81cc5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

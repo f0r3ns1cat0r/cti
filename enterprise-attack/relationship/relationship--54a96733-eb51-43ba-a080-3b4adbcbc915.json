@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--66e445bf-7553-4714-8ccf-b0d7ac65d017",
+    "id": "bundle--b33ff273-9cd6-40c8-8f2c-cab8939a739a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T21:39:34.214Z",
+            "modified": "2026-04-29T14:23:06.041Z",
             "description": "[Tsundere Botnet](https://attack.mitre.org/software/S9034)\u2019s loader component has downloaded the zip file node-v18.17.0-win-x64.zip from the official Node.js website, as well as pm2, a Node.js process management tool.(Citation: SecureListUbiedo_Tsundere_Nov2025)",
             "relationship_type": "uses",
             "source_ref": "malware--18f5f8c6-bba5-4aba-93e7-3539fe565883",

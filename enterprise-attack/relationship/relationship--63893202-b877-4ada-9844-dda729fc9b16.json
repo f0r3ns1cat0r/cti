@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ff56ad4f-b739-4dd2-8928-9ebe9fbe06aa",
+    "id": "bundle--f8c9bb10-35e7-48a5-a29b-ac7578744773",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T15:57:51.900Z",
+            "modified": "2026-04-29T14:23:06.060Z",
             "description": "[LODEINFO](https://attack.mitre.org/software/S9020) has inserted junk code to obstruct code analysis.(Citation: ITOCHU LODEINFO JAN 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--7908f855-5b5b-4d6a-acbc-af6b45ec27ad",

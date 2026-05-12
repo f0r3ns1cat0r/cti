@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5c9d4786-a2d9-4e2c-95f8-80b3f814baaf",
+    "id": "bundle--82f2b0d1-2987-4e45-914e-91e336274311",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c353c2cd-cc78-4d7c-a3b0-5aa1d927368b",
             "created": "2023-04-04T22:42:43.982Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelLabs Metador Technical Appendix Sept 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:45:08.873Z",
+            "modified": "2026-04-29T14:23:06.192Z",
             "description": "[Mafalda](https://attack.mitre.org/software/S1060) can use `AdjustTokenPrivileges()` to elevate privileges.(Citation: SentinelLabs Metador Technical Appendix Sept 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--3be1fb7a-0f7e-415e-8e3a-74a80d596e68",
             "target_ref": "attack-pattern--dcaa092b-7de9-4a21-977f-7fcb77e89c48",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

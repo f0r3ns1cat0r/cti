@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3bae35d0-b55b-4222-84d6-0531e886181e",
+    "id": "bundle--de9041d4-1eab-4f37-9535-cd85ea8ac423",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0743264d-1356-4f9e-96cc-8698f5e0e862",
             "created": "2019-01-31T01:07:58.553Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Cobalt Kitty 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:33:05.255Z",
+            "modified": "2026-04-29T14:23:05.913Z",
             "description": "[APT32](https://attack.mitre.org/groups/G0050) has used pass the hash for lateral movement.(Citation: Cybereason Cobalt Kitty 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "target_ref": "attack-pattern--e624264c-033a-424d-9fd7-fc9c3bbdb03e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

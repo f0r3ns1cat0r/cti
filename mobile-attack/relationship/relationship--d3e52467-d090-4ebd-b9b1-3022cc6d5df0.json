@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fcca7269-0822-4541-a2ca-b11ee5a1a700",
+    "id": "bundle--c7092cc4-1f97-4ef7-9012-2dde519a30f7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d3e52467-d090-4ebd-b9b1-3022cc6d5df0",
             "created": "2023-02-06T19:42:34.537Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "threatfabric_sova_0921",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:51:50.375Z",
+            "modified": "2026-04-29T14:23:06.215Z",
             "description": "[S.O.V.A.](https://attack.mitre.org/software/S1062) can resist removal by going to the home screen during uninstall.(Citation: threatfabric_sova_0921)",
             "relationship_type": "uses",
             "source_ref": "malware--4b53eb01-57d7-47b4-b078-22766b002b36",
             "target_ref": "attack-pattern--dc01774a-d1c1-45fb-b506-0a5d1d6593d9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

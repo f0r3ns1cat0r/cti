@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a6731169-7492-42fa-8237-7f64b1fae970",
+    "id": "bundle--d1981a57-6f5b-4623-8eba-2dfcc92bd5a8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-04T23:47:29.735Z",
+            "modified": "2026-05-12T16:30:18.383Z",
             "name": "Analytic 1777",
             "description": "Defender correlates an application\u2019s location authorization level (When-In-Use vs Always) and entitlement posture with observed location sensor activity that occurs without proximate user interaction, including background updates, followed by periodic outbound network sessions aligned to location update timing\u2014suggesting covert or policy-violating location tracking.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

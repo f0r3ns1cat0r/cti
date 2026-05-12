@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d5b77809-a1f5-4f0a-a21d-b395771ab57a",
+    "id": "bundle--3188c3bb-14ca-4402-902b-91746a967367",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T14:38:08.081Z",
+            "modified": "2026-04-29T14:23:05.992Z",
             "description": "[Tsundere Botnet](https://attack.mitre.org/software/S9034) has used the Node Package Manager (npm) to download malicious packages and to deliver the payload.(Citation: SecureListUbiedo_Tsundere_Nov2025)",
             "relationship_type": "uses",
             "source_ref": "malware--18f5f8c6-bba5-4aba-93e7-3539fe565883",

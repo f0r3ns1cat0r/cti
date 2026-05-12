@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3773542c-bd81-4f10-aa55-bce604adee94",
+    "id": "bundle--ab31bcaf-0ef3-42de-a677-aa385d4f7799",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f38fa132-2485-45aa-ad86-4608595adb65",
             "created": "2022-07-25T17:38:35.171Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelOne Aoqin Dragon June 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:57:30.288Z",
+            "modified": "2026-04-29T14:23:06.256Z",
             "description": "[Mongall](https://attack.mitre.org/software/S1026) can establish persistence with the auto start function including using the value `EverNoteTrayUService`.(Citation: SentinelOne Aoqin Dragon June 2022)\n",
             "relationship_type": "uses",
             "source_ref": "malware--6fb36c6f-bb3d-4ed6-9471-cb9933e5c154",
             "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fcb7381b-60e3-4099-855d-bfa7c6c5cf8c",
+    "id": "bundle--db06e8fa-a9c8-44f7-9e3d-b8d6ef248013",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--dff93811-e9f1-430e-95d3-344a067b2e23",
             "created": "2020-08-07T20:02:10.040Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelOne Lazarus macOS July 2020",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:13:56.029Z",
+            "modified": "2026-04-29T14:23:06.231Z",
             "description": "[Dacls](https://attack.mitre.org/software/S0497) has had its payload named with a dot prefix to make it hidden from view in the Finder application.(Citation: SentinelOne Lazarus macOS July 2020)(Citation: TrendMicro macOS Dacls May 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--3aa169f8-bbf6-44bb-b57d-7f6ada5c2128",
             "target_ref": "attack-pattern--ec8fc7e2-b356-455c-8db5-2e37be158e7d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

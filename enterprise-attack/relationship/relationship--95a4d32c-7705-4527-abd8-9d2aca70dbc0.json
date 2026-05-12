@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--05dcd36f-6243-4233-827b-6cb0b8b0bab3",
+    "id": "bundle--44ea6669-661c-4d11-8642-131af159c151",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--95a4d32c-7705-4527-abd8-9d2aca70dbc0",
             "created": "2020-05-12T14:07:23.123Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye MESSAGETAP October 2019",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:00:35.569Z",
+            "modified": "2026-04-29T14:23:06.129Z",
             "description": "(Citation: FireEye MESSAGETAP October 2019)(Citation: Crowdstrike GTR2020 Mar 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
             "target_ref": "malware--9b19d6b4-cfcb-492f-8ca8-8449e7331573",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

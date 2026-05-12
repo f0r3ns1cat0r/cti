@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7a372e34-73a7-4f35-9fcc-ee2788bf5d02",
+    "id": "bundle--e8276f8f-5f14-4e1a-8fc1-e9ba4bbd627f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:02:48.008Z",
+            "modified": "2026-04-29T14:23:06.235Z",
             "description": "[JumbledPath](https://attack.mitre.org/software/S1206) can clear logs on all devices used along its connection path to compromised network infrastructure.(Citation: Cisco Salt Typhoon FEB 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--05489800-6c6f-4922-a0de-d573b333e612",

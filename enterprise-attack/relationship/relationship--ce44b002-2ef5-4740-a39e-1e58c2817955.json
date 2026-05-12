@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c7a8a1ab-2ced-435e-9010-4eb474f20442",
+    "id": "bundle--ec0bb4da-2814-488b-8474-06f50d39c246",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ce44b002-2ef5-4740-a39e-1e58c2817955",
             "created": "2019-03-12T17:42:01.042Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro Trickbot Feb 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:10:53.257Z",
+            "modified": "2026-04-29T14:23:06.207Z",
             "description": "[TrickBot](https://attack.mitre.org/software/S0266) has the ability to capture RDP credentials by capturing the <code>CredEnumerateA</code> API(Citation: TrendMicro Trickbot Feb 2019) ",
             "relationship_type": "uses",
             "source_ref": "malware--00806466-754d-44ea-ad6f-0caf59cb8556",
             "target_ref": "attack-pattern--f5946b5e-9408-485f-a7f7-b5efc88909b6",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

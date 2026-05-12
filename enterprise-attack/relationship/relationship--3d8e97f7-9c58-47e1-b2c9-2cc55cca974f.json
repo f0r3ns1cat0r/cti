@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6b5d55b5-f172-4714-be98-1e308f742e3e",
+    "id": "bundle--9a57c8fc-c75d-4d2d-b430-b8c7d9d1f961",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--3d8e97f7-9c58-47e1-b2c9-2cc55cca974f",
             "created": "2021-09-28T15:46:27.092Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky QakBot September 2021",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:09:17.935Z",
+            "modified": "2026-04-29T14:23:06.009Z",
             "description": "[QakBot](https://attack.mitre.org/software/S0650) can target and steal locally stored emails to support thread hijacking phishing campaigns.(Citation: Kroll Qakbot June 2020)(Citation: Trend Micro Qakbot December 2020)(Citation: Kaspersky QakBot September 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--edc5e045-5401-42bb-ad92-52b5b2ee0de9",
             "target_ref": "attack-pattern--1e9eb839-294b-48cc-b0d3-c45555a2a004",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

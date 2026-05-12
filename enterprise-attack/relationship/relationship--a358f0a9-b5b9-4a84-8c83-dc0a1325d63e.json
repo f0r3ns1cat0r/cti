@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--466b6f94-7d78-4c13-befc-081a481b9578",
+    "id": "bundle--15fc66d0-dca1-44c1-b5aa-ba29dda3c3dd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a358f0a9-b5b9-4a84-8c83-dc0a1325d63e",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT28",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:36:48.954Z",
+            "modified": "2026-04-29T14:23:06.147Z",
             "description": "[APT28](https://attack.mitre.org/groups/G0007) exploited a Windows SMB Remote Code Execution Vulnerability to conduct lateral movement.(Citation: FireEye APT28)(Citation: FireEye APT28 Hospitality Aug 2017)(Citation: MS17-010 March 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--9db0cf3a-a3c9-4012-8268-123b9db6fd82",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

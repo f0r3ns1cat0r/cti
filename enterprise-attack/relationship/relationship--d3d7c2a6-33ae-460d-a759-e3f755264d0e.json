@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7394a2d9-097c-46a0-a708-cca4776325c5",
+    "id": "bundle--6b4c06f7-a22f-4dc1-8e05-d9c1f8bf503a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d3d7c2a6-33ae-460d-a759-e3f755264d0e",
             "created": "2022-09-21T21:10:34.784Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant UNC3890 Aug 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:49:27.785Z",
+            "modified": "2026-04-29T14:23:06.215Z",
             "description": "A [SUGARDUMP](https://attack.mitre.org/software/S1042) variant has used HTTP for C2.(Citation: Mandiant UNC3890 Aug 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--9c10cede-c0bb-4c5c-91c0-8baec30abaf6",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

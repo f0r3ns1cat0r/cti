@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a4f03c44-c499-4595-8ecb-62598e0766d7",
+    "id": "bundle--a1054c5b-ed93-4e48-b15a-f631aa4cdee7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e54309eb-8865-452a-8a87-55168264612a",
             "created": "2024-08-14T22:14:54.130Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "PWC Yellow Liderc 2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:53:49.052Z",
+            "modified": "2026-04-29T14:23:06.237Z",
             "description": "[IMAPLoader](https://attack.mitre.org/software/S1152) is a loader used to retrieve follow-on payload encoded in email messages for execution on victim systems.(Citation: PWC Yellow Liderc 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--3058b264-fe6b-46be-8948-2d1fadaf8adf",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

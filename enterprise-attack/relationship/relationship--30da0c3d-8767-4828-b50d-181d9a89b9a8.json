@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9ac695b1-4412-4709-b536-55a320fd3570",
+    "id": "bundle--48724b30-0e3f-41bf-90a2-0e564f1f7e08",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--30da0c3d-8767-4828-b50d-181d9a89b9a8",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky ToddyCat June 2022",
@@ -38,14 +39,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:05:46.580Z",
+            "modified": "2026-04-29T14:23:05.978Z",
             "description": "[China Chopper](https://attack.mitre.org/software/S0020)'s server component can download remote files.(Citation: FireEye Periscope March 2018)(Citation: Lee 2013)(Citation: NCSC Joint Report Public Tools)(Citation: Rapid7 HAFNIUM Mar 2021)(Citation: Kaspersky ToddyCat June 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--5a3a31fe-5a8f-48e1-bff0-a753e5b1be70",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

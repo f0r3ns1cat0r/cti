@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6af416a0-149f-49b1-960e-c144a63efcff",
+    "id": "bundle--c4f5a622-9658-4f4a-98ec-8557ba8ad727",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--27d4f0a9-7f8f-4d3d-b130-fd096bede2e9",
             "created": "2019-06-07T19:05:01.812Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Moran 2013",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:03:32.884Z",
+            "modified": "2026-04-29T14:23:05.959Z",
             "description": "[Ixeshe](https://attack.mitre.org/software/S0015) uses HTTP for command and control.(Citation: Moran 2013)(Citation: Trend Micro IXESHE 2012)",
             "relationship_type": "uses",
             "source_ref": "malware--8beac7c2-48d2-4cd9-9b15-6c452f38ac06",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

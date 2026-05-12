@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aea68f00-ca0f-4352-b2f7-1c7feaa3379b",
+    "id": "bundle--ef95433c-e341-47e3-96ad-f147e409b3d5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5b2f0fb3-5877-4fa2-bed1-1962423caccd",
             "created": "2019-01-30T14:11:44.244Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro Trickbot Nov 2018",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:49:28.559Z",
+            "modified": "2026-04-29T14:23:06.049Z",
             "description": "[TrickBot](https://attack.mitre.org/software/S0266) can obtain passwords stored in files from several applications such as Outlook, Filezilla, OpenSSH, OpenVPN and WinSCP.(Citation: Trend Micro Trickbot Nov 2018)(Citation: Cyberreason Anchor December 2019) Additionally, it searches for the \".vnc.lnk\" affix to steal VNC credentials.(Citation: TrendMicro Trickbot Feb 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--00806466-754d-44ea-ad6f-0caf59cb8556",
             "target_ref": "attack-pattern--837f9164-50af-4ac0-8219-379d8a74cefc",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

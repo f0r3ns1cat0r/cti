@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1fa8e5a2-38d0-43b8-93aa-f48543ae899a",
+    "id": "bundle--cbd3cdc0-a671-43a4-bdb1-84d8a1bb7f1a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8720f2bc-c099-4d2c-a9b4-faf019bf55a4",
             "created": "2019-01-31T00:36:41.003Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Konni May 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:57:46.390Z",
+            "modified": "2026-04-29T14:23:06.110Z",
             "description": "[KONNI](https://attack.mitre.org/software/S0356) can download files and execute them on the victim\u2019s machine.(Citation: Talos Konni May 2017)(Citation: Malwarebytes Konni Aug 2021) ",
             "relationship_type": "uses",
             "source_ref": "malware--86b92f6c-9c05-4c51-b361-4c7bb13e21a1",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

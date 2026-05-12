@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--191b2af7-7f8c-419c-ba38-07fab29ab14d",
+    "id": "bundle--d568cb2a-21ad-4b15-a3ec-2fa7cce7b612",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--54f36f78-5046-48f5-9ec8-0348ae057fff",
             "created": "2020-12-28T18:50:41.516Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Red Canary Hospital Thwarted Ryuk October 2020",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:15:46.415Z",
+            "modified": "2026-04-29T14:23:06.041Z",
             "description": "[AdFind](https://attack.mitre.org/software/S0552) can extract subnet information from Active Directory.(Citation: Red Canary Hospital Thwarted Ryuk October 2020)(Citation: FireEye FIN6 Apr 2019)(Citation: FireEye Ryuk and Trickbot January 2019)",
             "relationship_type": "uses",
             "source_ref": "tool--f59508a6-3615-47c3-b493-6676e1a39a87",
             "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

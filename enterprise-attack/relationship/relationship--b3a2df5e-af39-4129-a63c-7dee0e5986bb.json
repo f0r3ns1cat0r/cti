@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--65f04855-ee1a-457e-84d6-b6e7101c268e",
+    "id": "bundle--f1203696-bd8b-4742-bd13-959bfeba34b6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b3a2df5e-af39-4129-a63c-7dee0e5986bb",
             "created": "2023-09-14T18:58:23.135Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MalwareBytes LazyScripter Feb 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:41:01.807Z",
+            "modified": "2026-04-29T14:23:06.170Z",
             "description": "(Citation: MalwareBytes LazyScripter Feb 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03",
             "target_ref": "tool--2f7f03bb-f367-4a5a-ad9b-310a12a48906",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

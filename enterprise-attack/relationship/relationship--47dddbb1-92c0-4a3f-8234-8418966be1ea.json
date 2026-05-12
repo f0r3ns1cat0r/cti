@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3891e698-1644-417a-878e-5edf96260b1f",
+    "id": "bundle--0fee42ab-95dc-424a-b9cf-335a26c08bae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--47dddbb1-92c0-4a3f-8234-8418966be1ea",
             "created": "2025-10-19T19:45:10.550Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Storm-501 Sabbath Ransomware Embargo September 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-20T16:42:38.070Z",
+            "modified": "2026-04-29T14:23:06.023Z",
             "description": "[Storm-0501](https://attack.mitre.org/groups/G1053) had used a scheduled task named \u201cSysUpdate\u201d that was registered via GPO on devices in the network to distribute the [Embargo](https://attack.mitre.org/software/S1247) ransomware.(Citation: Microsoft Storm-501 Sabbath Ransomware Embargo September 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7b404cd0-3ae9-41d4-90c0-023793d35d97",

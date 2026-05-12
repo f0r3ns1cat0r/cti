@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ac6d3d58-2e1f-49c6-bdbc-a9c45d0d9c5e",
+    "id": "bundle--0526acdd-c0d1-4dc1-8bed-3353c082bfec",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d7aa491f-a801-4611-ad07-5096e12c5c5f",
             "created": "2021-05-26T15:05:36.565Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "BlackBerry CostaRicto November 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:12:27.133Z",
+            "modified": "2026-04-29T14:23:06.220Z",
             "description": "[SombRAT](https://attack.mitre.org/software/S0615) can execute <code>loadfromfile</code>, <code>loadfromstorage</code>, and <code>loadfrommem</code> to inject a DLL  from disk, storage, or memory respectively.(Citation: BlackBerry CostaRicto November 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--425771c5-48b4-4ecd-9f95-74ed3fc9da59",
             "target_ref": "attack-pattern--f4599aa0-4f85-4a32-80ea-fc39dc965945",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f43d165a-6d23-4c84-bbf5-f718ae6f5e1d",
+    "id": "bundle--7d82fde4-8db5-4714-86a0-50ab62e05829",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d9ce0226-58f6-4907-a20f-6c821b537f7f",
             "created": "2024-03-15T20:42:43.839Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Security Mispadu Facebook Ads 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:50:57.193Z",
+            "modified": "2026-04-29T14:23:06.223Z",
             "description": "[Mispadu](https://attack.mitre.org/software/S1122) has the ability to capture and replace Bitcoin wallet data in the clipboard on a compromised host.(Citation: ESET Security Mispadu Facebook Ads 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--4e6464d2-69df-4e56-8d4c-1973f84d7b80",
             "target_ref": "attack-pattern--30973a08-aed9-4edf-8604-9084ce1b5c4f",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f209cb2f-c3d2-47ce-b6e2-6eaa5706cc9c",
+    "id": "bundle--c72db01b-932d-47d1-8301-59ecc98fb326",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--46c37037-00da-4cf5-bde1-4296e10e6483",
             "created": "2020-05-26T16:17:59.753Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Rocke August 2018",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:11:50.821Z",
+            "modified": "2026-04-29T14:23:06.022Z",
             "description": "[Rocke](https://attack.mitre.org/groups/G0106) has distributed cryptomining malware.(Citation: Talos Rocke August 2018)(Citation: Unit 42 Rocke January 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--44102191-3a31-45f8-acbe-34bdb441d5ad",
             "target_ref": "attack-pattern--a718a0c8-5768-41a1-9958-a1cc3f995e99",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

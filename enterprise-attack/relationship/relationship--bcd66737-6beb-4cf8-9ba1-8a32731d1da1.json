@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2a330a24-f377-45f7-b1d9-d571fe0bf588",
+    "id": "bundle--590c588b-c408-4558-ab2b-6d7b44011932",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bcd66737-6beb-4cf8-9ba1-8a32731d1da1",
             "created": "2019-10-11T16:13:19.695Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye FIN7 Oct 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:07:36.668Z",
+            "modified": "2026-04-29T14:23:06.183Z",
             "description": "[RDFSNIFFER](https://attack.mitre.org/software/S0416) has used several Win32 API functions to interact with the victim machine.(Citation: FireEye FIN7 Oct 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--065196de-d7e8-4888-acfb-b2134022ba1b",
             "target_ref": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

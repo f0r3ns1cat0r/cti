@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--72a63b38-dca2-484f-afa7-21694ff30f5f",
+    "id": "bundle--7e35124c-d1c5-4b95-aa62-377f1259349c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--699ac754-3f3e-46de-9b2a-5ea450ef47fd",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto OilRig May 2016",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:52:10.107Z",
+            "modified": "2026-04-29T14:23:06.069Z",
             "description": "The executable version of [Helminth](https://attack.mitre.org/software/S0170) has a module to log keystrokes.(Citation: Palo Alto OilRig May 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--eff1a885-6f90-42a1-901f-eef6e7a1905e",
             "target_ref": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

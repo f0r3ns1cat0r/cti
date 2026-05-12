@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d56bbecf-11da-4ff5-8ba2-9539e5661ff2",
+    "id": "bundle--8b8c0fb6-4511-4cda-90c7-330f45a67c5d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7fbbab0b-8e78-4352-ad0b-ae9a2eeffba5",
             "created": "2020-06-23T17:59:53.341Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro Tick November 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:56:29.646Z",
+            "modified": "2026-04-29T14:23:06.100Z",
             "description": "[Avenger](https://attack.mitre.org/software/S0473) can identify the domain of the compromised host.(Citation: Trend Micro Tick November 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--36ede314-7db4-4d09-b53d-81bbfbe5f6f8",
             "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

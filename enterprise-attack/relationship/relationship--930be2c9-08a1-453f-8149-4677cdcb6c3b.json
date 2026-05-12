@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4ba7bff7-63d2-49b3-bdbe-d26d682faf51",
+    "id": "bundle--89839f32-5fb6-4ad0-86d0-5e3d8a0c9de2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--930be2c9-08a1-453f-8149-4677cdcb6c3b",
             "created": "2025-10-20T12:17:54.856Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cyble Embargo Ransomware May 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-20T12:17:54.856Z",
+            "modified": "2026-04-29T14:23:06.125Z",
             "description": "[Embargo](https://attack.mitre.org/software/S1247) has obtained active services running on the victim\u2019s system through the functions `OpenSCManagerW()` and `EnumServicesStatusExW()`.(Citation: Cyble Embargo Ransomware May 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--82adb90e-43b8-4bce-9efe-afeba65457b2",

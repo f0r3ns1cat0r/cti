@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e8ac3644-8916-4ef6-a08d-9a145a342918",
+    "id": "bundle--c789e657-5ccd-41c2-b43c-77862df42a78",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-02-18T18:06:39.579Z",
+            "modified": "2026-05-12T16:30:18.376Z",
             "name": "Analytic 1788",
             "description": "Defender observes an app (package/UID) issuing high-rate directory or content-index enumerations against external/shared storage or other apps\u2019 Documents/Media providers (logcat:ContentResolver, logcat:StorageAccessFramework), followed within a short window by bulk READ handles or stat/list calls over many distinct paths (logcat:FileIO). Activity occurs without foreground UI or exceeds typical per-app baseline, indicating automated file/dir discovery rather than user-driven browsing. Correlate on package/UID/profile and time proximity.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

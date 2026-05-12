@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9abda89d-56ed-45e8-a45e-4d023ffc0abe",
+    "id": "bundle--f763dd34-950a-4c53-b630-5df55e1819e7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0a154ef3-859f-4f13-b5c9-9bd0e91864f0",
             "created": "2023-03-23T18:33:55.700Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Dukes October 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:55:29.462Z",
+            "modified": "2026-04-29T14:23:05.917Z",
             "description": "For [Operation Ghost](https://attack.mitre.org/campaigns/C0023), [APT29](https://attack.mitre.org/groups/G0016) used stolen administrator credentials for lateral movement on compromised networks.(Citation: ESET Dukes October 2019)",
             "relationship_type": "uses",
             "source_ref": "campaign--7854c1a0-f06c-4876-98a4-4bbd34751b05",
             "target_ref": "attack-pattern--c3d4bdd9-2cfe-4a80-9d0c-07a29ecdce8f",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

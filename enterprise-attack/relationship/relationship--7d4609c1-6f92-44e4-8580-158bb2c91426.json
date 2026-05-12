@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d2cbcdfd-9524-4218-b357-88975a8d888e",
+    "id": "bundle--a4c4cdb0-d6be-49b9-a87d-eb8ee99a800f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7d4609c1-6f92-44e4-8580-158bb2c91426",
             "created": "2025-10-20T11:37:32.277Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Embargo Ransomware October 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-20T15:21:12.844Z",
+            "modified": "2026-04-29T14:23:06.097Z",
             "description": "[Embargo](https://attack.mitre.org/software/S1247) has utilized MDeployer to decrypt two payloads that contain MS4Killer toolkit b.cache and the [Embargo](https://attack.mitre.org/software/S1247) ransomware executable a.cache with a hardcoded RC4 key `wlQYLoPCil3niI7x8CvR9EtNtL/aeaHrZ23LP3fAsJogVTIzdnZ5Pi09ZVeHFkiB`.(Citation: ESET Embargo Ransomware October 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--82adb90e-43b8-4bce-9efe-afeba65457b2",

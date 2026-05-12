@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--56651f5e-540d-462c-b8ba-a818d4ab5062",
+    "id": "bundle--b06e6b46-9fbc-4d97-8b0b-8593dadc78b0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ac1597ea-c0da-4365-998e-25e8e1ee87c9",
             "created": "2023-03-28T18:59:05.238Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant APT29 Microsoft 365 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:39:01.662Z",
+            "modified": "2026-04-29T14:23:06.159Z",
             "description": "[APT29](https://attack.mitre.org/groups/G0016) has successfully conducted password guessing attacks against a list of mailboxes.(Citation: Mandiant APT29 Microsoft 365 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
             "target_ref": "attack-pattern--09c4c11e-4fa1-4f8c-8dad-3cf8e69ad119",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

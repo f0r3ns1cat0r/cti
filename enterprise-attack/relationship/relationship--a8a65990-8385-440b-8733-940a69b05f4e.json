@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2cd709dd-295b-4ae8-9281-ecaae832de3e",
+    "id": "bundle--0bc87c1c-a2ea-483f-b7af-fc9aae427ca4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a8a65990-8385-440b-8733-940a69b05f4e",
             "created": "2020-07-27T15:20:50.522Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trustwave Pillowmint June 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:04:10.473Z",
+            "modified": "2026-04-29T14:23:06.155Z",
             "description": "[Pillowmint](https://attack.mitre.org/software/S0517) has used a PowerShell script to install a shim database.(Citation: Trustwave Pillowmint June 2020)\t",
             "relationship_type": "uses",
             "source_ref": "malware--bd7a9e13-69fa-4243-a5e5-04326a63f9f2",
             "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

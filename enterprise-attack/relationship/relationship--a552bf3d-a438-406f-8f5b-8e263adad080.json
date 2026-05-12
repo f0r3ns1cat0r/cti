@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ad5dacb3-8dfe-4795-b978-9fe29a3ac3e6",
+    "id": "bundle--1dd7054d-3517-45a2-a885-99c2e2930100",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a552bf3d-a438-406f-8f5b-8e263adad080",
             "created": "2019-04-17T16:58:29.703Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "DOJ APT10 Dec 2018",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:03:29.795Z",
+            "modified": "2026-04-29T14:23:06.150Z",
             "description": "(Citation: DOJ APT10 Dec 2018)(Citation: Symantec Cicada November 2020)(Citation: Securelist APT10 March 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
             "target_ref": "tool--da04ac30-27da-4959-a67d-450ce47d9470",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

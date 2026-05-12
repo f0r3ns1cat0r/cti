@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8c163078-8277-4f76-9731-3ff47d06271b",
+    "id": "bundle--7eb53a9d-4989-4575-bb20-4bd6da4e0d72",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--467d6065-8f8f-46f2-917d-cdd9a9da5e91",
             "created": "2025-01-15T20:00:59.432Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto MidnightEclipse APR 2024",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:11:45.546Z",
+            "modified": "2026-04-29T14:23:06.021Z",
             "description": "During [Operation MidnightEclipse](https://attack.mitre.org/campaigns/C0048), threat actors made multiple attempts to install [UPSTYLE](https://attack.mitre.org/software/S1164)(Citation: Volexity UPSTYLE 2024)(Citation: Palo Alto MidnightEclipse APR 2024)",
             "relationship_type": "uses",
             "source_ref": "campaign--455b011a-2510-49ab-a96f-2f84d6a80189",
             "target_ref": "malware--2692bdd0-da52-44ff-88a3-9db28b948ea2",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

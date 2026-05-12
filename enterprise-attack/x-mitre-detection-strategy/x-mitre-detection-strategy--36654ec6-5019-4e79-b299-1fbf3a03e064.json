@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--ba86514b-1d7b-4529-96d3-23db8f238f28",
+    "id": "bundle--84af8c66-dac2-44ba-93fb-0d6c10936902",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--36654ec6-5019-4e79-b299-1fbf3a03e064",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.674Z",
             "name": "Behavioral Detection of Native API Invocation via Unusual DLL Loads and Direct Syscalls",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -31,8 +32,7 @@
                 "x-mitre-analytic--2a23296d-70f2-4e04-9a97-62d093ad1765",
                 "x-mitre-analytic--552ff82d-467b-4aeb-a4c3-084ca24dbd3e",
                 "x-mitre-analytic--5e02fe2a-7659-4871-b79e-7ea57373aa37"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

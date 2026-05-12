@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d1ca0ede-081b-4239-baad-aa318ee2f9be",
+    "id": "bundle--edf6faa1-0657-42c0-b0a1-633cbb432d09",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T16:55:59.891Z",
+            "modified": "2026-04-29T14:23:05.941Z",
             "description": "[MuddyViper](https://attack.mitre.org/software/S9032) has the ability to check for a specified list of security tools in the compromised\u202fenvironment.(Citation: ESET_MuddyWater_Dec2025)\u202f\u202f\u202f ",
             "relationship_type": "uses",
             "source_ref": "malware--7b92e996-b535-4159-be16-3c3aee4edf54",

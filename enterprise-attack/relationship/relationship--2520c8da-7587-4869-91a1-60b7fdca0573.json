@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--adf9bc4c-21e9-4006-8e97-9289e6d2847e",
+    "id": "bundle--35df9b59-7c3c-4de6-b5d4-a528dfdbaca0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T18:41:08.735Z",
+            "modified": "2026-04-29T14:23:05.956Z",
             "description": "[VOID MANTICORE](https://attack.mitre.org/groups/G1055) had utilized Group Policy logon scripts to distribute the malicious payloads to victim devices through the execution of a batch file.(Citation: Check Point VOID MANTICORE Handala Hack March 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--ebd7ce77-c9ba-4fba-bb28-58296ac66559",

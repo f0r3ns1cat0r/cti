@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fad7fe58-af12-4230-a05d-e3c9f8eeafca",
+    "id": "bundle--e188f9bc-1e88-4d0c-b6a5-df4e8f89b98f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:08:01.617Z",
+            "modified": "2026-04-29T14:23:06.212Z",
             "description": "[Sea Turtle](https://attack.mitre.org/groups/G1041) has overwritten Linux system logs and unsets the Bash history file (effectively removing logging) during intrusions.(Citation: Hunt Sea Turtle 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--56a05d27-4d47-418a-b330-781c5614f202",

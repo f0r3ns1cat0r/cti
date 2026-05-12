@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c3f3c81e-62c9-487b-b640-62fa293e810a",
+    "id": "bundle--7f1f88dc-af9f-45f8-94e3-f61235830ad6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T12:52:32.522Z",
+            "modified": "2026-04-29T14:23:05.954Z",
             "description": "[MirrorFace](https://attack.mitre.org/groups/G1054) has deployed shellcode to check for Japanese Microsoft Office settings.(Citation: ITOCHU LODEINFO JAN 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--8cf6e33b-b6ef-4a1f-a77c-0ecdde93161f",

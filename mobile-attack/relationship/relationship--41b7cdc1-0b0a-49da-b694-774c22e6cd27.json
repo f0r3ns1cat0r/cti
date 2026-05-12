@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1d3a64da-7886-4235-b4b8-e25a2b6b8fc7",
+    "id": "bundle--cb3b078c-d57f-4c3d-870b-c3e0ebce30f4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--41b7cdc1-0b0a-49da-b694-774c22e6cd27",
             "created": "2025-03-28T14:40:13.034Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SecureList OpTriangulation 21Jun2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:48:14.694Z",
+            "modified": "2026-04-29T14:23:06.015Z",
             "description": "[TriangleDB](https://attack.mitre.org/software/S1216) has monitored the device\u2019s geolocation, which includes coordinates, altitude, bearing and speed.(Citation: SecureList OpTriangulation 21Jun2023) ",
             "relationship_type": "uses",
             "source_ref": "malware--1393fb21-d09f-4ce8-96cf-1bcc9881765f",
             "target_ref": "attack-pattern--99e6295e-741b-4857-b6e5-64989eb039b4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

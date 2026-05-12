@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e48f945b-783a-4b1f-b642-c1b2584d13c4",
+    "id": "bundle--6dad0431-372b-41ac-bc11-bb2080efd3a2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T22:05:01.094Z",
+            "modified": "2026-04-29T14:23:05.923Z",
             "description": "[PureCrypter](https://attack.mitre.org/software/S9019) can enumerate a targeted system's SerialNumber and Version.(Citation: Zscaler PureCrypter JUN 2022)(Citation: Check Point Blind Eagle MAR 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--6f22487c-dbbf-4a5b-85ca-a8c85e8f2f80",

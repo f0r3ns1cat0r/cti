@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--563d1cd5-c3fc-4d40-81a6-a3ab6a59c1da",
+    "id": "bundle--24352037-ef69-4b98-a700-fbb70d528ed2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--deae71f8-d849-484f-b49d-757356e195c5",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "McAfee GhostSecret",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:13:41.755Z",
+            "modified": "2026-04-29T14:23:06.229Z",
             "description": "[Proxysvc](https://attack.mitre.org/software/S0238) executes a binary on the system and logs the results into a temp file by using: <code>cmd.exe /c \"<file_path> > %temp%\\PM* .tmp 2>&1\"</code>.(Citation: McAfee GhostSecret)",
             "relationship_type": "uses",
             "source_ref": "malware--069af411-9b24-4e85-b26c-623d035bbe84",
             "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

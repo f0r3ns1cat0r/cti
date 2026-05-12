@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4fbd7339-88b5-4466-b27c-387cc1b53041",
+    "id": "bundle--665b8f1a-fe31-4ef6-a713-011b718d126a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ee1a14f3-9e2e-44a5-8d1f-4a093dbd0c94",
             "created": "2021-03-02T16:51:57.051Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA AppleJeus Feb 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:16:22.116Z",
+            "modified": "2026-04-29T14:23:06.249Z",
             "description": "[FALLCHILL](https://attack.mitre.org/software/S0181) has been installed as a Windows service.(Citation: CISA AppleJeus Feb 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--fece06b7-d4b1-42cf-b81a-5323c917546e",
             "target_ref": "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

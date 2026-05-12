@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cacac66b-c019-4cc5-9fd0-cb1976f86a4e",
+    "id": "bundle--0b761ca7-5927-4148-abe4-f52556af540e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6cfee0a9-4f55-42e9-8670-86a0fa3e6280",
             "created": "2023-01-17T22:02:07.976Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Costa AvosLocker May 2022",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:22:08.635Z",
+            "modified": "2026-04-29T14:23:06.073Z",
             "description": "During [C0018](https://attack.mitre.org/campaigns/C0018), the threat actors used [AvosLocker](https://attack.mitre.org/software/S1053) ransomware to encrypt files on the compromised network.(Citation: Cisco Talos Avos Jun 2022)(Citation: Costa AvosLocker May 2022)",
             "relationship_type": "uses",
             "source_ref": "campaign--519ee082-8ab6-439b-988f-a8a3f02c8d30",
             "target_ref": "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

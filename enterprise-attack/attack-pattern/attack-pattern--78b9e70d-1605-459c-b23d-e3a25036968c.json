@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--97bfb364-83fa-4368-9b93-cbf38e786125",
+    "id": "bundle--a58f36c0-aff7-4b3a-bfb8-1fc9ffdcc5c3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-15T22:22:02.298Z",
+            "modified": "2026-05-12T15:12:00.643Z",
             "name": "SVG Smuggling",
             "description": "Adversaries may smuggle data and files past content filters by hiding malicious payloads inside of seemingly benign SVG files.(Citation: Trustwave SVG Smuggling 2025) SVGs, or Scalable Vector Graphics, are vector-based image files constructed using XML. As such, they can legitimately include `<script>` tags that enable adversaries to include malicious JavaScript payloads. However, SVGs may appear less suspicious to users than other types of executable files, as they are often treated as image files. \n\nSVG smuggling can take a number of forms. For example, threat actors may include content that: \n\n* Assembles malicious payloads(Citation: Talos SVG Smuggling 2022)\n* Downloads malicious payloads(Citation: Cofense SVG Smuggling 2024)\n* Redirects users to malicious websites(Citation: Bleeping Computer SVG Smuggling 2024)\n* Displays interactive content to users, such as fake login forms and download buttons.(Citation: Bleeping Computer SVG Smuggling 2024)\n\nSVG Smuggling may be used in conjunction with [HTML Smuggling](https://attack.mitre.org/techniques/T1027/006) where an SVG with a malicious payload is included inside an HTML file.(Citation: Talos SVG Smuggling 2022) SVGs may also be included in other types of documents, such as PDFs.  ",
             "kill_chain_phases": [

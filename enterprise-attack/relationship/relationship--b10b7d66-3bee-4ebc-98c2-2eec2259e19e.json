@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--40b34c61-4eb8-4965-be46-5f5e51733da7",
+    "id": "bundle--ec87ebc5-d224-44c7-90b9-7d1f150af211",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b10b7d66-3bee-4ebc-98c2-2eec2259e19e",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft FinFisher March 2018",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:40:24.633Z",
+            "modified": "2026-04-29T14:23:06.167Z",
             "description": "[FinFisher](https://attack.mitre.org/software/S0182) contains junk code in its functions in an effort to confuse disassembly programs.(Citation: FinFisher Citation)(Citation: Microsoft FinFisher March 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--a5528622-3a8a-4633-86ce-8cdaf8423858",
             "target_ref": "attack-pattern--671cd17f-a765-48fd-adc4-dad1941b1ae3",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

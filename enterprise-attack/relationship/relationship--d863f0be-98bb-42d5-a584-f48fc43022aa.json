@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5cffd3ec-b8d6-4347-a707-10da60b54e97",
+    "id": "bundle--d11296ea-2adb-403c-a0aa-a6a3a282dee5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d863f0be-98bb-42d5-a584-f48fc43022aa",
             "created": "2024-05-17T13:17:55.974Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro RaspberryRobin 2022",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:50:32.827Z",
+            "modified": "2026-04-29T14:23:06.221Z",
             "description": "[Raspberry Robin](https://attack.mitre.org/software/S1130) is capable of contacting the TOR network for delivering second-stage payloads.(Citation: RedCanary RaspberryRobin 2022)(Citation: TrendMicro RaspberryRobin 2022)(Citation: HP RaspberryRobin 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--4e385fa6-ebe0-43fc-9ccf-5b51b5dc4d79",
             "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

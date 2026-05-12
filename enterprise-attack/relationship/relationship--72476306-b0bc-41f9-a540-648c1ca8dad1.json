@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8675fb49-88c1-4e2b-998f-ccfecd8153a5",
+    "id": "bundle--178b03d9-a7e1-4e20-a195-4134c7f08067",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T21:18:09.984Z",
+            "modified": "2026-04-29T14:23:06.081Z",
             "description": "[LP-Notes](https://attack.mitre.org/software/S9036) has dynamically resolved API functions during the C runtime startup.(Citation: ESET_MuddyWater_Dec2025) ",
             "relationship_type": "uses",
             "source_ref": "malware--7fbf1f1e-cbd8-4060-8e3b-7ca0e56ce3fe",

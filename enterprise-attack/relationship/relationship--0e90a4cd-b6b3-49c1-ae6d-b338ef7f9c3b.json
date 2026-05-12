@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--084bc123-8794-47b7-8b75-357c309fd555",
+    "id": "bundle--24a5d4d1-2886-4e3b-9388-77310b21cc2e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0e90a4cd-b6b3-49c1-ae6d-b338ef7f9c3b",
             "created": "2021-09-30T12:28:45.063Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Red Canary Qbot",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:34:38.917Z",
+            "modified": "2026-04-29T14:23:05.923Z",
             "description": "[QakBot](https://attack.mitre.org/software/S0650) can use a variety of commands, including esentutl.exe to steal sensitive data from Internet Explorer and Microsoft Edge, to acquire information that is subsequently exfiltrated.(Citation: Red Canary Qbot)(Citation: Kaspersky QakBot September 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--edc5e045-5401-42bb-ad92-52b5b2ee0de9",
             "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e8421363-330e-4024-99b4-50f6a478b6dd",
+    "id": "bundle--f4f11130-2211-4063-a417-f42e56c9e6eb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--af15ac73-56cc-4a16-bcf9-806c93c5f321",
             "created": "2025-10-16T16:16:14.439Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro SharePoint Attacks JUL 2025",
@@ -38,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-16T19:02:55.987Z",
+            "modified": "2026-04-29T14:23:06.163Z",
             "description": "During [SharePoint ToolShell Exploitation](https://attack.mitre.org/campaigns/C0058), threat actors executed Base64-encoded PowerShell commands.(Citation: Microsoft SharePoint Exploit JUL 2025)(Citation: Eye Research ToolShell JUL 2025)(Citation: Trend Micro SharePoint Attacks JUL 2025)(Citation: SentinelOne ToolShell JUL 2025)(Citation: Palo Alto SharePoint Vulnerabilities JUL 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--1a0576df-df21-4775-843e-844d8a58a94b",

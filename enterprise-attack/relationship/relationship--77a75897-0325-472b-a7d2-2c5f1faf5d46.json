@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f30f59f0-c945-4705-9f4c-36fbbdadf8c9",
+    "id": "bundle--ac79fadf-5f00-4c55-879b-39d98336a389",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--77a75897-0325-472b-a7d2-2c5f1faf5d46",
             "created": "2021-04-13T19:29:21.063Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Secureworks BRONZE PRESIDENT December 2019",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-15T14:17:44.023Z",
+            "modified": "2026-04-29T14:23:06.089Z",
             "description": "[Mustang Panda](https://attack.mitre.org/groups/G0129) will delete their tools and files, and kill processes after their objectives are reached.(Citation: Secureworks BRONZE PRESIDENT December 2019)(Citation: Zscaler PAKLOG CorkLog SplatCloak Splatdropper April 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--420ac20b-f2b9-42b8-aa1a-6d4b72895ca4",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2cd4c935-93b3-4a7f-bb7e-28b57d055161",
+    "id": "bundle--8e381963-0205-48b5-ac53-7d60a5ffad15",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7dc4c8b9-a380-4dc0-9973-a8a2f8d0175c",
             "created": "2017-05-31T21:33:27.060Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Dell Lateral Movement",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:56:09.398Z",
+            "modified": "2026-04-29T14:23:06.097Z",
             "description": "(Citation: Dell Lateral Movement)(Citation: ThreatStream Evasion Analysis)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--38fd6a28-3353-4f2b-bb2b-459fecd5c648",
             "target_ref": "malware--9e2bba94-950b-4fcf-8070-cb3f816c5f4e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

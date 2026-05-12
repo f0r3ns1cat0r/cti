@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--56ad765d-4af7-41e7-abde-48a94f53462d",
+    "id": "bundle--2d153211-20f9-473d-95b5-df21e9808b4d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--79106ad4-28d3-4f67-a2c3-116d138ec84a",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Eset PlugX Korplug Mustang Panda March 2022",
@@ -43,7 +44,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-10T15:05:12.328Z",
+            "modified": "2026-04-29T14:23:06.090Z",
             "description": "[PlugX](https://attack.mitre.org/software/S0013) allows actors to spawn a reverse shell on a victim.(Citation: Eset PlugX Korplug Mustang Panda March 2022)(Citation: CIRCL PlugX March 2013)(Citation: Dell TG-3390)(Citation: EclecticIQ Mustang Panda PlugX)(Citation: Google Threat Intelligence Group MUSTANG PANDA PLUGX August 2025)(Citation: Sophos PlugX September 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ae055e3d-9245-4552-b80e-9c12f4d8734f",
+    "id": "bundle--ab71be51-e242-4c6e-aec5-14fe7b241564",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e5706e1a-33a9-4404-9ef8-c8aa428363ec",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Bitdefender APT28 Dec 2015",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:14:50.667Z",
+            "modified": "2026-04-29T14:23:06.237Z",
             "description": "[APT28](https://attack.mitre.org/groups/G0007) has used CVE-2015-4902 to bypass security features.(Citation: Bitdefender APT28 Dec 2015)(Citation: Microsoft SIR Vol 19)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--fe926152-f431-4baf-956c-4ad3cb0bf23b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

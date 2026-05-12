@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3e5df24e-1936-4629-94df-952684dc7ce0",
+    "id": "bundle--3db90e69-8f11-4f89-ae4a-9d8893186310",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T22:55:27.568Z",
+            "modified": "2026-04-29T14:23:05.964Z",
             "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has used [LP-Notes](https://attack.mitre.org/software/S9036) during operations.(Citation: ESET_MuddyWater_Dec2025)\u202f ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",

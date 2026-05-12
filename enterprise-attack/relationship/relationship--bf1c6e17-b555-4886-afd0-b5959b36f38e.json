@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--67b58441-9d6a-480d-abb4-883ee0eb20bd",
+    "id": "bundle--af716396-a47a-418f-89a0-e2ed2b925c99",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bf1c6e17-b555-4886-afd0-b5959b36f38e",
             "created": "2024-08-14T22:16:53.444Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "PWC Yellow Liderc 2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:43:57.011Z",
+            "modified": "2026-04-29T14:23:06.187Z",
             "description": "[IMAPLoader](https://attack.mitre.org/software/S1152) is executed via the AppDomainManager injection technique.(Citation: PWC Yellow Liderc 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--3058b264-fe6b-46be-8948-2d1fadaf8adf",
             "target_ref": "attack-pattern--356662f7-e315-4759-86c9-6214e2a50ff8",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

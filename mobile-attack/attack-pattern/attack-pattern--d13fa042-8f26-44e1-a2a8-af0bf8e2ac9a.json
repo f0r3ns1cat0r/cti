@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9cb26db0-37f2-40a0-8f82-dd5b24d0ef8e",
+    "id": "bundle--0ffabf77-f5f2-4034-9dc5-be6299c8e53f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:49:25.462Z",
+            "modified": "2026-05-12T15:12:00.717Z",
             "name": "Obfuscated Files or Information",
             "description": "Adversaries may attempt to make a payload or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the device or in transit. This is common behavior that can be used across different platforms and the network to evade defenses. \n \nPayloads may be compressed, archived, or encrypted in order to avoid detection. These payloads may be used during Initial Access or later to mitigate detection. Portions of files can also be encoded to hide the plaintext strings that would otherwise help defenders with discovery. Payloads may also be split into separate, seemingly benign files that only reveal malicious functionality when reassembled.(Citation: Microsoft MalLockerB) ",
             "kill_chain_phases": [
@@ -38,7 +38,7 @@
                     "phase_name": "defense-evasion"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "mobile-attack"

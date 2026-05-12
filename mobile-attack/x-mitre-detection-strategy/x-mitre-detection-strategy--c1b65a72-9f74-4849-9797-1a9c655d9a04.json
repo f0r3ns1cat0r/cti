@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--6da5459c-03d6-4b46-ace8-14400c64a153",
+    "id": "bundle--f4ed9aad-ae56-4c2b-98a1-5a9501e58924",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--c1b65a72-9f74-4849-9797-1a9c655d9a04",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.691Z",
             "name": "Detection of SSL Pinning",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -30,8 +31,7 @@
             "x_mitre_analytic_refs": [
                 "x-mitre-analytic--05191336-6d06-41f7-babb-5d079e4168ae",
                 "x-mitre-analytic--93a35555-f71e-4230-9f2a-529a539e8612"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

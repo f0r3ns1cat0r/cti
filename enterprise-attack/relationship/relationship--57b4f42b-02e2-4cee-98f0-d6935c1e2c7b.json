@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8b22f3c4-539f-41c0-8bd8-06628c0a857a",
+    "id": "bundle--b2d02244-4199-400b-bfea-0e8349b2a99d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--57b4f42b-02e2-4cee-98f0-d6935c1e2c7b",
             "created": "2019-07-19T17:27:02.518Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Soft Cell June 2019",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:48:54.863Z",
+            "modified": "2026-04-29T14:23:06.045Z",
             "description": "[GALLIUM](https://attack.mitre.org/groups/G0093) has used VPN services, including SoftEther VPN, to access and maintain persistence in victim environments.(Citation: Cybereason Soft Cell June 2019)(Citation: Microsoft GALLIUM December 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
             "target_ref": "attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ac39fc9b-3c75-4b70-bf76-e9e46d42d9bd",
+    "id": "bundle--66bd9984-1839-4865-8598-36cea0225550",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--449b3473-a6cc-4934-8441-84325f70e126",
             "created": "2021-04-13T19:29:21.040Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Secureworks BRONZE PRESIDENT December 2019",
@@ -33,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-17T20:38:43.139Z",
+            "modified": "2026-04-29T14:23:06.019Z",
             "description": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used RAR to create password-protected archives of collected documents prior to exfiltration.(Citation: Secureworks BRONZE PRESIDENT December 2019)(Citation: Avira Mustang Panda January 2020) [Mustang Panda](https://attack.mitre.org/groups/G0129) has used WinRAR \u201cRar.exe\u201d to archive stolen files before exfiltration.(Citation: Unit42 Chinese VSCode 06 September 2024) [Mustang Panda](https://attack.mitre.org/groups/G0129) has also used [TONESHELL](https://attack.mitre.org/software/S1239) and post-exploitation tools such as RemCom and [Impacket](https://attack.mitre.org/software/S0357) to execute WinRAR `rar.exe` to archive files for exfiltration.(Citation: Palo Alto Unit42 STATELY TAURUS TONESHELL September 2023)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--420ac20b-f2b9-42b8-aa1a-6d4b72895ca4",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--642b67c5-7a2e-4e59-88b2-681e9348f6db",
+    "id": "bundle--94df3960-f47d-4689-ae46-462175c95d9c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d1b967b3-3b02-4b35-8b91-520e17fb7f52",
             "created": "2024-12-02T21:37:59.627Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Oligo ShadowRay Campaign MAR 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:48:57.024Z",
+            "modified": "2026-04-29T14:23:06.212Z",
             "description": "During [ShadowRay](https://attack.mitre.org/campaigns/C0045), threat actors invoked DNS queries from targeted machines to identify their IP addresses.(Citation: Oligo ShadowRay Campaign MAR 2024)",
             "relationship_type": "uses",
             "source_ref": "campaign--57899965-b171-48ed-bbb4-8faffa3d836a",
             "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1311b40b-7b3a-4631-82e3-4ec92d1c0496",
+    "id": "bundle--3b775f97-88a3-432c-8bf9-a02ad96ee927",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e7bcc9e7-d373-4b1e-a664-886c4fc04bc5",
             "created": "2019-09-23T22:53:30.167Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Crowdstrike GTR2020 Mar 2020",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:54:25.715Z",
+            "modified": "2026-04-29T14:23:06.240Z",
             "description": "[APT41](https://attack.mitre.org/groups/G0096) used RDP for lateral movement.(Citation: FireEye APT41 Aug 2019)(Citation: Crowdstrike GTR2020 Mar 2020) [APT41](https://attack.mitre.org/groups/G0096) used NATBypass to expose local RDP ports on compromised systems to the Internet.(Citation: apt41_dcsocytec_dec2022) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
             "target_ref": "attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

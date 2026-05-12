@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7407faf5-adff-4fd0-a47e-6abd6bc2488c",
+    "id": "bundle--cb3dd2f2-8a9b-47f5-97f1-84868799edb2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9fb5ad4c-1929-4d00-bd87-fed2558d73bf",
             "created": "2019-03-28T14:45:51.183Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro Trickbot Feb 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:02:35.339Z",
+            "modified": "2026-04-29T14:23:06.143Z",
             "description": "[TrickBot](https://attack.mitre.org/software/S0266) has used macros in Excel documents to download and deploy the malware on the user\u2019s machine.(Citation: TrendMicro Trickbot Feb 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--00806466-754d-44ea-ad6f-0caf59cb8556",
             "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

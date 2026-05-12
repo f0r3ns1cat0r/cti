@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--857293c8-af85-43ff-98fe-9ef2203910bc",
+    "id": "bundle--2171d09d-bb11-4240-b387-c32829ac3513",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d3b541d4-e179-4595-ba6b-d643ee6398f2",
             "created": "2025-09-12T17:28:55.345Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Threat Intelligence Group MUSTANG PANDA PLUGX August 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-12T17:28:55.345Z",
+            "modified": "2026-04-29T14:23:06.215Z",
             "description": "[CANONSTAGER](https://attack.mitre.org/software/S1237) has abused legitimate executables to side-load malicious DLLs.(Citation: Google Threat Intelligence Group MUSTANG PANDA PLUGX August 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--3d1f234e-6c60-43c1-b1f1-6bbc9e5b8e44",

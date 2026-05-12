@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--12cf4731-0c2a-4717-85cc-611c1985df5d",
+    "id": "bundle--dfd0aac4-7643-4946-a8b7-9c7e4fb04ffa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--40205b23-d3d0-4d6a-a739-7ba2eb061c4f",
             "created": "2020-05-06T21:01:23.620Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Attor Oct 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:44:34.882Z",
+            "modified": "2026-04-29T14:23:06.012Z",
             "description": "[Attor](https://attack.mitre.org/software/S0438) has a plugin that collects data stored in the Windows clipboard by using the OpenClipboard and GetClipboardData APIs.(Citation: ESET Attor Oct 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--8f423bd7-6ca7-4303-9e85-008c7ad5fdaa",
             "target_ref": "attack-pattern--30973a08-aed9-4edf-8604-9084ce1b5c4f",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ee5fdb99-8fe2-43fa-b838-3634c93a48ac",
+    "id": "bundle--c3e6148a-b8dd-4b31-a9bb-831198c43103",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5a8ea0ac-7a51-4440-898b-a70ee71d06a4",
             "created": "2025-03-22T15:53:27.242Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro LummaStealer 2025",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:17:18.911Z",
+            "modified": "2026-04-29T14:23:06.049Z",
             "description": "[Lumma Stealer](https://attack.mitre.org/software/S1213) has queried system resources on the victim device to identify if it is executing in a sandbox or virtualized environments, checking usernames, conducting WMI queries for system details, checking for files commonly found in virtualized environments, searching system services, and inspecting process names.(Citation: Fortinet LummaStealer 2024) [Lumma Stealer](https://attack.mitre.org/software/S1213) has checked system GPU configurations for sandbox detection.(Citation: TrendMicro LummaStealer 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--674c514f-e485-47a8-9d49-1aaa70de155b",
             "target_ref": "attack-pattern--29be378d-262d-4e99-b00d-852d573628e6",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--59a639dd-e989-48b0-99fc-f6c676246c06",
+    "id": "bundle--a12aaf80-dc76-4911-b246-b5df9416e98f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-04T23:55:34.960Z",
+            "modified": "2026-05-12T16:30:18.382Z",
             "name": "Analytic 1793",
             "description": "A defender observes an application establishing application-layer network sessions (e.g., HTTP(S), WebSocket, DNS, SMTP/IMAP) with destinations and request patterns that deviate from the enterprise baseline for that app category, especially when sessions occur during background execution or while the device is locked and exhibit beacon-like periodicity, anomalous SNI/Host patterns, or suspicious request/response size symmetry consistent with command polling and tasking over legitimate-looking protocols.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

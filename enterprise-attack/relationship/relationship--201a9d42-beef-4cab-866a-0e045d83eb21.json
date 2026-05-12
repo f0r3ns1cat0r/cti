@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--763ea399-ab01-423d-85e2-a27449172190",
+    "id": "bundle--af6cc95e-34f1-43cf-811e-2d77d4748efa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:10:04.334Z",
+            "modified": "2026-04-29T14:23:05.948Z",
             "description": "The [BlackEnergy](https://attack.mitre.org/software/S0089) component KillDisk is capable of deleting Windows Event Logs.(Citation: ESEST Black Energy Jan 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--54cc1d4f-5c53-4f0e-9ef5-11b4998e82e4",

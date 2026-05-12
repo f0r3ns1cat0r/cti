@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e5a764b9-b357-4e54-a1c5-602be8043449",
+    "id": "bundle--e766f7b9-14fc-4062-8f77-4397a4b59570",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-08T20:14:18.733Z",
+            "modified": "2026-05-12T16:30:18.376Z",
             "name": "Analytic 1711",
             "description": "The defender correlates foreground service start or promotion activity with persistent-notification presentation, long-lived application execution, and continued access to while-in-use sensors or network activity outside expected user-driven context. The analytic looks for an application invoking foreground service APIs, sustaining a foreground state longer than expected for its declared role, and retaining camera, microphone, location, or other sensor access while the device is locked, the app lacks recent interaction, or the notification identity/function does not match the application\u2019s behavior.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

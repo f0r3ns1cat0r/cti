@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--313c7d49-f2cd-4a31-a7be-bd60ae549e6b",
+    "id": "bundle--c75f81f2-8949-42f5-8595-3c325e18a046",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bad90106-a150-4d76-b39f-f35aab4ac766",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Rover",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:07:15.844Z",
+            "modified": "2026-04-29T14:23:06.180Z",
             "description": "[Rover](https://attack.mitre.org/software/S0090) has functionality to remove Registry Run key persistence as a cleanup procedure.(Citation: Palo Alto Rover)",
             "relationship_type": "uses",
             "source_ref": "malware--6b616fc1-1505-48e3-8b2c-0d19337bff38",
             "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ea683279-b8fa-475d-8dc6-7215c8abf0bd",
+    "id": "bundle--72a53e43-1b99-40c9-a8fe-66c5d78f28ed",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--774a6b5c-bbba-4094-bac3-0fa5e664bf2a",
             "created": "2022-03-10T20:25:15.307Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco Ukraine Wipers January 2022",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:24:56.888Z",
+            "modified": "2026-04-29T14:23:06.088Z",
             "description": "[WhisperGate](https://attack.mitre.org/software/S0689) can overwrite sectors of a victim host's hard drive at periodic offsets.(Citation: Crowdstrike WhisperGate January 2022)(Citation: Cisco Ukraine Wipers January 2022)(Citation: Medium S2W WhisperGate January 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--49fee0b0-390e-4bde-97f8-97ed46bd19b7",
             "target_ref": "attack-pattern--fb640c43-aa6b-431e-a961-a279010424ac",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

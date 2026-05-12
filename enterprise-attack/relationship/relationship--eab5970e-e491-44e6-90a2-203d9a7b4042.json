@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ade72eba-91ca-4e88-8c25-e852ce8aff60",
+    "id": "bundle--1f0fa30d-06d4-4832-a4b4-f02e18485bc1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--eab5970e-e491-44e6-90a2-203d9a7b4042",
             "created": "2022-03-23T20:35:57.939Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco CaddyWiper March 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:55:16.767Z",
+            "modified": "2026-04-29T14:23:06.245Z",
             "description": "[CaddyWiper](https://attack.mitre.org/software/S0693) has the ability to dynamically resolve and use APIs, including `SeTakeOwnershipPrivilege`.(Citation: Cisco CaddyWiper March 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--b30d999d-64e0-4e35-9856-884e4b83d611",
             "target_ref": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

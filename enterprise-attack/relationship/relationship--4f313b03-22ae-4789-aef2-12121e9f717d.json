@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e290004e-5c7f-4102-a610-7492800ae5d8",
+    "id": "bundle--066fc197-7589-45cb-9018-c2bb9670d21c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:50:41.870Z",
+            "modified": "2026-04-29T14:23:06.033Z",
             "description": "Consider removing previous versions of tools that are unnecessary to the environment when possible.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--eb88d97c-32f1-40be-80f0-d61a4b0b4b31",

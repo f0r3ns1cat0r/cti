@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1789a341-aafd-441a-a509-1ad5244d50af",
+    "id": "bundle--1ea69e2a-e736-4e82-bbb7-4b2c4e885f9e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a8b6a519-2159-46f0-916d-1f7a3d940eea",
             "created": "2020-09-30T14:52:09.005Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA WellMess July 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:04:11.610Z",
+            "modified": "2026-04-29T14:23:06.155Z",
             "description": "[WellMess](https://attack.mitre.org/software/S0514) can identify domain group membership for the current user.(Citation: CISA WellMess July 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--3a4197ae-ec63-4162-907b-9a073d1157e4",
             "target_ref": "attack-pattern--2aed01ad-3df3-4410-a8cb-11ea4ded587c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

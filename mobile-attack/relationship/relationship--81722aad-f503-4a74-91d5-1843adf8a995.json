@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9dc53651-3499-44de-b1e7-0668bfa6aab8",
+    "id": "bundle--94c0f3ea-c2eb-4d13-9a48-c520447636d5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--81722aad-f503-4a74-91d5-1843adf8a995",
             "created": "2023-08-16T16:36:04.747Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "cyble_chameleon_0423",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-08T20:17:26.651Z",
+            "modified": "2026-04-29T14:23:06.102Z",
             "description": "[Chameleon](https://attack.mitre.org/software/S1083) has prevented application removal by abusing Accessibility Services.(Citation: cyble_chameleon_0423)(Citation: ThreatFabric_Chameleon_Dec2023)",
             "relationship_type": "uses",
             "source_ref": "malware--2cf00c5a-857d-4cb6-8f03-82f15bee0f6f",

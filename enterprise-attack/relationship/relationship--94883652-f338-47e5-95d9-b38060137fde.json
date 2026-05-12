@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1de6f4b0-3928-4bd2-a402-0a253a6ad4b5",
+    "id": "bundle--76dbb47d-5d40-4ef2-bb37-df780cc2888f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--94883652-f338-47e5-95d9-b38060137fde",
             "created": "2024-02-07T18:53:47.670Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "NCSC-NL COATHANGER Feb 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:32:48.744Z",
+            "modified": "2026-04-29T14:23:06.127Z",
             "description": "The first stage of [COATHANGER](https://attack.mitre.org/software/S1105) is delivered as a packed file.(Citation: NCSC-NL COATHANGER Feb 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--0c242cc5-58d3-4fe3-a866-b00a4b6fb817",
             "target_ref": "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--37e1b48c-e63a-4558-b65c-22c10cabc925",
+    "id": "bundle--08e7951b-404a-4c3b-be6a-d5cde5fe97a6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--467d9812-8d19-4fca-a2fd-5a8e1dbb43f7",
             "created": "2021-03-03T20:31:09.249Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Rapid7 HAFNIUM Mar 2021",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:11:45.746Z",
+            "modified": "2026-04-29T14:23:06.021Z",
             "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has used <code>procdump</code> to dump the LSASS process memory.(Citation: Microsoft HAFNIUM March 2020)(Citation: Volexity Exchange Marauder March 2021)(Citation: Rapid7 HAFNIUM Mar 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
             "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

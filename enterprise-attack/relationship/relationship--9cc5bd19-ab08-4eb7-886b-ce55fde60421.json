@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--90d7c969-987e-49bd-b88b-bbf028cc163e",
+    "id": "bundle--8bad4f88-87f8-42c0-bc4f-6cadadd83f67",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9cc5bd19-ab08-4eb7-886b-ce55fde60421",
             "created": "2021-02-25T00:50:55.423Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CarbonBlack Conti July 2020",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:02:01.246Z",
+            "modified": "2026-04-29T14:23:06.139Z",
             "description": "[Conti](https://attack.mitre.org/software/S0575) can use compiler-based obfuscation for its code, encrypt DLLs, and hide Windows API calls.(Citation: CarbonBlack Conti July 2020)(Citation: Cybereason Conti Jan 2021)(Citation: CrowdStrike Wizard Spider October 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--4dea7d8e-af94-4bfb-afe4-7ff54f59308b",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

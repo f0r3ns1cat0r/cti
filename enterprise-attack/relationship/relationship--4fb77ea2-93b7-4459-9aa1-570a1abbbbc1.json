@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--945a10c3-f9f4-46fb-8287-177a87118864",
+    "id": "bundle--a95e7616-a742-43bf-8a30-c3613f0e5f60",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4fb77ea2-93b7-4459-9aa1-570a1abbbbc1",
             "created": "2025-10-14T20:53:16.074Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Unit42 STATELY TAURUS TONESHELL September 2023",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-14T20:53:16.074Z",
+            "modified": "2026-04-29T14:23:06.034Z",
             "description": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has leveraged [AdFind](https://attack.mitre.org/software/S0552) to enumerate domain groups.(Citation: Palo Alto Unit42 STATELY TAURUS TONESHELL September 2023)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--420ac20b-f2b9-42b8-aa1a-6d4b72895ca4",

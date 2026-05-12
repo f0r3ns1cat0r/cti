@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e412362b-6df7-40d7-8288-2c7011b1fb50",
+    "id": "bundle--cb5626ab-1d37-4e20-992d-461345a0533b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T20:48:01.441Z",
+            "modified": "2026-04-29T14:23:06.004Z",
             "description": "During the [2025 Poland Wiper Attacks](https://attack.mitre.org/campaigns/C0063), the adversaries identified network connections utilizing `netstat -nao` and `netstat -r`.(Citation: CERT Polska)",
             "relationship_type": "uses",
             "source_ref": "campaign--a6aba167-5ada-4812-9da1-912c0e73335d",

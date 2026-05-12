@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5db646c2-9c19-4f31-83e2-c37a3d84167b",
+    "id": "bundle--b35849e7-7fce-4112-baf1-6bd231a992f6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--af6b077e-6925-4551-8174-baee6efa050c",
             "created": "2024-06-14T19:24:46.590Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA Star Blizzard Advisory December 2023",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:39:55.660Z",
+            "modified": "2026-04-29T14:23:06.164Z",
             "description": "[Star Blizzard](https://attack.mitre.org/groups/G1033) has sent emails to establish rapport with targets eventually sending messages with links to credential-stealing sites.(Citation: Microsoft Star Blizzard August 2022)(Citation: CISA Star Blizzard Advisory December 2023)(Citation: StarBlizzard)(Citation: Google TAG COLDRIVER January 2024)\n",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--9b36c218-4d80-4ec6-a68d-cc2886bbe410",
             "target_ref": "attack-pattern--2d3f5b3c-54ca-4f4d-bb1f-849346d31230",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

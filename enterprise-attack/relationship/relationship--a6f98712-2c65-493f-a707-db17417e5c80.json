@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b3e74caa-6e44-4989-b221-7b1dfabd8203",
+    "id": "bundle--0ebb2c84-6b44-4352-b2fb-0cd9e41f68eb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a6f98712-2c65-493f-a707-db17417e5c80",
             "created": "2025-01-17T19:57:35.185Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "S2W Troll Stealer 2024",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:37:47.520Z",
+            "modified": "2026-04-29T14:23:06.152Z",
             "description": "[Troll Stealer](https://attack.mitre.org/software/S1196) can collect local system information.(Citation: S2W Troll Stealer 2024)(Citation: Symantec Troll Stealer 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--d6748457-75c2-4989-a41f-2d017994057e",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

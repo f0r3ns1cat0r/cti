@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b46c1b8d-ecde-4725-9d05-41a2ecb718e8",
+    "id": "bundle--862bcaf5-4dd7-4093-b86b-9578513743e0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bb5486b6-f5b3-4a4c-9b88-d676011a4906",
             "created": "2023-09-05T18:02:08.403Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Bitdefender Sardonic Aug 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:42:57.411Z",
+            "modified": "2026-04-29T14:23:06.181Z",
             "description": "[Sardonic](https://attack.mitre.org/software/S1085) has the ability to delete created WMI objects to evade detections.(Citation: Bitdefender Sardonic Aug 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--0c52f5bc-557d-4083-bd27-66d7cdb794bb",
             "target_ref": "attack-pattern--799ace7f-e227-4411-baa0-8868704f2a69",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

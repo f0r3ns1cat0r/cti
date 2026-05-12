@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e54c3bd7-27ed-4429-be92-4d3b7191bd36",
+    "id": "bundle--972a5497-cada-4433-b024-2539ac2ee4ce",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a987bd4f-dcb3-4fa8-8ca3-b76cfea921f6",
             "created": "2022-02-21T15:35:14.717Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 Gamaredon February 2022",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-25T15:05:12.862Z",
+            "modified": "2026-04-29T14:23:06.156Z",
             "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has used <code>hidcon</code> to run batch files in a hidden console window.(Citation: Unit 42 Gamaredon February 2022) [Gamaredon Group](https://attack.mitre.org/groups/G0047) has also executed PowerShell in a hidden window.(Citation: VenereCiscoTalos_Gamaredon_Mar2025) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0ea82430-0abe-4244-8aa9-2bfaf4d35b09",
+    "id": "bundle--33566498-c9af-4b59-b47e-a90a7466b5cb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--2098e2bc-2b20-463a-9862-20fe68268cfc",
             "created": "2020-11-02T19:03:11.902Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "VirusBulletin Kimsuky October 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:38:49.034Z",
+            "modified": "2026-04-29T14:23:05.949Z",
             "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) created and used a mailing toolkit to use in spearphishing attacks.(Citation: VirusBulletin Kimsuky October 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
             "target_ref": "attack-pattern--edadea33-549c-4ed1-9783-8f5a5853cbdf",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

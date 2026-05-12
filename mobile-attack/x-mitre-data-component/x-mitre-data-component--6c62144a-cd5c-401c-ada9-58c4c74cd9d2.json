@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4b6bcc99-c020-410f-acc8-588b278fb70d",
+    "id": "bundle--2f3aa067-94ab-41a7-97da-2deeef22a7e4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,14 +12,14 @@
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/data-components/DC0115",
+                    "url": "https://attack.mitre.org/datacomponents/DC0115",
                     "external_id": "DC0115"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-13T23:45:27.570Z",
+            "modified": "2026-05-12T15:12:00.774Z",
             "name": "Protected Configuration",
             "description": "Protected Configuration represents security-sensitive device settings, security policies, or operating system configurations that are normally restricted to administrators, system services, or device management platforms.\nMonitoring these configurations enables detection of adversaries attempting to weaken device security controls or alter trusted device relationships.\n\nExamples\nAndroid:\n\n- USB debugging enabled\n- Unknown app installation allowed\n- Developer options enabled\n\niOS:\n\n- Developer mode enabled\n- Device pairing trust relationships established\n- Configuration profile restrictions modified\n",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

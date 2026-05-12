@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ba373b2b-16b3-4a30-b595-9f72065fb125",
+    "id": "bundle--ee649248-faf3-4411-a972-21fed49ca43d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:49:43.780Z",
+            "modified": "2026-04-29T14:23:06.141Z",
             "description": "[APT38](https://attack.mitre.org/groups/G0082) has prepended a space to all of their terminal commands to operate without leaving traces in the HISTCONTROL environment.(Citation: CISA AA20-239A BeagleBoyz August 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",

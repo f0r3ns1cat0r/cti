@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8dc0d1f2-5194-47f5-b595-7459e0d948fc",
+    "id": "bundle--b317e2b3-67a9-4050-89c1-56150c360087",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--2a37ddb3-56ef-4c2d-bec7-d6060eb0215a",
             "created": "2019-04-29T15:54:23.241Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Chafer Dec 2015",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:40:28.235Z",
+            "modified": "2026-04-29T14:23:05.962Z",
             "description": "(Citation: Symantec Chafer Dec 2015)(Citation: Securelist Remexi Jan 2019)(Citation: Symantec Chafer February 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
             "target_ref": "malware--ecc2f65a-b452-4eaf-9689-7e181f17f7a5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

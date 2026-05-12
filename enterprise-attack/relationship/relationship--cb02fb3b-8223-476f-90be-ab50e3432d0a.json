@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--741f4181-c99f-41e4-819f-bd22eff236b7",
+    "id": "bundle--52b79428-c687-494a-8838-6696883f8cad",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cb02fb3b-8223-476f-90be-ab50e3432d0a",
             "created": "2021-03-23T20:49:40.264Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky ShadowPad Aug 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:10:15.929Z",
+            "modified": "2026-04-29T14:23:06.203Z",
             "description": "[ShadowPad](https://attack.mitre.org/software/S0596) has injected an install module into a newly created process.(Citation: Kaspersky ShadowPad Aug 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--ec9e00dd-0313-4d5b-8105-c20aa47abffc",
             "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

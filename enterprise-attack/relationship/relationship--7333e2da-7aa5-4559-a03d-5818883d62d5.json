@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--67fd18e4-00c7-4872-8623-7bb4e17745b5",
+    "id": "bundle--588c799c-a97b-4a41-84f8-19ebd9a6c5ab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7333e2da-7aa5-4559-a03d-5818883d62d5",
             "created": "2020-06-01T13:14:42.529Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "IBM TA505 April 2020",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T15:50:34.669Z",
+            "modified": "2026-04-29T14:23:06.083Z",
             "description": "[SDBbot](https://attack.mitre.org/software/S0461) has the ability to add a value to the Registry Run key to establish persistence if it detects it is running with regular user privilege. (Citation: Proofpoint TA505 October 2019)(Citation: IBM TA505 April 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--92b03a94-7147-4952-9d5a-b4d24da7487c",

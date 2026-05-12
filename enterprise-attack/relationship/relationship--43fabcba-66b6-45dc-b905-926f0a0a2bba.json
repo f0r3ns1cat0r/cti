@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--46ac31ab-f348-44d2-ba0c-75937e0aefdd",
+    "id": "bundle--07fb056f-c592-4be3-aeaf-f7e80b6ca69c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--43fabcba-66b6-45dc-b905-926f0a0a2bba",
             "created": "2020-05-13T15:28:06.685Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "DHS/CISA Ransomware Targeting Healthcare October 2020",
@@ -33,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T16:26:04.864Z",
+            "modified": "2026-04-29T14:23:06.018Z",
             "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used RDP for lateral movement and to deploy ransomware interactively.(Citation: CrowdStrike Grim Spider May 2019)(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)(Citation: DFIR Ryuk 2 Hour Speed Run November 2020)(Citation: Mandiant FIN12 Oct 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",

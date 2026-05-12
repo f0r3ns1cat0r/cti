@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--25aaf924-758b-4ea5-bacf-24dfb4701cd1",
+    "id": "bundle--63807a70-8c62-4b7e-936e-74f9a93f45e9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d0c8b03f-7c57-4156-bc5e-cd0c45327ef3",
             "created": "2020-09-23T20:30:55.923Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trustwave Pillowmint June 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:11:22.151Z",
+            "modified": "2026-04-29T14:23:06.211Z",
             "description": "[Pillowmint](https://attack.mitre.org/software/S0517) has deleted the filepath <code>%APPDATA%\\Intel\\devmonsrv.exe</code>.(Citation: Trustwave Pillowmint June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--bd7a9e13-69fa-4243-a5e5-04326a63f9f2",
             "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

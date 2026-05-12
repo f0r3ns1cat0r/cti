@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0f784d8c-a261-4660-ab39-db4bc9be9bf5",
+    "id": "bundle--bacfb045-4636-433d-9a9a-e676541872b5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T10:14:58.262Z",
+            "modified": "2026-04-29T14:23:06.084Z",
             "description": "[PureCrypter](https://attack.mitre.org/software/S9019) can set multiple Registry Run keys to establish persistence.(Citation: Zscaler PureCrypter JUN 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--6f22487c-dbbf-4a5b-85ca-a8c85e8f2f80",

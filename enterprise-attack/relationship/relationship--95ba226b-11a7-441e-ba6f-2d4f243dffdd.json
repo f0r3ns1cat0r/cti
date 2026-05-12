@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9b57396b-352b-4ca5-8632-94159a258f1f",
+    "id": "bundle--79bf86b3-cb56-4773-90cd-87f82f4b0ed5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:01:00.161Z",
+            "modified": "2026-04-29T14:23:06.129Z",
             "description": "[Aquatic Panda](https://attack.mitre.org/groups/G0143) has attempted to stop endpoint detection and response (EDR) tools on compromised systems.(Citation: CrowdStrike AQUATIC PANDA December 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--64b52e7d-b2c4-4a02-9372-08a463f5dc11",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7eff5601-3a4f-4728-8e29-1d0c2df426b8",
+    "id": "bundle--44e24e76-cf4f-4a7b-9bf1-5b0d51511483",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--78b41d13-222f-4ab7-8bcd-af2e0e169a45",
             "created": "2026-01-30T21:33:49.478Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Evilginx 2 July 2018",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-30T21:33:49.478Z",
+            "modified": "2026-04-29T14:23:06.090Z",
             "description": "[evilginx2](https://attack.mitre.org/software/S9003) can intercept authentication tokens to enable bypass of non-phishing resistant forms of MFA.(Citation: Evilginx 2 July 2018)",
             "relationship_type": "uses",
             "source_ref": "tool--1eb9627d-a661-4db6-bf53-41b7dcc63087",

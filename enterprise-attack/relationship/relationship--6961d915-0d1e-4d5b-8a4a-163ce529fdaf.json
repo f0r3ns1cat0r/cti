@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--54fe91c3-9ac4-4a33-aaf6-08986a13c413",
+    "id": "bundle--6c5ca8bb-5f01-43d1-82e2-cab1cc684e25",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6961d915-0d1e-4d5b-8a4a-163ce529fdaf",
             "created": "2025-08-05T17:01:30.288Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco Talos MUSTANG PANDA PLUGX PUBLOAD MAY 2022",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-25T14:11:04.092Z",
+            "modified": "2026-04-29T14:23:06.068Z",
             "description": "[PUBLOAD](https://attack.mitre.org/software/S1228) has used RC4 encryption in C2 communications.(Citation: Cisco Talos MUSTANG PANDA PLUGX PUBLOAD MAY 2022)(Citation: CSIRT CTI MUSTANG PANDA PUBLOAD TONESHELL JAN 2024)(Citation: 2022 November_TrendMicro_Earth Preta_Toneshell_Pubload)",
             "relationship_type": "uses",
             "source_ref": "malware--3824852d-1957-4712-9da0-38143723c060",

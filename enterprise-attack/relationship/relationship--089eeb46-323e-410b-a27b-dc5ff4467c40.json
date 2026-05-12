@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f598e61b-a495-4c6f-bf4a-9b7973da4fa4",
+    "id": "bundle--661c56d6-831a-4064-ae4d-ae21ca766ae7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--089eeb46-323e-410b-a27b-dc5ff4467c40",
             "created": "2021-04-20T12:38:48.122Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FBI FLASH APT39 September 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:33:22.640Z",
+            "modified": "2026-04-29T14:23:05.915Z",
             "description": "[APT39](https://attack.mitre.org/groups/G0087) has used malware to decrypt encrypted CAB files.(Citation: FBI FLASH APT39 September 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
             "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

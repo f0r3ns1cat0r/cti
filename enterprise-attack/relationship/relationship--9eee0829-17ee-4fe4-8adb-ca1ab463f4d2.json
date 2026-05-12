@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b950da21-f81e-4576-8be4-c49c4506af37",
+    "id": "bundle--cde73523-1dbd-4737-a099-8372df9e22dd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:39:57.343Z",
+            "modified": "2026-04-29T14:23:06.142Z",
             "description": "[POWERSTATS](https://attack.mitre.org/software/S0223) can disable Microsoft Office Protected View by changing Registry keys.(Citation: FireEye MuddyWater Mar 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--e8545794-b98c-492b-a5b3-4b5a02682e37",

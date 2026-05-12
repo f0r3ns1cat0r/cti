@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b0cd1ba7-329d-45ee-bf43-bb6e45cc2371",
+    "id": "bundle--d52bb71c-5c88-4425-be8e-d7e8ec5ed7bc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ef699184-4191-4fc0-8525-6fa1dcfc61d7",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye Periscope March 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:16:35.865Z",
+            "modified": "2026-04-29T14:23:06.251Z",
             "description": "[MURKYTOP](https://attack.mitre.org/software/S0233) has the capability to retrieve information about users on remote hosts.(Citation: FireEye Periscope March 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--049ff071-0b3c-4712-95d2-d21c6aa54501",
             "target_ref": "attack-pattern--25659dd6-ea12-45c4-97e6-381e3e4b593e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

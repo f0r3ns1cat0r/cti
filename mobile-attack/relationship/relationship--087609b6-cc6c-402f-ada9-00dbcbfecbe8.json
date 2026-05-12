@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5ecab96a-14eb-4eda-962e-1ee6615d633e",
+    "id": "bundle--3f491d27-3619-4040-87b2-3161ab6b7816",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--087609b6-cc6c-402f-ada9-00dbcbfecbe8",
             "created": "2022-04-01T15:16:02.324Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "iOS Universal Links",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:46:48.952Z",
+            "modified": "2026-04-29T14:23:05.915Z",
             "description": "Developers should use Android App Links(Citation: Android App Links) and iOS Universal Links(Citation: iOS Universal Links) to provide a secure binding between URIs and applications, preventing malicious applications from intercepting redirections. Additionally, for OAuth use cases, PKCE(Citation: IETF-PKCE) should be used to prevent use of stolen authorization codes. ",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--25dc1ce8-eb55-4333-ae30-a7cb4f5894a1",
             "target_ref": "attack-pattern--789ef15a-34d9-4b32-a779-8cbbc9eb32f5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

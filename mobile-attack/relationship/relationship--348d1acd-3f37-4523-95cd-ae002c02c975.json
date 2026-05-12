@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2e27de9f-c9bc-4837-8dc7-8641764f418e",
+    "id": "bundle--c02ba5de-e363-4a30-9a5f-66259258530e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,17 +8,18 @@
             "id": "relationship--348d1acd-3f37-4523-95cd-ae002c02c975",
             "created": "2023-08-23T22:17:46.116Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:47:53.093Z",
+            "modified": "2026-04-29T14:23:05.989Z",
             "description": "Users should be wary of iMessages from unknown senders. Additionally, users should be instructed not to open unrecognized links or other attachments in text messages.  ",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--653492e3-27be-4a0e-b08c-938dd2b7e0e1",
             "target_ref": "attack-pattern--5abfc5e6-3c56-49e7-ad72-502d01acf28b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

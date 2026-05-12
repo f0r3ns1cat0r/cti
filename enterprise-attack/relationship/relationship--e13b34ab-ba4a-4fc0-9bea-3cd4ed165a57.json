@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5259dd18-514a-4051-9721-c6113482ed63",
+    "id": "bundle--b9265646-5b0c-49b0-8f4f-d83141bbce36",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:14:31.892Z",
+            "modified": "2026-04-29T14:23:06.232Z",
             "description": "[BPFDoor](https://attack.mitre.org/software/S1161) sets the `MYSQL_HISTFILE` and `HISTFILE` to `/dev/null` preventing the shell and MySQL from logging history in `/proc/<PID>/environ`.(Citation: Sandfly BPFDoor 2022) ",
             "relationship_type": "uses",
             "source_ref": "malware--8d1f89fd-4dde-40ab-80e0-a7b80249162e",

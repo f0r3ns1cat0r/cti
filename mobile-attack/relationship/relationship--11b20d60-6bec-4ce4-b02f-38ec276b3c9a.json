@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6cde8f71-75a9-4fa7-a6fa-5ee3526d91a3",
+    "id": "bundle--188344d5-df6b-483d-b95a-25f0b56db344",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--11b20d60-6bec-4ce4-b02f-38ec276b3c9a",
             "created": "2025-03-24T14:58:31.408Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "McAfee MoqHao 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:47:03.132Z",
+            "modified": "2026-04-29T14:23:05.928Z",
             "description": "[Android/SpyAgent](https://attack.mitre.org/software/S1214) has attempted to detect anti-spam call applications.(Citation: McAfee MoqHao 2019) ",
             "relationship_type": "uses",
             "source_ref": "malware--f082d7dd-20a9-4157-93c0-75e7aea09e42",
             "target_ref": "attack-pattern--2aa78dfd-cb6f-4c70-9408-137cfd96be49",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

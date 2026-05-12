@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7dfda9a1-7e06-4cec-b2bb-fc6561efdc3c",
+    "id": "bundle--a242dde7-806b-4e6c-8c1b-829f6f646bc9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--87b4eb41-5272-4aa5-ae2f-3541a754d011",
             "created": "2020-03-17T01:45:59.371Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Machete July 2019",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:57:54.828Z",
+            "modified": "2026-04-29T14:23:06.110Z",
             "description": "[Machete](https://attack.mitre.org/software/S0409) uses HTTP for Command & Control.(Citation: ESET Machete July 2019)(Citation: Cylance Machete Mar 2017)(Citation: 360 Machete Sep 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--35cd1d01-1ede-44d2-b073-a264d727bc04",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3bb52491-233b-4582-8a9c-9e7854ac0388",
+    "id": "bundle--1ba2e8ff-8023-4cbb-9a59-1d84f36f679e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T22:15:25.964Z",
+            "modified": "2026-04-29T14:23:06.086Z",
             "description": "[Remcos](https://attack.mitre.org/software/S0332) can terminate, suspend, and resume a process by PID.(Citation: Fortinet Remcos Campaign NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "tool--7cd0bc75-055b-4098-a00e-83dc8beaff14",

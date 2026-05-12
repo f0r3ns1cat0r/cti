@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8eb96a6a-7c48-4598-83ae-3b9cd8d01190",
+    "id": "bundle--00f00a2f-8946-45a9-b531-0e24ffb9f3f8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f372697e-b661-4995-9920-4ec0a9060ebb",
             "created": "2024-03-28T18:01:08.468Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Promethium June 2020",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:52:29.456Z",
+            "modified": "2026-04-29T14:23:06.256Z",
             "description": "(Citation: Talos Promethium June 2020)(Citation: Bitdefender StrongPity June 2020)",
             "relationship_type": "attributed-to",
             "source_ref": "campaign--a82bc5ad-5f95-4c6a-9f25-aaf6f476a3c4",
             "target_ref": "intrusion-set--efed95ba-d7e8-47ff-8c53-99c42426ee7c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

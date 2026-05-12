@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1fb2a4d4-ca02-4d12-b8c8-44ec09df4197",
+    "id": "bundle--aa7d3ca1-21a5-422f-9ae8-204e090189d4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--126a4982-a8b8-4c65-951d-9c36e8f625bb",
             "created": "2025-10-19T17:18:04.247Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Esentire ContagiousInterview BeaverTail InvisibleFerret November 2024",
@@ -43,7 +44,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-19T17:18:04.247Z",
+            "modified": "2026-04-29T14:23:05.929Z",
             "description": "(Citation: ESET Contagious Interview BeaverTail InvisibleFerret February 2025)(Citation: Zscaler ContagiousInterview BeaverTail InvisibleFerret November 2024)(Citation: PaloAlto ContagiousInterview BeaverTail InvisibleFerret November 2023)(Citation: PaloAlto Unit42 ContagiousInterview BeaverTail InvisibileFerret October 2024)(Citation: Esentire ContagiousInterview BeaverTail InvisibleFerret November 2024)(Citation: Recorded Future Contagious Inteview BeaverTail InvisibleFerret OtterCookie February 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--46599a4a-77ee-4697-9474-2683b6464859",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f954b036-b9be-47fa-a18b-7826eac4fe8e",
+    "id": "bundle--1ed889a3-655d-4497-ad0f-bad4cf694ea8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a38cfd4a-0ba2-49ae-98e9-df6c1f954148",
             "created": "2025-10-20T18:58:54.242Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro MUSTANG PANDA PUBLOAD HIUPAN SEPTEMBER 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-20T18:58:54.242Z",
+            "modified": "2026-04-29T14:23:06.147Z",
             "description": "PUBLOAD has leveraged `wmic logicaldisk get` to map local network drives.(Citation: Trend Micro MUSTANG PANDA PUBLOAD HIUPAN SEPTEMBER 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--3824852d-1957-4712-9da0-38143723c060",

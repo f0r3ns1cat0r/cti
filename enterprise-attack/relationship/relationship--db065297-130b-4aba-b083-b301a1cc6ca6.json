@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1722ac84-75e9-4643-a32f-307b98076d56",
+    "id": "bundle--5f1a6625-557d-4f23-9782-fe55f10b8b6a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T10:41:35.560Z",
+            "modified": "2026-04-29T14:23:06.224Z",
             "description": " [PureCrypter](https://attack.mitre.org/software/S9019) can set `ProcessWindowStyle.Hidden` to hide windows on victim machines.(Citation: Check Point Blind Eagle MAR 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--6f22487c-dbbf-4a5b-85ca-a8c85e8f2f80",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d0427bfd-608a-4124-88d0-765f15615857",
+    "id": "bundle--cfa04784-b36a-4351-9a0a-d1a9b62d6bba",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a5c8b6af-8685-4068-8046-122bbd5f8845",
             "created": "2019-09-13T13:17:26.323Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Machete July 2019",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:03:36.613Z",
+            "modified": "2026-04-29T14:23:06.151Z",
             "description": "[Machete](https://attack.mitre.org/software/S0409) logs keystrokes from the victim\u2019s machine.(Citation: ESET Machete July 2019)(Citation: Securelist Machete Aug 2014)(Citation: Cylance Machete Mar 2017)(Citation: 360 Machete Sep 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--35cd1d01-1ede-44d2-b073-a264d727bc04",
             "target_ref": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

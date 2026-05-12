@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4e4a1f85-5806-4583-a0a0-ebd22f660dde",
+    "id": "bundle--db952751-165f-4338-b5d7-e2ebb2954515",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1db7023d-eab0-4ddb-9156-9ac03b5e0db9",
             "created": "2024-07-25T18:07:17.246Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET EvasivePanda 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:00:49.620Z",
+            "modified": "2026-04-29T14:23:05.945Z",
             "description": "[Daggerfly](https://attack.mitre.org/groups/G1034) created code signing certificates to sign malicious macOS files.(Citation: ESET EvasivePanda 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f3be6240-f68e-47e1-90d2-ad8f3b3bb8a6",
             "target_ref": "attack-pattern--34b3f738-bd64-40e5-a112-29b0542bc8bf",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

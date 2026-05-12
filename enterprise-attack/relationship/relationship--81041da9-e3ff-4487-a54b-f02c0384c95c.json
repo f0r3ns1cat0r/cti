@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8666b424-4b73-4e2d-87c8-9eb2671da06a",
+    "id": "bundle--ff2ee4dd-382d-4cfd-8d99-ec32133d0c23",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--81041da9-e3ff-4487-a54b-f02c0384c95c",
             "created": "2025-03-25T22:42:43.646Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "NSA APT5 Citrix Threat Hunting December 2022",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:27:36.177Z",
+            "modified": "2026-04-29T14:23:06.102Z",
             "description": "[SPACEHOP Activity](https://attack.mitre.org/campaigns/C0052) has enabled the exploitation of CVE-2022-27518 and CVE-2022-27518 for illegitimate access.(Citation: NSA APT5 Citrix Threat Hunting December 2022)(Citation: ORB Mandiant)",
             "relationship_type": "uses",
             "source_ref": "campaign--83e1f587-34da-44cc-b65b-a72479cb1616",
             "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4f123952-91d7-4290-8eab-8809b4468486",
+    "id": "bundle--6e55787f-b9c6-435f-81c8-6da746bfc782",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fe67405d-7fa3-4053-b52c-25dbd4ef3479",
             "created": "2021-03-03T21:58:17.829Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ACSC Email Spoofing",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:00:20.760Z",
+            "modified": "2026-04-29T14:23:06.270Z",
             "description": "Use anti-spoofing and email authentication mechanisms to filter messages based on validity checks of the sender domain (using SPF) and integrity of messages (using DKIM). Enabling these mechanisms within an organization (through policies such as DMARC) may enable recipients (intra-org and cross domain) to perform similar message filtering and validation.(Citation: Microsoft Anti Spoofing)(Citation: ACSC Email Spoofing)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--b5dbb4c5-b0b1-40b1-80b6-e9e84ab90067",
             "target_ref": "attack-pattern--8982a661-d84c-48c0-b4ec-1db29c6cf3bc",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

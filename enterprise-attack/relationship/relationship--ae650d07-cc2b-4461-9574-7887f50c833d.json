@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1ed04a69-05af-458f-9de2-963de0b932c2",
+    "id": "bundle--4322954f-5597-45d8-99be-e13b25cf1119",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ae650d07-cc2b-4461-9574-7887f50c833d",
             "created": "2024-11-21T22:57:58.341Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Dragos YIR 2021",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:39:40.147Z",
+            "modified": "2026-04-29T14:23:06.162Z",
             "description": "[Indian Critical Infrastructure Intrusions](https://attack.mitre.org/campaigns/C0043) involved the use of [FRP](https://attack.mitre.org/software/S1144) to bridge network boundaries and overcome NAT.(Citation: RecordedFuture RedEcho 2022) [Indian Critical Infrastructure Intrusions](https://attack.mitre.org/campaigns/C0043) also involved the use of VPN tunnels with a potentially compromised MSP entity allowing for direct access to critical infrastructure entity networks.(Citation: Dragos YIR 2021)",
             "relationship_type": "uses",
             "source_ref": "campaign--4b7f9839-4822-4c19-8a1f-70bb61ba97e1",
             "target_ref": "attack-pattern--b8017880-4b1e-42de-ad10-ae7ac6705166",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

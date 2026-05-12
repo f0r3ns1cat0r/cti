@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--145951c3-f78a-4b97-b5f1-99bcfafbfaa1",
+    "id": "bundle--a495f446-0c86-4ce7-a77b-405ea2d9ee98",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e74cdd3d-4ac7-42c5-a7ac-e2f58371fc5b",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "PTSecurity Cobalt Group Aug 2017",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:15:08.993Z",
+            "modified": "2026-04-29T14:23:06.240Z",
             "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) used the Ammyy Admin tool as well as TeamViewer for remote access, including to preserve remote access if a Cobalt Strike module was lost.(Citation: PTSecurity Cobalt Group Aug 2017)(Citation: PTSecurity Cobalt Dec 2016)(Citation: Group IB Cobalt Aug 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
             "target_ref": "attack-pattern--4061e78c-1284-44b4-9116-73e4ac3912f7",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

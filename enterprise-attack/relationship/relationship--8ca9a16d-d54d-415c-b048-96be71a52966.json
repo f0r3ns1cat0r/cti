@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0ab98501-990c-4ab8-b19a-e0c8ee4370a9",
+    "id": "bundle--11682f4f-2c17-4ff8-8d7d-0a16c0f7624b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8ca9a16d-d54d-415c-b048-96be71a52966",
             "created": "2022-01-20T14:08:00.055Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CrowdStrike AQUATIC PANDA December 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:30:41.140Z",
+            "modified": "2026-04-29T14:23:06.117Z",
             "description": "[Aquatic Panda](https://attack.mitre.org/groups/G0143) has attempted and failed to run Bash commands on a Windows host by passing them to <code>cmd /C</code>.(Citation: CrowdStrike AQUATIC PANDA December 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--64b52e7d-b2c4-4a02-9372-08a463f5dc11",
             "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

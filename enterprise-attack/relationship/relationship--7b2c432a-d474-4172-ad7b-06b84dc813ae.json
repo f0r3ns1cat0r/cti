@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8cf28bd1-e392-4104-9d77-8f46817e7fbc",
+    "id": "bundle--7e427446-4945-47dc-bbf6-cff0b014e088",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7b2c432a-d474-4172-ad7b-06b84dc813ae",
             "created": "2024-12-17T01:23:47.031Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft BlackByte 2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:26:08.886Z",
+            "modified": "2026-04-29T14:23:06.094Z",
             "description": "[BlackByte 2.0 Ransomware](https://attack.mitre.org/software/S1181) can identify network shares connected to the victim machine.(Citation: Microsoft BlackByte 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--42fdf9db-6005-4bb3-96f6-496b94ce519d",
             "target_ref": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

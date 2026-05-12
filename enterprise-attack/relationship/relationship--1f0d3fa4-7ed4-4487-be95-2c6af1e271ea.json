@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c081412c-0308-4e23-b370-9d437b34dc86",
+    "id": "bundle--0495e66c-997d-426a-bd7c-bc3eb2b286c9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:04:18.827Z",
+            "modified": "2026-04-29T14:23:05.947Z",
             "description": "[Gold Dragon](https://attack.mitre.org/software/S0249) terminates anti-malware processes if they\u2019re found running on the system.(Citation: McAfee Gold Dragon)",
             "relationship_type": "uses",
             "source_ref": "malware--b9799466-9dd7-4098-b2d6-f999ce50b9a8",

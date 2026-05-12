@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--041b4f36-9c19-4e8b-8763-51b8bad83a51",
+    "id": "bundle--9832f26c-28d1-4c87-b059-d0a3a40d871e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-12T17:37:17.976Z",
+            "modified": "2026-05-12T16:30:18.382Z",
             "name": "Analytic 1697",
             "description": "An app or app update arrives through an expected delivery path or presents as a known legitimate package identity, but its post-install or post-update behavior materially changes in ways inconsistent with its historical role. The defender correlates package identity and install/update context, newly expanded capability state, changed runtime framework use, new sensor or storage behaviors, and new network destinations shortly after installation or update to identify likely supply-chain compromise rather than ordinary malicious sideloading or unrelated post-compromise activity.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

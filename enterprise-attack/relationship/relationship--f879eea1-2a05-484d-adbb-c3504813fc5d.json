@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3b143265-d7d9-4673-a9f2-e3e22a309e0a",
+    "id": "bundle--d6908c15-0557-4ec3-a26c-06971892a57e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f879eea1-2a05-484d-adbb-c3504813fc5d",
             "created": "2017-05-31T21:33:27.034Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant Operation Ke3chang November 2014",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:18:04.254Z",
+            "modified": "2026-04-29T14:23:06.263Z",
             "description": "(Citation: Mandiant Operation Ke3chang November 2014)(Citation: NCC Group APT15 Alive and Strong)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
             "target_ref": "tool--294e2560-bd48-44b2-9da2-833b5588ad11",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

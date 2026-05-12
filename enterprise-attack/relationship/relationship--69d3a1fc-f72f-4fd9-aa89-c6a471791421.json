@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--99d910d9-2ed2-4fd1-a2ae-22cd3f8f4fa0",
+    "id": "bundle--eb13743c-f04b-4027-b4b2-6810787646d9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--69d3a1fc-f72f-4fd9-aa89-c6a471791421",
             "created": "2020-09-29T16:08:22.641Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "PWC WellMess July 2020",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:52:13.482Z",
+            "modified": "2026-04-29T14:23:06.069Z",
             "description": "[WellMess](https://attack.mitre.org/software/S0514) can communicate to C2 with mutual TLS where client and server mutually check certificates.(Citation: PWC WellMess July 2020)(Citation: PWC WellMess C2 August 2020)(Citation: CISA WellMess July 2020)(Citation: NCSC APT29 July 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--3a4197ae-ec63-4162-907b-9a073d1157e4",
             "target_ref": "attack-pattern--bf176076-b789-408e-8cba-7275e81c0ada",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

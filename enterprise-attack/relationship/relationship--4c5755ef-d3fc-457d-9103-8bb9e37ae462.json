@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e76c5621-b046-4bce-8de2-c01e6d31901b",
+    "id": "bundle--dcfcca61-50ad-4f4b-aa5d-dd83078a23e8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4c5755ef-d3fc-457d-9103-8bb9e37ae462",
             "created": "2025-10-19T18:17:34.658Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Esentire ContagiousInterview BeaverTail InvisibleFerret November 2024",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-20T22:24:56.847Z",
+            "modified": "2026-04-29T14:23:06.029Z",
             "description": "[BeaverTail](https://attack.mitre.org/software/S1246) has been known to collect basic system information.(Citation: Esentire ContagiousInterview BeaverTail InvisibleFerret November 2024)(Citation: PaloAlto ContagiousInterview BeaverTail InvisibleFerret November 2023) [BeaverTail](https://attack.mitre.org/software/S1246) has also collected data to include hostname and current timestamp prior to uploading data to the API endpoint `/uploads` on the C2 server.(Citation: ESET Contagious Interview BeaverTail InvisibleFerret February 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--6055aee2-d1c6-4877-94e9-a3bde9936470",

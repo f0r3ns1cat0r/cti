@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e2544550-9f69-4364-9647-6019537e0270",
+    "id": "bundle--a9b76c44-725d-4c34-a534-d694ca41dc3f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d60b92c6-2030-4802-8d7d-868ff15f3b0c",
             "created": "2019-10-03T19:28:39.221Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Tim McMichael Exchange Mail Forwarding 2",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:12:13.248Z",
+            "modified": "2026-04-29T14:23:06.218Z",
             "description": "Enterprise email solutions have monitoring mechanisms that may include the ability to audit auto-forwarding rules on a regular basis.\n\nIn an Exchange environment, Administrators can use Get-InboxRule to discover and remove potentially malicious auto-forwarding rules.(Citation: Microsoft Tim McMichael Exchange Mail Forwarding 2) ",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8",
             "target_ref": "attack-pattern--1608f3e1-598a-42f4-a01a-2e252e81728f",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

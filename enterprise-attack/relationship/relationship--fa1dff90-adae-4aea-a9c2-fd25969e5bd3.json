@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--03486535-d4c4-4f26-b52d-9155aaacae0b",
+    "id": "bundle--a589ec31-c0f5-45f5-9821-c5a493a368dc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T20:22:20.771Z",
+            "modified": "2026-04-29T14:23:06.265Z",
             "description": "[Remcos](https://attack.mitre.org/software/S0332) has the ability to execute JavaScript remotely.(Citation: Fortinet Remcos Campaign NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "tool--7cd0bc75-055b-4098-a00e-83dc8beaff14",

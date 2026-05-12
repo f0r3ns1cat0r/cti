@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--16867628-e16b-4d11-9f21-3a0d2e25f847",
+    "id": "bundle--8817a3f6-c931-4b34-aa85-dc035724a343",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e5f53e43-5b6a-480c-b770-85ca47b17050",
             "created": "2023-12-22T18:22:27.557Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sygnia Emperor Dragonfly October 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:53:58.718Z",
+            "modified": "2026-04-29T14:23:06.238Z",
             "description": "(Citation: Sygnia Emperor Dragonfly October 2022)\n",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
             "target_ref": "tool--59096109-a1dd-463b-87e7-a8d110fe3a79",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

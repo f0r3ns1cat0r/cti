@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1e97bb71-d7c4-422c-9e2f-1ad9eb069e82",
+    "id": "bundle--74497c4c-be06-439e-8e55-2e1f900ead83",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f42a5342-c28d-46ad-bbd7-3123da43ff86",
             "created": "2019-06-07T14:30:26.074Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro IXESHE 2012",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:17:19.244Z",
+            "modified": "2026-04-29T14:23:06.257Z",
             "description": "(Citation: Trend Micro IXESHE 2012)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c47f937f-1022-4f42-8525-e7a4779a14cb",
             "target_ref": "tool--d5e96a35-7b0b-4c6a-9533-d63ecbda563e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

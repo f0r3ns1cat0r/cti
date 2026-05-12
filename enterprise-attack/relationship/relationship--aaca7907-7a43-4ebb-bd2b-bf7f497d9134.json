@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5d5e5795-20dc-42e2-bada-fc9a33701aa1",
+    "id": "bundle--202e3996-4427-4a48-8d85-80feb900ed8e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--aaca7907-7a43-4ebb-bd2b-bf7f497d9134",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Fidelis INOCNATION",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:38:38.905Z",
+            "modified": "2026-04-29T14:23:06.157Z",
             "description": "[Hi-Zor](https://attack.mitre.org/software/S0087) has the ability to create a reverse shell.(Citation: Fidelis INOCNATION)",
             "relationship_type": "uses",
             "source_ref": "malware--5967cc93-57c9-404a-8ffd-097edfa7bdfc",
             "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

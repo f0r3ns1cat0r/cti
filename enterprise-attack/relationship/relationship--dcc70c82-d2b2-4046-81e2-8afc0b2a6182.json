@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--36267c5a-cdc6-46d0-bc56-5bb0e336995c",
+    "id": "bundle--7ca3c0ef-2fce-4827-9bb0-e2752b9db6dd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:13:11.407Z",
+            "modified": "2026-04-29T14:23:06.227Z",
             "description": "[APT28](https://attack.mitre.org/groups/G0007) has cleared event logs, including by using the commands <code>wevtutil cl System</code> and <code>wevtutil cl Security</code>.(Citation: Crowdstrike DNC June 2016)(Citation: DOJ GRU Indictment Jul 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",

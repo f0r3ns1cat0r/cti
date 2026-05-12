@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fcd92a20-071c-48b4-b9d5-2bc50486b2cd",
+    "id": "bundle--f080f033-3f9e-4dc3-be72-0cbbc57cff22",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9fba03e7-126f-42ca-81a4-5c314756a36a",
             "created": "2025-09-17T14:49:16.575Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kroll RedLine Stealer August 2024",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-17T14:49:16.575Z",
+            "modified": "2026-04-29T14:23:06.143Z",
             "description": "[RedLine Stealer](https://attack.mitre.org/software/S1240) has obtained credentials from VPN services, FTP clients and Instant Messenger (IM)/Chat clients.(Citation: Kroll RedLine Stealer August 2024)(Citation: Proofpoint RedLine Stealer March 2020)(Citation: Splunk RedLine Stealer June 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--8c8e8b01-b4b1-479b-a7a9-78c40a12b916",

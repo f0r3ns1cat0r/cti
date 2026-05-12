@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--33833e46-361d-4b31-b4a2-123922bca7a2",
+    "id": "bundle--e9dceaf6-d680-4a8d-af65-6861cdb36158",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:44:29.397Z",
+            "modified": "2026-04-29T14:23:06.190Z",
             "description": "[Wevtutil](https://attack.mitre.org/software/S0645) can be used to clear system and security event logs from the system.(Citation: Wevtutil Microsoft Documentation)(Citation: Crowdstrike DNC June 2016)",
             "relationship_type": "uses",
             "source_ref": "tool--f91162cc-1686-4ff8-8115-bf3f61a4cc7a",

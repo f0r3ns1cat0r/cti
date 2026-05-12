@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--47e22907-4aeb-4deb-a738-c790afad78d0",
+    "id": "bundle--e74b4fda-57b0-4715-99c2-e9779d698365",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--2f7a5ebd-e025-4822-aed2-46fc3ec1a0a9",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.673Z",
             "name": "Detect abuse of Trusted Relationships (third-party and delegated admin access)",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -35,8 +36,7 @@
                 "x-mitre-analytic--c526f8c1-95ec-494f-b7bf-49a95a803f2a",
                 "x-mitre-analytic--4766bdc0-047a-4250-93c1-6d907178620e",
                 "x-mitre-analytic--b5985d46-1d54-4a6d-81c8-0b577b5d8d17"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

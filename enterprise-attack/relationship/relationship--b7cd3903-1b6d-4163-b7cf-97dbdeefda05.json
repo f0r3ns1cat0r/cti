@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--570e03f3-0d85-4177-804f-317ee5638ce5",
+    "id": "bundle--db5627d9-3416-437d-862f-d64d9b8c6315",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b7cd3903-1b6d-4163-b7cf-97dbdeefda05",
             "created": "2019-06-20T15:44:46.309Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Zebrocy May 2019",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:06:46.462Z",
+            "modified": "2026-04-29T14:23:06.176Z",
             "description": "[Zebrocy](https://attack.mitre.org/software/S0251) uses cmd.exe to execute commands on the system.(Citation: ESET Zebrocy May 2019)(Citation: CISA Zebrocy Oct 2020) ",
             "relationship_type": "uses",
             "source_ref": "malware--a4f57468-fbd5-49e4-8476-52088220b92d",
             "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

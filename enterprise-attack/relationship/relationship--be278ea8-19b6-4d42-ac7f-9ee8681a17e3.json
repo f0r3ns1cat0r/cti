@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--98a92097-4f07-4f9c-bc80-1b95de3e10f6",
+    "id": "bundle--112ad6e3-23a7-4f11-8038-8e562945e5f0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:42:30.408Z",
+            "modified": "2026-04-29T14:23:06.185Z",
             "description": "[Ebury](https://attack.mitre.org/software/S0377) can disable SELinux Role-Based Access Control and deactivate PAM modules.(Citation: ESET Ebury Oct 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--d6b3fcd0-1c86-4350-96f0-965ed02fcc51",

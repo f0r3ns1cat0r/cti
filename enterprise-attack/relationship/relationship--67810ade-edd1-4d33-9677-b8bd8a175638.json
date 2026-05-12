@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--64a14935-581d-4c7f-b8a8-178be7d7b98a",
+    "id": "bundle--a87662cf-2ee2-4073-b555-0da08c3646aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--67810ade-edd1-4d33-9677-b8bd8a175638",
             "created": "2025-12-15T23:34:48.313Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "BlackBasta",
@@ -33,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-12-16T00:06:34.333Z",
+            "modified": "2026-04-29T14:23:06.066Z",
             "description": "[SystemBC](https://attack.mitre.org/software/S9001) has used multiple proxy layers, such as SOCKS5 and [Tor](https://attack.mitre.org/software/S0183), for C2 communication.(Citation: HarmonProofpoint_SystemBC_Aug2019)(Citation: SophosGnGal_SystemBC_Dec2020)(Citation: TrumanKroll_SYSTEMBCServer_Jan2024)(Citation: BlackBasta) [SystemBC](https://attack.mitre.org/software/S9001) has also leveraged [Tor](https://attack.mitre.org/software/S0183) for encrypting and concealing C2 traffic.(Citation: SophosGnGal_SystemBC_Dec2020) The server component of [SystemBC](https://attack.mitre.org/software/S9001) has used SOCKS5 for C2 communication.(Citation: TrumanKroll_SYSTEMBCServer_Jan2024)",
             "relationship_type": "uses",
             "source_ref": "malware--39643fb9-00c1-4a45-85e5-801a3f2665d1",

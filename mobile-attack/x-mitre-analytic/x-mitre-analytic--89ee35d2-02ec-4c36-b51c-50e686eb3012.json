@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--49d9bc83-0ff6-45e3-b609-6d3b93200c90",
+    "id": "bundle--cc0b97d1-3e8e-4fbf-9616-da4a42c51dd7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:30:28.435Z",
+            "modified": "2026-05-12T16:30:18.379Z",
             "name": "Analytic 1815",
             "description": "Correlates (1) continuous or repeated use of motion or interaction-inference signals that do not require overt user-facing privilege prompts, (2) suppression of higher-risk behavior while user presence or active handling is inferred, and (3) resumption of background execution, sensor use, local data handling, or network activity only when device interaction falls below a threshold. The defender observes a causal chain where an application senses user/device interaction state and intentionally gates malicious behavior to user-inactive periods.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

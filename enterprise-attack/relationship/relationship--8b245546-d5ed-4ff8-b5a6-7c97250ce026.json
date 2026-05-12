@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fd5be2a4-80f7-4479-9d93-5928353bd61b",
+    "id": "bundle--7ae8b395-24e8-4147-a687-4269a68da642",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8b245546-d5ed-4ff8-b5a6-7c97250ce026",
             "created": "2021-02-17T20:27:27.451Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "IBM MegaCortex",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:58:35.065Z",
+            "modified": "2026-04-29T14:23:06.115Z",
             "description": "[MegaCortex](https://attack.mitre.org/software/S0576) has used the open-source library, Mbed Crypto, and generated AES keys to carry out the file encryption process.(Citation: IBM MegaCortex)(Citation: mbed-crypto)",
             "relationship_type": "uses",
             "source_ref": "malware--909617c3-6d87-4330-8f32-bd3af38c3b92",
             "target_ref": "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

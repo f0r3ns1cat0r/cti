@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b23251c0-9e25-431c-b127-057ec81e023d",
+    "id": "bundle--890df284-fe69-4b4b-be66-f71b904621fb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--57e441f8-6799-4d1b-8e2a-13d8ac1c8e78",
             "created": "2023-02-28T20:37:59.846Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "proofpoint_flubot_0421",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:48:50.409Z",
+            "modified": "2026-04-29T14:23:06.045Z",
             "description": "[FluBot](https://attack.mitre.org/software/S1067) can obfuscated class, string, and method names in newer malware versions.(Citation: proofpoint_flubot_0421)",
             "relationship_type": "uses",
             "source_ref": "malware--f5ff006c-702f-4ded-8e60-ca6c540d91bc",
             "target_ref": "attack-pattern--d13fa042-8f26-44e1-a2a8-af0bf8e2ac9a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

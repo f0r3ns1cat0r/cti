@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c70ac622-3cd0-4345-911d-79b644498d68",
+    "id": "bundle--8e05f5cf-c6f5-4692-b888-edb629d7fa4e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--97ea3b82-58ba-4a3e-8e6d-367755f83fa6",
             "created": "2017-05-31T21:33:27.071Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye FIN6 April 2016",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:33:46.989Z",
+            "modified": "2026-04-29T14:23:06.132Z",
             "description": " [FIN6](https://attack.mitre.org/groups/G0037) has used PowerShell to gain access to merchant's networks, and a Metasploit PowerShell module to download and execute shellcode and to set up a local listener.(Citation: FireEye FIN6 April 2016)(Citation: FireEye FIN6 Apr 2019)(Citation: Visa FIN6 Feb 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
             "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

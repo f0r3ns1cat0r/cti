@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--25417950-f53d-4ed6-99ba-b3af0d2e2d78",
+    "id": "bundle--f3c8e39c-6a85-4551-b798-8a17e567b583",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--db7a1676-ec8d-41af-a392-2ee2e0b4d31d",
             "created": "2024-12-17T01:13:00.255Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft BlackByte 2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:51:21.698Z",
+            "modified": "2026-04-29T14:23:06.225Z",
             "description": "[BlackByte 2.0 Ransomware](https://attack.mitre.org/software/S1181) executes as a service when deployed.(Citation: Microsoft BlackByte 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--42fdf9db-6005-4bb3-96f6-496b94ce519d",
             "target_ref": "attack-pattern--f1951e8a-500e-4a26-8803-76d95c4554b4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

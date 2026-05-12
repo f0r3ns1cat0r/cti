@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1101d1c7-081e-40d9-840c-21cb91fbe10b",
+    "id": "bundle--90f79cd0-0aff-4a55-982f-e99dae4055cf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--134cc6c4-30f8-4b85-8ea1-da19c3e92af9",
             "created": "2021-05-03T19:39:06.488Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Iran Threats October 2021",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:57:54.796Z",
+            "modified": "2026-04-29T14:23:05.930Z",
             "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used compromised domains to host links targeted to specific phishing victims.(Citation: ClearSky Kittens Back 3 August 2020)(Citation: Proofpoint TA453 July2021)(Citation: Certfa Charming Kitten January 2021)(Citation: Google Iran Threats October 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
             "target_ref": "attack-pattern--f9cc4d06-775f-4ee1-b401-4e2cc0da30ba",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

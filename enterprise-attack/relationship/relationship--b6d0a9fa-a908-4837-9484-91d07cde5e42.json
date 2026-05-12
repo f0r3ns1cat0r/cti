@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bc72291e-2e8a-40f1-b21f-1aa08ab2998a",
+    "id": "bundle--f0c7a9cb-5c42-4a5a-9c56-2e192104b82e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b6d0a9fa-a908-4837-9484-91d07cde5e42",
             "created": "2022-09-22T21:25:24.865Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason OperationCuckooBees May 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:41:47.393Z",
+            "modified": "2026-04-29T14:23:06.175Z",
             "description": "During [Operation CuckooBees](https://attack.mitre.org/campaigns/C0012), the threat actors enabled HTTP and HTTPS listeners.(Citation: Cybereason OperationCuckooBees May 2022)",
             "relationship_type": "uses",
             "source_ref": "campaign--93c23946-49af-41f4-ac03-40f9ffc7419b",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

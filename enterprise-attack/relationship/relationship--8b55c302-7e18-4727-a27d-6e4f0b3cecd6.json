@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--67bf4970-b47d-4057-b86b-72ad9ef388e9",
+    "id": "bundle--9901697c-591d-42a4-8d0c-ff867bd2e338",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8b55c302-7e18-4727-a27d-6e4f0b3cecd6",
             "created": "2024-01-23T19:54:54.960Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky ToddyCat Check Logs October 2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:30:20.999Z",
+            "modified": "2026-04-29T14:23:06.115Z",
             "description": "(Citation: Kaspersky ToddyCat Check Logs October 2023)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--b516b235-fc7d-4635-aca5-3d33312339c3",
             "target_ref": "tool--4664b683-f578-434f-919b-1c1aad2a1111",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

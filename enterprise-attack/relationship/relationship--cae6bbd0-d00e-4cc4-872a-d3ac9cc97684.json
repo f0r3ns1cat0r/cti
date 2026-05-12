@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ffd5474b-42c3-4e47-9143-fa6b51c3e51c",
+    "id": "bundle--7e055f68-24e2-434b-903c-9d15c69100c7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cae6bbd0-d00e-4cc4-872a-d3ac9cc97684",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT37 Feb 2018",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:47:08.868Z",
+            "modified": "2026-04-29T14:23:06.202Z",
             "description": "[APT37](https://attack.mitre.org/groups/G0067) has used the command-line interface.(Citation: FireEye APT37 Feb 2018)(Citation: Talos Group123)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
             "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

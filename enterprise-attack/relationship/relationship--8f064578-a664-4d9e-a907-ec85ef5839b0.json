@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--946464f9-3ac6-40fa-8635-f1eaa8c2599b",
+    "id": "bundle--f842c2bc-6a63-41cd-a4fe-60476e20db70",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8f064578-a664-4d9e-a907-ec85ef5839b0",
             "created": "2020-09-08T15:30:29.098Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelOne FrameworkPOS September 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:59:18.743Z",
+            "modified": "2026-04-29T14:23:06.120Z",
             "description": "[FrameworkPOS](https://attack.mitre.org/software/S0503) can use DNS tunneling for exfiltration of credit card data.(Citation: SentinelOne FrameworkPOS September 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--1cdbbcab-903a-414d-8eb0-439a97343737",
             "target_ref": "attack-pattern--a19e86f8-1c0a-4fea-8407-23b73d615776",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

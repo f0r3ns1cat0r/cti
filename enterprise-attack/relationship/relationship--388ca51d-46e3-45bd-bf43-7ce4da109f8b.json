@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--783de760-b578-4fe1-96f8-a8d5208b8c44",
+    "id": "bundle--45a60e57-44a0-40de-86d9-84570370478b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:58:37.680Z",
+            "modified": "2026-04-29T14:23:05.997Z",
             "description": "[NPPSPY](https://attack.mitre.org/software/S1131) creates a network listener using the misspelled label <code>logincontroll</code> recorded to the Registry key <code>HKLM\\\\SYSTEM\\\\CurrentControlSet\\\\Control\\\\NetworkProvider\\\\Order</code>.(Citation: Huntress NPPSPY 2022)",
             "relationship_type": "uses",
             "source_ref": "tool--0630d1a7-54da-4a48-a6af-eb8a62b13c17",

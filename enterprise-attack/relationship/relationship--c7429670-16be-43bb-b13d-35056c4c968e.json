@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fb9dec9d-893c-40cc-827b-5d94ba1cd178",
+    "id": "bundle--41eb3a97-d85f-4288-bc03-195692947d0f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c7429670-16be-43bb-b13d-35056c4c968e",
             "created": "2021-09-09T15:38:06.892Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 ProjectM March 2016",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:09:32.660Z",
+            "modified": "2026-04-29T14:23:06.198Z",
             "description": "(Citation: Unit 42 ProjectM March 2016)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--e44e0985-bc65-4a8f-b578-211c858128e3",
             "target_ref": "malware--6c2550d5-a01a-4bbb-a004-6ead348ba623",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

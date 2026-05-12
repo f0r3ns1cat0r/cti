@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1e8f0077-bed2-456c-8329-92dd6c971442",
+    "id": "bundle--8eeff198-b2a0-42b6-9caf-ff6b009824f1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:02:36.692Z",
+            "modified": "2026-04-29T14:23:06.117Z",
             "description": "[Cobalt Strike](https://attack.mitre.org/software/S0154) has the ability to use Smart Applet attacks to disable the Java SecurityManager sandbox.(Citation: Talos Cobalt Strike September 2020)(Citation: Cobalt Strike Manual 4.3 November 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",

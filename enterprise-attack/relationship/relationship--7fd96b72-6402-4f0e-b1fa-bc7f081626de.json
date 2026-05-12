@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--edf2fb11-ae14-472c-b30a-831eaa4a28c6",
+    "id": "bundle--b3b07c02-55d9-4069-bc53-ff6b79a68431",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7fd96b72-6402-4f0e-b1fa-bc7f081626de",
             "created": "2019-05-24T17:02:44.353Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lab52 WIRTE Apr 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:56:31.504Z",
+            "modified": "2026-04-29T14:23:06.100Z",
             "description": "[WIRTE](https://attack.mitre.org/groups/G0090) has used HTTP for network communication.(Citation: Lab52 WIRTE Apr 2019)\t",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f8cb7b36-62ef-4488-8a6d-a7033e3271c1",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

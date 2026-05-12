@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dd31bf19-6237-44dd-8a77-7b57aa0c2e87",
+    "id": "bundle--c9cc241d-917e-4c36-8ca2-e875893d5067",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1fedf226-02b4-4634-a7bf-4dac49bd97a3",
             "created": "2020-02-05T14:40:37.009Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Group123",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:38:38.716Z",
+            "modified": "2026-04-29T14:23:05.948Z",
             "description": "[APT37](https://attack.mitre.org/groups/G0067) uses steganography to send images to users that are embedded with shellcode.(Citation: Talos Group123)(Citation: Securelist ScarCruft May 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
             "target_ref": "attack-pattern--c2e147a9-d1a8-4074-811a-d8789202d916",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

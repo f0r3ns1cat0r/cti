@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fb73ad37-e9bd-4bdb-b160-192b8bbf33a4",
+    "id": "bundle--05a21496-c261-446b-a275-798bf53a1f38",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bcfcbbdb-302d-4e63-ba65-7333dfdaec3a",
             "created": "2021-07-07T01:23:05.673Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "win10_asr",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:07:40.117Z",
+            "modified": "2026-04-29T14:23:06.184Z",
             "description": "On Windows 10, enable Attack Surface Reduction (ASR) rules to block processes created by [PsExec](https://attack.mitre.org/software/S0029) from running. (Citation: win10_asr)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--90f39ee1-d5a3-4aaa-9f28-3b42815b0d46",
             "target_ref": "attack-pattern--d157f9d2-d09a-4efa-bb2a-64963f94e253",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

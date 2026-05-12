@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--85bf54b1-13b2-443b-8f14-0d3a1fed633b",
+    "id": "bundle--9ba52a2f-fae9-43c7-83ab-6f61ecc9fcd7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4fde23ab-b8db-4275-ac37-37e608cb00b0",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro Earth Simnavaz October 2024",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:14:20.248Z",
+            "modified": "2026-04-29T14:23:06.034Z",
             "description": "[OilRig](https://attack.mitre.org/groups/G0049) has used PowerShell scripts for execution, including use of a macro to run a PowerShell command to decode file contents.(Citation: FireEye APT34 Dec 2017)(Citation: OilRig New Delivery Oct 2017)(Citation: Crowdstrike Helix Kitten Nov 2018)(Citation: Trend Micro Earth Simnavaz October 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
             "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a85b1be3-02c0-4433-a01e-96e492f48d4a",
+    "id": "bundle--8a3c7549-77ab-4d8a-a2eb-6e603c4949a2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e3caf4ea-efa0-4919-8bef-1b56425f7ef5",
             "created": "2022-10-13T15:13:38.796Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Bitdefender FunnyDream Campaign November 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:53:27.355Z",
+            "modified": "2026-04-29T14:23:06.235Z",
             "description": "[Chinoxy](https://attack.mitre.org/software/S1041) has used the name `eoffice.exe` in attempt to appear as a legitimate file.(Citation: Bitdefender FunnyDream Campaign November 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--0b639373-5f03-430e-b8f9-2fe8c8faad8e",
             "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9cc72aa0-3b19-40b8-9e65-17af9f993c15",
+    "id": "bundle--8acc155d-460d-485d-9480-038b611c04b5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-15T22:37:10.607Z",
+            "modified": "2026-05-12T15:12:00.629Z",
             "name": "System Binary Proxy Execution",
             "description": "Adversaries may bypass process and/or signature-based defenses by proxying execution of malicious content with signed, or otherwise trusted, binaries. Binaries used in this technique are often Microsoft-signed files, indicating that they have been either downloaded from Microsoft or are already native in the operating system.(Citation: LOLBAS Project) Binaries signed with trusted digital certificates can typically execute on Windows systems protected by digital signature validation. Several Microsoft signed binaries that are default on Windows installations can be used to proxy execution of other files or commands.\n\nSimilarly, on Linux systems adversaries may abuse trusted binaries such as <code>split</code> to proxy execution of malicious commands.(Citation: split man page)(Citation: GTFO split)",
             "kill_chain_phases": [

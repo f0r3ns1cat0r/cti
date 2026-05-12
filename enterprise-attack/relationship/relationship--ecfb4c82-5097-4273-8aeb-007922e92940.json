@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--379a5807-74b6-47e6-87bc-bcf2d869c45e",
+    "id": "bundle--ed8c6b72-f752-4917-a86d-e7d27a3fad75",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ecfb4c82-5097-4273-8aeb-007922e92940",
             "created": "2022-04-06T14:42:53.252Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ClearSky Lazarus Aug 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:55:50.268Z",
+            "modified": "2026-04-29T14:23:06.247Z",
             "description": "(Citation: ClearSky Lazarus Aug 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "tool--a1dd2dbd-1550-44bf-abcc-1a4c52e97719",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6bcf9e97-921a-49ab-b383-8bdf83f4b21a",
+    "id": "bundle--15cee253-ab7f-4694-b3ff-4ca4c49273fd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b47d8f5e-7c09-4f40-a5a8-ccce10a8363b",
             "created": "2019-01-30T20:01:45.535Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Securelist Denis April 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:06:14.594Z",
+            "modified": "2026-04-29T14:23:06.172Z",
             "description": "[Denis](https://attack.mitre.org/software/S0354) enumerates and collects the username from the victim\u2019s machine.(Citation: Securelist Denis April 2017)(Citation: Cybereason Cobalt Kitty 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--f25aab1a-0cef-4910-a85d-bb38b32ea41a",
             "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

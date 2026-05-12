@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b6bff648-5e8c-4159-a3e2-efa912df747c",
+    "id": "bundle--c5d32c55-1f37-443a-a59e-d48bf3fb099a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--18c212f3-8c21-427c-9654-ebffbf33fac7",
             "created": "2025-06-25T15:37:37.043Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro_CherryBlos_July2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-06-25T15:37:37.043Z",
+            "modified": "2026-04-29T14:23:05.938Z",
             "description": "[CherryBlos](https://attack.mitre.org/software/S1225) has used the Accessibility Service to monitor when a wallet application has launched.(Citation: TrendMicro_CherryBlos_July2023)",
             "relationship_type": "uses",
             "source_ref": "malware--3cf81957-489a-469f-b013-362d548a96c1",
             "target_ref": "attack-pattern--1b51f5bc-b97a-498a-8dbd-bc6b1901bf19",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

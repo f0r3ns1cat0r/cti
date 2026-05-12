@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a675405b-4622-49e9-be8b-cb1a8fe03e6b",
+    "id": "bundle--db6108b3-34da-4e3c-8123-e2c43cd4cd2d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:59:19.881Z",
+            "modified": "2026-04-29T14:23:06.115Z",
             "description": "[RobbinHood](https://attack.mitre.org/software/S0400) will search for Windows services that are associated with antivirus software on the system and kill the process.(Citation: CarbonBlack RobbinHood May 2019) ",
             "relationship_type": "uses",
             "source_ref": "malware--0a607c53-df52-45da-a75d-0e53df4dad5f",

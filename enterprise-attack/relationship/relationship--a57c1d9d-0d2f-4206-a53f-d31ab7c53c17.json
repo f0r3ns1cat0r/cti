@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fef5cd56-00bb-4750-b939-3b4d09e940fb",
+    "id": "bundle--9b6b9cc5-b473-48ae-bc39-1da34ccb24d8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a57c1d9d-0d2f-4206-a53f-d31ab7c53c17",
             "created": "2022-07-18T20:35:25.531Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro EarthLusca 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:37:21.141Z",
+            "modified": "2026-04-29T14:23:06.150Z",
             "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has used the Fodhelper UAC bypass technique to gain elevated privileges.(Citation: TrendMicro EarthLusca 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
             "target_ref": "attack-pattern--120d5519-3098-4e1c-9191-2aa61232f073",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

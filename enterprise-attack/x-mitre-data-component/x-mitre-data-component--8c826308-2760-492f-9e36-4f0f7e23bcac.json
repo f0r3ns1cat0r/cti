@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b22ec9a6-b08f-4ee7-ad4d-d39b71dfcf88",
+    "id": "bundle--110453c1-3a9c-4d8b-83b0-7880202a4039",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,14 +12,14 @@
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/data-components/DC0083",
+                    "url": "https://attack.mitre.org/datacomponents/DC0083",
                     "external_id": "DC0083"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-02-23T19:38:20.657Z",
+            "modified": "2026-05-12T15:12:00.775Z",
             "name": "Cloud Service Enumeration",
             "description": "Cloud service enumeration involves listing or querying available cloud services in a cloud control plane. This activity is often performed to identify resources such as virtual machines, storage buckets, compute clusters, or other services within a cloud environment. Examples include API calls like `AWS ECS ListServices`, `Azure ListAllResources`, or `Google Cloud ListInstances`. Examples: \n\nAWS Cloud Service Enumeration: The adversary gathers details about existing ECS services to identify opportunities for privilege escalation or exfiltration.\n- Azure Resource Enumeration: The adversary collects information about virtual machines, resource groups, and other Azure assets for reconnaissance purposes.\n- Google Cloud Resource Enumeration: The attacker seeks to map the environment and find misconfigured or underutilized resources for exploitation.\n- Office 365 Service Enumeration: The attacker may look for data repositories or collaboration tools to exfiltrate sensitive information.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

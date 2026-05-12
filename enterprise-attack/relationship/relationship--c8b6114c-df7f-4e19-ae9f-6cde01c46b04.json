@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7f9b647c-a0c8-4b7c-824b-7ee80b2168a1",
+    "id": "bundle--4f0853aa-edbb-4934-aab2-368d1d2ae792",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c8b6114c-df7f-4e19-ae9f-6cde01c46b04",
             "created": "2025-01-29T19:41:46.662Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Lockbit 2.0 JUN 2022",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:46:34.464Z",
+            "modified": "2026-04-29T14:23:06.200Z",
             "description": "[LockBit 2.0](https://attack.mitre.org/software/S1199) has the ability to move laterally via SMB.(Citation: Palo Alto Lockbit 2.0 JUN 2022)(Citation: SentinelOne LockBit 2.0)",
             "relationship_type": "uses",
             "source_ref": "malware--a4578560-42cf-4075-9fa2-056f0058c881",
             "target_ref": "attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

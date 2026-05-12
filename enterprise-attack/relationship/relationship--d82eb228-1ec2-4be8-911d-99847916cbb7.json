@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b52518a4-4c99-41df-9362-b55d8bf93187",
+    "id": "bundle--afd615ef-ad3a-4ec4-8a59-acd5a5e85f4e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-19T00:28:20.689Z",
+            "modified": "2026-04-29T14:23:06.220Z",
             "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has delivered malicious payloads within Zip archives.(Citation: Gen Digital Kimsuky HTTPTroy October 2025) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",

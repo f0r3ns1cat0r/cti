@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--598ff3c5-17f5-4f39-aefa-9a7848943eaf",
+    "id": "bundle--fe2928e2-b2d9-4d78-aada-a576bbad27bb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d02e8b78-69e7-4c70-bab1-a5bec9f94a9a",
             "created": "2022-03-25T20:00:53.876Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Hermetic Wizard March 2022",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:48:32.999Z",
+            "modified": "2026-04-29T14:23:06.210Z",
             "description": "[HermeticWiper](https://attack.mitre.org/software/S0697) has the ability to overwrite its own file with random bites.(Citation: Crowdstrike DriveSlayer February 2022)(Citation: ESET Hermetic Wizard March 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--a0ab8a96-40c9-4483-8a54-3fafa6d6007a",
             "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

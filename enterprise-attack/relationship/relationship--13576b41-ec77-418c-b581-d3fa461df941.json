@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--edf3855a-c5d4-4c5c-8cf9-78855c8f9e97",
+    "id": "bundle--58843ebd-3569-46d8-a0b1-f4288e3ac7b3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--13576b41-ec77-418c-b581-d3fa461df941",
             "created": "2022-03-10T18:52:38.096Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco Ukraine Wipers January 2022",
@@ -43,14 +44,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:57:54.997Z",
+            "modified": "2026-04-29T14:23:05.930Z",
             "description": "[WhisperGate](https://attack.mitre.org/software/S0689) can corrupt files by overwriting the first 1 MB with `0xcc` and appending random extensions.(Citation: Microsoft WhisperGate January 2022)(Citation: Crowdstrike WhisperGate January 2022)(Citation: Cybereason WhisperGate February 2022)(Citation: Unit 42 WhisperGate January 2022)(Citation: Cisco Ukraine Wipers January 2022)(Citation: Medium S2W WhisperGate January 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--49fee0b0-390e-4bde-97f8-97ed46bd19b7",
             "target_ref": "attack-pattern--d45a3d09-b3cf-48f4-9f0f-f521ee5cb05c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

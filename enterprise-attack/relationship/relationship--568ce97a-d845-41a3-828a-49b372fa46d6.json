@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--96bc388c-acd3-4ec3-b163-3979d5f5a2ff",
+    "id": "bundle--1dbb340d-af19-46a2-acd3-88f7c2df0a81",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:54:10.029Z",
+            "modified": "2026-04-29T14:23:06.043Z",
             "description": "Consider automatically relaunching forwarding mechanisms at recurring intervals (ex: temporal, on-logon, etc.) as well as applying appropriate change management to firewall rules and other related system configurations.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--b5dbb4c5-b0b1-40b1-80b6-e9e84ab90067",

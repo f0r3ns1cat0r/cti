@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--02dd4c1f-4230-420b-9e2f-6af9dbc00af6",
+    "id": "bundle--0a512b66-66d8-4479-b9ae-f9dd631164b3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e584ec5f-af99-4d61-8b02-3dbacae4adf4",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Ciubotariu 2014",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:14:51.793Z",
+            "modified": "2026-04-29T14:23:06.238Z",
             "description": "Some variants of the [Zeroaccess](https://attack.mitre.org/software/S0027) Trojan have been known to store data in Extended Attributes.(Citation: Ciubotariu 2014)",
             "relationship_type": "uses",
             "source_ref": "malware--552462b9-ae79-49dd-855c-5973014e157f",
             "target_ref": "attack-pattern--f2857333-11d4-45bf-b064-2c28d8525be5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

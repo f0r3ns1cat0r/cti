@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--36647e34-08f2-40c4-baa0-7a5b2802426e",
+    "id": "bundle--b7d16101-cebf-4699-8212-642b394335d6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e841a3a3-de1f-4ce2-b218-fe99afaa15fa",
             "created": "2025-03-24T16:10:40.938Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Sliver Undated",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:54:34.394Z",
+            "modified": "2026-04-29T14:23:06.241Z",
             "description": "[Sliver](https://attack.mitre.org/software/S0633) has a built-in `procdump` command allowing for retrieval of memory from processes such as `lsass.exe` for credential harvesting.(Citation: Cybereason Sliver Undated)",
             "relationship_type": "uses",
             "source_ref": "tool--11f8d7eb-1927-4806-9267-3a11d4d4d6be",
             "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

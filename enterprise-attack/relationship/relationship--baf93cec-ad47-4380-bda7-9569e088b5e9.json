@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--baa810f9-8a1e-4373-a577-a2be7761c51d",
+    "id": "bundle--aafa6a97-6565-4b81-ac6f-fb8cf0c2fe65",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--baf93cec-ad47-4380-bda7-9569e088b5e9",
             "created": "2025-10-19T19:36:52.674Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Storm-501 Sabbath Ransomware Embargo September 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-20T16:16:28.010Z",
+            "modified": "2026-04-29T14:23:06.181Z",
             "description": "[Storm-0501](https://attack.mitre.org/groups/G1053) has leveraged native Windows tools and commands such as `systeminfo` and open-source tools including OSQuery and ossec-win32 to query details about the endpoint.(Citation: Microsoft Storm-501 Sabbath Ransomware Embargo September 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7b404cd0-3ae9-41d4-90c0-023793d35d97",

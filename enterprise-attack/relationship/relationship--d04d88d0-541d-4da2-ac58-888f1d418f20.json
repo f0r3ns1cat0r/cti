@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--42a685a0-6946-47a3-834d-68592d9377c1",
+    "id": "bundle--4b0f3e3f-6ee3-4b62-b69d-b2b4eea00314",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d04d88d0-541d-4da2-ac58-888f1d418f20",
             "created": "2022-04-07T18:28:15.795Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Uptycs Confucius APT Jan 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:48:35.299Z",
+            "modified": "2026-04-29T14:23:06.211Z",
             "description": "[WarzoneRAT](https://attack.mitre.org/software/S0670) has been install via template injection through a malicious DLL embedded within a template RTF in a Word document.(Citation: Uptycs Confucius APT Jan 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--fde19a18-e502-467f-be14-58c71b4e7f4b",
             "target_ref": "attack-pattern--dc31fe1e-d722-49da-8f5f-92c7b5aff534",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

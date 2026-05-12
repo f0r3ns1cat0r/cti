@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e1bd279b-e9c1-49a0-b3a5-ae82dc946a1a",
+    "id": "bundle--a20e3fb3-2b4b-4fac-a163-d02abf86f5b8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fb819161-4916-4f25-ad81-eab9f02a337e",
             "created": "2021-08-12T15:54:43.288Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "McAfee Babuk February 2021",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:18:34.254Z",
+            "modified": "2026-04-29T14:23:06.266Z",
             "description": "[Babuk](https://attack.mitre.org/software/S0638) has the ability to enumerate files on a targeted system.(Citation: McAfee Babuk February 2021)(Citation: Trend Micro Ransomware February 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--61c7a91a-0b83-461d-ad32-75d96eed4a09",
             "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

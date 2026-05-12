@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2b66dae1-afaf-4aa4-9f16-3b292dcccc60",
+    "id": "bundle--17c01d89-609d-4fe1-82d8-2e187c5ce13c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T22:58:47.295Z",
+            "modified": "2026-04-29T14:23:05.906Z",
             "description": "[BADCALL](https://attack.mitre.org/software/S0245) disables the Windows firewall before binding to a port.(Citation: US-CERT BADCALL)",
             "relationship_type": "uses",
             "source_ref": "malware--9dbdadb6-fdbf-490f-a35f-38762d06a0d2",

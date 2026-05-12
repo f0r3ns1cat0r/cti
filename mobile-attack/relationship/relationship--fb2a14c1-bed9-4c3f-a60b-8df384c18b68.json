@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--21962ed6-fee3-439c-8713-3ce6f8a7d6a5",
+    "id": "bundle--0d2cece5-383f-4293-85bb-937031785a04",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fb2a14c1-bed9-4c3f-a60b-8df384c18b68",
             "created": "2020-12-24T21:45:56.979Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lookout Uyghur Campaign",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:31:22.464Z",
+            "modified": "2026-04-29T14:23:06.266Z",
             "description": "[SilkBean](https://attack.mitre.org/software/S0549) can retrieve files from external storage and can collect browser data.(Citation: Lookout Uyghur Campaign)",
             "relationship_type": "uses",
             "source_ref": "malware--ddbe5657-e21e-4a89-8221-2f1362d397ec",
             "target_ref": "attack-pattern--e1c912a9-e305-434b-9172-8a6ce3ec9c4a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

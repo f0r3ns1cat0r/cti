@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f5f52aed-79b0-4376-a09b-69d99123f3de",
+    "id": "bundle--a21a151d-4752-4ed1-b42d-93f49ea3df08",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--68ad793a-2678-4537-8480-8086fd4d757e",
             "created": "2020-08-04T13:26:34.212Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "AWS - IAM Console Best Practices",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:52:00.302Z",
+            "modified": "2026-04-29T14:23:06.067Z",
             "description": "Use multi-factor authentication for cloud accounts, especially privileged accounts. This can be implemented in a variety of forms (e.g. hardware, virtual, SMS), and can also be audited using administrative reporting features.(Citation: AWS - IAM Console Best Practices)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--b045d015-6bed-4490-bd38-56b41ece59a0",
             "target_ref": "attack-pattern--f232fa7a-025c-4d43-abc7-318e81a73d65",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

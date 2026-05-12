@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1a7e7331-b708-4e7a-9ab6-3b633a872ccc",
+    "id": "bundle--34c6b336-1c65-4d76-8740-ec7d253372e3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--81089e7a-66d8-49a4-9acc-f786c3cfb1a0",
             "created": "2024-01-18T20:09:49.453Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky ToddyCat June 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:27:36.835Z",
+            "modified": "2026-04-29T14:23:06.102Z",
             "description": "[Ninja](https://attack.mitre.org/software/S1100) can store its final payload in the Registry under `$HKLM\\SOFTWARE\\Classes\\Interface\\` encrypted with a dynamically generated key based on the drive\u2019s serial number.(Citation: Kaspersky ToddyCat June 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--023254de-caaf-4a05-b2c7-e4e2f283f7a5",
             "target_ref": "attack-pattern--f244b8dd-af6c-4391-a497-fc03627ce995",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

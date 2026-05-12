@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7206adea-aa52-46bc-ac4e-c020de8860a2",
+    "id": "bundle--f789b2dc-c203-42d5-a0aa-2fe1f84acc8f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T20:38:01.291Z",
+            "modified": "2026-04-29T14:23:06.254Z",
             "description": "[SPAWNCHIMERA](https://attack.mitre.org/software/S9024) has updated the timestamp using the `touch` command.(Citation: CISA SPAWNCHIMERA RESURGE February 2026)",
             "relationship_type": "uses",
             "source_ref": "malware--d1974f35-0e06-478e-bc74-7530545d814b",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--70604515-49be-4dd4-9486-43622f1ddfc9",
+    "id": "bundle--63efcf42-da22-40ac-a471-e7c1bc00f99b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-19T18:39:01.467Z",
+            "modified": "2026-04-29T14:23:06.065Z",
             "description": "During [Operation Digital Eye](https://attack.mitre.org/campaigns/C0061), threat actors targeted memory from the LSASS process to extract credentials.(Citation: sentinelone operationDigitalEye Dec 2024)",
             "relationship_type": "uses",
             "source_ref": "campaign--75ea699b-bff5-4541-b9b7-df4996c9db3c",

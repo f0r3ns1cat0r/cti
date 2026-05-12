@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e8c73954-0778-40f4-9304-dae1bc38001b",
+    "id": "bundle--397482f0-c4c0-404c-9ca6-b6146836c9eb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bfc4c5dd-a02a-42a0-8838-1e9b45c1dd7e",
             "created": "2020-07-21T19:02:06.341Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT30",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:44:06.964Z",
+            "modified": "2026-04-29T14:23:06.187Z",
             "description": "[APT30](https://attack.mitre.org/groups/G0013) has relied on users to execute malicious file attachments delivered via spearphishing emails.(Citation: FireEye APT30)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f047ee18-7985-4946-8bfb-4ed754d3a0dd",
             "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

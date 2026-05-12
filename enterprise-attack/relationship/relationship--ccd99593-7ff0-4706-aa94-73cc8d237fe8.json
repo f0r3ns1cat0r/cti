@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ea314f81-d69a-4627-ae52-c36a3ae41239",
+    "id": "bundle--3a88374a-0db6-443c-8a35-6fbdfaec438e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ccd99593-7ff0-4706-aa94-73cc8d237fe8",
             "created": "2019-05-24T17:57:36.633Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Group IB Silence Sept 2018",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:47:42.896Z",
+            "modified": "2026-04-29T14:23:06.205Z",
             "description": "[Silence](https://attack.mitre.org/groups/G0091) has deleted artifacts, including scheduled tasks, communicates files from the C2 and other logs.(Citation: Cyber Forensicator Silence Jan 2019)(Citation: Group IB Silence Sept 2018)\t",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
             "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

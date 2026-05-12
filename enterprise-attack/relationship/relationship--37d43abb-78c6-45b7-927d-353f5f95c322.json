@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3ff46982-e0d4-48c1-b8b8-fcf66f107c49",
+    "id": "bundle--0e354a35-edab-463d-b44a-71dd40a49b7d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T21:15:53.105Z",
+            "modified": "2026-04-29T14:23:05.996Z",
             "description": "[SPAWNCHIMERA](https://attack.mitre.org/software/S9024) has checked where SELinux is enabled on the targeted host.(Citation: Google UNC5221 BRICKSTORM SPAWNCHIMERA April 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--d1974f35-0e06-478e-bc74-7530545d814b",

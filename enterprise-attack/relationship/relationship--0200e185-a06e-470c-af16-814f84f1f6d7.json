@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--58647a9d-4b68-4b1b-b3bb-38a280a054db",
+    "id": "bundle--12c171ea-3512-4c34-b378-f8026fd8baa1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T18:50:59.003Z",
+            "modified": "2026-04-29T14:23:05.905Z",
             "description": "[NOOPLDR](https://attack.mitre.org/software/S9025) can inject decrypted payloads into processes including wuauclt.exe., rdrleakdiag.exe, and tabcal.exe.(Citation: Trend Micro Earth Kasha NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--66637cd6-ae68-4bcd-af82-32f70a854175",

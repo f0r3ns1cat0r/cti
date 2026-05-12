@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d21536aa-fd4c-4054-9377-fb9f79e394f7",
+    "id": "bundle--a6927751-9c6f-4f47-97ed-bb41295657c1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b8d3372c-ac09-4247-8714-46947f669908",
             "created": "2025-10-19T20:09:02.731Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Storm-0501 Embargo Ransomware August 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-19T20:09:02.731Z",
+            "modified": "2026-04-29T14:23:06.177Z",
             "description": "[Storm-0501](https://attack.mitre.org/groups/G1053) has conducted mass deletion of cloud data stores and resources from Azure subscriptions.(Citation: Microsoft Storm-0501 Embargo Ransomware August 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7b404cd0-3ae9-41d4-90c0-023793d35d97",

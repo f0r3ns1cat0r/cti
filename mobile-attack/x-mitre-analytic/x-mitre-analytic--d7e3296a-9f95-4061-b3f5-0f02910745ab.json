@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8df20cb6-a764-4eba-81f3-b89c702ebe2c",
+    "id": "bundle--fdd84472-18a8-4a04-9e24-523596a5ee14",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T16:02:15.040Z",
+            "modified": "2026-05-12T16:30:18.382Z",
             "name": "Analytic 1849",
             "description": "The defender correlates managed-app network retrieval from a non-baselined external source with immediate creation of a new local artifact, staged resource, module-like file, or opaque payload inside the app container, followed by optional dynamic loading, handoff, or repeat retrieval behavior. Because iOS offers weaker direct visibility into tool staging internals than Android in many environments, the analytic anchors first on network acquisition plus managed app identity and then strengthens confidence with file creation or process-activity effects where mobile telemetry is available.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

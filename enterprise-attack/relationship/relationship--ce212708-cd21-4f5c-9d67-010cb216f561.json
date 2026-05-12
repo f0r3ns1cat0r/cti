@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--95a2b93b-72af-4ea5-b67e-f634fa7ab45b",
+    "id": "bundle--4ce7c8ea-4552-4cda-bf5c-dc72e24eb75c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T12:37:23.213Z",
+            "modified": "2026-04-29T14:23:06.207Z",
             "description": "[Havoc](https://attack.mitre.org/software/S1229) has been executed by victims through the use of targeted lures and crafted decoy documents.(Citation: Check Point Wirte NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--1996aed9-6234-4c1d-a145-e8a4913679dd",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--793edb7b-df39-45d0-8a27-97ec4624695f",
+    "id": "bundle--ed9fb69e-55a6-486f-8cfd-aaf9000ca940",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d2543f5c-6079-4540-8250-d4b900b64f42",
             "created": "2025-08-06T15:02:18.475Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro MUSTANG PANDA PUBLOAD HIUPAN SEPTEMBER 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-25T14:14:22.181Z",
+            "modified": "2026-04-29T14:23:06.213Z",
             "description": "[PUBLOAD](https://attack.mitre.org/software/S1228) has leveraged `tasklist` to gather running services on victim host.(Citation: Trend Micro MUSTANG PANDA PUBLOAD HIUPAN SEPTEMBER 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--3824852d-1957-4712-9da0-38143723c060",

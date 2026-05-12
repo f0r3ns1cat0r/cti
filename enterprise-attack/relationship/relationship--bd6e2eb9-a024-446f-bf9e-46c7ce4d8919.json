@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7e9f6608-8bba-4b5a-99f4-7e4b534d9c56",
+    "id": "bundle--d5d9a3ef-f119-4632-8d86-4a7e05db8dfd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bd6e2eb9-a024-446f-bf9e-46c7ce4d8919",
             "created": "2020-10-19T23:54:29.971Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "US-CERT TA17-156A SNMP Abuse 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:07:44.621Z",
+            "modified": "2026-04-29T14:23:06.184Z",
             "description": "Segregate SNMP traffic on a separate management network.(Citation: US-CERT TA17-156A SNMP Abuse 2017)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--86598de0-b347-4928-9eb0-0acbfc21908c",
             "target_ref": "attack-pattern--ee7ff928-801c-4f34-8a99-3df965e581a5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ba93bacf-359a-40d8-b9f4-66333a6572a0",
+    "id": "bundle--21d516a9-6d74-4954-ae96-1699b60c194a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T22:20:49.207Z",
+            "modified": "2026-04-29T14:23:06.186Z",
             "description": "[Remcos](https://attack.mitre.org/software/S0332) has been executed by luring victims into opening malicious email attachments including Excel files.(Citation: Fortinet Remcos Campaign NOV 2024)\n",
             "relationship_type": "uses",
             "source_ref": "tool--7cd0bc75-055b-4098-a00e-83dc8beaff14",

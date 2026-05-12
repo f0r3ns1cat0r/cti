@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6c853f12-041a-4115-b441-952fc63c2dfe",
+    "id": "bundle--3e1e4902-d4a1-411f-9d0a-66771a58efbc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a4485212-aea0-4cf0-b7f1-79b3048d910f",
             "created": "2025-03-14T19:15:19.239Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Storm-1811 2024",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:37:03.842Z",
+            "modified": "2026-04-29T14:23:06.148Z",
             "description": "[Quick Assist](https://attack.mitre.org/software/S1209) allows for the remote administrator to view the interactive session of the running machine, including full screen activity.(Citation: Microsoft Quick Assist 2024)(Citation: Microsoft Storm-1811 2024)",
             "relationship_type": "uses",
             "source_ref": "tool--fcdb30de-5449-4777-a4f4-922e71f65932",
             "target_ref": "attack-pattern--6faf650d-bf31-4eb4-802d-1000cf38efaf",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

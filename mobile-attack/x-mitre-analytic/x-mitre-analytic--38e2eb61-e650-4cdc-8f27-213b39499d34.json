@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--78940b3a-b9ff-4812-9804-839e2413b302",
+    "id": "bundle--1b26103f-a994-47c2-8ed3-06a7db6366a8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-23T17:29:42.280Z",
+            "modified": "2026-05-12T16:30:18.376Z",
             "name": "Analytic 1774",
             "description": "OLD: \nApplication vetting services could look for `android.permission.READ_CALENDAR` or `android.permission.WRITE_CALENDAR` in an Android application\u2019s manifest, or `NSCalendarsUsageDescription` in an iOS application\u2019s `Info.plist` file. Most applications do not need calendar access, so extra scrutiny could be applied to those that request it. \nOn both Android and iOS, the user can manage which applications have permission to access calendar information through the device settings screen, revoke the permission if necessary. \n\nNEW:\nA defender observes an Android application requesting for `android.permission.READ_CALENDAR` or `android.permission.WRITE_CALENDAR`, which may also be listed in the application\u2019s Manifest.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

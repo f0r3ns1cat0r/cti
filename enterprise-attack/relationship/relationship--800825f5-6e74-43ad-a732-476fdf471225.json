@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7161eaa5-c630-4861-9047-e25870e7a94d",
+    "id": "bundle--caece643-e50a-4af4-a7c1-fa35fd1700aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--800825f5-6e74-43ad-a732-476fdf471225",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "F-Secure The Dukes",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:56:32.994Z",
+            "modified": "2026-04-29T14:23:06.101Z",
             "description": "[CloudDuke](https://attack.mitre.org/software/S0054) downloads and executes additional malware from either a Web address or a Microsoft OneDrive account.(Citation: F-Secure The Dukes)",
             "relationship_type": "uses",
             "source_ref": "malware--cbf646f1-7db5-4dc6-808b-0094313949df",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

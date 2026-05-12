@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ba15d4d2-d529-4042-b6ff-fdf12aef6caf",
+    "id": "bundle--3d0688b6-98ee-4691-b6c1-34337cb25cd6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-15T22:26:41.663Z",
+            "modified": "2026-05-12T15:12:00.629Z",
             "name": "Process Injection",
             "description": "Adversaries may inject code into processes in order to evade process-based defenses as well as possibly elevate privileges. Process injection is a method of executing arbitrary code in the address space of a separate live process. Running code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges. Execution via process injection may also evade detection from security products since the execution is masked under a legitimate process. \n\nThere are many different ways to inject code into a process, many of which abuse legitimate functionalities. These implementations exist for every major OS but are typically platform specific. \n\nMore sophisticated samples may perform multiple process injections to segment modules and further evade detection, utilizing named pipes or other inter-process communication (IPC) mechanisms as a communication channel. ",
             "kill_chain_phases": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d3034f7a-0f5b-4a40-a25b-29ef0d112b80",
+    "id": "bundle--1b77b6ca-2cab-4d66-b033-cfff3057f023",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a4864c51-92f3-4f59-ba75-0a2b01aee2da",
             "created": "2024-07-02T17:42:07.437Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Turla Lunar toolset May 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:37:06.833Z",
+            "modified": "2026-04-29T14:23:06.149Z",
             "description": "[LunarMail](https://attack.mitre.org/software/S1142) can delete the previously used staging directory and files on subsequent rounds of exfiltration and replace it with a new one.(Citation: ESET Turla Lunar toolset May 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--a5789a26-2b7b-4b2d-a25f-31182468d4bb",
             "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

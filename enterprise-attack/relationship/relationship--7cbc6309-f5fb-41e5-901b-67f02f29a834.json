@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0472302f-4311-4802-8cdb-3c4835632fac",
+    "id": "bundle--54790247-7f4b-4033-839d-d0ef6eb59e45",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7cbc6309-f5fb-41e5-901b-67f02f29a834",
             "created": "2021-03-15T18:56:36.781Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Trickbot Oct 2020",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:55:59.349Z",
+            "modified": "2026-04-29T14:23:06.096Z",
             "description": "[TrickBot](https://attack.mitre.org/software/S0266) module shareDll/mshareDll discovers network shares via the WNetOpenEnumA API.(Citation: ESET Trickbot Oct 2020)(Citation: Bitdefender Trickbot March 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--00806466-754d-44ea-ad6f-0caf59cb8556",
             "target_ref": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

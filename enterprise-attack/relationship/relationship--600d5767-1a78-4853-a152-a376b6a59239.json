@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--530d9793-624c-4e48-b37d-8a0aa072de84",
+    "id": "bundle--d20958b9-0cea-45e0-8f67-de0f6274f5bc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--600d5767-1a78-4853-a152-a376b6a59239",
             "created": "2025-10-01T19:33:40.250Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "BiZone Lizar May 2021",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-01T21:24:00.696Z",
+            "modified": "2026-04-29T14:23:06.056Z",
             "description": "[FIN7](https://attack.mitre.org/groups/G0046) has compiled a list of victims by filtering companies by revenue using Zoominfo, which is a service that provides business information.(Citation: BiZone Lizar May 2021) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",

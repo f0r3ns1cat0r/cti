@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--39664c1e-05f0-4da8-b754-ed5771806b49",
+    "id": "bundle--dc240c3d-f2b5-4f6f-8f4b-6432c53c3013",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--92cf3ea9-3499-4e12-b885-fcb43e0107ff",
             "created": "2022-09-07T19:46:56.596Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Frankenstein June 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:32:20.605Z",
+            "modified": "2026-04-29T14:23:06.125Z",
             "description": "During [Frankenstein](https://attack.mitre.org/campaigns/C0001), the threat actors used a script that ran WMI queries to check if a VM or sandbox was running, including VMWare and Virtualbox. The script would also call WMI to determine the number of cores allocated to the system; if less than two the script would stop execution.(Citation: Talos Frankenstein June 2019)",
             "relationship_type": "uses",
             "source_ref": "campaign--26d9ebae-de59-427f-ae9a-349456bae4b1",
             "target_ref": "attack-pattern--29be378d-262d-4e99-b00d-852d573628e6",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--384e35ee-00a1-4f9b-bd4d-364fd4278889",
+    "id": "bundle--74ac0dd0-78a0-4474-bad5-39f220d352d7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T18:54:58.107Z",
+            "modified": "2026-04-29T14:23:06.148Z",
             "description": "[NOOPLDR](https://attack.mitre.org/software/S9025) can use native APIs `NtProtectVirtualMemory`, `NtWriteVirtualMemory`, and `NtCreateThreadEx` to aid process injection.(Citation: Trend Micro Earth Kasha NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--66637cd6-ae68-4bcd-af82-32f70a854175",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--845bdae4-d2b7-4a25-86cc-8f2122f52e28",
+    "id": "bundle--c633e253-644d-45c6-a177-5cad619c20e5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--761edf58-baad-4626-acca-a137c251b0e6",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto MoonWind March 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:54:38.802Z",
+            "modified": "2026-04-29T14:23:06.087Z",
             "description": "[MoonWind](https://attack.mitre.org/software/S0149) can delete itself or specified files.(Citation: Palo Alto MoonWind March 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--9ea525fa-b0a9-4dde-84f2-bcea0137b3c1",
             "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

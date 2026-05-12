@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d969cc74-e7b8-4b6a-857d-2b25f047dd6f",
+    "id": "bundle--64f1d5d1-208c-4c0e-ac97-817163a2df80",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--2a13b64a-2173-4565-aca6-bbf3edfdc499",
             "created": "2023-03-17T15:32:35.180Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Lazarus Jun 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:04:07.727Z",
+            "modified": "2026-04-29T14:23:05.962Z",
             "description": "During [Operation Dream Job](https://attack.mitre.org/campaigns/C0022), [Lazarus Group](https://attack.mitre.org/groups/G0032) created fake email accounts to correspond with fake LinkedIn personas; [Lazarus Group](https://attack.mitre.org/groups/G0032) also established email accounts to match those of the victim as part of their BEC attempt.(Citation: ESET Lazarus Jun 2020)",
             "relationship_type": "uses",
             "source_ref": "campaign--0257b35b-93ef-4a70-80dd-ad5258e6045b",
             "target_ref": "attack-pattern--65013dd2-bc61-43e3-afb5-a14c4fa7437a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

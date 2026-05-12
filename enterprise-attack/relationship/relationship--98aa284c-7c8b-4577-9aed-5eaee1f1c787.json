@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6f86dd97-4ec3-4316-9266-3b391ddb7a80",
+    "id": "bundle--9908d45f-908c-4c06-bd2b-0c7137332637",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--98aa284c-7c8b-4577-9aed-5eaee1f1c787",
             "created": "2026-04-09T19:37:07.769Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Aikido Shai-Hulud September 2025",
@@ -33,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T19:37:07.769Z",
+            "modified": "2026-04-29T14:23:06.133Z",
             "description": "[Shai-Hulud](https://attack.mitre.org/software/S9008) has modified GitHub account settings for private repositories and changed them to public.(Citation: Aikido Shai-Hulud September 2025)(Citation: Netskope Shai-Hulud November 2025)(Citation: Wiz Shai-Hulud September 2025)(Citation: Microsoft Shai-Hulud December 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--de376fb9-1093-4f59-8d13-aed61042701d",

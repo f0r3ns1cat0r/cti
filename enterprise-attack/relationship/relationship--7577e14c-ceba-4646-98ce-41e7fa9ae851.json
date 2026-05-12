@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a1791288-f0d1-4eab-b451-ae739db93726",
+    "id": "bundle--94bacc20-8558-48c3-8866-c005c3a5a7e0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7577e14c-ceba-4646-98ce-41e7fa9ae851",
             "created": "2017-05-31T21:33:27.080Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "BlackBerry_FIN7_April2024",
@@ -53,14 +54,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-07-11T17:37:14.203Z",
+            "modified": "2026-04-29T14:23:06.086Z",
             "description": "(Citation: FireEye FIN7 March 2017)(Citation: FireEye FIN7 Aug 2018)(Citation: DOJ FIN7 Aug 2018)(Citation: IBM Ransomware Trends September 2020)(Citation: CrowdStrike Carbon Spider August 2021)(Citation: FBI Flash FIN7 USB)(Citation: Mandiant FIN7 Apr 2022)(Citation: BlackBerry_FIN7_April2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
             "target_ref": "malware--72f54d66-675d-4587-9bd3-4ed09f9522e4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

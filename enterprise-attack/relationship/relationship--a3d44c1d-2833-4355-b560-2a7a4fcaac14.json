@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--def019ea-504f-4ce7-99d3-b2795c987a51",
+    "id": "bundle--c03b4438-aae5-4d2c-a0a3-6e110e1c5dee",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a3d44c1d-2833-4355-b560-2a7a4fcaac14",
             "created": "2019-01-30T18:58:04.085Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit42 Cannon Nov 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:03:16.314Z",
+            "modified": "2026-04-29T14:23:06.148Z",
             "description": "[Cannon](https://attack.mitre.org/software/S0351) can collect the current time zone information from the victim\u2019s machine.(Citation: Unit42 Cannon Nov 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--d20b397a-ea47-48a9-b503-2e2a3551e11d",
             "target_ref": "attack-pattern--f3c544dc-673c-4ef3-accb-53229f1ae077",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

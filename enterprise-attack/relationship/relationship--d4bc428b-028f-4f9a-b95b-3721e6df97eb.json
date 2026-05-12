@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--43c0601f-b5c7-4dec-a8c2-86e502729e50",
+    "id": "bundle--adc221e4-f8fb-4263-8154-fe41ebc15094",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d4bc428b-028f-4f9a-b95b-3721e6df97eb",
             "created": "2025-10-19T13:44:18.743Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Contagious Interview BeaverTail InvisibleFerret February 2025",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T21:37:16.540Z",
+            "modified": "2026-04-29T14:23:06.216Z",
             "description": "[InvisibleFerret](https://attack.mitre.org/software/S1245) has utilized the command `ssh_zcp` to exfiltrate data from browser extensions and password managers via Telegram and FTP.(Citation: ESET Contagious Interview BeaverTail InvisibleFerret February 2025)(Citation: Zscaler ContagiousInterview BeaverTail InvisibleFerret November 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--1dac60f2-7d53-4a3e-95d1-cb2e875d5491",

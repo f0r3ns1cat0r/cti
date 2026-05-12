@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ee8d5077-5f22-4aa5-a222-748eb78e9ead",
+    "id": "bundle--6de17161-8327-4397-9ed9-8d9de5458774",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8f43c516-a7f0-4d72-82ae-cd9c8eda4ffc",
             "created": "2025-08-05T14:55:51.674Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco Talos MUSTANG PANDA PLUGX PUBLOAD MAY 2022",
@@ -38,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-25T14:12:09.797Z",
+            "modified": "2026-04-29T14:23:06.120Z",
             "description": "[PUBLOAD](https://attack.mitre.org/software/S1228) has added Registry Run keys to achieve persistence using `HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run`. (Citation: Cisco Talos MUSTANG PANDA PLUGX PUBLOAD MAY 2022)(Citation: CSIRT CTI MUSTANG PANDA PUBLOAD TONESHELL JAN 2024)(Citation: Lab52 MUSTANG PANDA PUBLOAD MAY 2023)(Citation: Trend Micro MUSTANG PANDA PUBLOAD HIUPAN SEPTEMBER 2024)(Citation: 2022 November_TrendMicro_Earth Preta_Toneshell_Pubload)",
             "relationship_type": "uses",
             "source_ref": "malware--3824852d-1957-4712-9da0-38143723c060",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d5249ff2-75a8-417c-9f50-fee47fbb4a23",
+    "id": "bundle--c3416df7-30d8-439e-8e5c-394631b0e1d4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:13:12.702Z",
+            "modified": "2026-04-29T14:23:06.257Z",
             "description": " [ZIPLINE](https://attack.mitre.org/software/S1114) can add itself to the exclusion list for the Ivanti Connect Secure Integrity Checker Tool if the `--exclude` parameter is passed by the `tar` process.(Citation: Mandiant Cutting Edge January 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--d9765cbd-4c88-4805-ba98-4c6ccb56b864",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d5f0dd98-9602-4c62-a2bd-32771e92ef92",
+    "id": "bundle--f7122783-e532-4a04-88a9-3e50c0ba7b0e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b019ea9e-afc4-4015-b690-677a09178feb",
             "created": "2020-03-17T18:19:22.984Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Oceanlotus May 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:05:32.179Z",
+            "modified": "2026-04-29T14:23:06.165Z",
             "description": "[APT32](https://attack.mitre.org/groups/G0050) has used macros, COM scriptlets, and VBS scripts.(Citation: Cybereason Oceanlotus May 2017)(Citation: Cybereason Cobalt Kitty 2017) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

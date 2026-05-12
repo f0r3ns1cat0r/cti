@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e3544f81-fefa-4661-9f81-45cf9cbadc1a",
+    "id": "bundle--1a17148e-a3f3-434e-a4a4-f8d542832185",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--49421e3d-7c36-4f68-b7f3-c72442c3d44c",
             "created": "2025-09-12T15:47:34.893Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Zscaler PAKLOG CorkLog SplatCloak Splatdropper April 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-12T15:47:34.893Z",
+            "modified": "2026-04-29T14:23:06.025Z",
             "description": "[CorKLOG](https://attack.mitre.org/software/S1235) has captured keystrokes.(Citation: Zscaler PAKLOG CorkLog SplatCloak Splatdropper April 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--9fd4e24b-3b12-4c7c-925f-226e2e3c3758",

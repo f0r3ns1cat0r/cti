@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b814d1b6-3522-4078-b23f-d0b6ae7721ff",
+    "id": "bundle--bf3cfb8e-8eef-4adb-ba2c-98a45b961b17",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fc6b549d-3f8a-447f-bc6f-a8133334dc15",
             "created": "2026-03-25T20:06:37.830Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "PaloAlto Unit42 ContagiousInterview BeaverTail InvisibileFerret October 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-31T16:27:22.925Z",
+            "modified": "2026-04-29T14:23:06.267Z",
             "description": "[Contagious Interview](https://attack.mitre.org/groups/G1052) has used AI to clone video-conferencing applications to distribute their [BeaverTail](https://attack.mitre.org/software/S1246) malware. They have also used AI to create deepfake videos. (Citation: PaloAlto Unit42 ContagiousInterview BeaverTail InvisibileFerret October 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--46599a4a-77ee-4697-9474-2683b6464859",

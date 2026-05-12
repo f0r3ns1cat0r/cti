@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--62558718-5f09-432f-b852-a40577dede2b",
+    "id": "bundle--dddf80b0-cbc0-4176-b795-969f58ec3ad0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9d8ea8fe-c0d5-4f3b-b0ed-253708c07a0b",
             "created": "2022-02-02T15:13:34.012Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky WIRTE November 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:35:19.850Z",
+            "modified": "2026-04-29T14:23:06.140Z",
             "description": "[LitePower](https://attack.mitre.org/software/S0680) can use HTTP and HTTPS for C2 communications.(Citation: Kaspersky WIRTE November 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--9020f5c7-efde-4125-a4f1-1b70f1274ddd",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

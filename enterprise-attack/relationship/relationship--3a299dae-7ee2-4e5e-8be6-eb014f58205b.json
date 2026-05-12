@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e3bd7a5f-7889-4a03-bf64-a13630eec9b9",
+    "id": "bundle--c6a95751-1ed3-41a2-a6e6-94ffd18196fb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--3a299dae-7ee2-4e5e-8be6-eb014f58205b",
             "created": "2020-05-26T18:37:13.094Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Medium Metamorfo Apr 2020",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:08:24.707Z",
+            "modified": "2026-04-29T14:23:06.000Z",
             "description": "[Metamorfo](https://attack.mitre.org/software/S0455) has encrypted payloads and strings.(Citation: Medium Metamorfo Apr 2020)(Citation: ESET Casbaneiro Oct 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--81c57a96-fc8c-4f91-af8e-63e24c2927c2",
             "target_ref": "attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

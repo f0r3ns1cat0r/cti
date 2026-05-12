@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9521a1ad-0221-4fcb-826b-b4e57fdaaa73",
+    "id": "bundle--c101c4e1-5347-4e8c-879b-22fa8172d8ff",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T19:01:27.356Z",
+            "modified": "2026-04-29T14:23:06.038Z",
             "description": "[HiddenFace](https://attack.mitre.org/software/S9023) can use active and passive C2 modes that use different encryption algorithms and backdoor commands.(Citation: Trend Micro Earth Kasha NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--9edc41d1-a13d-4acf-b400-d47fb2f6809d",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--350a674e-4d41-4091-80a7-857f2995a9d0",
+    "id": "bundle--f263ca70-49bc-4560-8d3a-ebed53e7c56e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a487371e-15c9-405a-8774-0827fea2c3a3",
             "created": "2024-05-29T21:06:48.082Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sophos Gootloader",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:37:07.025Z",
+            "modified": "2026-04-29T14:23:06.149Z",
             "description": "\n[Gootloader](https://attack.mitre.org/software/S1138) can use its own PE loader to execute payloads in memory.(Citation: Sophos Gootloader)",
             "relationship_type": "uses",
             "source_ref": "malware--396c18b9-26fb-4435-8589-fb856502e4c4",
             "target_ref": "attack-pattern--806a49c4-970d-43f9-9acc-ac0ee11e6662",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

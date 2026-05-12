@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f417242a-08eb-4cba-b76f-1f9fbafd4809",
+    "id": "bundle--4a41937b-7b0b-4473-b9b4-397eea9459f3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f87c6571-5031-4abb-8eaf-3416eec79928",
             "created": "2025-10-21T17:30:21.763Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "McAfee Sharpshooter December 2018",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T17:30:21.763Z",
+            "modified": "2026-04-29T14:23:06.263Z",
             "description": "[Rising Sun](https://attack.mitre.org/software/S0448) can detect drive information, including drive type, total number of bytes on disk, total number of free bytes on disk, and name of a specified volume.(Citation: McAfee Sharpshooter December 2018)\t",
             "relationship_type": "uses",
             "source_ref": "malware--56e6b6c2-e573-4969-8bab-783205cebbbf",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5b989885-dd16-498e-a633-1789ff4bb764",
+    "id": "bundle--fd3f7a75-9622-46d9-a556-118c62e1ed37",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a25300cb-c2b7-4968-b1d7-cc4d5fe5bb4b",
             "created": "2020-11-10T16:49:13.625Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sophos New Ryuk Attack October 2020",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T16:26:04.867Z",
+            "modified": "2026-04-29T14:23:06.146Z",
             "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used [ipconfig](https://attack.mitre.org/software/S0100) to identify the network configuration of a victim machine. [Wizard Spider](https://attack.mitre.org/groups/G0102) has also used the PowerShell cmdlet `Get-ADComputer` to collect IP address data from Active Directory.(Citation: Sophos New Ryuk Attack October 2020)(Citation: Mandiant FIN12 Oct 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",

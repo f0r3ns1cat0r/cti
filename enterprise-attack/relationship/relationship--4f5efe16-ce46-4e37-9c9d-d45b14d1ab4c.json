@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--30895aa9-ab05-4485-a3c2-0cd2afe42406",
+    "id": "bundle--0bdec7ee-7600-43a9-b48a-697b4520357d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4f5efe16-ce46-4e37-9c9d-d45b14d1ab4c",
             "created": "2021-08-12T14:55:37.785Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sogeti CERT ESEC Babuk March 2021",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:47:20.722Z",
+            "modified": "2026-04-29T14:23:06.033Z",
             "description": "[Babuk](https://attack.mitre.org/software/S0638) can stop specific services related to backups.(Citation: Sogeti CERT ESEC Babuk March 2021)(Citation: McAfee Babuk February 2021)(Citation: Trend Micro Ransomware February 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--61c7a91a-0b83-461d-ad32-75d96eed4a09",
             "target_ref": "attack-pattern--20fb2507-d71c-455d-9b6d-6104461cf26b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6e0ef8b8-8453-4a59-8df5-9b8ae2fcb799",
+    "id": "bundle--6f7e7146-1d9b-477a-ae03-5d53593c76f6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--86f8bebc-a5fc-43d7-9af0-0024e07ca8d1",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Group123",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:57:44.564Z",
+            "modified": "2026-04-29T14:23:06.109Z",
             "description": "[APT37](https://attack.mitre.org/groups/G0067) injects its malware variant, [ROKRAT](https://attack.mitre.org/software/S0240), into the cmd.exe process.(Citation: Talos Group123)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
             "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

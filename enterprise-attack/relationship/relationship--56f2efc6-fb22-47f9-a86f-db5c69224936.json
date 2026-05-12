@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--11f5120b-f10d-4249-a219-370c750bdcd0",
+    "id": "bundle--09488010-cf73-4979-899f-2bacd9e615c5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--56f2efc6-fb22-47f9-a86f-db5c69224936",
             "created": "2022-03-04T18:30:39.092Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA MFA PrintNightmare",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:16:20.199Z",
+            "modified": "2026-04-29T14:23:06.044Z",
             "description": "Require multi-factor authentication to register devices in Entra ID.(Citation: Microsoft - Device Registration) Configure multi-factor authentication systems to disallow enrolling new devices for inactive accounts.(Citation: CISA MFA PrintNightmare) When first enrolling MFA, use conditional access policies to restrict device enrollment to trusted locations or devices, and consider using temporary access passes as an initial MFA solution to enroll a device.(Citation: Mandiant APT29 Microsoft 365 2022)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--b045d015-6bed-4490-bd38-56b41ece59a0",
             "target_ref": "attack-pattern--7decb26c-715c-40cf-b7e0-026f7d7cc215",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

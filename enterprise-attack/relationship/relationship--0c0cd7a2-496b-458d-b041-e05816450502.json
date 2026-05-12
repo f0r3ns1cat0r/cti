@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--212c8358-36a8-4bcc-9e7f-755633a24768",
+    "id": "bundle--bfe43ed4-bf8e-4c77-96ab-407797a090c1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0c0cd7a2-496b-458d-b041-e05816450502",
             "created": "2020-01-30T16:36:51.580Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "NSA Spotting",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T21:41:45.288Z",
+            "modified": "2026-04-29T14:23:05.920Z",
             "description": "Apply patch KB2871997 to Windows 7 and higher systems to limit the default access of accounts in the local administrator group.(Citation: NSA Spotting) ",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--e5d930e9-775a-40ad-9bdb-b941d8dfe86b",

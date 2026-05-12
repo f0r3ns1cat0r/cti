@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--57510fe9-4e52-435d-b5df-a29a4adea471",
+    "id": "bundle--6c528378-c377-4c18-ad47-f5043c62b1b8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T20:52:16.713Z",
+            "modified": "2026-05-12T16:30:18.378Z",
             "name": "Analytic 1658",
             "description": "The defender correlates managed-app process-launch or shell-like execution effects with subsequent file or network activity by the same app, then raises confidence when execution occurs in background context, without recent user interaction, or appears tied to command delivery or output exfiltration. Because direct Unix-shell observability is typically weaker on iOS and child processes remain constrained by the app sandbox, the analytic anchors on process-execution effects where available and then on lifecycle, file, and network side effects rather than assuming rich shell-parameter visibility in all environments.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

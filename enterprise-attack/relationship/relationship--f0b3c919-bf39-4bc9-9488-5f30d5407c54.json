@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8c67802f-15ae-47e2-8c75-1c2522120208",
+    "id": "bundle--c0d38b0a-af19-4876-9fa3-0d8f532ea915",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f0b3c919-bf39-4bc9-9488-5f30d5407c54",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "aptsim",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:16:47.005Z",
+            "modified": "2026-04-29T14:23:06.252Z",
             "description": "[APT3](https://attack.mitre.org/groups/G0022) has been known to create or enable accounts, such as <code>support_388945a0</code>.(Citation: aptsim)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",
             "target_ref": "attack-pattern--635cbe30-392d-4e27-978e-66774357c762",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

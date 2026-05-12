@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cfb0e55f-b6ce-4cf2-b90d-dc56f8740397",
+    "id": "bundle--69cfa5a0-35bf-48e4-b580-bc79acd79db5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T22:39:50.031Z",
+            "modified": "2026-04-29T14:23:05.965Z",
             "description": "[LazyWiper](https://attack.mitre.org/software/S9039) can enumerate the hostname of the system to determine if it is a domain controller and exclude it from being wiped if so.(Citation: CERT Polska)",
             "relationship_type": "uses",
             "source_ref": "malware--e4160979-b9bc-4f58-acbe-1d921ebbc122",

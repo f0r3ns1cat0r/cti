@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--85d1742c-d6a2-4d73-891b-c94c656463b0",
+    "id": "bundle--b2b7125e-e4e2-4c5a-8b94-fd2b531e7674",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f0034f7c-d145-489e-b0ec-62277ee46f7b",
             "created": "2025-10-19T13:45:53.189Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Contagious Interview BeaverTail InvisibleFerret February 2025",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-19T13:45:53.189Z",
+            "modified": "2026-04-29T14:23:06.252Z",
             "description": "[InvisibleFerret](https://attack.mitre.org/software/S1245) has leveraged Telegram chat to upload stolen data using the Telegram API with a bot token.(Citation: ESET Contagious Interview BeaverTail InvisibleFerret February 2025)(Citation: Zscaler ContagiousInterview BeaverTail InvisibleFerret November 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--1dac60f2-7d53-4a3e-95d1-cb2e875d5491",

@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--63cb4788-fce3-4de9-9301-da2c294d6461",
+    "id": "bundle--e20066a6-07f9-435b-b80f-73c1079c05b6",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--29d1e77a-a05e-4ead-8272-b254992cd2ba",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.672Z",
             "name": "Detection Strategy for Ignore Process Interrupts",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -31,8 +32,7 @@
                 "x-mitre-analytic--8d75d4b3-6748-4d1c-936c-129ee56a12a5",
                 "x-mitre-analytic--80e9341d-7ea4-4684-8f27-54566e996ce6",
                 "x-mitre-analytic--c9079261-caa7-4cfe-8be6-1359db599d27"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f534d551-1ce0-422b-a1c5-e46c3b625a31",
+    "id": "bundle--ba18889d-6d90-45fb-b529-0c7757776195",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T17:02:54.828Z",
+            "modified": "2026-04-29T14:23:06.131Z",
             "description": "[MirrorStealer](https://attack.mitre.org/software/S9022) can steal credentials stored in browsers.(Citation: ESET MirrorFace DEC 2022)(Citation: Trend Micro Earth Kasha NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--2f851d4a-18cc-4d7f-9408-b10ef02ee936",

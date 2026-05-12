@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4e1fe50d-c7db-4c08-af48-2854ff784067",
+    "id": "bundle--16346cae-3458-4316-9a95-92b78015deab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--2f9e034e-1e97-4efc-8afc-6557894554fa",
             "created": "2026-02-16T15:55:55.915Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "EnkiWhiteHat_KimsukyDOCSWAP_Dec2025",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-02-16T16:08:39.676Z",
+            "modified": "2026-04-29T14:23:05.974Z",
             "description": "[DocSwap](https://attack.mitre.org/software/S9005) has checked for the `FOREGROUND_SERVICE` permission.(Citation: EnkiWhiteHat_KimsukyDOCSWAP_Dec2025) [DocSwap](https://attack.mitre.org/software/S9005) has also used the StartForeground API to generate a notification saying \u201cTap to view more details or stop the app\u201d in Korean and to maintain persistence.(Citation: S2W_DocSwap_Mar2025) ",
             "relationship_type": "uses",
             "source_ref": "malware--3dbef387-12df-4547-9dd3-075c7ffec9e3",

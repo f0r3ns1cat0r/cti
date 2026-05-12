@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b31ffe69-40b4-4570-8862-69e07f4d3f54",
+    "id": "bundle--3d3c6478-9cda-4715-afd7-a156b5ea4ae1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--70166ae9-63ec-4d74-be69-ec42a39c239c",
             "created": "2021-07-02T14:53:09.304Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Bitdefender Naikon April 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:53:26.557Z",
+            "modified": "2026-04-29T14:23:06.078Z",
             "description": "[RainyDay](https://attack.mitre.org/software/S0629) can use tools to collect credentials from web browsers.(Citation: Bitdefender Naikon April 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--29231689-5837-4a7a-aafc-1b65b3f50cc7",
             "target_ref": "attack-pattern--58a3e6aa-4453-4cc8-a51f-4befe80b31a8",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

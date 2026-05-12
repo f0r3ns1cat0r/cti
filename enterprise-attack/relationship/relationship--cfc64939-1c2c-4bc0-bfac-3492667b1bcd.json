@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fc3897d4-bd5f-4328-be57-7618193242d6",
+    "id": "bundle--4ecd3de7-764d-462e-9184-d85a678a6ef4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cfc64939-1c2c-4bc0-bfac-3492667b1bcd",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 SeaDuke 2015",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:11:10.538Z",
+            "modified": "2026-04-29T14:23:06.209Z",
             "description": "[SeaDuke](https://attack.mitre.org/software/S0053) is capable of persisting via a .lnk file stored in the Startup directory.(Citation: Unit 42 SeaDuke 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--67e6d66b-1b82-4699-b47a-e2efb6268d14",
             "target_ref": "attack-pattern--4ab929c6-ee2d-4fb5-aab4-b14be2ed7179",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

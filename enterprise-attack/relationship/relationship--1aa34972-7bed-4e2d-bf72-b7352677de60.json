@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7991a277-f66e-4fb0-80b3-cabcf94b9ba0",
+    "id": "bundle--282721ef-4a72-4351-bffb-f4a617a421d3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1aa34972-7bed-4e2d-bf72-b7352677de60",
             "created": "2022-06-09T19:27:50.082Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "NCC Group LAPSUS Apr 2022",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:59:56.960Z",
+            "modified": "2026-04-29T14:23:05.941Z",
             "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has obtained tools such as RVTools and AD Explorer for their operations.(Citation: MSTIC DEV-0537 Mar 2022)(Citation: NCC Group LAPSUS Apr 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
             "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--30d6a9b7-d2c4-4b8a-a4db-7666368f4b9d",
+    "id": "bundle--65f31f00-5c3a-4270-8146-b3eb036c5cb2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--40032198-f003-4171-92a0-faf038f62a0b",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT32 April 2020",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:44:33.767Z",
+            "modified": "2026-04-29T14:23:06.012Z",
             "description": "[APT32](https://attack.mitre.org/groups/G0050) collected the victim's username and executed the <code>whoami</code> command on the victim's machine. [APT32](https://attack.mitre.org/groups/G0050) executed shellcode to collect the username on the victim's machine. (Citation: FireEye APT32 April 2020)(Citation: ESET OceanLotus)(Citation: Cybereason Cobalt Kitty 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--83845206-7e94-492d-b974-f47db3599e93",
+    "id": "bundle--0451fdb9-0442-43ec-8cce-d66797735c90",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c906ddd0-e3fb-42ad-84cb-84ca093ddbb2",
             "created": "2020-05-22T18:00:52.267Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FBI FLASH APT39 September 2020",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:46:41.750Z",
+            "modified": "2026-04-29T14:23:06.200Z",
             "description": "[APT39](https://attack.mitre.org/groups/G0087) has used a command line utility and a network scanner written in python.(Citation: BitDefender Chafer May 2020)(Citation: FBI FLASH APT39 September 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
             "target_ref": "attack-pattern--cc3502b5-30cc-4473-ad48-42d51a6ef6d1",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--17404b1c-01b0-4c77-a0ac-52f7174666ae",
+    "id": "bundle--ead31be8-cbd7-4f19-8005-9f04b25134dd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8cef7b12-80af-4bb1-bf72-8eccd835d423",
             "created": "2025-10-21T03:10:03.853Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cyble Black Basta May 2022",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T03:10:03.853Z",
+            "modified": "2026-04-29T14:23:06.117Z",
             "description": "[Black Basta](https://attack.mitre.org/software/S1070) can enumerate volumes.(Citation: Minerva Labs Black Basta May 2022)(Citation: Cyble Black Basta May 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--8d242fb4-9033-4f13-8a88-4b9b4bcd9a53",

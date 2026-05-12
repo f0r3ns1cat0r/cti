@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--179b6f14-0ab6-4d88-a14b-32b64fd21abf",
+    "id": "bundle--1746eba9-e0ed-4468-bc6a-fad6924ce83e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f0e2c414-9356-4eb6-89d5-fe1afb62780f",
             "created": "2021-11-22T15:58:09.274Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Secureworks BRONZE PRESIDENT December 2019",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:56:51.265Z",
+            "modified": "2026-04-29T14:23:06.253Z",
             "description": "[RCSession](https://attack.mitre.org/software/S0662) can be installed via DLL side-loading.(Citation: Secureworks BRONZE PRESIDENT December 2019)(Citation: Trend Micro DRBControl February 2020)(Citation: Profero APT27 December 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--03acae53-9b98-46f6-b204-16b930839055",
             "target_ref": "attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

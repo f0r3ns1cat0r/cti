@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dba7845c-c247-4b2a-ba04-399a39295a7a",
+    "id": "bundle--80b8a5c6-0518-437a-83bb-d1dbe6a5422e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1e66dafa-3cf0-4f21-85e0-a9fa9827aaa1",
             "created": "2025-09-11T20:08:11.025Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Eset PlugX Korplug Mustang Panda March 2022",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-11T20:08:11.025Z",
+            "modified": "2026-04-29T14:23:05.946Z",
             "description": "[PlugX](https://attack.mitre.org/software/S0013) has leveraged a mutex in its infection process.(Citation: Eset PlugX Korplug Mustang Panda March 2022)(Citation: Sophos Mustang Panda PLUGX)",
             "relationship_type": "uses",
             "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b922e61d-e836-49c8-bf4c-8d9fba625af9",
+    "id": "bundle--d357c9b9-f5d9-4e59-9186-88aaeb1fae22",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-02-18T19:46:01.796Z",
+            "modified": "2026-05-12T16:30:18.380Z",
             "name": "Analytic 1710",
             "description": "Defender observes an app (package/UID) repeatedly querying device networking context APIs (Wi-Fi scan results/current SSID/BSSID, Bluetooth device discovery, or cellular tower lists) at a rate or timing inconsistent with the app\u2019s normal UX, often while backgrounded. Correlate API calls with permission usage (fine location, nearby devices/Bluetooth) and concurrent connectivity probes (DNS lookups/ARP/port reachability) to distinguish automated discovery from user-initiated settings checks. The detection is based on observed API execution + permission use + rate/sequence, not the specific API method name.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

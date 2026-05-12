@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0fb845b4-386d-404b-b9ae-747aee05ee57",
+    "id": "bundle--6efbe377-d796-429d-a489-556a2a3dee48",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--243bafe0-206c-4a17-94a6-4ff0492ebc7a",
             "created": "2024-03-26T19:33:50.343Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "sophos_android_apt_spyware",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:47:30.665Z",
+            "modified": "2026-04-29T14:23:05.955Z",
             "description": "[SpyC23](https://attack.mitre.org/software/S1195) can capture pictures and videos.(Citation: welivesecurity_apt-c-23)(Citation: sophos_android_apt_spyware)(Citation: threatpost AndroidSpyware 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--95811c0a-abe0-4e7f-a0cc-b0662ced5807",
             "target_ref": "attack-pattern--d8940e76-f9c1-4912-bea6-e21c251370b6",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

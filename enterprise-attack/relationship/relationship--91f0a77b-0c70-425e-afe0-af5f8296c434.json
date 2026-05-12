@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d9647f5d-0daf-451e-ba78-bec1b9a499fb",
+    "id": "bundle--1245283b-e924-464b-b988-17b6b5a5633f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--91f0a77b-0c70-425e-afe0-af5f8296c434",
             "created": "2024-05-17T13:20:42.880Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "RedCanary RaspberryRobin 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:32:05.132Z",
+            "modified": "2026-04-29T14:23:06.124Z",
             "description": "[Raspberry Robin](https://attack.mitre.org/software/S1130) uses cmd.exe to read and execute a file stored on an infected USB device as part of initial installation.(Citation: RedCanary RaspberryRobin 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--4e385fa6-ebe0-43fc-9ccf-5b51b5dc4d79",
             "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

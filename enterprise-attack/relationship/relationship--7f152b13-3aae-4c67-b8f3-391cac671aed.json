@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6578d8b3-57a0-46e9-ad1d-d52d96a6164c",
+    "id": "bundle--729fc100-ed2d-4a8d-a70b-8ebad0469075",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7f152b13-3aae-4c67-b8f3-391cac671aed",
             "created": "2023-09-13T20:06:37.222Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Morphisec Snip3 May 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:27:06.575Z",
+            "modified": "2026-04-29T14:23:06.099Z",
             "description": "[Snip3](https://attack.mitre.org/software/S1086) can execute `WScript.Sleep` to delay execution of its second stage.(Citation: Morphisec Snip3 May 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--4327aff5-f194-440c-b499-4d9730cc1eab",
             "target_ref": "attack-pattern--4bed873f-0b7d-41d4-b93a-b6905d1f90b0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7440d05c-8531-4f02-8e9e-15e0950c49db",
+    "id": "bundle--979c5b1a-93f8-45e6-a968-3d4ce23998b1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--020f79c6-d5f8-49eb-beee-e716e1fa4e80",
             "created": "2020-07-20T13:49:03.692Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro-XLoader-FakeSpy",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:27:31.894Z",
+            "modified": "2026-04-29T14:23:05.906Z",
             "description": "[XLoader for Android](https://attack.mitre.org/software/S0318) collects the device\u2019s Android ID and serial number.(Citation: TrendMicro-XLoader-FakeSpy)",
             "relationship_type": "uses",
             "source_ref": "malware--2740eaf6-2db2-4a40-a63f-f5b166c7059c",
             "target_ref": "attack-pattern--e2ea7f6b-8d4f-49c3-819d-660530d12b77",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

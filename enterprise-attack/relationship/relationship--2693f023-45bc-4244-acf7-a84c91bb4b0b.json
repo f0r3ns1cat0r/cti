@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cf66e3ae-0b5e-4ba4-85e5-b015bbbde460",
+    "id": "bundle--f989e946-0f23-43ac-961d-14d92182a728",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--2693f023-45bc-4244-acf7-a84c91bb4b0b",
             "created": "2024-05-22T20:20:39.348Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelOne Agrius 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:03:14.934Z",
+            "modified": "2026-04-29T14:23:05.957Z",
             "description": "[Apostle](https://attack.mitre.org/software/S1133) retrieves a list of all running processes on a victim host, and stops all services containing the string \"sql,\" likely to propagate ransomware activity to database files.(Citation: SentinelOne Agrius 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--48d96fa0-d027-45aa-a8c3-5d09f65d596d",
             "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

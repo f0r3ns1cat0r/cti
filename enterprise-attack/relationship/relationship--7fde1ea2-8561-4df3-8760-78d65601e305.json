@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c454d1f2-46eb-4a68-a256-fc051e53eb85",
+    "id": "bundle--034f0428-d3b5-40b8-be55-0643d34aa35c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7fde1ea2-8561-4df3-8760-78d65601e305",
             "created": "2025-03-24T16:13:16.833Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Sliver Undated",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:27:17.898Z",
+            "modified": "2026-04-29T14:23:06.100Z",
             "description": "[Sliver](https://attack.mitre.org/software/S0633) has a built-in SOCKS5 proxying capability allowing for [Sliver](https://attack.mitre.org/software/S0633) clients to proxy network traffic through other clients within a victim network.(Citation: Cybereason Sliver Undated)",
             "relationship_type": "uses",
             "source_ref": "tool--11f8d7eb-1927-4806-9267-3a11d4d4d6be",
             "target_ref": "attack-pattern--f6dacc85-b37d-458e-b58d-74fc4bbf5755",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

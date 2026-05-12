@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--57625d53-f4cd-4297-bca0-51b77b3ff326",
+    "id": "bundle--e5ac313c-4f35-4a4c-83e3-4061442571be",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T20:48:00.966Z",
+            "modified": "2026-04-29T14:23:06.141Z",
             "description": "[RustyWater](https://attack.mitre.org/software/S9037) has an obfuscated function (i.e. love_me__()) that dynamically reconstructs the string WScript.Shell using hard-coded ASCII values and the Chr() function.(Citation: CloudSEK_RustyWater_Jan2026)\u202f\u202f\u202f  ",
             "relationship_type": "uses",
             "source_ref": "malware--50be4e81-db74-41a2-a9aa-423314082bea",

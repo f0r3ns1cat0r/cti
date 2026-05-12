@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2b2d1e63-c583-4b48-9bb6-945ed5b255fb",
+    "id": "bundle--3d2ed8d8-bfda-42fe-a943-a0ecb60b0b56",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--da331399-4c9f-4a16-92b1-97e635703c18",
             "created": "2020-05-06T03:13:43.392Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Group IB Silence Sept 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:51:02.480Z",
+            "modified": "2026-04-29T14:23:06.223Z",
             "description": "(Citation: Group IB Silence Sept 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
             "target_ref": "tool--d8d19e33-94fd-4aa3-b94a-08ee801a2153",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

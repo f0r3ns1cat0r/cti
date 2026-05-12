@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9b41bf6c-fb4a-4b0f-ba61-fc451ef1bdc9",
+    "id": "bundle--aa5ae5a0-23fc-4ff8-911d-c10d0b512c76",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--eca046f5-9175-4010-8297-07281f588934",
             "created": "2021-03-19T21:04:01.283Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Valak May 2020",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:16:05.002Z",
+            "modified": "2026-04-29T14:23:06.247Z",
             "description": "(Citation: Cybereason Valak May 2020)(Citation: Unit 42 Valak July 2020)(Citation: Unit 42 TA551 Jan 2021)(Citation: Secureworks GOLD CABIN)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--94873029-f950-4268-9cfd-5032e15cb182",
             "target_ref": "malware--1492d0f8-7e14-4af3-9239-bc3fe10d3407",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

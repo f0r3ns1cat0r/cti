@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4a334103-bbc1-4211-9adc-2850cd8011ef",
+    "id": "bundle--50a6b291-108c-4536-84d3-9d296b3856cf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9b174c9b-eab5-4715-aa31-915689054baa",
             "created": "2020-03-19T17:09:03.530Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CheckPoint SpeakUp Feb 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:01:40.031Z",
+            "modified": "2026-04-29T14:23:06.136Z",
             "description": "[SpeakUp](https://attack.mitre.org/software/S0374) uses Perl scripts.(Citation: CheckPoint SpeakUp Feb 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--a5575606-9b85-4e3d-9cd2-40ef30e3672d",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--980bdd7f-56de-41c4-b023-2a4ff9dcf5f0",
+    "id": "bundle--e01ecde6-bfea-41b4-b5fa-c939b0adb116",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--670efee1-b854-4d39-85b1-b6038e3580e3",
             "created": "2021-09-28T19:49:13.903Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Crowdstrike Qakbot October 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:51:41.506Z",
+            "modified": "2026-04-29T14:23:06.065Z",
             "description": "[QakBot](https://attack.mitre.org/software/S0650) can move laterally using worm-like functionality through exploitation of SMB.(Citation: Crowdstrike Qakbot October 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--edc5e045-5401-42bb-ad92-52b5b2ee0de9",
             "target_ref": "attack-pattern--9db0cf3a-a3c9-4012-8268-123b9db6fd82",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

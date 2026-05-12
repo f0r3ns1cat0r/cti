@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2d1e3b8d-584e-4a1f-bb3d-1d19d924d41c",
+    "id": "bundle--f8fe57da-7409-4812-a07b-1af1ab22f6c3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--980c49f8-d991-4e1f-8feb-6173e3dfca1f",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "forcepoint_bitter",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:50:21.130Z",
+            "modified": "2026-04-29T14:23:06.132Z",
             "description": "[AndroRAT](https://attack.mitre.org/software/S0292) captures SMS messages.(Citation: Lookout-EnterpriseApps)(Citation: forcepoint_bitter) ",
             "relationship_type": "uses",
             "source_ref": "malware--a3dad2be-ce62-4440-953b-00fbce7aba93",
             "target_ref": "attack-pattern--c6421411-ae61-42bb-9098-73fddb315002",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

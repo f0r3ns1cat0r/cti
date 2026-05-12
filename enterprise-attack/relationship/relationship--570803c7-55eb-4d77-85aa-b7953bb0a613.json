@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--01a0b0f2-59ec-48f5-a73f-1d4251484cc1",
+    "id": "bundle--dceb57d4-3b08-4559-abbf-d4c1a13be390",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T12:57:17.094Z",
+            "modified": "2026-04-29T14:23:06.044Z",
             "description": "[IronWind](https://attack.mitre.org/software/S9029) has used Base64 encoding and XOR encryption with the key \u201c53\u201d to obfuscate command strings.(Citation: Check Point Wirte NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--089aa00a-99ac-46b4-9cf8-4224d463566d",

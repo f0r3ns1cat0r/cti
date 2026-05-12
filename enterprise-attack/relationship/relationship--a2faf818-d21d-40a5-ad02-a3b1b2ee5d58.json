@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f66be564-815a-4b7e-8894-bae9a132a997",
+    "id": "bundle--288fd73f-77c0-4c18-877c-fd68dd9c8773",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a2faf818-d21d-40a5-ad02-a3b1b2ee5d58",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Fidelis Turbo",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:03:06.828Z",
+            "modified": "2026-04-29T14:23:06.147Z",
             "description": "[Derusbi](https://attack.mitre.org/software/S0021) is capable of deleting files. It has been observed loading a Linux Kernel Module (LKM) and then deleting it from the hard disk as well as overwriting the data with null bytes.(Citation: Fidelis Turbo)(Citation: FireEye Periscope March 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--94379dec-5c87-49db-b36e-66abc0b81344",
             "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

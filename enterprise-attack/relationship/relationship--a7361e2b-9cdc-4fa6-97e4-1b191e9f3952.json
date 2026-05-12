@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--725e7071-06f6-4fcc-9f6f-a6e8a07fc2b8",
+    "id": "bundle--e167ab62-fec8-4003-b57d-a329743f84f1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a7361e2b-9cdc-4fa6-97e4-1b191e9f3952",
             "created": "2022-03-21T22:15:27.547Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Objective See Green Lambert for OSX Oct 2021",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:37:52.149Z",
+            "modified": "2026-04-29T14:23:06.153Z",
             "description": "[Green Lambert](https://attack.mitre.org/software/S0690) has encrypted strings.(Citation: Objective See Green Lambert for OSX Oct 2021)(Citation: Glitch-Cat Green Lambert ATTCK Oct 2021) ",
             "relationship_type": "uses",
             "source_ref": "malware--59c8a28c-200c-4565-9af1-cbdb24870ba0",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3057f340-48ed-429f-93a2-5494c88b24c2",
+    "id": "bundle--03fdb7d4-0ef8-4b3d-ba52-fbd73a5e1412",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7cd4244c-38ef-4396-a76d-0450b7f1a651",
             "created": "2026-04-08T17:38:54.373Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Gen Digital Kimsuky HTTPTroy October 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-08T17:38:54.373Z",
+            "modified": "2026-04-29T14:23:06.096Z",
             "description": "[HTTPTroy](https://attack.mitre.org/software/S9007) has obtained screen captures leveraging the `screen` command which captures, encrypts and uploads the stolen image to the adversary controlled C2 server.(Citation: Gen Digital Kimsuky HTTPTroy October 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--52b52f72-88e6-4847-88d6-da3b9e4a4f71",

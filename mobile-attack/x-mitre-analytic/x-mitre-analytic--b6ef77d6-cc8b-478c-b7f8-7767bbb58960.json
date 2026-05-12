@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a7ce2308-ca06-4920-9ab5-1acf43c5b727",
+    "id": "bundle--18d1c335-43cf-46d4-857a-27572f6686b3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-19T17:21:51.812Z",
+            "modified": "2026-05-12T16:30:18.381Z",
             "name": "Analytic 1827",
             "description": "The defender correlates app-attributed outbound sessions where protocol indicators such as TLS handshake, HTTP method and header patterns, DNS semantics, or other application-layer characteristics are observed over a destination port outside the approved baseline for that protocol and app role. The strongest Android evidence is repeated or persistent app-attributed traffic using HTTPS-, HTTP-, DNS-, WebSocket-, or other recognizable application behavior over uncommon destination ports, especially when the app is backgrounded, while the device is locked, without recent user interaction, or when the app is unmanaged or not approved for that protocol-to-port pairing.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

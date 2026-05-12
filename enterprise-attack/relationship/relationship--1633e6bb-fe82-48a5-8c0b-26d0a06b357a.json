@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--67d9be4b-dec1-43e5-964b-05fe8c649698",
+    "id": "bundle--fe1aed76-4004-48d6-a082-b931fe3d83c4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T09:27:21.737Z",
+            "modified": "2026-04-29T14:23:05.934Z",
             "description": "[PureCrypter](https://attack.mitre.org/software/S9019) code contains a global mutex.(Citation: Zscaler PureCrypter JUN 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--6f22487c-dbbf-4a5b-85ca-a8c85e8f2f80",

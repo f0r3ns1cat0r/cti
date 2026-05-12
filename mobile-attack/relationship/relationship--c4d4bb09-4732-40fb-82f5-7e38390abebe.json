@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--abbcfcc7-1477-458c-848e-6b6bc8e44252",
+    "id": "bundle--f3d691e1-75a3-44ae-99d2-b44d5f4dd751",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c4d4bb09-4732-40fb-82f5-7e38390abebe",
             "created": "2026-02-16T16:06:21.275Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "EnkiWhiteHat_KimsukyDOCSWAP_Dec2025",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-02-16T16:06:21.275Z",
+            "modified": "2026-04-29T14:23:06.194Z",
             "description": "[DocSwap](https://attack.mitre.org/software/S9005) has the ability to delete files and directories.(Citation: EnkiWhiteHat_KimsukyDOCSWAP_Dec2025)(Citation: S2W_DocSwap_Mar2025)  ",
             "relationship_type": "uses",
             "source_ref": "malware--3dbef387-12df-4547-9dd3-075c7ffec9e3",

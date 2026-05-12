@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d18e41b7-e3b3-4487-bede-ed0ef956fc3a",
+    "id": "bundle--911c97a4-448f-4c00-b030-245eb6bdf46c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--80a8cd03-8f65-41fb-803a-64d92f9f1522",
             "created": "2022-09-27T16:22:30.103Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FoxIT Wocao December 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:27:28.246Z",
+            "modified": "2026-04-29T14:23:06.101Z",
             "description": "During [Operation Wocao](https://attack.mitre.org/campaigns/C0014), threat actors encrypted IP addresses used for \"Agent\" proxy hops with RC4.(Citation: FoxIT Wocao December 2019)",
             "relationship_type": "uses",
             "source_ref": "campaign--b03d5112-e23a-4ac8-add0-be7502d24eff",
             "target_ref": "attack-pattern--ad255bfe-a9e6-4b52-a258-8d3462abe842",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

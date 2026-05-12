@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--405dfc45-ee48-42a4-8baf-b61a9e1a5113",
+    "id": "bundle--f16402ec-4f41-436c-aaec-ad7c4163a973",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-19T19:11:02.702Z",
+            "modified": "2026-04-29T14:23:06.083Z",
             "description": " [PHPsert](https://attack.mitre.org/software/S9028) can retrieve remote files using HTTP POST.(Citation: sentinelone operationDigitalEye Dec 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--9491a623-5861-4d0a-9958-8c05d0d17442",

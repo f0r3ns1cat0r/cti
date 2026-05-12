@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--688bc55d-a47d-429e-aac8-c3088a4be6de",
+    "id": "bundle--3e1dd9fb-651c-4e0a-921b-30206f177cf2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-10T15:33:30.111Z",
+            "modified": "2026-05-12T16:30:18.381Z",
             "name": "Analytic 1802",
             "description": "Defender correlates a causal chain where a device transitions into USB debugging or file transfer mode after a physical connection event, followed by application installation, file replication, or execution originating from the USB interface rather than the application store ecosystem.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

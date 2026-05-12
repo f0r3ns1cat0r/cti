@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3c96e0b1-f72e-4e91-a3f9-ea6ef373683f",
+    "id": "bundle--ae208da7-adc7-42cc-901b-cac47a998986",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--89500cd9-c663-4b3e-bb20-b8fe1860891a",
             "created": "2021-01-29T18:17:07.821Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Crowdstrike Indrik November 2018",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:29:49.620Z",
+            "modified": "2026-04-29T14:23:06.112Z",
             "description": "[Indrik Spider](https://attack.mitre.org/groups/G0119) has used Group Policy Objects to deploy batch scripts.(Citation: Crowdstrike Indrik November 2018)(Citation: Mandiant_UNC2165)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
             "target_ref": "attack-pattern--5d2be8b9-d24c-4e98-83bf-2f5f79477163",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

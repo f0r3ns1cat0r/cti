@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--46d4c04c-27ea-4f2b-bd49-46a2df68215f",
+    "id": "bundle--d4047f8d-b0f5-44d0-b874-f0d7556caf79",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--825aded7-3c93-47ec-9ba5-5bd5af4e2e2b",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Turla Mosquito Jan 2018",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:56:56.602Z",
+            "modified": "2026-04-29T14:23:06.104Z",
             "description": "[Turla](https://attack.mitre.org/groups/G0010) has used HTTP and HTTPS for C2 communications.(Citation: ESET Turla Mosquito Jan 2018)(Citation: ESET Turla Mosquito May 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

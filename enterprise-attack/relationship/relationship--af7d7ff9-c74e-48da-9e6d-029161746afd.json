@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9bbad2bc-0968-45fa-95ac-88389a38c4e5",
+    "id": "bundle--827e0626-6994-47ac-847d-58eaed6ad8d8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--af7d7ff9-c74e-48da-9e6d-029161746afd",
             "created": "2021-05-05T17:56:59.097Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro Tonto Team October 2020",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:39:57.402Z",
+            "modified": "2026-04-29T14:23:06.164Z",
             "description": "[Tonto Team](https://attack.mitre.org/groups/G0131) has exploited Microsoft vulnerabilities, including CVE-2018-0798, CVE-2018-8174, CVE-2018-0802, CVE-2017-11882, CVE-2019-9489 CVE-2020-8468, and CVE-2018-0798 to enable execution of their delivered malicious payloads.(Citation: Kaspersky CactusPete Aug 2020)(Citation: TrendMicro Tonto Team October 2020)(Citation: Talos Bisonal Mar 2020)(Citation: Talos Bisonal 10 Years March 2020) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c5b81590-6814-4d2a-8baa-15c4b6c7f960",
             "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

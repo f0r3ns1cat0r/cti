@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f75ba753-e863-46eb-81fb-c471e6140bad",
+    "id": "bundle--e2954124-8150-46a1-aa1f-d3f78b6c6628",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5f402d02-94f9-49de-b097-2d89c59de394",
             "created": "2019-01-30T19:06:33.901Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit42 Cannon Nov 2018",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:50:17.290Z",
+            "modified": "2026-04-29T14:23:06.055Z",
             "description": "(Citation: Unit42 Cannon Nov 2018)(Citation: Unit42 Sofacy Dec 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "malware--d20b397a-ea47-48a9-b503-2e2a3551e11d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

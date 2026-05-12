@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0929b459-8e68-488d-b36f-fc12df6e6d0a",
+    "id": "bundle--ea877f38-d02c-4134-a945-229d5ec004a1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--2209dcd4-debf-44f3-91f1-be904454e629",
             "created": "2025-12-15T23:42:37.557Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Ransomware as a Service",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-12-17T17:20:18.027Z",
+            "modified": "2026-04-29T14:23:05.951Z",
             "description": "(Citation: Microsoft Ransomware as a Service)(Citation: Microsoft_PistachioTempest_Jan2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--27c175bd-9941-4c12-bb76-88e97532af7c",
+    "id": "bundle--e3a021df-52c1-4d08-b364-d8e31dbfee9b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e3e50d39-fa69-4fca-9353-259247dbd439",
             "created": "2019-10-05T02:15:30.005Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Amazon S3 Security, 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:14:35.864Z",
+            "modified": "2026-04-29T14:23:06.235Z",
             "description": "Frequently check permissions on cloud storage to ensure proper permissions are set to deny open or unprivileged access to resources.(Citation: Amazon S3 Security, 2019)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8",
             "target_ref": "attack-pattern--3298ce88-1628-43b1-87d9-0b5336b193d7",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

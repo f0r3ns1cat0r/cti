@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ac4dd3a8-f30d-4045-abea-ad277b03e7d3",
+    "id": "bundle--8cbd84d8-0581-49ec-9c0e-8a6b6a47b778",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8f4e363a-ce2b-4a36-92fb-791d8ffc30d5",
             "created": "2021-10-01T01:57:31.877Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cado Security TeamTNT Worm August 2020",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:31:24.462Z",
+            "modified": "2026-04-29T14:23:06.120Z",
             "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has deployed XMRig Docker images to mine cryptocurrency.(Citation: Lacework TeamTNT May 2021)(Citation: Cado Security TeamTNT Worm August 2020) [TeamTNT](https://attack.mitre.org/groups/G0139) has also infected Docker containers and Kubernetes clusters with XMRig, and used RainbowMiner and lolMiner for mining cryptocurrency.(Citation: Cisco Talos Intelligence Group)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
             "target_ref": "attack-pattern--a718a0c8-5768-41a1-9958-a1cc3f995e99",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

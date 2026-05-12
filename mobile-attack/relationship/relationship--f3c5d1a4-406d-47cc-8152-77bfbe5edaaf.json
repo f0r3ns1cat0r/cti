@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--906a8de5-2288-44c9-a0b3-99e514ae2a0d",
+    "id": "bundle--582a6687-f030-458f-9a2c-be4f3e536bb1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f3c5d1a4-406d-47cc-8152-77bfbe5edaaf",
             "created": "2025-09-18T14:37:50.850Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ZimperiumGupta_RatMilad_Oct2022",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-18T14:37:50.850Z",
+            "modified": "2026-04-29T14:23:06.256Z",
             "description": "[RatMilad](https://attack.mitre.org/software/S1241) has captured audio from the device.(Citation: ZimperiumGupta_RatMilad_Oct2022) ",
             "relationship_type": "uses",
             "source_ref": "malware--6ceb0644-0ae9-4ee1-a659-3888687cb03b",

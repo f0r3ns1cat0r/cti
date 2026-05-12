@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--fcbdddef-ac00-49d9-9762-ed13d96de26c",
+    "id": "bundle--fd2489a5-d64f-44cd-9051-78f2e435b386",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--430abda8-2a2c-4ab8-bbd6-eb205a189362",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.676Z",
             "name": "Application Exhaustion Flood Detection Across Platforms",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -32,8 +33,7 @@
                 "x-mitre-analytic--35c7be24-c1c0-4ddc-9356-dec5e39414be",
                 "x-mitre-analytic--ade844ef-f156-4db2-bc11-9dbdc006c8d6",
                 "x-mitre-analytic--867239cd-7939-446c-9efb-b2a7a5bd5403"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

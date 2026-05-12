@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fc245fc8-7222-47b1-a504-944b5ac1fa7a",
+    "id": "bundle--6ba40625-c672-4e7d-b624-3fdbdfaee4fa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cad1f2d3-c3c2-4f55-863e-0de712cd84b7",
             "created": "2024-04-12T10:51:54.129Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "NGLite Trojan",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:47:07.864Z",
+            "modified": "2026-04-29T14:23:06.202Z",
             "description": "[NGLite](https://attack.mitre.org/software/S1106) identifies the victim system MAC and IPv4 addresses and uses these to establish a victim identifier.(Citation: NGLite Trojan)",
             "relationship_type": "uses",
             "source_ref": "malware--72b5f07f-5448-4e00-9ff2-08bc193a7b77",
             "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

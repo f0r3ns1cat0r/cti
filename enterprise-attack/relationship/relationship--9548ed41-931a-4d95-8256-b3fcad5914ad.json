@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1336937a-77b6-4574-beb4-f923cd50abc9",
+    "id": "bundle--ff68fcd4-1aad-4b86-93cb-0c990e787d7a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9548ed41-931a-4d95-8256-b3fcad5914ad",
             "created": "2021-12-01T18:01:54.383Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Gelsemium June 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:00:31.060Z",
+            "modified": "2026-04-29T14:23:06.128Z",
             "description": "[Gelsemium](https://attack.mitre.org/software/S0666) can download additional plug-ins to a compromised host.(Citation: ESET Gelsemium June 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--efa7c4d6-8e30-41d9-a8fd-26dc337f4a1b",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

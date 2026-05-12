@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3b25fc39-b938-42a7-bb5a-df617d7be919",
+    "id": "bundle--f3632218-10a9-41f7-bce3-0b971b653471",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e2498e90-b4dc-4ef4-b1e5-d34537a2f4b2",
             "created": "2025-08-06T15:09:50.459Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro MUSTANG PANDA PUBLOAD HIUPAN SEPTEMBER 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-25T14:15:49.011Z",
+            "modified": "2026-04-29T14:23:06.233Z",
             "description": "[PUBLOAD](https://attack.mitre.org/software/S1228) has leveraged `curl` for data exfiltration over FTP by uploading RAR archives containing targeted files (.doc, .docx, .xls, .xlsx, .pdf, .ppt, .pptx) to an adversary-owned FTP site.(Citation: Trend Micro MUSTANG PANDA PUBLOAD HIUPAN SEPTEMBER 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--3824852d-1957-4712-9da0-38143723c060",

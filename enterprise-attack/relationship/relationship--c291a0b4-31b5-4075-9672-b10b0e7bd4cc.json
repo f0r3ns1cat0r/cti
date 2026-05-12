@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7274d869-f308-4c8d-ab74-98c4ba7d8216",
+    "id": "bundle--0f58ff9d-7bb1-459b-8e6f-0dae90313fc9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c291a0b4-31b5-4075-9672-b10b0e7bd4cc",
             "created": "2021-10-08T14:20:51.432Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Checkpoint IndigoZebra July 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:08:44.885Z",
+            "modified": "2026-04-29T14:23:06.191Z",
             "description": "[IndigoZebra](https://attack.mitre.org/groups/G0136) has compromised legitimate email accounts to use in their spearphishing operations.(Citation: Checkpoint IndigoZebra July 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--e5603ea8-4c36-40e7-b7af-a077d24fedc1",
             "target_ref": "attack-pattern--3dc8c101-d4db-4f4d-8150-1b5a76ca5f1b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

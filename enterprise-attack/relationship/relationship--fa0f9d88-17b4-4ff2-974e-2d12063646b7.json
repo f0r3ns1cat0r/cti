@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c20ea31f-c3dd-46de-95aa-5d98b46e15ad",
+    "id": "bundle--7fe097dc-7357-4439-84f4-738f87bd6cc7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fa0f9d88-17b4-4ff2-974e-2d12063646b7",
             "created": "2024-05-20T21:13:38.563Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA AA24-038A PRC Critical Infrastructure February 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:59:10.161Z",
+            "modified": "2026-04-29T14:23:06.264Z",
             "description": "\n[Volt Typhoon](https://attack.mitre.org/groups/G1017) has accessed a Local State file that contains the AES key used to encrypt passwords stored in the Chrome browser.(Citation: CISA AA24-038A PRC Critical Infrastructure February 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
             "target_ref": "attack-pattern--60b508a1-6a5e-46b1-821a-9f7b78752abf",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

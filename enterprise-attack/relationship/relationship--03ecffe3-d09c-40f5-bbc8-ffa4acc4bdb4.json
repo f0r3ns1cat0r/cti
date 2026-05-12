@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0252e832-b76a-4048-b805-ca3d1b9cb4ca",
+    "id": "bundle--692e51ac-dd72-4a4b-8166-a6d3dd0c2039",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--03ecffe3-d09c-40f5-bbc8-ffa4acc4bdb4",
             "created": "2022-04-13T15:08:07.977Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco Ukraine Wipers January 2022",
@@ -38,14 +39,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:53:56.760Z",
+            "modified": "2026-04-29T14:23:05.908Z",
             "description": "[WhisperGate](https://attack.mitre.org/software/S0689) overwrites the MBR with a bootloader component that performs destructive wiping operations on hard drives and displays a fake ransom note when the host boots.(Citation: Crowdstrike WhisperGate January 2022)(Citation: Cybereason WhisperGate February 2022)(Citation: Microsoft WhisperGate January 2022)(Citation: Cisco Ukraine Wipers January 2022)(Citation: Medium S2W WhisperGate January 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--49fee0b0-390e-4bde-97f8-97ed46bd19b7",
             "target_ref": "attack-pattern--1b7b1806-7746-41a1-a35d-e48dae25ddba",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

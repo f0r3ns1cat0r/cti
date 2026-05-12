@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2faa9f94-8053-4cee-9d36-31f804e5d47d",
+    "id": "bundle--fd36510a-ceff-490e-ae0e-42df07ec29f6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T18:56:24.275Z",
+            "modified": "2026-04-29T14:23:06.057Z",
             "description": "[HiddenFace](https://attack.mitre.org/software/S9023) can upload files from the victim machine to C2 nodes.(Citation: Trend Micro Earth Kasha NOV 2024)(Citation: JPCERT MirrorFace JUL 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--9edc41d1-a13d-4acf-b400-d47fb2f6809d",

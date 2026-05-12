@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--0cf94a79-4f84-48c1-8047-3018e4f484e6",
+    "id": "bundle--8d404a95-69ce-4e5d-bca0-af3087a8d0b9",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--dcc65927-b113-4f42-b7bd-adb6caebf24a",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.695Z",
             "name": "Behavioral Detection of Command History Clearing",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -33,8 +34,7 @@
                 "x-mitre-analytic--01b79770-a269-4b4d-bf09-a4760bae9c94",
                 "x-mitre-analytic--d17e0719-d338-47eb-a5b4-8616749584cf",
                 "x-mitre-analytic--7879313f-abf1-487a-b4d3-813f385ddce3"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

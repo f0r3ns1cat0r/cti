@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8269fd7d-492c-40d4-a9b6-5e79da658b05",
+    "id": "bundle--5f1f93af-f187-412c-adda-a00b8f8de452",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a78cd480-758b-4fb5-a60a-ecb86d837012",
             "created": "2021-10-06T16:13:04.790Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Malwarebytes Kimsuky June 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:03:59.215Z",
+            "modified": "2026-04-29T14:23:06.153Z",
             "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has packed malware with UPX.(Citation: Malwarebytes Kimsuky June 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
             "target_ref": "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e2b9231e-c107-4e89-96b1-4bf7bb99feeb",
+    "id": "bundle--19fbbdc3-9a14-4dc4-9c56-a1735105c70c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--00561c3c-345e-4578-95c3-b7e0a95db7b1",
             "created": "2021-09-22T14:33:04.183Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CrowdStrike Carbon Spider August 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:31:33.763Z",
+            "modified": "2026-04-29T14:23:05.903Z",
             "description": "[FIN7](https://attack.mitre.org/groups/G0046) has used malicious links to lure victims into downloading malware.(Citation: CrowdStrike Carbon Spider August 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
             "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

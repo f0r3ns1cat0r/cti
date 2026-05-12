@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--065ad523-04e3-464e-bb2b-4580a6168064",
+    "id": "bundle--e0e1ee27-8748-40c8-a748-b53064ba8286",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--94eef51a-f00b-49db-9a8a-9730b4c80b9a",
             "created": "2025-09-17T16:21:16.579Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "McAfee RedLine Stealer April 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-17T16:21:16.580Z",
+            "modified": "2026-04-29T14:23:06.128Z",
             "description": "[RedLine Stealer](https://attack.mitre.org/software/S1240) has used Base64 to encode command and control traffic.(Citation: McAfee RedLine Stealer April 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--8c8e8b01-b4b1-479b-a7a9-78c40a12b916",

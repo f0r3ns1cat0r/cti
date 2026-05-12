@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f198e806-0b5e-42b5-8fa6-ef775b6f87af",
+    "id": "bundle--871a7f6e-c52e-442b-bbfc-b8d542b17277",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f4d825cd-08d4-47ad-975c-37b886192e7c",
             "created": "2019-01-29T21:27:25.205Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT38 Oct 2018",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-11-13T19:21:05.141Z",
+            "modified": "2026-04-29T14:23:06.258Z",
             "description": "[APT38](https://attack.mitre.org/groups/G0082) leveraged Sysmon to understand the processes, services in the organization.(Citation: FireEye APT38 Oct 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",

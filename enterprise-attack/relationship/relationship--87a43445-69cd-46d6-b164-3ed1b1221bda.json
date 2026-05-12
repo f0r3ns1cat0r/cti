@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--17cd6f97-ce07-46b3-89f5-3184d77e572c",
+    "id": "bundle--41aefbc8-cc66-4385-9a97-8890197b3a40",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:06:00.222Z",
+            "modified": "2026-04-29T14:23:06.110Z",
             "description": "[Egregor](https://attack.mitre.org/software/S0554) has disabled Windows Defender to evade protections.(Citation: Intrinsec Egregor Nov 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--cc4c1287-9c86-4447-810c-744f3880ec37",

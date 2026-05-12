@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4553f21c-299c-4ea9-85f7-09ba68b3f253",
+    "id": "bundle--99a28a19-f41a-4ead-a575-f32da2e6c2f7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7ec988a7-712a-45ae-b6b3-db26a6515b80",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Gazer Aug 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:56:21.123Z",
+            "modified": "2026-04-29T14:23:06.099Z",
             "description": "[Gazer](https://attack.mitre.org/software/S0168) can establish persistence by creating a .lnk file in the Start menu or by modifying existing .lnk files to execute the malware through cmd.exe.(Citation: ESET Gazer Aug 2017)(Citation: Securelist WhiteBear Aug 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--76abb3ef-dafd-4762-97cb-a35379429db4",
             "target_ref": "attack-pattern--4ab929c6-ee2d-4fb5-aab4-b14be2ed7179",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

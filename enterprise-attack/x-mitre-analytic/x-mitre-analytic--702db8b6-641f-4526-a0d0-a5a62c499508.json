@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eb87d3b9-1b22-4f6a-8b7f-11e19b9eb618",
+    "id": "bundle--0e8a7f07-ead4-43dc-9458-c2757a468fb7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:32:08.148Z",
+            "modified": "2026-05-12T16:30:18.378Z",
             "name": "Analytic 2043",
             "description": "Detects processes or users modifying Windows Defender Firewall profiles, policies, or rules followed by measurable network exposure changes. Correlates firewall management execution, registry/policy mutation, service state changes, and subsequent inbound or outbound connectivity inconsistent with baseline administration.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

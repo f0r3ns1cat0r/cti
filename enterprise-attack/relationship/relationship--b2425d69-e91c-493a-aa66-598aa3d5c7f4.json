@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--262a6e81-e3d5-43cc-88bc-506059dbba4d",
+    "id": "bundle--ea5e7ded-fa6b-4a3b-bf72-f07ad2144b31",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b2425d69-e91c-493a-aa66-598aa3d5c7f4",
             "created": "2022-04-15T12:34:28.802Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Actinium February 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:40:40.767Z",
+            "modified": "2026-04-29T14:23:06.168Z",
             "description": "[QuietSieve](https://attack.mitre.org/software/S0686) can collect files from a compromised host.(Citation: Microsoft Actinium February 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--03eb4a05-6a02-43f6-afb7-3c7835501828",
             "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

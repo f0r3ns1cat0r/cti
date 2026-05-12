@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3a375ffd-6181-4e58-b3f8-503cfe6145f5",
+    "id": "bundle--db629ed6-4e54-4014-9466-a793d7f6abe7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d140e9e2-debf-4650-8495-26d76c3d9bd0",
             "created": "2025-09-20T21:15:13.123Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit42 3cx supply chain 2023",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-06T16:49:58.718Z",
+            "modified": "2026-04-29T14:23:06.212Z",
             "description": "During the [3CX Supply Chain Attack](https://attack.mitre.org/campaigns/C0057), [AppleJeus](https://attack.mitre.org/groups/G1049) uses embedded .dll as apart of a chained delivery mechanism to invoke the COM class factory.(Citation: Unit42 3cx supply chain 2023)",
             "relationship_type": "uses",
             "source_ref": "campaign--4fd53ccc-c6b1-4e3c-abe8-a456d46d789e",

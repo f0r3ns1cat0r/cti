@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c5ca72dd-753e-4eff-abb0-cb620688106e",
+    "id": "bundle--d0a63965-e36d-4cc9-bafa-eb595867def1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f42d8bd2-4491-4137-b915-ced9f047c402",
             "created": "2025-06-04T17:51:13.641Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Cloud Threat Intelligence ESXi VIBs 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-06-04T17:51:13.641Z",
+            "modified": "2026-04-29T14:23:06.257Z",
             "description": "[VIRTUALPIE](https://attack.mitre.org/software/S1218) is capable of command line execution on compromised ESXi servers.(Citation: Google Cloud Threat Intelligence ESXi VIBs 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--7cc63f0f-f24f-4cda-9e9f-61bde1d52297",
             "target_ref": "attack-pattern--d2d642da-61ff-4211-b4df-7923c9ca220c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

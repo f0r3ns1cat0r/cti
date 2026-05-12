@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--88af3e67-7348-4659-9514-cc3e1bf0f40e",
+    "id": "bundle--ef63b770-09ba-4166-a6cd-b73ac8c348a0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T21:01:39.291Z",
+            "modified": "2026-04-29T14:23:05.947Z",
             "description": "[ROAMINGHOUSE](https://attack.mitre.org/software/S9026) has been loaded as a Word Template file when victims opened a decoy document placed in `%APPDATA%\\Microsoft\\Templates` alongside a [ROAMINGHOUSE](https://attack.mitre.org/software/S9026) macro.(Citation: Trend Micro Earth Kasha Anel NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--251f1715-fc97-4487-b939-5c8823ef7a39",

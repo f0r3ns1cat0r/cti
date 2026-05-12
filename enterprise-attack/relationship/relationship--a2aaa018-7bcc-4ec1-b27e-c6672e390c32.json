@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c0f3f06d-87da-4100-9c88-999cce1195e6",
+    "id": "bundle--deb6d5f8-673b-4081-89a7-512735951530",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T23:02:50.753Z",
+            "modified": "2026-04-29T14:23:06.146Z",
             "description": "[Qilin](https://attack.mitre.org/software/S1242) has created a RunOnce autostart entry at `HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\RunOnce*aster = %Public%\\enc.exe` pointing to a dropped copy of itself in the Public folder.(Citation: Trend Micro Agenda Ransomware AUG 2022)(Citation: Halcyon Qilin.B OCT 2024)(Citation: Cisco Talos Qilin Ransomware OCT 2025)\n",
             "relationship_type": "uses",
             "source_ref": "malware--e23d2777-b85d-44fc-861e-9149d399fbb9",

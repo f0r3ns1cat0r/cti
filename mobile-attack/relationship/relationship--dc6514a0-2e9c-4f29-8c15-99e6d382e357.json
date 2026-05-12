@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--acfac081-a4b1-455a-adf7-2e1dedd13ecf",
+    "id": "bundle--a361080b-1b2c-4610-9694-a5df2126e84e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--dc6514a0-2e9c-4f29-8c15-99e6d382e357",
             "created": "2019-07-10T15:25:57.572Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lookout Dark Caracal Jan 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:52:02.447Z",
+            "modified": "2026-04-29T14:23:06.226Z",
             "description": "[FinFisher](https://attack.mitre.org/software/S0182) captures and exfiltrates SMS messages.(Citation: Lookout Dark Caracal Jan 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--a5528622-3a8a-4633-86ce-8cdaf8423858",
             "target_ref": "attack-pattern--c6421411-ae61-42bb-9098-73fddb315002",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

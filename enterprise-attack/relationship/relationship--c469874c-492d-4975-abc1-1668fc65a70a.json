@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8c513df0-2212-479f-92c1-063fb449164c",
+    "id": "bundle--e5d7e453-83b3-410a-90c9-f7c9d7632242",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T13:12:15.435Z",
+            "modified": "2026-04-29T14:23:06.193Z",
             "description": "[LAMEHUG](https://attack.mitre.org/software/S9035) can save collected data and files of interest in `C:\\ProgramData\\info\\` to consolidate for exfiltration.(Citation: Splunk LAMEHUG SEP 2025)(Citation: Nov AI Threat Tracker)",
             "relationship_type": "uses",
             "source_ref": "malware--c55e0410-842d-4365-a2c8-26c0330f85b8",

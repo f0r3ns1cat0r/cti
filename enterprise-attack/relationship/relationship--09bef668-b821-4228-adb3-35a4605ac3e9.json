@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b8707abf-7a53-4bb6-8b82-7fee9da5cf01",
+    "id": "bundle--7345260c-bd93-4b87-99ec-29f03536a16e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T17:44:42.465Z",
+            "modified": "2026-04-29T14:23:05.917Z",
             "description": "[RustyWater](https://attack.mitre.org/software/S9037) has\u202fimpersonated\u202fTMCell\u202f(Altyn\u202fAsyr\u202fCJSC), the primary mobile operator in Turkmenistan,\u202fsending\u202fphishing emails\u202fwith the email domain `info@tmcell`.(Citation: CloudSEK_RustyWater_Jan2026)\u202f ",
             "relationship_type": "uses",
             "source_ref": "malware--50be4e81-db74-41a2-a9aa-423314082bea",

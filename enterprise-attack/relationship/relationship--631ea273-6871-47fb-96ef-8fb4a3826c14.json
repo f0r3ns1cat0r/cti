@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d28909d6-7a08-4b51-b4cd-8ceb10b066ee",
+    "id": "bundle--6afcdcbd-c373-451a-895b-3e84a7c4663f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--631ea273-6871-47fb-96ef-8fb4a3826c14",
             "created": "2024-11-21T22:53:57.169Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Dragos YIR 2021",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:19:32.038Z",
+            "modified": "2026-04-29T14:23:06.060Z",
             "description": "[Indian Critical Infrastructure Intrusions](https://attack.mitre.org/campaigns/C0043) included the use of [ShadowPad](https://attack.mitre.org/software/S0596) malware for operations.(Citation: RecordedFuture RedEcho 2022)(Citation: Dragos YIR 2021)",
             "relationship_type": "uses",
             "source_ref": "campaign--4b7f9839-4822-4c19-8a1f-70bb61ba97e1",
             "target_ref": "malware--ec9e00dd-0313-4d5b-8105-c20aa47abffc",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

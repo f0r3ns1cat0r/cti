@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b1eb6d8f-605d-40a9-ba80-c777d446cdd6",
+    "id": "bundle--b44c9f24-722b-471f-a3b5-9a9067bcdc1f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0a7ee066-d242-437c-976d-a59de4dff90e",
             "created": "2026-04-14T12:59:55.040Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google UNC5221 Ivanti April 2025",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-14T13:03:02.788Z",
+            "modified": "2026-04-29T14:23:05.918Z",
             "description": "[TRAILBLAZE](https://attack.mitre.org/software/S9012) has conducted process discovery by searching for specific named processes such as `/home/bin/web`.(Citation: Google UNC5221 Ivanti April 2025)(Citation: Picus Security UNC5221 Ivanti May 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--b82b9e25-e37b-4f7c-b1f0-2c2eea4f4be9",

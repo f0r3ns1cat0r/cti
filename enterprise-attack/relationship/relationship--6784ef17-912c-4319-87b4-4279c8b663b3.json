@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--23ba6c7b-7652-4741-8e3a-3e3e4f2276be",
+    "id": "bundle--c27961fc-5eee-497b-9a1f-bf148815e475",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6784ef17-912c-4319-87b4-4279c8b663b3",
             "created": "2023-08-02T18:15:06.491Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA AA24-038A PRC Critical Infrastructure February 2024",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T16:08:58.160Z",
+            "modified": "2026-04-29T14:23:06.066Z",
             "description": "(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)(Citation: Secureworks BRONZE SILHOUETTE May 2023)(Citation: CISA AA24-038A PRC Critical Infrastructure February 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--11d45a8c-4037-4e15-b01e-19a3fd1ef8e8",
+    "id": "bundle--37f863b0-2a7f-4872-a462-f2f4e8466af0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1cca5e17-80ae-4b6e-8919-2768153aa966",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "PaloAlto-Xbot",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:47:19.378Z",
+            "modified": "2026-04-29T14:23:05.944Z",
             "description": "[Xbot](https://attack.mitre.org/software/S0298) uses phishing pages mimicking Google Play's payment interface as well as bank login pages.(Citation: PaloAlto-Xbot)",
             "relationship_type": "uses",
             "source_ref": "tool--da21929e-40c0-443d-bdf4-6b60d15448b4",
             "target_ref": "attack-pattern--4c58b7c6-a839-4789-bda9-9de33e4d4512",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

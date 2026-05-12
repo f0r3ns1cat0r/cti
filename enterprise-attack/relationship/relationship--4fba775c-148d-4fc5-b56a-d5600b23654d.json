@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--208a0a0f-1d15-4d3c-a8f6-c594c53ab195",
+    "id": "bundle--6e78a34c-ba6a-4b65-8ada-184a9f9ddeeb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4fba775c-148d-4fc5-b56a-d5600b23654d",
             "created": "2023-03-26T19:04:37.767Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Gelsemium June 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:14:17.300Z",
+            "modified": "2026-04-29T14:23:06.034Z",
             "description": "[Gelsemium](https://attack.mitre.org/software/S0666) can store its components in the Registry.(Citation: ESET Gelsemium June 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--efa7c4d6-8e30-41d9-a8fd-26dc337f4a1b",
             "target_ref": "attack-pattern--02c5abff-30bf-4703-ab92-1f6072fae939",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

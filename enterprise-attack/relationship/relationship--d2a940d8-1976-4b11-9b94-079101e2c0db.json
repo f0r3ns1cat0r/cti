@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bccdb7e9-0928-4ff1-bdca-207aa84b3f9b",
+    "id": "bundle--25064211-82f1-4cca-9295-61640735c9b5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d2a940d8-1976-4b11-9b94-079101e2c0db",
             "created": "2025-06-04T17:46:11.628Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Cloud Threat Intelligence ESXi VIBs 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-06-04T17:46:11.628Z",
+            "modified": "2026-04-29T14:23:06.213Z",
             "description": "[VIRTUALPIE](https://attack.mitre.org/software/S1218) has been installed on VMware ESXi servers through malicious vSphere Installation Bundles (VIBs).(Citation: Google Cloud Threat Intelligence ESXi VIBs 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--7cc63f0f-f24f-4cda-9e9f-61bde1d52297",
             "target_ref": "attack-pattern--f8ba7d61-11c5-4130-bafd-7c3ff5fbf4b5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

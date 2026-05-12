@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--417c3c0a-0c6c-4052-ae01-e4a4bda5749a",
+    "id": "bundle--15ad1a45-f11c-49f0-9f99-640eb2df2cb4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--abd46534-2632-4c12-a9c2-06a2a4116f2c",
             "created": "2020-05-27T15:31:09.530Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "RedCanary Mockingbird May 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:04:42.213Z",
+            "modified": "2026-04-29T14:23:06.159Z",
             "description": "[Blue Mockingbird](https://attack.mitre.org/groups/G0108) has used Remote Desktop to log on to servers interactively and manually copy files to remote hosts.(Citation: RedCanary Mockingbird May 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--73a80fab-2aa3-48e0-a4d0-3a4828200aee",
             "target_ref": "attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c9d9a802-0f82-4bb0-a4d2-79741fceb112",
+    "id": "bundle--0b09ab72-9b6a-4d8e-8f0d-63e85ab44e7f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T16:37:54.077Z",
+            "modified": "2026-04-29T14:23:06.065Z",
             "description": "[DOWNIISSA](https://attack.mitre.org/software/S9021) can decode strings prior to execution.(Citation: Kaspersky LODEINFO OCT 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--eddb863e-fc77-41c1-86e9-5210d6d58b88",

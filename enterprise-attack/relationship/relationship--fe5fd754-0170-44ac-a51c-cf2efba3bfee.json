@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--63258356-f077-4dbb-9ed8-e80c2c5a53c4",
+    "id": "bundle--9d0f183d-a57c-4d9d-9e68-eb41bf9878fe",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fe5fd754-0170-44ac-a51c-cf2efba3bfee",
             "created": "2024-11-25T21:16:04.486Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET OilRig Campaigns Sep 2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:00:20.534Z",
+            "modified": "2026-04-29T14:23:06.270Z",
             "description": "During [Juicy Mix](https://attack.mitre.org/campaigns/C0044), [OilRig](https://attack.mitre.org/groups/G0049) used the CDumper (Chrome browser) and EDumper (Edge browser) to collect credentials.(Citation: ESET OilRig Campaigns Sep 2023)",
             "relationship_type": "uses",
             "source_ref": "campaign--7ab2f1a1-26af-4204-ad84-d640fde391da",
             "target_ref": "attack-pattern--58a3e6aa-4453-4cc8-a51f-4befe80b31a8",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

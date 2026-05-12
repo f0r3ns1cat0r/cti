@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b89e457e-6d21-4729-966f-bf3a914d8006",
+    "id": "bundle--dcadbdc7-0420-4151-892e-3f66309f633b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T21:39:31.974Z",
+            "modified": "2026-04-29T14:23:06.204Z",
             "description": "[Fooder](https://attack.mitre.org/software/S9033) has used a custom delay function\u202f(`delayExecution(integer)`)\u202fand Sleep API calls\u202f(`Sleep(integer)`)\u202fto slow code\u202fexecution.(Citation: ESET_MuddyWater_Dec2025)\u202f\u202f\u202f ",
             "relationship_type": "uses",
             "source_ref": "malware--7c8865dc-1bf9-49ce-b5f2-f15abde0909a",

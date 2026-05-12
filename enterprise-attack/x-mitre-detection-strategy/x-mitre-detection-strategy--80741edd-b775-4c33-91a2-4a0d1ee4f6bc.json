@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--51d0ce03-91c8-47d5-a2fe-e616c658d14c",
+    "id": "bundle--253bcb60-7195-4be0-bbc2-aad90c38e243",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--80741edd-b775-4c33-91a2-4a0d1ee4f6bc",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.683Z",
             "name": "Detection of Vulnerabilities",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -29,8 +30,7 @@
             ],
             "x_mitre_analytic_refs": [
                 "x-mitre-analytic--193167de-400a-4ea3-a8db-93e4bf628068"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

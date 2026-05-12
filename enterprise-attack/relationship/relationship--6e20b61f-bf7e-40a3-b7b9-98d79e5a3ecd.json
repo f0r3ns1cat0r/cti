@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0e14e567-941f-4656-81ba-50ff5ec9fb9d",
+    "id": "bundle--af9ddf97-0ddb-4900-ad07-b3c4ee983d64",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T13:41:10.822Z",
+            "modified": "2026-04-29T14:23:06.075Z",
             "description": "[WIRTE](https://attack.mitre.org/groups/G0090) has obtained and used [Empire](https://attack.mitre.org/software/S0363) and [Rclone](https://attack.mitre.org/software/S1040) for post-exploitation activities.(Citation: Lab52 WIRTE Apr 2019)(Citation: Palo Alto Ashen Lepus DEC 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f8cb7b36-62ef-4488-8a6d-a7033e3271c1",

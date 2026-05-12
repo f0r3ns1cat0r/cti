@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d8fc754d-dd32-4988-b51e-14ca2d3cfde7",
+    "id": "bundle--4ad7511d-df95-4b59-add0-6bbef07e3490",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--3fd2785f-f0eb-4aa9-8a10-e1c9a88b372a",
             "created": "2020-06-26T14:55:13.304Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason EventBot",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:48:12.979Z",
+            "modified": "2026-04-29T14:23:06.012Z",
             "description": "[EventBot](https://attack.mitre.org/software/S0478) can display popups over running applications.(Citation: Cybereason EventBot)",
             "relationship_type": "uses",
             "source_ref": "malware--aecc0097-c9f8-4786-9b39-e891ff173f54",
             "target_ref": "attack-pattern--4c58b7c6-a839-4789-bda9-9de33e4d4512",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

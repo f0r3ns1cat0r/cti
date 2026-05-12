@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c03a22ed-3264-460c-b63f-9be96e842338",
+    "id": "bundle--0af43fad-7965-458c-9533-588ed0dded8d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--239a4ed5-afe6-4d1d-8dfe-ee4df7bc01ba",
             "created": "2019-05-28T18:49:59.414Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "IBM TA505 April 2020",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T15:50:34.668Z",
+            "modified": "2026-04-29T14:23:05.953Z",
             "description": "(Citation: Proofpoint TA505 Sep 2017)(Citation: IBM TA505 April 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7eda3dd8-b09b-4705-8090-c2ad9fb8c14d",

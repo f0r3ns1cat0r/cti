@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ec85c5bb-fcbe-4b4b-8f5f-ec4fc80f9342",
+    "id": "bundle--fa605f59-6d01-4eac-b442-44b13dd8358a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bd4ff89c-7088-4eb2-85bd-a639fc528bf6",
             "created": "2024-07-29T22:43:33.468Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelOne WinterVivern 2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:43:28.195Z",
+            "modified": "2026-04-29T14:23:06.184Z",
             "description": "[Winter Vivern](https://attack.mitre.org/groups/G1035) has used compromised WordPress sites to host malicious payloads for download.(Citation: SentinelOne WinterVivern 2023)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--75a07184-a7e5-4222-95a1-a04dbc96a29c",
             "target_ref": "attack-pattern--ae797531-3219-49a4-bccf-324ad7a4c7b2",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

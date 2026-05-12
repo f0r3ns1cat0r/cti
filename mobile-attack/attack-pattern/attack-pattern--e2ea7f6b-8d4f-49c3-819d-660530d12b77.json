@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c3f112dd-b7a0-48e2-80a3-65a42a2e7048",
+    "id": "bundle--7db3a1a6-3d5b-4df8-a2c7-4555da68f7a7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:49:31.141Z",
+            "modified": "2026-05-12T15:12:00.722Z",
             "name": "System Information Discovery",
             "description": "Adversaries may attempt to get detailed information about a device\u2019s operating system and hardware, including versions, patches, and architecture. Adversaries may use the information from [System Information Discovery](https://attack.mitre.org/techniques/T1426) during automated discovery to shape follow-on behaviors, including whether or not to fully infects the target and/or attempts specific actions. \n\n \n\nOn Android, much of this information is programmatically accessible to applications through the `android.os.Build` class. (Citation: Android-Build) iOS is much more restrictive with what information is visible to applications. Typically, applications will only be able to query the device model and which version of iOS it is running. ",
             "kill_chain_phases": [
@@ -38,7 +38,7 @@
                     "phase_name": "discovery"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "mobile-attack"

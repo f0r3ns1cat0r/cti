@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a765b84a-62d3-4d82-9bdd-ad7da5129ffb",
+    "id": "bundle--57dd3e23-64f9-4694-9a1a-f2469a7ab18d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--22e22e70-7544-40b9-838a-e06b560f51a7",
             "created": "2024-07-08T17:52:01.895Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ORB APT31",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:02:16.551Z",
+            "modified": "2026-04-29T14:23:05.952Z",
             "description": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) has compromised network devices such as small office and home office (SOHO) routers and IoT devices for ORB (operational relay box) [Proxy](https://attack.mitre.org/techniques/T1090) networks.(Citation: ORB APT31)(Citation: ORB Mandiant) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--4283ae19-69c7-4347-a35e-b56f08eb660b",
             "target_ref": "attack-pattern--149b477f-f364-4824-b1b5-aa1d56115869",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

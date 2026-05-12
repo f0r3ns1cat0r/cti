@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eac68f5b-e34a-4091-8cd7-d85ac80e6c5a",
+    "id": "bundle--70c7f524-7872-41b4-8330-47604f9293d0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T14:26:02.090Z",
+            "modified": "2026-04-29T14:23:06.169Z",
             "description": "The [AshTag](https://attack.mitre.org/software/S9031) stager component can retrieve and execute the main payload.(Citation: Palo Alto Ashen Lepus DEC 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--bb6f2a5c-dbc9-45b0-bd3f-a0b7849959c2",

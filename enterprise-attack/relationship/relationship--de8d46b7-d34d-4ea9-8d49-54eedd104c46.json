@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cb01e6c3-9ebe-4f0e-a9e4-13ab14e7e9a4",
+    "id": "bundle--3a6d4be8-67cf-4783-8869-f25afe725b09",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T00:08:04.320Z",
+            "modified": "2026-04-29T14:23:06.229Z",
             "description": "Various [Lazarus Group](https://attack.mitre.org/groups/G0032) malware modifies the Windows firewall to allow incoming connections or disable it entirely using [netsh](https://attack.mitre.org/software/S0108). (Citation: Novetta Blockbuster)(Citation: Novetta Blockbuster Loaders)(Citation: Novetta Blockbuster Tools)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",

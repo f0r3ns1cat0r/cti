@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--908a95ac-8cfa-45e9-9d53-a387365a8b36",
+    "id": "bundle--3a447ce4-e805-4e70-96da-184981683180",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T21:29:39.096Z",
+            "modified": "2026-04-29T14:23:06.186Z",
             "description": "[HeartCrypt](https://attack.mitre.org/software/S9018) can use Windows API functions to modify the Registry and `FindResourceW`, `LoadResource`, and `LockResource` to acquire a pointer to corresponding code resources.(Citation: Palo Alto HeartCrypt DEC 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--148f947c-aabd-4ba8-b6a3-22b296855119",

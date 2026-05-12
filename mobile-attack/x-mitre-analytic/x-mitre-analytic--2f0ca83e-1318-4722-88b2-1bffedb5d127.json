@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--74cb7dfe-890a-4a84-9a6b-db942f1c9ae5",
+    "id": "bundle--f5e8dc8a-001d-484c-849a-0982ee01e4f5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-29T18:13:22.436Z",
+            "modified": "2026-05-12T16:30:18.376Z",
             "name": "Analytic 1720",
             "description": "From the defender view: an app accesses UIPasteboard contents, sometimes repeatedly, including in background or immediately after another app copies sensitive text. iOS 14+ shows user notifications when pasting cross-app; unified logs reflect pasteboard access, notification, and optional subsequent persistence/exfil. We correlate: pasteboard access \u2192 optional cross-app notification \u2192 local write (cache/DB) and/or network egress within a short window.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

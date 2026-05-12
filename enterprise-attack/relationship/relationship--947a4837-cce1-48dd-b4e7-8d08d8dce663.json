@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--69ba31d7-4a46-4920-9706-23a86321c2a8",
+    "id": "bundle--17e9e274-4d71-4bfd-917f-654f3640c702",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--947a4837-cce1-48dd-b4e7-8d08d8dce663",
             "created": "2020-05-06T15:26:38.855Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro BlackTech June 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:00:21.026Z",
+            "modified": "2026-04-29T14:23:06.127Z",
             "description": "[PLEAD](https://attack.mitre.org/software/S0435) has the ability to delete files on the compromised host.(Citation: TrendMicro BlackTech June 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--b57f419e-8b12-49d3-886b-145383725dcd",
             "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

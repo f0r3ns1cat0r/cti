@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5c9c62df-3443-4bfb-9ef5-172552edab4f",
+    "id": "bundle--dff67e35-5138-4223-af75-d65f76064532",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--88f285fd-670b-4600-878f-7d78b86ab929",
             "created": "2025-10-06T18:06:28.349Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kroll RedLine Stealer August 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-06T18:06:28.349Z",
+            "modified": "2026-04-29T14:23:06.112Z",
             "description": "[RedLine Stealer](https://attack.mitre.org/software/S1240) can enumeate information about victims\u2019 systems including IP addresses.(Citation: Kroll RedLine Stealer August 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--8c8e8b01-b4b1-479b-a7a9-78c40a12b916",

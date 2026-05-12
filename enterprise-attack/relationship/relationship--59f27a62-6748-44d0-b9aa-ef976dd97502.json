@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--57d93f40-06b4-4858-afec-448f015bcdc4",
+    "id": "bundle--50a214ac-d2b1-47e9-acfe-b82dbe2c0337",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T17:42:04.923Z",
+            "modified": "2026-04-29T14:23:06.048Z",
             "description": "[HiddenFace](https://attack.mitre.org/software/S9023) can collect the username associated with the compromised host.(Citation: ESET HiddenFace 2024)\n",
             "relationship_type": "uses",
             "source_ref": "malware--9edc41d1-a13d-4acf-b400-d47fb2f6809d",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d45c7df1-eaff-40a0-afce-062cae9f68ea",
+    "id": "bundle--86c73ac4-ba58-400f-ad13-8b4009b37c9a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:57:19.905Z",
+            "modified": "2026-04-29T14:23:06.056Z",
             "description": "[ThiefQuest](https://attack.mitre.org/software/S0595) uses the function <code>kill_unwanted</code> to obtain a list of running processes and kills each process matching a list of security related processes.(Citation: wardle evilquest parti)",
             "relationship_type": "uses",
             "source_ref": "malware--727afb95-3d0f-4451-b297-362a43909923",

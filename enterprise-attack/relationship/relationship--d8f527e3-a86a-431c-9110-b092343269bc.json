@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--641ead44-a94e-4192-b518-f42400ec8013",
+    "id": "bundle--2f90a480-c3a3-4b61-b3f6-c5e61a09f1ba",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d8f527e3-a86a-431c-9110-b092343269bc",
             "created": "2019-01-30T15:19:15.005Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit42 Azorult Nov 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:12:42.144Z",
+            "modified": "2026-04-29T14:23:06.221Z",
             "description": "[Azorult](https://attack.mitre.org/software/S0344) can collect host IP information from the victim\u2019s machine.(Citation: Unit42 Azorult Nov 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--f9b05f33-d45d-4e4d-aafe-c208d38a0080",
             "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

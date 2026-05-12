@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3e19e992-1255-40e7-a09e-72e930a78022",
+    "id": "bundle--cbb0204d-d768-42f3-8f27-5fffcbc4bcba",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7baa3cab-c4f8-4b91-a6c3-189ad7a6416c",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lookout-Pegasus",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:49:42.648Z",
+            "modified": "2026-04-29T14:23:06.095Z",
             "description": "[Pegasus for iOS](https://attack.mitre.org/software/S0289) gathers contacts from the system by dumping the victim's address book.(Citation: Lookout-Pegasus)",
             "relationship_type": "uses",
             "source_ref": "malware--33d9d91d-aad9-49d5-a516-220ce101ac8a",
             "target_ref": "attack-pattern--e0b9ecb8-a7d1-43c7-aa30-8e19c6a92c86",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

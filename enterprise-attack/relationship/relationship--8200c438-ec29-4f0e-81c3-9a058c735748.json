@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4c0c32e1-a94d-4188-8c6f-75a916d5c9c9",
+    "id": "bundle--8ec8d7c6-f8ab-438d-bdf4-4a66bc2dc933",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8200c438-ec29-4f0e-81c3-9a058c735748",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "F-Secure BlackEnergy 2014",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:56:54.245Z",
+            "modified": "2026-04-29T14:23:06.103Z",
             "description": "The [BlackEnergy](https://attack.mitre.org/software/S0089) 3 variant drops its main DLL component and then creates a .lnk shortcut to that file in the startup folder.(Citation: F-Secure BlackEnergy 2014)",
             "relationship_type": "uses",
             "source_ref": "malware--54cc1d4f-5c53-4f0e-9ef5-11b4998e82e4",
             "target_ref": "attack-pattern--4ab929c6-ee2d-4fb5-aab4-b14be2ed7179",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

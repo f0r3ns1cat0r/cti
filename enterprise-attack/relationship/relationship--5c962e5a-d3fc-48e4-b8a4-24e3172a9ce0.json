@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--09390634-4900-430e-89ec-e745e6698abc",
+    "id": "bundle--6bf0a7d1-43a3-43f5-b2dd-aa3a05e03a26",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T17:54:24.005Z",
+            "modified": "2026-04-29T14:23:06.051Z",
             "description": "[MuddyViper](https://attack.mitre.org/software/S9032)\u202fhas the ability to\u202festablish\u202fpersistence by creating a scheduled task named\u202fManageOnDriveUpdater\u202fto launch itself during system\u202fstartup.(Citation: ESET_MuddyWater_Dec2025)\u202f\u202f\u202f\u202f ",
             "relationship_type": "uses",
             "source_ref": "malware--7b92e996-b535-4159-be16-3c3aee4edf54",

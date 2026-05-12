@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0cbc3d74-eb31-44af-93e7-fd2481cf97f2",
+    "id": "bundle--f454da40-bba8-424c-83ba-79d0500cebee",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T12:47:42.721Z",
+            "modified": "2026-04-29T14:23:05.967Z",
             "description": "[IronWind](https://attack.mitre.org/software/S9029) can capture the OS version and computer name of the compromised host.(Citation: Check Point Wirte NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--089aa00a-99ac-46b4-9cf8-4224d463566d",

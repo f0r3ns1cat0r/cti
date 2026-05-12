@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cfa0549a-7a7a-4f87-8a10-98c8a0c6c2a5",
+    "id": "bundle--d45e88df-f34e-49f8-a55c-4c1fc4983968",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--998ad8ac-9929-4360-92c8-63efb1a81d78",
             "created": "2020-05-26T21:02:38.816Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro Netwalker May 2020",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:01:23.160Z",
+            "modified": "2026-04-29T14:23:06.134Z",
             "description": "[Netwalker](https://attack.mitre.org/software/S0457) has been written in PowerShell and executed directly in memory, avoiding detection.(Citation: TrendMicro Netwalker May 2020)(Citation: Sophos Netwalker May 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--754effde-613c-4244-a83e-fb659b2a4d06",
             "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

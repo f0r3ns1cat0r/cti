@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9a7d1102-f740-4c79-93fb-ca0d0ea6951e",
+    "id": "bundle--a58347f7-870b-485a-91ce-7d06fb8df54d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ede5c314-5988-4151-bb30-b6a6983d02c0",
             "created": "2020-12-31T18:25:05.164Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CYBERWARCON CHEMISTGAMES",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:52:23.974Z",
+            "modified": "2026-04-29T14:23:06.249Z",
             "description": "[CHEMISTGAMES](https://attack.mitre.org/software/S0555) has been distributed as updates to legitimate applications. This was accomplished by compromising legitimate app developers, and subsequently gaining access to their Google Play Store developer account.(Citation: CYBERWARCON CHEMISTGAMES)",
             "relationship_type": "uses",
             "source_ref": "malware--a0d774e4-bafc-4292-8651-3ec899391341",
             "target_ref": "attack-pattern--9558a84e-2d5e-4872-918e-d847494a8ffc",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

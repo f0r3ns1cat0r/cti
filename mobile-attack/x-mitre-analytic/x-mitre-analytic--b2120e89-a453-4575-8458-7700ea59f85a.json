@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4a86ad21-f452-46d0-8807-3c511fe6b6ae",
+    "id": "bundle--88ccee85-dba0-424c-add6-2006a5b5a3a5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-02-24T17:54:57.531Z",
+            "modified": "2026-05-12T16:30:18.381Z",
             "name": "Analytic 1753",
             "description": "Defender observes anomalous signaling network queries targeting subscriber information associated with a device, including unexpected routing requests, location information exchanges, or node-origin inconsistencies indicative of SS7 signaling abuse. (Citation: CSRIC5-WG10-FinalReport) The CSRIC also suggests threat information sharing between telecommunications industry members.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

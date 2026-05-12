@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--01adb675-feb8-497c-b9d4-527117f49538",
+    "id": "bundle--7232150a-72a0-4125-8a13-e20788ec128f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T16:56:48.125Z",
+            "modified": "2026-04-29T14:23:06.103Z",
             "description": "[LODEINFO](https://attack.mitre.org/software/S9020) can capture system time to send to the C2.(Citation: Kaspersky LODEINFO Part II OCT 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--7908f855-5b5b-4d6a-acbc-af6b45ec27ad",

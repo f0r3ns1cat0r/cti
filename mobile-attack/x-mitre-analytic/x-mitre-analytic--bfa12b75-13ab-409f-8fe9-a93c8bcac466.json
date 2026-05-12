@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0a0dca03-839d-4831-a6f3-5a0bd174d9cb",
+    "id": "bundle--43416f19-2334-4a34-a99f-62da74df1db7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-08T16:39:38.897Z",
+            "modified": "2026-05-12T16:30:18.381Z",
             "name": "Analytic 1767",
             "description": "The defender correlates recent access to locally collected or protected data with subsequent compression, packaging, or encryption behavior inside the same app context, followed by creation of archive-like or high-entropy output and optional near-term network transmission. The analytic prioritizes Android runtime and storage effects: application data access or sensor-derived collection, compression/encryption framework use, archive/blob creation in app-accessible storage, and background or device-locked execution inconsistent with the app\u2019s declared function.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

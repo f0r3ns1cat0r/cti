@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9fb28d81-d056-428b-bf30-c25a84f0deab",
+    "id": "bundle--5ff68b37-4a13-4ff3-acf6-6dae85a4dd99",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4586277d-bebd-4717-87c6-a31a9be741ed",
             "created": "2020-12-24T21:45:56.982Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lookout Uyghur Campaign",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:28:33.913Z",
+            "modified": "2026-04-29T14:23:06.020Z",
             "description": "[SilkBean](https://attack.mitre.org/software/S0549) can get file lists on the SD card.(Citation: Lookout Uyghur Campaign)",
             "relationship_type": "uses",
             "source_ref": "malware--ddbe5657-e21e-4a89-8221-2f1362d397ec",
             "target_ref": "attack-pattern--cf28ca46-1fd3-46b4-b1f6-ec0b72361848",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5b9bed20-c562-43c8-af44-9d6958cd0c05",
+    "id": "bundle--c5c92df8-e2c7-472c-8270-e3bb71921641",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-01T15:33:34.145Z",
+            "modified": "2026-05-12T16:30:18.383Z",
             "name": "Analytic 1716",
             "description": "An application performs explicit cryptographic operations (e.g., symmetric/asymmetric encryption routines) on locally collected or generated data, followed by structured outbound network communication that does not align with expected application behavior, particularly when occurring in the background or without user interaction. Detection correlates crypto API usage + data staging + application state + network transmission patterns.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

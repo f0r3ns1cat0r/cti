@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e895e92a-c27e-47ea-8fc0-d6af1c052690",
+    "id": "bundle--03109bd5-d7b7-4d85-b9fe-4513d99dba4b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a2365c91-60f6-4249-af13-6bc2fdb80d52",
             "created": "2019-09-23T13:36:08.459Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "securelist rotexy 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:50:35.136Z",
+            "modified": "2026-04-29T14:23:06.146Z",
             "description": "[Rotexy](https://attack.mitre.org/software/S0411) can use phishing overlays to capture users' credit card information.(Citation: securelist rotexy 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--0626c181-93cb-4860-9cb0-dff3b1c13063",
             "target_ref": "attack-pattern--4c58b7c6-a839-4789-bda9-9de33e4d4512",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

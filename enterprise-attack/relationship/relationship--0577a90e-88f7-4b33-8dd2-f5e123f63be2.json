@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ac380a45-c129-4354-a9cb-48b36cde3e42",
+    "id": "bundle--4fb41b14-8739-4a9c-9961-34c87b7552c4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0577a90e-88f7-4b33-8dd2-f5e123f63be2",
             "created": "2023-12-06T20:24:36.108Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sygnia Emperor Dragonfly October 2022",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:54:20.572Z",
+            "modified": "2026-04-29T14:23:05.911Z",
             "description": "[Cinnamon Tempest](https://attack.mitre.org/groups/G1021) has used search order hijacking to launch [Cobalt Strike](https://attack.mitre.org/software/S0154) Beacons.(Citation: Microsoft Ransomware as a Service)(Citation: SecureWorks BRONZE STARLIGHT Ransomware Operations June 2022) [Cinnamon Tempest](https://attack.mitre.org/groups/G1021) has also abused legitimate executables to side-load weaponized DLLs.(Citation: Sygnia Emperor Dragonfly October 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",
             "target_ref": "attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--45b76e08-bba0-463d-8841-a49a781b2b68",
+    "id": "bundle--04c720ba-585a-4390-9d31-e9856799e3eb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:17:03.355Z",
+            "modified": "2026-04-29T14:23:06.083Z",
             "description": "[Proton](https://attack.mitre.org/software/S0279) kills security tools like Wireshark that are running.(Citation: objsee mac malware 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--c541efb4-e7b1-4ad6-9da8-b4e113f5dd42",

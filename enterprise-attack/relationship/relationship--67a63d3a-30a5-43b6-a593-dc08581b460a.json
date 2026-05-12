@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6bfeae76-7a3a-4d80-9232-b9cf906c03c1",
+    "id": "bundle--ce626ab4-4004-48da-a578-9b7b399577b6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--67a63d3a-30a5-43b6-a593-dc08581b460a",
             "created": "2020-03-09T13:26:46.181Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Process Wide Com Keys",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:51:48.007Z",
+            "modified": "2026-04-29T14:23:06.066Z",
             "description": "Modify Registry settings (directly or using Dcomcnfg.exe) in `HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Classes\\\\AppID\\\\{AppID_GUID}` associated with the process-wide security of individual COM applications.(Citation: Microsoft Process Wide Com Keys)\n\nModify Registry settings (directly or using Dcomcnfg.exe) in `HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Ole` associated with system-wide security defaults for all COM applications that do no set their own process-wide security.(Citation: Microsoft System Wide Com Keys) (Citation: Microsoft COM ACL)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--9bb9e696-bff8-4ae1-9454-961fc7d91d5f",
             "target_ref": "attack-pattern--2f6b4ed7-fef1-44ba-bcb8-1b4beb610b64",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

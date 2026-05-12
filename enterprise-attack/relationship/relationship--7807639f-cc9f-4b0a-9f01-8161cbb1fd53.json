@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--39347bc6-2faf-4a4a-82de-f24ac19cb6fc",
+    "id": "bundle--b33a52cf-bb38-443f-9f18-ce75eb0fed20",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7807639f-cc9f-4b0a-9f01-8161cbb1fd53",
             "created": "2022-07-18T18:57:50.707Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro EarthLusca 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:25:07.868Z",
+            "modified": "2026-04-29T14:23:06.089Z",
             "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) has placed a malicious payload in `%WINDIR%\\SYSTEM32\\oci.dll` so it would be sideloaded by the MSDTC service.(Citation: TrendMicro EarthLusca 2022) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
             "target_ref": "attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

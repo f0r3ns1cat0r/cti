@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a46a10a3-1790-4cae-a110-f6ef09e18cd3",
+    "id": "bundle--b29dfd2e-d00d-4005-9b39-f21abb014da3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--10cc3288-d06c-456c-bc0e-b10a8c5abeaa",
             "created": "2017-05-31T21:33:27.038Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Bitdefender APT28 Dec 2015",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:57:12.925Z",
+            "modified": "2026-04-29T14:23:05.927Z",
             "description": "[APT28](https://attack.mitre.org/groups/G0007) used other victims as proxies to relay command traffic, for instance using a compromised Georgian military email server as a hop point to NATO victims. The group has also used a tool that acts as a proxy to allow C2 even if the victim is behind a router. [APT28](https://attack.mitre.org/groups/G0007) has also used a machine to relay and obscure communications between [CHOPSTICK](https://attack.mitre.org/software/S0023) and their server.(Citation: FireEye APT28)(Citation: Bitdefender APT28 Dec 2015)(Citation: DOJ GRU Indictment Jul 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--69b8fd78-40e8-4600-ae4d-662c9d7afdb3",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

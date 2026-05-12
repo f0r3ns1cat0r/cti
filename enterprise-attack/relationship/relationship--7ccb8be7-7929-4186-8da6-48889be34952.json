@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d2a8f7b6-339d-4591-8d63-bf1fb80fd53d",
+    "id": "bundle--bffde88d-0798-47c9-9236-e30ffaf09ad6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7ccb8be7-7929-4186-8da6-48889be34952",
             "created": "2024-02-12T20:15:19.818Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Ensilo Darkgate 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:26:30.996Z",
+            "modified": "2026-04-29T14:23:06.096Z",
             "description": "[DarkGate](https://attack.mitre.org/software/S1111) uses AutoIt scripts dropped to a hidden directory during initial installation phases, such as `test.au3`.(Citation: Ensilo Darkgate 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--6f6f67c9-556d-4459-95c2-78d272190e52",
             "target_ref": "attack-pattern--3a32740a-11b0-4bcf-b0a9-3abd0f6d3cd5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

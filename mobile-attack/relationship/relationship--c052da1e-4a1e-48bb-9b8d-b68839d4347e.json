@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6bcf76c2-ee84-4a4c-bf05-a8ad1d3ecc39",
+    "id": "bundle--0281ba8f-3b0b-41e9-9da5-f4f3787ffda4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c052da1e-4a1e-48bb-9b8d-b68839d4347e",
             "created": "2025-03-24T20:10:08.651Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "LinkedIn Dmitry LightSpy 2025",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:51:19.775Z",
+            "modified": "2026-04-29T14:23:06.188Z",
             "description": "[LightSpy](https://attack.mitre.org/software/S1185) has accessed the device\u2019s GPS location.(Citation: MelikovBlackBerry LightSpy 2024)(Citation: Threatfabric LightSpy 2023)(Citation: Shoshin_Kaspersky LightSpy 2020)(Citation: LinkedIn Dmitry LightSpy 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--5b5d1e6c-e7de-4b46-ab8f-8556e8745927",
             "target_ref": "attack-pattern--99e6295e-741b-4857-b6e5-64989eb039b4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

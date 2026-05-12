@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6a1c285d-7205-4822-87d7-dba05ac6fe77",
+    "id": "bundle--f0f3ed0f-a0f5-46b9-b544-83ee132203fd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T14:19:59.238Z",
+            "modified": "2026-05-12T15:12:00.741Z",
             "name": "Wevtutil",
             "description": "[Wevtutil](https://attack.mitre.org/software/S0645) is a Windows command-line utility that enables administrators to retrieve information about event logs and publishers.(Citation: Wevtutil Microsoft Documentation)",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

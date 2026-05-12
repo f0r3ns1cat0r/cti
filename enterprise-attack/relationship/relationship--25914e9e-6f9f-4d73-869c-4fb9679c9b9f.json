@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5b67a845-eb2a-40a0-b347-2fc1dc6be60e",
+    "id": "bundle--bf3ddc29-5d4a-4c01-b773-c35ad84ef9eb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T22:15:24.353Z",
+            "modified": "2026-04-29T14:23:05.956Z",
             "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has established domains, some of which appeared to spoof legitimate domains for use in operations.(Citation: NaumaanProofpoint_GlobalClickFix_April2025) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",

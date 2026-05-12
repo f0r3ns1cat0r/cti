@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f524cec1-0f25-450d-81fa-f26206a3c95e",
+    "id": "bundle--4b78bcee-5012-4e6f-9ad8-528d98c377ca",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5e840479-61c1-44f5-8cb8-0e61ffe12b89",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro Taidoor",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:50:08.070Z",
+            "modified": "2026-04-29T14:23:06.054Z",
             "description": "[Taidoor](https://attack.mitre.org/software/S0011) can perform DLL loading.(Citation: TrendMicro Taidoor)(Citation: CISA MAR-10292089-1.v2 TAIDOOR August 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--b143dfa4-e944-43ff-8429-bfffc308c517",
             "target_ref": "attack-pattern--f4599aa0-4f85-4a32-80ea-fc39dc965945",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

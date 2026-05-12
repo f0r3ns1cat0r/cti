@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0f552bc6-65f7-402c-8aaa-71a7d0e56dc6",
+    "id": "bundle--f674e042-f71c-4508-99e6-874362df9710",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0059d5e7-7a7f-4a13-8730-00383bad2e98",
             "created": "2025-09-30T15:26:07.940Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "HC3 Qilin Threat Profile JUN 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-30T15:26:07.940Z",
+            "modified": "2026-04-29T14:23:05.903Z",
             "description": "[Qilin](https://attack.mitre.org/software/S1242) can employ several code obfuscation methods, including renaming functions, altering control flows, and encrypting strings.(Citation: HC3 Qilin Threat Profile JUN 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--e23d2777-b85d-44fc-861e-9149d399fbb9",

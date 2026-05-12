@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6d383147-dc46-442d-adaa-589e47c0dfb4",
+    "id": "bundle--a6848492-ba9b-45f5-8fb5-f1258e3a6eb7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-15T22:32:31.453Z",
+            "modified": "2026-05-12T15:12:00.706Z",
             "name": "Selective Exclusion",
             "description": "Adversaries may intentionally exclude certain files, folders, directories, file types, or system components from encryption or tampering during a ransomware or malicious payload execution. Some file extensions that adversaries may avoid encrypting include `.dll`, `.exe`, and `.lnk`.(Citation: Palo Alto Unit 42 Medusa Group Medusa Ransomware January 2024)  \n\nAdversaries may perform this behavior to avoid alerting users, to evade detection by security tools and analysts, or, in the case of ransomware, to ensure that the system remains operational enough to deliver the ransom notice. \n\nExclusions may target files and components whose corruption would cause instability, break core services, or immediately expose the attack. By carefully avoiding these areas, adversaries maintain system responsiveness while minimizing indicators that could trigger alarms or otherwise inhibit achieving their goals. ",
             "kill_chain_phases": [

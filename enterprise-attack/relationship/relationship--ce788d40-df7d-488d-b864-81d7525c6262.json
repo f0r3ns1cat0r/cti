@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--de2c8cff-9bd2-41d0-ab43-04df2673837c",
+    "id": "bundle--46d6b013-f658-4098-ad81-c9cb619a4ed8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-19T19:07:20.049Z",
+            "modified": "2026-04-29T14:23:06.207Z",
             "description": "[PHPsert](https://attack.mitre.org/software/S9028) can use multiple obfuscation techniques including XOR encoding, hexadecimal character representation, string concatenation, and randomized variable names.(Citation: sentinelone operationDigitalEye Dec 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--9491a623-5861-4d0a-9958-8c05d0d17442",

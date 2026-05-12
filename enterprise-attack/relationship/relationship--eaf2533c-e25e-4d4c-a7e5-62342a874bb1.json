@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4a3c3b0d-eef1-4c00-861a-ff0cbb7e03f4",
+    "id": "bundle--c22da00c-40a6-4afd-8542-a408215a778f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--eaf2533c-e25e-4d4c-a7e5-62342a874bb1",
             "created": "2021-09-30T13:49:35.725Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky QakBot September 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:15:49.497Z",
+            "modified": "2026-04-29T14:23:06.245Z",
             "description": "[QakBot](https://attack.mitre.org/software/S0650) has collected usernames and passwords from Firefox and Chrome.(Citation: Kaspersky QakBot September 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--edc5e045-5401-42bb-ad92-52b5b2ee0de9",
             "target_ref": "attack-pattern--58a3e6aa-4453-4cc8-a51f-4befe80b31a8",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

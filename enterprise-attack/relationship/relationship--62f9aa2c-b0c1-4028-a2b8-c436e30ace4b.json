@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--25a6456f-7585-4b8c-bcc1-7ebd22d15359",
+    "id": "bundle--8294e598-a58f-40f5-b71d-f152b2062517",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--62f9aa2c-b0c1-4028-a2b8-c436e30ace4b",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Volexity PowerDuke November 2016",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:50:55.655Z",
+            "modified": "2026-04-29T14:23:06.060Z",
             "description": "[PowerDuke](https://attack.mitre.org/software/S0139) has a command to list the victim's processes.(Citation: Volexity PowerDuke November 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--00c3bfcb-99bd-4767-8c03-b08f585f5c8a",
             "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

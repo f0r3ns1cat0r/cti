@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--92d96be8-91e2-4d4a-9df8-762be4719f56",
+    "id": "bundle--d13993de-0d88-463f-9c66-af5031b1c058",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--09fbfb74-459a-441b-9e07-96c146a26be3",
             "created": "2019-10-07T19:05:49.065Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit42 BabyShark Feb 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:33:44.000Z",
+            "modified": "2026-04-29T14:23:05.917Z",
             "description": "[BabyShark](https://attack.mitre.org/software/S0414) has executed the <code>whoami</code> command.(Citation: Unit42 BabyShark Feb 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--d1b7830a-fced-4be3-a99c-f495af9d9e1b",
             "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

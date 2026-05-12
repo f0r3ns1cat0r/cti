@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a263b5eb-c51e-4f67-91e8-4eab7cf02fac",
+    "id": "bundle--b9950fe1-3707-467a-b724-c053f8eeefde",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T14:09:31.571Z",
+            "modified": "2026-05-12T15:12:00.740Z",
             "name": "BITSAdmin",
             "description": "[BITSAdmin](https://attack.mitre.org/software/S0190) is a command line tool used to create and manage [BITS Jobs](https://attack.mitre.org/techniques/T1197). (Citation: Microsoft BITSAdmin)",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

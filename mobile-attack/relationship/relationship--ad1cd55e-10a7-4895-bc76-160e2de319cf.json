@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1d12fdfd-78f9-4f2a-8711-267560acf21e",
+    "id": "bundle--ca62f368-8939-4882-8816-e5ecf4ed2a0e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ad1cd55e-10a7-4895-bc76-160e2de319cf",
             "created": "2025-10-08T14:40:37.217Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lookout_DCHSpy_July2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-08T14:40:37.217Z",
+            "modified": "2026-04-29T14:23:06.160Z",
             "description": "[DCHSpy](https://attack.mitre.org/software/S1243) has collected files of interest on the device, including WhatsApp files.(Citation: Lookout_DCHSpy_July2025) ",
             "relationship_type": "uses",
             "source_ref": "malware--6d5c257d-e6de-4c95-a7e8-09ac9386007d",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--20072512-7046-4fa7-af2c-acc6c194a6aa",
+    "id": "bundle--f2a5b3b2-e70b-45c2-8099-56978d6fb4f8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T18:28:36.615Z",
+            "modified": "2026-04-29T14:23:06.077Z",
             "description": "[DCRAT](https://attack.mitre.org/software/S9017) can log keystrokes on targeted systems.(Citation: Zscaler BlindEagle DEC 2025)",
             "relationship_type": "uses",
             "source_ref": "tool--2f481072-e9f8-4452-be00-d1d7e43c2edc",

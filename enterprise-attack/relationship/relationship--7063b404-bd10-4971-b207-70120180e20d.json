@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--332c4874-21b2-468c-929f-c80279cc3a9e",
+    "id": "bundle--f64907aa-adf8-4afb-8f7b-399ce25e36db",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7063b404-bd10-4971-b207-70120180e20d",
             "created": "2025-06-04T16:06:57.856Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Bitsight 7777 Botnet",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-06-05T14:58:08.949Z",
+            "modified": "2026-04-29T14:23:06.078Z",
             "description": "[Quad7 Activity](https://attack.mitre.org/campaigns/C0055) has initialized SOCKS5 proxies on compromised devices.(Citation: Microsoft Storm-0940)(Citation: Bitsight 7777 Botnet)",
             "relationship_type": "uses",
             "source_ref": "campaign--e7511089-1076-4a3b-984d-1a0a8afe31e9",
             "target_ref": "attack-pattern--69b8fd78-40e8-4600-ae4d-662c9d7afdb3",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

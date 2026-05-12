@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6a323add-dfe7-4b23-a45f-83ff42655478",
+    "id": "bundle--9e675b53-12dc-4a87-926e-39f84fb43c63",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c2fcdaf4-f4e7-446d-8b92-7a9df7ccc1f8",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT37 Feb 2018",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:45:03.558Z",
+            "modified": "2026-04-29T14:23:06.192Z",
             "description": "[DOGCALL](https://attack.mitre.org/software/S0213) is capable of leveraging cloud storage APIs such as Cloud, Box, Dropbox, and Yandex for C2.(Citation: FireEye APT37 Feb 2018)(Citation: Unit 42 Nokki Oct 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--0852567d-7958-4f4b-8947-4f840ec8d57d",
             "target_ref": "attack-pattern--be055942-6e63-49d7-9fa1-9cb7d8a8f3f4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

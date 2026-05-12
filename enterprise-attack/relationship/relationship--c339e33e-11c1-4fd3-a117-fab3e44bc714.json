@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--288d69bd-6ae5-4e96-8942-225187db6ed6",
+    "id": "bundle--82111704-1eb3-4573-93c6-a6fbe8310773",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c339e33e-11c1-4fd3-a117-fab3e44bc714",
             "created": "2021-10-11T19:34:23.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CheckPoint Bandook Nov 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:08:51.121Z",
+            "modified": "2026-04-29T14:23:06.192Z",
             "description": "[Bandook](https://attack.mitre.org/software/S0234) has used malicious VBA code against the target system.(Citation: CheckPoint Bandook Nov 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--835a79f1-842d-472d-b8f4-d54b545c341b",
             "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

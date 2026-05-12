@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--924858c5-8330-4e63-ab09-694d3da6c5dd",
+    "id": "bundle--a6dcba81-bb24-45f7-a207-9c8296e07212",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f2828065-a45c-40ef-86ad-d13c05f648d5",
             "created": "2024-07-02T17:16:29.144Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Turla Lunar toolset May 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:57:11.960Z",
+            "modified": "2026-04-29T14:23:06.255Z",
             "description": "[LunarMail](https://attack.mitre.org/software/S1142) can communicates with C2 using email messages via the Outlook Messaging API (MAPI).(Citation: ESET Turla Lunar toolset May 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--a5789a26-2b7b-4b2d-a25f-31182468d4bb",
             "target_ref": "attack-pattern--54b4c251-1f0e-4eba-ba6b-dbc7a6f6f06b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

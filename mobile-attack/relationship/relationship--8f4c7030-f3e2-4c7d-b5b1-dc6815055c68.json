@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c68a2d8b-f1fe-49af-b5d7-d8e777513801",
+    "id": "bundle--11e4692f-5182-4445-8c49-4c42f25e2f38",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8f4c7030-f3e2-4c7d-b5b1-dc6815055c68",
             "created": "2023-06-09T19:15:30.280Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "lookout_hornbill_sunbird_0221",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:50:09.324Z",
+            "modified": "2026-04-29T14:23:06.120Z",
             "description": "[Hornbill](https://attack.mitre.org/software/S1077) can collect voice notes and messages from WhatsApp, if installed.(Citation: lookout_hornbill_sunbird_0221)",
             "relationship_type": "uses",
             "source_ref": "malware--15d78a95-af6a-4b06-8dae-76bedb0ec5a1",
             "target_ref": "attack-pattern--702055ac-4e54-4ae9-9527-e23a38e0b160",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

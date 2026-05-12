@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7ea96ecd-e83b-45bc-8f6f-d31053456c15",
+    "id": "bundle--f63fd604-26d3-4deb-965d-9f62bf7c771c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--be99408a-dc65-41a0-83db-235d8495e55c",
             "created": "2020-08-31T14:56:42.514Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 Valak July 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:07:56.438Z",
+            "modified": "2026-04-29T14:23:06.186Z",
             "description": "[Valak](https://attack.mitre.org/software/S0476) has returned C2 data as encoded ASCII.(Citation: Unit 42 Valak July 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--ade37ada-14af-4b44-b36c-210eec255d53",
             "target_ref": "attack-pattern--04fd5427-79c7-44ea-ae13-11b24778ff1c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

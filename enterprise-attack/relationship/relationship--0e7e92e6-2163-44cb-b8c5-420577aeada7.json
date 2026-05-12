@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--32325f6f-71c5-4cc5-a00a-0bf0e509891b",
+    "id": "bundle--4394a3e5-d329-417d-8617-448a5b49ecdd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T14:39:48.634Z",
+            "modified": "2026-04-29T14:23:05.923Z",
             "description": "[Tsundere Botnet](https://attack.mitre.org/software/S9034) has checked the victim machine\u2019s location to avoid infecting in the Commonwealth of Independent States (CIS) region.(Citation: SecureListUbiedo_Tsundere_Nov2025) ",
             "relationship_type": "uses",
             "source_ref": "malware--18f5f8c6-bba5-4aba-93e7-3539fe565883",

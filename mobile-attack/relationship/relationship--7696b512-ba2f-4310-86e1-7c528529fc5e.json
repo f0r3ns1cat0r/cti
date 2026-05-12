@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--99e2c607-fe7b-47a1-9297-29593b64e596",
+    "id": "bundle--5ec8cda8-37bb-4205-8b59-a4f29fe5dfa6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7696b512-ba2f-4310-86e1-7c528529fc5e",
             "created": "2020-09-15T15:18:12.425Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason FakeSpy",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:29:18.732Z",
+            "modified": "2026-04-29T14:23:06.087Z",
             "description": "[FakeSpy](https://attack.mitre.org/software/S0509) stores its malicious code in encrypted asset files that are decrypted at runtime. Newer versions of [FakeSpy](https://attack.mitre.org/software/S0509) encrypt the C2 address.(Citation: Cybereason FakeSpy)",
             "relationship_type": "uses",
             "source_ref": "malware--838f647e-8ff8-48bd-bbd5-613cee7736cb",
             "target_ref": "attack-pattern--d13fa042-8f26-44e1-a2a8-af0bf8e2ac9a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f0838feb-e19d-43a9-b6f4-86b2b4d03f88",
+    "id": "bundle--d4f7eff7-e5af-4945-9ef4-a21deaa847d8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--abb4a85a-d98a-46f7-965b-48d9f88fe9b6",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Buckeye",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T15:46:53.923Z",
+            "modified": "2026-04-29T14:23:06.159Z",
             "description": "[RemoteCMD](https://attack.mitre.org/software/S0166) can execute commands remotely by creating a new schedule task on the remote system(Citation: Symantec Buckeye)",
             "relationship_type": "uses",
             "source_ref": "malware--4e6b9625-bbda-4d96-a652-b3bb45453f26",

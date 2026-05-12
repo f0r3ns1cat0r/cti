@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f23c186e-001c-484c-9115-3e2d6608ff45",
+    "id": "bundle--94752d1c-0d18-452a-8067-a078a02f3f30",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--38248217-7c11-4ae9-a13e-7296dead0df8",
             "created": "2019-01-29T18:44:04.949Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "DigiTrust Agent Tesla Jan 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:43:04.137Z",
+            "modified": "2026-04-29T14:23:05.996Z",
             "description": "[Agent Tesla](https://attack.mitre.org/software/S0331) can collect the timestamp from the victim\u2019s machine.(Citation: DigiTrust Agent Tesla Jan 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--e7a5229f-05eb-440e-b982-9a6d2b2b87c8",
             "target_ref": "attack-pattern--f3c544dc-673c-4ef3-accb-53229f1ae077",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

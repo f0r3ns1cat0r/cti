@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ffb22ec8-34d3-441f-84d3-2184af3831cc",
+    "id": "bundle--0fbdb765-9903-42a4-8dcc-72c01a30d9b1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T20:07:52.934Z",
+            "modified": "2026-05-12T15:12:00.723Z",
             "name": "Create Snapshot",
             "description": "An adversary may create a snapshot or data backup within a cloud account to evade defenses. A snapshot is a point-in-time copy of an existing cloud compute component such as a virtual machine (VM), virtual hard drive, or volume. An adversary may leverage permissions to create a snapshot in order to bypass restrictions that prevent access to existing compute service infrastructure, unlike in [Revert Cloud Instance](https://attack.mitre.org/techniques/T1578/004) where an adversary may revert to a snapshot to evade detection and remove evidence of their presence.\n\nAn adversary may [Create Cloud Instance](https://attack.mitre.org/techniques/T1578/002), mount one or more created snapshots to that instance, and then apply a policy that allows the adversary access to the created instance, such as a firewall policy that allows them inbound and outbound SSH access.(Citation: Mandiant M-Trends 2020)",
             "kill_chain_phases": [

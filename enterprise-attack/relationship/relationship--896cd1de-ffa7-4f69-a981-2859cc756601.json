@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4af9f94e-8c37-4b0b-887b-5ad39dfa2ec4",
+    "id": "bundle--9bf32a90-54a5-4a76-aeed-bc6bd95e6fab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--896cd1de-ffa7-4f69-a981-2859cc756601",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ClearSky Wilted Tulip July 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:58:17.375Z",
+            "modified": "2026-04-29T14:23:06.113Z",
             "description": "[CopyKittens](https://attack.mitre.org/groups/G0052) uses rundll32 to load various tools on victims, including a lateral movement tool named Vminst, Cobalt Strike, and shellcode.(Citation: ClearSky Wilted Tulip July 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
             "target_ref": "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fd3f6ed5-b184-4b9d-8404-31500da47ab8",
+    "id": "bundle--e6d1ef37-bf92-4b44-ac92-a44ebb3cdff9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--24a9d604-0e19-4458-953b-7985b862bfaa",
             "created": "2022-10-10T19:44:47.556Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Bitdefender FunnyDream Campaign November 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:02:45.787Z",
+            "modified": "2026-04-29T14:23:05.955Z",
             "description": "[ccf32](https://attack.mitre.org/software/S1043) can upload collected data and files to an FTP server.(Citation: Bitdefender FunnyDream Campaign November 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--a394448a-4576-41b8-81cc-9b61abad94ab",
             "target_ref": "attack-pattern--fb8d023d-45be-47e9-bc51-f56bcae6435b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

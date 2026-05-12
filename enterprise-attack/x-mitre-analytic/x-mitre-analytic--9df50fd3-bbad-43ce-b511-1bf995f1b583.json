@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--af5154b4-8dd8-4c48-97bb-a17b4576db5c",
+    "id": "bundle--de64b3f7-6977-4bdc-bfc8-710480f93e2a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:32:41.903Z",
+            "modified": "2026-05-12T16:30:18.381Z",
             "name": "Analytic 2040",
             "description": "Detects crafted activity resulting in crashes or impairment of endpoint security extensions, network filters, launch daemons, or telemetry agents. Correlates process activity, system extension state changes, and telemetry interruption.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

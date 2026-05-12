@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8658b9c0-734a-49d4-86b8-a79e249d5833",
+    "id": "bundle--7064e4ae-b91d-4155-b31f-05ffc07b89c5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f24d37c0-283d-4f37-8278-07fc75cc0e94",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Buckeye",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T15:46:53.924Z",
+            "modified": "2026-04-29T14:23:06.254Z",
             "description": "(Citation: Symantec Buckeye)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b34cfbf0-a095-443c-8685-22f89aae1000",
+    "id": "bundle--2511b144-13b9-43fc-b209-4a128be729a8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T18:25:04.263Z",
+            "modified": "2026-04-29T14:23:06.105Z",
             "description": "[HiddenFace](https://attack.mitre.org/software/S9023) has used dynamic domain generation algorithms in C2.(Citation: ESET HiddenFace 2024)(Citation: Trend Micro Earth Kasha NOV 2024)(Citation: Trend Micro Earth Kasha Updates APR 2025)(Citation: JPCERT MirrorFace JUL 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--9edc41d1-a13d-4acf-b400-d47fb2f6809d",

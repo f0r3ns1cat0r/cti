@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5754d25b-620d-44d7-8ffc-4a35fbd32e48",
+    "id": "bundle--29171285-8b6a-4d58-9f0c-66288d4b3afb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T00:27:18.707Z",
+            "modified": "2026-04-29T14:23:06.196Z",
             "description": "[BRICKSTORM](https://attack.mitre.org/software/S9015) has leveraged DNS web services to resolve C2 IP addresses including sslip.io and nip.io.(Citation: Google BRICKSTORM September 2025)  [BRICKSTORM](https://attack.mitre.org/software/S9015) has also utilized Cloudflare Workers for C2 communications.(Citation: Google BRICKSTORM September 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--0450ed20-e9a7-4799-b601-2f2710300796",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--42bcbf78-7442-48b9-bf71-5a96894feb1a",
+    "id": "bundle--852fc65f-66c2-4dcd-9ecb-f58f0858927a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--72ff8ebb-a0fe-4ea0-9e4a-0f9aa2d48bc5",
             "created": "2021-02-08T21:46:51.456Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CheckPoint Volatile Cedar March 2015",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:54:00.340Z",
+            "modified": "2026-04-29T14:23:06.082Z",
             "description": "(Citation: CheckPoint Volatile Cedar March 2015)(Citation: ClearSky Lebanese Cedar Jan 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--b2e34388-6938-4c59-a702-80dc219e15e3",
             "target_ref": "malware--6a21e3a4-5ffe-4581-af9a-6a54c7536f44",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

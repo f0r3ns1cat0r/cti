@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--69b27a1a-59b7-41b6-a1d8-0cd708d371d4",
+    "id": "bundle--3045b368-6ff9-49bf-8ced-6eac679ecd4a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bfe5c795-c95c-4387-b3d9-813078e7e99a",
             "created": "2023-01-23T19:52:59.725Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Prestige ransomware October 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:44:09.718Z",
+            "modified": "2026-04-29T14:23:06.188Z",
             "description": "[Prestige](https://attack.mitre.org/software/S1058) can traverse the file system to discover files to encrypt by identifying specific extensions defined in a hardcoded list.(Citation: Microsoft Prestige ransomware October 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--1da748a5-875d-4212-9222-b4c23ab861be",
             "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

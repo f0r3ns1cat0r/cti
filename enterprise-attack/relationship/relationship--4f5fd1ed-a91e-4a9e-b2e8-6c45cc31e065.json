@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f5872dae-9cbe-4593-bbc6-b067dc4a3836",
+    "id": "bundle--741c718c-c192-48a0-b67e-272908f26aba",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4f5fd1ed-a91e-4a9e-b2e8-6c45cc31e065",
             "created": "2020-09-24T14:20:39.243Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Dukes October 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:47:21.054Z",
+            "modified": "2026-04-29T14:23:06.033Z",
             "description": "[FatDuke](https://attack.mitre.org/software/S0512) can collect the user name, Windows version, computer name, and available space on discs from a compromised host.(Citation: ESET Dukes October 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--54a01db0-9fab-4d5f-8209-53cef8425f4a",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

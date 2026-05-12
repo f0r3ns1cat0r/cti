@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6a5e8a22-fa4b-4719-8b2d-4a2f7afc0a23",
+    "id": "bundle--7c724554-42c2-4be5-a7ef-991cce2c433b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T20:54:09.748Z",
+            "modified": "2026-04-29T14:23:05.917Z",
             "description": "During the [2025 Poland Wiper Attacks](https://attack.mitre.org/campaigns/C0063), the adversaries leveraged the native CLI of the targeted FortiGate device.(Citation: CERT Polska)",
             "relationship_type": "uses",
             "source_ref": "campaign--a6aba167-5ada-4812-9da1-912c0e73335d",

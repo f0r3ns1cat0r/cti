@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d5b9aae1-5acc-4975-8677-78e872ef5af1",
+    "id": "bundle--95cfe236-d4c2-447c-9c85-6df6a6d92b4e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4ef9490e-e347-4f4e-aa6f-c082e02349fc",
             "created": "2020-11-06T18:40:38.466Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT32 May 2017",
@@ -48,14 +49,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:47:16.372Z",
+            "modified": "2026-04-29T14:23:06.033Z",
             "description": "(Citation: FireEye APT32 May 2017)(Citation: Volexity OceanLotus Nov 2017)(Citation: Cybereason Oceanlotus May 2017)(Citation: Cybereason Cobalt Kitty 2017)(Citation: Volexity Ocean Lotus November 2020)(Citation: Amnesty Intl. Ocean Lotus February 2021)(Citation: Unit 42 KerrDown February 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

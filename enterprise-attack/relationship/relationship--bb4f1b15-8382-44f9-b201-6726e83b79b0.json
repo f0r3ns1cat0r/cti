@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--55c03436-04c8-4a16-92ff-07d0763eeda5",
+    "id": "bundle--ce60752d-6b59-453d-91f2-4d0602c1ae24",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bb4f1b15-8382-44f9-b201-6726e83b79b0",
             "created": "2019-09-03T18:31:09.713Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "LOLBAS Esentutl",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:07:22.105Z",
+            "modified": "2026-04-29T14:23:06.181Z",
             "description": "[esentutl](https://attack.mitre.org/software/S0404) can be used to copy files from a given URL.(Citation: LOLBAS Esentutl)",
             "relationship_type": "uses",
             "source_ref": "tool--c256da91-6dd5-40b2-beeb-ee3b22ab3d27",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

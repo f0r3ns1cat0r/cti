@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6cc36904-d02f-4426-bea9-d4962682f47c",
+    "id": "bundle--d7c4e9a7-206e-4c84-bedf-058776b9df84",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cf8967c7-1284-4484-b4bd-62ad0a6c5018",
             "created": "2025-10-22T17:36:36.106Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Socket BeaverTail XORIndex HexEval Contagious Interview July 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T17:36:36.106Z",
+            "modified": "2026-04-29T14:23:06.209Z",
             "description": "[XORIndex Loader](https://attack.mitre.org/software/S1248) has used HTTPS POST to communicate with C2.(Citation: Socket BeaverTail XORIndex HexEval Contagious Interview July 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--fedd9fcd-1f9c-4be0-9d84-f31e88eb6664",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c6baa4f5-54df-44c4-922d-3f1fc339a07d",
+    "id": "bundle--062f62fc-4b98-458b-90ae-d196f51fadaa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:31:55.528Z",
+            "modified": "2026-05-12T16:30:18.378Z",
             "name": "Analytic 1372",
             "description": "Correlates control-plane API actions disabling cloud-native monitoring or sensor agents (CloudTrail, GuardDuty, Security Hub, Defender, monitoring agents), role abuse preceding disablement, or instance agent uninstall events",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--17b9bf15-9aad-4363-937a-62a16838f4b8",
+    "id": "bundle--6b36e815-6e8e-488d-bad3-1da8881ae537",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b6c175a3-40a7-4711-886f-c80cb6cd8360",
             "created": "2025-01-29T21:27:20.706Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Zscaler Kimsuky TRANSLATEXT",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:41:46.392Z",
+            "modified": "2026-04-29T14:23:06.175Z",
             "description": "[TRANSLATEXT](https://attack.mitre.org/software/S1201) has exfiltrated collected email addresses to the C2 server.(Citation: Zscaler Kimsuky TRANSLATEXT) ",
             "relationship_type": "uses",
             "source_ref": "malware--4b72b6a7-72be-45d9-af02-fdcf0fc6d358",
             "target_ref": "attack-pattern--1608f3e1-598a-42f4-a01a-2e252e81728f",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

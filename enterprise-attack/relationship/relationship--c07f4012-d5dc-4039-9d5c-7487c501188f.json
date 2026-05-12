@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f65fe6a5-28f4-4f1d-8dae-6f49737c5ac5",
+    "id": "bundle--38f84e63-de43-4a43-8c5f-e2d604328c10",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:09:47.537Z",
+            "modified": "2026-04-29T14:23:06.188Z",
             "description": "[RunningRAT](https://attack.mitre.org/software/S0253) contains code to clear event logs.(Citation: McAfee Gold Dragon)",
             "relationship_type": "uses",
             "source_ref": "malware--60d50676-459a-47dd-92e9-a827a9fe9c58",

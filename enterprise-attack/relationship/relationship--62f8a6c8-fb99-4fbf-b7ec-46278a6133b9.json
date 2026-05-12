@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6846866d-15b3-4e3a-ad1b-b4ce7701323b",
+    "id": "bundle--7da7ae04-ccd0-46f7-9ba0-7427952e047a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T09:30:25.585Z",
+            "modified": "2026-04-29T14:23:06.059Z",
             "description": "[PureCrypter](https://attack.mitre.org/software/S9019) has used multiple file names to appear legitimate such as firefox\\firefox.exe, Google\\chrome.exe, and Taskmgr.exe.(Citation: Zscaler PureCrypter JUN 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--6f22487c-dbbf-4a5b-85ca-a8c85e8f2f80",

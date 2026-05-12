@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5b833164-409c-4a30-8637-a29e2dddc308",
+    "id": "bundle--59daf091-bd91-4ea4-b192-4216b8be0450",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--875a622a-445e-46fe-8959-8d205c88c728",
             "created": "2020-07-30T18:52:23.886Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Bitdefender StrongPity June 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:57:49.964Z",
+            "modified": "2026-04-29T14:23:06.110Z",
             "description": "[PROMETHIUM](https://attack.mitre.org/groups/G0056) has created new services and modified existing services for persistence.(Citation: Bitdefender StrongPity June 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--efed95ba-d7e8-47ff-8c53-99c42426ee7c",
             "target_ref": "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

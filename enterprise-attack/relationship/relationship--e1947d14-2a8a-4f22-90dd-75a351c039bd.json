@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--16a27891-3ad8-4331-8533-fb8e4dd1e99f",
+    "id": "bundle--8565530f-8258-4789-84e4-b792b0a0cf00",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T12:53:50.176Z",
+            "modified": "2026-04-29T14:23:06.233Z",
             "description": "[IronWind](https://attack.mitre.org/software/S9029) has used a .NET DLL named \"exit-DN4-core.dll\" to terminate malicious processes running on victim's systems.(Citation: Check Point Wirte NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--089aa00a-99ac-46b4-9cf8-4224d463566d",

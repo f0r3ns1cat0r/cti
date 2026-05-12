@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c6763744-8b7f-4956-bd15-b7175f3a2ed2",
+    "id": "bundle--9adf8f81-a609-42fc-9f0f-9b6ce628dd53",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9e3f33db-5076-403b-b71e-71d898389e0b",
             "created": "2025-10-22T02:28:31.983Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "US-CERT KEYMARBLE Aug 2018",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T02:28:31.983Z",
+            "modified": "2026-04-29T14:23:06.141Z",
             "description": "[KEYMARBLE](https://attack.mitre.org/software/S0271) has the capability to collect information on disk devices.(Citation: US-CERT KEYMARBLE Aug 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--11e36d5b-6a92-4bf9-8eb7-85eb24f59e22",

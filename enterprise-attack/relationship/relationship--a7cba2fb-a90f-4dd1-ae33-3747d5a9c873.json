@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5dcc27ca-4773-483f-8cb3-bd0d3f48c8b7",
+    "id": "bundle--27d60b59-7198-45e5-92d1-f7e552640265",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a7cba2fb-a90f-4dd1-ae33-3747d5a9c873",
             "created": "2022-03-25T14:32:35.649Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Donut Github",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:04:00.991Z",
+            "modified": "2026-04-29T14:23:06.154Z",
             "description": "[Donut](https://attack.mitre.org/software/S0695) can generate code modules that enable in-memory execution of VBScript, JScript, EXE, DLL, and dotNET payloads.(Citation: Donut Github)",
             "relationship_type": "uses",
             "source_ref": "tool--a7b5df47-73bb-4d47-b701-869f185633a6",
             "target_ref": "attack-pattern--4933e63b-9b77-476e-ab29-761bc5b7d15a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4f6b3716-de57-4ef8-bab9-6f4d3046bdfd",
+    "id": "bundle--5ad9d775-1b03-4545-8836-83808252c714",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bc4b8f68-3570-474e-8157-225afddda463",
             "created": "2019-05-28T19:59:45.865Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Proofpoint TA505 Mar 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:07:30.194Z",
+            "modified": "2026-04-29T14:23:06.182Z",
             "description": "[FlawedAmmyy](https://attack.mitre.org/software/S0381) has used SEAL encryption during the initial C2 handshake.(Citation: Proofpoint TA505 Mar 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--432555de-63bf-4f2a-a3fa-f720a4561078",
             "target_ref": "attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

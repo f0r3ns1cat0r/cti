@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--49578a4c-c27c-47e1-b4b3-e3506e66d500",
+    "id": "bundle--5a6313ba-0b2e-410f-8601-66a09ae9e475",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--aa2d7045-fbad-4b5c-a24e-fd904e089875",
             "created": "2025-03-22T15:49:32.679Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Fortinet LummaStealer 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:38:32.142Z",
+            "modified": "2026-04-29T14:23:06.156Z",
             "description": "[Lumma Stealer](https://attack.mitre.org/software/S1213) has used SmartAssembly to obfuscate .NET payloads.(Citation: Fortinet LummaStealer 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--674c514f-e485-47a8-9d49-1aaa70de155b",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

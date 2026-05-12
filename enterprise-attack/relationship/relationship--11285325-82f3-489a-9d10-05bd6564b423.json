@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bda07cea-cea9-4361-bc6b-63b276d3e0a0",
+    "id": "bundle--55682e1f-07fe-41a9-8c97-c9922b8d27d5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--11285325-82f3-489a-9d10-05bd6564b423",
             "created": "2023-01-23T19:41:32.908Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Prestige ransomware October 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:57:18.696Z",
+            "modified": "2026-04-29T14:23:05.927Z",
             "description": "[Prestige](https://attack.mitre.org/software/S1058) has been deployed using the Default Domain Group Policy Object from an Active Directory Domain Controller.(Citation: Microsoft Prestige ransomware October 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--1da748a5-875d-4212-9222-b4c23ab861be",
             "target_ref": "attack-pattern--5d2be8b9-d24c-4e98-83bf-2f5f79477163",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

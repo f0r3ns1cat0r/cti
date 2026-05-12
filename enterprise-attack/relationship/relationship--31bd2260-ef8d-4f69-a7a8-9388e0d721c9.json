@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--18a02323-178b-419b-b1bc-519ccf7e7002",
+    "id": "bundle--2f592ef3-3937-44b0-ac77-da5181b22421",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--31bd2260-ef8d-4f69-a7a8-9388e0d721c9",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft PLATINUM April 2016",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:41:48.369Z",
+            "modified": "2026-04-29T14:23:05.982Z",
             "description": "[JPIN](https://attack.mitre.org/software/S0201)'s installer/uninstaller component deletes itself if it encounters a version of Windows earlier than Windows XP or identifies security-related processes running.(Citation: Microsoft PLATINUM April 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--de6cb631-52f6-4169-a73b-7965390b0c30",
             "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

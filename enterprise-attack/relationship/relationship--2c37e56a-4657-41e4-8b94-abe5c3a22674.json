@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b436f4f2-04f0-4c4d-b3ba-04f154e1a282",
+    "id": "bundle--1e7f2634-b0e4-4618-b3ba-8c76a843875e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T16:29:37.750Z",
+            "modified": "2026-04-29T14:23:05.964Z",
             "description": "[Fooder](https://attack.mitre.org/software/S9033)\u202fhas used the `DuplicateTokenEx` API to duplicate the token of a specified process, and `CreateProcessAsUserA` to execute its payload.(Citation: ESET_MuddyWater_Dec2025)\u202f\u202f\u202f\u202f\u202f\u202f",
             "relationship_type": "uses",
             "source_ref": "malware--7c8865dc-1bf9-49ce-b5f2-f15abde0909a",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bc4313e5-a06a-4588-9402-23dd6e708e7e",
+    "id": "bundle--b3130d89-cda2-4ae9-9724-fbcda905c99a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--72b30ddb-137c-4799-bacd-ab17aa2d01fc",
             "created": "2020-11-10T16:04:00.641Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "DHS/CISA Ransomware Targeting Healthcare October 2020",
@@ -38,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T16:26:04.866Z",
+            "modified": "2026-04-29T14:23:06.082Z",
             "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used Rubeus, MimiKatz Kerberos module, and the Invoke-Kerberoast cmdlet to steal AES hashes.(Citation: DFIR Ryuk's Return October 2020)(Citation: FireEye KEGTAP SINGLEMALT October 2020)(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)(Citation: DFIR Ryuk 2 Hour Speed Run November 2020)(Citation: Mandiant FIN12 Oct 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",

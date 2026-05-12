@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cda1e8c3-4ec4-4b84-9dc1-2fd84450ab06",
+    "id": "bundle--b691a756-c515-4d05-8c48-201c8d942f3a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T21:11:09.566Z",
+            "modified": "2026-04-29T14:23:05.928Z",
             "description": "[HeartCrypt](https://attack.mitre.org/software/S9018) can append a BMP header to encoded malicious payloads to masquerade them as BMP files.(Citation: Palo Alto HeartCrypt DEC 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--148f947c-aabd-4ba8-b6a3-22b296855119",

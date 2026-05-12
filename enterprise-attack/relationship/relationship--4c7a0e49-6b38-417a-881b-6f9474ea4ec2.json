@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cd6d43d7-c2e0-4bc6-bc86-dd49ddbc38c9",
+    "id": "bundle--ef7b0b1b-92e1-4d02-a021-7517266be3e6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4c7a0e49-6b38-417a-881b-6f9474ea4ec2",
             "created": "2020-07-15T20:23:36.522Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Prevx Carberp March 2011",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:13:24.367Z",
+            "modified": "2026-04-29T14:23:06.029Z",
             "description": "[Carberp](https://attack.mitre.org/software/S0484) has captured credentials when a user performs login through a SSL session.(Citation: Prevx Carberp March 2011)(Citation: Trusteer Carberp October 2010)",
             "relationship_type": "uses",
             "source_ref": "malware--bbcd7a02-ef24-4171-ac94-a93540173b94",
             "target_ref": "attack-pattern--544b0346-29ad-41e1-a808-501bb4193f47",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

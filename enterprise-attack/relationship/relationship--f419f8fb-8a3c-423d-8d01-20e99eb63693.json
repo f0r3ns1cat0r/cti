@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--79dc0887-ada0-4ed2-a863-f3f3bb0d6d1f",
+    "id": "bundle--bc9f5863-6ffe-4aee-8a8a-cbdc8248ee9f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f419f8fb-8a3c-423d-8d01-20e99eb63693",
             "created": "2024-08-08T20:07:33.310Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA Iran Albanian Attacks September 2022",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:57:40.015Z",
+            "modified": "2026-04-29T14:23:06.257Z",
             "description": "[ZeroCleare](https://attack.mitre.org/software/S1151) can corrupt the file system and wipe the system drive on targeted hosts.(Citation: Mandiant ROADSWEEP August 2022)(Citation: CISA Iran Albanian Attacks September 2022)(Citation: IBM ZeroCleare Wiper December 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--8d8518db-0f52-4f3c-8017-01389a8522bb",
             "target_ref": "attack-pattern--0af0ca99-357d-4ba1-805f-674fdfb7bef9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

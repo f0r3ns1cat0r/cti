@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c16c86d4-4237-4fd8-86e9-e522861e3597",
+    "id": "bundle--6af26aff-9c39-4430-84ba-a266ad899465",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--785e8778-84d2-46a5-b96a-ea71b1adc650",
             "created": "2023-08-14T14:41:21.571Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Gigamon BADHATCH Jul 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:25:13.012Z",
+            "modified": "2026-04-29T14:23:06.089Z",
             "description": "[BADHATCH](https://attack.mitre.org/software/S1081) has the ability to load a second stage malicious DLL file onto a compromised machine.(Citation: Gigamon BADHATCH Jul 2019) ",
             "relationship_type": "uses",
             "source_ref": "malware--3553b49d-d4ae-4fb6-ab17-0adbc520c888",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

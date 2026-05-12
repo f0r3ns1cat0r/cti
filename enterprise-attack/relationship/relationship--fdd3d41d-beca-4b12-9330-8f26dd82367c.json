@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d5e28df1-8912-4593-b9b5-ac45022c2304",
+    "id": "bundle--c495a5ef-f3c7-4d62-a726-187f0e588a4c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fdd3d41d-beca-4b12-9330-8f26dd82367c",
             "created": "2023-03-26T14:57:31.894Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Volexity SolarWinds",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:00:10.819Z",
+            "modified": "2026-04-29T14:23:06.270Z",
             "description": "During the [SolarWinds Compromise](https://attack.mitre.org/campaigns/C0024), [APT29](https://attack.mitre.org/groups/G0016) used HTTP for C2 and data exfiltration.(Citation: Volexity SolarWinds)",
             "relationship_type": "uses",
             "source_ref": "campaign--808d6b30-df4e-4341-8248-724da4bac650",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

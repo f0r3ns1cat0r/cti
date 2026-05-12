@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--45cf1321-7977-4032-8f29-fe1aef9027d2",
+    "id": "bundle--bfa6efaa-2270-43e5-8541-d88b75444b11",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:40:23.784Z",
+            "modified": "2026-04-29T14:23:06.169Z",
             "description": "Configure default account policy to enable logging. Manage policies to ensure only necessary users have permissions to make changes to logging policies.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317",

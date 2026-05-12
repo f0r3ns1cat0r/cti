@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a521a2d4-c620-4aca-923d-fce128457a57",
+    "id": "bundle--c24e0299-4890-45e2-8642-f89ee3a08b42",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--eef8fb1f-3e8c-44d7-b0d1-1fbad81e392f",
             "created": "2019-07-16T14:33:12.107Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky Triada June 2016",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:52:25.404Z",
+            "modified": "2026-04-29T14:23:06.250Z",
             "description": "[Triada](https://attack.mitre.org/software/S0424) can redirect ad banner URLs on websites visited by the user to specific ad URLs.(Citation: Google Triada June 2019)(Citation: Kaspersky Triada June 2016) ",
             "relationship_type": "uses",
             "source_ref": "malware--f082fc59-0317-49cf-971f-a1b6296ebb52",
             "target_ref": "attack-pattern--a8e971b8-8dc7-4514-8249-ae95427ec467",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

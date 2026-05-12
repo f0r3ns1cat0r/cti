@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1274e112-68cf-47f8-b9d8-665aa008f55a",
+    "id": "bundle--06f30de6-d490-47ec-9f89-a4ffc124d4e1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-16T21:48:51.316Z",
+            "modified": "2026-05-12T16:30:18.381Z",
             "name": "Analytic 1653",
             "description": "The defender observes a newly enrolled or recently activated device presenting abnormal integrity, hardware-backed attestation, or firmware/build relationships at the management plane, followed by privileged or system-context access to protected resources or framework paths, and then outbound communication inconsistent with setup state, lock state, or recent user interaction. The causal sequence is strongest when the device has not yet reached a normal trusted posture but still exhibits system-level capability use or network activity.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

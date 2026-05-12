@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--573817c7-c114-4e5b-b425-0673b36ef142",
+    "id": "bundle--668611a9-8a8a-48c2-93e3-706ea9c93e71",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5123b96d-ad7e-43e5-8de6-88bcd47b1ddb",
             "created": "2025-08-06T15:23:31.148Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lab52 MUSTANG PANDA PUBLOAD MAY 2023",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-25T14:10:06.696Z",
+            "modified": "2026-04-29T14:23:06.036Z",
             "description": "[PUBLOAD](https://attack.mitre.org/software/S1228) has been delivered as compressed files within ZIP files to victims.(Citation: Lab52 MUSTANG PANDA PUBLOAD MAY 2023)(Citation: Palo Alto Networks, Unit 42)",
             "relationship_type": "uses",
             "source_ref": "malware--3824852d-1957-4712-9da0-38143723c060",

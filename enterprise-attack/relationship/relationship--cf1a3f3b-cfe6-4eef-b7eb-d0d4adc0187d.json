@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7b6f52fc-3d7d-4fd1-bb25-36e0459d4799",
+    "id": "bundle--22e750ff-d4a7-4f4a-b985-331a271c6629",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cf1a3f3b-cfe6-4eef-b7eb-d0d4adc0187d",
             "created": "2025-10-19T13:47:05.613Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Contagious Interview BeaverTail InvisibleFerret February 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-19T13:47:05.613Z",
+            "modified": "2026-04-29T14:23:06.208Z",
             "description": "[InvisibleFerret](https://attack.mitre.org/software/S1245) has staged data in consolidated folders prior to exfiltration.(Citation: ESET Contagious Interview BeaverTail InvisibleFerret February 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--1dac60f2-7d53-4a3e-95d1-cb2e875d5491",

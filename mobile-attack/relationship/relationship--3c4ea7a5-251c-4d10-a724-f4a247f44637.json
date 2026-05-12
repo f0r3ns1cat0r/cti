@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f6b4a61a-a2ca-4463-843c-804b36d2e4af",
+    "id": "bundle--985eb584-fa65-4191-bac9-acd09fd05911",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--3c4ea7a5-251c-4d10-a724-f4a247f44637",
             "created": "2025-04-14T16:32:24.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "LinkedIn Dmitry LightSpy 2025",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:48:06.031Z",
+            "modified": "2026-04-29T14:23:06.005Z",
             "description": "Using an XOR-chain algorithm, [LightSpy](https://attack.mitre.org/software/S1185) decrypts an embedded configuration blob containing URLs for jailbreak components and next-stage payloads. It also decrypts modules in memory and on disk using AES-ECB with the hardcoded key `3e2717e8b3873b29`.(Citation: Threatfabric LightSpy 2023)(Citation: MelikovBlackBerry LightSpy 2024)(Citation: Threatfabric LightSpy 2024)(Citation: LinkedIn Dmitry LightSpy 2025) Additionally, [LightSpy](https://attack.mitre.org/software/S1185)\u2019s plugins have been encrypted during transmission.(Citation: LinkedIn Dmitry LightSpy 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--5b5d1e6c-e7de-4b46-ab8f-8556e8745927",
             "target_ref": "attack-pattern--d13fa042-8f26-44e1-a2a8-af0bf8e2ac9a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

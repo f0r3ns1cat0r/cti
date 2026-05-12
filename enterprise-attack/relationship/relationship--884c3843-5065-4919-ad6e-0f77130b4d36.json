@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f7583ff5-35aa-4b23-b1f5-c2ab50eba5d8",
+    "id": "bundle--b66faff9-d3f8-4874-8650-a86c3d5c9833",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--884c3843-5065-4919-ad6e-0f77130b4d36",
             "created": "2022-05-27T18:09:25.201Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Nobelium Admin Privileges",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:29:33.770Z",
+            "modified": "2026-04-29T14:23:06.111Z",
             "description": "Require MFA for all delegated administrator accounts.(Citation: Microsoft Nobelium Admin Privileges)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--b045d015-6bed-4490-bd38-56b41ece59a0",
             "target_ref": "attack-pattern--9fa07bef-9c81-421e-a8e5-ad4366c5a925",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

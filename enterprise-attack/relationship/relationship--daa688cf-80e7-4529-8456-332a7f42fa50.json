@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d45114ba-c3ad-40bb-a86f-5b5298e197ea",
+    "id": "bundle--fbc36591-c30c-49ff-8352-6dc78a313af3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--daa688cf-80e7-4529-8456-332a7f42fa50",
             "created": "2025-10-19T16:46:34.431Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Zscaler ContagiousInterview BeaverTail InvisibleFerret November 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-19T16:46:34.431Z",
+            "modified": "2026-04-29T14:23:06.224Z",
             "description": "[InvisibleFerret](https://attack.mitre.org/software/S1245) has established persistence within Windows devices by creating a .bat file \u201cqueue.bat\u201d within the Startup folder to run a Python script.(Citation: Zscaler ContagiousInterview BeaverTail InvisibleFerret November 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--1dac60f2-7d53-4a3e-95d1-cb2e875d5491",

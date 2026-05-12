@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4534912f-5d71-4a41-b336-9f1a1df350f8",
+    "id": "bundle--7c764eec-5559-4eb4-bf3e-92b7299cae13",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-15T20:28:24.292Z",
+            "modified": "2026-05-12T15:12:00.717Z",
             "name": "Clear Persistence",
             "description": "Adversaries may clear artifacts associated with previously established persistence on a host system to remove evidence of their activity. This may involve various actions, such as removing services, deleting executables, [Modify Registry](https://attack.mitre.org/techniques/T1112), [Plist File Modification](https://attack.mitre.org/techniques/T1647), or other methods of cleanup to prevent defenders from collecting evidence of their persistent presence.(Citation: Cylance Dust Storm) Adversaries may also delete accounts previously created to maintain persistence (i.e. [Create Account](https://attack.mitre.org/techniques/T1136)).(Citation: Talos - Cisco Attack 2022)\n\nIn some instances, artifacts of persistence may also be removed once an adversary\u2019s persistence is executed in order to prevent errors with the new instance of the malware.(Citation: NCC Group Team9 June 2020)",
             "kill_chain_phases": [

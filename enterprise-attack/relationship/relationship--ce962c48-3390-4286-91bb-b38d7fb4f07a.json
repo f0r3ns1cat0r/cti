@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4577184f-63cb-4a62-9167-33afec11cbf5",
+    "id": "bundle--bdf940a8-8ec5-4af2-9c03-924f178c827b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ce962c48-3390-4286-91bb-b38d7fb4f07a",
             "created": "2019-05-28T16:25:35.420Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "IBM TA505 April 2020",
@@ -58,7 +59,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T15:50:34.670Z",
+            "modified": "2026-04-29T14:23:06.208Z",
             "description": "[TA505](https://attack.mitre.org/groups/G0092) has used spearphishing emails with malicious attachments to initially compromise victims.(Citation: Proofpoint TA505 Sep 2017)(Citation: Proofpoint TA505 June 2018)(Citation: Proofpoint TA505 Jan 2019)(Citation: Cybereason TA505 April 2019)(Citation: ProofPoint SettingContent-ms July 2018)(Citation: Proofpoint TA505 Mar 2018)(Citation: Trend Micro TA505 June 2019)(Citation: Proofpoint TA505 October 2019)(Citation: IBM TA505 April 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7eda3dd8-b09b-4705-8090-c2ad9fb8c14d",

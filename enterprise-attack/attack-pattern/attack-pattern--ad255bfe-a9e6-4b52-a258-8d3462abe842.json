@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d6323f88-fbea-4e6d-869e-b351cc4b4302",
+    "id": "bundle--c9067fbf-ba6e-47b6-88b9-6c739f7941ce",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:49:13.380Z",
+            "modified": "2026-05-12T15:12:00.707Z",
             "name": "Data Obfuscation",
             "description": "Adversaries may obfuscate command and control traffic to make it more difficult to detect.(Citation: Bitdefender FunnyDream Campaign November 2020) Command and control (C2) communications are hidden (but not necessarily encrypted) in an attempt to make the content more difficult to discover or decipher and to make the communication less conspicuous and hide commands from being seen. This encompasses many methods, such as adding junk data to protocol traffic, using steganography, or impersonating legitimate protocols. ",
             "kill_chain_phases": [
@@ -38,7 +38,7 @@
                     "phase_name": "command-and-control"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "enterprise-attack"

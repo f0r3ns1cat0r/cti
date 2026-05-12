@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5e38cea2-7dd2-4daa-9d8b-9caa7a26d2f4",
+    "id": "bundle--e59cbf1d-86df-47b2-91a6-d78214f290e4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7e464bad-e53e-4300-9bff-62d91fb9bf00",
             "created": "2025-01-29T23:40:22.125Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MSFT-AI",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:26:53.197Z",
+            "modified": "2026-04-29T14:23:06.098Z",
             "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has used LLMs to better understand publicly reported vulnerabilities.(Citation: MSFT-AI)(Citation: OpenAI-CTI) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
             "target_ref": "attack-pattern--55fc4df0-b42c-479a-b860-7a6761bcaad0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

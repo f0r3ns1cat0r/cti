@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--24789cbc-a5e8-49e0-a684-2ea7dfb1735d",
+    "id": "bundle--53b65bc1-e213-432f-8d88-65b82260f484",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:41:58.007Z",
+            "modified": "2026-04-29T14:23:06.133Z",
             "description": "[Stuxnet](https://attack.mitre.org/software/S0603) reduces the integrity level of objects to allow write actions.(Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)",
             "relationship_type": "uses",
             "source_ref": "malware--088f1d6e-0783-47c6-9923-9c79b2af43d4",

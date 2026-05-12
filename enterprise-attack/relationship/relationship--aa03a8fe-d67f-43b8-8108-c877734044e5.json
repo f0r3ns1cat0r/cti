@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--76c4a8af-f973-4e00-9a15-369d903bdaf8",
+    "id": "bundle--cc00665b-bf73-4657-9c3d-3b07bcf5bd92",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T02:41:23.295Z",
+            "modified": "2026-04-29T14:23:06.156Z",
             "description": "[SPAWNCHIMERA](https://attack.mitre.org/software/S9024) has monitored and filtered network traffic on compromised edge devices, allowing legitimate traffic to pass while redirecting attacker-controlled traffic to infrastructure under adversary control. (Citation: Google UNC5221 Ivanti January 2025)(Citation: Google UNC5221 BRICKSTORM SPAWNCHIMERA April 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--d1974f35-0e06-478e-bc74-7530545d814b",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--00cfaa23-97b1-43c0-9fd9-ce55929272e8",
+    "id": "bundle--df7d72b1-f76c-4449-b5ad-0fc442b31f58",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1708aa35-a362-429f-be06-82dc106dfeb4",
             "created": "2019-04-19T16:27:45.836Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "US-CERT HOPLIGHT Apr 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:36:37.150Z",
+            "modified": "2026-04-29T14:23:05.936Z",
             "description": "[HOPLIGHT](https://attack.mitre.org/software/S0376) has multiple C2 channels in place in case one fails.(Citation: US-CERT HOPLIGHT Apr 2019)\t",
             "relationship_type": "uses",
             "source_ref": "malware--454fe82d-6fd2-4ac6-91ab-28a33fe01369",
             "target_ref": "attack-pattern--f24faf46-3b26-4dbb-98f2-63460498e433",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

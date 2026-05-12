@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a6fecc98-516a-4fbf-a495-84de62a4774c",
+    "id": "bundle--00433607-a69a-47dd-ad76-8668a661475a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--60137eb6-ed8c-41ce-bf75-6b45cdafe751",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Fidelis Turbo",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:18:47.830Z",
+            "modified": "2026-04-29T14:23:06.056Z",
             "description": "The [Derusbi](https://attack.mitre.org/software/S0021) malware supports timestomping.(Citation: Novetta-Axiom)(Citation: Fidelis Turbo)",
             "relationship_type": "uses",
             "source_ref": "malware--94379dec-5c87-49db-b36e-66abc0b81344",
             "target_ref": "attack-pattern--47f2d673-ca62-47e9-929b-1b0be9657611",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

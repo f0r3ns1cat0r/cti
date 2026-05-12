@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--f835cc54-2ad1-4a6b-9a07-166bedd405d6",
+    "id": "bundle--d2e7518b-9fb4-48d4-a4a1-0a0311a79cbb",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--73cde34a-247f-4ebc-87a5-ab6a9c400f40",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.681Z",
             "name": "Detect Subversion of Trust Controls via Certificate, Registry, and Attribute Manipulation",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -31,8 +32,7 @@
                 "x-mitre-analytic--35b0b263-f85d-4e6a-8bcb-5e2c1a9da080",
                 "x-mitre-analytic--06ec22c9-b32f-49bc-81cc-ed5cee622493",
                 "x-mitre-analytic--94340be7-068e-446a-bca2-d414b66912fc"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

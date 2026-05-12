@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e1c14894-ff0f-44ad-8bcf-7853554479e7",
+    "id": "bundle--8c2fc343-cc21-4a3d-930a-b0d0d5f92fc0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T12:20:59.894Z",
+            "modified": "2026-04-29T14:23:06.096Z",
             "description": "[LAMEHUG](https://attack.mitre.org/software/S9035) can decode and drop a decoy file attached to spearphishing emails.(Citation: Splunk LAMEHUG SEP 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--c55e0410-842d-4365-a2c8-26c0330f85b8",

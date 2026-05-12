@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a65210cd-5ebf-4ec1-b4b3-296859d519c9",
+    "id": "bundle--a75d2672-69f4-430a-a3d6-a47cd61b0b92",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-14T13:56:19.467Z",
+            "modified": "2026-04-29T14:23:06.125Z",
             "description": "[DRYHOOK](https://attack.mitre.org/software/S9013) has killed all instances of the `cgi-server` process in order for the modified Perl module to be activated.(Citation: Google UNC5221 Ivanti January 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--e9c72c02-b55a-4852-b2eb-c7031d215414",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1c610da4-ee6a-4f10-b730-30f7f2919696",
+    "id": "bundle--2ac351e4-7e7e-4061-b240-cd9dde6f7e15",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a36a52d4-3f2a-4f67-8da1-de9ecae18ed4",
             "created": "2022-06-14T15:27:53.989Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky Lyceum October 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:36:50.993Z",
+            "modified": "2026-04-29T14:23:06.147Z",
             "description": "[Kevin](https://attack.mitre.org/software/S1020) can use a renamed image of `cmd.exe` for execution.(Citation: Kaspersky Lyceum October 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--e7863f5d-cb6a-4f81-8804-0a635eec160a",
             "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

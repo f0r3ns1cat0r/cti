@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1847a3c5-5425-4081-b5a3-90adeab81c63",
+    "id": "bundle--5e5edca9-d72d-4d5b-aa48-51e9f434996b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--27ebfbf5-7d18-457d-899a-9a1213d01729",
             "created": "2025-08-06T18:24:29.636Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Zscaler Havoc FEB 2023",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-06T19:16:37.339Z",
+            "modified": "2026-04-29T14:23:05.959Z",
             "description": "[Havoc](https://attack.mitre.org/software/S1229) can send an AES encrypted check-in request to the C2 server.(Citation: Zscaler Havoc FEB 2023)(Citation: Fortinet Havoc MAR 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--1996aed9-6234-4c1d-a145-e8a4913679dd",
             "target_ref": "attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

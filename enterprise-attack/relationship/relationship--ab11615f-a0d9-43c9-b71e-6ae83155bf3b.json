@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--688ac13f-7d30-4f45-956d-6c2daa8ab76c",
+    "id": "bundle--5437306d-6ac4-4664-8482-34c56df848cd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ab11615f-a0d9-43c9-b71e-6ae83155bf3b",
             "created": "2019-01-30T15:10:04.241Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET TeleBots Oct 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:04:33.612Z",
+            "modified": "2026-04-29T14:23:06.158Z",
             "description": "[Exaramel for Windows](https://attack.mitre.org/software/S0343) adds the configuration to the Registry in XML format.(Citation: ESET TeleBots Oct 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--051eaca1-958f-4091-9e5f-a9acd8f820b5",
             "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

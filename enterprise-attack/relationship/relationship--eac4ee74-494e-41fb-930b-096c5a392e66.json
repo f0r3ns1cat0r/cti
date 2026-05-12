@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e1d50713-f1a6-43c6-bfad-edcb6cb85f64",
+    "id": "bundle--7a6f17de-d424-4e97-9fb3-342bdd0e9a30",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--eac4ee74-494e-41fb-930b-096c5a392e66",
             "created": "2024-12-17T01:45:18.410Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trustwave BlackByte 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:55:18.067Z",
+            "modified": "2026-04-29T14:23:06.245Z",
             "description": "[BlackByte Ransomware](https://attack.mitre.org/software/S1180) identifies the language on the victim system.(Citation: Trustwave BlackByte 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--9454bb5d-3bdb-40f9-a878-b5fb446ded3d",
             "target_ref": "attack-pattern--c1b68a96-3c48-49ea-a6c0-9b27359f9c19",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

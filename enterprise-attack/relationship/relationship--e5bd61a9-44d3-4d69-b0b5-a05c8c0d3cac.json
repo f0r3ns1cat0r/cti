@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fd24ba40-d946-4c60-a0b1-d130c4ac2d63",
+    "id": "bundle--72bf17af-65a6-4d66-8ec8-f82e51b629ce",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T14:36:02.820Z",
+            "modified": "2026-04-29T14:23:06.238Z",
             "description": "[Tsundere Botnet](https://attack.mitre.org/software/S9034)\u2019s MSI installer has used `-WindowStyle Hidden` to hide [Tsundere Botnet](https://attack.mitre.org/software/S9034)\u2019s execution from the user.(Citation: SecureListUbiedo_Tsundere_Nov2025)",
             "relationship_type": "uses",
             "source_ref": "malware--18f5f8c6-bba5-4aba-93e7-3539fe565883",

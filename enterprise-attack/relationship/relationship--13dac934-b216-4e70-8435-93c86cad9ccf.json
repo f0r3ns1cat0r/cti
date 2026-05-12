@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5e6ea381-af10-4c75-99c2-427830ff0ed8",
+    "id": "bundle--e7cdd0bc-1f5b-4870-9e24-61a0d5525887",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--13dac934-b216-4e70-8435-93c86cad9ccf",
             "created": "2025-10-16T18:07:31.069Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Unit 42 Medusa Group Medusa Ransomware January 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-16T18:07:31.069Z",
+            "modified": "2026-04-29T14:23:05.931Z",
             "description": "[Medusa Group](https://attack.mitre.org/groups/G1051) has utilized a file hosting service named filemail[.]com to host a zip file that contained malicious payloads that facilitated follow-on actions.(Citation: Palo Alto Unit 42 Medusa Group Medusa Ransomware January 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--918da025-04bd-48af-b6c4-f3e4d1b915eb",

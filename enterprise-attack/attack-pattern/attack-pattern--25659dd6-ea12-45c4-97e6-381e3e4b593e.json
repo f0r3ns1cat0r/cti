@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c0b737cd-4bcd-4af7-9626-6526e8d67f60",
+    "id": "bundle--cde4ab72-3e70-4f77-9654-ad6f37c76601",
     "spec_version": "2.0",
     "objects": [
         {
@@ -44,7 +44,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:32.515Z",
+            "modified": "2026-05-12T15:12:00.623Z",
             "name": "Local Account",
             "description": "Adversaries may attempt to get a listing of local system accounts. This information can help adversaries determine which local accounts exist on a system to aid in follow-on behavior.\n\nCommands such as <code>net user</code> and <code>net localgroup</code> of the [Net](https://attack.mitre.org/software/S0039) utility and <code>id</code> and <code>groups</code> on macOS and Linux can list local users and groups.(Citation: Mandiant APT1)(Citation: id man page)(Citation: groups man page) On Linux, local users can also be enumerated through the use of the <code>/etc/passwd</code> file. On macOS, the <code>dscl . list /Users</code> command can be used to enumerate local accounts. On ESXi servers, the `esxcli system account list` command can list local user accounts.(Citation: Crowdstrike Hypervisor Jackpotting Pt 2 2021)",
             "kill_chain_phases": [
@@ -53,7 +53,7 @@
                     "phase_name": "discovery"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_contributors": [
                 "Daniel Stepanic, Elastic",
                 "Miriam Wiesner, @miriamxyra, Microsoft Security"

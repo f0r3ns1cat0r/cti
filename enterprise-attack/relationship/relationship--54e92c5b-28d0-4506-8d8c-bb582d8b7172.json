@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c6ab9b40-282f-4a0f-ae9d-576218f3bd19",
+    "id": "bundle--4e6dc7e2-651a-4e1f-a5b6-10ee55f79eaa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-19T00:04:46.924Z",
+            "modified": "2026-04-29T14:23:06.041Z",
             "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has accessed a Local State files associated with Chromium-based browsers that contain the AES key used to encrypt passwords stored in the browser to include `app_bound_encrypted_key`.(Citation: Aryaka Kimsuky July 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",

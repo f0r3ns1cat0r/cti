@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8d342b94-a2fc-441d-b80d-972ece912b72",
+    "id": "bundle--aa120f56-448d-4b81-88c2-4efd06161367",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "attack-pattern--83a766f8-1501-4b3a-a2de-2e2849e8dfc1",
             "created": "2020-03-11T14:56:34.154Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -33,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:49:03.093Z",
+            "modified": "2026-05-12T15:12:00.673Z",
             "name": "DNS Calculation",
             "description": "Adversaries may perform calculations on addresses returned in DNS results to determine which port and IP address to use for command and control, rather than relying on a predetermined port number or the actual returned IP address. A IP and/or port number calculation can be used to bypass egress filtering on a C2 channel.(Citation: Meyers Numbered Panda)\n\nOne implementation of [DNS Calculation](https://attack.mitre.org/techniques/T1568/003) is to take the first three octets of an IP address in a DNS response and use those values to calculate the port for command and control traffic.(Citation: Meyers Numbered Panda)(Citation: Moran 2014)(Citation: Rapid7G20Espionage)",
             "kill_chain_phases": [
@@ -42,7 +43,7 @@
                     "phase_name": "command-and-control"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "enterprise-attack"
@@ -55,8 +56,7 @@
                 "macOS",
                 "Windows"
             ],
-            "x_mitre_version": "1.1",
-            "revoked": false
+            "x_mitre_version": "1.1"
         }
     ]
 }

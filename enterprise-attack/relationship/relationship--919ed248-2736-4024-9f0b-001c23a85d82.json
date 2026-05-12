@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b091ae55-4a38-415d-bf67-a47ed9331fcb",
+    "id": "bundle--1cab49aa-bba2-4d77-85d0-895af819ddc0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--919ed248-2736-4024-9f0b-001c23a85d82",
             "created": "2025-03-24T16:04:46.734Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Sliver Undated",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:31:58.879Z",
+            "modified": "2026-04-29T14:23:06.123Z",
             "description": "(Citation: Cybereason Sliver Undated)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--94873029-f950-4268-9cfd-5032e15cb182",
             "target_ref": "tool--11f8d7eb-1927-4806-9267-3a11d4d4d6be",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

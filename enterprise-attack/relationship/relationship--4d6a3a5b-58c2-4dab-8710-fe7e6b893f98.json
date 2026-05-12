@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--44cd882e-430d-4efd-bf12-0be80bd3e3b2",
+    "id": "bundle--e011a4fd-69c3-4b3d-b620-917eb13bf8ad",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4d6a3a5b-58c2-4dab-8710-fe7e6b893f98",
             "created": "2019-01-30T16:39:54.436Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "PaloAlto CardinalRat Apr 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:47:01.488Z",
+            "modified": "2026-04-29T14:23:06.031Z",
             "description": "[Cardinal RAT](https://attack.mitre.org/software/S0348) uses a secret key with a series of XOR and addition operations to encrypt C2 traffic.(Citation: PaloAlto CardinalRat Apr 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--b879758f-bbc4-4cab-b5ba-177ac9b009b4",
             "target_ref": "attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

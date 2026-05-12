@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--733f129a-e635-45f8-848d-571070bf021c",
+    "id": "bundle--5092c605-11a6-42be-8caa-5f2a58ad6c42",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0da384db-9a5b-4256-81b4-19df05a4ceb8",
             "created": "2025-10-22T03:06:38.080Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ASERT Donot March 2018",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T03:06:38.080Z",
+            "modified": "2026-04-29T14:23:05.922Z",
             "description": "[yty](https://attack.mitre.org/software/S0248) gathers the the serial number of the main disk volume.(Citation: ASERT Donot March 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--0817aaf2-afea-4c32-9285-4dcd1df5bf14",

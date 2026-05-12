@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8cb0263e-04c7-449d-b0ff-c3ff6375710b",
+    "id": "bundle--b6221a7e-45b7-4764-ba14-e3b805bd00b5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--41da5845-a1a8-4d10-8929-053be3496396",
             "created": "2022-04-20T17:46:43.542Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SecureList - ViceLeaker 2019",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:48:14.903Z",
+            "modified": "2026-04-29T14:23:06.015Z",
             "description": "[ViceLeaker](https://attack.mitre.org/software/S0418) uses HTTP data exfiltration.(Citation: SecureList - ViceLeaker 2019)(Citation: Bitdefender - Triout 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--6fcaf9b0-b509-4644-9f93-556222c81ed2",
             "target_ref": "attack-pattern--32063d7f-0a39-440d-a4a3-2694488f96cc",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

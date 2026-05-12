@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5638ca22-0d76-4baa-b5bb-c2ffb55a0d8f",
+    "id": "bundle--5bdb7417-e351-4bbd-8dd5-a05043de40f8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T20:51:51.869Z",
+            "modified": "2026-04-29T14:23:06.213Z",
             "description": "During the [2025 Poland Wiper Attacks](https://attack.mitre.org/campaigns/C0063), the adversaries obtained the contents of users\u2019 directories using `dir /s /b C:\\Users` command.(Citation: CERT Polska) ",
             "relationship_type": "uses",
             "source_ref": "campaign--a6aba167-5ada-4812-9da1-912c0e73335d",

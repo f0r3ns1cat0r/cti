@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a0dd8c9e-ee2e-4348-a1fe-1430b9061ea3",
+    "id": "bundle--153aab43-518d-4f9b-96cb-8d413371ad93",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:12:22.660Z",
+            "modified": "2026-04-29T14:23:06.084Z",
             "description": "[Lumma Stealer](https://attack.mitre.org/software/S1213) has attempted to bypass Windows Antimalware Scan Interface (AMSI) by removing the string \u201cAmsiScanBuffer\u201d from the \u201cclr.dll\u201d module in memory to prevent it from being called.(Citation: Netskope LummaStealer 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--674c514f-e485-47a8-9d49-1aaa70de155b",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--08e2a27a-68bb-4509-9e4a-6d090ba3c7bb",
+    "id": "bundle--54653673-47b6-4472-b80c-14eb41f6a5cb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b695f761-40ed-4988-935c-a1cf5e67c8d8",
             "created": "2021-01-06T17:58:29.248Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye SUNBURST Backdoor December 2020",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:06:33.854Z",
+            "modified": "2026-04-29T14:23:06.174Z",
             "description": "[TEARDROP](https://attack.mitre.org/software/S0560) files had names that resembled legitimate Window file and directory names.(Citation: FireEye SUNBURST Backdoor December 2020)(Citation: Microsoft Deep Dive Solorigate January 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--32f49626-87f4-4d6c-8f59-a0dca953fe26",
             "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3fa58da1-6858-4f21-903d-9b8eef761778",
+    "id": "bundle--7acc9e9a-26e2-4604-a51a-abc31cdb38fa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b64b605f-2677-47c3-ae4b-0b3db3573eae",
             "created": "2025-10-22T02:54:00.801Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Malwarebytes Higaisa 2020",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T02:54:00.801Z",
+            "modified": "2026-04-29T14:23:06.174Z",
             "description": "[Higaisa](https://attack.mitre.org/groups/G0126) collected the system volume serial number.(Citation: PTSecurity Higaisa 2020)(Citation: Malwarebytes Higaisa 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",

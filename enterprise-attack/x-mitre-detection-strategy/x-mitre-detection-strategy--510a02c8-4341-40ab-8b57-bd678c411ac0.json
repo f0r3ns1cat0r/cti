@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--dd95308e-cd78-45a5-8e70-d290b98840db",
+    "id": "bundle--280842e4-a1c6-43e5-827c-b09fb6ac8bfb",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--510a02c8-4341-40ab-8b57-bd678c411ac0",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.677Z",
             "name": "Detection Strategy for Dynamic Resolution through DNS Calculation",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -32,8 +33,7 @@
                 "x-mitre-analytic--98f5c157-17c8-4ab8-943d-8d4c54dc3d6d",
                 "x-mitre-analytic--e95ed4e2-d6bc-4a6f-acbc-bdbfcbaca158",
                 "x-mitre-analytic--18c20664-b820-4a14-a7bf-5a75ac2fae92"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

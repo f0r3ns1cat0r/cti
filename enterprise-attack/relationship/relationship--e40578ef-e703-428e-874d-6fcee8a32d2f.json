@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--253e7952-f6ef-4b57-94d4-f02c6f8303a0",
+    "id": "bundle--41b019fe-462c-429a-9d01-5f40a55919ce",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e40578ef-e703-428e-874d-6fcee8a32d2f",
             "created": "2025-06-27T19:46:38.838Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant UNC3886 Juniper Routers MAR 2025",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-06-27T19:46:38.838Z",
+            "modified": "2026-04-29T14:23:06.236Z",
             "description": "During [RedPenguin](https://attack.mitre.org/campaigns/C0056), [UNC3886](https://attack.mitre.org/groups/G1048) used infrastructure associated with operational relay box (ORB) networks.(Citation: Mandiant UNC3886 Juniper Routers MAR 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--35879bf3-0a21-4cc1-9e42-6de917a22501",
             "target_ref": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

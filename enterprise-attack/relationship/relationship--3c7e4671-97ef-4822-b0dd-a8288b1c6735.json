@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d954d035-76ea-4e2c-86a3-03ae4133f101",
+    "id": "bundle--c611585c-089a-4a3d-af25-8f4536d58e60",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T16:43:11.902Z",
+            "modified": "2026-04-29T14:23:06.006Z",
             "description": "[MirrorFace](https://attack.mitre.org/groups/G1054) has deleted Windows event logs.(Citation: JPCERT MirrorFace JUL 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--8cf6e33b-b6ef-4a1f-a77c-0ecdde93161f",

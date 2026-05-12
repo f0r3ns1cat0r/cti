@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c6b18ad8-d7dc-4123-8d4e-41a6adfae567",
+    "id": "bundle--42640658-2eef-44e2-a429-a574d75f614b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--011286cc-53bc-4910-bf38-79f1d79fc707",
             "created": "2024-02-12T20:43:17.672Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Ensilo Darkgate 2018",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T03:01:48.365Z",
+            "modified": "2026-04-29T14:23:05.904Z",
             "description": "[DarkGate](https://attack.mitre.org/software/S1111) will gather various system information such as domain, display adapter description, operating system type and version, processor type, and RAM amount.(Citation: Ensilo Darkgate 2018)(Citation: Rapid7 BlackBasta 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--6f6f67c9-556d-4459-95c2-78d272190e52",

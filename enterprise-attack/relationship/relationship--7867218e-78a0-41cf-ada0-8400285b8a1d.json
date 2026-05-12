@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--12e33d6d-2e90-460b-9acc-52fce6093799",
+    "id": "bundle--a17d950c-3a8a-408a-8732-edf02fc04782",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7867218e-78a0-41cf-ada0-8400285b8a1d",
             "created": "2020-06-10T21:56:40.020Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Telebots Dec 2016",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:25:13.834Z",
+            "modified": "2026-04-29T14:23:06.090Z",
             "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has used backdoors that can delete files used in an attack from an infected system.(Citation: ESET Telebots Dec 2016)(Citation: ESET Telebots July 2017)(Citation: Mandiant-Sandworm-Ukraine-2022) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
             "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

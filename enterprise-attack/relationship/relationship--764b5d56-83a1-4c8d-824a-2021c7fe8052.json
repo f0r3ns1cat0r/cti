@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7b748dd4-af78-4542-8da3-3a9d8655f484",
+    "id": "bundle--a7f2874e-6375-4ee5-93d0-54af38f4280c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--764b5d56-83a1-4c8d-824a-2021c7fe8052",
             "created": "2017-05-31T21:33:27.064Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Emissary Trojan Feb 2016",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:24:40.242Z",
+            "modified": "2026-04-29T14:23:06.087Z",
             "description": "[Lotus Blossom](https://attack.mitre.org/groups/G0030) has used [Emissary](https://attack.mitre.org/software/S0082).(Citation: Lotus Blossom Dec 2015)(Citation: Emissary Trojan Feb 2016)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--88b7dbc2-32d3-4e31-af2f-3fc24e1582d7",
             "target_ref": "malware--0f862b01-99da-47cc-9bdb-db4a86a95bb1",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

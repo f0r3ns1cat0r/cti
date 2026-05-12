@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--06d224c2-2faa-4021-a7af-5d031d945d00",
+    "id": "bundle--e4a6b995-f4f1-42ba-ba39-9966f6232411",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e1ffe097-446d-4a68-b273-efee58aa110c",
             "created": "2025-08-06T15:01:29.716Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro MUSTANG PANDA PUBLOAD HIUPAN SEPTEMBER 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-25T14:15:06.041Z",
+            "modified": "2026-04-29T14:23:06.233Z",
             "description": "[PUBLOAD](https://attack.mitre.org/software/S1228) has used `wmic` to gather information from the victim device.(Citation: Trend Micro MUSTANG PANDA PUBLOAD HIUPAN SEPTEMBER 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--3824852d-1957-4712-9da0-38143723c060",

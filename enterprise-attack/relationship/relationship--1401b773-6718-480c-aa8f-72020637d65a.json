@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--de55d9e5-bbad-49c8-a120-b23c92897b0f",
+    "id": "bundle--6e19ad36-e5e0-40d1-bcee-28b69a81eaaf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T16:17:48.720Z",
+            "modified": "2026-04-29T14:23:05.931Z",
             "description": "[LODEINFO](https://attack.mitre.org/software/S9020) can append C2 communication with randomly generated junk data.(Citation: Kaspersky LODEINFO Part II OCT 2022)(Citation: ESET MirrorFace DEC 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--7908f855-5b5b-4d6a-acbc-af6b45ec27ad",

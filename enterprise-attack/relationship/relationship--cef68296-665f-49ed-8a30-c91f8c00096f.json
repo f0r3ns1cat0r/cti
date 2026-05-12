@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--79be139e-d827-444d-95e8-ce7acbaf496b",
+    "id": "bundle--244114ae-c3cf-4276-a242-b90f0815b9db",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cef68296-665f-49ed-8a30-c91f8c00096f",
             "created": "2020-09-01T15:08:18.719Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye FIN6 April 2016",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:48:13.941Z",
+            "modified": "2026-04-29T14:23:06.208Z",
             "description": "[FIN6](https://attack.mitre.org/groups/G0037) has extracted password hashes from ntds.dit to crack offline.(Citation: FireEye FIN6 April 2016)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
             "target_ref": "attack-pattern--1d24cdee-9ea2-4189-b08e-af110bf2435d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

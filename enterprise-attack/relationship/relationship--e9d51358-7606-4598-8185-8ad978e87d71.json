@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--afc5a178-c243-467f-97e7-05f55b6fdb8d",
+    "id": "bundle--5e84b594-54c7-4c80-872c-a7254753ced6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e9d51358-7606-4598-8185-8ad978e87d71",
             "created": "2021-03-23T20:49:40.353Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT41 Aug 2019",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:55:01.917Z",
+            "modified": "2026-04-29T14:23:06.243Z",
             "description": "[ShadowPad](https://attack.mitre.org/software/S0596) uses a DGA that is based on the day of the month for C2 servers.(Citation: Securelist ShadowPad Aug 2017)(Citation: Kaspersky ShadowPad Aug 2017)(Citation: FireEye APT41 Aug 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--ec9e00dd-0313-4d5b-8105-c20aa47abffc",
             "target_ref": "attack-pattern--118f61a5-eb3e-4fb6-931f-2096647f4ecd",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

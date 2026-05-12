@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c816226b-1630-4f9e-93d7-ac108408916b",
+    "id": "bundle--13924f58-6a28-49d5-ba41-f30e437a8167",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:37:57.619Z",
+            "modified": "2026-04-29T14:23:06.113Z",
             "description": "[Pacu](https://attack.mitre.org/software/S1091) can allowlist IP addresses in AWS GuardDuty.(Citation: GitHub Pacu)",
             "relationship_type": "uses",
             "source_ref": "tool--1b3b8f96-43b1-4460-8e02-1f53d7802fb9",

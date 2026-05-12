@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d1eb667c-a0c3-4daf-b572-8907bd1bca0c",
+    "id": "bundle--dd5e6e93-d510-452d-b3e5-7edc8b59358b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cf056f03-bc7b-4630-8673-ee1a9f2a64f0",
             "created": "2026-03-09T15:22:22.373Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "K7Dhanalakshmi_VajraSpy_April2022",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-09T15:22:22.373Z",
+            "modified": "2026-04-29T14:23:06.208Z",
             "description": "[VajraSpy](https://attack.mitre.org/software/S9006) has masqueraded as messaging and news applications.(Citation: ESET_VajraSpy_Feb2024)(Citation: K7Dhanalakshmi_VajraSpy_April2022) ",
             "relationship_type": "uses",
             "source_ref": "malware--8205a875-3ed5-4be2-ab9b-14a7d29431d0",

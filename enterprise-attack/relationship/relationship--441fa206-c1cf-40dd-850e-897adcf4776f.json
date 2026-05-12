@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0684c051-acb7-40bc-8fda-04dd36207d95",
+    "id": "bundle--219a2627-bdb3-48c1-99de-b0828b4d0958",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T03:16:54.722Z",
+            "modified": "2026-04-29T14:23:06.018Z",
             "description": "[SystemBC](https://attack.mitre.org/software/S9001) has the ability to decrypt RC4 encrypted packets and to decode obfuscated data before C2 communication.(Citation: AhnLab_SystemBC_Apr2022) Additionally, [SystemBC](https://attack.mitre.org/software/S9001) has decrypted its config file that was encoded with XOR and a hardcoded 40-byte key.(Citation: Lumen_SystemBC_Sept2025)",
             "relationship_type": "uses",
             "source_ref": "malware--39643fb9-00c1-4a45-85e5-801a3f2665d1",

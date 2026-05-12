@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aeef301c-7370-41e0-b7df-2ba133dd6af4",
+    "id": "bundle--e799001b-42dc-44a1-90ba-e1ba25815c14",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c5be8127-669e-49b9-b603-581e3498d203",
             "created": "2020-05-29T19:02:07.052Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro TA505 June 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:09:19.086Z",
+            "modified": "2026-04-29T14:23:06.196Z",
             "description": "(Citation: Trend Micro TA505 June 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7eda3dd8-b09b-4705-8090-c2ad9fb8c14d",
             "target_ref": "tool--03342581-f790-4f03-ba41-e82e67392e23",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

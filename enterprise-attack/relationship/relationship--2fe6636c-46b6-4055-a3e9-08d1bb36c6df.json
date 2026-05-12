@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ee119904-f69e-4e19-a930-c577bc4a0f1c",
+    "id": "bundle--d40fad25-90d4-470c-91cc-f21f6927b455",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--2fe6636c-46b6-4055-a3e9-08d1bb36c6df",
             "created": "2025-10-17T11:48:01.466Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Unit 42 Medusa Group Medusa Ransomware January 2024",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-17T11:48:01.466Z",
+            "modified": "2026-04-29T14:23:05.975Z",
             "description": "[Medusa Ransomware](https://attack.mitre.org/software/S1244) has avoided specified files, file extensions and folders to ensure successful execution of the payload and continued operations of the impacted device.(Citation: Palo Alto Unit 42 Medusa Group Medusa Ransomware January 2024)(Citation: Broadcom Medusa Ransomware Medusa Group March 2025)(Citation: Security Scorecard Medusa Ransomware January 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--28d93902-30e7-4436-8885-6d312c51c9a3",

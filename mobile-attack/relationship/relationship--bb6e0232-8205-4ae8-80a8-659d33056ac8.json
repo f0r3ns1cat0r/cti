@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e0845f34-0494-4d3c-b299-54514cb85bf4",
+    "id": "bundle--9de73419-8328-4b3c-ba5c-51729ac33e2f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bb6e0232-8205-4ae8-80a8-659d33056ac8",
             "created": "2025-10-22T21:37:29.274Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro_CherryBlos_July2023",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T21:37:29.274Z",
+            "modified": "2026-04-29T14:23:06.181Z",
             "description": "[CherryBlos](https://attack.mitre.org/software/S1225) has exfiltrated credentials collected from pictures that have been analyzed using optical character recognition (OCR).(Citation: TrendMicro_CherryBlos_July2023) ",
             "relationship_type": "uses",
             "source_ref": "malware--3cf81957-489a-469f-b013-362d548a96c1",

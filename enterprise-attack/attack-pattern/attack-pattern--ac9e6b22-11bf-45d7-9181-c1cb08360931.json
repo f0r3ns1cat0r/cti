@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--473a509b-a805-476f-a4ce-07a90fb13f29",
+    "id": "bundle--124f0cc5-eee0-459b-936c-785d5c21a07d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T15:10:23.526Z",
+            "modified": "2026-05-12T15:12:00.707Z",
             "name": "Data Manipulation",
             "description": "Adversaries may insert, delete, or manipulate data in order to influence external outcomes or hide activity, thus threatening the integrity of the data.(Citation: Sygnia Elephant Beetle Jan 2022) By manipulating data, adversaries may attempt to affect a business process, organizational understanding, or decision making.\n\nThe type of modification and the impact it will have depends on the target application and process as well as the goals and objectives of the adversary. For complex systems, an adversary would likely need special expertise and possibly access to specialized software related to the system that would typically be gained through a prolonged information gathering campaign in order to have the desired impact.",
             "kill_chain_phases": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--16e7630e-db68-4da9-ae28-64af909bc54e",
+    "id": "bundle--0adbeea0-8ae9-435a-9397-7c1e5e56b1c1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T13:32:02.284Z",
+            "modified": "2026-04-29T14:23:06.215Z",
             "description": "[LAMEHUG](https://attack.mitre.org/software/S9035) can gather service information on targeted systems.(Citation: Nov AI Threat Tracker)(Citation: Cato LAMEHUG JUL 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--c55e0410-842d-4365-a2c8-26c0330f85b8",

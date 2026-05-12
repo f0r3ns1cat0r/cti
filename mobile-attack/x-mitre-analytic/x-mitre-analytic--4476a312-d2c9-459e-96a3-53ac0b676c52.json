@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--358bae34-7076-4df4-8c61-7ef37bfb847c",
+    "id": "bundle--776c28a9-b959-40cf-ae6d-d5c85cd51b61",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-19T20:20:49.044Z",
+            "modified": "2026-05-12T16:30:18.377Z",
             "name": "Analytic 1808",
             "description": "The defender correlates Android camera access by an app identity with app and device context showing that the capture is inconsistent with expected user-driven recording behavior. The strongest Android evidence is camera resource access followed by sustained capture duration, video or image artifact creation, buffer or cache growth, and optional outbound transfer, especially when the app is backgrounded, operating as a foreground service without visible user initiation, active while the device is locked, or capturing without recent user interaction. The detection is strengthened when the app is unmanaged, recently granted camera access, or not approved to record video.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

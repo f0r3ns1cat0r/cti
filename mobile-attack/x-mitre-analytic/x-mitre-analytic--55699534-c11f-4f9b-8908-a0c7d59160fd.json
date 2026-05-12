@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--69c3280a-4daf-413e-ab18-4b542636dc38",
+    "id": "bundle--e90f9895-cd93-4ab6-9b2e-490dc2b39a8a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-02-23T17:40:11.076Z",
+            "modified": "2026-05-12T16:30:18.378Z",
             "name": "Analytic 1648",
             "description": "Defender correlates an app process performing a burst of OS/device attribute lookups (build, hardware, SDK level, system properties) with near-term execution branching (feature gating, module load, permission workflow changes) and/or immediate outbound communications, indicating environment evaluation used to shape follow-on actions.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1ae831f2-18e9-4ba3-9c8d-8e30fb86195a",
+    "id": "bundle--429ff145-2d58-4fad-99b4-579242650e02",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1c792ece-e1d9-4819-9621-1b704a23839d",
             "created": "2025-10-17T11:55:08.591Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Unit 42 Medusa Group Medusa Ransomware January 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-17T11:55:08.591Z",
+            "modified": "2026-04-29T14:23:05.943Z",
             "description": "[Medusa Ransomware](https://attack.mitre.org/software/S1244) has the capability to detect security solutions for termination or deletion within the victim device using hard-coded lists of strings containing security product executables.(Citation: Palo Alto Unit 42 Medusa Group Medusa Ransomware January 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--28d93902-30e7-4436-8885-6d312c51c9a3",

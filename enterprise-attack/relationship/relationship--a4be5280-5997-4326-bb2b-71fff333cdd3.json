@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6e996806-ca2b-4c75-bcf7-eead17b2601f",
+    "id": "bundle--1a4aeb92-0afd-455a-9737-b47e200ff376",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a4be5280-5997-4326-bb2b-71fff333cdd3",
             "created": "2025-10-19T16:39:32.486Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Zscaler ContagiousInterview BeaverTail InvisibleFerret November 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-19T16:39:32.486Z",
+            "modified": "2026-04-29T14:23:06.149Z",
             "description": "[InvisibleFerret](https://attack.mitre.org/software/S1245) has established persistence using LaunchAgents on macOS that run on Startup using a file named \u201ccom.avatar.update.wake.plist\u201d.(Citation: Zscaler ContagiousInterview BeaverTail InvisibleFerret November 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--1dac60f2-7d53-4a3e-95d1-cb2e875d5491",

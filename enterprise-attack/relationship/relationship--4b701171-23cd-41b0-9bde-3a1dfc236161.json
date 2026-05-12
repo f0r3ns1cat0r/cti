@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c9a5a13f-591f-477b-870b-ed9fc599d66c",
+    "id": "bundle--34094c14-6b17-4acb-b1f9-deb7a36c1ecf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4b701171-23cd-41b0-9bde-3a1dfc236161",
             "created": "2025-01-29T19:32:06.447Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Lockbit 2.0 JUN 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:13:09.397Z",
+            "modified": "2026-04-29T14:23:06.028Z",
             "description": "[LockBit 2.0](https://attack.mitre.org/software/S1199) has been observed creating accounts for persistence using simple names like \"a\".(Citation: Palo Alto Lockbit 2.0 JUN 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--a4578560-42cf-4075-9fa2-056f0058c881",
             "target_ref": "attack-pattern--e01be9c5-e763-4caf-aeb7-000b416aef67",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--10b2d1e6-955f-4476-a81b-e0ebffeba759",
+    "id": "bundle--fc60ed43-2bdd-480c-9797-06799e197571",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a24d8975-fa51-4ac1-b928-9af5b5660109",
             "created": "2019-01-30T16:39:54.430Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "PaloAlto CardinalRat Apr 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:03:00.208Z",
+            "modified": "2026-04-29T14:23:06.146Z",
             "description": "[Cardinal RAT](https://attack.mitre.org/software/S0348) injects into a newly spawned process created from a native Windows executable.(Citation: PaloAlto CardinalRat Apr 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--b879758f-bbc4-4cab-b5ba-177ac9b009b4",
             "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

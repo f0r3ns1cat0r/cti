@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3e00447e-ec4f-400b-b0f9-0697b4c6f668",
+    "id": "bundle--b2332acc-f7bf-4c83-8f21-4fd9fdf2b848",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:05:54.774Z",
+            "modified": "2026-04-29T14:23:06.114Z",
             "description": "Ensure least privilege principles are applied to Identity and Access Management (IAM) security policies.(Citation: Expel IO Evil in AWS)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--60eb4387-11b7-47db-959e-ce1efbe4f7af",
+    "id": "bundle--830acedd-987e-4035-861c-e50e7e863eb6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--234205d5-cc99-435c-bbc8-e2c1d3eb0ac5",
             "created": "2022-03-16T19:53:13.112Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Eset PlugX Korplug Mustang Panda March 2022",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-11T19:34:29.394Z",
+            "modified": "2026-04-29T14:23:05.953Z",
             "description": "[PlugX](https://attack.mitre.org/software/S0013) can modify the characteristics of folders to hide them from the compromised user.(Citation: Proofpoint TA416 Europe March 2022) [PlugX](https://attack.mitre.org/software/S0013) has also modified file attributes to hidden and system.(Citation: Eset PlugX Korplug Mustang Panda March 2022)(Citation: Sophos Mustang Panda PLUGX)",
             "relationship_type": "uses",
             "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",

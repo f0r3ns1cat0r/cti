@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--26fc624d-2967-4b91-bfb6-279fc5055872",
+    "id": "bundle--148544d2-23f5-44e3-97e5-c803d0eae134",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e75c948b-7ce8-4872-a3c4-4a2b01828418",
             "created": "2023-07-27T20:43:29.738Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T15:10:22.482Z",
+            "modified": "2026-04-29T14:23:06.240Z",
             "description": "[FIN13](https://attack.mitre.org/groups/G1016) has utilized `WMI` to execute commands and move laterally on compromised Windows machines.(Citation: Mandiant FIN13 Aug 2022)(Citation: Sygnia Elephant Beetle Jan 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",

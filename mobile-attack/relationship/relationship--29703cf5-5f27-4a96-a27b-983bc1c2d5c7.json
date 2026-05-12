@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1db0b785-8027-45d0-8b70-0712cc224fbf",
+    "id": "bundle--ffa22bd0-da5d-431c-bdd0-95a4a0ce9da4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--29703cf5-5f27-4a96-a27b-983bc1c2d5c7",
             "created": "2026-02-16T15:49:08.774Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "EnkiWhiteHat_KimsukyDOCSWAP_Dec2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-02-16T15:49:08.774Z",
+            "modified": "2026-04-29T14:23:05.961Z",
             "description": "[DocSwap](https://attack.mitre.org/software/S9005) has decrypted the encrypted APK file security.dat using the `decryptFile` function in the `native-lib` library.(Citation: EnkiWhiteHat_KimsukyDOCSWAP_Dec2025)   ",
             "relationship_type": "uses",
             "source_ref": "malware--3dbef387-12df-4547-9dd3-075c7ffec9e3",

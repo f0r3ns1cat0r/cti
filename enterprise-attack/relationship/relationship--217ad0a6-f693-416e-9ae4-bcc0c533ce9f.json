@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bd57a56c-5b19-441f-b7c7-1f544e3e0374",
+    "id": "bundle--51f7ef51-fb48-4443-a291-6ba0ff050875",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--217ad0a6-f693-416e-9ae4-bcc0c533ce9f",
             "created": "2020-06-29T04:05:19.098Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET ComRAT May 2020",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:39:00.028Z",
+            "modified": "2026-04-29T14:23:05.951Z",
             "description": "[ComRAT](https://attack.mitre.org/software/S0126) can use SSL/TLS encryption for its HTTP-based C2 channel. [ComRAT](https://attack.mitre.org/software/S0126) has used public key cryptography with RSA and AES encrypted email attachments for its Gmail C2 channel.(Citation: ESET ComRAT May 2020)(Citation: CISA ComRAT Oct 2020) ",
             "relationship_type": "uses",
             "source_ref": "malware--da5880b4-f7da-4869-85f2-e0aba84b8565",
             "target_ref": "attack-pattern--bf176076-b789-408e-8cba-7275e81c0ada",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f027d1e1-d867-43f5-85c0-5a0dd3b0ef6e",
+    "id": "bundle--a41414ec-fa85-45cf-8150-81568ae282c5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--855347b7-4f23-4565-8738-f21a014c75cc",
             "created": "2023-03-31T19:38:48.428Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Royal December 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:28:43.045Z",
+            "modified": "2026-04-29T14:23:06.107Z",
             "description": "[Royal](https://attack.mitre.org/software/S1073) can enumerate the shared resources of a given IP addresses using the API call `NetShareEnum`.(Citation: Cybereason Royal December 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--802a874d-7463-4f2a-99e3-6a1f5a919a21",
             "target_ref": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

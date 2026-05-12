@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aefb2f8e-ab37-4325-be8c-ebfb23be94f6",
+    "id": "bundle--4f47db10-b07e-4f7a-af38-eb68359378eb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9d4aa0d4-b460-4320-8c46-2d6ffbe675af",
             "created": "2019-04-10T16:16:23.918Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Elfin Mar 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:02:07.483Z",
+            "modified": "2026-04-29T14:23:06.139Z",
             "description": "(Citation: Symantec Elfin Mar 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--fbd29c89-18ba-4c2d-b792-51c0adee049f",
             "target_ref": "tool--b76b2d94-60e4-4107-a903-4a3a7622fb3b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

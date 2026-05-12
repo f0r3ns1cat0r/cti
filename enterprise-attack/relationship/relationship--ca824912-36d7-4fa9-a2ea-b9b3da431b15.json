@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a96a0e58-2258-4914-b494-7d085c87a79a",
+    "id": "bundle--3ba56345-ed03-4565-a2b0-1253c3351f60",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T20:13:10.383Z",
+            "modified": "2026-04-29T14:23:06.202Z",
             "description": "[Remcos](https://attack.mitre.org/software/S0332) can modify file attributes to hide the file.(Citation: Fortinet Remcos Campaign NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "tool--7cd0bc75-055b-4098-a00e-83dc8beaff14",

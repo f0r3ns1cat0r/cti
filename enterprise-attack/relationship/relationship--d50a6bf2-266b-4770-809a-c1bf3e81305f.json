@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--02a8550f-5022-4e50-8665-51a9158a75ec",
+    "id": "bundle--0caba6d7-f6af-4bb8-bd0c-f1ba4f97ee6c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d50a6bf2-266b-4770-809a-c1bf3e81305f",
             "created": "2021-09-27T20:37:38.840Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Crowdstrike Qakbot October 2020",
@@ -48,14 +49,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:49:46.021Z",
+            "modified": "2026-04-29T14:23:06.216Z",
             "description": "[QakBot](https://attack.mitre.org/software/S0650) can use VBS to download and execute malicious files.(Citation: Trend Micro Qakbot May 2020)\n(Citation: Kroll Qakbot June 2020)(Citation: Crowdstrike Qakbot October 2020)(Citation: Trend Micro Qakbot December 2020)(Citation: Cyberint Qakbot May 2021)(Citation: Group IB Ransomware September 2020)(Citation: Trend Micro Black Basta October 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--edc5e045-5401-42bb-ad92-52b5b2ee0de9",
             "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

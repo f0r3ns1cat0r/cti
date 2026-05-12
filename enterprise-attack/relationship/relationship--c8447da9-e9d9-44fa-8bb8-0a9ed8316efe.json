@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0995173c-ec5b-4482-8977-2e12553caeb8",
+    "id": "bundle--4a9853a8-f1b5-4f48-97dd-27c6be81014c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c8447da9-e9d9-44fa-8bb8-0a9ed8316efe",
             "created": "2025-09-15T18:06:56.600Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Zscaler",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-15T18:06:56.600Z",
+            "modified": "2026-04-29T14:23:06.199Z",
             "description": "[TONESHELL](https://attack.mitre.org/software/S1239) included functionality to create sub-processes with a specific user\u2019s token.(Citation: Zscaler)",
             "relationship_type": "uses",
             "source_ref": "malware--2683fde8-1dc4-415c-94bd-9bb95cc5b7ff",

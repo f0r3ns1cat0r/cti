@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--37cb3278-a3e5-4b0a-a08e-2400491fb775",
+    "id": "bundle--0d3e1bf4-99c5-4a17-8511-d1c4b10ef921",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T16:51:46.157Z",
+            "modified": "2026-04-29T14:23:06.155Z",
             "description": "[MuddyViper](https://attack.mitre.org/software/S9032) has decrypted the embedded\u202fHackBrowserData\u202ftool prior to execution.(Citation: ESET_MuddyWater_Dec2025)\u202f\u202f\u202f\u202f",
             "relationship_type": "uses",
             "source_ref": "malware--7b92e996-b535-4159-be16-3c3aee4edf54",

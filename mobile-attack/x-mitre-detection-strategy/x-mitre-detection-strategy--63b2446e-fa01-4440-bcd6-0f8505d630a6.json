@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--22b767ac-d48c-4cef-a1a7-02ecaf0f0f38",
+    "id": "bundle--8b81bbff-1d75-44e3-8d62-b9d2e67a749c",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--63b2446e-fa01-4440-bcd6-0f8505d630a6",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.679Z",
             "name": "Detection of Ptrace System Calls",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -30,8 +31,7 @@
             "x_mitre_analytic_refs": [
                 "x-mitre-analytic--50a9f608-68aa-4bf2-b24d-2a22f2a96db4",
                 "x-mitre-analytic--76cb5e62-9291-411d-90bf-57642b63f8b8"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

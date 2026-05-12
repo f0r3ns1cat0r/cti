@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1ce4dd9f-4cac-4af6-b147-f39fc461e177",
+    "id": "bundle--2df4e0ad-dbad-4f1a-bf61-3251bc3019ee",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6189bf91-d755-47e6-9f3c-dd621e3f64fd",
             "created": "2021-01-06T15:56:49.613Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye SUNBURST Backdoor December 2020",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:50:40.287Z",
+            "modified": "2026-04-29T14:23:06.058Z",
             "description": "[SUNBURST](https://attack.mitre.org/software/S0559) had commands to enumerate files and directories.(Citation: FireEye SUNBURST Backdoor December 2020)(Citation: Microsoft Analyzing Solorigate Dec 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--a8839c95-029f-44cf-8f3d-a3cf2039e927",
             "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8e336322-4f1d-48d6-af57-13392541b2f9",
+    "id": "bundle--2123e8e6-430a-414f-a310-8228485d42ab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c334b4c6-43f1-4452-8a1f-3d056fba9ac0",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Proofpoint Leviathan Oct 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:08:50.845Z",
+            "modified": "2026-04-29T14:23:06.192Z",
             "description": "[Leviathan](https://attack.mitre.org/groups/G0065) has used regsvr32 for execution.(Citation: Proofpoint Leviathan Oct 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e",
             "target_ref": "attack-pattern--b97f1d35-4249-4486-a6b5-ee60ccf24fab",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

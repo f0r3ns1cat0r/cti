@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fb927227-b769-4ead-93f1-58f3e896438a",
+    "id": "bundle--625083e4-4aa3-483d-8aba-df63c22029f9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c4aec6a5-2c11-45a2-8c79-8cccf85179cb",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Umbreon Trend Micro",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:09:05.916Z",
+            "modified": "2026-04-29T14:23:06.194Z",
             "description": "[Umbreon](https://attack.mitre.org/software/S0221) provides access to the system via SSH or any other protocol that uses PAM to authenticate.(Citation: Umbreon Trend Micro)",
             "relationship_type": "uses",
             "source_ref": "malware--3d8e547d-9456-4f32-a895-dc86134e282f",
             "target_ref": "attack-pattern--c21d5a77-d422-4a69-acd7-2c53c1faa34b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

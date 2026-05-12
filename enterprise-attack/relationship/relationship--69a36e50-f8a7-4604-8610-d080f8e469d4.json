@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--91f6d995-d438-47a1-9abb-f7e09839b940",
+    "id": "bundle--554248ad-d90e-4a6f-adcf-41cf7ccefe3b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--69a36e50-f8a7-4604-8610-d080f8e469d4",
             "created": "2025-09-29T15:44:29.505Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Halcyon Qilin.B OCT 2024",
@@ -43,7 +44,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T20:49:49.303Z",
+            "modified": "2026-04-29T14:23:06.069Z",
             "description": "[Qilin](https://attack.mitre.org/software/S1242) can define specific processes to be terminated or left alone at execution.(Citation: Trend Micro Agenda Ransomware AUG 2022)(Citation: SentinelOne Qilin NOV 2022)(Citation: Halcyon Qilin.B OCT 2024)(Citation: HC3 Qilin Threat Profile JUN 2024)(Citation: Trend Micro Agenda Ransomware OCT 2025)(Citation: Cisco Talos Qilin Ransomware OCT 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--e23d2777-b85d-44fc-861e-9149d399fbb9",

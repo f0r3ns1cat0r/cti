@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--89d4855c-faee-4d4e-b8cb-9e35b7904296",
+    "id": "bundle--42f39aee-6500-480a-a517-761502990859",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--31fe18d1-7799-466c-adb3-3be923ed4f3a",
             "created": "2020-12-22T17:07:56.080Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Molerats Dec 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:41:50.833Z",
+            "modified": "2026-04-29T14:23:05.982Z",
             "description": "[SharpStage](https://attack.mitre.org/software/S0546) has a persistence component to write a scheduled task for the payload.(Citation: Cybereason Molerats Dec 2020) ",
             "relationship_type": "uses",
             "source_ref": "malware--0ba9281c-93fa-4b29-8e9e-7ef918c7b13a",
             "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

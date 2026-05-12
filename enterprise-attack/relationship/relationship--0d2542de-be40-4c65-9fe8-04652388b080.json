@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--df1eefbc-139d-4bc0-bda0-538f1df047c7",
+    "id": "bundle--44d2292b-9278-499f-8de2-082c1bad0839",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0d2542de-be40-4c65-9fe8-04652388b080",
             "created": "2025-01-15T21:15:10.757Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Volexity UPSTYLE 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:56:09.683Z",
+            "modified": "2026-04-29T14:23:05.921Z",
             "description": "During [Operation MidnightEclipse](https://attack.mitre.org/campaigns/C0048), threat actors stole saved cookies and login data from targeted systems.(Citation: Volexity UPSTYLE 2024)",
             "relationship_type": "uses",
             "source_ref": "campaign--455b011a-2510-49ab-a96f-2f84d6a80189",
             "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

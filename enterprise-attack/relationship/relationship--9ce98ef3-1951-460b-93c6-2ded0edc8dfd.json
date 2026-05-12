@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--938288a3-47c2-4d2e-a45a-26a5a3dc1c7d",
+    "id": "bundle--2dce071b-220b-4408-a98c-33e31e52260d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9ce98ef3-1951-460b-93c6-2ded0edc8dfd",
             "created": "2025-10-14T20:38:53.789Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "2022 November_TrendMicro_Earth Preta_Toneshell_Pubload",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-17T19:53:15.103Z",
+            "modified": "2026-04-29T14:23:06.139Z",
             "description": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has embedded debug strings with messages to distract analysts.(Citation: 2022 November_TrendMicro_Earth Preta_Toneshell_Pubload) [Mustang Panda](https://attack.mitre.org/groups/G0129) has also made calls to Windows API `CheckRemoteDebuggerPresent` and exits if it detects a debugger.(Citation: Sophos Mustang Panda PLUGX) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--420ac20b-f2b9-42b8-aa1a-6d4b72895ca4",

@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--0d48658a-536d-4538-815a-69cb0965dbc5",
+    "id": "bundle--83f9d8a0-7c4e-4065-a83b-9023ab6b0df3",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--cfdf2a13-7059-4532-9d1c-f9129b0e3f7b",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.693Z",
             "name": "Detection of Lifecycle Policy Modifications for Triggered Deletion in IaaS Cloud Storage",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -29,8 +30,7 @@
             ],
             "x_mitre_analytic_refs": [
                 "x-mitre-analytic--f6f90ad5-3182-4b1a-a612-51b251a8a34c"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--5a9b8279-868b-45e2-b666-791c2690ca07",
+    "id": "bundle--3cd7254e-788c-4b23-ba56-66222b8342a8",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--c1ca9729-d9a0-47fd-98bf-8355ee9fc8e2",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.691Z",
             "name": "Detection of Exfiltration Over Unencrypted Non-C2 Protocol",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -30,8 +31,7 @@
             "x_mitre_analytic_refs": [
                 "x-mitre-analytic--ece5746f-194b-4564-9f5f-7ebf3b23542e",
                 "x-mitre-analytic--111bf5b3-ce1c-4f60-b1b0-deef85fc6a0a"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

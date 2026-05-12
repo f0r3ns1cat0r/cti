@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7349cbc5-e438-46f6-9541-d82065d3564d",
+    "id": "bundle--9d07e23d-1bd7-46a0-b1af-e9fa915ef08a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a9325bef-18be-4646-9e7b-5e7af4795f18",
             "created": "2024-08-01T22:27:16.115Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sekoia Raccoon2 2022",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:38:21.037Z",
+            "modified": "2026-04-29T14:23:06.156Z",
             "description": "[Raccoon Stealer](https://attack.mitre.org/software/S1148) uses existing HTTP-based command and control channels for exfiltration.(Citation: S2W Racoon 2022)(Citation: Sekoia Raccoon1 2022)(Citation: Sekoia Raccoon2 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--b5a8fb8b-4ff1-43e5-a1ad-75ae565f5175",
             "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--89d327fc-9d08-4ec8-b49b-ad4327944916",
+    "id": "bundle--6139cd28-9b53-49ad-bd8a-4a2fa50c8ed3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,17 +8,18 @@
             "id": "relationship--de4ce747-488a-4def-8ede-8a3d371c9dd4",
             "created": "2020-10-19T19:42:19.915Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:13:38.404Z",
+            "modified": "2026-04-29T14:23:06.228Z",
             "description": "Restrict administrator accounts to as few individuals as possible, following least privilege principles.  Prevent credential overlap across systems of administrator and privileged accounts, particularly between network and non-network platforms, such as servers or endpoints.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--9bb9e696-bff8-4ae1-9454-961fc7d91d5f",
             "target_ref": "attack-pattern--ae7f3575-0a5e-427e-991b-fe03ad44c754",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

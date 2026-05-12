@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0c4e25f7-ca33-4c6e-a5a4-5f18a3ea7d82",
+    "id": "bundle--acbed6d1-1daf-474e-8222-836a216ee957",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--26cee727-2047-4ea9-b3bd-1115431aa633",
             "created": "2020-03-20T02:37:24.768Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT34 Dec 2017",
@@ -63,14 +64,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:39:52.510Z",
+            "modified": "2026-04-29T14:23:05.958Z",
             "description": "[OilRig](https://attack.mitre.org/groups/G0049) has used macros to deliver malware such as [QUADAGENT](https://attack.mitre.org/software/S0269) and [OopsIE](https://attack.mitre.org/software/S0264).(Citation: FireEye APT34 Dec 2017)(Citation: OilRig ISMAgent July 2017)(Citation: Unit 42 OopsIE! Feb 2018)(Citation: Unit 42 QUADAGENT July 2018)(Citation: Unit42 OilRig Nov 2018) [OilRig](https://attack.mitre.org/groups/G0049) has used batch scripts.(Citation: FireEye APT34 Dec 2017)(Citation: OilRig ISMAgent July 2017)(Citation: Unit 42 OopsIE! Feb 2018)(Citation: Unit 42 QUADAGENT July 2018)(Citation: Unit42 OilRig Nov 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
             "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

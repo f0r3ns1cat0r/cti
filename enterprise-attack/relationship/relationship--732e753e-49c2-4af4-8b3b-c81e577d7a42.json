@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4fdbac40-6559-41bf-a720-258d954b5422",
+    "id": "bundle--5c438e19-7214-4a87-9c10-c29b3b15e462",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--732e753e-49c2-4af4-8b3b-c81e577d7a42",
             "created": "2020-12-03T21:35:33.197Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Accenture HyperStack October 2020",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T15:11:37.737Z",
+            "modified": "2026-04-29T14:23:06.083Z",
             "description": "[Carbon](https://attack.mitre.org/software/S0335) has used RSA encryption for C2 communications.(Citation: Accenture HyperStack October 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--b7e9880a-7a7c-4162-bddb-e28e8ef2bf1f",

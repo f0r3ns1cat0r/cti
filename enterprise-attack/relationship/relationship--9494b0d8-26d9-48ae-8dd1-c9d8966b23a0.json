@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4426ed68-5f16-4b0d-a736-2b86f611d606",
+    "id": "bundle--9c042f10-6471-495b-9e34-ce89c67f63d8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9494b0d8-26d9-48ae-8dd1-c9d8966b23a0",
             "created": "2019-01-29T17:59:44.401Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "GDATA Zeus Panda June 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:00:23.058Z",
+            "modified": "2026-04-29T14:23:06.128Z",
             "description": "[Zeus Panda](https://attack.mitre.org/software/S0330) collects the current system time (UTC) and sends it back to the C2 server.(Citation: GDATA Zeus Panda June 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--198db886-47af-4f4c-bff5-11b891f85946",
             "target_ref": "attack-pattern--f3c544dc-673c-4ef3-accb-53229f1ae077",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

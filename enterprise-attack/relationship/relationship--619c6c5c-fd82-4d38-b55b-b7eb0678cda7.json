@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a3ad6d67-c37d-43c7-8f5d-65185872bb35",
+    "id": "bundle--c217294c-f7c5-440e-a141-cb9f0aafa31a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--619c6c5c-fd82-4d38-b55b-b7eb0678cda7",
             "created": "2026-04-09T20:01:19.678Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Aikido Shai-Hulud September 2025",
@@ -38,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T20:01:19.678Z",
+            "modified": "2026-04-29T14:23:06.058Z",
             "description": "[Shai-Hulud](https://attack.mitre.org/software/S9008) has leveraged compromised accounts to log into cloud services to access cloud hosted repositories.(Citation: Aikido Shai-Hulud September 2025)(Citation: Netskope Shai-Hulud November 2025)(Citation: Palo Alto Unit 42 Shai-Hulud November 2025)(Citation: Wiz Shai-Hulud September 2025)(Citation: Microsoft Shai-Hulud December 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--de376fb9-1093-4f59-8d13-aed61042701d",

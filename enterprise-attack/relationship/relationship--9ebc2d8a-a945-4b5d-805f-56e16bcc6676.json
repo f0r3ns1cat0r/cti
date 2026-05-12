@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--503bf9e7-6ed8-45dc-9870-a01ecfd24a1f",
+    "id": "bundle--39a4d2f7-0d8f-45ce-b595-b9b6a926f0e5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9ebc2d8a-a945-4b5d-805f-56e16bcc6676",
             "created": "2019-09-23T23:08:25.395Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT41 Aug 2019",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:35:38.914Z",
+            "modified": "2026-04-29T14:23:06.141Z",
             "description": "[APT41](https://attack.mitre.org/groups/G0096) deployed a Monero cryptocurrency mining tool in a victim\u2019s environment.(Citation: FireEye APT41 Aug 2019)(Citation: apt41_mandiant)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
             "target_ref": "attack-pattern--a718a0c8-5768-41a1-9958-a1cc3f995e99",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

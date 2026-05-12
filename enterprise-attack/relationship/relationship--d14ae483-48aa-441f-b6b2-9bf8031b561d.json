@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0630effd-2cba-4751-ba0f-e571b0f12c0c",
+    "id": "bundle--5bc4d290-b4cd-4498-b0ff-b6770a8bb66c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d14ae483-48aa-441f-b6b2-9bf8031b561d",
             "created": "2025-01-17T20:17:16.680Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "S2W Troll Stealer 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:48:51.175Z",
+            "modified": "2026-04-29T14:23:06.212Z",
             "description": "[Troll Stealer](https://attack.mitre.org/software/S1196) encrypts data sent to command and control infrastructure using a combination of RC4 and RSA-4096 algorithms.(Citation: S2W Troll Stealer 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--d6748457-75c2-4989-a41f-2d017994057e",
             "target_ref": "attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

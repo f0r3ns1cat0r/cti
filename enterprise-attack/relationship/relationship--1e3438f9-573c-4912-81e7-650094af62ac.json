@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1f242ad6-6a37-4696-9b1b-1d67ba0dd0d0",
+    "id": "bundle--d9442e44-4209-4ab3-ba61-004d15c403be",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1e3438f9-573c-4912-81e7-650094af62ac",
             "created": "2022-09-08T13:53:52.852Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "McAfee Night Dragon",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:00:58.618Z",
+            "modified": "2026-04-29T14:23:05.946Z",
             "description": "During [Night Dragon](https://attack.mitre.org/campaigns/C0002), threat actors sent spearphishing emails containing links to compromised websites where malware was downloaded.(Citation: McAfee Night Dragon)",
             "relationship_type": "uses",
             "source_ref": "campaign--ae407e32-87e0-4d92-8705-3ae25d504d8a",
             "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

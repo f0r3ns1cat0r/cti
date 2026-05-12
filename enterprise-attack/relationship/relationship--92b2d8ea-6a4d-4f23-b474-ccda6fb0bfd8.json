@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bf3a7980-42a2-41a4-90c3-bbf53f3a0cf3",
+    "id": "bundle--4304c2a1-f36f-47cd-bbdc-140af44f3db7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--92b2d8ea-6a4d-4f23-b474-ccda6fb0bfd8",
             "created": "2022-06-14T15:36:49.371Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky Lyceum October 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:32:18.085Z",
+            "modified": "2026-04-29T14:23:06.125Z",
             "description": "Variants of [Kevin](https://attack.mitre.org/software/S1020) can communicate with C2 over HTTP.(Citation: Kaspersky Lyceum October 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--e7863f5d-cb6a-4f81-8804-0a635eec160a",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

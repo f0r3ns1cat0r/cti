@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f6f9d572-d95f-420d-84e0-5d1e578a0243",
+    "id": "bundle--d3840068-fcff-47a3-ab45-5974cb1f1482",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--dfb3ddf9-7683-4d88-ba40-eab0f87a3a8c",
             "created": "2022-06-02T13:56:24.697Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco Talos Bitter Bangladesh May 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:52:23.131Z",
+            "modified": "2026-04-29T14:23:06.230Z",
             "description": "[ZxxZ](https://attack.mitre.org/software/S1013) can collect data from a compromised host.(Citation: Cisco Talos Bitter Bangladesh May 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--97cfbdc6-504d-41e9-a46c-78a9f806ff0d",
             "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

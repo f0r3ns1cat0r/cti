@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ef80f03c-2f8b-495b-ac1a-21073b23b28c",
+    "id": "bundle--a2430ec4-3a46-4c13-bef7-4ee77ebbcf8f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T00:08:41.901Z",
+            "modified": "2026-04-29T14:23:06.108Z",
             "description": "[BRICKSTORM](https://attack.mitre.org/software/S9015) has created a new background session and has spawned a child process of a parent process when it determines it is not running in its intended state.(Citation: CISA BRICKSTORM UNC5221 AR25-338A February 2026)",
             "relationship_type": "uses",
             "source_ref": "malware--0450ed20-e9a7-4799-b601-2f2710300796",

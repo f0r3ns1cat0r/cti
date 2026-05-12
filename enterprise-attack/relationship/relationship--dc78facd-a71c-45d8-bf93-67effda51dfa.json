@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2f6f4e57-0556-4d49-94ec-8d2e8cfd5b82",
+    "id": "bundle--f2111b51-65ce-49d6-ab45-2e89d941f6d7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T16:46:22.558Z",
+            "modified": "2026-04-29T14:23:06.226Z",
             "description": "[DOWNIISSA](https://attack.mitre.org/software/S9021) can inject shellcode directly into process memory including WINWORD.exe and msiexec.exe.(Citation: Kaspersky LODEINFO OCT 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--eddb863e-fc77-41c1-86e9-5210d6d58b88",

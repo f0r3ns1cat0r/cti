@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--21fcbc42-f6f9-4aa3-a6fe-03e61ca377e1",
+    "id": "bundle--b8b66404-13ba-4a61-86ff-8c7935dea3ca",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b3bb33bf-9034-4d5c-8ea0-31d3bbd12b6b",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "PaloAlto-WireLurker",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:30:13.858Z",
+            "modified": "2026-04-29T14:23:06.171Z",
             "description": "[WireLurker](https://attack.mitre.org/software/S0312) obfuscates its payload through complex code structure, multiple component versions, file hiding, code obfuscation and customized encryption to thwart anti-reversing.(Citation: PaloAlto-WireLurker)",
             "relationship_type": "uses",
             "source_ref": "malware--326eaf7b-5784-4f08-8fc2-61fd5d5bc5fb",
             "target_ref": "attack-pattern--d13fa042-8f26-44e1-a2a8-af0bf8e2ac9a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

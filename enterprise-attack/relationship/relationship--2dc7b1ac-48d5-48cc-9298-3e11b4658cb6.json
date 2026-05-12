@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--614d165e-e4fe-4a96-b8ee-f1c735a5f2af",
+    "id": "bundle--576179c9-df7b-4537-b4ae-857362b8dd97",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--2dc7b1ac-48d5-48cc-9298-3e11b4658cb6",
             "created": "2022-08-11T22:03:48.473Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Checkpoint MosesStaff Nov 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:04:59.639Z",
+            "modified": "2026-04-29T14:23:05.966Z",
             "description": "[PyDCrypt](https://attack.mitre.org/software/S1032), along with its functions, is written in Python.(Citation: Checkpoint MosesStaff Nov 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--2ac41e8b-4865-4ced-839d-78e7852c47f3",
             "target_ref": "attack-pattern--cc3502b5-30cc-4473-ad48-42d51a6ef6d1",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

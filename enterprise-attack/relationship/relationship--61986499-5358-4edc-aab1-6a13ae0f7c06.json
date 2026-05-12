@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--514aa86e-1a29-40fd-b550-6a759adf6e9e",
+    "id": "bundle--fdb1e3ed-a5d0-450f-a905-5e3371cd34a4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--61986499-5358-4edc-aab1-6a13ae0f7c06",
             "created": "2019-01-29T21:27:25.177Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT38 Oct 2018",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-11-13T19:21:05.137Z",
+            "modified": "2026-04-29T14:23:06.058Z",
             "description": "[APT38](https://attack.mitre.org/groups/G0082) has used several code packing methods such as Themida, Enigma, VMProtect, and Obsidium, to pack their implants.(Citation: FireEye APT38 Oct 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",

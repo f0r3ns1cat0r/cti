@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0a9f17fd-ba3b-437d-9746-d1d2bd520b6f",
+    "id": "bundle--0173e34d-f418-47dc-a839-6739ce74ad2a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b108443a-669a-42a3-b065-3c97ba318fcf",
             "created": "2023-09-06T14:26:40.486Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Bitdefender Sardonic Aug 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:40:24.124Z",
+            "modified": "2026-04-29T14:23:06.167Z",
             "description": "[Sardonic](https://attack.mitre.org/software/S1085) can encode client ID data in 32 uppercase hex characters and transfer to the actor-controlled C2 server.(Citation: Bitdefender Sardonic Aug 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--0c52f5bc-557d-4083-bd27-66d7cdb794bb",
             "target_ref": "attack-pattern--04fd5427-79c7-44ea-ae13-11b24778ff1c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

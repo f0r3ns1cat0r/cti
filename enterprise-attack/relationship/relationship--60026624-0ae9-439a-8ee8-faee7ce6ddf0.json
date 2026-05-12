@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e45ad755-254b-4ac8-8f5a-9db97833a375",
+    "id": "bundle--3d457cb7-5003-47ab-aa94-a09952352c00",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--60026624-0ae9-439a-8ee8-faee7ce6ddf0",
             "created": "2019-05-29T14:33:43.929Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Proofpoint TA505 Jan 2019",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:50:24.921Z",
+            "modified": "2026-04-29T14:23:06.056Z",
             "description": "(Citation: Proofpoint TA505 Jan 2019)(Citation: Trend Micro TA505 June 2019)(Citation: Proofpoint TA505 October 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7eda3dd8-b09b-4705-8090-c2ad9fb8c14d",
             "target_ref": "malware--43155329-3edf-47a6-9a14-7dac899b01e4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

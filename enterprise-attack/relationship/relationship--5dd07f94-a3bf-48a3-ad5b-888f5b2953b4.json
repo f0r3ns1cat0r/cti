@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--669b5da8-7f7a-4d09-9f96-c840c62eaa8c",
+    "id": "bundle--9a2fcdce-bbfc-46fb-bd83-bc844d28facd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T00:43:29.224Z",
+            "modified": "2026-04-29T14:23:06.053Z",
             "description": "[SameCoin](https://attack.mitre.org/software/S9030) can attempt to connect to the Israel Home Front Command site, oref.org[.]il, which is only reachable from within Israel to verify the target's location.(Citation: Check Point Wirte NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--4e164a21-3fbe-4aaa-be69-2513fdba90f7",

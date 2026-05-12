@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1c97cd37-6643-4381-8b95-7b8fa286b0a9",
+    "id": "bundle--47226953-7b3e-41c6-918d-0d9fbd61a8ca",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T18:19:13.818Z",
+            "modified": "2026-04-29T14:23:05.998Z",
             "description": "[HiddenFace](https://attack.mitre.org/software/S9023) has encrypted its payload with AES.(Citation: ESET HiddenFace 2024)(Citation: JPCERT MirrorFace JUL 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--9edc41d1-a13d-4acf-b400-d47fb2f6809d",

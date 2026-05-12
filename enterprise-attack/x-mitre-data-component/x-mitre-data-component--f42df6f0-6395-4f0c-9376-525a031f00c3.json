@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--701f6e3b-5924-4d97-8be0-2cb96d4c4427",
+    "id": "bundle--0455bde7-12bf-4a42-9112-af3025abcdb0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,14 +12,14 @@
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/data-components/DC0001",
+                    "url": "https://attack.mitre.org/datacomponents/DC0001",
                     "external_id": "DC0001"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T17:05:23.355Z",
+            "modified": "2026-05-12T15:12:00.778Z",
             "name": "Scheduled Job Creation",
             "description": "The establishment of a task or job that will execute at a predefined time or based on specific triggers.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

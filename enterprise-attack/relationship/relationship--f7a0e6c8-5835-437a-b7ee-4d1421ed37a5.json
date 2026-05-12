@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2963a1f8-ea75-42a8-a737-6d13c3baf057",
+    "id": "bundle--3357d0f0-5b88-478c-a6c0-ec38228b6a64",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f7a0e6c8-5835-437a-b7ee-4d1421ed37a5",
             "created": "2025-10-19T17:59:24.262Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Socket BeaverTail XORIndex HexEval Contagious Interview July 2025",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-19T17:59:24.262Z",
+            "modified": "2026-04-29T14:23:06.261Z",
             "description": "[BeaverTail](https://attack.mitre.org/software/S1246) has collected keys associated with macOS within `/Library/Keychains/login.keychain`.(Citation: Socket BeaverTail XORIndex HexEval Contagious Interview July 2025)(Citation: Socket HexEval BeaverTail Contagious Interview June 2025)(Citation: ESET Contagious Interview BeaverTail InvisibleFerret February 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--6055aee2-d1c6-4877-94e9-a3bde9936470",

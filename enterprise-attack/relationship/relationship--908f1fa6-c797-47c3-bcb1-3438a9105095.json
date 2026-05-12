@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--607ed980-44d7-42be-857a-fa6776525021",
+    "id": "bundle--f36e743b-0771-40bf-8d2c-2e8326472c3b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--908f1fa6-c797-47c3-bcb1-3438a9105095",
             "created": "2020-05-06T03:32:07.175Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Group IB Silence Aug 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:59:35.137Z",
+            "modified": "2026-04-29T14:23:06.122Z",
             "description": "[Silence](https://attack.mitre.org/groups/G0091) has used a valid certificate to sign their primary loader Silence.Downloader (aka TrueBot).(Citation: Group IB Silence Aug 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
             "target_ref": "attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

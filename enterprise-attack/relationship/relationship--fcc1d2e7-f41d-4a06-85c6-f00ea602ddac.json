@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--064d7439-f74d-48b8-9745-97ae0a19f695",
+    "id": "bundle--10da5e97-a99c-459b-923a-0d60d8f8147d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fcc1d2e7-f41d-4a06-85c6-f00ea602ddac",
             "created": "2021-10-17T15:10:00.772Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro Tonto Team October 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:18:48.206Z",
+            "modified": "2026-04-29T14:23:06.268Z",
             "description": "(Citation: TrendMicro Tonto Team October 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c5b81590-6814-4d2a-8baa-15c4b6c7f960",
             "target_ref": "tool--b07c2c47-fefb-4d7c-a69e-6a3296171f54",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

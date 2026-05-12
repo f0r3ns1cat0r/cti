@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3862acbf-8926-4ed9-a9b2-5919304c82e5",
+    "id": "bundle--4907327e-a45e-4597-a35d-d310eb4ae1ad",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--78c0b480-23c1-4de7-867e-d4e9ef4c8df6",
             "created": "2022-04-09T15:08:39.047Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Check Point Meteor Aug 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:25:21.378Z",
+            "modified": "2026-04-29T14:23:06.090Z",
             "description": "[Meteor](https://attack.mitre.org/software/S0688) can change both the desktop wallpaper and the lock screen image to a custom image.(Citation: Check Point Meteor Aug 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--d79e7a60-5de9-448e-a074-f95d2d80f8d0",
             "target_ref": "attack-pattern--8c41090b-aa47-4331-986b-8c9a51a91103",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

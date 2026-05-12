@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8db1649f-94ba-46a5-8e59-8c442fdf4f4a",
+    "id": "bundle--69cba075-0ff7-4924-9478-bc56932aebd6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f612ed23-f9c3-4527-b23a-3361f90f5fe1",
             "created": "2022-06-03T16:12:03.241Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SecureWorks August 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:58:12.852Z",
+            "modified": "2026-04-29T14:23:06.259Z",
             "description": "(Citation: SecureWorks August 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
             "target_ref": "tool--4b57c098-f043-4da2-83ef-7588a6d426bc",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

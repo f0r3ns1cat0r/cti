@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--9390097d-5c8c-44c7-9a92-df0b271c1b8f",
+    "id": "bundle--f17ce5fd-0bc0-4cf4-918d-92764b0c8865",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--0dabfa5e-9c35-48ec-b825-ff1cce7a3d00",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.668Z",
             "name": "User Execution \u2013 Malicious Copy & Paste (browser/email \u2192 shell with obfuscated one-liner) \u2013 T1204.004",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -31,8 +32,7 @@
                 "x-mitre-analytic--8cb0a7da-942b-4771-b9d5-cf558755677a",
                 "x-mitre-analytic--1895e723-dcfb-45d4-80fc-aaa0c3963cc9",
                 "x-mitre-analytic--acf0fdbb-6fbf-42c0-acc4-75a545c24f90"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

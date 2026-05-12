@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f1efc0bc-5fb2-4e99-9d57-c00be3478ee5",
+    "id": "bundle--5d47ce89-260f-438c-9d71-9f4960788f24",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c0337d13-da6a-4e2b-91a4-a389c6b4ee28",
             "created": "2022-03-01T15:57:35.833Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lazarus APT January 2022",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:08:18.084Z",
+            "modified": "2026-04-29T14:23:06.188Z",
             "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) has abused the <code>KernelCallbackTable</code> to hijack process control flow and execute shellcode.(Citation: Lazarus APT January 2022)(Citation: Qualys LolZarus)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--a4657bc9-d22f-47d2-a7b7-dd6ec33f3dde",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

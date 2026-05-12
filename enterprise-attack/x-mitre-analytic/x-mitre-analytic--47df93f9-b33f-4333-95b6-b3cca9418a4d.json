@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9f3926d4-d596-42d9-87d7-6c199b832849",
+    "id": "bundle--a4918b2a-9746-40f1-b235-871fb6d0b8f2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:31:38.954Z",
+            "modified": "2026-05-12T16:30:18.377Z",
             "name": "Analytic 2041",
             "description": "Detects exploitation of cloud-native security boundaries or management components followed by disabled logging, detached agents, changed security groups, policy bypass, or telemetry suppression. Correlates suspicious API activity with reduced control coverage.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

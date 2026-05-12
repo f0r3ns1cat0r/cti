@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4edfdc5e-d913-41c7-860c-53276e64ae17",
+    "id": "bundle--5dcba753-ed23-48cd-a211-e03be3b3f03f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9f617f18-5b84-4fcd-a7e3-0e0d67a86192",
             "created": "2025-08-29T22:02:34.795Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MerkleScience_Godfather_April2023",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-29T22:02:34.795Z",
+            "modified": "2026-04-29T14:23:06.142Z",
             "description": "[GodFather](https://attack.mitre.org/software/S1231) has accessed the device\u2019s current cellular network information, including the phone number and the serial number.(Citation: MerkleScience_Godfather_April2023)",
             "relationship_type": "uses",
             "source_ref": "malware--bf064476-25b8-493c-a1e7-dd707b3f7f52",

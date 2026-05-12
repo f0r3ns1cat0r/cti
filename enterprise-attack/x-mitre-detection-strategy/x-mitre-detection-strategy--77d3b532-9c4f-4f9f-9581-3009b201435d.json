@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--fb4636b7-39df-4449-a5af-a909594b4003",
+    "id": "bundle--edbf69bd-9cd4-49e5-a782-c76f22f5f515",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--77d3b532-9c4f-4f9f-9581-3009b201435d",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.681Z",
             "name": "Compromised software/update chain (installer/write \u2192 first-run/child \u2192 egress/signature anomaly)",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -31,8 +32,7 @@
                 "x-mitre-analytic--e3ddaba3-282b-4bd0-b316-78b724b79acd",
                 "x-mitre-analytic--b6f88f17-e80f-4c75-99a5-f752880196aa",
                 "x-mitre-analytic--86a87684-5fd5-4778-be36-5dfa07a4246d"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

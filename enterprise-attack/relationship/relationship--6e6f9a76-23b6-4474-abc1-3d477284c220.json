@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3fcb355a-46a3-4e5c-a1b7-490cec984d3c",
+    "id": "bundle--ed896411-c436-46ed-b220-4624aed0f8cc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6e6f9a76-23b6-4474-abc1-3d477284c220",
             "created": "2022-07-18T20:54:20.227Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro EarthLusca 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:22:32.398Z",
+            "modified": "2026-04-29T14:23:06.075Z",
             "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) used Python scripts for port scanning or building reverse shells.(Citation: TrendMicro EarthLusca 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
             "target_ref": "attack-pattern--cc3502b5-30cc-4473-ad48-42d51a6ef6d1",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--184b9d17-7422-48da-9bbd-669e73d01882",
+    "id": "bundle--78e57c83-e84c-44a4-8def-1075d97f54fa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T20:49:15.764Z",
+            "modified": "2026-04-29T14:23:06.056Z",
             "description": "[RustyWater](https://attack.mitre.org/software/S9037) has established persistence by adding `C:\\ProgramData\\CertificationKit.ini` to a Windows startup Registry key or to a Run or RunOnce Registry key.(Citation: CloudSEK_RustyWater_Jan2026)",
             "relationship_type": "uses",
             "source_ref": "malware--50be4e81-db74-41a2-a9aa-423314082bea",

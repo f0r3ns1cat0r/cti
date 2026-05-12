@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8281fa46-d9cd-4004-95aa-5d513c341105",
+    "id": "bundle--cd1ff534-a11f-4f8f-88a8-c23204f2958f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c9d727db-88ac-4729-bf8a-98d99a83534d",
             "created": "2019-08-29T19:21:38.638Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Carbon Black Shlayer Feb 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:46:54.181Z",
+            "modified": "2026-04-29T14:23:06.201Z",
             "description": "[OSX/Shlayer](https://attack.mitre.org/software/S0402) can escalate privileges to root by asking the user for credentials.(Citation: Carbon Black Shlayer Feb 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--f1314e75-ada8-49f4-b281-b1fb8b48f2a7",
             "target_ref": "attack-pattern--b84903f0-c7d5-435d-a69e-de47cc3578c0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

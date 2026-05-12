@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--30e90f8e-5c27-4dcf-bba8-a19a36981490",
+    "id": "bundle--ac34c5ff-d6b8-4d6a-a440-b1838cf880df",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--de87a278-7df0-4c33-9e94-68cb531dc994",
             "created": "2025-03-25T22:39:30.404Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ORB Mandiant",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:52:05.953Z",
+            "modified": "2026-04-29T14:23:06.229Z",
             "description": "[SPACEHOP Activity](https://attack.mitre.org/campaigns/C0052) has used acquired Virtual Private Servers as control systems for devices within the ORB network.(Citation: ORB Mandiant)",
             "relationship_type": "uses",
             "source_ref": "campaign--83e1f587-34da-44cc-b65b-a72479cb1616",
             "target_ref": "attack-pattern--79da0971-3147-4af6-a4f5-e8cd447cd795",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

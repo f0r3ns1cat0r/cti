@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--66da5729-aba0-4627-b735-2c1d34343d5b",
+    "id": "bundle--b0e2d57a-4d2b-4256-b4e2-e054fae6d01a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--14acc004-9b77-4a4a-b31d-a8eea459b4bb",
             "created": "2022-10-13T15:34:18.271Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "McAfee Sharpshooter December 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:58:16.410Z",
+            "modified": "2026-04-29T14:23:05.932Z",
             "description": "During [Operation Sharpshooter](https://attack.mitre.org/campaigns/C0013), threat actors sent malicious Word OLE documents to victims.(Citation: McAfee Sharpshooter December 2018)",
             "relationship_type": "uses",
             "source_ref": "campaign--37764c78-2a99-46d1-a7ea-6454b9bf93a0",
             "target_ref": "attack-pattern--232a7e42-cd6e-4902-8fe9-2960f529dd4d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

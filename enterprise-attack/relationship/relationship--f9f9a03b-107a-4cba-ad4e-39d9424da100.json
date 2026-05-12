@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--049b88a9-4053-4d0f-8db2-c6379aca02c3",
+    "id": "bundle--010c5419-47b6-4b09-a6d7-7032204d3ce9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f9f9a03b-107a-4cba-ad4e-39d9424da100",
             "created": "2024-03-05T18:28:11.873Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant Cutting Edge January 2024",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:59:07.820Z",
+            "modified": "2026-04-29T14:23:06.264Z",
             "description": "[WIREFIRE](https://attack.mitre.org/software/S1115) can modify the `visits.py` component of Ivanti Connect Secure VPNs for file download and arbitrary command execution.(Citation: Mandiant Cutting Edge January 2024)(Citation: Volexity Ivanti Zero-Day Exploitation January 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--c93e3079-43fb-4d8d-9e99-db63d07eadc9",
             "target_ref": "attack-pattern--960c3c86-1480-4d72-b4e0-8c242e84a5c5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

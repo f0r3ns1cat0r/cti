@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--51c71336-316b-4325-8c88-9c136fcc039a",
+    "id": "bundle--08032d52-9326-44d7-af3e-c3cbb9afa67b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c279fb4c-666a-402c-b911-e9e5eddb51fe",
             "created": "2025-01-08T21:47:49.343Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant APT42-untangling",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:44:53.593Z",
+            "modified": "2026-04-29T14:23:06.191Z",
             "description": "[APT42](https://attack.mitre.org/groups/G1044) has used tools such as [NICECURL](https://attack.mitre.org/software/S1192) with command and control communication taking place over HTTPS.(Citation: Mandiant APT42-untangling) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c0291346-defe-48d7-9542-9e074ba1bdfb",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

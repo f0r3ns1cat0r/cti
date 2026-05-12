@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--884954c0-ce22-4b8e-a402-dc9c89b142a7",
+    "id": "bundle--548a58d4-5c18-47da-9db0-77cecc78a0de",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:18:20.758Z",
+            "modified": "2026-04-29T14:23:06.059Z",
             "description": "[PyDCrypt](https://attack.mitre.org/software/S1032) has modified firewall rules to allow incoming SMB, NetBIOS, and RPC connections using `netsh.exe` on remote machines.(Citation: Checkpoint MosesStaff Nov 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--2ac41e8b-4865-4ced-839d-78e7852c47f3",

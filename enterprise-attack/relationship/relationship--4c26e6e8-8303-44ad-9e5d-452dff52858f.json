@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f881de8d-1979-4309-bc03-b35560311c00",
+    "id": "bundle--c3300cb2-5a71-489d-ad01-2fc528ee943e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4c26e6e8-8303-44ad-9e5d-452dff52858f",
             "created": "2020-05-27T15:31:09.497Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "RedCanary Mockingbird May 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:13:20.408Z",
+            "modified": "2026-04-29T14:23:06.029Z",
             "description": "[Blue Mockingbird](https://attack.mitre.org/groups/G0108) has used [FRP](https://attack.mitre.org/software/S1144), ssf, and Venom to establish SOCKS proxy connections.(Citation: RedCanary Mockingbird May 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--73a80fab-2aa3-48e0-a4d0-3a4828200aee",
             "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

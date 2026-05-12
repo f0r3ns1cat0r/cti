@@ -1,11 +1,10 @@
 {
     "type": "bundle",
-    "id": "bundle--4b3f1f4c-5baf-45fd-b11c-acdf44a68313",
+    "id": "bundle--4eca9a54-64ed-476b-b8bc-936c7fa8c11a",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--da1e3af8-d79b-44ff-a907-ae107c110671",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -20,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:26:05.352Z",
+            "modified": "2026-05-12T16:30:18.391Z",
             "name": "Detection Strategy for Exploitation for Stealth",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,

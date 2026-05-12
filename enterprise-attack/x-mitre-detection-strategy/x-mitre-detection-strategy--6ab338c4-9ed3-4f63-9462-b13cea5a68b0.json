@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--a9fed55c-9112-46d3-b89b-1428ca3ca969",
+    "id": "bundle--e42ab661-9a4f-4be1-837a-a4f120e70d4e",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--6ab338c4-9ed3-4f63-9462-b13cea5a68b0",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.680Z",
             "name": "Detection Strategy for Indicator Removal from Tools - Post-AV Evasion Modification",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -31,8 +32,7 @@
                 "x-mitre-analytic--2c94147a-a556-4fa1-92f8-d3c4367f6f2e",
                 "x-mitre-analytic--66bab948-9baa-4f5c-b259-333eb2ac08ad",
                 "x-mitre-analytic--3ef92295-ecbf-417a-b72a-f6cd189ca3a1"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

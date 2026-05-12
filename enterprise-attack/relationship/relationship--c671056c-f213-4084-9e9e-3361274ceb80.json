@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c3944d6b-58b6-4b08-8ce0-65d8a4f2dd70",
+    "id": "bundle--42ddb121-b657-4d57-9907-e5e148d54d25",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c671056c-f213-4084-9e9e-3361274ceb80",
             "created": "2020-05-12T18:42:01.854Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Red Canary Hospital Thwarted Ryuk October 2020",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T16:26:04.868Z",
+            "modified": "2026-04-29T14:23:06.197Z",
             "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used spearphishing attachments to deliver Microsoft documents containing macros or PDFs containing malicious links to download either [Emotet](https://attack.mitre.org/software/S0367), Bokbot, [TrickBot](https://attack.mitre.org/software/S0266), or [Bazar](https://attack.mitre.org/software/S0534).(Citation: CrowdStrike Grim Spider May 2019)(Citation: Red Canary Hospital Thwarted Ryuk October 2020)(Citation: Mandiant FIN12 Oct 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",

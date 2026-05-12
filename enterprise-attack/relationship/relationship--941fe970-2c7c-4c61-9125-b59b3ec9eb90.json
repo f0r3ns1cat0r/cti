@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f49d80f9-b85b-4e41-81e6-8c15aad53924",
+    "id": "bundle--37366ecf-6614-435f-a088-e82e1a26ee24",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--941fe970-2c7c-4c61-9125-b59b3ec9eb90",
             "created": "2025-10-19T18:01:16.852Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Contagious Interview BeaverTail InvisibleFerret February 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-19T18:01:16.852Z",
+            "modified": "2026-04-29T14:23:06.127Z",
             "description": "[BeaverTail](https://attack.mitre.org/software/S1246) has collected keys stored for Solana stored in `.config/solana/id.json` and other login details associated with macOS within `/Library/Keychains/login.keychain` or for Linux within `/.local/share/keyrings`.(Citation: ESET Contagious Interview BeaverTail InvisibleFerret February 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--6055aee2-d1c6-4877-94e9-a3bde9936470",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f76df0a0-b3f1-484a-ba2e-1e966013f0da",
+    "id": "bundle--9d25d662-1887-41aa-a343-5ebcf87b35ef",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T19:05:47.118Z",
+            "modified": "2026-04-29T14:23:05.950Z",
             "description": "[ROAMINGHOUSE](https://attack.mitre.org/software/S9026) has been distributed through phishing emails containing malicious OneDrive links.(Citation: Trend Micro Earth Kasha Updates APR 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--251f1715-fc97-4487-b939-5c8823ef7a39",

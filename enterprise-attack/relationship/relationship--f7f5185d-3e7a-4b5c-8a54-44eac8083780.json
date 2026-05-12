@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3e1362e8-4ca0-43f3-873e-03588c4274f6",
+    "id": "bundle--c3a6b18d-0089-4d59-a584-811215130bec",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f7f5185d-3e7a-4b5c-8a54-44eac8083780",
             "created": "2026-01-26T18:52:58.619Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Halcyon_CloakRansomware_Dec2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-26T18:52:58.619Z",
+            "modified": "2026-04-29T14:23:06.262Z",
             "description": "If executed with elevated privileges, [Diskpart](https://attack.mitre.org/software/S9002) can list all volumes, including virtual disks.(Citation: Halcyon_CloakRansomware_Dec2024)   ",
             "relationship_type": "uses",
             "source_ref": "tool--080f872e-f1a3-4d42-bb00-9eb55949f6a9",

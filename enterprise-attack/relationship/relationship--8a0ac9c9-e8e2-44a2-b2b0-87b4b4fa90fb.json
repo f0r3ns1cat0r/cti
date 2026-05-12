@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e2cddf3e-75e9-4786-8fe7-827d7f5530b8",
+    "id": "bundle--6a29f58a-6aa1-4c8b-9d58-524bfea02a9d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8a0ac9c9-e8e2-44a2-b2b0-87b4b4fa90fb",
             "created": "2024-04-12T10:58:01.612Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "NGLite Trojan",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:30:00.069Z",
+            "modified": "2026-04-29T14:23:06.113Z",
             "description": "[NGLite](https://attack.mitre.org/software/S1106) will run the <code>whoami</code> command to gather system information and return this to the command and control server.(Citation: NGLite Trojan)",
             "relationship_type": "uses",
             "source_ref": "malware--72b5f07f-5448-4e00-9ff2-08bc193a7b77",
             "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

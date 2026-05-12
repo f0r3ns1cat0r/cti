@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6c53f3b4-dd55-4956-b363-acaa3f558f34",
+    "id": "bundle--1cdefb86-5769-4f0c-9b5f-1d1588cf8424",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T00:05:00.535Z",
+            "modified": "2026-04-29T14:23:06.263Z",
             "description": "[BlackByte 2.0 Ransomware](https://attack.mitre.org/software/S1181) modifies the Windows firewall during execution.(Citation: Microsoft BlackByte 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--42fdf9db-6005-4bb3-96f6-496b94ce519d",

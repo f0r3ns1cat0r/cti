@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f4d5381c-8d16-49c9-b0f5-b2d8d92c4205",
+    "id": "bundle--536ed5b3-eff3-4816-bae9-5f37a5b393b5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--3bcd5bc8-4998-4f71-85d6-27f0cb22e895",
             "created": "2025-03-28T15:08:46.377Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SecureList OpTriangulation 21Jun2023",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:48:04.323Z",
+            "modified": "2026-04-29T14:23:06.004Z",
             "description": "During [Operation Triangulation](https://attack.mitre.org/campaigns/C0054), the threat actors monitored the device\u2019s geolocation.(Citation: SecureList OpTriangulation 21Jun2023)(Citation: SecureList OpTriangulation 23Oct2023) ",
             "relationship_type": "uses",
             "source_ref": "campaign--d0695b5f-b761-49e0-b3e3-2e5307f8def3",
             "target_ref": "attack-pattern--99e6295e-741b-4857-b6e5-64989eb039b4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9e91134b-3873-4b00-8d9a-ada30875976c",
+    "id": "bundle--a68e248e-c4ff-4899-85ac-a1d176f31aa9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d336d669-ef00-476d-81f6-0fe88093e1e6",
             "created": "2022-07-25T17:35:14.162Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelOne Aoqin Dragon June 2022",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T23:07:20.689Z",
+            "modified": "2026-04-29T14:23:06.214Z",
             "description": "[Mongall](https://attack.mitre.org/software/S1026) can retrieve the hostname via `gethostbyname`.(Citation: SentinelOne Aoqin Dragon June 2022)\n",
             "relationship_type": "uses",
             "source_ref": "malware--6fb36c6f-bb3d-4ed6-9471-cb9933e5c154",

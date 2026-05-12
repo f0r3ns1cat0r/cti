@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--44b2493c-4a8b-461c-9525-be2afffbcc44",
+    "id": "bundle--ab8d9743-e2a9-4e51-a2a9-f0776b5d8e5b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e8948840-b0a0-4c10-87f4-022720dc8dd9",
             "created": "2020-05-19T23:26:11.987Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit42 SilverTerrier 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:15:23.457Z",
+            "modified": "2026-04-29T14:23:06.242Z",
             "description": "(Citation: Unit42 SilverTerrier 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--76565741-3452-4069-ab08-80c0ea95bbeb",
             "target_ref": "malware--cb741463-f0fe-42e0-8d45-bc7e8335f5ae",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

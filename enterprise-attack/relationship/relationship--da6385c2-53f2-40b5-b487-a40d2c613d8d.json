@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8984753b-606d-4488-84a5-f9203a47e46d",
+    "id": "bundle--e1ae742e-53a5-46fb-b419-303b491e6153",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--da6385c2-53f2-40b5-b487-a40d2c613d8d",
             "created": "2024-01-09T19:16:41.414Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky ToddyCat June 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:51:05.818Z",
+            "modified": "2026-04-29T14:23:06.223Z",
             "description": "[Samurai](https://attack.mitre.org/software/S1099) can use a remote command module for execution via the Windows command line.(Citation: Kaspersky ToddyCat June 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--ae91fb8f-5031-4f57-9839-e3be3ed503f0",
             "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

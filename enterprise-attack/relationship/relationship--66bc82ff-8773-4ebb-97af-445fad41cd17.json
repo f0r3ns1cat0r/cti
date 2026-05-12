@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1c8791a7-e5bb-45e1-a46b-d465a12fe6ae",
+    "id": "bundle--0971c4e3-9f6a-401f-881f-2734f6f06370",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T16:54:03.828Z",
+            "modified": "2026-04-29T14:23:06.065Z",
             "description": "[PHASEJAM](https://attack.mitre.org/software/S9014) has launched a webshell using the `MIME::Base64` module that encoded and decoded Base64 commands.(Citation: Google UNC5221 Ivanti January 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--ca3f5123-b853-45ef-83cb-1d1bca22e03f",

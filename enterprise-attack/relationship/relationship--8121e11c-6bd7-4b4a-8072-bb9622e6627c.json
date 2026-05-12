@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--906cf4fd-5387-4414-b812-d4f959bc449c",
+    "id": "bundle--71634681-3aac-4901-9ed5-8021daae852d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8121e11c-6bd7-4b4a-8072-bb9622e6627c",
             "created": "2023-02-08T19:00:13.178Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Brute Ratel July 2022",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:27:38.301Z",
+            "modified": "2026-04-29T14:23:06.102Z",
             "description": "[Brute Ratel C4](https://attack.mitre.org/software/S1063) can use DNS over HTTPS for C2.(Citation: Palo Alto Brute Ratel July 2022)(Citation: Trend Micro Black Basta October 2022)",
             "relationship_type": "uses",
             "source_ref": "tool--75d8b521-6b6a-42ff-8af3-d97e20ce12a5",
             "target_ref": "attack-pattern--4fe28b27-b13c-453e-a386-c2ef362a573b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

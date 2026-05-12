@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1a376212-3c68-49fe-81ac-67627dfbc1a0",
+    "id": "bundle--75741860-1cca-4eb9-a744-7fd185ba8f2c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c3e1aa57-a721-488f-8ac7-4fcb0f987153",
             "created": "2025-08-29T21:58:20.970Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MerkleScience_Godfather_April2023",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-29T21:58:20.970Z",
+            "modified": "2026-04-29T14:23:06.193Z",
             "description": "[GodFather](https://attack.mitre.org/software/S1231) has gathered a list of installed applications.(Citation: ZimperiumOrtegaPratapagiri_GodFather_Jun2025)(Citation: MerkleScience_Godfather_April2023) ",
             "relationship_type": "uses",
             "source_ref": "malware--bf064476-25b8-493c-a1e7-dd707b3f7f52",

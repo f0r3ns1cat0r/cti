@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--05f1783e-0e02-4863-837d-a4004b44355d",
+    "id": "bundle--11534107-4a7f-4340-90c0-335071afd6d3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fb229043-04d8-40e8-a155-bd2471bfc5c3",
             "created": "2023-08-07T16:05:37.126Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant FIN12 Oct 2021",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T16:26:04.869Z",
+            "modified": "2026-04-29T14:23:06.266Z",
             "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used batch scripts that utilizes WMIC to execute a [BITSAdmin](https://attack.mitre.org/software/S0190) transfer of a ransomware payload to each compromised machine.(Citation: Mandiant FIN12 Oct 2021) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",

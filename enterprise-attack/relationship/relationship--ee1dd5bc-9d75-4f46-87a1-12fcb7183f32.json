@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--70231603-e14c-40f9-a0af-d0e0841d2dba",
+    "id": "bundle--9e5c6af2-2cb7-464c-8487-4c00784a57a7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ee1dd5bc-9d75-4f46-87a1-12fcb7183f32",
             "created": "2021-08-03T14:06:06.958Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MSTIC Nobelium Toolset May 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:16:22.449Z",
+            "modified": "2026-04-29T14:23:06.249Z",
             "description": "[EnvyScout](https://attack.mitre.org/software/S0634) can use protocol handlers to coax the operating system to send NTLMv2 authentication responses to attacker-controlled infrastructure.(Citation: MSTIC Nobelium Toolset May 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--2f8229dc-da94-41c6-89ba-b5b6c32f6b7d",
             "target_ref": "attack-pattern--b77cf5f3-6060-475d-bd60-40ccbf28fdc2",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

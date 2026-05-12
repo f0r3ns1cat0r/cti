@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--21c32429-d28e-4bf5-9713-83e41a77e38b",
+    "id": "bundle--6a0931e1-450c-496a-bfd3-78d9f5286146",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T15:56:04.195Z",
+            "modified": "2026-04-29T14:23:06.228Z",
             "description": "[LODEINFO](https://attack.mitre.org/software/S9020) has used control flow flattening to obfuscate code.(Citation: ITOCHU LODEINFO JAN 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--7908f855-5b5b-4d6a-acbc-af6b45ec27ad",

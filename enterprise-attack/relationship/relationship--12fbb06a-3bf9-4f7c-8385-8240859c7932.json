@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d9c3ed7c-9710-4251-b352-b0063cc95aef",
+    "id": "bundle--0a09acaf-5a59-439c-9d6c-725b6e9848ef",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--12fbb06a-3bf9-4f7c-8385-8240859c7932",
             "created": "2025-09-12T15:19:08.794Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Zscaler PAKLOG CorkLog SplatCloak Splatdropper April 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-12T15:19:08.794Z",
+            "modified": "2026-04-29T14:23:05.930Z",
             "description": "[PAKLOG](https://attack.mitre.org/software/S1233) has utilized a simple encoding mechanism to encode characters in the buffer.(Citation: Zscaler PAKLOG CorkLog SplatCloak Splatdropper April 2025)  ",
             "relationship_type": "uses",
             "source_ref": "malware--0bf64997-7ce1-43e5-b01a-bcd2bf5dc87f",

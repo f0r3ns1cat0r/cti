@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e8a71535-ab22-470c-a259-308f5e6b467c",
+    "id": "bundle--de940f69-6fd8-483c-882b-da1c14de927e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a0040bac-4445-4999-bf0f-53b340f02218",
             "created": "2022-08-23T14:43:06.601Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Bumblebee August 2022",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:36:00.840Z",
+            "modified": "2026-04-29T14:23:06.143Z",
             "description": "[Bumblebee](https://attack.mitre.org/software/S1039) has been delivered as password-protected zipped ISO files and used control-flow-flattening to obfuscate the flow of functions.(Citation: Proofpoint Bumblebee April 2022)(Citation: Cybereason Bumblebee August 2022)(Citation: Medium Ali Salem Bumblebee April 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--04378e79-4387-468a-a8f7-f974b8254e44",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

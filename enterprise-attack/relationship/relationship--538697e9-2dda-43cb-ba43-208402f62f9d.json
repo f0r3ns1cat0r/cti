@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ee0f42e6-7ba0-4c53-9472-01acc1f0b4b0",
+    "id": "bundle--43f4077d-189c-4158-b378-dafbcc9caeb7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--538697e9-2dda-43cb-ba43-208402f62f9d",
             "created": "2024-05-17T14:07:04.972Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "RedCanary RaspberryRobin 2022",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:15:21.496Z",
+            "modified": "2026-04-29T14:23:06.039Z",
             "description": "[Raspberry Robin](https://attack.mitre.org/software/S1130) retrieves its second stage payload in a variety of ways such as through msiexec.exe abuse, or running the curl command to download the payload to the victim's <code>%AppData%</code> folder.(Citation: HP RaspberryRobin 2024)(Citation: RedCanary RaspberryRobin 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--4e385fa6-ebe0-43fc-9ccf-5b51b5dc4d79",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

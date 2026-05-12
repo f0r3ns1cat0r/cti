@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ca2f79f8-3b69-4519-b026-6bd61e0c6406",
+    "id": "bundle--401d4239-75b4-4358-91f1-c0f4aae8b062",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5ea45077-b2a0-48ce-9ae7-30ad56d0b4a6",
             "created": "2024-11-21T20:40:43.667Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ClearSky OilRig Jan 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:18:26.402Z",
+            "modified": "2026-04-29T14:23:06.054Z",
             "description": "[OilRig](https://attack.mitre.org/groups/G0049) has compromised email accounts to send phishing emails.(Citation: ClearSky OilRig Jan 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
             "target_ref": "attack-pattern--3dc8c101-d4db-4f4d-8150-1b5a76ca5f1b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

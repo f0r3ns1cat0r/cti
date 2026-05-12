@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0d855fdb-90ef-4180-be4e-628ea5927fb1",
+    "id": "bundle--62ddd53b-c813-4d83-9e60-8336e9f403db",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a0a94b9a-a81f-4ca6-b98c-f81291402f61",
             "created": "2025-06-09T19:21:59.408Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Cloud Mandiant UNC3886 2024",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-06-16T21:16:54.666Z",
+            "modified": "2026-04-29T14:23:06.144Z",
             "description": "The [REPTILE](https://attack.mitre.org/software/S1219) reverse shell component can listen for a specialized packet in TCP, UDP, or ICMP for activation.(Citation: Google Cloud Mandiant UNC3886 2024)(Citation: Mandiant Fortinet Zero Day)",
             "relationship_type": "uses",
             "source_ref": "malware--4ea492ee-36f8-4017-938f-d01ce951ef94",
             "target_ref": "attack-pattern--451a9977-d255-43c9-b431-66de80130c8c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

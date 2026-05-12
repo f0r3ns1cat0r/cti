@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a71de3ba-4e0c-4ed9-a6cf-55a3fdd4d8d7",
+    "id": "bundle--1ff553c0-a519-4610-9641-1adad3786eac",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--eff75944-0c22-45bb-bda5-db848836f02b",
             "created": "2024-05-23T22:45:33.714Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cadet Blizzard emerges as novel threat actor",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:56:38.703Z",
+            "modified": "2026-04-29T14:23:06.251Z",
             "description": "[Ember Bear](https://attack.mitre.org/groups/G1003) acquires victim credentials by extracting registry hives such as the Security Account Manager through commands such as <code>reg save</code>.(Citation: Cadet Blizzard emerges as novel threat actor)(Citation: CISA GRU29155 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",
             "target_ref": "attack-pattern--1644e709-12d2-41e5-a60f-3470991f5011",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

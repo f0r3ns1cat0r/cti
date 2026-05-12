@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--37300667-5c09-42ed-a615-80ad6d166d56",
+    "id": "bundle--aaaac8cb-4170-457a-8563-d402221fb0a3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7e2b9c63-69ac-4050-b057-2fe16ef1d355",
             "created": "2021-03-02T17:55:12.066Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA AppleJeus Feb 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:26:51.130Z",
+            "modified": "2026-04-29T14:23:06.098Z",
             "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) has hosted malicious downloads on Github.(Citation: CISA AppleJeus Feb 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--88d31120-5bc7-4ce3-a9c0-7cf147be8e54",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

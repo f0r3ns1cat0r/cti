@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a24c469d-d216-4f1f-9e12-821310af85d6",
+    "id": "bundle--79bce0e1-e056-42e1-ac52-302c79725ca5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--88d48848-1f23-4d91-8934-045d04b219ea",
             "created": "2020-06-01T14:41:54.859Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "IBM TA505 April 2020",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T15:50:34.669Z",
+            "modified": "2026-04-29T14:23:06.112Z",
             "description": "[SDBbot](https://attack.mitre.org/software/S0461) has the ability to record video on a compromised host.(Citation: Proofpoint TA505 October 2019)(Citation: IBM TA505 April 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--92b03a94-7147-4952-9d5a-b4d24da7487c",

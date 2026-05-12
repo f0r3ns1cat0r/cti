@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--82f0f59d-9650-4960-ac0f-a1cc33afcfe1",
+    "id": "bundle--894739e9-61f9-47c3-aa18-8085e5d398dc",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--be288974-9b74-41c1-8c43-66aef169255a",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.691Z",
             "name": "Multi-Platform Behavioral Detection for Compute Hijacking",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -33,8 +34,7 @@
                 "x-mitre-analytic--57595eb2-4d20-4d99-86b3-82064b3566cf",
                 "x-mitre-analytic--7ac026eb-9a3b-49fe-b7ec-7261cb6d6191",
                 "x-mitre-analytic--7a5e5aff-8395-4b4e-9072-dd765dae7d19"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

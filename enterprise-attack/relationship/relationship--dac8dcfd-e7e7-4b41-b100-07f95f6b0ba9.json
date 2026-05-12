@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4a29fd4c-856e-4d29-bd06-06bfe79eb641",
+    "id": "bundle--f7176352-13e6-446c-811e-711daf3099ac",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--dac8dcfd-e7e7-4b41-b100-07f95f6b0ba9",
             "created": "2019-01-29T17:59:44.450Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Zeus Panda Nov 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:13:02.183Z",
+            "modified": "2026-04-29T14:23:06.224Z",
             "description": "[Zeus Panda](https://attack.mitre.org/software/S0330) collects the OS version, system architecture, computer name, product ID, install date, and information on the keyboard mapping to determine the language used on the system.(Citation: Talos Zeus Panda Nov 2017)(Citation: GDATA Zeus Panda June 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--198db886-47af-4f4c-bff5-11b891f85946",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

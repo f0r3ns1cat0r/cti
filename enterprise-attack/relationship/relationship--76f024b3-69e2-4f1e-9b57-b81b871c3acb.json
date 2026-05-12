@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--65b97be5-5b33-4b70-be82-d1c42308cd4b",
+    "id": "bundle--53c96d30-3a00-4d4b-8cc7-a8939ba79da6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--76f024b3-69e2-4f1e-9b57-b81b871c3acb",
             "created": "2025-01-08T22:18:39.161Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant APT42-untangling",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:24:50.557Z",
+            "modified": "2026-04-29T14:23:06.088Z",
             "description": "[NICECURL](https://attack.mitre.org/software/S1192) has a function to remove artifacts.(Citation: Mandiant APT42-untangling) ",
             "relationship_type": "uses",
             "source_ref": "malware--0659f55c-3b68-4e5d-8071-12ded6684731",
             "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

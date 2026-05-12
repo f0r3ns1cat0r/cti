@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f21788fa-6191-4161-9085-0636ffc99c58",
+    "id": "bundle--99e2a8d8-7ac6-4085-81d5-322cd64c5481",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T13:17:43.319Z",
+            "modified": "2026-04-29T14:23:06.060Z",
             "description": "[LAMEHUG](https://attack.mitre.org/software/S9035) can gather Active Directory domain information.(Citation: Nov AI Threat Tracker)",
             "relationship_type": "uses",
             "source_ref": "malware--c55e0410-842d-4365-a2c8-26c0330f85b8",

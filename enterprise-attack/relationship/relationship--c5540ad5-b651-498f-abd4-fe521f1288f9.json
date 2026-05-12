@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--771018a0-9d95-432e-8416-a06ad65c0fda",
+    "id": "bundle--71312556-0c1b-4a8d-b908-f561f932dd6b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c5540ad5-b651-498f-abd4-fe521f1288f9",
             "created": "2022-08-11T22:19:29.790Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Checkpoint MosesStaff Nov 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:45:43.398Z",
+            "modified": "2026-04-29T14:23:06.195Z",
             "description": "[PyDCrypt](https://attack.mitre.org/software/S1032) has probed victim machines with <code>whoami</code> and has collected the username from the machine.(Citation: Checkpoint MosesStaff Nov 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--2ac41e8b-4865-4ced-839d-78e7852c47f3",
             "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

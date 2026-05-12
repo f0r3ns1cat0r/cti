@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e6cb2a41-efd5-41c5-a3bb-d43f535c1e00",
+    "id": "bundle--481bb5e7-98e7-4067-b501-f3e3d0dfecb7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T20:31:12.138Z",
+            "modified": "2026-04-29T14:23:06.054Z",
             "description": "[Remcos](https://attack.mitre.org/software/S0332) uses the infected hosts as SOCKS5 proxies to allow for tunneling and proxying.(Citation: Riskiq Remcos Jan 2018)(Citation: Fortinet Remcos Campaign NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "tool--7cd0bc75-055b-4098-a00e-83dc8beaff14",

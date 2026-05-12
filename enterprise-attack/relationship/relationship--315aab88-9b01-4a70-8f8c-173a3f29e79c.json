@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1c9e8d43-9c9e-41e4-ae58-b2940d1cdf36",
+    "id": "bundle--23b4867e-41a8-44d3-bcfb-22e0da3c9245",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--315aab88-9b01-4a70-8f8c-173a3f29e79c",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye Clandestine Wolf",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:41:44.591Z",
+            "modified": "2026-04-29T14:23:05.980Z",
             "description": "[SHOTPUT](https://attack.mitre.org/software/S0063) is obscured using XOR encoding and appended to a valid GIF file.(Citation: FireEye Clandestine Wolf)(Citation: Palo Alto CVE-2015-3113 July 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--58adaaa8-f1e8-4606-9a08-422e568461eb",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

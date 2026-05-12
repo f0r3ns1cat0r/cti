@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f6fe9285-dfcc-4668-a6ef-932db7668847",
+    "id": "bundle--f8626578-5c1c-4a00-8691-94d88b74f582",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-17T20:48:31.295Z",
+            "modified": "2026-05-12T16:30:18.379Z",
             "name": "Analytic 1675",
             "description": "The defender correlates an app-attributed request to a legitimate public web platform with a subsequent outbound connection to a newly derived or previously unseen destination within a short time window. The behavior is strengthened when the initial request retrieves structured or encoded content followed by a pivot to a different domain or IP that was not previously contacted by the app, especially when occurring without user interaction, in background state, or immediately after app initialization or scheduled execution. This sequence reflects resolver retrieval followed by dynamic C2 resolution.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

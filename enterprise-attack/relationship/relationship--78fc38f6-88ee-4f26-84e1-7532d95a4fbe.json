@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7dc7bead-bef0-4154-a956-fcf0e7f5319a",
+    "id": "bundle--8aef026d-3a52-4f38-a830-98504e8e5735",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--78fc38f6-88ee-4f26-84e1-7532d95a4fbe",
             "created": "2020-05-26T16:17:59.550Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Rocke August 2018",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:55:13.453Z",
+            "modified": "2026-04-29T14:23:06.090Z",
             "description": "[Rocke](https://attack.mitre.org/groups/G0106)'s miner has created UPX-packed files in the Windows Start Menu Folder.(Citation: Talos Rocke August 2018)(Citation: Unit 42 Rocke January 2019)(Citation: Anomali Rocke March 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--44102191-3a31-45f8-acbe-34bdb441d5ad",
             "target_ref": "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

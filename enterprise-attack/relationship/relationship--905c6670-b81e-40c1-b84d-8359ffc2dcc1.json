@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7236ccf0-9bc3-4042-92f7-0359f5abed23",
+    "id": "bundle--066c6a0e-e3be-4667-ad0b-0794cdc47475",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--905c6670-b81e-40c1-b84d-8359ffc2dcc1",
             "created": "2022-01-11T16:06:37.273Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Novetta Winnti April 2015",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:31:39.950Z",
+            "modified": "2026-04-29T14:23:06.122Z",
             "description": "[Winnti for Windows](https://attack.mitre.org/software/S0141) can determine if the OS on a compromised host is newer than Windows XP.(Citation: Novetta Winnti April 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--d3afa961-a80c-4043-9509-282cdf69ab21",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

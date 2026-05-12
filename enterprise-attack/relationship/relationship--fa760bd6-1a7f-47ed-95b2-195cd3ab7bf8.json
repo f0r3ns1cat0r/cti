@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1b001c2d-59c7-42fd-9021-9d3e021b5a9e",
+    "id": "bundle--616dc13d-5c6a-4ac2-ab75-3dbfceba130e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T10:17:25.142Z",
+            "modified": "2026-04-29T14:23:06.265Z",
             "description": "[PureCrypter](https://attack.mitre.org/software/S9019) can insert junk code to avoid detection.(Citation: Zscaler PureCrypter JUN 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--6f22487c-dbbf-4a5b-85ca-a8c85e8f2f80",

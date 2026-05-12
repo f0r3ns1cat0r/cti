@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a6d92a0f-7adf-46f8-9206-a9245a67db1d",
+    "id": "bundle--50e07cc1-5408-4934-a8ef-5619ea0cd210",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T18:48:34.172Z",
+            "modified": "2026-04-29T14:23:06.176Z",
             "description": "[NOOPLDR](https://attack.mitre.org/software/S9025) can store its payload in the Registry using a random hex string in `HKCU\\SOFTWARE\\Microsoft\\COM3`.(Citation: Trend Micro Earth Kasha NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--66637cd6-ae68-4bcd-af82-32f70a854175",

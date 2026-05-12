@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4c321dbe-0cde-4120-8c09-f54b0412300e",
+    "id": "bundle--b1433459-87f0-4512-a424-4af06df0dd71",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-29T17:39:29.213Z",
+            "modified": "2026-05-12T16:30:18.381Z",
             "name": "Analytic 1678",
             "description": "From the defender\u2019s view: a sandboxed app retrieves code-like content (JS/Mach-O/bundles), writes it to container tmp/Caches, performs memory permission changes (RW\u2192RX/RWX) or directly loads via dyld/dlopen from writable paths, sometimes preceded by 3rd-party hotpatch frameworks (e.g., JSPatch-like behavior) or script engine evaluation. The analytic correlates Network Content \u2192 File Creation \u2192 OS API Execution (memory permission change) \u2192 Module Load (dyld/dlopen) and/or Process Access (codesign validation touches), with optional scripting engine events.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

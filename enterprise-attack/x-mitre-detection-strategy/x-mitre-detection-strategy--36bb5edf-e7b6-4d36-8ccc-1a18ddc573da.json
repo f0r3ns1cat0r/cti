@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--f6bc709c-ae6b-45ba-a412-ee83465621a5",
+    "id": "bundle--4c8520be-1b97-4b4d-9db4-05463c01d8dc",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--36bb5edf-e7b6-4d36-8ccc-1a18ddc573da",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.674Z",
             "name": "Detection of Local Data Collection Prior to Exfiltration",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -33,8 +34,7 @@
                 "x-mitre-analytic--a48f36c7-e946-4270-ae23-1a2e52ae2e24",
                 "x-mitre-analytic--dfe1b67a-a1c1-43f4-a043-5784a315d018",
                 "x-mitre-analytic--0abb4122-0795-46ef-b162-7570db42596a"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

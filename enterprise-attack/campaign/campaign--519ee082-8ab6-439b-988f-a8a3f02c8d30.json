@@ -1,11 +1,10 @@
 {
     "type": "bundle",
-    "id": "bundle--bf570352-e836-4818-bc22-8e5d7cdc430b",
+    "id": "bundle--5f4a5fdd-0a06-454d-81dd-d2fea4bc81dd",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "campaign",
-            "spec_version": "2.1",
             "id": "campaign--519ee082-8ab6-439b-988f-a8a3f02c8d30",
             "created": "2023-01-17T21:42:34.998Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -46,6 +45,9 @@
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_contributors": [
                 "Fl\u00e1vio Costa, @Seguran\u00e7a Descomplicada"
+            ],
+            "x_mitre_domains": [
+                "enterprise-attack"
             ]
         }
     ]

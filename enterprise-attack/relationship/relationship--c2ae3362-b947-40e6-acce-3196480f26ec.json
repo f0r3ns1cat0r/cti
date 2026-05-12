@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--93a66d3a-3dfd-4cb8-a782-694e55b2bc2c",
+    "id": "bundle--92a3ce23-55d1-43a0-809b-90e46e0dfe19",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-19T15:50:28.643Z",
+            "modified": "2026-04-29T14:23:06.191Z",
             "description": "[UPPERCUT](https://attack.mitre.org/software/S0275) contains functionality to bypass UAC.(Citation: Trend Micro Earth Kasha Updates APR 2025)(Citation: Trend Micro Earth Kasha Anel NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--fb4e3792-e915-4fdd-a9cd-92dfa2ace7aa",

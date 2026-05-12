@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bb7a6e15-1541-4b80-9824-4e30c692a6cd",
+    "id": "bundle--12eec2c2-9e99-422e-a70f-56e2513280af",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T17:09:39.997Z",
+            "modified": "2026-05-12T16:30:18.383Z",
             "name": "Analytic 1830",
             "description": "The defender correlates creation of background scheduler activity with later execution of repeating or deferred work by the same managed app, then raises confidence when the triggered activity produces network, local-write, or other app behavior that occurs outside expected user context. Because iOS exposes weaker direct scheduling observability in many enterprise environments, the analytic anchors first on managed app posture and lifecycle-to-network or lifecycle-to-file effects, with NSBackgroundActivityScheduler-related behavior treated as strongest when runtime telemetry can observe background scheduler usage or execution callbacks.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

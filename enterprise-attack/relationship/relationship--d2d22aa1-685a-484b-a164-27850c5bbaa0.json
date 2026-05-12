@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aee51d47-4280-4903-9525-a074b4e3d425",
+    "id": "bundle--6240ae55-1d60-40a0-9661-b1c7683b37dd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d2d22aa1-685a-484b-a164-27850c5bbaa0",
             "created": "2025-09-15T18:12:39.294Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "2025_IBM_PUBLOAD_TONESHELL_HIUPAN_CLAIMLOADER_MUSTANG PANDA",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-15T18:12:39.294Z",
+            "modified": "2026-04-29T14:23:06.214Z",
             "description": "[TONESHELL](https://attack.mitre.org/software/S1239) has created a mutex to avoid duplicate execution.(Citation: 2025_IBM_PUBLOAD_TONESHELL_HIUPAN_CLAIMLOADER_MUSTANG PANDA)",
             "relationship_type": "uses",
             "source_ref": "malware--2683fde8-1dc4-415c-94bd-9bb95cc5b7ff",

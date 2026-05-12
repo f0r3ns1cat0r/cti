@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dd602165-5ce9-4ff4-b718-26b568123192",
+    "id": "bundle--d06c8ed2-2d05-4bdc-b8c1-a29c23d3f9fa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--dfcc52d8-4664-48c4-9e35-2be2cd649d93",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET OceanLotus Mar 2019",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:13:53.104Z",
+            "modified": "2026-04-29T14:23:06.230Z",
             "description": "[APT32](https://attack.mitre.org/groups/G0050) created a [Scheduled Task/Job](https://attack.mitre.org/techniques/T1053) that used regsvr32.exe to execute a COM scriptlet that dynamically downloaded a backdoor and injected it into memory. The group has also used regsvr32 to run their backdoor.(Citation: ESET OceanLotus Mar 2019)(Citation: FireEye APT32 May 2017)(Citation: Cybereason Cobalt Kitty 2017) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "target_ref": "attack-pattern--b97f1d35-4249-4486-a6b5-ee60ccf24fab",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

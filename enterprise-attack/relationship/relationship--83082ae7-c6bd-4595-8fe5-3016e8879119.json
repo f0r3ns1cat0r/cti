@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e1625643-3b31-4e5c-8ef1-ac8b859143bd",
+    "id": "bundle--058ebd4c-0e9f-4e03-9c71-022731a75c2b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--83082ae7-c6bd-4595-8fe5-3016e8879119",
             "created": "2024-12-17T00:22:23.748Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec BlackByte 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:28:09.112Z",
+            "modified": "2026-04-29T14:23:06.104Z",
             "description": "[Exbyte](https://attack.mitre.org/software/S1179) checks for the presence of various security software products during execution.(Citation: Symantec BlackByte 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--6207dd22-bf18-4c96-aada-c573a9bbf5ec",
             "target_ref": "attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

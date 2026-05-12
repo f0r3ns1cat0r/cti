@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7c08f8e7-3a8a-4935-826a-b09f51719972",
+    "id": "bundle--01dae47e-a7aa-4783-9c43-8c183e67d53d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d456bea1-f43c-4934-91fe-54459842f1b2",
             "created": "2020-09-11T14:56:37.199Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cyberreason Anchor December 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:11:55.702Z",
+            "modified": "2026-04-29T14:23:06.215Z",
             "description": "[Anchor](https://attack.mitre.org/software/S0504) can self delete its dropper after the malware is successfully deployed.(Citation: Cyberreason Anchor December 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--5f1d4579-4e8f-48e7-860e-2da773ae432e",
             "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

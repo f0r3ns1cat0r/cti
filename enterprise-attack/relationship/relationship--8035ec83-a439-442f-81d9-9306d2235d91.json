@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6e497aa5-44d3-40f5-ab28-310c4d94b8f6",
+    "id": "bundle--e7f36114-6753-4118-9005-7f76e446b8f3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8035ec83-a439-442f-81d9-9306d2235d91",
             "created": "2024-07-12T18:55:14.187Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FRP GitHub",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:27:21.790Z",
+            "modified": "2026-04-29T14:23:06.101Z",
             "description": "As part of load balancing [FRP](https://attack.mitre.org/software/S1144) can set `healthCheck.type = \"tcp\"` or `healthCheck.type = \"http\"` to check service status on specific hosts with TCPing or an HTTP request.(Citation: FRP GitHub)",
             "relationship_type": "uses",
             "source_ref": "tool--36dd807e-b5bc-4c3e-91ed-80682360148c",
             "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

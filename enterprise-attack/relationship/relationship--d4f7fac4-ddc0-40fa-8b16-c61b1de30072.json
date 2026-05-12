@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--412f1ff8-2e28-49e2-a038-3b96db455011",
+    "id": "bundle--576cda8f-3e0d-47df-ae4b-9c4b12bf3909",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d4f7fac4-ddc0-40fa-8b16-c61b1de30072",
             "created": "2019-05-10T18:57:53.099Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Chaos Stolen Backdoor",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:12:02.944Z",
+            "modified": "2026-04-29T14:23:06.216Z",
             "description": "After initial compromise, [Chaos](https://attack.mitre.org/software/S0220) will download a second stage to establish a more permanent presence on the affected system.(Citation: Chaos Stolen Backdoor)",
             "relationship_type": "uses",
             "source_ref": "malware--5bcd5511-6756-4824-a692-e8bb109364af",
             "target_ref": "attack-pattern--84e02621-8fdf-470f-bd58-993bb6a89d91",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

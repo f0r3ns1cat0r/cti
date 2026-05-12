@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--619c9521-a6e0-4f01-b80e-a74740ec3819",
+    "id": "bundle--1955278f-ae90-422f-9ddd-7e8bc8913f7e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cc9ffcec-db79-4913-91ae-ffd5cec643f7",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MalwareBytes LazyScripter Feb 2021",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:47:38.199Z",
+            "modified": "2026-04-29T14:23:06.205Z",
             "description": "[Koadic](https://attack.mitre.org/software/S0250) can download files off the target system to send back to the server.(Citation: Github Koadic)(Citation: MalwareBytes LazyScripter Feb 2021)",
             "relationship_type": "uses",
             "source_ref": "tool--c8655260-9f4b-44e3-85e1-6538a5f6e4f4",
             "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

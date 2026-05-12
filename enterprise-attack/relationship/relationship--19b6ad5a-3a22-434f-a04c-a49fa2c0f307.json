@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--85eac7b6-204c-4031-b820-509c2bf868ea",
+    "id": "bundle--ad0a56c9-953b-4b96-9711-71b29fafe067",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--19b6ad5a-3a22-434f-a04c-a49fa2c0f307",
             "created": "2025-01-06T16:32:34.235Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CCCS ArcaneDoor 2024",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:59:41.795Z",
+            "modified": "2026-04-29T14:23:05.940Z",
             "description": "[Line Dancer](https://attack.mitre.org/software/S1186) is uniquely associated with the [ArcaneDoor](https://attack.mitre.org/campaigns/C0046) campaign.(Citation: CCCS ArcaneDoor 2024)(Citation: Cisco ArcaneDoor 2024)",
             "relationship_type": "uses",
             "source_ref": "campaign--a543ef15-91ea-4aa9-9c10-267d56e1ee82",
             "target_ref": "malware--4c8ad4ed-3bbb-4088-bf14-f4caf2bf62a0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

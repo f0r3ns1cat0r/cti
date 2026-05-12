@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0faf2b56-3c3d-497e-85ff-5497fef1b958",
+    "id": "bundle--74df4efa-31db-4921-8121-cce23e180ba5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a67d4b9b-0c8f-41d8-a7f2-6d4c61fcb1ea",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Sednit USBStealer 2014",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:03:45.109Z",
+            "modified": "2026-04-29T14:23:06.152Z",
             "description": "[USBStealer](https://attack.mitre.org/software/S0136) mimics a legitimate Russian program called USB Disk Security.(Citation: ESET Sednit USBStealer 2014)",
             "relationship_type": "uses",
             "source_ref": "malware--af2ad3b7-ab6a-4807-91fd-51bcaff9acbb",
             "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

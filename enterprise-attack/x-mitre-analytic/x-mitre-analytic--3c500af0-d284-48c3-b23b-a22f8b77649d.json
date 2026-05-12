@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fb9efe99-4b0b-4be7-8ad7-a427fc0d3f81",
+    "id": "bundle--14ef8129-a824-4c7e-9ddb-248f83046b4f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T21:03:04.099Z",
+            "modified": "2026-05-12T16:30:18.376Z",
             "name": "Analytic 2060",
             "description": "Much of this takes place outside the visibility of the target organization, making detection difficult for defenders.\n\nDetection efforts may be focused on related stages of the adversary lifecycle, such as during Initial Access.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

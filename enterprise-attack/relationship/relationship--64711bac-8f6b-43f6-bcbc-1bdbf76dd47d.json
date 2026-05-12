@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--943c7b1d-a6ac-4ed9-ad28-9e337d4e5714",
+    "id": "bundle--10ccbb61-cbde-4485-9312-01a96898e2df",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--64711bac-8f6b-43f6-bcbc-1bdbf76dd47d",
             "created": "2025-06-04T16:08:51.661Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Storm-0940",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-10T19:44:03.717Z",
+            "modified": "2026-04-29T14:23:06.061Z",
             "description": "[Quad7 Activity](https://attack.mitre.org/campaigns/C0055) has enabled the exploitation of vulnerabilities for remote code execution capabilities in SOHO routers including CVE-2023-50224 and CVE-2025-9377 in TP-Link devices.(Citation: Microsoft Storm-0940)(Citation: TP-Link Quad 7 AUG 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--e7511089-1076-4a3b-984d-1a0a8afe31e9",

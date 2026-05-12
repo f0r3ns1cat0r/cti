@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cef32a07-a3bf-4da8-a35e-f9235f0bf078",
+    "id": "bundle--fa586ffe-1713-45a1-bd10-43ca32e1c655",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c349ffd1-a380-4855-af78-8d8d180cc6b9",
             "created": "2024-03-13T21:18:31.457Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Security Mispadu Facebook Ads 2019",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:45:08.415Z",
+            "modified": "2026-04-29T14:23:06.192Z",
             "description": "[Mispadu](https://attack.mitre.org/software/S1122) can sends the collected financial data to the C2 server.(Citation: ESET Security Mispadu Facebook Ads 2019)(Citation: SCILabs Malteiro 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--4e6464d2-69df-4e56-8d4c-1973f84d7b80",
             "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

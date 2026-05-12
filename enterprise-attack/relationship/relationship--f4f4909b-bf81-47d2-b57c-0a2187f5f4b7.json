@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9ce335c9-0ddf-4fba-9634-8aa6cf8427c8",
+    "id": "bundle--8948d5ee-520a-4ec6-b6bc-da20f954efc8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-15T13:22:13.778Z",
+            "modified": "2026-04-29T14:23:06.258Z",
             "description": "Routinely check account role permissions to ensure only expected users and roles have permission to modify system firewalls.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8",

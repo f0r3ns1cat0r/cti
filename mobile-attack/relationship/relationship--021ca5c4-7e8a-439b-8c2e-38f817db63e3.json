@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--62767b8a-93cc-4d5e-86ce-695a7d099de9",
+    "id": "bundle--d0bb8d7b-3c9e-42f1-985c-3ca553e50697",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--021ca5c4-7e8a-439b-8c2e-38f817db63e3",
             "created": "2023-02-06T18:50:12.251Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "lookout_abstractemu_1021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:46:38.768Z",
+            "modified": "2026-04-29T14:23:05.906Z",
             "description": "[AbstractEmu](https://attack.mitre.org/software/S1061) can check device system properties to potentially avoid running while under analysis.(Citation: lookout_abstractemu_1021)",
             "relationship_type": "uses",
             "source_ref": "malware--2aec175b-4429-4048-8e09-3ef6cbecfc64",
             "target_ref": "attack-pattern--6ffad4be-bfe0-424f-abde-4d9a84a800ad",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

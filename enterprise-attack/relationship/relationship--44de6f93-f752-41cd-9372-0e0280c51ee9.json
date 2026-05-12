@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--82fa985b-63d8-4165-be61-c35194d6f5fe",
+    "id": "bundle--f0c4909c-7bb7-4bf4-8772-e5f7f1cb2415",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--44de6f93-f752-41cd-9372-0e0280c51ee9",
             "created": "2025-09-11T20:12:42.196Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Eset PlugX Korplug Mustang Panda March 2022",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-11T20:12:42.196Z",
+            "modified": "2026-04-29T14:23:06.019Z",
             "description": "[PlugX](https://attack.mitre.org/software/S0013) has identified system time through its GetSystemInfo command.(Citation: Eset PlugX Korplug Mustang Panda March 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",

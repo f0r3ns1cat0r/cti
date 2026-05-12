@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7a94e2a1-6479-4045-a5f8-ca400f8f8066",
+    "id": "bundle--80deb129-65ec-46d7-a7ac-b2648ed3fad7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--304f5c1b-7cfa-4c2a-b7a2-e4957da603b1",
             "created": "2020-03-19T22:10:50.454Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Oceanlotus May 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:41:30.804Z",
+            "modified": "2026-04-29T14:23:05.977Z",
             "description": "[APT32](https://attack.mitre.org/groups/G0050) used Outlook Credential Dumper to harvest credentials stored in Windows registry.(Citation: Cybereason Oceanlotus May 2017)(Citation: Cybereason Cobalt Kitty 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "target_ref": "attack-pattern--341e222a-a6e3-4f6f-b69c-831d792b1580",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

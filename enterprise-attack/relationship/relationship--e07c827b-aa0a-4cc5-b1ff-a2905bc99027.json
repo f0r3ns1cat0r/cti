@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--027afd05-defd-43b5-a12f-b8ab5b9e9dc5",
+    "id": "bundle--03ff3af5-2b07-40d1-8bdb-805dc5b22d6f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T18:47:04.557Z",
+            "modified": "2026-04-29T14:23:06.231Z",
             "description": "[NOOPLDR](https://attack.mitre.org/software/S9025) can discover the device ID and hostname from the targeted machine to use for encryption keys.(Citation: Trend Micro Earth Kasha NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--66637cd6-ae68-4bcd-af82-32f70a854175",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ed590288-fe21-4baa-a14e-1d1f9b11c99b",
+    "id": "bundle--d7edafe3-fefc-45d6-95d2-661eb0ed151a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--529360d5-172a-4326-b993-e3af75d3e7af",
             "created": "2020-03-17T18:23:51.085Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Secureworks BRONZE BUTLER Oct 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:47:56.330Z",
+            "modified": "2026-04-29T14:23:06.038Z",
             "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has used VBS and VBE scripts for execution.(Citation: Secureworks BRONZE BUTLER Oct 2017)(Citation: Trend Micro Tick November 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
             "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

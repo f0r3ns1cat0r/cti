@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--877fd59c-c8cf-4b2d-85e1-0160c1bd5e12",
+    "id": "bundle--4aa3c577-7714-4f03-b280-759b01526cc7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--155887e2-e6c3-49c3-a71d-0b2c3a8108bd",
             "created": "2025-10-20T11:34:50.893Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cyble Embargo Ransomware May 2024",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-20T11:42:03.755Z",
+            "modified": "2026-04-29T14:23:05.933Z",
             "description": "[Embargo](https://attack.mitre.org/software/S1247) has been leveraged in double-extortion ransomware, exfiltrating files then encrypting them, to prompt victims to pay a ransom.(Citation: Cyble Embargo Ransomware May 2024)(Citation: ESET Embargo Ransomware October 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--82adb90e-43b8-4bce-9efe-afeba65457b2",

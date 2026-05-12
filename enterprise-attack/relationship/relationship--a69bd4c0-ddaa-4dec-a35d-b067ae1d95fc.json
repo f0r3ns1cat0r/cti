@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--28b4a46f-b21f-4947-add2-6b333568e20b",
+    "id": "bundle--968c677f-f7fa-4a16-b520-1340c7790eac",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a69bd4c0-ddaa-4dec-a35d-b067ae1d95fc",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Trojan.Hydraq Jan 2010",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:03:47.083Z",
+            "modified": "2026-04-29T14:23:06.152Z",
             "description": "[Hydraq](https://attack.mitre.org/software/S0203) creates a backdoor through which remote attackers can monitor processes.(Citation: Symantec Trojan.Hydraq Jan 2010)(Citation: Symantec Hydraq Jan 2010)",
             "relationship_type": "uses",
             "source_ref": "malware--73a4793a-ce55-4159-b2a6-208ef29b326f",
             "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eedeb6e6-8cb9-458e-afeb-30bc9173e31e",
+    "id": "bundle--a1cffee0-cdce-4784-9613-b8c44676dcab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--af6e3f9e-7c71-484d-ab8e-5adaaaedea36",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Baumgartner Naikon 2015",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:05:23.266Z",
+            "modified": "2026-04-29T14:23:06.164Z",
             "description": "[WinMM](https://attack.mitre.org/software/S0059) uses NetUser-GetInfo to identify that it is running under an \u201cAdmin\u201d account on the local system.(Citation: Baumgartner Naikon 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--22addc7b-b39f-483d-979a-1b35147da5de",
             "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

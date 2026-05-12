@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--830f1a7d-42bb-4f9d-83ad-c77ec4e4051d",
+    "id": "bundle--0e0b1fc2-8e8e-4a36-a343-5e2a6fc8043f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--2aa6a9d6-57a0-490e-97d0-79d12119ec21",
             "created": "2024-08-13T19:34:33.253Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA Iran Albanian Attacks September 2022",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:04:16.695Z",
+            "modified": "2026-04-29T14:23:05.963Z",
             "description": "During [HomeLand Justice](https://attack.mitre.org/campaigns/C0038), threat actors used a version of [ZeroCleare](https://attack.mitre.org/software/S1151) to wipe disk drives on targeted hosts.(Citation: CISA Iran Albanian Attacks September 2022)(Citation: Microsoft Albanian Government Attacks September 2022)",
             "relationship_type": "uses",
             "source_ref": "campaign--7e21077d-2589-43a7-a5f9-490061289526",
             "target_ref": "attack-pattern--0af0ca99-357d-4ba1-805f-674fdfb7bef9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

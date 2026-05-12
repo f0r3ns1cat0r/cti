@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5cbd8ec5-94b9-41f9-857b-70a0918eeeb0",
+    "id": "bundle--dd3dd071-394f-4218-aea0-99fac854c44f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--af74a9b1-6c74-45b6-a21d-38686afb202c",
             "created": "2023-10-12T21:31:42.352Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "netlab360 rotajakiro vs oceanlotus",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:39:56.511Z",
+            "modified": "2026-04-29T14:23:06.164Z",
             "description": "[RotaJakiro](https://attack.mitre.org/software/S1078) uses a custom binary protocol over TCP port 443.(Citation: netlab360 rotajakiro vs oceanlotus)",
             "relationship_type": "uses",
             "source_ref": "malware--08e844a8-371f-4fe3-9d1f-e056e64a7fde",
             "target_ref": "attack-pattern--b18eae87-b469-4e14-b454-b171b416bc18",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

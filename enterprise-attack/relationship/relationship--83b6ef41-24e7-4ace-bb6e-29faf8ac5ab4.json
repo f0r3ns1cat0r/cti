@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--acb51c97-e700-471d-97a4-596d75e59061",
+    "id": "bundle--6a5249b7-98b8-4ad0-b3c1-394dede4564d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T16:15:03.132Z",
+            "modified": "2026-04-29T14:23:06.105Z",
             "description": "[LODEINFO](https://attack.mitre.org/software/S9020) can disover machine information including OS architecture, the ANSI code page (ACP) identifier, and hostname.(Citation: Kaspersky LODEINFO Part II OCT 2022)(Citation: ITOCHU LODEINFO JAN 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--7908f855-5b5b-4d6a-acbc-af6b45ec27ad",

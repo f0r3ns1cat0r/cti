@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--96376084-20c5-4bb1-9a54-a8f4319c72e3",
+    "id": "bundle--1337fb3c-a7c7-4d10-bbe2-545278d4c819",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--25a6e5a0-28a7-40a4-baa8-7a9c688f3eb4",
             "created": "2019-12-19T21:05:38.409Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TechNet Secure Boot Process",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:03:00.103Z",
+            "modified": "2026-04-29T14:23:05.956Z",
             "description": "Use Trusted Platform Module technology and a secure or trusted boot process to prevent system integrity from being compromised.(Citation: TCG Trusted Platform Module)(Citation: TechNet Secure Boot Process)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--7da0387c-ba92-4553-b291-b636ee42b2eb",
             "target_ref": "attack-pattern--1b7b1806-7746-41a1-a35d-e48dae25ddba",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

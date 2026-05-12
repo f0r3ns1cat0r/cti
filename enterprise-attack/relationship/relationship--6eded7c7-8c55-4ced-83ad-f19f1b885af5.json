@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8fa7c3d3-424e-40eb-a015-7bc0104ddb7f",
+    "id": "bundle--9ea623e0-5b15-4fdc-97c6-88dfa07bb452",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:47:02.855Z",
+            "modified": "2026-04-29T14:23:06.076Z",
             "description": "[Olympic Destroyer](https://attack.mitre.org/software/S0365) will attempt to clear the System and Security event logs using <code>wevtutil</code>.(Citation: Talos Olympic Destroyer 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--3249e92a-870b-426d-8790-ba311c1abfb4",

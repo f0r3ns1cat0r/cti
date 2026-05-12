@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eab07b7b-50e1-49f3-925a-01fc1eb4be61",
+    "id": "bundle--3713751b-fab7-4d76-a71a-98afcb52826c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ab55f99b-5239-4aea-93f7-e1002520bf05",
             "created": "2021-09-21T15:10:56.106Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Secureworks GOLD KINGSWOOD September 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:04:36.874Z",
+            "modified": "2026-04-29T14:23:06.158Z",
             "description": "[SpicyOmelette](https://attack.mitre.org/software/S0646) has the ability to execute arbitrary JavaScript code on a compromised host.(Citation: Secureworks GOLD KINGSWOOD September 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--599cd7b5-37b5-4cdd-8174-2811531ce9d0",
             "target_ref": "attack-pattern--0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

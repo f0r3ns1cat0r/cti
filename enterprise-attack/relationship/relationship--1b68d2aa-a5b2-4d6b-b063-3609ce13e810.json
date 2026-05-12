@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--13047912-c951-41c7-9fad-395b3a093c90",
+    "id": "bundle--24e54a24-9857-4034-acf6-26ff50cfdec3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:05:04.535Z",
+            "modified": "2026-04-29T14:23:05.942Z",
             "description": "[XLoader](https://attack.mitre.org/software/S1207) loads a copy of NTDLL to evade hooks from security monitoring tools on this library.(Citation: Zscaler XLoader 2025) [XLoader](https://attack.mitre.org/software/S1207) can add the path of its executable to the Microsoft Defender exclusion list.(Citation: Netskope XLoader 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--9c629607-03e4-4952-b481-2d54221d2783",

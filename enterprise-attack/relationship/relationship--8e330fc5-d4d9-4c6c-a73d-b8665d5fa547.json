@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9e3f88b8-aaf6-4b57-91d8-1f2db02b9360",
+    "id": "bundle--e78f7288-49cf-47eb-8e86-42d69db9b865",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8e330fc5-d4d9-4c6c-a73d-b8665d5fa547",
             "created": "2024-12-17T01:54:16.676Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trustwave BlackByte 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:31:06.509Z",
+            "modified": "2026-04-29T14:23:06.119Z",
             "description": "[BlackByte Ransomware](https://attack.mitre.org/software/S1180) identifies remote systems via active directory queries for hostnames prior to launching remote ransomware payloads.(Citation: Trustwave BlackByte 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--9454bb5d-3bdb-40f9-a878-b5fb446ded3d",
             "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

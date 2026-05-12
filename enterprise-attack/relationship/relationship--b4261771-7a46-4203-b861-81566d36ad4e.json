@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eaf6af8c-7a06-45e9-a459-3b980883519e",
+    "id": "bundle--9e0e9db8-7cac-40fb-9830-3e6f082c8d98",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T16:51:55.835Z",
+            "modified": "2026-04-29T14:23:06.171Z",
             "description": "[LODEINFO](https://attack.mitre.org/software/S9020) can upload files from infected hosts to the C2.(Citation: Kaspersky LODEINFO Part II OCT 2022)(Citation: ESET MirrorFace DEC 2022)(Citation: ITOCHU LODEINFO JAN 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--7908f855-5b5b-4d6a-acbc-af6b45ec27ad",

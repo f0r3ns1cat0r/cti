@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bc8810f2-22c9-4b3d-a9f9-1f1bc8d09533",
+    "id": "bundle--1fd57681-8252-488a-83cf-1f551a7d8339",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--de727da1-d36f-4e33-99a1-05ce2df29094",
             "created": "2022-07-25T18:25:54.941Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelOne Aoqin Dragon June 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:52:04.561Z",
+            "modified": "2026-04-29T14:23:06.229Z",
             "description": "[Heyoka Backdoor](https://attack.mitre.org/software/S1027) can identify removable media attached to victim's machines.(Citation: SentinelOne Aoqin Dragon June 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--dff90475-9f72-41a6-84ed-1fbefd3874c0",
             "target_ref": "attack-pattern--348f1eef-964b-4eb6-bb53-69b3dcb0c643",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ceb67b81-2de8-4a10-8906-a0e615a076da",
+    "id": "bundle--897e451b-08aa-44f7-a34b-3ed76aceafa4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T23:30:37.896Z",
+            "modified": "2026-04-29T14:23:05.983Z",
             "description": "During [Operation Wocao](https://attack.mitre.org/campaigns/C0014), threat actors used PowerShell to add and delete rules in the Windows firewall.(Citation: FoxIT Wocao December 2019)",
             "relationship_type": "uses",
             "source_ref": "campaign--b03d5112-e23a-4ac8-add0-be7502d24eff",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dd3943d1-f82d-48ff-981f-e9e5e6159600",
+    "id": "bundle--9404cc0d-1248-4290-8fd3-77b47cbade8f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:38.453Z",
+            "modified": "2026-05-12T15:12:00.626Z",
             "name": "Remote Data Staging",
             "description": "Adversaries may stage data collected from multiple systems in a central location or directory on one system prior to Exfiltration. Data may be kept in separate files or combined into one file through techniques such as [Archive Collected Data](https://attack.mitre.org/techniques/T1560). Interactive command shells may be used, and common functionality within [cmd](https://attack.mitre.org/software/S0106) and bash may be used to copy data into a staging location.\n\nIn cloud environments, adversaries may stage data within a particular instance or virtual machine before exfiltration. An adversary may [Create Cloud Instance](https://attack.mitre.org/techniques/T1578/002) and stage data in that instance.(Citation: Mandiant M-Trends 2020)\n\nBy staging data on one system prior to Exfiltration, adversaries can minimize the number of connections made to their C2 server and better evade detection.",
             "kill_chain_phases": [
@@ -33,7 +33,7 @@
                     "phase_name": "collection"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_contributors": [
                 "Praetorian"
             ],

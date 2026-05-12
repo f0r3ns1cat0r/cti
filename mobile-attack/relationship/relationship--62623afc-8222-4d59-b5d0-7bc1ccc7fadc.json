@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2a347eac-b41d-4cb0-ad81-bfddf9fc4e69",
+    "id": "bundle--d1a081fa-fae3-42b9-907f-da979bb2dbdf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--62623afc-8222-4d59-b5d0-7bc1ccc7fadc",
             "created": "2023-02-06T19:41:40.104Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "threatfabric_sova_0921",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:49:05.526Z",
+            "modified": "2026-04-29T14:23:06.059Z",
             "description": "[S.O.V.A.](https://attack.mitre.org/software/S1062) can silently intercept and manipulate notifications. [S.O.V.A.](https://attack.mitre.org/software/S1062) can also inject cookies via push notifications.(Citation: threatfabric_sova_0921)",
             "relationship_type": "uses",
             "source_ref": "malware--4b53eb01-57d7-47b4-b078-22766b002b36",
             "target_ref": "attack-pattern--39dd7871-f59b-495f-a9a5-3cb8cc50c9b2",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

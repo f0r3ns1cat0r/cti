@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--be0b3632-4ac2-4517-b610-a3d9dad533f8",
+    "id": "bundle--0a377fa1-f2a0-4ff9-8cbb-9e631c23a547",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:55:50.773Z",
+            "modified": "2026-04-29T14:23:06.043Z",
             "description": "[LockBit 3.0](https://attack.mitre.org/software/S1202) can delete log files on targeted systems.(Citation: Joint Cybersecurity Advisory LockBit JUN 2023)(Citation: Joint Cybersecurity Advisory LockBit 3.0 MAR 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--71fe9df1-1c6f-430c-ab9b-ff3c11074e52",

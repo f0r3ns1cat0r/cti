@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c765058d-0fd3-4466-9c5b-b63d760a49b3",
+    "id": "bundle--1cf4c386-c163-49f7-93fb-f6cf7cb5ea85",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d4a5a902-231e-4878-ad5b-39620498b018",
             "created": "2019-09-04T14:28:15.941Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lookout-Monokle",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:30:48.813Z",
+            "modified": "2026-04-29T14:23:06.216Z",
             "description": "[Monokle](https://attack.mitre.org/software/S0407) can record audio from the device's microphone and can record phone calls, specifying the output audio quality.(Citation: Lookout-Monokle)",
             "relationship_type": "uses",
             "source_ref": "malware--6a7aaab1-3e0a-48bb-ba66-bbf7665c0a65",
             "target_ref": "attack-pattern--6683aa0c-d98a-4f5b-ac57-ca7e9934a760",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

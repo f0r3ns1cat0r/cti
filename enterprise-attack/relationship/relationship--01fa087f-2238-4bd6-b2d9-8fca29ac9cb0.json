@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cc937f4d-9abb-44c7-b22d-07dc08a00cd1",
+    "id": "bundle--d44c3a59-497c-4612-a0be-b080755c3d2a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T21:17:03.962Z",
+            "modified": "2026-04-29T14:23:05.905Z",
             "description": "[SPAWNCHIMERA](https://attack.mitre.org/software/S9024) has decoded a XOR encoded private key.(Citation: JPCERT SPAWNCHIMERA Ivanti February 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--d1974f35-0e06-478e-bc74-7530545d814b",

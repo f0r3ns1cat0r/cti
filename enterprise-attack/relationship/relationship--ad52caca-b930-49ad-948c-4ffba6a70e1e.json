@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e812cf6d-e2c4-4afa-8983-ddf8e1c8f714",
+    "id": "bundle--53b280bb-c815-48b6-b88e-cce481abf57e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:11:36.249Z",
+            "modified": "2026-04-29T14:23:06.161Z",
             "description": "[Donut](https://attack.mitre.org/software/S0695) can patch Antimalware Scan Interface (AMSI), Windows Lockdown Policy (WLDP), as well as exit-related [Native API](https://attack.mitre.org/techniques/T1106) functions to avoid process termination.(Citation: Donut Github)\t",
             "relationship_type": "uses",
             "source_ref": "tool--a7b5df47-73bb-4d47-b701-869f185633a6",

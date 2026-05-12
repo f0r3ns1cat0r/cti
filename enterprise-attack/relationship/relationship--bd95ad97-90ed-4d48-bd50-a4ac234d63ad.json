@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--62fe3bc1-8932-4836-a494-a72bb646fde8",
+    "id": "bundle--52f1b2aa-c1a2-4fa9-beec-d31cc4dd1195",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bd95ad97-90ed-4d48-bd50-a4ac234d63ad",
             "created": "2024-02-08T15:27:30.231Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "NGLite Trojan",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:43:33.466Z",
+            "modified": "2026-04-29T14:23:06.184Z",
             "description": "[NGLite](https://attack.mitre.org/software/S1106) has abused NKN infrastructure for its C2 communication.(Citation: NGLite Trojan)",
             "relationship_type": "uses",
             "source_ref": "malware--72b5f07f-5448-4e00-9ff2-08bc193a7b77",
             "target_ref": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

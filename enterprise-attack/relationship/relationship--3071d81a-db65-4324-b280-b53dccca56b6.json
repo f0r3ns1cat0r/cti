@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--84cfc716-2130-48e4-8c80-d4908a6a91af",
+    "id": "bundle--b386fa9e-1346-4d2e-b920-b84602153266",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--3071d81a-db65-4324-b280-b53dccca56b6",
             "created": "2025-09-29T15:42:45.590Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Halcyon Qilin.B OCT 2024",
@@ -33,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T20:52:02.246Z",
+            "modified": "2026-04-29T14:23:05.977Z",
             "description": "[Qilin](https://attack.mitre.org/software/S1242) can terminate specific services on compromised hosts.(Citation: Trend Micro Agenda Ransomware AUG 2022)(Citation: Halcyon Qilin.B OCT 2024)(Citation: HC3 Qilin Threat Profile JUN 2024)(Citation: Cisco Talos Qilin Ransomware OCT 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--e23d2777-b85d-44fc-861e-9149d399fbb9",

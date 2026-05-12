@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fbdf549c-85b7-471b-8fa5-2f459ea833c5",
+    "id": "bundle--48be13cd-5527-4165-b9a5-1bd0e645a74d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6798a05d-73d8-48ce-9bd8-6cdf1d13bcea",
             "created": "2025-03-15T15:33:22.331Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco LotusBlossom 2025",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:20:40.400Z",
+            "modified": "2026-04-29T14:23:06.066Z",
             "description": "[Sagerunex](https://attack.mitre.org/software/S1210) has used web services such as Twitter for command and control purposes.(Citation: Cisco LotusBlossom 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--7f269253-c225-45ff-87c2-5e8ef6dd369f",
             "target_ref": "attack-pattern--9c99724c-a483-4d60-ad9d-7f004e42e8e8",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--157b6eb8-a3e3-449c-85d7-8b7a2d502127",
+    "id": "bundle--944e1e89-0c6c-4ae6-9648-f0b18e99fcb1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9139c3d3-c466-4847-8b1b-257af487d5ef",
             "created": "2025-12-16T00:01:22.573Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SophosGnGal_SystemBC_Dec2020",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-12-16T00:01:22.573Z",
+            "modified": "2026-04-29T14:23:06.123Z",
             "description": "[SystemBC](https://attack.mitre.org/software/S9001) has encrypted its C2 traffic with RC4.(Citation: HarmonProofpoint_SystemBC_Aug2019)(Citation: SophosGnGal_SystemBC_Dec2020)",
             "relationship_type": "uses",
             "source_ref": "malware--39643fb9-00c1-4a45-85e5-801a3f2665d1",

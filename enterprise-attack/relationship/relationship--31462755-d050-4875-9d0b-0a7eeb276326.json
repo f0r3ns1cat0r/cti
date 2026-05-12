@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--615d1fbb-1931-48f5-b601-eaa9c53e8cdd",
+    "id": "bundle--07a8afa2-87a3-4133-8b92-02d6180716ad",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--31462755-d050-4875-9d0b-0a7eeb276326",
             "created": "2020-03-17T00:35:36.515Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Sednit Part 2",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:41:43.785Z",
+            "modified": "2026-04-29T14:23:05.980Z",
             "description": "Various implementations of [CHOPSTICK](https://attack.mitre.org/software/S0023) communicate with C2 over SMTP and POP3.(Citation: ESET Sednit Part 2)",
             "relationship_type": "uses",
             "source_ref": "malware--ccd61dfc-b03f-4689-8c18-7c97eab08472",
             "target_ref": "attack-pattern--54b4c251-1f0e-4eba-ba6b-dbc7a6f6f06b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

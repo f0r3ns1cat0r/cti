@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1b13e363-499e-4b2b-9e03-62b8fb3e8aa1",
+    "id": "bundle--46f9f10b-3404-4972-8029-466210fb842f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T18:34:50.466Z",
+            "modified": "2026-04-29T14:23:06.174Z",
             "description": "The [DCRAT](https://attack.mitre.org/software/S9017) configuration file is encrypted using AES-256.(Citation: Zscaler BlindEagle DEC 2025)",
             "relationship_type": "uses",
             "source_ref": "tool--2f481072-e9f8-4452-be00-d1d7e43c2edc",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ef8ada49-62c1-45f0-821b-db1696445ab8",
+    "id": "bundle--5abcfbf1-77ac-4ce7-832e-92a7f441ab43",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--736b73d4-a72b-46cc-a9f0-b102d0d0ec48",
             "created": "2020-09-11T15:11:28.315Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cyberreason Anchor December 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:54:06.612Z",
+            "modified": "2026-04-29T14:23:06.083Z",
             "description": "[Anchor](https://attack.mitre.org/software/S0504) has used HTTP and HTTPS in C2 communications.(Citation: Cyberreason Anchor December 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--5f1d4579-4e8f-48e7-860e-2da773ae432e",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

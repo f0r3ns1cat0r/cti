@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--1b01d34d-b604-40d1-bf23-d146d6741c32",
+    "id": "bundle--c1cc123c-cc51-4e3d-8874-6cd0f8c72828",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--dd8477c8-2aad-4db3-b810-fe0d2f605fa8",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.695Z",
             "name": "Exploit Public-Facing Application \u2013 multi-signal correlation (request \u2192 error \u2192 post-exploit process/egress)",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -35,8 +36,7 @@
                 "x-mitre-analytic--17f9487f-711d-4f28-9de8-209ae39d33d2",
                 "x-mitre-analytic--0668f39a-d319-427f-b29b-160399e6f79a",
                 "x-mitre-analytic--72298803-0644-477f-be89-01b173202577"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

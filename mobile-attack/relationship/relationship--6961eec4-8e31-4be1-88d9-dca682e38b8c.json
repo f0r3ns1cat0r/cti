@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ee7b1c26-21e3-4b79-8535-e1fe94ff88cb",
+    "id": "bundle--e19eba43-c1b6-439f-8ad7-f50d1b62480e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6961eec4-8e31-4be1-88d9-dca682e38b8c",
             "created": "2019-08-09T18:02:06.688Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Zscaler-SuperMarioRun",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:49:15.306Z",
+            "modified": "2026-04-29T14:23:06.068Z",
             "description": "[DroidJack](https://attack.mitre.org/software/S0320) can capture video using device cameras.(Citation: Zscaler-SuperMarioRun)",
             "relationship_type": "uses",
             "source_ref": "malware--05c4f87c-be8f-46ea-8d9a-2a0aad8f52c1",
             "target_ref": "attack-pattern--d8940e76-f9c1-4912-bea6-e21c251370b6",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

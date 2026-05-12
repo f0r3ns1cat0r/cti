@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0f478da0-a198-445e-84e9-f4eeeb71d7e8",
+    "id": "bundle--5e108a1e-200b-44c3-a478-d490bc79c0e6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T22:16:17.523Z",
+            "modified": "2026-04-29T14:23:05.910Z",
             "description": "[Remcos](https://attack.mitre.org/software/S0332) has the ability to modify the desktop wallpaper.(Citation: Fortinet Remcos Campaign NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "tool--7cd0bc75-055b-4098-a00e-83dc8beaff14",

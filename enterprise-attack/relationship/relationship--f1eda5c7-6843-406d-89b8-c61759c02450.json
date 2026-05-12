@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9f540b5e-c898-4365-9360-bf671b192c27",
+    "id": "bundle--1a1c2673-c990-4e70-bb2d-93aabb6b99a4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f1eda5c7-6843-406d-89b8-c61759c02450",
             "created": "2019-05-24T17:57:36.696Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SecureList Silence Nov 2017",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:57:04.595Z",
+            "modified": "2026-04-29T14:23:06.254Z",
             "description": "[Silence](https://attack.mitre.org/groups/G0091) has used Windows command-line to run commands.(Citation: Cyber Forensicator Silence Jan 2019)(Citation: SecureList Silence Nov 2017)(Citation: Group IB Silence Sept 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
             "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

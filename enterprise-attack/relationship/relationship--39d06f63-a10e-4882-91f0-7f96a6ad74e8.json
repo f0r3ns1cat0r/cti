@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5f5668e1-ff44-4177-be85-04622b3aea98",
+    "id": "bundle--70c4ec9b-5c30-4255-890d-d70d011dcaf5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T17:04:34.890Z",
+            "modified": "2026-04-29T14:23:05.999Z",
             "description": "[MirrorStealer](https://attack.mitre.org/software/S9022) can target Group Policy Preferences for credentials.(Citation: Trend Micro Earth Kasha NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--2f851d4a-18cc-4d7f-9408-b10ef02ee936",

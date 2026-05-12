@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3e1d4626-ee65-4c1c-b0ea-7f58514312bb",
+    "id": "bundle--109040f5-0ce9-469f-881c-6d841c5fcebc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d2560c35-b2f6-47d2-b573-236ef99894d5",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ClearSky Wilted Tulip July 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:49:06.619Z",
+            "modified": "2026-04-29T14:23:06.213Z",
             "description": "[Matryoshka](https://attack.mitre.org/software/S0167) can establish persistence by adding a Scheduled Task named \"Microsoft Boost Kernel Optimization\".(Citation: ClearSky Wilted Tulip July 2017)(Citation: CopyKittens Nov 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--1cc934e4-b01d-4543-a011-b988dfc1a458",
             "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

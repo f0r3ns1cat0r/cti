@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d5fb18c3-beb7-4cfd-bcce-8d15b6b95dc2",
+    "id": "bundle--f564ec46-f56e-46ae-bc01-f3e0df5d62cd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--be7d0718-28e5-4f49-9636-c5deafa63530",
             "created": "2025-01-29T18:42:50.617Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Lockbit 2.0",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:43:46.781Z",
+            "modified": "2026-04-29T14:23:06.186Z",
             "description": "[LockBit 2.0](https://attack.mitre.org/software/S1199) can delete itself from disk after execution.(Citation: FBI Lockbit 2.0 FEB 2022)(Citation: Palo Alto Lockbit 2.0 JUN 2022)(Citation: Cybereason Lockbit 2.0)",
             "relationship_type": "uses",
             "source_ref": "malware--a4578560-42cf-4075-9fa2-056f0058c881",
             "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dcd62f96-fd4d-4b9e-ad1d-3bfe53be1abb",
+    "id": "bundle--dd7a6ddd-b34e-47e5-b42f-ff7c543c9eee",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4aae6ab8-2a67-4780-a69e-b15ecff7fc5d",
             "created": "2023-02-28T21:43:12.487Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "cloudmark_tanglebot_0921",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:48:27.776Z",
+            "modified": "2026-04-29T14:23:06.027Z",
             "description": "[TangleBot](https://attack.mitre.org/software/S1069) can make and block phone calls.(Citation: cloudmark_tanglebot_0921)",
             "relationship_type": "uses",
             "source_ref": "malware--68156e5a-4c3a-46dd-9c5e-c0bfdec6651f",
             "target_ref": "attack-pattern--351ddf79-2d3a-41b4-9bef-82ea5d3ccd69",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

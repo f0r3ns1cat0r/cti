@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d12c0191-a9e8-4b35-a683-dde031741259",
+    "id": "bundle--de144c90-062e-451e-8d1c-2bf6c57c7196",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-19T16:54:41.439Z",
+            "modified": "2026-04-29T14:23:06.008Z",
             "description": "[UPPERCUT](https://attack.mitre.org/software/S0275) has been sideloaded through a legitimately signed application from the JustSystems Corporation.(Citation: ESET MirrorFace 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--fb4e3792-e915-4fdd-a9cd-92dfa2ace7aa",

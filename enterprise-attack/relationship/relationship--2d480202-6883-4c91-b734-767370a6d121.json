@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a646ec17-cac2-4057-9dd4-f643488ec442",
+    "id": "bundle--0b844b0b-4f2b-43f2-9f05-41cbf8634ce8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T22:37:26.632Z",
+            "modified": "2026-04-29T14:23:05.966Z",
             "description": "[LazyWiper](https://attack.mitre.org/software/S9039) can disable Microsoft Windows Defender Real-Time Monitoring with the `Set-MpPreference` cmdlet.(Citation: CERT Polska)  ",
             "relationship_type": "uses",
             "source_ref": "malware--e4160979-b9bc-4f58-acbe-1d921ebbc122",

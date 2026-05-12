@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eb326ec2-a946-404c-9e25-a474e8e63264",
+    "id": "bundle--7f1c3537-7acb-42a7-893f-dfb1b2778dac",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8b5691c7-1815-4d76-a7dd-dfd827043bb9",
             "created": "2019-04-18T14:44:18.146Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT33 Guardrail",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:58:38.691Z",
+            "modified": "2026-04-29T14:23:06.115Z",
             "description": "[APT33](https://attack.mitre.org/groups/G0064) has used password spraying to gain access to target systems.(Citation: FireEye APT33 Guardrail)(Citation: Microsoft Holmium June 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--fbd29c89-18ba-4c2d-b792-51c0adee049f",
             "target_ref": "attack-pattern--692074ae-bb62-4a5e-a735-02cb6bde458c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--794e0c7b-2e2a-484e-9aae-82525a5ad0ef",
+    "id": "bundle--2f95da8a-e880-43b2-b71e-5d0cad2626cb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c308ceda-6c7c-4f7f-847b-e64f992d0104",
             "created": "2025-08-21T20:18:22.909Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "VenereCiscoTalos_Gamaredon_Mar2025",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-21T20:18:22.909Z",
+            "modified": "2026-04-29T14:23:06.192Z",
             "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has used port 6856 for C2 communications.(Citation: VenereCiscoTalos_Gamaredon_Mar2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
             "target_ref": "attack-pattern--b18eae87-b469-4e14-b454-b171b416bc18",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

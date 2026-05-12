@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d1043997-49ff-4aea-a1f4-33f035eb752a",
+    "id": "bundle--41f7bb1a-46c9-4825-9703-1c2e291a397d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T21:18:39.945Z",
+            "modified": "2026-05-12T16:30:18.384Z",
             "name": "Analytic 1837",
             "description": "Correlates (1) application registration or activation of broadcast receivers tied to system or app-generated intents, (2) event-triggered execution while the application is not in the foreground, and (3) immediate follow-on actions such as network communication or data access. The defender observes a causal chain where an external event (e.g., BOOT_COMPLETED, SMS_RECEIVED, USER_PRESENT, CONNECTIVITY_CHANGE) triggers application execution that bypasses normal user-driven lifecycle expectations, followed by background processing or outbound activity.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

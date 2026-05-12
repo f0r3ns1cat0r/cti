@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9e19cffe-239d-458d-acab-3ab5fb44196c",
+    "id": "bundle--0c5e782e-37db-4761-80a5-276da4bc1e9c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--db2e5a57-1854-4925-9b78-422c9b79c130",
             "created": "2021-03-05T18:54:56.741Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Malwarebytes Higaisa 2020",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:13:06.489Z",
+            "modified": "2026-04-29T14:23:06.225Z",
             "description": "[Higaisa](https://attack.mitre.org/groups/G0126) used <code>cmd.exe</code> for execution.(Citation: Malwarebytes Higaisa 2020)(Citation: Zscaler Higaisa 2020)(Citation: PTSecurity Higaisa 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
             "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

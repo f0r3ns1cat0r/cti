@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d717428b-bd7d-4505-8da1-1a917b7a4bdc",
+    "id": "bundle--0954134a-941e-48e3-9b8e-db226493364e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--54b3abf5-bc7c-4e8a-b51d-058cc313a3c9",
             "created": "2020-07-17T15:48:51.566Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CME Github September 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:48:20.797Z",
+            "modified": "2026-04-29T14:23:06.041Z",
             "description": "[CrackMapExec](https://attack.mitre.org/software/S0488) can set a scheduled task on the target system to execute commands remotely using [at](https://attack.mitre.org/software/S0110).(Citation: CME Github September 2018)",
             "relationship_type": "uses",
             "source_ref": "tool--c4810609-7da6-48ec-8057-1b70a7814db0",
             "target_ref": "attack-pattern--f3d95a1f-bba2-44ce-9af7-37866cd63fd0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

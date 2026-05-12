@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--25452ad4-b31d-4e6d-8d0a-f3115ec6b4ed",
+    "id": "bundle--1afe9b76-f3cb-4929-ba03-a0cc0f01e778",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--3598ab6e-9271-40ca-9771-b9a6bbce497c",
             "created": "2023-08-16T16:44:09.459Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "cyble_chameleon_0423",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-07-07T21:59:37.780Z",
+            "modified": "2026-04-29T14:23:05.992Z",
             "description": "[Chameleon](https://attack.mitre.org/software/S1083) has used HTTP to communicate with the C2 server.(Citation: cyble_chameleon_0423)",
             "relationship_type": "uses",
             "source_ref": "malware--2cf00c5a-857d-4cb6-8f03-82f15bee0f6f",
             "target_ref": "attack-pattern--2282a98b-5049-4f61-9381-55baca7c1add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

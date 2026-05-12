@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--db8fd317-025d-4460-948d-e3a7ca90995d",
+    "id": "bundle--ec47b225-e9c6-4a92-ad9d-7f0c3c0a851a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9c74284d-dfb7-49c5-85a1-fa8e63de53ad",
             "created": "2024-08-01T22:04:49.250Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "S2W Racoon 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:35:00.028Z",
+            "modified": "2026-04-29T14:23:06.138Z",
             "description": "[Raccoon Stealer](https://attack.mitre.org/software/S1148) collects the `Locale Name` of the infected device via `GetUserDefaultLocaleName` to determine whether the string `ru` is included, but in analyzed samples no action is taken if present.(Citation: S2W Racoon 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--b5a8fb8b-4ff1-43e5-a1ad-75ae565f5175",
             "target_ref": "attack-pattern--c877e33f-1df6-40d6-b1e7-ce70f16f4979",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

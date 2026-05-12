@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d1c06ded-de2b-47f6-87ef-8784b19b4897",
+    "id": "bundle--fc860b69-e4a9-4d32-8476-e444ae9d6e7b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T09:37:38.818Z",
+            "modified": "2026-04-29T14:23:06.220Z",
             "description": "[PureCrypter](https://attack.mitre.org/software/S9019) can inject its final stage into another process on the targeted system.(Citation: Zscaler PureCrypter JUN 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--6f22487c-dbbf-4a5b-85ca-a8c85e8f2f80",

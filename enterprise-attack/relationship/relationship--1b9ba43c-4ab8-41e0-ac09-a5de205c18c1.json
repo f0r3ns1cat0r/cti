@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--030930ae-2246-40c8-8be3-59b6ad9b10a9",
+    "id": "bundle--71464bda-c019-4805-b581-7bf35b975a17",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1b9ba43c-4ab8-41e0-ac09-a5de205c18c1",
             "created": "2025-09-12T17:07:53.174Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "2025_IBM_PUBLOAD_TONESHELL_HIUPAN_CLAIMLOADER_MUSTANG PANDA",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-12T17:07:53.174Z",
+            "modified": "2026-04-29T14:23:05.942Z",
             "description": "[CLAIMLOADER](https://attack.mitre.org/software/S1236) has leveraged Component Object Model (COM) objects to create a scheduled task using `ITaskService` interface.(Citation: 2025_IBM_PUBLOAD_TONESHELL_HIUPAN_CLAIMLOADER_MUSTANG PANDA)",
             "relationship_type": "uses",
             "source_ref": "malware--47e4b55a-7803-4bf5-822c-906a1ecbdd6e",

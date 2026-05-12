@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e8e160dd-1f94-46ca-a284-1819c927d241",
+    "id": "bundle--883516fb-c8c1-4f84-9183-5dc842a009ea",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--df898edd-0829-4222-b50b-e7cbf75a0fb4",
             "created": "2020-12-23T19:17:53.351Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA AA20-259A Iran-Based Actor September 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:13:51.212Z",
+            "modified": "2026-04-29T14:23:06.230Z",
             "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has used sticky keys to launch a command prompt.(Citation: CISA AA20-259A Iran-Based Actor September 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
             "target_ref": "attack-pattern--70e52b04-2a0c-4cea-9d18-7149f1df9dc5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

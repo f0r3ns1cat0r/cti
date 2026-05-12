@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6bbb0b58-a91d-46e0-a9a8-b42d60b560e6",
+    "id": "bundle--392a5540-28ba-4dd4-8e8a-5eb4144e600d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f3faf032-132b-421b-adea-2e95f214807f",
             "created": "2022-09-07T19:28:14.874Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Frankenstein June 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:57:38.906Z",
+            "modified": "2026-04-29T14:23:06.257Z",
             "description": "During [Frankenstein](https://attack.mitre.org/campaigns/C0001), the threat actors used [Empire](https://attack.mitre.org/software/S0363) to enumerate hosts and gather username, machine name, and administrative permissions information.(Citation: Talos Frankenstein June 2019)",
             "relationship_type": "uses",
             "source_ref": "campaign--26d9ebae-de59-427f-ae9a-349456bae4b1",
             "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

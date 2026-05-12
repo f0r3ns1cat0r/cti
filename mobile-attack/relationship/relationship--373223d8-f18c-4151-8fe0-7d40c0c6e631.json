@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--db684b34-d04f-4ae8-899d-8c524baea5cf",
+    "id": "bundle--ac093f0f-989b-4c2a-a717-ee7d73d34e9a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--373223d8-f18c-4151-8fe0-7d40c0c6e631",
             "created": "2020-11-24T17:55:12.885Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos GPlayed",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:28:19.134Z",
+            "modified": "2026-04-29T14:23:05.995Z",
             "description": "[GPlayed](https://attack.mitre.org/software/S0536) has used timers to enable Wi-Fi, ping the C2 server, register the device with the C2, and register wake locks on the system.(Citation: Talos GPlayed)",
             "relationship_type": "uses",
             "source_ref": "malware--a993495c-9813-4372-b9ec-d168c7f7ec0a",
             "target_ref": "attack-pattern--00290ac5-551e-44aa-bbd8-c4b913488a6d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

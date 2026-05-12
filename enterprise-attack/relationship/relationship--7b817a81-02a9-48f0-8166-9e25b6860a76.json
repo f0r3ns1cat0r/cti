@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a0487744-0d64-4ff0-b8c4-7aeeed0a79a2",
+    "id": "bundle--14d2dd4a-5d8c-4c74-8d52-81989f242e27",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7b817a81-02a9-48f0-8166-9e25b6860a76",
             "created": "2020-10-15T20:57:52.171Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant APT1",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:55:47.794Z",
+            "modified": "2026-04-29T14:23:06.095Z",
             "description": "[APT1](https://attack.mitre.org/groups/G0006) used publicly available malware for privilege escalation.(Citation: Mandiant APT1)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
             "target_ref": "attack-pattern--7807d3a4-a885-4639-a786-c1ed41484970",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

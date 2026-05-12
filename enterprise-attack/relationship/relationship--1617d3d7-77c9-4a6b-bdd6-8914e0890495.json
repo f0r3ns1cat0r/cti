@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6c92b5f1-0288-4788-8cfa-8eda7330e4db",
+    "id": "bundle--cf2b4cf7-6ea6-41c1-b7b3-fe8a329bd3c3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1617d3d7-77c9-4a6b-bdd6-8914e0890495",
             "created": "2022-06-13T17:52:37.611Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ClearSky Siamesekitten August 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:58:39.108Z",
+            "modified": "2026-04-29T14:23:05.934Z",
             "description": "[DanBot](https://attack.mitre.org/software/S1014) files have been named `UltraVNC.exe` and `WINVNC.exe` to appear as legitimate VNC tools.(Citation: ClearSky Siamesekitten August 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--b8d48deb-450c-44f6-a934-ac8765aa89cb",
             "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

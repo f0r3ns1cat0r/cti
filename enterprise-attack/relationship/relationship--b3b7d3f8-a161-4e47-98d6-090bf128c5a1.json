@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fca4377f-71b5-474b-8aba-e4ed5ea8fe69",
+    "id": "bundle--209f3570-9cfe-44ec-a52d-81cb1d54cdf5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T17:37:56.797Z",
+            "modified": "2026-04-29T14:23:06.171Z",
             "description": "[HiddenFace](https://attack.mitre.org/software/S9023) can check running processes against a list of blocklisted applications.(Citation: ESET HiddenFace 2024)\n",
             "relationship_type": "uses",
             "source_ref": "malware--9edc41d1-a13d-4acf-b400-d47fb2f6809d",

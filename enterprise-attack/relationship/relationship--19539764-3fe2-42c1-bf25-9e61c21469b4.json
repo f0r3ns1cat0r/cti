@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4d213e7a-cf39-49a9-b93a-a14bfa7f86e4",
+    "id": "bundle--afe6ae83-5b6c-4014-b7ef-03fcf1567ba2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--19539764-3fe2-42c1-bf25-9e61c21469b4",
             "created": "2022-10-11T16:44:12.379Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelOne Aoqin Dragon June 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:59:36.594Z",
+            "modified": "2026-04-29T14:23:05.939Z",
             "description": "[Heyoka Backdoor](https://attack.mitre.org/software/S1027) can use spoofed DNS requests to create a bidirectional tunnel between a compromised host and its C2 servers.(Citation: SentinelOne Aoqin Dragon June 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--dff90475-9f72-41a6-84ed-1fbefd3874c0",
             "target_ref": "attack-pattern--4fe28b27-b13c-453e-a386-c2ef362a573b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

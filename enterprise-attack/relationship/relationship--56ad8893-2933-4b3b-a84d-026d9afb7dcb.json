@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5073d62d-9ed7-434f-a8fa-e8c3df9f16c9",
+    "id": "bundle--3e24fc0d-4183-410a-8c45-2b3cc88c68d1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--56ad8893-2933-4b3b-a84d-026d9afb7dcb",
             "created": "2020-03-20T19:12:22.367Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Turla PowerShell May 2019",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:48:41.353Z",
+            "modified": "2026-04-29T14:23:06.043Z",
             "description": "[Turla](https://attack.mitre.org/groups/G0010) RPC backdoors can be used to transfer files to/from victim machines on the local network.(Citation: ESET Turla PowerShell May 2019)(Citation: Symantec Waterbug Jun 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
             "target_ref": "attack-pattern--bf90d72c-c00b-45e3-b3aa-68560560d4c5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

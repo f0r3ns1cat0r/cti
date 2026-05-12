@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7c7282e5-77d8-40bf-850a-9cb593831341",
+    "id": "bundle--5140230c-6a3b-44fd-ae4b-1ded5ceb9c2f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--92b00f56-c9ac-4e48-9890-40b78ab0c361",
             "created": "2020-05-26T17:14:42.930Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Whitefly March 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:00:00.031Z",
+            "modified": "2026-04-29T14:23:06.125Z",
             "description": "[Whitefly](https://attack.mitre.org/groups/G0107) has used a simple remote shell tool that will call back to the C2 server and wait for commands.(Citation: Symantec Whitefly March 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--b74f909f-8e52-4b69-b770-162bf59a1b4e",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--79fbe21b-feed-4923-829c-bb6b4a8e65b5",
+    "id": "bundle--b2f8b917-5876-4962-9146-7fd77b48d94f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-19T16:19:24.287Z",
+            "modified": "2026-04-29T14:23:06.056Z",
             "description": "During [Operation AkaiRy\u016b](https://attack.mitre.org/campaigns/C0060), [MirrorFace](https://attack.mitre.org/groups/G1054) used `cmd.exe` to run PowerShell commands to drop additional files on the compromised host.(Citation: ESET MirrorFace 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--8a7c55ea-f363-4a03-b4c5-fa3fdb132d8f",

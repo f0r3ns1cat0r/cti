@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--47d75ef4-6b8b-4c71-a74a-d798692457af",
+    "id": "bundle--d6934916-7a0b-44cf-94ce-4ea9ad321165",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T21:18:57.482Z",
+            "modified": "2026-04-29T14:23:06.231Z",
             "description": "[UPPERCUT](https://attack.mitre.org/software/S0275) can upload files to the C2 from infected machines.(Citation: Trend Micro Earth Kasha Updates APR 2025)(Citation: Trend Micro Earth Kasha Anel NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--fb4e3792-e915-4fdd-a9cd-92dfa2ace7aa",

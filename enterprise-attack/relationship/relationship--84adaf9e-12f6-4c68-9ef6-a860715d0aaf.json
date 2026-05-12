@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ad72d176-8e65-47a6-bb98-0959c2886730",
+    "id": "bundle--309c4949-275d-40d6-a73e-8a5be2e03ff9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:30:35.944Z",
+            "modified": "2026-04-29T14:23:06.107Z",
             "description": "[Brute Ratel C4](https://attack.mitre.org/software/S1063) has the ability to hide memory artifacts and to patch Event Tracing for Windows (ETW) and the Anti Malware Scan Interface (AMSI).(Citation: Palo Alto Brute Ratel July 2022)(Citation: MDSec Brute Ratel August 2022)",
             "relationship_type": "uses",
             "source_ref": "tool--75d8b521-6b6a-42ff-8af3-d97e20ce12a5",

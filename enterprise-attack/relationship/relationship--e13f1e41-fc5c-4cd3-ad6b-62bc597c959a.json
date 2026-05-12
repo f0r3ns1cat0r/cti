@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2932b2eb-be75-430c-b2bf-9e0977de1fff",
+    "id": "bundle--c3bd5124-8cef-4728-b5cb-7c09b38769fa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e13f1e41-fc5c-4cd3-ad6b-62bc597c959a",
             "created": "2019-06-13T16:53:10.350Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Technospot Chrome Extensions GP",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:52:46.516Z",
+            "modified": "2026-04-29T14:23:06.232Z",
             "description": "Set a browser extension allow or deny list as appropriate for your security policy.(Citation: Technospot Chrome Extensions GP)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--47e0e9fe-96ce-4f65-8bb1-8be1feacb5db",
             "target_ref": "attack-pattern--278716b1-61ce-4a74-8d17-891d0c494101",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fca3bb77-5d16-44c8-81d3-15001dc44a4a",
+    "id": "bundle--538e91c9-b55a-46c2-9ccc-9fc7bfa55ae5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-12T17:25:00.733Z",
+            "modified": "2026-05-12T16:30:18.382Z",
             "name": "Analytic 1781",
             "description": "An application with access to broad file scopes or sensitive storage areas becomes active, performs abnormal burst file reads and writes across many user or shared-storage locations, transforms file content or extensions at scale in a short window, and causes rapid file inaccessibility, rewrite, or replacement inconsistent with normal sync, backup, media processing, or document-editing behavior. The defender correlates capability state, app lifecycle, framework use, bulk file-write effects, and optional network communications to distinguish encrypt-for-impact behavior from benign bulk file operations.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

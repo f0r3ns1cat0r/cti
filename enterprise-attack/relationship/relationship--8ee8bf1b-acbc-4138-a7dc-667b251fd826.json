@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9ded12eb-a8f3-441c-832d-78cc9c85c8e1",
+    "id": "bundle--8cef5545-d1d8-4a9b-8288-16dc1b235953",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8ee8bf1b-acbc-4138-a7dc-667b251fd826",
             "created": "2019-01-31T00:23:06.364Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 Nokki Oct 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:59:17.134Z",
+            "modified": "2026-04-29T14:23:06.120Z",
             "description": "[Final1stspy](https://attack.mitre.org/software/S0355) uses HTTP for C2.(Citation: Unit 42 Nokki Oct 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--a2282af0-f9dd-4373-9b92-eaf9e11e0c71",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

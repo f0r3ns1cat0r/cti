@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a3ba8492-267b-4c94-bc82-6adf57048af9",
+    "id": "bundle--ea59441c-9b5b-48c2-8b10-865735cf7d41",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7667e829-3602-410b-b3ea-614ed8d55607",
             "created": "2021-09-22T15:09:20.296Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CrowdStrike Carbon Spider August 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:54:41.792Z",
+            "modified": "2026-04-29T14:23:06.087Z",
             "description": "[JSS Loader](https://attack.mitre.org/software/S0648) can download and execute JavaScript files.(Citation: CrowdStrike Carbon Spider August 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--f559f945-eb8b-48b1-904c-68568deebed3",
             "target_ref": "attack-pattern--0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

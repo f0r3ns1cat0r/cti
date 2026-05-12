@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--99bc9558-ed26-4fc8-93d3-6c00caf87b8c",
+    "id": "bundle--f039bb59-fa22-4e9d-a0ea-b1e7db680d79",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--82c12a79-e80d-4eba-91ab-d14fd98cb539",
             "created": "2020-11-06T18:40:38.450Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ClearSky Wilted Tulip July 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:57:01.295Z",
+            "modified": "2026-04-29T14:23:06.104Z",
             "description": "(Citation: ClearSky Wilted Tulip July 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
             "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

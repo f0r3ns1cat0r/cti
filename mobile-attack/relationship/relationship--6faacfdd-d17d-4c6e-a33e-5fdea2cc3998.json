@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--26571aad-1370-4216-bbda-228dc8deddff",
+    "id": "bundle--47eb77a4-f33f-436a-8cf2-7427ddd1260e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6faacfdd-d17d-4c6e-a33e-5fdea2cc3998",
             "created": "2020-04-08T15:41:19.385Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cofense Anubis",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:49:25.519Z",
+            "modified": "2026-04-29T14:23:06.078Z",
             "description": "[Anubis](https://attack.mitre.org/software/S0422) can create overlays to capture user credentials for targeted applications.(Citation: Cofense Anubis)",
             "relationship_type": "uses",
             "source_ref": "malware--a3c59d82-2c7c-44e5-a869-68e0a3e5935e",
             "target_ref": "attack-pattern--4c58b7c6-a839-4789-bda9-9de33e4d4512",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

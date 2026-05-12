@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ec391c67-a339-4fd6-9c78-250854d65402",
+    "id": "bundle--8ef0d896-c94d-4a08-9e29-4bdbb924dbdc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--964b451b-103a-4bef-9a1f-a2078cd81cf9",
             "created": "2025-09-22T20:23:25.260Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "W3C",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-22T20:23:25.260Z",
+            "modified": "2026-04-29T14:23:06.130Z",
             "description": "Review and limit the fingerprinting surface to only necessary information on each browser to make the browser less unique. For example, the available fonts may be limited to a standard font list. (Citation: W3C)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8",

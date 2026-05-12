@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--5b940139-a85c-4c33-9665-b66bbc245cd1",
+    "id": "bundle--04b5cf74-e07f-4dfc-b266-316ebf32def0",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--2b666abc-e642-4f40-abec-36bd48f1f15c",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.673Z",
             "name": "Behavioral Detection Strategy for Use Alternate Authentication Material (T1550)",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -35,8 +36,7 @@
                 "x-mitre-analytic--2127b359-24b0-40e2-a202-67e53d5be3b0",
                 "x-mitre-analytic--1313533a-06c7-44ea-8d75-9a23d3ea23cc",
                 "x-mitre-analytic--91681b37-7fc7-418c-b4fd-35bebe1d151e"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

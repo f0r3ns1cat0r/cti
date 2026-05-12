@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1f9e788c-5050-462d-aa0e-6618af417cd2",
+    "id": "bundle--308abbdb-5fb8-4b5c-819d-ca6b1d452b1e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e2e74982-a4a6-428f-888a-a910453b7e82",
             "created": "2019-06-13T19:12:07.352Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Morphisec ShellTea June 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:14:25.206Z",
+            "modified": "2026-04-29T14:23:06.234Z",
             "description": "[PUNCHBUGGY](https://attack.mitre.org/software/S0196) has hashed most its code's functions and encrypted payloads with base64 and XOR.(Citation: Morphisec ShellTea June 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--5c6ed2dc-37f4-40ea-b2e1-4c76140a388c",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

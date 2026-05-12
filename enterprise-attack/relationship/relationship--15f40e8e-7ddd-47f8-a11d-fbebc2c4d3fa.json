@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e16603cc-8cb9-4f79-92bf-6cc6e2c5faba",
+    "id": "bundle--83983f6c-7682-48e8-a14a-586aee84e96b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--15f40e8e-7ddd-47f8-a11d-fbebc2c4d3fa",
             "created": "2023-02-16T18:48:39.215Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Secureworks DarkTortilla Aug 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:58:37.006Z",
+            "modified": "2026-04-29T14:23:05.934Z",
             "description": "[DarkTortilla](https://attack.mitre.org/software/S1066) can use a .NET-based DLL named `RunPe6` for process injection.(Citation: Secureworks DarkTortilla Aug 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--5faaf81a-aa5b-4a4b-bae5-522439e068f8",
             "target_ref": "attack-pattern--f4599aa0-4f85-4a32-80ea-fc39dc965945",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

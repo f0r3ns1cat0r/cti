@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--717d11c6-5ac2-4846-993e-162097801a7c",
+    "id": "bundle--915227d1-1d71-4960-8a26-cb61ffd98ef0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-13T22:28:56.147Z",
+            "modified": "2026-05-12T16:30:18.382Z",
             "name": "Analytic 1617",
             "description": "Detection of enumeration activity when system processes query ESXi host account configuration or management APIs to retrieve user account listings.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

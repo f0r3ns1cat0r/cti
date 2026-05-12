@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e9f0d727-de56-413c-b870-c0b92832c0fe",
+    "id": "bundle--181dfe35-72ca-4d79-b640-26946051649f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--86b818d3-e834-47b2-b944-24ed7f088916",
             "created": "2026-03-25T15:21:44.069Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "GTIG AI Threat Tracker",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-25T15:22:31.954Z",
+            "modified": "2026-04-29T14:23:06.109Z",
             "description": "APT42\u202fhas leveraged LLMs to search for official emails to build target lists, and conduct reconnaissance on potential business partners.(Citation: GTIG AI Threat Tracker)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c0291346-defe-48d7-9542-9e074ba1bdfb",

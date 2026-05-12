@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2dba63ab-77ea-4ac3-981d-f610ddc1aeb4",
+    "id": "bundle--0e36ff10-b0c2-4119-b20c-6093a0725e93",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--af0ba134-74c9-4256-a48d-6911e98cf235",
             "created": "2026-04-10T19:22:49.246Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Koi Glassworm InvisibleCode October 2025",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-10T19:22:49.246Z",
+            "modified": "2026-04-29T14:23:06.163Z",
             "description": "[GlassWorm](https://attack.mitre.org/software/S9010) has utilized Google Calendar as backup C2.(Citation: Koi Glassworm InvisibleCode October 2025)(Citation: Koi GlassWorm Rust December 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--809bc57b-4d4c-43de-b698-448334ed8185",

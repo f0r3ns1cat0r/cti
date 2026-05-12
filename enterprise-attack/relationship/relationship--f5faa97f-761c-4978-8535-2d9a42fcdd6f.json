@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d7d41fda-9085-4b44-b6b8-dbf52e218385",
+    "id": "bundle--1e6e5667-c891-4560-a51c-81bc9a75a7e6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f5faa97f-761c-4978-8535-2d9a42fcdd6f",
             "created": "2019-06-05T17:31:22.338Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro Ursnif File Dec 2014",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:58:09.936Z",
+            "modified": "2026-04-29T14:23:06.259Z",
             "description": "[Ursnif](https://attack.mitre.org/software/S0386) has copied itself to and infected files in network drives for propagation.(Citation: TrendMicro Ursnif Mar 2015)(Citation: TrendMicro Ursnif File Dec 2014)",
             "relationship_type": "uses",
             "source_ref": "malware--1492d0f8-7e14-4af3-9239-bc3fe10d3407",
             "target_ref": "attack-pattern--246fd3c7-f5e3-466d-8787-4c13d9e3b61c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

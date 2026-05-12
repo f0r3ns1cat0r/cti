@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--996ee590-f830-443c-a1f1-550d01a6890a",
+    "id": "bundle--31be8f8b-90e8-4e4f-9ea3-a96ab7657424",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--03c9b56e-f006-43b2-ac98-bcbe0c05e979",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto menuPass Feb 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:53:54.797Z",
+            "modified": "2026-04-29T14:23:05.908Z",
             "description": "[ChChes](https://attack.mitre.org/software/S0144) communicates to its C2 server over HTTP and embeds data within the Cookie HTTP header.(Citation: Palo Alto menuPass Feb 2017)(Citation: JPCERT ChChes Feb 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--dc5d1a33-62aa-4a0c-aa8c-589b87beb11e",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

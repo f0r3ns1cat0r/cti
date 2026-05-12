@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a13b2dc9-9ede-4541-a670-cc9f552601f6",
+    "id": "bundle--be45d197-fb2e-405d-a3da-f332e7405648",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--142532a6-bf7c-4b25-be23-16f01160f3c5",
             "created": "2020-09-15T15:18:12.417Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason FakeSpy",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:27:50.254Z",
+            "modified": "2026-04-29T14:23:05.931Z",
             "description": "[FakeSpy](https://attack.mitre.org/software/S0509) can collect account information stored on the device, as well as data in external storage.(Citation: Cybereason FakeSpy)",
             "relationship_type": "uses",
             "source_ref": "malware--838f647e-8ff8-48bd-bbd5-613cee7736cb",
             "target_ref": "attack-pattern--702055ac-4e54-4ae9-9527-e23a38e0b160",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

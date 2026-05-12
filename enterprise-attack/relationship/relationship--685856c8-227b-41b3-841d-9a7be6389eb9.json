@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3e9166ab-f279-43f2-8858-0e29e9c2bffc",
+    "id": "bundle--70a561d1-4c22-433e-ae6d-04765065aed6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--685856c8-227b-41b3-841d-9a7be6389eb9",
             "created": "2019-09-13T13:21:50.855Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Machete July 2019",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:51:55.307Z",
+            "modified": "2026-04-29T14:23:06.067Z",
             "description": "[Machete](https://attack.mitre.org/software/S0409) uses FTP for Command & Control.(Citation: ESET Machete July 2019)(Citation: Cylance Machete Mar 2017)(Citation: 360 Machete Sep 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--35cd1d01-1ede-44d2-b073-a264d727bc04",
             "target_ref": "attack-pattern--9a60a291-8960-4387-8a4a-2ab5c18bb50b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

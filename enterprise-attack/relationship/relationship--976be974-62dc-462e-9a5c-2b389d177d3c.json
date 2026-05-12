@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7b37cc92-e149-4ed0-8b6b-921b0606f32b",
+    "id": "bundle--56a21371-412a-4e71-a713-28e551aecfed",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:36:14.432Z",
+            "modified": "2026-04-29T14:23:06.131Z",
             "description": "[Ryuk](https://attack.mitre.org/software/S0446) has stopped services related to anti-virus.(Citation: FireEye Ryuk and Trickbot January 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--a020a61c-423f-4195-8c46-ba1d21abba37",

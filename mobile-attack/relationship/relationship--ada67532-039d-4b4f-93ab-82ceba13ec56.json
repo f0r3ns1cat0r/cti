@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c9b96fca-5dbc-4f5c-ad7b-e38177b8139e",
+    "id": "bundle--d9e60acf-d6d4-451f-be4d-473bb18dfb64",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ada67532-039d-4b4f-93ab-82ceba13ec56",
             "created": "2023-07-21T19:53:12.605Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "kaspersky_fakecalls_0422",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:50:51.758Z",
+            "modified": "2026-04-29T14:23:06.161Z",
             "description": "[Fakecalls](https://attack.mitre.org/software/S1080) can access text message history.(Citation: kaspersky_fakecalls_0422)",
             "relationship_type": "uses",
             "source_ref": "malware--429e1526-6293-495b-8808-af7f9a66c4be",
             "target_ref": "attack-pattern--c6421411-ae61-42bb-9098-73fddb315002",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f2d91853-50ba-4db3-8d7e-e07e7f56b680",
+    "id": "bundle--8754a13b-41bd-44d4-8e74-be4d4735af0c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--06508c23-746d-4894-b414-cff925692bd5",
             "created": "2020-05-26T16:17:59.751Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Rocke August 2018",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:32:54.599Z",
+            "modified": "2026-04-29T14:23:05.912Z",
             "description": "[Rocke](https://attack.mitre.org/groups/G0106) exploited Apache Struts, Oracle WebLogic (CVE-2017-10271), and Adobe ColdFusion (CVE-2017-3066) vulnerabilities to deliver malware.(Citation: Talos Rocke August 2018)(Citation: Unit 42 Rocke January 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--44102191-3a31-45f8-acbe-34bdb441d5ad",
             "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

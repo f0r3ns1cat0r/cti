@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a3e32a64-3433-4c48-9bbb-2028bfd2b4c3",
+    "id": "bundle--edad8a76-3868-4a1e-92f5-c244001c4ec9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:44:56.440Z",
+            "modified": "2026-04-29T14:23:05.997Z",
             "description": "[NanHaiShu](https://attack.mitre.org/software/S0228) can change Internet Explorer settings to reduce warnings about malware activity.(Citation: Proofpoint Leviathan Oct 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--705f0783-5f7d-4491-b6b7-9628e6e006d2",

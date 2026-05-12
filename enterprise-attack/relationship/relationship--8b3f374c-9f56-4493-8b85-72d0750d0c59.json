@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4ebf3198-b663-4e0b-b994-909958d5017f",
+    "id": "bundle--558ebeb4-5d65-4700-96c9-3e36ab673993",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8b3f374c-9f56-4493-8b85-72d0750d0c59",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye FIN10 June 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:30:18.849Z",
+            "modified": "2026-04-29T14:23:06.115Z",
             "description": "[FIN10](https://attack.mitre.org/groups/G0051) has established persistence by using S4U tasks as well as the Scheduled Task option in PowerShell Empire.(Citation: FireEye FIN10 June 2017)(Citation: Github PowerShell Empire)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--fbe9387f-34e6-4828-ac28-3080020c597b",
             "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--11d846f6-2bc0-4f2d-bb38-2e55e93a6cf2",
+    "id": "bundle--253ad498-aed5-4f66-9970-f77762755b15",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T12:48:33.620Z",
+            "modified": "2026-04-29T14:23:06.132Z",
             "description": "[MirrorFace](https://attack.mitre.org/groups/G1054) has used remote templates with VBA code in malware infection chains.(Citation: ITOCHU LODEINFO JAN 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--8cf6e33b-b6ef-4a1f-a77c-0ecdde93161f",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1f67f067-9922-413c-8b4e-fcd41269f1bd",
+    "id": "bundle--599d4491-e1cf-47ed-82d6-c6910067a610",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-19T01:00:52.704Z",
+            "modified": "2026-04-29T14:23:05.927Z",
             "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has collected credentials from a fake Google account login page.(Citation: FBI_KimsukyQR_Jan2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",

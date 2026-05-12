@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--61eb05c6-c35b-44e8-a134-9229600d8037",
+    "id": "bundle--9651bb84-678b-4c76-8977-3b66a54a2337",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T18:38:08.770Z",
+            "modified": "2026-04-29T14:23:06.048Z",
             "description": "[DCRAT](https://attack.mitre.org/software/S9017) can use certificate-based authentication for C2 servers.(Citation: Zscaler BlindEagle DEC 2025)\n",
             "relationship_type": "uses",
             "source_ref": "tool--2f481072-e9f8-4452-be00-d1d7e43c2edc",

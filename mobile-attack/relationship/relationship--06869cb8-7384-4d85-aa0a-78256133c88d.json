@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fd9a3bae-1538-4560-8db2-ca54d45bacbe",
+    "id": "bundle--7191eb9d-c658-4db9-8225-dd7bf3b5b608",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--06869cb8-7384-4d85-aa0a-78256133c88d",
             "created": "2024-04-02T19:46:53.072Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelLabs AridViper 2023",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:46:45.031Z",
+            "modified": "2026-04-29T14:23:05.912Z",
             "description": "[SpyC23](https://attack.mitre.org/software/S1195) can make phone calls.(Citation: welivesecurity_apt-c-23)(Citation: SentinelLabs AridViper 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--95811c0a-abe0-4e7f-a0cc-b0662ced5807",
             "target_ref": "attack-pattern--351ddf79-2d3a-41b4-9bef-82ea5d3ccd69",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

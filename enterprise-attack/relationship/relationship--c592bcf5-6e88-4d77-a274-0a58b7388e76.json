@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f1b27950-900c-44d1-b4bf-227ee30bfa8a",
+    "id": "bundle--bafcbfb7-9cd5-4730-8b57-2c61211c4092",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c592bcf5-6e88-4d77-a274-0a58b7388e76",
             "created": "2021-04-13T20:27:51.721Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Eset PlugX Korplug Mustang Panda March 2022",
@@ -38,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-17T20:36:30.840Z",
+            "modified": "2026-04-29T14:23:06.196Z",
             "description": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has downloaded additional executables following the initial infection stage.(Citation: Eset PlugX Korplug Mustang Panda March 2022)(Citation: Cisco Talos MUSTANG PANDA PLUGX PUBLOAD MAY 2022)(Citation: Recorded Future REDDELTA July 2020)(Citation: Sophos PlugX September 2022) [Mustang Panda](https://attack.mitre.org/groups/G0129) has also leveraged Visual Studio Code `code.exe` and Dev Tunnels using `DevTunnel.exe` to propagate additional tools and payloads.(Citation: Unit42 Chinese VSCode 06 September 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--420ac20b-f2b9-42b8-aa1a-6d4b72895ca4",

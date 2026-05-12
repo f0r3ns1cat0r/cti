@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d1d26ad2-0666-4b94-8264-61a5a3298910",
+    "id": "bundle--3998f61f-57b4-4a2d-b6fe-70a46fd1351e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c9660ab0-33d4-434d-833f-cc1969b04f7a",
             "created": "2019-01-31T01:07:58.805Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Cobalt Kitty 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:09:59.543Z",
+            "modified": "2026-04-29T14:23:06.201Z",
             "description": "(Citation: Cybereason Cobalt Kitty 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "target_ref": "tool--30489451-5886-4c46-90c9-0dff9adc5252",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

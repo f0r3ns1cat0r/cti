@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--df752b9b-a3c0-4dc1-9ca5-6705018d4a16",
+    "id": "bundle--e54536f6-2896-4d3d-9019-3da36387a2da",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--950d2e53-296a-491e-aadf-8cc5d04df41b",
             "created": "2024-01-02T19:00:26.610Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SecureWorks BRONZE STARLIGHT Ransomware Operations June 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:32:56.759Z",
+            "modified": "2026-04-29T14:23:06.128Z",
             "description": "[HUI Loader](https://attack.mitre.org/software/S1097) can decrypt and load files containing malicious payloads.(Citation: SecureWorks BRONZE STARLIGHT Ransomware Operations June 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--54089fba-8662-4f37-9a44-6ad25a5f630a",
             "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

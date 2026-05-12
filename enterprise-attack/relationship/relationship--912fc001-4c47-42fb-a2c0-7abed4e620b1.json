@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--06483851-2620-4fe0-abb5-e42731d2de89",
+    "id": "bundle--34120210-2068-4ea7-8e88-8c3f34b77d38",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--912fc001-4c47-42fb-a2c0-7abed4e620b1",
             "created": "2025-10-22T02:49:34.923Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Accenture SNAKEMACKEREL Nov 2018",
@@ -48,7 +49,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T02:49:34.923Z",
+            "modified": "2026-04-29T14:23:06.123Z",
             "description": "[Zebrocy](https://attack.mitre.org/software/S0251) collects the serial number for the storage volume C:\\.(Citation: Palo Alto Sofacy 06-2018)(Citation: Unit42 Cannon Nov 2018)(Citation: ESET Zebrocy Nov 2018)(Citation: Unit42 Sofacy Dec 2018)(Citation: ESET Zebrocy May 2019)(Citation: Accenture SNAKEMACKEREL Nov 2018)(Citation: CISA Zebrocy Oct 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--a4f57468-fbd5-49e4-8476-52088220b92d",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2d6bdf3c-b967-4d79-a1ad-c5208d5b0ed8",
+    "id": "bundle--79f287b9-f7b5-4dd2-85ce-e9e8c8212c2e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--75925ae3-c470-4a6b-aac5-839b470c8436",
             "created": "2025-10-22T15:59:38.107Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Salesforce JUN 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T15:59:38.107Z",
+            "modified": "2026-04-29T14:23:06.086Z",
             "description": "During [Salesforce Data Exfiltration](https://attack.mitre.org/campaigns/C0059), threat actors created Salesforce trial accounts to register their malicious applications.(Citation: Google Salesforce JUN 2025)\n",
             "relationship_type": "uses",
             "source_ref": "campaign--9cea8bec-07c5-422b-84b8-99d3128ce570",

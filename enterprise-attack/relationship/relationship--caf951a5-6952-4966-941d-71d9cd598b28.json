@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a846df25-8269-4441-85da-f6418d666f2e",
+    "id": "bundle--f8147d82-f243-4f82-817a-5540cdf883b9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--caf951a5-6952-4966-941d-71d9cd598b28",
             "created": "2021-04-12T16:12:36.763Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "BlackBerry Bahamut",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:10:15.306Z",
+            "modified": "2026-04-29T14:23:06.202Z",
             "description": "[Windshift](https://attack.mitre.org/groups/G0112) has used malware to identify the username on a compromised host.(Citation: BlackBerry Bahamut)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",
             "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

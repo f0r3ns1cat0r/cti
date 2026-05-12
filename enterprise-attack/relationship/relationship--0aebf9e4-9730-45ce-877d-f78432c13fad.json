@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c91d4a7d-2601-4e11-8d0d-fd9dd64e7e1d",
+    "id": "bundle--64d5e644-6eae-4d27-88c5-d1a8f9209204",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0aebf9e4-9730-45ce-877d-f78432c13fad",
             "created": "2020-09-30T14:23:17.187Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA SoreFang July 2016",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:33:53.442Z",
+            "modified": "2026-04-29T14:23:05.918Z",
             "description": "[SoreFang](https://attack.mitre.org/software/S0516) can download additional payloads from C2.(Citation: CISA SoreFang July 2016)(Citation: NCSC APT29 July 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--e33e4603-afab-402d-b2a1-248d435b5fe0",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

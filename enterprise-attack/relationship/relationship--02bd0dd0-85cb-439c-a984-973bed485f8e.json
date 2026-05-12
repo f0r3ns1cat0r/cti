@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8d98e437-8036-4841-a061-0404d181ac90",
+    "id": "bundle--fe19fe02-b8c3-4b89-90b4-9fe8d8a10245",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--02bd0dd0-85cb-439c-a984-973bed485f8e",
             "created": "2022-01-18T18:54:44.220Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Crowdstrike HuntReport 2022",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:53:34.874Z",
+            "modified": "2026-04-29T14:23:05.907Z",
             "description": "[Aquatic Panda](https://attack.mitre.org/groups/G0143) has deleted malicious executables from compromised machines.(Citation: CrowdStrike AQUATIC PANDA December 2021)(Citation: Crowdstrike HuntReport 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--64b52e7d-b2c4-4a02-9372-08a463f5dc11",
             "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

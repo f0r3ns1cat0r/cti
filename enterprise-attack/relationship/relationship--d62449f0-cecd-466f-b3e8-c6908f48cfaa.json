@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e281dce3-daec-49d0-a645-85aecdbe9510",
+    "id": "bundle--163bbfd4-2f77-4d4f-a466-32c404abad8e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,17 +8,18 @@
             "id": "relationship--d62449f0-cecd-466f-b3e8-c6908f48cfaa",
             "created": "2020-03-16T15:33:02.944Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:12:14.432Z",
+            "modified": "2026-04-29T14:23:06.218Z",
             "description": "SSL/TLS inspection can be used to see the contents of encrypted sessions to look for network-based indicators of malware communication protocols.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--7bb5fae9-53ad-4424-866b-f0ea2a8b731d",
             "target_ref": "attack-pattern--b8902400-e6c5-4ba2-95aa-2d35b442b118",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

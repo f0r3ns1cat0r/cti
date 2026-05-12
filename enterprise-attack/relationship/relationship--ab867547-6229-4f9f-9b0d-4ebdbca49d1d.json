@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5d24a622-3863-4944-b5ac-7f80eb8f7f6b",
+    "id": "bundle--60608682-a147-467c-99a8-2e2c6a1a7dff",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ab867547-6229-4f9f-9b0d-4ebdbca49d1d",
             "created": "2025-09-30T15:50:14.765Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Picus Qilin MAR 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-01T17:51:54.395Z",
+            "modified": "2026-04-29T14:23:06.158Z",
             "description": "[Qilin](https://attack.mitre.org/software/S1242) can employ an embedded [Mimikatz](https://attack.mitre.org/software/S0002) module to dump LSASS memory.(Citation: Picus Qilin MAR 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--e23d2777-b85d-44fc-861e-9149d399fbb9",

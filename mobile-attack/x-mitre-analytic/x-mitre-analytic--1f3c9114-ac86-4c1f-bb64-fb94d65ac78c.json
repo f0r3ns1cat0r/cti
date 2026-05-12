@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--68b9572e-de87-4982-ac90-2bb20aaf709a",
+    "id": "bundle--84c4faff-432c-461f-87ea-07f216fe33a2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-06T15:51:25.896Z",
+            "modified": "2026-05-12T16:30:18.376Z",
             "name": "Analytic 1762",
             "description": "An application generates, imports, or accesses asymmetric keypairs (e.g., RSA/ECC), uses a public key to encrypt outbound data or establish encrypted sessions, and transmits resulting ciphertext in structured communication patterns. Detection correlates keypair lifecycle activity + asymmetric crypto API usage + data transformation + background execution context + network transmission, especially when inconsistent with expected application functionality.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

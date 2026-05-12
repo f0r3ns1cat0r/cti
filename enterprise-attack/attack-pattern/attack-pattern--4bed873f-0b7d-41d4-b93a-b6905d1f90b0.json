@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--745a676b-cbaa-4753-84e3-1cd1143ff47e",
+    "id": "bundle--f9b3e1d0-14b9-446b-9f10-ded3ddf8fc1e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-15T22:52:39.442Z",
+            "modified": "2026-05-12T15:12:00.630Z",
             "name": "Time Based Checks",
             "description": "Adversaries may employ various time-based methods to detect virtualization and analysis environments, particularly those that attempt to manipulate time mechanisms to simulate longer elapses of time. This may include enumerating time-based properties, such as uptime or the system clock. \n\nAdversaries may use calls like `GetTickCount` and `GetSystemTimeAsFileTime` to discover if they are operating within a virtual machine or sandbox, or may be able to identify a sandbox accelerating time by sampling and calculating the expected value for an environment's timestamp before and after execution of a sleep function.(Citation: ISACA Malware Tricks)",
             "kill_chain_phases": [

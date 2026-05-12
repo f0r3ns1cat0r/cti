@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--70409f4d-5f16-4f63-b4cd-e945b433e608",
+    "id": "bundle--e62529b1-0b29-4200-a86a-5969844a3298",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4faa4943-e54e-420d-a391-350ef629e766",
             "created": "2019-09-03T18:32:49.412Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cary Esentutl",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:14:16.006Z",
+            "modified": "2026-04-29T14:23:06.034Z",
             "description": "[esentutl](https://attack.mitre.org/software/S0404) can copy `ntds.dit` using the Volume Shadow Copy service.(Citation: LOLBAS Esentutl)(Citation: Cary Esentutl)",
             "relationship_type": "uses",
             "source_ref": "tool--c256da91-6dd5-40b2-beeb-ee3b22ab3d27",
             "target_ref": "attack-pattern--edf91964-b26e-4b4a-9600-ccacd7d7df24",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

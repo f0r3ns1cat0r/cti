@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--03ddf5f0-7b95-4666-a368-744f89d12efd",
+    "id": "bundle--08433c64-0e26-4483-8528-3b11f7e83093",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:13:35.909Z",
+            "modified": "2026-04-29T14:23:05.942Z",
             "description": "[WarzoneRAT](https://attack.mitre.org/software/S0670) can disarm Windows Defender during the UAC process to evade detection.(Citation: Check Point Warzone Feb 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--fde19a18-e502-467f-be14-58c71b4e7f4b",

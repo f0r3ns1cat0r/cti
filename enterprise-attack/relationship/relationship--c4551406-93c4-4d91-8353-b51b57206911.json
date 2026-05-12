@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cb2bd75a-4a1a-42a1-a918-298dbb1ec27c",
+    "id": "bundle--b9b33048-ef93-456d-891d-847e40f7a51d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c4551406-93c4-4d91-8353-b51b57206911",
             "created": "2025-10-16T16:52:54.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA Medusa Group Medusa Ransomware March 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-16T16:52:54.044Z",
+            "modified": "2026-04-29T14:23:06.193Z",
             "description": "[Medusa Group](https://attack.mitre.org/groups/G1051) has utilized the `net group` command to query domain groups within the victim environment.(Citation: CISA Medusa Group Medusa Ransomware March 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--918da025-04bd-48af-b6c4-f3e4d1b915eb",

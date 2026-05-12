@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e6f5370a-3c63-4663-b358-e6cc6ec998db",
+    "id": "bundle--1b92857e-6881-44f7-add1-4077e10ee921",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--11abcf3d-3fe2-4b5e-8590-9509a881d877",
             "created": "2021-08-04T13:44:25.232Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MSTIC Nobelium Toolset May 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:35:26.053Z",
+            "modified": "2026-04-29T14:23:05.928Z",
             "description": "[BoomBox](https://attack.mitre.org/software/S0635) can use RunDLL32 for execution.(Citation: MSTIC Nobelium Toolset May 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--c26f1c05-b861-4970-94dc-2f7f921a3074",
             "target_ref": "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

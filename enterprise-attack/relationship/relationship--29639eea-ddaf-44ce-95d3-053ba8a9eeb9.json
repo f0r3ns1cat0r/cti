@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4b8d6984-6ed5-49b1-a18e-6046dfd522a4",
+    "id": "bundle--8ae3fc43-6d31-497d-b0a5-e01425323aae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--29639eea-ddaf-44ce-95d3-053ba8a9eeb9",
             "created": "2024-03-13T21:24:35.355Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Seguran\u00e7a Inform\u00e1tica URSA Sophisticated Loader 2020",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:03:58.560Z",
+            "modified": "2026-04-29T14:23:05.961Z",
             "description": "[Mispadu](https://attack.mitre.org/software/S1122) checks and will terminate execution if the compromised system\u2019s language ID is not Spanish or Portuguese.(Citation: Seguran\u00e7a Inform\u00e1tica URSA Sophisticated Loader 2020)(Citation: SCILabs Malteiro 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--4e6464d2-69df-4e56-8d4c-1973f84d7b80",
             "target_ref": "attack-pattern--c1b68a96-3c48-49ea-a6c0-9b27359f9c19",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

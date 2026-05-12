@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--530ad85b-1bb4-4993-bbbb-13d5be9a12a7",
+    "id": "bundle--0c8a50ba-2de3-4ab7-95af-e28567610a47",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--db8530c2-ce41-4943-8a17-91502187fd06",
             "created": "2019-10-10T21:57:37.023Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT32 May 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:13:10.123Z",
+            "modified": "2026-04-29T14:23:06.225Z",
             "description": "[APT32](https://attack.mitre.org/groups/G0050) has used the WindowStyle parameter to conceal [PowerShell](https://attack.mitre.org/techniques/T1059/001) windows. (Citation: FireEye APT32 May 2017) (Citation: Cybereason Cobalt Kitty 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "target_ref": "attack-pattern--cbb66055-0325-4111-aca0-40547b6ad5b0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

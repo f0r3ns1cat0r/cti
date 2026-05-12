@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--91a15006-e425-4692-9ad1-e6f7e8454369",
+    "id": "bundle--33eec766-cca4-462e-b47f-3203dbcc6674",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a0493e99-06ba-4f40-9aae-6f7f9bad6caa",
             "created": "2020-03-17T19:14:38.092Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Morphisec Cobalt Gang Oct 2018",
@@ -48,14 +49,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:02:42.255Z",
+            "modified": "2026-04-29T14:23:06.143Z",
             "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has used a JavaScript backdoor that is capable of launching cmd.exe to execute shell commands.(Citation: Morphisec Cobalt Gang Oct 2018) The group has used an exploit toolkit known as Threadkit that launches .bat files.(Citation: Talos Cobalt Group July 2018)(Citation: PTSecurity Cobalt Group Aug 2017)(Citation: Group IB Cobalt Aug 2017)(Citation: Morphisec Cobalt Gang Oct 2018)(Citation: Unit 42 Cobalt Gang Oct 2018)(Citation: TrendMicro Cobalt Group Nov 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
             "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5d5030cf-2dd2-4c25-aaa8-6fd0c6882865",
+    "id": "bundle--72b17375-afd4-4e40-adbd-00699a901dd5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fbbaf901-4d1a-41e0-9040-78185113ffdf",
             "created": "2020-07-01T21:19:30.577Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MacKeeper Bundlore Apr 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:18:36.921Z",
+            "modified": "2026-04-29T14:23:06.267Z",
             "description": "[Bundlore](https://attack.mitre.org/software/S0482) uses HTTP requests for C2.(Citation: MacKeeper Bundlore Apr 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--7bef1b56-4870-4e74-b32a-7dd88c390c44",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f923fed8-dcd4-45db-8751-db85136a2a6f",
+    "id": "bundle--76f69be8-1c2c-4ba2-84c6-bd5b09155406",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T23:25:48.334Z",
+            "modified": "2026-04-29T14:23:06.152Z",
             "description": "[SPAWNCHIMERA](https://attack.mitre.org/software/S9024) has leveraged IPC using a UNIX domain socket between the dsmdm process and the web process.(Citation: Google UNC5221 BRICKSTORM SPAWNCHIMERA April 2024)(Citation: JPCERT SPAWNCHIMERA Ivanti February 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--d1974f35-0e06-478e-bc74-7530545d814b",

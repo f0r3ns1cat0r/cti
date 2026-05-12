@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--deb199df-fbac-4b04-965d-754c6586ec1a",
+    "id": "bundle--26238c33-7eb3-43e5-ad69-1e498e6e9543",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--53404e01-e4dd-451f-a098-65836cd38f9e",
             "created": "2025-10-23T02:39:05.767Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sentinel One Contagious Interview ClickFix September 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-23T02:39:05.767Z",
+            "modified": "2026-04-29T14:23:06.039Z",
             "description": "[Contagious Interview](https://attack.mitre.org/groups/G1052) has registered accounts with Threat Intelligence vendor services to check for reporting associated with their infrastructure and to evaluate new potential infrastructure.(Citation: Sentinel One Contagious Interview ClickFix September 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--46599a4a-77ee-4697-9474-2683b6464859",

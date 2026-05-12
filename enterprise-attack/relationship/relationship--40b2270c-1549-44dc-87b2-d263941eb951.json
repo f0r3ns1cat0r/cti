@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5064c95d-c96d-46f4-8510-fc434499bddf",
+    "id": "bundle--b8c8d2d2-1ad6-4b96-980c-3915a7af0b94",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--40b2270c-1549-44dc-87b2-d263941eb951",
             "created": "2023-07-31T19:27:49.902Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA AA24-038A PRC Critical Infrastructure February 2024",
@@ -33,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T16:08:58.160Z",
+            "modified": "2026-04-29T14:23:06.013Z",
             "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has leveraged WMIC for execution, remote system discovery, and to create and use temporary directories.(Citation: Microsoft Volt Typhoon May 2023)(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)(Citation: Secureworks BRONZE SILHOUETTE May 2023)(Citation: CISA AA24-038A PRC Critical Infrastructure February 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",

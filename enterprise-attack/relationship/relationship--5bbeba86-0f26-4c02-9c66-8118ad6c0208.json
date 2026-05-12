@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--546f4602-fbc1-46e2-9000-6c56e047bf76",
+    "id": "bundle--70d7b445-bae7-4aba-afc1-637b65b6d61a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5bbeba86-0f26-4c02-9c66-8118ad6c0208",
             "created": "2019-03-18T14:05:57.762Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT40 March 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:49:35.566Z",
+            "modified": "2026-04-29T14:23:06.050Z",
             "description": "(Citation: FireEye APT40 March 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e",
             "target_ref": "tool--0c8465c0-d0b4-4670-992e-4eee8d7ff952",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

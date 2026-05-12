@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d8993c01-97ae-42b0-8460-dbba7d1d1b6b",
+    "id": "bundle--f7c299d7-33cc-4888-99b6-16b58ce610ad",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--882c68e3-5f01-4438-a430-ff22692d8910",
             "created": "2019-01-30T14:00:49.889Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "PaloAlto DNS Requests May 2016",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:58:01.069Z",
+            "modified": "2026-04-29T14:23:06.111Z",
             "description": "[APT18](https://attack.mitre.org/groups/G0026) can upload a file to the victim\u2019s machine.(Citation: PaloAlto DNS Requests May 2016)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--38fd6a28-3353-4f2b-bb2b-459fecd5c648",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1546b5de-e87e-45d3-8600-816d919fc2e7",
+    "id": "bundle--da6180a6-8924-47e7-bfd1-db183f199174",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T21:03:28.352Z",
+            "modified": "2026-04-29T14:23:05.987Z",
             "description": "[HeartCrypt](https://attack.mitre.org/software/S9018) will attempt to load non-existent DLLs in attempt to detect sandbox creation of a dummy DLL to prevent the program from crashing.(Citation: Palo Alto HeartCrypt DEC 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--148f947c-aabd-4ba8-b6a3-22b296855119",

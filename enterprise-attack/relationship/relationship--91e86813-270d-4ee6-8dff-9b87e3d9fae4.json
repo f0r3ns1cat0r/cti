@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c6480d8c-722e-40d6-ada1-990fd02ceeb4",
+    "id": "bundle--5ac069ac-0cc4-4f87-bab7-7499da66a3c6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--91e86813-270d-4ee6-8dff-9b87e3d9fae4",
             "created": "2020-06-01T13:14:42.514Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Proofpoint TA505 October 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:59:50.555Z",
+            "modified": "2026-04-29T14:23:06.124Z",
             "description": "[SDBbot](https://attack.mitre.org/software/S0461) has the ability to use image file execution options for persistence if it detects it is running with admin privileges on a Windows version newer than Windows 7.(Citation: Proofpoint TA505 October 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--92b03a94-7147-4952-9d5a-b4d24da7487c",
             "target_ref": "attack-pattern--6d4a7fb3-5a24-42be-ae61-6728a2b581f6",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

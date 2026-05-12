@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6854644e-20cb-4adc-b8c6-9dbc119bca2d",
+    "id": "bundle--e2692506-0dc4-4b1f-bded-8385d3dbd8ac",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bda5489b-7735-4793-8816-fc2238f6957f",
             "created": "2020-05-19T20:39:12.429Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CERT-EE Gamaredon January 2021",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-21T17:32:15.647Z",
+            "modified": "2026-04-29T14:23:06.184Z",
             "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) tools can delete files used during an operation.(Citation: TrendMicro Gamaredon April 2020)(Citation: Symantec Shuckworm January 2022)(Citation: CERT-EE Gamaredon January 2021)(Citation: ESET Gamaredon Sept2024) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
             "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

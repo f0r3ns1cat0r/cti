@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e3961064-0f50-44cb-9ded-083fa1856c22",
+    "id": "bundle--557ca97f-bfbd-4a75-8942-ac829105d87a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-18T23:55:18.213Z",
+            "modified": "2026-04-29T14:23:06.126Z",
             "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has leveraged the PowerShell `-ErrorAction SilentlyContinue` command to continue execution through system events.(Citation: Aryaka Kimsuky July 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",

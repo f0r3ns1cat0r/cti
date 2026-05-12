@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a896a22f-6acf-47e0-a0e1-c228c82f8b25",
+    "id": "bundle--048630c8-8ac6-488d-93fa-9488d04bfb9c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a9d3ddcc-36fa-44d8-9a0a-07688467a137",
             "created": "2024-12-17T01:36:28.819Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco BlackByte 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:38:27.669Z",
+            "modified": "2026-04-29T14:23:06.156Z",
             "description": "[BlackByte](https://attack.mitre.org/groups/G1043) enumerated network shares on victim devices.(Citation: Cisco BlackByte 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--02b16bd6-ae88-417a-8a3f-02c5e166175a",
             "target_ref": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

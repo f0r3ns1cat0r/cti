@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--98ac1109-5afe-4d84-a9ea-fd4e50312204",
+    "id": "bundle--1449f08e-78ee-4917-9f4c-35449a6abaa3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--3258c355-677c-452d-b1fc-27767232437b",
             "created": "2019-03-26T16:19:52.358Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Nyetya June 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:41:55.827Z",
+            "modified": "2026-04-29T14:23:05.984Z",
             "description": "[NotPetya](https://attack.mitre.org/software/S0368) creates a task to reboot the system one hour after infection.(Citation: Talos Nyetya June 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--5719af9d-6b16-46f9-9b28-fb019541ddbb",
             "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

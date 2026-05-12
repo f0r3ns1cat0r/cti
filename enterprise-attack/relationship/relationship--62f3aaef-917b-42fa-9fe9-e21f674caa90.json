@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8a23f391-1257-4c1a-b663-a4a46a19bbfa",
+    "id": "bundle--8c292bfc-35ad-4e5b-aa10-ff125dc2e6aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--62f3aaef-917b-42fa-9fe9-e21f674caa90",
             "created": "2022-01-12T14:32:08.170Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Novetta Winnti April 2015",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:19:28.035Z",
+            "modified": "2026-04-29T14:23:06.059Z",
             "description": "The [Winnti for Windows](https://attack.mitre.org/software/S0141) HTTP/S C2 mode can make use of a local proxy.(Citation: Novetta Winnti April 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--d3afa961-a80c-4043-9509-282cdf69ab21",
             "target_ref": "attack-pattern--f6dacc85-b37d-458e-b58d-74fc4bbf5755",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c7d0d104-193b-4dac-8589-669e2eccc99c",
+    "id": "bundle--dc43774a-2ac4-48a3-a931-29e49e2e3533",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T18:18:21.102Z",
+            "modified": "2026-04-29T14:23:06.088Z",
             "description": "[VOID MANTICORE](https://attack.mitre.org/groups/G1055) has utilized VPS solutions for C2.(Citation: Check Point VOID MANTICORE Handala Hack March 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--ebd7ce77-c9ba-4fba-bb28-58296ac66559",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6212994e-c218-4283-a8e3-b8f7b009e465",
+    "id": "bundle--7ff3230b-e88e-4c24-8f85-7cceef3a2fcb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b906b0a1-12a3-4d6f-82ec-d72a4ef711b4",
             "created": "2021-10-01T18:34:01.264Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Volexity InkySquid RokRAT August 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:06:58.351Z",
+            "modified": "2026-04-29T14:23:06.178Z",
             "description": "[APT37](https://attack.mitre.org/groups/G0067) has used Ruby scripts to execute payloads.(Citation: Volexity InkySquid RokRAT August 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

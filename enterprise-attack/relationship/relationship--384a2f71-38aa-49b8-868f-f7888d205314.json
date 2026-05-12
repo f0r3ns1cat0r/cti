@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dbfece75-5ad2-4ef6-bc8b-74244fc62fb3",
+    "id": "bundle--0477b729-74b7-4e78-81ed-4d52f8dd6c34",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T12:46:24.546Z",
+            "modified": "2026-04-29T14:23:05.997Z",
             "description": "[IronWind](https://attack.mitre.org/software/S9029) can used HTTP to send information to C2 about the targeted system.(Citation: Check Point Wirte NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--089aa00a-99ac-46b4-9cf8-4224d463566d",

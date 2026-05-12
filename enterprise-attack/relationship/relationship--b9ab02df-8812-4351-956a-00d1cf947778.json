@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8cdaf083-7a6d-45bc-a72b-3a1112b819f8",
+    "id": "bundle--e1c8d92c-4465-4d15-aee6-c6b135daa7c2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-15T21:20:56.107Z",
+            "modified": "2026-04-29T14:23:06.178Z",
             "description": "[Shai-Hulud](https://attack.mitre.org/software/S9008) has exfiltrated repository secrets to `webhook[.]site`.(Citation: Wiz Shai-Hulud September 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--de376fb9-1093-4f59-8d13-aed61042701d",

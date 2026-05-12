@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f34be8e1-5c03-4e53-9725-d1b8e4302ff6",
+    "id": "bundle--6a188cc7-1341-4bb5-8b9e-dcd961849bb4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8bb2744c-3ea2-418b-818d-aaabe0c7746f",
             "created": "2020-09-11T14:56:37.194Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cyberreason Anchor December 2019",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:58:43.153Z",
+            "modified": "2026-04-29T14:23:06.116Z",
             "description": "Variants of [Anchor](https://attack.mitre.org/software/S0504) can use DNS tunneling to communicate with C2.(Citation: Cyberreason Anchor December 2019)(Citation: Medium Anchor DNS July 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--5f1d4579-4e8f-48e7-860e-2da773ae432e",
             "target_ref": "attack-pattern--1996eef1-ced3-4d7f-bf94-33298cabbf72",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

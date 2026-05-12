@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--715c56e1-66cf-4648-9d15-b629e2e8105c",
+    "id": "bundle--3ca1fa4e-aa8f-4290-b468-8e2577654143",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c877df57-0b8b-4286-aebb-6cca709638f3",
             "created": "2025-03-24T15:00:09.464Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "McAfee MoqHao 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:51:31.611Z",
+            "modified": "2026-04-29T14:23:06.199Z",
             "description": "[Android/SpyAgent](https://attack.mitre.org/software/S1214) has used the Tencent Push Notification Service to receive commands from the C2 server.(Citation: McAfee MoqHao 2019) ",
             "relationship_type": "uses",
             "source_ref": "malware--f082d7dd-20a9-4157-93c0-75e7aea09e42",
             "target_ref": "attack-pattern--986f80f7-ff0e-4f48-87bd-0394814bbce5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

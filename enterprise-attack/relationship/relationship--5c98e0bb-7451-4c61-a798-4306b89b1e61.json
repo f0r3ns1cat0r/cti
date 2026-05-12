@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--78af27c0-96de-45eb-8f26-faa3538e5405",
+    "id": "bundle--3735ef58-3ba9-47af-88d0-b684a4ea0b58",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5c98e0bb-7451-4c61-a798-4306b89b1e61",
             "created": "2023-08-08T13:25:35.858Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant FIN12 Oct 2021",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T16:26:04.865Z",
+            "modified": "2026-04-29T14:23:06.051Z",
             "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used PowerShell cmdlets `Get-GPPPassword` and `Find-GPOPassword` to find unsecured credentials in a compromised network group policy.(Citation: Mandiant FIN12 Oct 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",

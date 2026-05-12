@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c51d5823-4a4c-43fb-9591-558c4c418aa1",
+    "id": "bundle--a8dfe0c0-c6bc-4330-b7ad-6bc41e49d5b6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--be9e89ef-de70-44e3-b3cb-73844f069ac4",
             "created": "2022-09-16T21:22:22.778Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "McAfee Honeybee",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:43:49.107Z",
+            "modified": "2026-04-29T14:23:06.186Z",
             "description": "During [Operation Honeybee](https://attack.mitre.org/campaigns/C0006), threat actors relied on a victim to enable macros within a malicious Word document.(Citation: McAfee Honeybee)",
             "relationship_type": "uses",
             "source_ref": "campaign--4553292d-12c6-4a93-934d-12160370d4e0",
             "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

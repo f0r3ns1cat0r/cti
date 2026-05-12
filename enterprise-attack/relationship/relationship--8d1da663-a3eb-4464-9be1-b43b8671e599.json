@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--74797423-0087-4df5-9798-e61b3da8e06a",
+    "id": "bundle--5ea12b46-4a28-47ea-8730-3cf6dfe40baa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8d1da663-a3eb-4464-9be1-b43b8671e599",
             "created": "2020-11-06T18:40:38.326Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 DarkHydrus July 2018",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:58:56.019Z",
+            "modified": "2026-04-29T14:23:06.118Z",
             "description": "(Citation: Unit 42 DarkHydrus July 2018)(Citation: Unit 42 Playbook Dec 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--6b9ebeb5-20bf-48b0-afb7-988d769a2f01",
             "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

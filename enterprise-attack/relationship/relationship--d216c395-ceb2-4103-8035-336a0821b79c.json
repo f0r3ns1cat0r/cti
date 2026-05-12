@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d723cbfe-2101-45bc-ad77-7c295884f5be",
+    "id": "bundle--00e0ce3a-20bd-4933-8c8e-cc2f5e2b6453",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d216c395-ceb2-4103-8035-336a0821b79c",
             "created": "2021-03-23T20:49:40.319Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky ShadowPad Aug 2017",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T03:18:29.131Z",
+            "modified": "2026-04-29T14:23:06.213Z",
             "description": "[ShadowPad](https://attack.mitre.org/software/S0596) has discovered system information including memory status, CPU frequency, and OS versions.(Citation: Kaspersky ShadowPad Aug 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--ec9e00dd-0313-4d5b-8105-c20aa47abffc",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--346b0f40-babc-4293-b85d-99aadfc69e83",
+    "id": "bundle--585732fe-addc-41ea-8d23-1ae75135fcc6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4f33536d-eb06-4eba-8765-4379e399f3b8",
             "created": "2017-05-31T21:33:27.080Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Gamaredon Feb 2017",
@@ -38,14 +39,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:47:19.292Z",
+            "modified": "2026-04-29T14:23:06.033Z",
             "description": "(Citation: Palo Alto Gamaredon Feb 2017)(Citation: Symantec Shuckworm January 2022)(Citation: Microsoft Actinium February 2022)(Citation: Unit 42 Gamaredon February 2022)(Citation: Secureworks IRON TILDEN Profile)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
             "target_ref": "malware--5f9f7648-04ba-4a9f-bb4c-2a13e74572bd",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

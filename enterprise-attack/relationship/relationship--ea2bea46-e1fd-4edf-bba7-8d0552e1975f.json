@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--826fbc8d-79c8-4ea4-b4a1-dec9b83d4b88",
+    "id": "bundle--eedd5d2b-de9a-44e0-bb74-a7edb265e9f3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ea2bea46-e1fd-4edf-bba7-8d0552e1975f",
             "created": "2025-01-08T17:46:59.951Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant APT42-charms",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:55:06.559Z",
+            "modified": "2026-04-29T14:23:06.244Z",
             "description": "[APT42](https://attack.mitre.org/groups/G1044) has intercepted SMS-based one-time passwords and has set up two-factor authentication.(Citation: Mandiant APT42-charms) Additionally, [APT42](https://attack.mitre.org/groups/G1044) has used cloned or fake websites to capture MFA tokens.(Citation: Mandiant APT42-untangling) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c0291346-defe-48d7-9542-9e074ba1bdfb",
             "target_ref": "attack-pattern--dd43c543-bb85-4a6f-aa6e-160d90d06a49",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

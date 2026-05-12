@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c7cbf1f4-357f-48e1-ae0b-6bc460b077a5",
+    "id": "bundle--23c242fe-cf4c-4793-9052-d8e0abc2d8c2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--de70abfa-848f-4993-bdb8-7235d4a3d720",
             "created": "2020-05-18T20:04:59.441Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro POWERSTATS V3 June 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:13:39.583Z",
+            "modified": "2026-04-29T14:23:06.229Z",
             "description": "[SHARPSTATS](https://attack.mitre.org/software/S0450) has the ability to identify the IP address, machine name, and OS of the compromised host.(Citation: TrendMicro POWERSTATS V3 June 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--73c4711b-407a-449d-b269-e3b1531fe7a9",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

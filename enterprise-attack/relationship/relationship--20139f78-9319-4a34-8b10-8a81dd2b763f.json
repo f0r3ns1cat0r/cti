@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--172f774a-1643-4af3-bf73-3469ab45f66f",
+    "id": "bundle--77d1cb86-1564-4c20-bda4-7d0734eca230",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T19:07:31.439Z",
+            "modified": "2026-04-29T14:23:05.948Z",
             "description": "[VOID MANTICORE](https://attack.mitre.org/groups/G1055) has utilized PowerShell to execute malware in victim environments.(Citation: DOJ FBI Handala Hack March 2026)(Citation: FBI IC3 Flash VOID MANTICORE Handala Hack March 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--ebd7ce77-c9ba-4fba-bb28-58296ac66559",

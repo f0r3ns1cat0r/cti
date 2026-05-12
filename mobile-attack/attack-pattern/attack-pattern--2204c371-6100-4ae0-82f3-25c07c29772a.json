@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--44cbe821-8e32-4787-8a3b-181fc7d74710",
+    "id": "bundle--a22b0e26-f43f-4274-acb6-c47ad5f092f4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-27T17:12:01.143Z",
+            "modified": "2026-05-12T15:12:00.622Z",
             "name": "Abuse Accessibility Features",
             "description": "Adversaries may abuse accessibility features in Android devices to steal sensitive data and to spread malware to other devices. Accessibility features in Android are designed to assist users with disabilities, performing a variety of tasks, such as using Action Blocks to control lightbulbs, and changing the device\u2019s user interface, such as changing the font size and adjusting contract or colors.(Citation: Google_AndroidAcsOverview) \n\nOne example of how adversaries abuse accessibility features is overlaying an HTML object mimicking a legitimate login screen. The user types their credentials in the overlay HTML object, which is then sent to the adversaries.(Citation: SahinSRLabs_FluBot_Dec2021)  \n\nAnother example is a malicious accessibility feature acting as a keylogger. The keylogger monitors changes on the EditText fields and sends it to the adversaries.(Citation: SahinSRLabs_FluBot_Dec2021) This method of attack is also described in [Keylogging](https://attack.mitre.org/techniques/T1417/001); whereas [Abuse Accessibility Features](https://attack.mitre.org/techniques/T1453) captures the overall abuse of accessibility features.  ",
             "kill_chain_phases": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d9197b8d-b6d7-4a90-a812-f5d4bab45d87",
+    "id": "bundle--577f2fff-e2a1-4dbe-99fb-47b1f9bce3bc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d0c68ce7-dd15-4b8e-be45-2b10b6a4d4ab",
             "created": "2025-03-27T18:42:46.547Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Cloud Threat Intelligence ESXi Hardening 2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:48:42.791Z",
+            "modified": "2026-04-29T14:23:06.211Z",
             "description": "Enabling secure boot allows ESXi to validate software and drivers during initial system boot.(Citation: Google Cloud Threat Intelligence ESXi Hardening 2023)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--7da0387c-ba92-4553-b291-b636ee42b2eb",
             "target_ref": "attack-pattern--f8ba7d61-11c5-4130-bafd-7c3ff5fbf4b5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

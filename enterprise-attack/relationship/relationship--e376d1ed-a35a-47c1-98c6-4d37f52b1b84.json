@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a700f917-bc96-45c7-8e36-995d07c44da4",
+    "id": "bundle--fd2f199f-ac09-45ff-b75e-7866e0063954",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e376d1ed-a35a-47c1-98c6-4d37f52b1b84",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto menuPass Feb 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:53:21.093Z",
+            "modified": "2026-04-29T14:23:06.235Z",
             "description": "[ChChes](https://attack.mitre.org/software/S0144) can encrypt C2 traffic with AES or RC4.(Citation: Palo Alto menuPass Feb 2017)(Citation: JPCERT ChChes Feb 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--dc5d1a33-62aa-4a0c-aa8c-589b87beb11e",
             "target_ref": "attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3c7f90fa-4313-4bc7-8889-1cc8022fd45e",
+    "id": "bundle--6bd42292-b93c-49ff-847f-7d66c12fa80e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-13T22:24:28.695Z",
+            "modified": "2026-05-12T16:30:18.376Z",
             "name": "Analytic 1614",
             "description": "Detection of account enumeration through directory service queries or system utilities accessing account metadata stores, followed by structured enumeration output.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

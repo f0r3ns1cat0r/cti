@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0d0452ca-6b02-4e99-b14b-abc07415d28e",
+    "id": "bundle--0e285c0b-5ebe-42b7-8ce5-ef62ad14ff3b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0eb683e1-bd09-4572-866a-f178ce54f7b6",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Leafminer July 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:56:33.495Z",
+            "modified": "2026-04-29T14:23:05.924Z",
             "description": "[Leafminer](https://attack.mitre.org/groups/G0077) obfuscated scripts that were used on victim machines.(Citation: Symantec Leafminer July 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--32bca8ff-d900-4877-aa65-d70baa041b74",
             "target_ref": "attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

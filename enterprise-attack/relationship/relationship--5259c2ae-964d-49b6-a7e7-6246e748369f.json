@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2ea155d0-42d5-4653-910e-3111d483cf8a",
+    "id": "bundle--dd751085-422e-4662-a316-f048fab12ecd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5259c2ae-964d-49b6-a7e7-6246e748369f",
             "created": "2020-06-10T19:35:58.143Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Telebots Dec 2016",
@@ -43,14 +44,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:15:03.553Z",
+            "modified": "2026-04-29T14:23:06.038Z",
             "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has delivered malicious Microsoft Office and ZIP file attachments via spearphishing emails.(Citation: iSight Sandworm Oct 2014)(Citation: US-CERT Ukraine Feb 2016)(Citation: ESET Telebots Dec 2016)(Citation: US District Court Indictment GRU Unit 74455 October 2020)(Citation: Google_WinRAR_vuln_2023)(Citation: mandiant_apt44_unearthing_sandworm)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
             "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

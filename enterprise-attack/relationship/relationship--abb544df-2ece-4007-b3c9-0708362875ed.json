@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a7e2dcea-30b8-47bf-91e7-0a0993116902",
+    "id": "bundle--43ef49e7-82bd-4dab-9dd3-93c4c46b33c4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--abb544df-2ece-4007-b3c9-0708362875ed",
             "created": "2021-03-18T13:47:11.977Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Anomali Static Kitten February 2021",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:04:40.777Z",
+            "modified": "2026-04-29T14:23:06.159Z",
             "description": "(Citation: Anomali Static Kitten February 2021)(Citation: Trend Micro Muddy Water March 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
             "target_ref": "tool--842976c7-f9c8-41b2-8371-41dc64fbe261",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

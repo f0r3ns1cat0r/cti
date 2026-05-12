@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8ccfbc33-b393-4d64-a87f-8abff64a5d8f",
+    "id": "bundle--f32d5aa1-1b62-4fdb-91d4-2937cbf928c2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-19T18:36:33.369Z",
+            "modified": "2026-04-29T14:23:06.222Z",
             "description": "During [Operation Digital Eye](https://attack.mitre.org/campaigns/C0061), threat actors used the local.exe tool to view group memberships.(Citation: sentinelone operationDigitalEye Dec 2024)",
             "relationship_type": "uses",
             "source_ref": "campaign--75ea699b-bff5-4541-b9b7-df4996c9db3c",

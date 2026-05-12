@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ff2580e8-6e19-4ed7-a0f4-47a9e34da4a3",
+    "id": "bundle--eee4d908-0b03-49f1-889f-dee429a538e6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4b7e117b-0c82-49d0-bee6-119158b3355b",
             "created": "2023-02-28T20:32:37.800Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "proofpoint_flubot_0421",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:48:29.693Z",
+            "modified": "2026-04-29T14:23:06.028Z",
             "description": "[FluBot](https://attack.mitre.org/software/S1067) can disable Google Play Protect to prevent detection.(Citation: proofpoint_flubot_0421)(Citation: Europol FluBot Jun2022) ",
             "relationship_type": "uses",
             "source_ref": "malware--f5ff006c-702f-4ded-8e60-ca6c540d91bc",
             "target_ref": "attack-pattern--2aa78dfd-cb6f-4c70-9408-137cfd96be49",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

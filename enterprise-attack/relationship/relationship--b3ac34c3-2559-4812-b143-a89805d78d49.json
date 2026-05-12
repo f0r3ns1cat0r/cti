@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b2955c9a-4d45-455f-a8be-d58761773d2d",
+    "id": "bundle--6e2e6a51-484c-4bfb-a657-fd3bef5a82ba",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:07:25.337Z",
+            "modified": "2026-04-29T14:23:06.171Z",
             "description": "[Agent Tesla](https://attack.mitre.org/software/S0331) has the capability to kill any running analysis processes and AV software.(Citation: Fortinet Agent Tesla June 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--e7a5229f-05eb-440e-b982-9a6d2b2b87c8",

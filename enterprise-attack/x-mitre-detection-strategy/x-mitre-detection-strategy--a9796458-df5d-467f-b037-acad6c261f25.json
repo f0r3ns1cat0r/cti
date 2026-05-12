@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--119bb36d-ac17-4035-9c54-e28a077eda65",
+    "id": "bundle--3426283e-5afd-48a1-9037-9860628ee3b2",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--a9796458-df5d-467f-b037-acad6c261f25",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.687Z",
             "name": "Boot or Logon Autostart Execution Detection Strategy",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -31,8 +32,7 @@
                 "x-mitre-analytic--aa12f037-f724-43a6-97ca-e2e706859c1a",
                 "x-mitre-analytic--156387d6-9b9a-49f8-834a-cf3cd5ede09c",
                 "x-mitre-analytic--eb0d78b0-f35d-49db-a8a5-d3cf840db6fd"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

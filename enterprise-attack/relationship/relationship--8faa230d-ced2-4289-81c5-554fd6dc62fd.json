@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0650af3a-95a6-4959-994d-ad274c71b90c",
+    "id": "bundle--d0a378a3-c379-4589-a95b-f74ed6dc3c0b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8faa230d-ced2-4289-81c5-554fd6dc62fd",
             "created": "2020-06-24T12:42:35.454Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Broadcom ESXi SSH",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:31:30.384Z",
+            "modified": "2026-04-29T14:23:06.121Z",
             "description": "Disable SSH if it is not necessary on a host or restrict SSH access for specific users/groups using <code>/etc/ssh/sshd_config</code>. Setting the `PermitRootLogin` directive to `no` will prevent the root user from logging in via SSH.(Citation: Broadcom ESXi SSH)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--eb88d97c-32f1-40be-80f0-d61a4b0b4b31",
             "target_ref": "attack-pattern--6b57dc31-b814-4a03-8706-28bc20d739c4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

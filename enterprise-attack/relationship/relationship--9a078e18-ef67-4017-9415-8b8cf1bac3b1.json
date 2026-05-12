@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9a1540d3-f4c7-4d7b-aac7-91bd77c8cf76",
+    "id": "bundle--116c2dc1-5d90-45c3-bce2-e34d193b460f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9a078e18-ef67-4017-9415-8b8cf1bac3b1",
             "created": "2025-06-02T20:45:27.316Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Cloud Threat Intelligence ESXi VIBs 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-06-03T19:03:15.892Z",
+            "modified": "2026-04-29T14:23:06.135Z",
             "description": "[VIRTUALPITA](https://attack.mitre.org/software/S1217) can persist as an init.d startup service on Linux vCenter systems.(Citation: Google Cloud Threat Intelligence ESXi VIBs 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--df0b59fe-0193-49ea-84e1-9207139c716c",
             "target_ref": "attack-pattern--03259939-0b57-482f-8eb5-87c0e0d54334",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

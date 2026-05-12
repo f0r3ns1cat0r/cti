@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--89ce39ac-3c56-49f3-ae70-7179f87c1f29",
+    "id": "bundle--a1f1bc1a-af14-49cf-8bc5-a6a2a94a10eb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8ebafdbf-ebc8-4e14-9f4b-b1a0f6e79f3f",
             "created": "2025-09-12T15:31:42.801Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Zscaler PAKLOG CorkLog SplatCloak Splatdropper April 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-23T14:19:04.929Z",
+            "modified": "2026-04-29T14:23:06.120Z",
             "description": "[SplatCloak](https://attack.mitre.org/software/S1234) has used a revoked certificate to exploit Windows driver execution policy where certificates issued before a specific date could still load.(Citation: Zscaler PAKLOG CorkLog SplatCloak Splatdropper April 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--f39c6d39-0165-46db-a7ae-43341c428d22",

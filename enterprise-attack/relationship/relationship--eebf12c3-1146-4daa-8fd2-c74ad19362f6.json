@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3eeaea73-7675-49d4-a053-c7ed88c5f7d3",
+    "id": "bundle--a75002d2-4bfd-4084-bc16-77fadaa64533",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--eebf12c3-1146-4daa-8fd2-c74ad19362f6",
             "created": "2020-05-14T14:27:31.213Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CrowdStrike Ryuk January 2019",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:16:30.082Z",
+            "modified": "2026-04-29T14:23:06.250Z",
             "description": "[Ryuk](https://attack.mitre.org/software/S0446) has called <code>GetIpNetTable</code> in attempt to identify all mounted drives and hosts that have Address Resolution Protocol (ARP) entries.(Citation: CrowdStrike Ryuk January 2019)(Citation: Bleeping Computer - Ryuk WoL) ",
             "relationship_type": "uses",
             "source_ref": "malware--a020a61c-423f-4195-8c46-ba1d21abba37",
             "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

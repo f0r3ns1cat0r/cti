@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0b1874bf-1a0c-4b66-a17a-d970fdeb439a",
+    "id": "bundle--862e403b-fd36-4f09-b68f-39ba1341331f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:49:15.355Z",
+            "modified": "2026-05-12T15:12:00.708Z",
             "name": "Remote Email Collection",
             "description": "Adversaries may target an Exchange server, Office 365, or Google Workspace to collect sensitive information. Adversaries may leverage a user's credentials and interact directly with the Exchange server to acquire information from within a network. Adversaries may also access externally facing Exchange services, Office 365, or Google Workspace to access email using credentials or access tokens. Tools such as [MailSniper](https://attack.mitre.org/software/S0413) can be used to automate searches for specific keywords.",
             "kill_chain_phases": [
@@ -28,7 +28,7 @@
                     "phase_name": "collection"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_contributors": [
                 "Arun Seelagan, CISA"
             ],

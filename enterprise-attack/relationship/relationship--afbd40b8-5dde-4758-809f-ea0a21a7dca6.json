@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f5e2f9ef-8d45-47f1-b128-6b641b6d0d8a",
+    "id": "bundle--291a1c14-eda1-4f2c-ba58-72d538e9d7d7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--afbd40b8-5dde-4758-809f-ea0a21a7dca6",
             "created": "2024-12-30T19:44:11.421Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco MagicRAT 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:40:01.766Z",
+            "modified": "2026-04-29T14:23:06.165Z",
             "description": "[MagicRAT](https://attack.mitre.org/software/S1182) can persist using malicious LNK objects in the victim machine Startup folder.(Citation: Cisco MagicRAT 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--858b0f9d-3a2a-437e-a058-afe72154f6da",
             "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

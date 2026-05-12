@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--42702579-551e-4b07-8a3e-0842b2f026bf",
+    "id": "bundle--7f9afe42-bcae-4817-bcec-0ba2381ae596",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T14:20:48.948Z",
+            "modified": "2026-05-12T15:12:00.740Z",
             "name": "Tasklist",
             "description": "The [Tasklist](https://attack.mitre.org/software/S0057) utility displays a list of applications and services with their Process IDs (PID) for all tasks running on either a local or a remote computer. It is packaged with Windows operating systems and can be executed from the command-line interface. (Citation: Microsoft Tasklist)",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

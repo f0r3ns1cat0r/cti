@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9de9f90d-7ce7-4c60-96ae-b8ea8683bd24",
+    "id": "bundle--f49106c7-1a25-4b7c-ba3f-80b0859fa282",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ee4d1b24-603f-40df-8f21-3c053fba275f",
             "created": "2019-07-22T15:35:24.363Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Soft Cell June 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:16:24.945Z",
+            "modified": "2026-04-29T14:23:06.249Z",
             "description": "[GALLIUM](https://attack.mitre.org/groups/G0093) used dumped hashes to authenticate to other machines via pass the hash.(Citation: Cybereason Soft Cell June 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
             "target_ref": "attack-pattern--e624264c-033a-424d-9fd7-fc9c3bbdb03e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

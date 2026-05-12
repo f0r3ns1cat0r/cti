@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3a36687e-b9c9-4f01-a643-62941f02ff6d",
+    "id": "bundle--92f03ab8-c16a-45a4-bac9-d1166fdbe56a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8e03a9bc-a701-4797-8f0e-0eb17f32ddac",
             "created": "2021-05-03T18:58:02.859Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Iran Threats October 2021",
@@ -43,14 +44,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:31:02.206Z",
+            "modified": "2026-04-29T14:23:06.119Z",
             "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used SMS and email messages with links designed to steal credentials or track victims.(Citation: Certfa Charming Kitten January 2021)(Citation: ClearSky Kittens Back 3 August 2020)(Citation: Proofpoint TA453 March 2021)(Citation: Proofpoint TA453 July2021)(Citation: Google Iran Threats October 2021)(Citation: Microsoft Iranian Threat Actor Trends November 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
             "target_ref": "attack-pattern--2d3f5b3c-54ca-4f4d-bb1f-849346d31230",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

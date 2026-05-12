@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e7ec6656-16a0-4051-b144-b737d03e4bb9",
+    "id": "bundle--8fcb5700-f62b-4194-993e-0a17a5001804",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4d7faa7b-2fd2-4c40-89c2-e8171055733c",
             "created": "2022-09-27T18:03:32.973Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FoxIT Wocao December 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:13:39.161Z",
+            "modified": "2026-04-29T14:23:06.031Z",
             "description": "During [Operation Wocao](https://attack.mitre.org/campaigns/C0014), threat actors created services on remote systems for execution purposes.(Citation: FoxIT Wocao December 2019)",
             "relationship_type": "uses",
             "source_ref": "campaign--b03d5112-e23a-4ac8-add0-be7502d24eff",
             "target_ref": "attack-pattern--f1951e8a-500e-4a26-8803-76d95c4554b4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

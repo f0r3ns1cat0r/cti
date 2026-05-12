@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0c99b40b-510e-46d1-a004-adc5084c411b",
+    "id": "bundle--5879c7ac-6d5e-486a-ac12-713d157b57e5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d682570b-068d-421e-a6b4-a93640bd34dc",
             "created": "2022-06-28T14:36:56.406Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CrowdStrike IceApple May 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:50:07.601Z",
+            "modified": "2026-04-29T14:23:06.218Z",
             "description": "The [IceApple](https://attack.mitre.org/software/S1022) Active Directory Querier module  can perform authenticated requests against an Active Directory server.(Citation: CrowdStrike IceApple May 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--dd889a55-fb2c-4ec7-8e9f-c399939a49e1",
             "target_ref": "attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

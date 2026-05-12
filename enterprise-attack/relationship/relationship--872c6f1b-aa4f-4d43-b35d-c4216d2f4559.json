@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aa1ca7e4-69ce-480f-979d-51c996d5ebae",
+    "id": "bundle--d730fa50-8837-4780-a185-35af3de924d5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--872c6f1b-aa4f-4d43-b35d-c4216d2f4559",
             "created": "2019-03-11T17:18:27.756Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Github PowerShell Empire",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:57:47.335Z",
+            "modified": "2026-04-29T14:23:06.110Z",
             "description": "[Empire](https://attack.mitre.org/software/S0363) can perform pass the hash attacks.(Citation: Github PowerShell Empire)",
             "relationship_type": "uses",
             "source_ref": "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",
             "target_ref": "attack-pattern--e624264c-033a-424d-9fd7-fc9c3bbdb03e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

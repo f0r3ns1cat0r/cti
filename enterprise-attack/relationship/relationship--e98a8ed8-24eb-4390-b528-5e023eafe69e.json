@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--24ba868e-54fa-4c27-9b40-b6da512ea62d",
+    "id": "bundle--fafc5751-0869-4fb6-8ef1-c6912b54076d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e98a8ed8-24eb-4390-b528-5e023eafe69e",
             "created": "2025-07-22T17:03:56.454Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Zscaler",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-25T15:15:48.161Z",
+            "modified": "2026-04-29T14:23:06.243Z",
             "description": "[StarProxy](https://attack.mitre.org/software/S1227) has used TCP for C2 communications to target IPs or domains.  [StarProxy](https://attack.mitre.org/software/S1227) contained code to support both UDP and TCP connections.(Citation: Zscaler)",
             "relationship_type": "uses",
             "source_ref": "malware--e91d3543-ca5d-474b-8b20-5a753ebc6e49",

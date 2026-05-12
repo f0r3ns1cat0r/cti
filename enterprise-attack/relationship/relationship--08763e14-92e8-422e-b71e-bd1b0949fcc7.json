@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d1f6f6d3-3242-4b10-ae63-2e4058299c4a",
+    "id": "bundle--a4149e91-7c41-4047-bdb5-6e48ada29594",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T14:34:12.531Z",
+            "modified": "2026-04-29T14:23:05.915Z",
             "description": "[Tsundere Botnet](https://attack.mitre.org/software/S9034)\u2019s variant DinDoor has used [Rclone](https://attack.mitre.org/software/S1040) to access a Wasabi server.(Citation: Checkpoint_MOISCyberCrime_Mar2026) \n\n ",
             "relationship_type": "uses",
             "source_ref": "malware--18f5f8c6-bba5-4aba-93e7-3539fe565883",

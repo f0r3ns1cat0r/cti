@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--0eb3caaa-bf54-4655-93ee-8fbbb1dab982",
+    "id": "bundle--1c90bf3b-a368-41ef-aa7e-2c09cd3ad4f5",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--2e8be762-9987-4f19-997d-2f7c7540b8e1",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.673Z",
             "name": "Detection of Digital Certificates",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -29,8 +30,7 @@
             ],
             "x_mitre_analytic_refs": [
                 "x-mitre-analytic--06c3cd77-148a-424e-a55e-1e11ff3d9504"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

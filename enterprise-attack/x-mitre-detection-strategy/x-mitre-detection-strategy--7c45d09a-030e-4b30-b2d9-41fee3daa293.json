@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--658726dc-af54-415b-9d97-86135c503b4b",
+    "id": "bundle--6be67b4e-4272-4ac5-a646-4485d5e730c9",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--7c45d09a-030e-4b30-b2d9-41fee3daa293",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.682Z",
             "name": "Detection of System Network Connections Discovery Across Platforms",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -34,8 +35,7 @@
                 "x-mitre-analytic--d42c2a80-bf02-460f-b279-147940ece3a9",
                 "x-mitre-analytic--c6208aa1-fa6e-4d9d-a284-dd0aab1ee31c",
                 "x-mitre-analytic--914a5b13-5977-4e62-abab-9ee03e72624f"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

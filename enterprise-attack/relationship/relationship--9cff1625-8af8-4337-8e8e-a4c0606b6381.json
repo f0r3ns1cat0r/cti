@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--807eca48-84eb-40a5-8c38-a880d2d6a3ac",
+    "id": "bundle--7807f5b2-9c6d-449d-bec9-7e49dd438ee8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9cff1625-8af8-4337-8e8e-a4c0606b6381",
             "created": "2023-01-30T23:22:52.826Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelLabs Metador Sept 2022",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:35:11.122Z",
+            "modified": "2026-04-29T14:23:06.139Z",
             "description": "[metaMain](https://attack.mitre.org/software/S1059) can use HTTP for C2 communications.(Citation: SentinelLabs Metador Sept 2022)(Citation: SentinelLabs Metador Technical Appendix Sept 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--df350889-4de9-44e5-8cb3-888b8343e97c",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

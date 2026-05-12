@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2a8228f5-9280-4b0c-b0fb-78038dc3a12d",
+    "id": "bundle--0d1d0164-64bb-441b-a921-ac359ab7857f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -49,7 +49,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-15T21:20:26.169Z",
+            "modified": "2026-04-29T14:23:06.117Z",
             "description": "[Shai-Hulud](https://attack.mitre.org/software/S9008) has created a repository named `Shai-Hulud` under the compromised account that commits a JSON dump that contains system information, environment variables and collected secrets.(Citation: Aikido Shai-Hulud September 2025)(Citation: Netskope Shai-Hulud November 2025)(Citation: Wiz Shai-Hulud September 2025) [Shai-Hulud](https://attack.mitre.org/software/S9008) has also posted stolen credentials to public GitHub repositories.(Citation: Palo Alto Unit 42 Shai-Hulud November 2025)(Citation: Microsoft Shai-Hulud December 2025)(Citation: Socket Shai-Hulud November 2025)(Citation: Socket Shai-Hulud Trufflehog September 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--de376fb9-1093-4f59-8d13-aed61042701d",

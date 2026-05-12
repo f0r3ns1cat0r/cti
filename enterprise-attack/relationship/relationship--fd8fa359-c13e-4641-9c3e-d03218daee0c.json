@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--77e16c6f-6466-45f2-8a1a-24a0916ad65f",
+    "id": "bundle--971ab5a8-52be-48fd-a78d-69fd28020ef8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fd8fa359-c13e-4641-9c3e-d03218daee0c",
             "created": "2020-05-26T20:37:19.548Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CheckPoint Naikon May 2020",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:18:57.303Z",
+            "modified": "2026-04-29T14:23:06.269Z",
             "description": "(Citation: CheckPoint Naikon May 2020)(Citation: Bitdefender Naikon April 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
             "target_ref": "malware--3161d76a-e2b2-4b97-9906-24909b735386",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

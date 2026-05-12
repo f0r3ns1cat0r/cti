@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--125da26d-61f0-4c10-be9d-d095645b148b",
+    "id": "bundle--031eed83-77fb-4f00-80d5-8ef68e8c7d73",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--937febf9-bb30-4fcf-a208-e599693d4588",
             "created": "2025-10-21T23:31:24.031Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET InvisiMole June 2018",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T23:31:24.031Z",
+            "modified": "2026-04-29T14:23:06.126Z",
             "description": "[InvisiMole](https://attack.mitre.org/software/S0260) can gather information on the mapped drives and system volume serial number.(Citation: ESET InvisiMole June 2018)(Citation: ESET InvisiMole June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--47afe41c-4c08-485e-b062-c3bd209a1cce",

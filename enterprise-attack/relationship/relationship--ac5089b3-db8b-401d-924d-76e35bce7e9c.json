@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--32fb2832-3c5d-43c1-8290-a8919e572dca",
+    "id": "bundle--5b8a4cb7-bb1a-41c3-920b-7abd410acc1d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ac5089b3-db8b-401d-924d-76e35bce7e9c",
             "created": "2019-09-16T19:41:10.153Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Security Intelligence More Eggs Aug 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:04:48.968Z",
+            "modified": "2026-04-29T14:23:06.159Z",
             "description": "[More_eggs](https://attack.mitre.org/software/S0284) has used basE91 encoding, along with encryption, for C2 communication.(Citation: Security Intelligence More Eggs Aug 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--bfd2738c-8b43-43c3-bc9f-d523c8e88bf4",
             "target_ref": "attack-pattern--04fd5427-79c7-44ea-ae13-11b24778ff1c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

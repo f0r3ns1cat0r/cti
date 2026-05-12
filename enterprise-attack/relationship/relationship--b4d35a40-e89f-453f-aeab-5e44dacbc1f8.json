@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--853b0410-d7b3-4d4d-9ef7-5f07565767ef",
+    "id": "bundle--20a706ac-de8d-413b-97a2-afc385f99c5d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b4d35a40-e89f-453f-aeab-5e44dacbc1f8",
             "created": "2025-10-22T02:14:27.381Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Secureworks REvil September 2019",
@@ -48,7 +49,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T02:14:27.381Z",
+            "modified": "2026-04-29T14:23:06.172Z",
             "description": "[REvil](https://attack.mitre.org/software/S0496) can identify system drive information on a compromised host.(Citation: Kaspersky Sodin July 2019)(Citation: Cylance Sodinokibi July 2019)(Citation: Secureworks GandCrab and REvil September 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: Intel 471 REvil March 2020)(Citation: Group IB Ransomware May 2020)(Citation: Secureworks REvil September 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--ac61f1f9-7bb1-465e-9b8a-c2ce8e88baf5",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b805b221-4cf0-4fcf-8484-3e56858f664f",
+    "id": "bundle--f881234a-1ca9-4afb-86bf-77a76612dbd9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-15T22:45:43.373Z",
+            "modified": "2026-05-12T15:12:00.645Z",
             "name": "JamPlus",
             "description": "Adversaries may use `JamPlus` to proxy the execution of a malicious script. `JamPlus` is a build utility tool for code and data build systems. It works with several popular compilers and can be used for generating workspaces in code editors such as Visual Studio.(Citation: JamPlus manual)\n\nAdversaries may abuse the `JamPlus` build utility to execute malicious scripts via a `.jam` file, which describes the build process and required dependencies. Because the malicious script is executed from a reputable developer tool, it may subvert application control security systems such as Smart App Control.(Citation: Cyble)(Citation: Elastic Security Labs)",
             "kill_chain_phases": [

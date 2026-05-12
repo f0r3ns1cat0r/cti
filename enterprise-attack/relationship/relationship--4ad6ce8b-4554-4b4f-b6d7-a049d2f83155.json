@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--73d52383-0e59-4a6b-a75d-856fc8263324",
+    "id": "bundle--30380459-e8c0-4d63-8b91-f80d84c672b2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:33:51.173Z",
+            "modified": "2026-04-29T14:23:06.027Z",
             "description": "[Diavol](https://attack.mitre.org/software/S0659) can attempt to stop security software.(Citation: Fortinet Diavol July 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--4e9bdf9a-4957-47f6-87b3-c76898d3f623",

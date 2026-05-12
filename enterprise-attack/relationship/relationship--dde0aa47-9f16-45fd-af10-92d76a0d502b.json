@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e2b4c17f-7a2f-4640-8ea6-45efa4bcebb2",
+    "id": "bundle--a755eba4-203c-494d-bc5f-2e501d9821d5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--dde0aa47-9f16-45fd-af10-92d76a0d502b",
             "created": "2026-04-13T16:26:13.220Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google UNC5221 Ivanti April 2025",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-13T16:26:13.220Z",
+            "modified": "2026-04-29T14:23:06.228Z",
             "description": "[BRUSHFIRE](https://attack.mitre.org/software/S9011) has executed its commands within memory and is not saved on disk.(Citation: Google UNC5221 Ivanti April 2025)(Citation: Picus Security UNC5221 Ivanti May 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--e110c9c6-7691-4bcb-874d-3d83a63c06c2",

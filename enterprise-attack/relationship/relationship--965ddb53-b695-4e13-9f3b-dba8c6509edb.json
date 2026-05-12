@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--648148e2-9e71-4191-b5c7-6e7a96a755ae",
+    "id": "bundle--723fed0e-85e4-40b1-a130-3c8bd9b49700",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--965ddb53-b695-4e13-9f3b-dba8c6509edb",
             "created": "2025-10-16T18:17:19.848Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft SharePoint Exploit JUL 2025",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-16T19:36:05.447Z",
+            "modified": "2026-04-29T14:23:06.130Z",
             "description": "During [SharePoint ToolShell Exploitation](https://attack.mitre.org/campaigns/C0058), threat actors deployed ransomware including 4L4MD4R and Warlock.(Citation: Microsoft SharePoint Exploit JUL 2025)(Citation: Palo Alto SharePoint Vulnerabilities JUL 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--1a0576df-df21-4775-843e-844d8a58a94b",

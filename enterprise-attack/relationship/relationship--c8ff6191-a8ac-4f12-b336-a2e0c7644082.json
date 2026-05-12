@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4c8f0ce9-d6df-4d71-af7a-265909eff57b",
+    "id": "bundle--cb27a0c7-9089-41bf-a1e2-1a6719639e1a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c8ff6191-a8ac-4f12-b336-a2e0c7644082",
             "created": "2019-06-20T14:34:41.315Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Disable Autorun",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:09:54.412Z",
+            "modified": "2026-04-29T14:23:06.200Z",
             "description": "Disable Autorun if it is unnecessary. (Citation: Microsoft Disable Autorun) Disallow or restrict removable media at an organizational policy level if they are not required for business operations. (Citation: TechNet Removable Media Control)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--eb88d97c-32f1-40be-80f0-d61a4b0b4b31",
             "target_ref": "attack-pattern--e6415f09-df0e-48de-9aba-928c902b7549",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

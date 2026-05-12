@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--38fabc6a-4d5f-437a-9e83-206d15e95a83",
+    "id": "bundle--9daddbde-ae86-4428-a2cc-27040bb81f2c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:40.140Z",
+            "modified": "2026-05-12T15:12:00.627Z",
             "name": "Access Notifications",
             "description": "Adversaries may collect data within notifications sent by the operating system or other applications. Notifications may contain sensitive data such as one-time authentication codes sent over SMS, email, or other mediums. In the case of Credential Access, adversaries may attempt to intercept one-time code sent to the device. Adversaries can also dismiss notifications to prevent the user from noticing that the notification has arrived and can trigger action buttons contained within notifications.(Citation: ESET 2FA Bypass) ",
             "kill_chain_phases": [
@@ -37,7 +37,7 @@
                     "phase_name": "credential-access"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "mobile-attack"

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--75dfcc90-79f9-47b5-b7ea-c2a0ae41f162",
+    "id": "bundle--6b798ea2-e768-41b3-9421-550c74facb26",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ff57d2d8-095c-4f9b-bb57-bc0971bb6a8d",
             "created": "2025-08-05T18:56:44.917Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco Talos MUSTANG PANDA PLUGX PUBLOAD MAY 2022",
@@ -33,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-25T14:16:28.423Z",
+            "modified": "2026-04-29T14:23:06.272Z",
             "description": "[PUBLOAD](https://attack.mitre.org/software/S1228) has collected and sent system information including volume serial number, computer name, and system uptime to designated C2.(Citation: Cisco Talos MUSTANG PANDA PLUGX PUBLOAD MAY 2022)(Citation: 2025_IBM_PUBLOAD_TONESHELL_HIUPAN_CLAIMLOADER_MUSTANG PANDA)  [PUBLOAD](https://attack.mitre.org/software/S1228) has also used several commands executed in sequence via `cmd` in a short interval to gather system information about the infected host including `systeminfo`.(Citation: Trend Micro MUSTANG PANDA PUBLOAD HIUPAN SEPTEMBER 2024) [PUBLOAD](https://attack.mitre.org/software/S1228) has decrypted shellcode that collects the computer name.(Citation: 2022 November_TrendMicro_Earth Preta_Toneshell_Pubload)",
             "relationship_type": "uses",
             "source_ref": "malware--3824852d-1957-4712-9da0-38143723c060",

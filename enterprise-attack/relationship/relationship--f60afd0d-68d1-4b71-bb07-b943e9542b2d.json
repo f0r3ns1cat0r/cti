@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8ed56e62-1254-4447-8ced-fccf5eb65d8c",
+    "id": "bundle--e29fe959-dfaa-4921-8bdf-626f727d0105",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f60afd0d-68d1-4b71-bb07-b943e9542b2d",
             "created": "2020-03-30T02:26:59.962Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Novetta Blockbuster Loaders",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:58:11.575Z",
+            "modified": "2026-04-29T14:23:06.259Z",
             "description": "A [Lazarus Group](https://attack.mitre.org/groups/G0032) malware sample encrypts data using a simple byte based XOR operation prior to exfiltration.(Citation: Novetta Blockbuster)(Citation: Novetta Blockbuster Loaders)(Citation: Novetta Blockbuster RATs)(Citation: McAfee Lazarus Resurfaces Feb 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--143c0cbb-a297-4142-9624-87ffc778980b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

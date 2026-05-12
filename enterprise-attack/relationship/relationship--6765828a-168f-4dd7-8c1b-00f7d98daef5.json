@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9f6ebe6c-50ce-400c-9df0-b11cb64bb702",
+    "id": "bundle--f4182d6f-03f4-4ab0-af47-8b186afe819b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6765828a-168f-4dd7-8c1b-00f7d98daef5",
             "created": "2019-05-02T01:07:37.020Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cylance Shaheen Nov 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:51:46.058Z",
+            "modified": "2026-04-29T14:23:06.066Z",
             "description": "[Revenge RAT](https://attack.mitre.org/software/S0379) collects the CPU information, OS information, and system language.(Citation: Cylance Shaheen Nov 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--bdb27a1d-1844-42f1-a0c0-826027ae0326",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

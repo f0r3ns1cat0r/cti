@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8a924634-4be5-40e6-9bca-d299d2569c81",
+    "id": "bundle--986e2244-d27d-4d01-8ada-fb6251176b1a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--93f46e6e-cabc-4274-b50e-63bda692d01e",
             "created": "2020-05-06T21:01:23.473Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Attor Oct 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:00:14.826Z",
+            "modified": "2026-04-29T14:23:06.127Z",
             "description": "[Attor](https://attack.mitre.org/software/S0438) has used FTP protocol for C2 communication.(Citation: ESET Attor Oct 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--8f423bd7-6ca7-4303-9e85-008c7ad5fdaa",
             "target_ref": "attack-pattern--9a60a291-8960-4387-8a4a-2ab5c18bb50b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

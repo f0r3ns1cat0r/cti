@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b4daaeda-37a0-40f0-83a9-3531e029d5e3",
+    "id": "bundle--c78b86cf-d027-4f1d-ad8c-3bf12e4a2916",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--25e10d85-b8de-45d9-9c3c-b02e53676f9c",
             "created": "2022-06-03T18:12:09.995Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ClearSky Siamesekitten August 2021",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:03:04.029Z",
+            "modified": "2026-04-29T14:23:05.957Z",
             "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has registered and operated domains for campaigns, often using a security or web technology theme or impersonating the targeted organization.(Citation: SecureWorks August 2019)(Citation: Dragos Hexane)(Citation: ClearSky Siamesekitten August 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
             "target_ref": "attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

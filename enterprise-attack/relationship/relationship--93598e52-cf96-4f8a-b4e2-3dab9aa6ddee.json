@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--55c8e5e1-0d36-4c57-bf45-1a80b7b965c1",
+    "id": "bundle--b3b2b39f-96f9-4569-b8ec-245aa43e3688",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--93598e52-cf96-4f8a-b4e2-3dab9aa6ddee",
             "created": "2022-01-24T17:02:47.984Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Check Point APT35 CharmPower January 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:00:07.789Z",
+            "modified": "2026-04-29T14:23:06.126Z",
             "description": "[CharmPower](https://attack.mitre.org/software/S0674) can use HTTP to communicate with C2.(Citation: Check Point APT35 CharmPower January 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--7acb15b6-fe2c-4319-b136-6ab36ff0b2d4",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d5e437c9-a5c8-464c-844f-6e01ab502fec",
+    "id": "bundle--ecfea8eb-416c-4876-a22e-1103cab6a5a6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e122c13d-078d-4404-b2a0-e0e2341dbd2e",
             "created": "2021-04-12T19:26:30.386Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Eset PlugX Korplug Mustang Panda March 2022",
@@ -118,7 +119,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-15T13:53:03.830Z",
+            "modified": "2026-04-29T14:23:06.232Z",
             "description": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has sent malicious files requiring direct victim interaction to execute.(Citation: Anomali MUSTANG PANDA October 2019)(Citation: CSIRT CTI MUSTANG PANDA PUBLOAD TONESHELL JAN 2024)(Citation: IBM MUSTANG PANDA PUBLOAD CLAIMLOADER JUNE 2025)(Citation: 2025_IBM_PUBLOAD_TONESHELL_HIUPAN_CLAIMLOADER_MUSTANG PANDA)(Citation: Avira Mustang Panda January 2020)(Citation: Google TAG Ukraine Threat Landscape March 2022)(Citation: Recorded Future REDDELTA July 2020)(Citation: Crowdstrike MUSTANG PANDA June 2018)(Citation: Proofpoint TA416 Europe March 2022)(Citation: Zscaler PAKLOG CorkLog SplatCloak Splatdropper April 2025) [Mustang Panda](https://attack.mitre.org/groups/G0129) has also leveraged executable files that display decoy documents to the victim to provide a resemblance of legitimacy with customized themes related to the victim.(Citation: Eset PlugX Korplug Mustang Panda March 2022)(Citation: Cisco Talos MUSTANG PANDA PLUGX PUBLOAD MAY 2022)(Citation: Lab52 MUSTANG PANDA PUBLOAD MAY 2023)(Citation: EclecticIQ Mustang Panda PlugX)(Citation: Trend Micro MUSTANG PANDA PUBLOAD HIUPAN SEPTEMBER 2024)(Citation: Trend Micro Mustang Panda Earth Preta Toneshell February 2025)(Citation: 2022 November_TrendMicro_Earth Preta_Toneshell_Pubload)(Citation: Unit42 Bookworm Nov2015)(Citation: Palo Alto Networks, Unit 42)(Citation: Sophos PlugX September 2022)(Citation: Sophos Mustang Panda PLUGX)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--420ac20b-f2b9-42b8-aa1a-6d4b72895ca4",

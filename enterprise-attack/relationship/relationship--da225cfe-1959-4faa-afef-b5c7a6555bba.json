@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1ae63a88-646d-4ad3-a9aa-9fc1f6084dc7",
+    "id": "bundle--be94ba71-faef-407d-acc4-2922798e26ed",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T14:37:19.346Z",
+            "modified": "2026-04-29T14:23:06.223Z",
             "description": "[Tsundere Botnet](https://attack.mitre.org/software/S9034)\u2019s loader has decrypted obfuscated JavaScript files using the AES-256 CBC algorithm, a build-specific key, and initialization vector.(Citation: SecureListUbiedo_Tsundere_Nov2025)(Citation: CAL_MuddyWater_Mar2026)   ",
             "relationship_type": "uses",
             "source_ref": "malware--18f5f8c6-bba5-4aba-93e7-3539fe565883",

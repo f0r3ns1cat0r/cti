@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0dcb02a6-38ae-4b74-850b-e493ac670555",
+    "id": "bundle--935e0ef5-962c-4bbd-9a4a-ca0a534d9663",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a491cb90-9480-450b-9a57-55b95b249d31",
             "created": "2019-04-01T21:09:50.383Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET OceanLotus Mar 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:03:23.253Z",
+            "modified": "2026-04-29T14:23:06.149Z",
             "description": "[APT32](https://attack.mitre.org/groups/G0050)'s backdoor has used Windows services as a way to execute its malicious payload. (Citation: ESET OceanLotus Mar 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "target_ref": "attack-pattern--f1951e8a-500e-4a26-8803-76d95c4554b4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

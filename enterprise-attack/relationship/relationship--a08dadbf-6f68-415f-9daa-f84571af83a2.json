@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--39fe0492-0970-40e3-a42f-604ef7e0a42d",
+    "id": "bundle--3112203d-ef08-4efb-90d7-9de561d2738a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a08dadbf-6f68-415f-9daa-f84571af83a2",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto menuPass Feb 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:36:09.303Z",
+            "modified": "2026-04-29T14:23:06.144Z",
             "description": "[ChChes](https://attack.mitre.org/software/S0144) collects the victim hostname, window resolution, and Microsoft Windows version.(Citation: Palo Alto menuPass Feb 2017)(Citation: PWC Cloud Hopper Technical Annex April 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--dc5d1a33-62aa-4a0c-aa8c-589b87beb11e",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

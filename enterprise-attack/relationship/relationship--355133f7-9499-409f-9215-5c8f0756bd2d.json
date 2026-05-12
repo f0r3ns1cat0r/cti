@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2ef10102-6fb5-4f08-b3ea-1cee2d9c07e4",
+    "id": "bundle--ca75f8d4-e60f-4351-91f1-37e614635b0e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--355133f7-9499-409f-9215-5c8f0756bd2d",
             "created": "2025-10-20T12:18:33.583Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cyble Embargo Ransomware May 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-20T15:38:06.060Z",
+            "modified": "2026-04-29T14:23:05.991Z",
             "description": "[Embargo](https://attack.mitre.org/software/S1247) has leveraged Windows Native API functions to execute its operations.(Citation: Cyble Embargo Ransomware May 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--82adb90e-43b8-4bce-9efe-afeba65457b2",

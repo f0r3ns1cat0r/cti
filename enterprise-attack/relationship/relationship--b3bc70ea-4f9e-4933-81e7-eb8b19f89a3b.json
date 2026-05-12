@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--df45db4e-4f00-481e-b616-42fcdcf46bcc",
+    "id": "bundle--eb13e740-138c-4aaa-bc16-9e045bfd1a74",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b3bc70ea-4f9e-4933-81e7-eb8b19f89a3b",
             "created": "2023-05-18T18:02:29.723Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant Suspected Turla Campaign February 2023",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T23:39:24.358Z",
+            "modified": "2026-04-29T14:23:06.171Z",
             "description": "[KOPILUWAK](https://attack.mitre.org/software/S1075) can discover logical drive information on compromised hosts.(Citation: Mandiant Suspected Turla Campaign February 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--09fcc02f-f9d4-43fa-8609-5e5e186b7103",

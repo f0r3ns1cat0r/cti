@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--224ae3c8-b34f-4b78-aac3-2bfce8339216",
+    "id": "bundle--6fc6115e-c352-439a-aa18-e50e7afdd37a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e3674f09-f242-4821-bab6-c9c322646735",
             "created": "2025-09-12T15:17:42.897Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Zscaler PAKLOG CorkLog SplatCloak Splatdropper April 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-23T14:01:21.821Z",
+            "modified": "2026-04-29T14:23:06.235Z",
             "description": "[PAKLOG](https://attack.mitre.org/software/S1233) has leveraged legitimate binaries to conduct DLL side-loading.(Citation: Zscaler PAKLOG CorkLog SplatCloak Splatdropper April 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--0bf64997-7ce1-43e5-b01a-bcd2bf5dc87f",

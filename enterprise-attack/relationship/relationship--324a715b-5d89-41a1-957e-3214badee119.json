@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9d162edb-9385-41bc-80ce-78c253233c93",
+    "id": "bundle--d06cf9af-e583-4c64-b311-2589f0e4fb8b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--324a715b-5d89-41a1-957e-3214badee119",
             "created": "2022-01-07T15:57:14.853Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Novetta-Axiom",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:06:14.067Z",
+            "modified": "2026-04-29T14:23:05.984Z",
             "description": "[Axiom](https://attack.mitre.org/groups/G0001) has used large groups of compromised machines for use as proxy nodes.(Citation: Novetta-Axiom)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
             "target_ref": "attack-pattern--810d8072-afb6-4a56-9ee7-86379ac4a6f3",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

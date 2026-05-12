@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--34d8b082-4fca-4ea3-a350-5b5c1acf9856",
+    "id": "bundle--cd53c55b-9598-43c1-b27c-ea4baa7c62a7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--69e823be-ab39-44c1-b56f-b371a2a0118b",
             "created": "2025-12-16T00:01:04.539Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SophosGnGal_SystemBC_Dec2020",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-12-16T00:16:20.746Z",
+            "modified": "2026-04-29T14:23:06.069Z",
             "description": "[SystemBC](https://attack.mitre.org/software/S9001) has checked if the last characters of DNS server names end in .bit before initializing C2 communication.(Citation: HarmonProofpoint_SystemBC_Aug2019) [SystemBC](https://attack.mitre.org/software/S9001) has identified running processes associated with anti-virus solutions to include `a2guard.exe` to determine whether it executes or not.(Citation: SophosGnGal_SystemBC_Dec2020)  ",
             "relationship_type": "uses",
             "source_ref": "malware--39643fb9-00c1-4a45-85e5-801a3f2665d1",

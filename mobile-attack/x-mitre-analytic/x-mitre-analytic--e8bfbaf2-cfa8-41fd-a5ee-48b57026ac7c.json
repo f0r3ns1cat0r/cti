@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b45df2fd-0efc-401d-8027-1cf0e6613ecc",
+    "id": "bundle--8fb9d742-7a90-4b0f-a936-f2b282b4465e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-12-02T15:38:03.766Z",
+            "modified": "2026-05-12T16:30:18.383Z",
             "name": "Analytic 1739",
             "description": "Correlates anomalous modifications to boot-time or logon-time initialization artifacts (for example, init.rc, vendor init scripts, app_process or shell hijacks, and malicious BOOT_COMPLETED BroadcastReceivers) with subsequent unauthorized script execution after boot. From the defender\u2019s perspective this appears as integrity or attestation failures on the system partition, unexpected writes to protected init paths, new apps registering for boot events, and privileged processes invoking scripts or binaries from non-standard locations shortly after the device boots.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9e000e4f-4055-4329-8504-b42245d29703",
+    "id": "bundle--23d8e05c-7595-49a1-ae22-84cdcbb89060",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--89b2422c-6b9a-479c-bb07-52e73967066a",
             "created": "2025-09-26T20:05:04.092Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Picus Qilin MAR 2025",
@@ -53,7 +54,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T18:34:07.205Z",
+            "modified": "2026-04-29T14:23:06.113Z",
             "description": "[Qilin](https://attack.mitre.org/software/S1242) can use AES-256 or ChaCha20 for domain-wide encryption of victim servers and workstations and RSA-4096 or RSA-2048 to secure generated encryption keys.(Citation: Trend Micro Agenda Ransomware AUG 2022)(Citation: SentinelOne Qilin NOV 2022)(Citation: Picus Qilin MAR 2025)(Citation: BushidoToken Qilin RaaS JUN 2024)(Citation: Halcyon Qilin.B OCT 2024)(Citation: HC3 Qilin Threat Profile JUN 2024)(Citation: Trend Micro Agenda Ransomware OCT 2025)(Citation: Cisco Talos Qilin Ransomware OCT 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--e23d2777-b85d-44fc-861e-9149d399fbb9",

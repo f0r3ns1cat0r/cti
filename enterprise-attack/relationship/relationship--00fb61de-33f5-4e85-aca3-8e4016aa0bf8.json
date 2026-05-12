@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3afec03d-4be0-4e87-8c82-1b6bc84de24f",
+    "id": "bundle--11b18ad2-1a32-43e2-8194-fa532306e453",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--00fb61de-33f5-4e85-aca3-8e4016aa0bf8",
             "created": "2020-12-29T20:23:05.296Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ClearSky Pay2Kitten December 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:31:43.262Z",
+            "modified": "2026-04-29T14:23:05.904Z",
             "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has used a Perl reverse shell to communicate with C2.(Citation: ClearSky Pay2Kitten December 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

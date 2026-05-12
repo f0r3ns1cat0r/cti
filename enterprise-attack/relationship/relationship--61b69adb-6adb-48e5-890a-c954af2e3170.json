@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--86d7ae37-c3be-4f36-9e02-450ceb98b602",
+    "id": "bundle--3e2641dc-4935-4bfa-a0a4-49743b92ef6c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-19T15:55:34.584Z",
+            "modified": "2026-04-29T14:23:06.058Z",
             "description": "During [Operation AkaiRy\u016b](https://attack.mitre.org/campaigns/C0060), [MirrorFace](https://attack.mitre.org/groups/G1054) used custom versions of [AsyncRAT](https://attack.mitre.org/software/S1087).(Citation: ESET MirrorFace 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--8a7c55ea-f363-4a03-b4c5-fa3fdb132d8f",

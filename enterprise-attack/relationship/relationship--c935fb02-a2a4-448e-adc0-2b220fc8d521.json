@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e1df6817-aa77-417c-b16f-ccd41e1c51e4",
+    "id": "bundle--f6091dbf-c518-449e-9a38-7f75f02ed985",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c935fb02-a2a4-448e-adc0-2b220fc8d521",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye Know Your Enemy FIN8 Aug 2016",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:09:57.257Z",
+            "modified": "2026-04-29T14:23:06.200Z",
             "description": "[PUNCHBUGGY](https://attack.mitre.org/software/S0196) can delete files written to disk.(Citation: FireEye Know Your Enemy FIN8 Aug 2016)(Citation: Morphisec ShellTea June 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--5c6ed2dc-37f4-40ea-b2e1-4c76140a388c",
             "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

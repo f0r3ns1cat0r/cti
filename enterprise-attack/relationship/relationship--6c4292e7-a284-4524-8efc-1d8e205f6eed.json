@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1a390151-301b-443b-8961-f268887ca86f",
+    "id": "bundle--6049fc86-26d1-4e1f-9950-9a345bf0426f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6c4292e7-a284-4524-8efc-1d8e205f6eed",
             "created": "2025-08-04T19:46:45.358Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco Talos MUSTANG PANDA PLUGX PUBLOAD MAY 2022",
@@ -48,7 +49,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-25T14:11:16.939Z",
+            "modified": "2026-04-29T14:23:06.072Z",
             "description": "[PUBLOAD](https://attack.mitre.org/software/S1228) has abused legitimate executables to side-load malicious DLLs.(Citation: Cisco Talos MUSTANG PANDA PLUGX PUBLOAD MAY 2022)(Citation: CSIRT CTI MUSTANG PANDA PUBLOAD TONESHELL JAN 2024)(Citation: Lab52 MUSTANG PANDA PUBLOAD MAY 2023)(Citation: 2025_IBM_PUBLOAD_TONESHELL_HIUPAN_CLAIMLOADER_MUSTANG PANDA)(Citation: 2022 November_TrendMicro_Earth Preta_Toneshell_Pubload)(Citation: Palo Alto Networks, Unit 42)(Citation: PaloAlto MUSTANG PANDA PUBLOAD MARCH 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--3824852d-1957-4712-9da0-38143723c060",

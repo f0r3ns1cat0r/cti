@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a697fd23-ac34-4d45-a1ca-19902fac9bea",
+    "id": "bundle--b4baae1c-1197-4dd6-ba39-0c2559a47236",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T14:08:50.776Z",
+            "modified": "2026-04-29T14:23:05.963Z",
             "description": "[AshTag](https://attack.mitre.org/software/S9031) can download malicious payloads from file sharing services.(Citation: Palo Alto Ashen Lepus DEC 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--bb6f2a5c-dbc9-45b0-bd3f-a0b7849959c2",

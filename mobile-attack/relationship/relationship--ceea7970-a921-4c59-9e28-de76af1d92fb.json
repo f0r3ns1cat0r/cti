@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--733a7686-5b79-4c7d-a6fe-8fb2b1d7edcb",
+    "id": "bundle--d491acfb-2006-4b50-b883-7a90edb129f7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ceea7970-a921-4c59-9e28-de76af1d92fb",
             "created": "2026-02-06T21:26:11.799Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ThreatFabric_Crocodilus_March2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-02-06T21:26:11.799Z",
+            "modified": "2026-04-29T14:23:06.208Z",
             "description": "[Crocodilus](https://attack.mitre.org/software/S9004) has requested for Accessibility Service to be enabled. Upon approval, [Crocodilus](https://attack.mitre.org/software/S9004) has connected to the C2 server to receive instructions, has continuously monitored Accessibility events, and has captured elements, such as wallet keys, displayed on the device screen.(Citation: ThreatFabric_Crocodilus_March2025) ",
             "relationship_type": "uses",
             "source_ref": "malware--eed7b988-0279-4c4f-bfa9-d81f5444a04b",

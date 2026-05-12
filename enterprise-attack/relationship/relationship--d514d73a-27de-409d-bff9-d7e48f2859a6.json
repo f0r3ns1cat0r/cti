@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--523ef25d-e5af-4346-bdaf-fc7bf27ae301",
+    "id": "bundle--4ef4ef58-8175-4c41-a4ea-99bd631da281",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d514d73a-27de-409d-bff9-d7e48f2859a6",
             "created": "2019-07-16T21:00:11.765Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Accenture SNAKEMACKEREL Nov 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:12:04.153Z",
+            "modified": "2026-04-29T14:23:06.217Z",
             "description": "[Zebrocy](https://attack.mitre.org/software/S0251) has used URL/Percent Encoding on data exfiltrated via HTTP POST requests.(Citation: Accenture SNAKEMACKEREL Nov 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--a4f57468-fbd5-49e4-8476-52088220b92d",
             "target_ref": "attack-pattern--04fd5427-79c7-44ea-ae13-11b24778ff1c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

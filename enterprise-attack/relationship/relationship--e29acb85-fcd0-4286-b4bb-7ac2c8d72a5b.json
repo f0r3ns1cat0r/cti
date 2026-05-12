@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--919f767a-2264-4099-9ff9-e1d318a63cdb",
+    "id": "bundle--fa20dd88-3124-4974-8965-b54db5c60296",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T12:34:36.495Z",
+            "modified": "2026-04-29T14:23:06.234Z",
             "description": "[MirrorFace](https://attack.mitre.org/groups/G1054) has exfiltrated stored emails from compromised hosts.(Citation: ESET MirrorFace DEC 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--8cf6e33b-b6ef-4a1f-a77c-0ecdde93161f",

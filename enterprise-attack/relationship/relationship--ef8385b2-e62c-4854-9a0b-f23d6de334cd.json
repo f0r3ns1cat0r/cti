@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3ca4c56d-25f4-4985-8721-639ab7754b4c",
+    "id": "bundle--e6e04ca0-b356-43b4-9086-7074ef90ec5c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ef8385b2-e62c-4854-9a0b-f23d6de334cd",
             "created": "2021-09-29T15:41:18.401Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "AhnLab Andariel Subgroup of Lazarus June 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:56:31.768Z",
+            "modified": "2026-04-29T14:23:06.251Z",
             "description": "[Andariel](https://attack.mitre.org/groups/G0138) has downloaded additional tools and malware onto compromised hosts.(Citation: AhnLab Andariel Subgroup of Lazarus June 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--39d6890e-7f23-4474-b8ef-e7b0343c5fc8",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

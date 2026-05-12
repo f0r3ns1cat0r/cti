@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8f0154dc-6f7a-4341-b3f4-35ae94bc52a0",
+    "id": "bundle--0ca69cc8-16f7-44a7-969c-1b0b7814f96d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--967e0bbc-879c-49b9-809b-cd55861709bd",
             "created": "2026-02-06T21:28:28.964Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ThreatFabric_Crocodilus_March2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-02-06T21:28:28.964Z",
+            "modified": "2026-04-29T14:23:06.130Z",
             "description": "[Crocodilus](https://attack.mitre.org/software/S9004) has the ability to uninstall itself from the device.(Citation: ThreatFabric_Crocodilus_March2025) ",
             "relationship_type": "uses",
             "source_ref": "malware--eed7b988-0279-4c4f-bfa9-d81f5444a04b",

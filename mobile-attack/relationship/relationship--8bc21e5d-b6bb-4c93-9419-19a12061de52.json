@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--df6a9fc1-c096-48c6-8fbd-fef1e3d4cc1f",
+    "id": "bundle--5924b7d5-3276-433d-8df4-0fc3bd20ab76",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8bc21e5d-b6bb-4c93-9419-19a12061de52",
             "created": "2023-01-19T18:07:52.146Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "trendmicro_tianyspy_0122",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:50:04.116Z",
+            "modified": "2026-04-29T14:23:06.116Z",
             "description": "[TianySpy](https://attack.mitre.org/software/S1056) can exfiltrate collected user data, including credentials and authorized cookies, via email.(Citation: trendmicro_tianyspy_0122) ",
             "relationship_type": "uses",
             "source_ref": "malware--fd6d56b2-d84e-4d2a-b37d-d4678d3e08a6",
             "target_ref": "attack-pattern--3e091a89-a493-4a6c-8e88-d57be19bb98d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

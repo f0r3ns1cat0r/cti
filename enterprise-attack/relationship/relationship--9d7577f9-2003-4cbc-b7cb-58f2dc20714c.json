@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--24d1b67f-7213-4ad5-b871-ebbe72aa530a",
+    "id": "bundle--6ffb4109-cb6e-40b8-93aa-4fa1e897e43e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9d7577f9-2003-4cbc-b7cb-58f2dc20714c",
             "created": "2021-11-16T15:32:34.259Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MSTIC FoggyWeb September 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:35:17.997Z",
+            "modified": "2026-04-29T14:23:06.140Z",
             "description": "[FoggyWeb](https://attack.mitre.org/software/S0661)'s loader has used DLL Search Order Hijacking to load malicious code instead of the legitimate `version.dll` during the `Microsoft.IdentityServer.ServiceHost.exe` execution process.(Citation: MSTIC FoggyWeb September 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--72911fe3-f085-40f7-b4f2-f25a4221fe44",
             "target_ref": "attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

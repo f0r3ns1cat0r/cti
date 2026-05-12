@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6f6cccd1-c3e3-4e4e-8983-5f959f6f6651",
+    "id": "bundle--c3b7f6ce-36e2-4e4c-9b30-f3f7d976a416",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c948f964-e26c-4226-9577-7b78b5bf271f",
             "created": "2017-05-31T21:33:27.057Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Buckeye",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T15:46:53.923Z",
+            "modified": "2026-04-29T14:23:06.200Z",
             "description": "[APT3](https://attack.mitre.org/groups/G0022) has used a tool to dump credentials by injecting itself into lsass.exe and triggering with the argument \"dig.\"(Citation: Symantec Buckeye)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--86322a01-c350-44a0-8d44-06d6cf09e8b2",
+    "id": "bundle--2aaca78d-c518-4574-b31c-b9f74ddaa001",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-19T19:16:53.936Z",
+            "modified": "2026-04-29T14:23:05.930Z",
             "description": "[PHPsert](https://attack.mitre.org/software/S9028) can use the .php assert function to execute attacker-provided code and maintain persistence on targeted web servers.(Citation: sentinelone operationDigitalEye Dec 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--9491a623-5861-4d0a-9958-8c05d0d17442",

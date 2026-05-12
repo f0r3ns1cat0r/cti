@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--57011a74-833a-42a7-919f-9a22d870a1ed",
+    "id": "bundle--cd9c23d0-73a2-41ff-948c-6bbd59baff31",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d5be9ea1-7bf2-453b-bbca-19a9d82ea532",
             "created": "2021-09-28T19:59:59.110Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Crowdstrike Qakbot October 2020",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:49:54.181Z",
+            "modified": "2026-04-29T14:23:06.217Z",
             "description": "[QakBot](https://attack.mitre.org/software/S0650) can collect system information including the OS version and domain on a compromised host.(Citation: Crowdstrike Qakbot October 2020)(Citation: ATT QakBot April 2021)(Citation: Group IB Ransomware September 2020)(Citation: Microsoft Ransomware as a Service)",
             "relationship_type": "uses",
             "source_ref": "malware--edc5e045-5401-42bb-ad92-52b5b2ee0de9",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7d0d2b97-e78b-492d-90f3-539d5515c08c",
+    "id": "bundle--e5f8bf57-5898-4aba-96f8-b4c81d643492",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-29T18:41:55.176Z",
+            "modified": "2026-05-12T16:30:18.378Z",
             "name": "Analytic 1826",
             "description": "Defender observes an app enabling or using input-capture surfaces (custom keyboard extension with Full Access, abnormal UI text entry interception, pasteboard polling adjacent to login screens), then persisting and/or exfiltrating captured input. Chain: capability/consent (TCC for keyboard Full Access or input privacy domains) \u2192 intercept behavior (keyboard extension active, repeated text field \u2018editingChanged\u2019/secure entry focus, background pasteboard reads) \u2192 local write \u2192 near-term egress.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

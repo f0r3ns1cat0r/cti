@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--583ac4d4-bff8-41aa-ac25-447b25bc8276",
+    "id": "bundle--c9cf95f4-0b90-46d0-a39e-14f0a7fec90e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--baf31b81-e175-49e3-b2d9-d7552ea902a1",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ClearSky MuddyWater Nov 2018",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:42:51.127Z",
+            "modified": "2026-04-29T14:23:06.180Z",
             "description": "[POWERSTATS](https://attack.mitre.org/software/S0223) uses character replacement, [PowerShell](https://attack.mitre.org/techniques/T1059/001) environment variables, and XOR encoding to obfuscate code. [POWERSTATS](https://attack.mitre.org/software/S0223)'s backdoor code is a multi-layer obfuscated, encoded, and compressed blob. (Citation: FireEye MuddyWater Mar 2018)(Citation: ClearSky MuddyWater Nov 2018) [POWERSTATS](https://attack.mitre.org/software/S0223) has used PowerShell code with custom string obfuscation (Citation: TrendMicro POWERSTATS V3 June 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--e8545794-b98c-492b-a5b3-4b5a02682e37",
             "target_ref": "attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

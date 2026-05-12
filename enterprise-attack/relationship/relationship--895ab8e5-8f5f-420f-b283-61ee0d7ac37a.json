@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aefcf219-d8af-4c16-92d6-56e7d34e535b",
+    "id": "bundle--035a2441-7f59-404b-8113-83708816d271",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--895ab8e5-8f5f-420f-b283-61ee0d7ac37a",
             "created": "2023-03-17T19:34:54.001Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT29 Nov 2018",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:29:50.644Z",
+            "modified": "2026-04-29T14:23:06.113Z",
             "description": "For [C0021](https://attack.mitre.org/campaigns/C0021), the threat actors uploaded malware to websites under their control.(Citation: FireEye APT29 Nov 2018)(Citation: Microsoft Unidentified Dec 2018)",
             "relationship_type": "uses",
             "source_ref": "campaign--712e38c3-a656-426a-9b3b-a6bfb63294c6",
             "target_ref": "attack-pattern--3ee16395-03f0-4690-a32e-69ce9ada0f9e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

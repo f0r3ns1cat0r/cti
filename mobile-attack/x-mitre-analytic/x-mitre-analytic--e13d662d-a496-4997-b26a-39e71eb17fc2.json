@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--caf77ee5-414b-4915-9940-bcd1452f1d5c",
+    "id": "bundle--d56b17c2-2c1d-4cdd-b7d3-34b0f48c66f9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:30:37.215Z",
+            "modified": "2026-05-12T16:30:18.383Z",
             "name": "Analytic 1797",
             "description": "Correlates (1) application-driven modification of device security posture or monitoring capability (e.g., accessibility abuse, disabling security app components, altering monitoring configuration), (2) immediate degradation or cessation of expected telemetry sources such as mobile EDR, sensor visibility, or system monitoring, and (3) subsequent application activity continuing with reduced observability. The defender observes a causal chain where defensive visibility or enforcement is altered first, followed by continued execution under reduced monitoring conditions.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

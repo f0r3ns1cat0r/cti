@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ce296d4f-97ff-4483-b38f-3900df9e0261",
+    "id": "bundle--959d2e30-24a3-4e70-8723-1fafdff26988",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d1e11627-23e4-40f3-bcbc-2b832b0bbaa3",
             "created": "2023-02-28T20:31:31.983Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "proofpoint_flubot_0421",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:51:47.583Z",
+            "modified": "2026-04-29T14:23:06.212Z",
             "description": "[FluBot](https://attack.mitre.org/software/S1067) can intercept SMS messages and USSD messages from Telcom operators.(Citation: proofpoint_flubot_0421)",
             "relationship_type": "uses",
             "source_ref": "malware--f5ff006c-702f-4ded-8e60-ca6c540d91bc",
             "target_ref": "attack-pattern--c6421411-ae61-42bb-9098-73fddb315002",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0323a728-c340-4651-83ea-5c582383cf5d",
+    "id": "bundle--4f3c71c4-02ec-4b80-9397-184b38f5a277",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:31:16.812Z",
+            "modified": "2026-05-12T16:30:18.376Z",
             "name": "Analytic 2044",
             "description": "Detects esxcli commands disabling syslog, firewall, lockdown mode, or stopping hostd/vpxa; correlates command execution with reduced forwarding activity.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

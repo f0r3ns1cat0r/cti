@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8014bf28-18aa-42cb-b8c6-56124cfd12e9",
+    "id": "bundle--4bc7f77f-c6d5-4c46-8d42-8af07119c1c6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0c98c9a9-a0e4-4f8f-b444-4ba7c3bd38a5",
             "created": "2025-10-23T02:00:57.920Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sentinel One Contagious Interview ClickFix September 2025",
@@ -43,7 +44,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-23T21:05:19.602Z",
+            "modified": "2026-04-29T14:23:05.920Z",
             "description": "[Contagious Interview](https://attack.mitre.org/groups/G1052) has used web services such as Dropbox to receive stolen data and Google Drive, Firebase, GitHub, and Telegram to disseminate files.(Citation: Sekoia ClickFake 2025)(Citation: Recorded Future Contagious Inteview BeaverTail InvisibleFerret OtterCookie February 2025) [Contagious Interview](https://attack.mitre.org/groups/G1052) has also used a cloud platform such as Vercel for C2 operations leveraging malicious web applications and static pages.(Citation: Socket Contagious Interview NPM April 2025)(Citation: Socket BeaverTail XORIndex HexEval Contagious Interview July 2025)(Citation: Socket HexEval BeaverTail Contagious Interview June 2025) [Contagious Interview](https://attack.mitre.org/groups/G1052) has also used Slack to coordinate their activities.(Citation: Sentinel One Contagious Interview ClickFix September 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--46599a4a-77ee-4697-9474-2683b6464859",

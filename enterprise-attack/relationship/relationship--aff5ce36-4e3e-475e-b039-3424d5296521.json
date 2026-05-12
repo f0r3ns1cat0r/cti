@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c6aac595-0d67-4340-89a1-ea53b9ed3200",
+    "id": "bundle--9a230093-37dd-491b-a6d4-4d7e53a93359",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--aff5ce36-4e3e-475e-b039-3424d5296521",
             "created": "2025-01-06T22:46:59.737Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "WithSecure Kapeka 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:40:06.563Z",
+            "modified": "2026-04-29T14:23:06.165Z",
             "description": "[Kapeka](https://attack.mitre.org/software/S1190) utilizes obfuscated JSON structures for various data storage and configuration management items.(Citation: WithSecure Kapeka 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--a43e55c9-0b7c-42c0-81de-b7a42d724db9",
             "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

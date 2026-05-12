@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fd27c8ed-b309-4643-a62b-48300d4d59ed",
+    "id": "bundle--c6b0b381-e7a5-4bc6-bd5e-4ae1493bf703",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a68d8191-b374-4741-a249-1db3515d581b",
             "created": "2019-07-19T17:14:24.029Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Soft Cell June 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:03:45.691Z",
+            "modified": "2026-04-29T14:23:06.152Z",
             "description": "[GALLIUM](https://attack.mitre.org/groups/G0093) compressed and staged files in multi-part archives in the Recycle Bin prior to exfiltration.(Citation: Cybereason Soft Cell June 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
             "target_ref": "attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

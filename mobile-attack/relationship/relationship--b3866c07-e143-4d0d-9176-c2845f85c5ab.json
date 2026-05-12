@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1de1f59d-ae9b-4bb9-83c6-64ef672713ab",
+    "id": "bundle--fcf61be3-15ed-41e5-b9df-81e5d509bbfe",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b3866c07-e143-4d0d-9176-c2845f85c5ab",
             "created": "2023-01-18T19:58:21.223Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "nccgroup_sharkbot_0322",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:50:59.679Z",
+            "modified": "2026-04-29T14:23:06.170Z",
             "description": "[SharkBot](https://attack.mitre.org/software/S1055) has used RSA to encrypt the symmetric encryption key used for C2 messages.(Citation: nccgroup_sharkbot_0322)",
             "relationship_type": "uses",
             "source_ref": "malware--9cd72f5c-bec0-4f7e-bb6d-296937116291",
             "target_ref": "attack-pattern--16d73b64-5681-4ea0-9af4-4ad86f7c96e8",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

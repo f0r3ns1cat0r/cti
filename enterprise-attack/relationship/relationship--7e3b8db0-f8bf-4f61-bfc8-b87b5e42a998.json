@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--725aae1f-c8bd-4f24-a086-114fe7dcf0e6",
+    "id": "bundle--e6ccff40-2ea2-410c-b39a-a4a971efe655",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7e3b8db0-f8bf-4f61-bfc8-b87b5e42a998",
             "created": "2025-09-17T16:46:30.843Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Splunk RedLine Stealer June 2023",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-17T16:46:30.843Z",
+            "modified": "2026-04-29T14:23:06.098Z",
             "description": "[RedLine Stealer](https://attack.mitre.org/software/S1240) can retrieve system default language and time zone.(Citation: Splunk RedLine Stealer June 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--8c8e8b01-b4b1-479b-a7a9-78c40a12b916",

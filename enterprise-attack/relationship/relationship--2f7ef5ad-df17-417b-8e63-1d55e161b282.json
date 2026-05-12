@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cf6aee92-00c1-4e67-ae53-a70bc3bdf9ef",
+    "id": "bundle--00adff4e-2ec8-4c55-b9c4-79e9243cbf8d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -44,7 +44,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T23:24:25.085Z",
+            "modified": "2026-04-29T14:23:05.971Z",
             "description": "[BRICKSTORM](https://attack.mitre.org/software/S9015) has communicated to hardcoded C2 through WebSockets (WSS) to include domains associated with Cloudflare Workers.(Citation: CrowdStrike BRICKSTORM WARP PANDA UNC5221 December 2025)(Citation: CISA BRICKSTORM UNC5221 AR25-338A February 2026)(Citation: Picus Security BRICKSTORM UNC5221 October 2025)(Citation: Google UNC5221 BRICKSTORM SPAWNCHIMERA April 2024)(Citation: NVISO BRICKSTORM April 2025)(Citation: Google BRICKSTORM September 2025)  [BRICKSTORM](https://attack.mitre.org/software/S9015) has also leveraged Gorilla mux library to serve its HTTP API calls.(Citation: NVISO BRICKSTORM April 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--0450ed20-e9a7-4799-b601-2f2710300796",

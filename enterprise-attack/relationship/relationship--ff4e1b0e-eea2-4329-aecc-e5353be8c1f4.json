@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a4636918-1591-4904-9ccc-8134c3b542af",
+    "id": "bundle--95fe9b7e-0ce1-48d9-841a-71c8b62e8db0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ff4e1b0e-eea2-4329-aecc-e5353be8c1f4",
             "created": "2017-05-31T21:33:27.049Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant No Easy Breach",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:00:37.763Z",
+            "modified": "2026-04-29T14:23:06.272Z",
             "description": "[APT29](https://attack.mitre.org/groups/G0016) used UPX to pack files.(Citation: Mandiant No Easy Breach)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
             "target_ref": "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

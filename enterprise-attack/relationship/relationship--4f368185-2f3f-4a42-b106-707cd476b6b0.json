@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ea9d2b55-d562-46cc-a584-524e8589aa7e",
+    "id": "bundle--20eafe38-5dda-4f6f-915c-e54bed358545",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4f368185-2f3f-4a42-b106-707cd476b6b0",
             "created": "2025-10-17T11:52:50.878Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Unit 42 Medusa Group Medusa Ransomware January 2024",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-17T11:52:50.878Z",
+            "modified": "2026-04-29T14:23:06.033Z",
             "description": "[Medusa Ransomware](https://attack.mitre.org/software/S1244) has utilized an encoded list of the processes that it detects and terminates.(Citation: Palo Alto Unit 42 Medusa Group Medusa Ransomware January 2024)(Citation: Broadcom Medusa Ransomware Medusa Group March 2025)(Citation: Security Scorecard Medusa Ransomware January 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--28d93902-30e7-4436-8885-6d312c51c9a3",

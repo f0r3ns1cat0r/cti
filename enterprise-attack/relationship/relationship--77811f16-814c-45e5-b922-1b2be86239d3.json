@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e33762a1-9eae-4f54-8b3b-7f343e719d08",
+    "id": "bundle--158e19fb-feed-4772-8517-72a4dcb2e91f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T18:04:56.497Z",
+            "modified": "2026-04-29T14:23:06.089Z",
             "description": "[MuddyViper](https://attack.mitre.org/software/S9032) has the ability to relaunch itself using the `CreateProcessW` API.(Citation: ESET_MuddyWater_Dec2025)\u202f\u202f\u202f\u202f ",
             "relationship_type": "uses",
             "source_ref": "malware--7b92e996-b535-4159-be16-3c3aee4edf54",

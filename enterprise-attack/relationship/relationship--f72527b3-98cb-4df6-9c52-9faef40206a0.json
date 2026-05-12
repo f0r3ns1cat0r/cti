@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--677ad3c1-7bd5-4583-8fb7-7d6b8a404ff7",
+    "id": "bundle--b8bf3a9e-3ecf-4f3f-8230-9cc4eb390dbd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f72527b3-98cb-4df6-9c52-9faef40206a0",
             "created": "2020-09-29T16:24:31.017Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "PWC WellMess July 2020",
@@ -38,14 +39,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:17:50.437Z",
+            "modified": "2026-04-29T14:23:06.261Z",
             "description": "(Citation: PWC WellMess July 2020)(Citation: PWC WellMess C2 August 2020)(Citation: CISA WellMess July 2020)(Citation: NCSC APT29 July 2020)(Citation: Cybersecurity Advisory SVR TTP May 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
             "target_ref": "malware--3a4197ae-ec63-4162-907b-9a073d1157e4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

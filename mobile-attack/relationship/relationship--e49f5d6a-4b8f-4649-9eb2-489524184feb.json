@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aa2aa894-f90e-44ca-97c5-7c49c293ebd4",
+    "id": "bundle--dfd1e9f0-7fc7-4df1-97f0-d638bb41ad7a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e49f5d6a-4b8f-4649-9eb2-489524184feb",
             "created": "2026-02-16T16:08:58.441Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "S2W_DocSwap_Mar2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-12T19:25:48.556Z",
+            "modified": "2026-04-29T14:23:06.236Z",
             "description": "[DocSwap](https://attack.mitre.org/software/S9005) has used a hardcoded IP address and port for C2 and exfiltration over socket communication.(Citation: S2W_DocSwap_Mar2025) ",
             "relationship_type": "uses",
             "source_ref": "malware--3dbef387-12df-4547-9dd3-075c7ffec9e3",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--485ca3ab-56ff-4612-a34c-9cd5dd5e4fb2",
+    "id": "bundle--4ca74eaa-27e5-41b9-b62c-6f765b28871c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--95f2f687-4a70-4611-a420-2b8b53e2ee26",
             "created": "2020-05-20T19:54:06.570Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro Tropic Trooper May 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:00:39.117Z",
+            "modified": "2026-04-29T14:23:06.129Z",
             "description": "[USBferry](https://attack.mitre.org/software/S0452) can execute rundll32.exe in memory to avoid detection.(Citation: TrendMicro Tropic Trooper May 2020)\t",
             "relationship_type": "uses",
             "source_ref": "malware--75bba379-4ba1-467e-8c60-ec2b269ee984",
             "target_ref": "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

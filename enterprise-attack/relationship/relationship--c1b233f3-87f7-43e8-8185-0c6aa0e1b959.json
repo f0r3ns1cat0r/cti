@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9de823e3-6e6e-4202-9c51-d769e5c51631",
+    "id": "bundle--fd334002-bdf4-4970-b314-420374962ca4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-22T18:48:49.905Z",
+            "modified": "2026-04-29T14:23:06.190Z",
             "description": "[Grandoreiro](https://attack.mitre.org/software/S0531) can block the Deibold Warsaw GAS Tecnologia security tool at the firewall level. (Citation: ESET Grandoreiro April 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--958b5d06-8bb0-4c5b-a2e7-0130fe654ac7",

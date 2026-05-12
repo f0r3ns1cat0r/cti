@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7bb7d277-da80-4589-bd8d-c0c1b0a970b0",
+    "id": "bundle--11a382ba-ff26-4bb6-8210-8909ff35e290",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8d976244-6d4e-443a-98c0-52fe1d94c388",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Dell Lateral Movement",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:59:01.645Z",
+            "modified": "2026-04-29T14:23:06.118Z",
             "description": "[hcdLoader](https://attack.mitre.org/software/S0071) installs itself as a service for persistence.(Citation: Dell Lateral Movement)(Citation: ThreatStream Evasion Analysis)",
             "relationship_type": "uses",
             "source_ref": "malware--9e2bba94-950b-4fcf-8070-cb3f816c5f4e",
             "target_ref": "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

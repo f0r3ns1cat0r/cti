@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c7a3e4ba-8b4c-4cc4-8114-5f68cb6af903",
+    "id": "bundle--98f50af9-7adb-474f-898c-a427e04f2902",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c15efd63-269b-41c5-a664-cea3dff17c5f",
             "created": "2026-04-14T13:46:00.535Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google UNC5221 Ivanti January 2025",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-14T13:56:45.681Z",
+            "modified": "2026-04-29T14:23:06.190Z",
             "description": "[DRYHOOK](https://attack.mitre.org/software/S9013) has intercepted and logged user credentials by modifying the Perl module in Ivanti Connect Secure VPN edge-devices located within `/home/perl/DSAuth.pm`.(Citation: Google UNC5221 Ivanti January 2025)(Citation: Picus Security UNC5221 Ivanti May 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--e9c72c02-b55a-4852-b2eb-c7031d215414",

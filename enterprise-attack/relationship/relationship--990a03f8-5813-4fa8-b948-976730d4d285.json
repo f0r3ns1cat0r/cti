@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--785c44ef-0409-4610-9743-8b68c3dbd1eb",
+    "id": "bundle--277670b7-6e89-4b26-8a52-1760edaa616e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--990a03f8-5813-4fa8-b948-976730d4d285",
             "created": "2022-12-01T15:42:30.462Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant APT41",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:34:07.288Z",
+            "modified": "2026-04-29T14:23:06.134Z",
             "description": "(Citation: Mandiant APT41)",
             "relationship_type": "attributed-to",
             "source_ref": "campaign--ba6dfa37-f401-4140-88b0-8938f2895e61",
             "target_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

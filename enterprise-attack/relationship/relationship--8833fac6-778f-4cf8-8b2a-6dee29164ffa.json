@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--502939dc-9f40-4a5e-90df-241fd7da4bb9",
+    "id": "bundle--aebd3935-1198-4c54-b15c-11616e376beb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8833fac6-778f-4cf8-8b2a-6dee29164ffa",
             "created": "2019-06-14T16:51:02.187Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Rapid7 KeyBoy Jun 2013",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:29:30.772Z",
+            "modified": "2026-04-29T14:23:06.111Z",
             "description": "[KeyBoy](https://attack.mitre.org/software/S0387) has a download and upload functionality.(Citation: PWC KeyBoys Feb 2017)(Citation: Rapid7 KeyBoy Jun 2013)",
             "relationship_type": "uses",
             "source_ref": "malware--5dd649c0-bca4-488b-bd85-b180474ec62e",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

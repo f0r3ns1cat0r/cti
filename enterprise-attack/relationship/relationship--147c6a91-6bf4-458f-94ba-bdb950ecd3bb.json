@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fa4d4b27-d524-4e6a-bbe6-4622a9278d73",
+    "id": "bundle--a38babb8-2a48-4670-ab4d-b52b9e4e0adc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--147c6a91-6bf4-458f-94ba-bdb950ecd3bb",
             "created": "2025-10-22T21:39:46.898Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Esentire ContagiousInterview BeaverTail InvisibleFerret November 2024",
@@ -38,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T21:39:46.898Z",
+            "modified": "2026-04-29T14:23:05.932Z",
             "description": "[Contagious Interview](https://attack.mitre.org/groups/G1052) has downloaded remote management and monitoring software such as \u201cAnyDesk\u201d for post compromise activities.(Citation: Esentire ContagiousInterview BeaverTail InvisibleFerret November 2024)(Citation: ESET Contagious Interview BeaverTail InvisibleFerret February 2025)(Citation: SecurityScorecard Contagious Interview October 2024)(Citation: PaloAlto ContagiousInterview BeaverTail InvisibleFerret November 2023)(Citation: PaloAlto Unit42 ContagiousInterview BeaverTail InvisibileFerret October 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--46599a4a-77ee-4697-9474-2683b6464859",

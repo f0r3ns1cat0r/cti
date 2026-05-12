@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--998031c4-49d4-4303-8d81-e768fdafe786",
+    "id": "bundle--b4634d69-def9-4948-b168-dadd95c06055",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--543dce32-6988-4e49-ad83-4405d1a143ae",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lookout Dark Caracal Jan 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:48:15.561Z",
+            "modified": "2026-04-29T14:23:06.040Z",
             "description": "[Dark Caracal](https://attack.mitre.org/groups/G0070) leveraged a compiled HTML file that contained a command to download and run an executable.(Citation: Lookout Dark Caracal Jan 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--8a831aaa-f3e0-47a3-bed8-a9ced744dd12",
             "target_ref": "attack-pattern--a6937325-9321-4e2e-bb2b-3ed2d40b2a9d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

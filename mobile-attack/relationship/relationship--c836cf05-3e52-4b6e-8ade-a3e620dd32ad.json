@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--34521839-9dbe-4f9d-b669-07a3b5dbe76b",
+    "id": "bundle--bf08230c-31bc-45ff-ac95-786a9cb617c2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c836cf05-3e52-4b6e-8ade-a3e620dd32ad",
             "created": "2025-08-29T22:03:53.396Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MerkleScience_Godfather_April2023",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-29T22:03:53.396Z",
+            "modified": "2026-04-29T14:23:06.199Z",
             "description": "[GodFather](https://attack.mitre.org/software/S1231) has requested for the `CALL_PHONE` permission to initiate phone calls.(Citation: MerkleScience_Godfather_April2023)",
             "relationship_type": "uses",
             "source_ref": "malware--bf064476-25b8-493c-a1e7-dd707b3f7f52",

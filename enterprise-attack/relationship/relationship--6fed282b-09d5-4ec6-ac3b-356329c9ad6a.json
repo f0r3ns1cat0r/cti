@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--80f3a969-254d-45c0-8c29-1385c8cbcbd0",
+    "id": "bundle--6d5f952f-2406-4cf9-993f-e5104e1279b1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:57:00.179Z",
+            "modified": "2026-04-29T14:23:06.078Z",
             "description": "[Goopy](https://attack.mitre.org/software/S0477) has the ability to disable Microsoft Outlook's security policies to disable macro warnings.(Citation: Cybereason Cobalt Kitty 2017)\t",
             "relationship_type": "uses",
             "source_ref": "malware--eac3d77f-2b7b-4599-ba74-948dc16633ad",

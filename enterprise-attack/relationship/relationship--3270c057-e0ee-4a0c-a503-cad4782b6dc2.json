@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ef7f7141-31eb-42a2-907d-254cde54dc3e",
+    "id": "bundle--b12d6771-ca0c-476e-970f-c986bb40ca81",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T23:22:46.390Z",
+            "modified": "2026-04-29T14:23:05.984Z",
             "description": "[SPAWNCHIMERA](https://attack.mitre.org/software/S9024) can persist across system upgrades by hijacking the execution flow of dspkginstall, a binary used during the system upgrade process.(Citation: Google UNC5221 Ivanti January 2025)(Citation: Google UNC5221 BRICKSTORM SPAWNCHIMERA April 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--d1974f35-0e06-478e-bc74-7530545d814b",

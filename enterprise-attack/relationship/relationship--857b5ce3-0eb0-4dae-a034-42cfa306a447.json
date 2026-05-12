@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--94dcdd9c-f412-46ea-bf6c-0e995525b503",
+    "id": "bundle--551c1a9b-0e33-42c7-90f3-32b65ae27fd4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--857b5ce3-0eb0-4dae-a034-42cfa306a447",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Volexity InkySquid BLUELIGHT August 2021",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:28:46.002Z",
+            "modified": "2026-04-29T14:23:06.107Z",
             "description": "[APT37](https://attack.mitre.org/groups/G0067) has used exploits for Flash Player (CVE-2016-4117, CVE-2018-4878), Word (CVE-2017-0199), Internet Explorer (CVE-2020-1380 and CVE-2020-26411), and Microsoft Edge (CVE-2021-26411) for execution.(Citation: Securelist ScarCruft Jun 2016)(Citation: FireEye APT37 Feb 2018)(Citation: Talos Group123)(Citation: Volexity InkySquid BLUELIGHT August 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
             "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

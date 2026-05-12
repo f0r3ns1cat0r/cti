@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3f16eaed-1ae7-4c5b-ba53-7cf8fc4dfab5",
+    "id": "bundle--b7514a88-fc49-4945-a9f4-bc88b139f205",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d0f83de0-975e-4cc2-8423-e91549f952d9",
             "created": "2020-06-04T19:45:16.052Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "objective-see windtail2 jan 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:11:24.434Z",
+            "modified": "2026-04-29T14:23:06.211Z",
             "description": "[WindTail](https://attack.mitre.org/software/S0466) has the ability to receive and execute a self-delete command.(Citation: objective-see windtail2 jan 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--0d1f9f5b-11ea-42c3-b5f4-63cce0122541",
             "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

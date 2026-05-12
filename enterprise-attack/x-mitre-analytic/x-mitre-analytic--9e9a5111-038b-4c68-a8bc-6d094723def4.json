@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9b9bb211-690b-4a9b-8002-0e7e075668b3",
+    "id": "bundle--0d692c9a-f792-4cc6-b7a4-4716652a3711",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:32:42.659Z",
+            "modified": "2026-05-12T16:30:18.381Z",
             "name": "Analytic 1371",
             "description": "Detection of adversary disabling endpoint security tools by unloading launch agents/daemons, modifying configuration profiles, or disabling Gatekeeper/XProtect/logging settings, or removing endpoint agents followed by telemetry loss.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

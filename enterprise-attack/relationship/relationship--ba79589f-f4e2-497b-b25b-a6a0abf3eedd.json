@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5f244afd-79e5-404e-bb8e-7ad3610acee7",
+    "id": "bundle--e6b85bcb-7e73-4fab-be5a-e2eaffb14176",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ba79589f-f4e2-497b-b25b-a6a0abf3eedd",
             "created": "2021-04-20T16:08:50.635Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 NETWIRE April 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:07:11.840Z",
+            "modified": "2026-04-29T14:23:06.179Z",
             "description": "[GuLoader](https://attack.mitre.org/software/S0561) has relied upon users clicking on links to malicious documents.(Citation: Unit 42 NETWIRE April 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--45c759ac-b490-48bb-80d4-c8eee3431027",
             "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

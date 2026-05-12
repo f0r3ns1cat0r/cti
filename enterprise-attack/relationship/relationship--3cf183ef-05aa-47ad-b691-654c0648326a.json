@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1efd6d98-fa61-4947-8eef-25c82b3276b9",
+    "id": "bundle--17bce2ac-f37f-45e8-baf8-18062112ad81",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--3cf183ef-05aa-47ad-b691-654c0648326a",
             "created": "2022-03-23T16:57:13.628Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lazarus APT January 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:43:58.104Z",
+            "modified": "2026-04-29T14:23:06.008Z",
             "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) has used multi-stage malware components that inject later stages into separate processes.(Citation: Lazarus APT January 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--84e02621-8fdf-470f-bd58-993bb6a89d91",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

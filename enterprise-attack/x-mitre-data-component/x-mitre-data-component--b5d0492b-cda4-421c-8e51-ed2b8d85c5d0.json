@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ea8d0bda-6fa3-401a-a55a-82926f2bf218",
+    "id": "bundle--26d447d3-8da1-44c5-905b-0ca7a08f0a65",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,14 +12,14 @@
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/data-components/DC0013",
+                    "url": "https://attack.mitre.org/datacomponents/DC0013",
                     "external_id": "DC0013"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-13T22:24:06.660Z",
+            "modified": "2026-05-12T15:12:00.778Z",
             "name": "User Account Metadata",
             "description": "Contextual data about an account, which may include a username, user ID, environmental data, etc.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

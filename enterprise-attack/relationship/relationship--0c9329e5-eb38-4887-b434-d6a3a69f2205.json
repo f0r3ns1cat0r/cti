@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--58ad2da0-a0a6-4349-82a6-e9a78d9b8ce1",
+    "id": "bundle--a61135c8-f4d5-410c-b16b-73ca45339022",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0c9329e5-eb38-4887-b434-d6a3a69f2205",
             "created": "2021-08-24T17:04:27.218Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Security Affairs DustSquad Oct 2018",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:34:12.149Z",
+            "modified": "2026-04-29T14:23:05.920Z",
             "description": "(Citation: Security Affairs DustSquad Oct 2018)(Citation: Securelist Octopus Oct 2018)(Citation: ESET Nomadic Octopus 2018) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--fed4f0a2-4347-4530-b0f5-6dfd49b29172",
             "target_ref": "malware--e2031fd5-02c2-43d4-85e2-b64f474530c2",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--30b25283-9a9d-4dbe-bf8c-a3aac099ef5c",
+    "id": "bundle--5ca8a561-3434-473c-b95b-f075f119fb76",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5abf323d-03be-4996-ab4b-89317883d0ab",
             "created": "2023-03-08T20:52:41.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cyble Black Basta May 2022",
@@ -43,14 +44,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:17:21.320Z",
+            "modified": "2026-04-29T14:23:06.049Z",
             "description": "[Black Basta](https://attack.mitre.org/software/S1070) has modified the Registry to enable itself to run in safe mode, to change the icons and file extensions for encrypted files, and to add the malware path for persistence.(Citation: Minerva Labs Black Basta May 2022)(Citation: Cyble Black Basta May 2022)(Citation: Trend Micro Black Basta May 2022)(Citation: NCC Group Black Basta June 2022)(Citation: Deep Instinct Black Basta August 2022)(Citation: Palo Alto Networks Black Basta August 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--8d242fb4-9033-4f13-8a88-4b9b4bcd9a53",
             "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

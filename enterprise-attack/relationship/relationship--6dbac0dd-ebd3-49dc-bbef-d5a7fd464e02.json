@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6e6f111d-53d4-4a87-b53b-b87be97189a8",
+    "id": "bundle--c0b0c783-f98f-4b22-ba46-9350c324fe3b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6dbac0dd-ebd3-49dc-bbef-d5a7fd464e02",
             "created": "2019-01-30T15:19:14.965Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit42 Azorult Nov 2018",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:53:01.272Z",
+            "modified": "2026-04-29T14:23:06.074Z",
             "description": "[Azorult](https://attack.mitre.org/software/S0344) can download and execute additional files. [Azorult](https://attack.mitre.org/software/S0344) has also downloaded a ransomware payload called Hermes.(Citation: Unit42 Azorult Nov 2018)(Citation: Proofpoint Azorult July 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--f9b05f33-d45d-4e4d-aafe-c208d38a0080",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

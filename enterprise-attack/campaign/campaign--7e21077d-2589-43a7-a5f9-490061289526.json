@@ -1,11 +1,10 @@
 {
     "type": "bundle",
-    "id": "bundle--e51db615-98dd-4461-a754-f237d4757460",
+    "id": "bundle--5a76729f-8b50-4eb2-b3a0-b2a21013c79f",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "campaign",
-            "spec_version": "2.1",
             "id": "campaign--7e21077d-2589-43a7-a5f9-490061289526",
             "created": "2024-08-06T20:52:19.002Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -51,6 +50,10 @@
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_contributors": [
                 "Aung Kyaw Min Naing, @Nolan"
+            ],
+            "x_mitre_domains": [
+                "enterprise-attack",
+                "ics-attack"
             ]
         }
     ]

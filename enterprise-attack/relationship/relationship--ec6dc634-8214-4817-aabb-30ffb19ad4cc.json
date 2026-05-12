@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ab82c15b-37f3-402f-b0d3-58c9a91ea032",
+    "id": "bundle--8aab7706-935b-48f0-9e7f-ee560054b2eb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ec6dc634-8214-4817-aabb-30ffb19ad4cc",
             "created": "2022-03-24T22:31:32.761Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "GitHub SILENTTRINITY Modules July 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:16:03.345Z",
+            "modified": "2026-04-29T14:23:06.247Z",
             "description": "[SILENTTRINITY](https://attack.mitre.org/software/S0692) can gather a list of logged on users.(Citation: GitHub SILENTTRINITY Modules July 2019) ",
             "relationship_type": "uses",
             "source_ref": "tool--1244e058-fa10-48cb-b484-0bcf671107ae",
             "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

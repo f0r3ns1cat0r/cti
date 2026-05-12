@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a739abad-c53a-4739-9ad8-f070fc96afeb",
+    "id": "bundle--86acfa54-34bc-49bb-9e10-f7214dfafa43",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--95ca9378-9ec1-43cb-9ffb-5f7c79cf7898",
             "created": "2022-06-14T14:42:40.473Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky Lyceum October 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:33:09.840Z",
+            "modified": "2026-04-29T14:23:06.129Z",
             "description": "[Kevin](https://attack.mitre.org/software/S1020) can use the `ShowWindow` API to avoid detection.(Citation: Kaspersky Lyceum October 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--e7863f5d-cb6a-4f81-8804-0a635eec160a",
             "target_ref": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

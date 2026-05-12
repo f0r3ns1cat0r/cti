@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dbae4f59-9df2-452f-ae44-e8cb17c12f0b",
+    "id": "bundle--13ff9660-60c9-46b2-baad-19e165e4cca5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f43a1b3a-432b-47e7-8da6-4bac45d1ae4e",
             "created": "2025-07-22T16:27:19.436Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit42 Bookworm Nov2015",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-25T13:35:37.461Z",
+            "modified": "2026-04-29T14:23:06.257Z",
             "description": "[BOOKWORM](https://attack.mitre.org/software/S1226) has used its KBLogger.dll module to steal data saved to the clipboard. (Citation: Unit42 Bookworm Nov2015)",
             "relationship_type": "uses",
             "source_ref": "malware--2ceddaf9-b16a-4f8b-b252-bcccccd3d79f",

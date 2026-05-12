@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7ce36b63-555d-433b-a989-09ecfa11b416",
+    "id": "bundle--57a971ef-51f4-44d1-a760-ff6d44c561a8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T10:30:06.407Z",
+            "modified": "2026-04-29T14:23:06.157Z",
             "description": "[PureCrypter](https://attack.mitre.org/software/S9019) can download additional payloads for execution on the compromised host.(Citation: Zscaler PureCrypter JUN 2022)(Citation: Check Point Blind Eagle MAR 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--6f22487c-dbbf-4a5b-85ca-a8c85e8f2f80",

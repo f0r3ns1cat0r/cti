@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9df77364-b962-4ab6-94a3-60a01cd00b42",
+    "id": "bundle--355a11fb-b13c-4a2c-95df-7114be103f7b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a1fc4800-c670-4bc1-bc42-2b5fe66d0297",
             "created": "2020-05-18T17:43:36.737Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ClearSky MuddyWater June 2019",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:02:56.995Z",
+            "modified": "2026-04-29T14:23:06.145Z",
             "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has used tools to encode C2 communications including Base64 encoding.(Citation: ClearSky MuddyWater June 2019)(Citation: Trend Micro Muddy Water March 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
             "target_ref": "attack-pattern--04fd5427-79c7-44ea-ae13-11b24778ff1c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

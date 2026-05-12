@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--63366325-844f-4668-9f75-8d96eefb4c5b",
+    "id": "bundle--a30817be-a68e-47b3-a911-3c675a74f069",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ed94edc7-e687-409e-9143-20a15190bd83",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Shamoon Nov 2016",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:16:16.162Z",
+            "modified": "2026-04-29T14:23:06.248Z",
             "description": "[Shamoon](https://attack.mitre.org/software/S0140) has used HTTP for C2.(Citation: Palo Alto Shamoon Nov 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--8901ac23-6b50-410c-b0dd-d8174a86f9b3",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

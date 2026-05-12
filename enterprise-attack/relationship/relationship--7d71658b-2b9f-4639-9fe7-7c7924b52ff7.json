@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f0d9d226-8858-4c09-9807-2c6b2af4c09a",
+    "id": "bundle--238660f3-5b20-4b83-9086-fcfdcb9c4351",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7d71658b-2b9f-4639-9fe7-7c7924b52ff7",
             "created": "2021-03-03T22:12:11.709Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Crowdstrike Indrik November 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:56:06.114Z",
+            "modified": "2026-04-29T14:23:06.097Z",
             "description": "[BitPaymer](https://attack.mitre.org/software/S0570) can use the RegEnumKeyW to iterate through Registry keys.(Citation: Crowdstrike Indrik November 2018) ",
             "relationship_type": "uses",
             "source_ref": "malware--fa766a65-5136-4ff3-8429-36d08eaa0100",
             "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

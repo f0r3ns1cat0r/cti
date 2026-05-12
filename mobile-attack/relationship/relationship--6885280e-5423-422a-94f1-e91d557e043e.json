@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b7a7ceb1-5f53-4097-b6b7-7279a0565462",
+    "id": "bundle--8829dad5-cbd8-4747-8828-b3e01708c320",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6885280e-5423-422a-94f1-e91d557e043e",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "PaloAlto-XcodeGhost1",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:49:13.816Z",
+            "modified": "2026-04-29T14:23:06.067Z",
             "description": "[XcodeGhost](https://attack.mitre.org/software/S0297) was injected into apps by a modified version of Xcode (Apple's software development tool).(Citation: PaloAlto-XcodeGhost1)(Citation: PaloAlto-XcodeGhost)",
             "relationship_type": "uses",
             "source_ref": "malware--d9e07aea-baad-4b68-bdca-90c77647d7f9",
             "target_ref": "attack-pattern--7827ced0-95e7-4d05-bdcf-0d8f2d37a3d3",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

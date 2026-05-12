@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--35e5ecc4-7b04-4d6b-89fa-e518f4850612",
+    "id": "bundle--7f4d84bc-be74-4ddc-aa11-c76d64f4c74f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T15:01:43.571Z",
+            "modified": "2026-04-29T14:23:06.057Z",
             "description": "[LODEINFO](https://attack.mitre.org/software/S9020) components have been compressed with zip for delivery.(Citation: Kaspersky LODEINFO OCT 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--7908f855-5b5b-4d6a-acbc-af6b45ec27ad",

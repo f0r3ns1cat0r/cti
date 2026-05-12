@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--111f55e8-b3be-4e6b-a583-35d8653517f3",
+    "id": "bundle--05cd5335-70e3-4309-b28f-7bdb7b86470d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T15:44:20.156Z",
+            "modified": "2026-05-12T15:12:00.620Z",
             "name": "Modify or Spoof Tool UI",
             "description": "Adversaries may spoof or manipulate security tool user interfaces (UIs) to falsely indicate tools are functioning normally and delay detection and response. \n\nAdversaries may present misleading or falsified security tool interfaces (UIs) that display normal or healthy status indicators, even when underlying security tools have been disabled, degraded, or otherwise tampered with. Security tools typically provide visibility into system health, alerting, and operational status; by misrepresenting this information, adversaries can undermine defender trust in these signals and obscure the true security posture of the system. \n\nThis behavior is often used in conjunction with efforts to disable or modify tools, where adversaries first impair the functionality of defenses (e.g., EDR, logging agents) and then replace or mimic their interfaces to conceal the loss of visibility. By maintaining the appearance of normal operations, such as showing active protection, successful updates, or absence of threats, adversaries can delay investigation and response, enabling continued malicious activity. \n\nFor example, adversaries may display a fake Windows Security interface or system tray icon indicating a \u201cprotected\u201d or \u201chealthy\u201d state after disabling Windows Defender or related services.(Citation: BlackBasta)",
             "kill_chain_phases": [

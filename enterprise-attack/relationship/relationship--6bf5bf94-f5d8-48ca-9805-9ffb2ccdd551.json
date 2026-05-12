@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f6aeae2a-c6ee-42cb-9b3e-e1e944d8e8d7",
+    "id": "bundle--9610ec45-74ae-4d4d-84be-143892eff411",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T20:55:42.674Z",
+            "modified": "2026-04-29T14:23:06.072Z",
             "description": "[HeartCrypt](https://attack.mitre.org/software/S9018) strings are encrypted via a single-byte XOR operation rotating over a hard-coded key, possibly provided by the PaaS customers. (Citation: Palo Alto HeartCrypt DEC 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--148f947c-aabd-4ba8-b6a3-22b296855119",

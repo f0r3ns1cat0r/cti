@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--48970522-7518-4e6a-8451-63b33c96474e",
+    "id": "bundle--318070df-ea62-494c-be31-8e3e03883082",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9a8c6873-9807-4a83-99b0-16acd96ffde8",
             "created": "2025-08-06T15:11:37.778Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro MUSTANG PANDA PUBLOAD HIUPAN SEPTEMBER 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-25T14:12:48.680Z",
+            "modified": "2026-04-29T14:23:06.136Z",
             "description": "[PUBLOAD](https://attack.mitre.org/software/S1228) has used utilities such as `WinRAR` to archive data prior to exfiltration.(Citation: Trend Micro MUSTANG PANDA PUBLOAD HIUPAN SEPTEMBER 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--3824852d-1957-4712-9da0-38143723c060",

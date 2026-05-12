@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c2e21cd5-2bf8-4cf2-b088-70c0cc2d75cf",
+    "id": "bundle--83a5f497-bb7f-4deb-8282-e6009927a8f4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--98132f22-5312-421a-98f4-e1741abbcd6a",
             "created": "2020-12-11T22:07:41.072Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelLabs Agent Tesla Aug 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:01:05.295Z",
+            "modified": "2026-04-29T14:23:06.132Z",
             "description": "[Agent Tesla](https://attack.mitre.org/software/S0331) has created hidden folders.(Citation: SentinelLabs Agent Tesla Aug 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--e7a5229f-05eb-440e-b982-9a6d2b2b87c8",
             "target_ref": "attack-pattern--ec8fc7e2-b356-455c-8db5-2e37be158e7d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

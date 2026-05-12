@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--88201b05-45d8-494b-83ae-f70a92f1e4dd",
+    "id": "bundle--496238ec-83f0-44f3-b1ab-966a6f8574e0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c7420523-7dc0-4118-a075-93f9c0268627",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT29",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:46:10.305Z",
+            "modified": "2026-04-29T14:23:06.198Z",
             "description": "The \"tDiscoverer\" variant of [HAMMERTOSS](https://attack.mitre.org/software/S0037) establishes a C2 channel by downloading resources from Web services like Twitter and GitHub. [HAMMERTOSS](https://attack.mitre.org/software/S0037) binaries contain an algorithm that generates a different Twitter handle for the malware to check for instructions every day.(Citation: FireEye APT29)",
             "relationship_type": "uses",
             "source_ref": "malware--2daa14d6-cbf3-4308-bb8e-213c324a08e4",
             "target_ref": "attack-pattern--9c99724c-a483-4d60-ad9d-7f004e42e8e8",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

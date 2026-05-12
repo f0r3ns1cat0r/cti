@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e2967e92-293b-43e2-a5b9-c120a220b831",
+    "id": "bundle--46b25313-cd3f-445b-a348-f9ff9b611398",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-10T19:25:29.058Z",
+            "modified": "2026-04-29T14:23:05.910Z",
             "description": "[Quad7 Activity](https://attack.mitre.org/campaigns/C0055) has disabled the TP-Link management interface for TP-Link by killing the <code>/usr/bin/httpd</code> process.(Citation: Sekoia 7777 Botnet JUL 2024)(Citation: Microsoft Storm-0940)(Citation: Bitsight 7777 Botnet)",
             "relationship_type": "uses",
             "source_ref": "campaign--e7511089-1076-4a3b-984d-1a0a8afe31e9",

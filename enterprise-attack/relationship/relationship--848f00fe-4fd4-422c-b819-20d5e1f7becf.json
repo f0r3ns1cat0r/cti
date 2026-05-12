@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3cf04608-c162-4a1a-9d28-0e037aa8a8c2",
+    "id": "bundle--ddb42b9b-1297-4f73-8bc1-c8ace3ea7dea",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-19T15:48:24.895Z",
+            "modified": "2026-04-29T14:23:06.106Z",
             "description": "[UPPERCUT](https://attack.mitre.org/software/S0275) can base64 encode C2 communications.(Citation: Trend Micro Earth Kasha Anel NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--fb4e3792-e915-4fdd-a9cd-92dfa2ace7aa",

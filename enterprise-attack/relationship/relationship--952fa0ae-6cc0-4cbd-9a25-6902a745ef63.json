@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a24a580b-385d-42b3-a6e1-0193a0aedb88",
+    "id": "bundle--57c45648-4f3b-41bf-bfeb-2221b1ace3e0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:58:34.124Z",
+            "modified": "2026-04-29T14:23:06.128Z",
             "description": "[RansomHub](https://attack.mitre.org/software/S1212) can delete events from the Security, System, and Application logs.(Citation: Group-IB RansomHub FEB 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--16662bee-9d15-4564-a128-1fce214866e9",

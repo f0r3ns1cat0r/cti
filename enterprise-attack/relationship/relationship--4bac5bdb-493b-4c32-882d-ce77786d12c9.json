@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--69ffda84-1024-45bf-8066-57b09a537c2b",
+    "id": "bundle--eafb7e52-34a9-4190-8653-bd1f32af46ac",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4bac5bdb-493b-4c32-882d-ce77786d12c9",
             "created": "2021-06-15T14:11:27.387Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Ransomware as a Service",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:13:13.351Z",
+            "modified": "2026-04-29T14:23:06.029Z",
             "description": "(Citation: CrowdStrike Wizard Spider October 2020)(Citation: Microsoft Ransomware as a Service)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
             "target_ref": "malware--99fdf3b4-96ef-4ab9-b191-fc683441cad0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

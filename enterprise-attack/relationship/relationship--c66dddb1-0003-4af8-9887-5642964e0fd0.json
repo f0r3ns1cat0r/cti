@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fc738932-c288-41a1-9a49-8ef825754dbd",
+    "id": "bundle--2bb11712-eed2-4d3a-9e28-8c11a56f57e3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c66dddb1-0003-4af8-9887-5642964e0fd0",
             "created": "2025-03-15T15:47:19.534Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco LotusBlossom 2025",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:45:59.188Z",
+            "modified": "2026-04-29T14:23:06.197Z",
             "description": "[Sagerunex](https://attack.mitre.org/software/S1210) gathers host information and stages it locally as a RAR file prior to exfiltration.(Citation: Cisco LotusBlossom 2025) [Sagerunex](https://attack.mitre.org/software/S1210) stores logged data in an encrypted file located at `%TEMP%/TS_FB56.tmp` during execution.(Citation: Symantec Bilbug 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--7f269253-c225-45ff-87c2-5e8ef6dd369f",
             "target_ref": "attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

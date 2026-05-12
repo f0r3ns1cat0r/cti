@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--620058f0-1730-468d-9e23-30a3e01f44af",
+    "id": "bundle--d6c6cbe0-5586-4bef-9d4b-636e2beba415",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:32:20.041Z",
+            "modified": "2026-05-12T16:30:18.379Z",
             "name": "Analytic 2038",
             "description": "Detects suspicious interactions with security products followed by service crashes, unexpected restarts, driver unloads, telemetry gaps, or tamper-state changes. Correlates exploit precursor behavior with immediate degradation of defensive services and follow-on process execution.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

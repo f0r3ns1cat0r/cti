@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aa69ef51-ed97-4cb8-b8b3-e8467f374ebe",
+    "id": "bundle--11bc9016-cb90-4131-a9d6-7a7edc36b480",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7e6995cc-c917-4ac7-84e1-5dbf661f29cd",
             "created": "2020-11-20T20:11:15.212Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Securelist Machete Aug 2014",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:56:17.188Z",
+            "modified": "2026-04-29T14:23:06.098Z",
             "description": "[Machete](https://attack.mitre.org/software/S0409) used the startup folder for persistence.(Citation: Securelist Machete Aug 2014)(Citation: Cylance Machete Mar 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--35cd1d01-1ede-44d2-b073-a264d727bc04",
             "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

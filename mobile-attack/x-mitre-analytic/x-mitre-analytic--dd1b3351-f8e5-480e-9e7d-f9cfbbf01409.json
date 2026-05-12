@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b9e19776-6c81-4d1f-b6fe-2f0fa9c13ac9",
+    "id": "bundle--f80c71d7-018e-416b-9dcf-9cede423837d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T19:56:13.060Z",
+            "modified": "2026-05-12T16:30:18.382Z",
             "name": "Analytic 1850",
             "description": "Correlates (1) device posture changes indicating root or elevated privilege state, (2) runtime framework manipulation or injection into application processes, and (3) anomalous API behavior or suppressed security signals. The defender observes a causal chain where an application gains privileged execution context, interacts with system frameworks (e.g., ART/Zygote), and modifies expected API outputs or suppresses security-relevant signals such as permission checks, sensor access reporting, or process visibility.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

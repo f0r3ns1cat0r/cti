@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3a86384e-1d08-4e9b-aabb-e6e7ba1cb3b5",
+    "id": "bundle--c192ab13-8bb5-4470-820e-c71f540f1b2f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--af69bb4e-4cdb-4a9d-afff-5508c99c1276",
             "created": "2020-05-20T13:33:50.879Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Windows Anonymous Enumeration of SAM Accounts",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:05:23.016Z",
+            "modified": "2026-04-29T14:23:06.164Z",
             "description": "Enable Windows Group Policy \u201cDo Not Allow Anonymous Enumeration of SAM Accounts and Shares\u201d security setting to limit users who can enumerate network shares.(Citation: Windows Anonymous Enumeration of SAM Accounts)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--2f316f6c-ae42-44fe-adf8-150989e0f6d3",
             "target_ref": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

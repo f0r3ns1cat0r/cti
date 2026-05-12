@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c40d6356-c5ed-40d9-a3fe-456f0d4c68e5",
+    "id": "bundle--c96062ae-546c-47af-ac52-b6e0171d2c87",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--55de5c21-4cb1-4235-89b5-df77dfc7fa90",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "McAfee Bankshot",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T02:26:23.654Z",
+            "modified": "2026-04-29T14:23:06.042Z",
             "description": "[Bankshot](https://attack.mitre.org/software/S0239) gathers system information, network addresses, and the operation system version.(Citation: McAfee Bankshot)(Citation: US-CERT Bankshot Dec 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--1f6e3702-7ca1-4582-b2e7-4591297d05a8",

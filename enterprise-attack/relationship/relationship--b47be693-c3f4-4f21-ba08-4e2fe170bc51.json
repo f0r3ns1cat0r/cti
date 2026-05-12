@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--533f80f8-1dfe-46f4-afdc-2ff8af969e41",
+    "id": "bundle--3dc0ba6f-6e9c-4eb4-898d-94dafc649b43",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b47be693-c3f4-4f21-ba08-4e2fe170bc51",
             "created": "2023-04-10T16:51:54.688Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Bitdefender LuminousMoth July 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:41:14.108Z",
+            "modified": "2026-04-29T14:23:06.172Z",
             "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has created scheduled tasks to establish persistence for their tools.(Citation: Bitdefender LuminousMoth July 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
             "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

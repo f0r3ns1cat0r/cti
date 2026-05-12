@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d32cda80-a8b3-49cd-a004-7593fe980587",
+    "id": "bundle--a9cc3f47-a182-40ac-a4b7-3f5caa0628c0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9b3abb66-be78-41eb-8442-23451108fd37",
             "created": "2025-06-02T19:04:49.740Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Cloud Threat Intelligence VMWare ESXi Zero-Day 2023",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-06-16T18:15:41.066Z",
+            "modified": "2026-04-29T14:23:06.137Z",
             "description": "(Citation: Google Cloud Threat Intelligence ESXi VIBs 2022)(Citation: Google Cloud Threat Intelligence VMWare ESXi Zero-Day 2023)(Citation: Mandiant Fortinet Zero Day)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--461b8e25-8f4a-4ea2-a4a8-e39df7ce6630",
             "target_ref": "malware--df0b59fe-0193-49ea-84e1-9207139c716c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

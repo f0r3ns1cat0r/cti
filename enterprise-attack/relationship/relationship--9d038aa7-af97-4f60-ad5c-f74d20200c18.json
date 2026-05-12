@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--98f67dc3-501a-4ca7-ad9f-15ac5f106c50",
+    "id": "bundle--8e500777-0354-4a3f-84a4-ffff0c5a33e6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9d038aa7-af97-4f60-ad5c-f74d20200c18",
             "created": "2020-03-19T20:18:45.777Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "GitHub PowerSploit May 2012",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:02:04.855Z",
+            "modified": "2026-04-29T14:23:06.139Z",
             "description": "[PowerSploit](https://attack.mitre.org/software/S0194) contains a collection of Privesc-PowerUp modules that can discover and exploit search order hijacking vulnerabilities.(Citation: GitHub PowerSploit May 2012)(Citation: PowerSploit Documentation)",
             "relationship_type": "uses",
             "source_ref": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
             "target_ref": "attack-pattern--58af3705-8740-4c68-9329-ec015a7013c2",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

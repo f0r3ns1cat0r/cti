@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ad261d31-a51c-456e-a733-89584e5d3dac",
+    "id": "bundle--1d265a44-5f0e-4286-9831-78199e6a6be5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--af861bf5-a686-4661-8613-c3f1c6972723",
             "created": "2025-10-19T18:21:04.887Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Esentire ContagiousInterview BeaverTail InvisibleFerret November 2024",
@@ -43,7 +44,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-19T18:21:04.887Z",
+            "modified": "2026-04-29T14:23:06.164Z",
             "description": "[BeaverTail](https://attack.mitre.org/software/S1246) has been used to download a malicious payload to include Python based malware [InvisibleFerret](https://attack.mitre.org/software/S1245).(Citation: Esentire ContagiousInterview BeaverTail InvisibleFerret November 2024)(Citation: Socket BeaverTail XORIndex HexEval Contagious Interview July 2025)(Citation: Socket HexEval BeaverTail Contagious Interview June 2025)(Citation: ESET Contagious Interview BeaverTail InvisibleFerret February 2025)(Citation: PaloAlto ContagiousInterview BeaverTail InvisibleFerret November 2023)(Citation: PaloAlto Unit42 ContagiousInterview BeaverTail InvisibileFerret October 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--6055aee2-d1c6-4877-94e9-a3bde9936470",

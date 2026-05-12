@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6fe08109-f79b-4ec4-bdac-33807abb4dda",
+    "id": "bundle--baa1f631-ac85-40a4-9eef-e3af450b5f15",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--de071e4d-eee7-4ad5-96b6-fe83bfe3e25a",
             "created": "2020-12-30T16:39:34.375Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cyble Egregor Oct 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:13:36.108Z",
+            "modified": "2026-04-29T14:23:06.228Z",
             "description": "[Egregor](https://attack.mitre.org/software/S0554) has checked for the LogMein event log in an attempt to encrypt files in remote machines.(Citation: Cyble Egregor Oct 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--cc4c1287-9c86-4447-810c-744f3880ec37",
             "target_ref": "attack-pattern--4061e78c-1284-44b4-9116-73e4ac3912f7",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

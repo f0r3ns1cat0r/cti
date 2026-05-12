@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5484919d-8d6a-4706-b97f-00e6c751a094",
+    "id": "bundle--fa4f6d5e-de67-425e-a31e-0441accb3ea8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--633c4102-be49-42dd-bf73-2f79c8f0eaf5",
             "created": "2026-04-10T19:25:15.322Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Koi Glassworm InvisibleCode October 2025",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-10T19:25:15.322Z",
+            "modified": "2026-04-29T14:23:06.060Z",
             "description": "[GlassWorm](https://attack.mitre.org/software/S9010) has spread through Visual Studio extensions.(Citation: Koi Glassworm InvisibleCode October 2025)(Citation: Aikido GlassWorm October 2025)(Citation: Socket GlassWorm January 2026)  [GlassWorm](https://attack.mitre.org/software/S9010) has also spread through JavaScript projects hosted on Github.(Citation: Aikido GlassWorm October 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--809bc57b-4d4c-43de-b698-448334ed8185",

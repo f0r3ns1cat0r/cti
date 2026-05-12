@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0602662d-902e-4708-ac7b-85e5c0e5277c",
+    "id": "bundle--199b0bbf-f94e-49dc-a204-ca7c6ea6e5c6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--77cf946d-eb39-4f49-abd0-a64733ea9538",
             "created": "2024-08-01T23:20:52.625Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sekoia Raccoon2 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:25:02.895Z",
+            "modified": "2026-04-29T14:23:06.089Z",
             "description": "[Raccoon Stealer](https://attack.mitre.org/software/S1148) gathers information from repositories associated with cryptocurrency wallets and the Telegram messaging service.(Citation: Sekoia Raccoon2 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--b5a8fb8b-4ff1-43e5-a1ad-75ae565f5175",
             "target_ref": "attack-pattern--d28ef391-8ed4-45dc-bc4a-2f43abf54416",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

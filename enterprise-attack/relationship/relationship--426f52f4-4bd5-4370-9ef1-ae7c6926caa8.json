@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--44848c63-b3be-4c6c-91ac-04ac6d2ebf8a",
+    "id": "bundle--1996c7ff-dc34-4d22-8fc1-95ef8781a640",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T23:05:14.782Z",
+            "modified": "2026-04-29T14:23:06.016Z",
             "description": "During the [Anthropic AI-orchestrated Campaign](https://attack.mitre.org/campaigns/C0062), the adversary used Claude Code to map a complete network topology of the target infrastructure.(Citation: Anthropic AI Orchestrated Campaign NOV 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--590cd5b0-2421-4158-84a2-db13b5db02a3",

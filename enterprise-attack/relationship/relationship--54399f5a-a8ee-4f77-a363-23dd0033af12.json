@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d28f35ff-8e43-470c-b208-9b6617b045c9",
+    "id": "bundle--7b8f945a-d750-44ae-a57f-18c9a9601aa0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--54399f5a-a8ee-4f77-a363-23dd0033af12",
             "created": "2019-05-14T16:58:13.888Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky StoneDrill 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:48:15.371Z",
+            "modified": "2026-04-29T14:23:06.040Z",
             "description": "[StoneDrill](https://attack.mitre.org/software/S0380) can obtain the current date and time of the victim machine.(Citation: Kaspersky StoneDrill 2017)\t",
             "relationship_type": "uses",
             "source_ref": "malware--8dbadf80-468c-4a62-b817-4e4d8b606887",
             "target_ref": "attack-pattern--f3c544dc-673c-4ef3-accb-53229f1ae077",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

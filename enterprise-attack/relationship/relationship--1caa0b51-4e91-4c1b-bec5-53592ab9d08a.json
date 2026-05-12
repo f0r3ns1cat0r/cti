@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--98def6d7-a9f6-4fd0-939a-d6093bb59512",
+    "id": "bundle--8339c444-77a8-4d6a-ab62-dbb155f521ee",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1caa0b51-4e91-4c1b-bec5-53592ab9d08a",
             "created": "2020-08-04T19:13:49.954Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cylance Sodinokibi July 2019",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:37:56.560Z",
+            "modified": "2026-04-29T14:23:05.944Z",
             "description": "[REvil](https://attack.mitre.org/software/S0496) can use the Windows command line to delete volume shadow copies and disable recovery.(Citation: Cylance Sodinokibi July 2019)(Citation: Talos Sodinokibi April 2019)(Citation: Picus Sodinokibi January 2020)(Citation: Secureworks REvil September 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--ac61f1f9-7bb1-465e-9b8a-c2ce8e88baf5",
             "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

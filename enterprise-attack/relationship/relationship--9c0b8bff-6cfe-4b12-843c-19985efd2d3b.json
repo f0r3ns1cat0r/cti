@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a322f581-a8e5-474a-abfc-abdb809b230c",
+    "id": "bundle--c78a03e7-aaea-4b43-9e2e-0543ae822d71",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9c0b8bff-6cfe-4b12-843c-19985efd2d3b",
             "created": "2025-01-09T18:57:46.007Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco Akira Ransomware OCT 2024",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:34:52.630Z",
+            "modified": "2026-04-29T14:23:06.138Z",
             "description": "[Akira _v2](https://attack.mitre.org/software/S1194) can enumerate the trace, debug, error, info, and warning logs on targeted systems.(Citation: Cisco Akira Ransomware OCT 2024)(Citation: Palo Alto Howling Scorpius DEC 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--929d0d4d-b7c6-4ee8-81eb-43c849294e27",
             "target_ref": "attack-pattern--866d0d6d-02c6-42bd-aa2f-02907fdc0969",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

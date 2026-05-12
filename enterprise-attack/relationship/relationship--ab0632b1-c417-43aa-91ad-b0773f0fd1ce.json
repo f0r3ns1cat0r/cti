@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9aea337a-3d13-442c-b764-24b6d8c9880b",
+    "id": "bundle--8105c61c-4e24-4ade-bfbd-384cc2f0b245",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T14:35:13.799Z",
+            "modified": "2026-04-29T14:23:06.158Z",
             "description": "[Tsundere Botnet](https://attack.mitre.org/software/S9034) has been distributed via a PowerShell script.(Citation: SecureListUbiedo_Tsundere_Nov2025)(Citation: CAL_MuddyWater_Mar2026)  ",
             "relationship_type": "uses",
             "source_ref": "malware--18f5f8c6-bba5-4aba-93e7-3539fe565883",

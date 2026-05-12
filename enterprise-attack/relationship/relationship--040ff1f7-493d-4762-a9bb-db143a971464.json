@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6ff99bd4-f150-4a58-9e23-b442d4b4a160",
+    "id": "bundle--67938a02-4a22-4e5c-9d42-4b7c9381db68",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--040ff1f7-493d-4762-a9bb-db143a971464",
             "created": "2020-03-18T22:06:42.466Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Orangeworm April 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:32:25.123Z",
+            "modified": "2026-04-29T14:23:05.909Z",
             "description": "[Kwampirs](https://attack.mitre.org/software/S0236) collects a list of domain groups with the command <code>net localgroup /domain</code>.(Citation: Symantec Orangeworm April 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--c2417bab-3189-4d4d-9d60-96de2cdaf0ab",
             "target_ref": "attack-pattern--2aed01ad-3df3-4410-a8cb-11ea4ded587c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

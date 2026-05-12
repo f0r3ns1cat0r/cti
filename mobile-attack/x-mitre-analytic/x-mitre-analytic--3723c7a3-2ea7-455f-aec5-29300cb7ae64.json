@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e05e76cd-913e-4d46-a912-9a444d895e3f",
+    "id": "bundle--757b2b52-1523-4d09-a6d3-89e7da0561d8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-09T17:32:52.483Z",
+            "modified": "2026-05-12T16:30:18.376Z",
             "name": "Analytic 1669",
             "description": "A defender correlates navigation to external web content in a browser or embedded WebView with immediate script-heavy or exploit-preparation network activity, followed by abnormal browser/WebView process behavior, suspicious file or download artifacts, or rapid post-visit capability shifts such as new package install attempts, overlay prompts, permission requests, or outbound command traffic inconsistent with normal browsing.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

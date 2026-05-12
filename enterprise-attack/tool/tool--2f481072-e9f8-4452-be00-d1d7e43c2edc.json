@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8bcbf548-99c2-460b-9a39-203abc6f0825",
+    "id": "bundle--f5592bf8-2292-49a3-86e9-35bb5edf1993",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T18:27:09.265Z",
+            "modified": "2026-05-12T15:12:00.740Z",
             "name": "DCRAT",
             "description": "[DCRAT](https://attack.mitre.org/software/S9017) is a variant of the open-source [AsyncRAT](https://attack.mitre.org/software/S1087) developed in C# with additional capabilities such as patching Microsoft\u2019s Antimalware Scan Interface (AMSI).(Citation: Zscaler BlindEagle DEC 2025)",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

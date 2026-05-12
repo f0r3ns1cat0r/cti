@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e5c3b464-fcaf-49e1-ae4d-f277a623a031",
+    "id": "bundle--e830d546-65f8-4053-bba1-6adfd3a0641c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f60b8223-eea6-422e-99c6-7f9b70e8ea53",
             "created": "2020-05-11T22:12:28.689Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye MESSAGETAP October 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:17:39.332Z",
+            "modified": "2026-04-29T14:23:06.259Z",
             "description": "[MESSAGETAP](https://attack.mitre.org/software/S0443) checks two files, keyword_parm.txt and parm.txt, for instructions on how to target and save data parsed and extracted from SMS message data from the network traffic. If an SMS message contained either a phone number, IMSI number, or keyword that matched the predefined list, it is saved to a CSV file for later theft by the threat actor.(Citation: FireEye MESSAGETAP October 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--9b19d6b4-cfcb-492f-8ca8-8449e7331573",
             "target_ref": "attack-pattern--30208d3e-0d6b-43c8-883e-44462a514619",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

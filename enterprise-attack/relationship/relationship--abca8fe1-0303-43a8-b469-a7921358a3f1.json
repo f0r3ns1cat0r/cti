@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--99016b1f-456a-47c9-9bee-9b98b199887a",
+    "id": "bundle--f0ad3085-c91c-420b-ae91-3448bc793202",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--abca8fe1-0303-43a8-b469-a7921358a3f1",
             "created": "2020-08-11T21:15:35.616Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit42 RDAT July 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:04:41.867Z",
+            "modified": "2026-04-29T14:23:06.159Z",
             "description": "[RDAT](https://attack.mitre.org/software/S0495) can download files via DNS.(Citation: Unit42 RDAT July 2020)\t",
             "relationship_type": "uses",
             "source_ref": "malware--4b346d12-7f91-48d2-8f06-b26ffa0d825b",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

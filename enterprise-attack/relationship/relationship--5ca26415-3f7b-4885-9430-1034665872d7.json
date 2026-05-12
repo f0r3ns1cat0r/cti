@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8516f58c-c213-456e-9c60-6402a54d23ef",
+    "id": "bundle--5535751c-509f-4f8b-b171-433daf4c5863",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5ca26415-3f7b-4885-9430-1034665872d7",
             "created": "2024-11-27T21:47:38.495Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro Earth Simnavaz October 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:17:53.358Z",
+            "modified": "2026-04-29T14:23:06.052Z",
             "description": "\n[OilRig](https://attack.mitre.org/groups/G0049) has used an exfiltration tool named STEALHOOK to retreive valid domain credentials.(Citation: Trend Micro Earth Simnavaz October 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
             "target_ref": "attack-pattern--c3d4bdd9-2cfe-4a80-9d0c-07a29ecdce8f",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c78dee07-271a-47ba-a7fb-fc3704f1ab9c",
+    "id": "bundle--bb35ade1-5e49-4681-b5b3-0d8259170b56",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--dd67596a-64c6-4dfb-b498-e7d5c1886090",
             "created": "2020-11-06T19:39:44.074Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Kimsuky November 2020",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T04:05:36.590Z",
+            "modified": "2026-04-29T14:23:06.227Z",
             "description": "[KGH_SPY](https://attack.mitre.org/software/S0526) can collect drive information from a compromised host.(Citation: Cybereason Kimsuky November 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--8bdfe255-e658-4ddd-a11c-b854762e451d",

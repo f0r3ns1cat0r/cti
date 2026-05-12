@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--87bde129-b12d-4d3c-806d-99166e6bdfba",
+    "id": "bundle--5bfd6480-2408-42fe-83ce-534495896941",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7457d1f4-9829-4f60-a12e-e6b9952b55f1",
             "created": "2022-09-07T19:29:34.124Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Frankenstein June 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:24:10.293Z",
+            "modified": "2026-04-29T14:23:06.084Z",
             "description": "During [Frankenstein](https://attack.mitre.org/campaigns/C0001), the threat actors used trojanized documents that retrieved remote templates from an adversary-controlled website.(Citation: Talos Frankenstein June 2019)",
             "relationship_type": "uses",
             "source_ref": "campaign--26d9ebae-de59-427f-ae9a-349456bae4b1",
             "target_ref": "attack-pattern--dc31fe1e-d722-49da-8f5f-92c7b5aff534",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

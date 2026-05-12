@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--103ccdcd-0b43-4ba7-bbe1-9ab394a5133d",
+    "id": "bundle--2ace46d2-8c5b-429e-a4a2-15a80a36c669",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e25ea0c4-513b-489d-943d-2828034f764f",
             "created": "2019-01-31T01:07:58.944Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Oceanlotus May 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:14:17.615Z",
+            "modified": "2026-04-29T14:23:06.233Z",
             "description": "(Citation: Cybereason Oceanlotus May 2017)(Citation: Cybereason Cobalt Kitty 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "target_ref": "malware--f25aab1a-0cef-4910-a85d-bb38b32ea41a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

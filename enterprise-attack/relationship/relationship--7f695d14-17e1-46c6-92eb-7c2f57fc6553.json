@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--708f7d1d-128f-4c1a-bf4b-a02fc8707c34",
+    "id": "bundle--67fe785b-5592-4137-a5c1-5cbd7713fb57",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7f695d14-17e1-46c6-92eb-7c2f57fc6553",
             "created": "2017-05-31T21:33:27.068Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Novetta Blockbuster Tools",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:27:10.590Z",
+            "modified": "2026-04-29T14:23:06.100Z",
             "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) malware KiloAlfa contains keylogging functionality.(Citation: Novetta Blockbuster)(Citation: Novetta Blockbuster Tools)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

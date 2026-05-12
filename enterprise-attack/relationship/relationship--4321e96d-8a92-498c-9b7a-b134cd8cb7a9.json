@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8e5cc5f5-8fa6-4539-afbe-4867c22a4560",
+    "id": "bundle--13f22d86-47d9-4944-b148-bda8a721965e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T20:57:11.520Z",
+            "modified": "2026-04-29T14:23:06.017Z",
             "description": "[Shai-Hulud](https://attack.mitre.org/software/S9008) has replaced DNS configuration from `/tmp/resolved.conf` in order to gain control of network-level control within CI environments and has flushed iptables rules using `sudo iptables -F OUTPUT` and `sudo iptables -F DOCKER-USER`.(Citation: Socket Shai-Hulud November 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--de376fb9-1093-4f59-8d13-aed61042701d",

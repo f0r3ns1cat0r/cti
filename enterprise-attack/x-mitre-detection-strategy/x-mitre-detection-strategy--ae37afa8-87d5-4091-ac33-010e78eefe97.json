@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--b507ddc9-b4f6-4bc9-9a60-d63458dd1467",
+    "id": "bundle--3ad38d2c-af3a-4a18-8918-d20aadff55aa",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--ae37afa8-87d5-4091-ac33-010e78eefe97",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.688Z",
             "name": "Behavioral Detection for Service Stop across Platforms",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -32,8 +33,7 @@
                 "x-mitre-analytic--ea793457-89e6-47d2-8ae1-7fd2bd814f82",
                 "x-mitre-analytic--86ea7b9c-c017-463d-b5d5-377f6dbfae1e",
                 "x-mitre-analytic--9e12e1f0-1547-4008-8755-2b3bc1c00279"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

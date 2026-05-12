@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--02eac053-7ace-4294-a7cb-85576ae590f0",
+    "id": "bundle--9bcc610e-e1ae-4e7f-aecf-6d11b7cb118b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4ce5e752-97d6-4803-a49c-0f905729a133",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talent-Jump Clambling February 2020",
@@ -38,14 +39,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:13:29.884Z",
+            "modified": "2026-04-29T14:23:06.030Z",
             "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) has used a modified version of Mimikatz called Wrapikatz.(Citation: SecureWorks BRONZE UNION June 2017)(Citation: Nccgroup Emissary Panda May 2018)(Citation: Trend Micro DRBControl February 2020)(Citation: Talent-Jump Clambling February 2020)(Citation: Profero APT27 December 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
             "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

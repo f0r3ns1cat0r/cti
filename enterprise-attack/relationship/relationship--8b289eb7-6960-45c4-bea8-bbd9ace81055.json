@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b1f6bcdb-226f-40c5-ae64-aebd026c7495",
+    "id": "bundle--f6a2d4eb-ff2f-4b8a-bc65-1b03f021041c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8b289eb7-6960-45c4-bea8-bbd9ace81055",
             "created": "2023-09-18T18:17:00.154Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco Operation Layover September 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:30:16.784Z",
+            "modified": "2026-04-29T14:23:06.115Z",
             "description": "[TA2541](https://attack.mitre.org/groups/G1018) has used process hollowing to execute CyberGate malware.(Citation: Cisco Operation Layover September 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--467271fd-47c0-4e90-a3f9-d84f5cf790d0",
             "target_ref": "attack-pattern--b200542e-e877-4395-875b-cf1a44537ca4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

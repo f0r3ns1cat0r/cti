@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d23f5619-80fb-4564-a409-2dd32a1b4a6e",
+    "id": "bundle--6dbfc23d-f348-4d4e-82ab-02184522f06b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8097b8e6-73f2-44f4-9234-dffa4794e0c6",
             "created": "2023-03-10T20:34:42.998Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Uptycs Black Basta ESXi June 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:27:26.792Z",
+            "modified": "2026-04-29T14:23:06.101Z",
             "description": "The [Black Basta](https://attack.mitre.org/software/S1070) binary can use `chmod` to gain full permissions to targeted files.(Citation: Uptycs Black Basta ESXi June 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--8d242fb4-9033-4f13-8a88-4b9b4bcd9a53",
             "target_ref": "attack-pattern--09b130a2-a77e-4af0-a361-f46f9aad1345",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

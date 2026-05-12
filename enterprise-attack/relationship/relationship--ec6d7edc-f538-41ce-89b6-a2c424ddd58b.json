@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--52624b6e-cd61-44cf-aa3d-b7ebe0690dfc",
+    "id": "bundle--bd154460-95dc-4f1d-9c17-dce6b0f153a3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ec6d7edc-f538-41ce-89b6-a2c424ddd58b",
             "created": "2021-09-29T14:09:57.693Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Netscout Stolen Pencil Dec 2018",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:55:42.074Z",
+            "modified": "2026-04-29T14:23:06.247Z",
             "description": "(Citation: Netscout Stolen Pencil Dec 2018)(Citation: KISA Operation Muzabi)(Citation: Mandiant APT43 March 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
             "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

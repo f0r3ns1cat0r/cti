@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3c4f7440-2d0d-4b49-8d2c-f57a0c443139",
+    "id": "bundle--ef40fd1e-6311-447a-aaf4-26cf3a573cb7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--90268df8-948a-4eb4-a21c-7b1c6808f669",
             "created": "2021-08-18T18:52:48.070Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Accenture MUDCARP March 2019",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:31:38.244Z",
+            "modified": "2026-04-29T14:23:06.122Z",
             "description": "[Leviathan](https://attack.mitre.org/groups/G0065) has obtained valid accounts to gain initial access.(Citation: CISA AA21-200A APT40 July 2021)(Citation: Accenture MUDCARP March 2019)(Citation: CISA Leviathan 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e",
             "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

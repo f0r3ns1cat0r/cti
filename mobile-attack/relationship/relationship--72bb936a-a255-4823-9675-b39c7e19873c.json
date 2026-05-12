@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e0d58686-a601-45da-b83e-95003e2e561e",
+    "id": "bundle--f41d99cb-b554-42b9-85c9-e0e91bd1e6ca",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--72bb936a-a255-4823-9675-b39c7e19873c",
             "created": "2025-08-29T21:58:46.849Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ZimperiumOrtegaPratapagiri_GodFather_Jun2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-29T21:58:46.849Z",
+            "modified": "2026-04-29T14:23:06.082Z",
             "description": "[GodFather](https://attack.mitre.org/software/S1231) has used the Xposed hooking framework to intercept HTTP requests and responses, capturing and exfiltrating sensitive information, such as credentials.(Citation: ZimperiumOrtegaPratapagiri_GodFather_Jun2025)  ",
             "relationship_type": "uses",
             "source_ref": "malware--bf064476-25b8-493c-a1e7-dd707b3f7f52",

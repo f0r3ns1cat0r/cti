@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7158131e-7e09-482e-82a1-0c9316db7d7d",
+    "id": "bundle--81e25d4a-9fc5-4493-b6dd-bf722bf1046e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T20:47:35.790Z",
+            "modified": "2026-05-12T16:30:18.383Z",
             "name": "Analytic 1657",
             "description": "The defender correlates app-driven shell-launch behavior with subsequent execution of Unix shell processes or shell-script activity under the same app context, especially when execution occurs from background state, without recent user interaction, or is followed by file-system, privilege-escalation, or network effects inconsistent with the app's declared role. The analytic prioritizes Android-observable control-plane effects: Runtime or ProcessBuilder invocation, spawn of sh/toybox/toolbox/su or equivalent shell process, script-file staging or redirected output, and post-execution network or local artifact creation.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

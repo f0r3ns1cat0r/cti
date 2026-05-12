@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--42878963-d257-47f3-9f62-738b33769175",
+    "id": "bundle--1eff4dc5-78e9-4e32-89b6-c39ab0e664b3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f6417788-0c6e-4172-9010-f20870ec2278",
             "created": "2023-06-09T19:16:07.193Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "lookout_hornbill_sunbird_0221",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:52:34.383Z",
+            "modified": "2026-04-29T14:23:06.260Z",
             "description": "[Hornbill](https://attack.mitre.org/software/S1077) can request device administrator privileges.(Citation: lookout_hornbill_sunbird_0221)",
             "relationship_type": "uses",
             "source_ref": "malware--15d78a95-af6a-4b06-8dae-76bedb0ec5a1",
             "target_ref": "attack-pattern--9c049d7b-c92a-4733-9381-27e2bd2ccadc",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

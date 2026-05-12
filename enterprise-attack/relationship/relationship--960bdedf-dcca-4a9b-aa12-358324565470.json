@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6597c5a6-212e-458a-ba20-168073c8b86a",
+    "id": "bundle--dc771547-d81d-4c1c-b352-13ee6aca2c9d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--960bdedf-dcca-4a9b-aa12-358324565470",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "McAfee GhostSecret",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T03:00:50.013Z",
+            "modified": "2026-04-29T14:23:06.130Z",
             "description": "[Proxysvc](https://attack.mitre.org/software/S0238) collects the OS version, country name, MAC address, computer name, and physical memory statistics.(Citation: McAfee GhostSecret)",
             "relationship_type": "uses",
             "source_ref": "malware--069af411-9b24-4e85-b26c-623d035bbe84",

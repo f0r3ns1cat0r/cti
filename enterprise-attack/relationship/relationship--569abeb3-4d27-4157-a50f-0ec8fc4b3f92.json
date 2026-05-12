@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--af17c6c1-a390-4b72-8848-e37ebe68d568",
+    "id": "bundle--afb7eed9-25cc-4f82-83f7-4a2545423d75",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--569abeb3-4d27-4157-a50f-0ec8fc4b3f92",
             "created": "2024-07-16T18:10:48.867Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Elastic Pikabot 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:16:13.643Z",
+            "modified": "2026-04-29T14:23:06.043Z",
             "description": "[Pikabot](https://attack.mitre.org/software/S1145) uses non-standard ports, such as 2967, 2223, and others, for HTTPS command and control communication.(Citation: Elastic Pikabot 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--02739f57-7585-4319-acd3-794ae8ff3a70",
             "target_ref": "attack-pattern--b18eae87-b469-4e14-b454-b171b416bc18",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

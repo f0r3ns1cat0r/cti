@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0b793107-3652-4ea3-bc39-e25067b99d9e",
+    "id": "bundle--c0cb4d59-bdb6-48a4-bc20-329c37c1fac7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T14:24:02.620Z",
+            "modified": "2026-04-29T14:23:06.176Z",
             "description": "[AshTag](https://attack.mitre.org/software/S9031) can check geolocation on targeted systems.(Citation: Palo Alto Ashen Lepus DEC 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--bb6f2a5c-dbc9-45b0-bd3f-a0b7849959c2",

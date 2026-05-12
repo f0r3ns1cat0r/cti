@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0503462f-045a-4ebc-8557-c4573158a66e",
+    "id": "bundle--3061c312-23ba-47d2-bc4e-985d1182ca6d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:33:43.898Z",
+            "modified": "2026-05-12T16:30:18.383Z",
             "name": "Analytic 1373",
             "description": "Detects disabling container runtime security controls, removing sidecar sensors, modifying seccomp/AppArmor profiles, mounting host proc/sys paths to interfere with host logging, or killing in-container monitoring agents.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

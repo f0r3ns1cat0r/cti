@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--da392cc1-9d95-4b87-bd32-cb1a64060ba9",
+    "id": "bundle--7ae14622-0589-48eb-9f07-7ea81580f87c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--eea7a647-322f-4d4a-a6b4-28b3b8ca8f32",
             "created": "2025-10-19T19:17:37.980Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Storm-501 Sabbath Ransomware Embargo September 2024",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-20T15:53:15.488Z",
+            "modified": "2026-04-29T14:23:06.250Z",
             "description": "[Storm-0501](https://attack.mitre.org/groups/G1053) has used the [Net](https://attack.mitre.org/software/S0039) utility on the Windows operating system.(Citation: Microsoft Storm-501 Sabbath Ransomware Embargo September 2024)(Citation: Microsoft Storm-0501 Embargo Ransomware August 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7b404cd0-3ae9-41d4-90c0-023793d35d97",

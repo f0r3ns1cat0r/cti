@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bdb6590f-d285-4088-b4ac-6626fc541396",
+    "id": "bundle--f60da691-2fb2-43e8-800f-d3e491ffd979",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-02-23T16:59:44.335Z",
+            "modified": "2026-05-12T16:30:18.378Z",
             "name": "Analytic 1804",
             "description": "Defender observes an app/package attempting to enumerate running processes by triggering restricted process visibility mechanisms (e.g., repeated queries for running tasks/services, rapid iteration over process identifiers, or access attempts against /proc entries) that are atypical for its declared function and occur without an associated user-facing diagnostic workflow. The detection relies on correlating (1) OS/API calls or shell/system utility execution indicative of process listing or /proc traversal, (2) app privilege context (root, debug build, device owner/profile owner, accessibility/IME status), (3) background execution state, and (4) optional follow-on behaviors consistent with automated discovery (short bursts of local IPC probes, network beacons immediately after enumeration, or rapid targeting of specific high-value package/process names). The analytic should describe what is observable: repeated enumeration signals + privilege context + timing relationship, not the adversary\u2019s intent.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

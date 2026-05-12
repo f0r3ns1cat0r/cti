@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--df87319f-54c5-48c2-85be-977fe6491226",
+    "id": "bundle--26579706-4d6c-408a-8eb3-50f924a64261",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--56f490de-51e8-47c4-9eae-ecdd1a55e6ef",
             "created": "2019-06-24T13:38:13.125Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Windows Blogs Microsoft Edge Sandbox",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:48:45.647Z",
+            "modified": "2026-04-29T14:23:06.044Z",
             "description": "Browser sandboxes can be used to mitigate some of the impact of exploitation, but sandbox escapes may still exist.(Citation: Windows Blogs Microsoft Edge Sandbox)(Citation: Ars Technica Pwn2Own 2017 VM Escape)\n\nOther types of virtualization and application microsegmentation may also mitigate the impact of client-side exploitation. The risks of additional exploits and weaknesses in implementation may still exist for these types of systems.(Citation: Ars Technica Pwn2Own 2017 VM Escape)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--b9f0c069-abbe-4a07-a245-2481219a1463",
             "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

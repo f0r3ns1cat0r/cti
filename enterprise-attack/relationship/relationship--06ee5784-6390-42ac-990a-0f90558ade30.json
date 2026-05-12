@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--576112a6-d3f8-4ee3-89dd-2e62faff85e0",
+    "id": "bundle--d7ae2fff-afc8-4693-a539-5dcd8b979fed",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-15T19:05:20.396Z",
+            "modified": "2026-04-29T14:23:05.913Z",
             "description": "[TruffleHog](https://attack.mitre.org/software/S9009) has searched SharePoint for data and credentials.(Citation: Github TruffleSecurity Trufflehog April 2025)",
             "relationship_type": "uses",
             "source_ref": "tool--76f8a686-3157-481f-9af6-e8558883a8d6",

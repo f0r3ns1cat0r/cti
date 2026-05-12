@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1035d567-b1e9-40c8-ad07-f92bdb7f07b0",
+    "id": "bundle--e58b50ef-5f86-4ba7-af44-522e968c858d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--59bd2521-3df2-49f1-afb7-ee78995740dc",
             "created": "2025-09-18T14:42:55.159Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ZimperiumGupta_RatMilad_Oct2022",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-18T14:42:55.159Z",
+            "modified": "2026-04-29T14:23:06.047Z",
             "description": "[RatMilad](https://attack.mitre.org/software/S1241) has used a fake application to request permissions and to download itself.(Citation: ZimperiumGupta_RatMilad_Oct2022) ",
             "relationship_type": "uses",
             "source_ref": "malware--6ceb0644-0ae9-4ee1-a659-3888687cb03b",

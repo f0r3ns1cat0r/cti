@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--33d90981-0124-4d85-a74d-70c160f0e56d",
+    "id": "bundle--30ac3f06-94af-4eae-a319-76d0228c073e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a93ee044-bd5d-48f3-972e-0abab780c35c",
             "created": "2023-02-08T20:05:06.786Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "trendmicro_tianyspy_0122",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:50:46.122Z",
+            "modified": "2026-04-29T14:23:06.156Z",
             "description": "[TianySpy](https://attack.mitre.org/software/S1056) can steal information via malicious JavaScript.(Citation: trendmicro_tianyspy_0122)",
             "relationship_type": "uses",
             "source_ref": "malware--fd6d56b2-d84e-4d2a-b37d-d4678d3e08a6",
             "target_ref": "attack-pattern--29f1f56c-7b7a-4c14-9e39-59577ea2743c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

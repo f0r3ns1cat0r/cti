@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4e4a1c24-622c-45d9-ad41-0dd49bc7ee1d",
+    "id": "bundle--4095b1c0-5edb-4887-b89a-f17ad43e4650",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ceffc6ab-75ce-4efa-97f7-c1cd9a82385a",
             "created": "2025-03-14T12:51:16.522Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Storm-1811 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:48:14.367Z",
+            "modified": "2026-04-29T14:23:06.208Z",
             "description": "[Storm-1811](https://attack.mitre.org/groups/G1046) has used Microsoft Teams to send messages and initiate voice calls to victims posing as IT support personnel.(Citation: Microsoft Storm-1811 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--319fd652-edde-46b2-9987-3519493989f5",
             "target_ref": "attack-pattern--f6ad61ee-65f3-4bd0-a3f5-2f0accb36317",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

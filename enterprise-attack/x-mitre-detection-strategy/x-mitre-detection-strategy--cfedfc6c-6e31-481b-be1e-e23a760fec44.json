@@ -1,11 +1,10 @@
 {
     "type": "bundle",
-    "id": "bundle--bec6b541-63ec-45b3-98ba-438b9a6e551e",
+    "id": "bundle--94e1242b-7cc3-4992-87ac-1c2886c8ee9c",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--cfedfc6c-6e31-481b-be1e-e23a760fec44",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -20,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:24:45.876Z",
+            "modified": "2026-05-12T16:30:18.390Z",
             "name": "Detect Disabled Windows Event Log",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cb4c85de-15c4-4b00-aa08-eb271a2b2ab4",
+    "id": "bundle--b5c81a35-6069-41e1-b8dc-61d30f193085",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T14:19:02.685Z",
+            "modified": "2026-04-29T14:23:05.948Z",
             "description": "[AshTag](https://attack.mitre.org/software/S9031) has been executed through victims downloading and opening malicious RAR archive files.(Citation: Palo Alto Ashen Lepus DEC 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--bb6f2a5c-dbc9-45b0-bd3f-a0b7849959c2",

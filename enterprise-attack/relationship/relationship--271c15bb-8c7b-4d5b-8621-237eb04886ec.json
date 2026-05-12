@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8d8d4e18-833f-445a-a0fb-686bc20e5806",
+    "id": "bundle--657765ae-04c9-446e-88c4-651b35634472",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:21:20.978Z",
+            "modified": "2026-04-29T14:23:05.958Z",
             "description": "[DarkGate](https://attack.mitre.org/software/S1111) will terminate processes associated with several security software products if identified during execution.(Citation: Ensilo Darkgate 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--6f6f67c9-556d-4459-95c2-78d272190e52",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--251f10cd-0759-4113-b0d0-9c1ace74eb77",
+    "id": "bundle--d1507a34-7bc5-4154-9cc7-10610dda7a79",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T20:37:01.725Z",
+            "modified": "2026-04-29T14:23:06.003Z",
             "description": "[RustyWater](https://attack.mitre.org/software/S9037) has sent\u202fspearphishing\u202femails\u202fwith the attachment Cybersecurity.doc, which served as the primary payload for the next\u202fstage.(Citation: CloudSEK_RustyWater_Jan2026)",
             "relationship_type": "uses",
             "source_ref": "malware--50be4e81-db74-41a2-a9aa-423314082bea",

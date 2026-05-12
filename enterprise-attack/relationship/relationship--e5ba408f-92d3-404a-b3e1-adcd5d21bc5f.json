@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c32c23c7-20ac-41dc-8473-5b4ae4d64c06",
+    "id": "bundle--8d1d4456-695d-4b7b-8e00-25ca48b4054c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e5ba408f-92d3-404a-b3e1-adcd5d21bc5f",
             "created": "2019-07-16T16:14:50.400Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Anomali Linux Rabbit 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:14:53.873Z",
+            "modified": "2026-04-29T14:23:06.238Z",
             "description": "[Linux Rabbit](https://attack.mitre.org/software/S0362) acquires valid SSH accounts through brute force. (Citation: Anomali Linux Rabbit 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--0efefea5-78da-4022-92bc-d726139e8883",
             "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

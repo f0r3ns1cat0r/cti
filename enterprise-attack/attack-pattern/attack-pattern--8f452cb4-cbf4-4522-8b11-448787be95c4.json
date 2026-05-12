@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e9695596-0298-451a-a388-079c2814a801",
+    "id": "bundle--ced43506-3b60-4cd5-818f-8036214ccda8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T15:34:51.855Z",
+            "modified": "2026-05-12T15:12:00.705Z",
             "name": "Audio-Visual Content",
             "description": "Adversaries may create or manipulate audio, image, and video content to support targeting and malicious operations. Adversaries may also use synthetic voice recordings, real-time altered audio or video during live interactions, fabricated profile photos and identity documents, or video content depicting fabricated or impersonated individuals.(Citation: Nov AI Threat Tracker)\n\nContent may be produced manually through editing tools, generated using AI-assisted tools, or produced using third-party synthetic services.(Citation: FBI 2025 AI Generate Content)(Citation: Europol Deepfakes) AI-assisted tools have enabled adversaries to produce synthetic media at scale and generate content that is more difficult to identify as inauthentic. \n\nAudio-visual content produced through these methods may be used in support of other techniques, such as [Phishing](https://attack.mitre.org/techniques/T1660), [Spearphishing via Service](https://attack.mitre.org/techniques/T1566/003), [Phishing for Information](https://attack.mitre.org/techniques/T1598), [Internal Spearphishing](https://attack.mitre.org/techniques/T1534), [Social Engineering](https://attack.mitre.org/techniques/T1684), [Financial Theft](https://attack.mitre.org/techniques/T1657), or [Establish Accounts](https://attack.mitre.org/techniques/T1585).",
             "kill_chain_phases": [

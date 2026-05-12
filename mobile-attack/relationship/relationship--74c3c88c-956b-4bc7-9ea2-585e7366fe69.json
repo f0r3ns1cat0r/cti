@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a22d57da-82bb-4198-9212-c587fb40ab25",
+    "id": "bundle--55dd22a2-ab07-4a96-9c69-fab9cae1acc2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--74c3c88c-956b-4bc7-9ea2-585e7366fe69",
             "created": "2020-04-08T15:51:25.078Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ThreatFabric Ginp",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:49:32.070Z",
+            "modified": "2026-04-29T14:23:06.085Z",
             "description": "[Ginp](https://attack.mitre.org/software/S0423) can use a multi-step phishing overlay to capture banking credentials and then credit card numbers after login.(Citation: ThreatFabric Ginp)",
             "relationship_type": "uses",
             "source_ref": "malware--6146be90-470c-4049-bb3a-9986b8ffb65b",
             "target_ref": "attack-pattern--4c58b7c6-a839-4789-bda9-9de33e4d4512",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

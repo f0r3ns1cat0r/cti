@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8c1312d1-b5d9-4a30-8c5c-d78399391759",
+    "id": "bundle--5a5930a9-70f1-4f60-834e-8bf54ad04070",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--904221c2-2486-4e0b-905f-5327ee299097",
             "created": "2025-09-18T14:39:57.218Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ZimperiumGupta_RatMilad_Oct2022",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-18T14:39:57.218Z",
+            "modified": "2026-04-29T14:23:06.122Z",
             "description": "[RatMilad](https://attack.mitre.org/software/S1241) has collected device information such as model, brand, buildId, Android version and manufacturer.(Citation: ZimperiumGupta_RatMilad_Oct2022) ",
             "relationship_type": "uses",
             "source_ref": "malware--6ceb0644-0ae9-4ee1-a659-3888687cb03b",

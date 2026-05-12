@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cfd93cb2-5ec6-44fa-923a-a016e7ec490f",
+    "id": "bundle--abd29fed-1e73-4a7e-88f1-59765628a053",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--954961e4-0bf5-496e-b200-e63d99c006de",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Crowdstrike DNC June 2016",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:33:01.545Z",
+            "modified": "2026-04-29T14:23:06.128Z",
             "description": "[CHOPSTICK](https://attack.mitre.org/software/S0023) is capable of performing keylogging.(Citation: Crowdstrike DNC June 2016)(Citation: ESET Sednit Part 2)(Citation: DOJ GRU Indictment Jul 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--ccd61dfc-b03f-4689-8c18-7c97eab08472",
             "target_ref": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

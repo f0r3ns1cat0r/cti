@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7eddca60-ac4f-4c39-b2ac-0829557836ac",
+    "id": "bundle--5903c638-2f6d-4f4c-8be9-4e33ea1e0046",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a759cca5-d8f2-4704-88c1-df76a1a1625e",
             "created": "2023-07-27T20:52:36.627Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T15:10:22.481Z",
+            "modified": "2026-04-29T14:23:06.153Z",
             "description": "[FIN13](https://attack.mitre.org/groups/G1016) has used VBS scripts for code execution on comrpomised machines.(Citation: Sygnia Elephant Beetle Jan 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",

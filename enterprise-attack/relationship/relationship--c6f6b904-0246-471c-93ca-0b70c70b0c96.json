@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5deeed60-dc40-49e1-8f93-5e5170738d9b",
+    "id": "bundle--44e3eaf3-2104-417f-84e5-85809c30aa10",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c6f6b904-0246-471c-93ca-0b70c70b0c96",
             "created": "2025-10-17T12:05:36.231Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Security Scorecard Medusa Ransomware January 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T23:05:17.107Z",
+            "modified": "2026-04-29T14:23:06.197Z",
             "description": "[Medusa Ransomware](https://attack.mitre.org/software/S1244) has collected data from the SMBIOS firmware table using `GetSystemFirmwareTable`.(Citation: Security Scorecard Medusa Ransomware January 2024)  ",
             "relationship_type": "uses",
             "source_ref": "malware--28d93902-30e7-4436-8885-6d312c51c9a3",

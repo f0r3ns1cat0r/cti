@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4206317f-40b0-4d35-8389-01c2c8ace337",
+    "id": "bundle--7e3031c9-dab6-47b6-87ad-4d03db29a4d5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:05:01.014Z",
+            "modified": "2026-04-29T14:23:06.014Z",
             "description": "[gh0st RAT](https://attack.mitre.org/software/S0032) is able to wipe event logs.(Citation: FireEye Hacking Team)(Citation: Gh0stRAT ATT March 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--88c621a7-aef9-4ae0-94e3-1fc87123eb24",

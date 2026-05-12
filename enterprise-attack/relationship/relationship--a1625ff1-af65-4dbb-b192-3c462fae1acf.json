@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e3e445df-a9a2-4d18-af61-d01a4c04e3c7",
+    "id": "bundle--8bbde630-1295-4da9-8c84-72b05fcc3626",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a1625ff1-af65-4dbb-b192-3c462fae1acf",
             "created": "2021-03-04T14:15:16.141Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft HAFNIUM March 2020",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:02:50.821Z",
+            "modified": "2026-04-29T14:23:06.145Z",
             "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has used the Exchange Power Shell module <code>Set-OabVirtualDirectoryPowerShell</code> to export mailbox data.(Citation: Microsoft HAFNIUM March 2020)(Citation: Volexity Exchange Marauder March 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
             "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

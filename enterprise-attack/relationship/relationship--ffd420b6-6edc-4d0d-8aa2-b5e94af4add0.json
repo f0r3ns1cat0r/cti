@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3f24ad6c-2773-463c-bf25-d2a33cf1af23",
+    "id": "bundle--619c9f09-49dd-43d7-a3ab-bb8c8f5df619",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T13:09:01.163Z",
+            "modified": "2026-04-29T14:23:06.272Z",
             "description": "[LAMEHUG](https://attack.mitre.org/software/S9035) can use Python scripts for execution.(Citation: Splunk LAMEHUG SEP 2025)(Citation: Nov AI Threat Tracker)",
             "relationship_type": "uses",
             "source_ref": "malware--c55e0410-842d-4365-a2c8-26c0330f85b8",

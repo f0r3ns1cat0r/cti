@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--02f3cb95-6631-44ef-a08e-4c82762f7b60",
+    "id": "bundle--d911c716-5497-4fe1-b122-a46d76829a2c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:40:28.864Z",
+            "modified": "2026-04-29T14:23:06.233Z",
             "description": "[Medusa Ransomware](https://attack.mitre.org/software/S1244) has terminated antivirus services utilizing the gaze.exe executable.(Citation: Palo Alto Unit 42 Medusa Group Medusa Ransomware January 2024) [Medusa Ransomware](https://attack.mitre.org/software/S1244) has also terminated antivirus services utilizing PowerShell scripts.(Citation: Palo Alto Unit 42 Medusa Group Medusa Ransomware January 2024)(Citation: Security Scorecard Medusa Ransomware January 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--28d93902-30e7-4436-8885-6d312c51c9a3",

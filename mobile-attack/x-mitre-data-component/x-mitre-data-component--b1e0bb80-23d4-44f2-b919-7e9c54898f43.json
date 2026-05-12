@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9bfc226f-e0e5-4655-a9c9-06c337a01910",
+    "id": "bundle--a1dbb47e-7e58-4686-960b-1ced20531662",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T18:21:10.349Z",
+            "modified": "2026-05-12T15:12:00.778Z",
             "name": "Application Permission",
             "description": "Represents the permissions, entitlements, or capability grants associated with a mobile application, including both permissions declared by the application and those granted or requested during runtime.\n\nMonitoring permission state helps defenders identify applications attempting to access protected device resources such as sensors, storage, communications interfaces, or system services.\n\nExamples include:\n\nAndroid\n\n- Permissions declared in AndroidManifest.xml\n- Runtime permission prompts\n- Special access privileges (AccessibilityService, overlay, device admin)\n\niOS\n\n- App entitlements in provisioning profiles\n- Privacy permission prompts\n- Capability grants for device services\n",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

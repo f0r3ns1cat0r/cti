@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--65c3c572-cc37-4033-8627-c80d1df58233",
+    "id": "bundle--5906af4a-847f-4d58-899d-f203e21d02b0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c043fd01-53bf-43ec-982d-44359c47d905",
             "created": "2024-07-25T17:34:22.283Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET EvasivePanda 2024",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:44:16.533Z",
+            "modified": "2026-04-29T14:23:06.188Z",
             "description": "[Daggerfly](https://attack.mitre.org/groups/G1034) is associated with several supply chain compromises using malicious updates to compromise victims.(Citation: ESET EvasivePanda 2023)(Citation: ESET EvasivePanda 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f3be6240-f68e-47e1-90d2-ad8f3b3bb8a6",
             "target_ref": "attack-pattern--bd369cd9-abb8-41ce-b5bb-fff23ee86c00",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

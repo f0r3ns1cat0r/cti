@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--74522d1a-be9e-4c5a-9649-3a8081580bd2",
+    "id": "bundle--2d3cc4d6-8600-4dc3-8a57-a00681dfa532",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c031bd06-453b-4f80-9a04-98e74a420323",
             "created": "2022-03-22T14:44:05.864Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft NICKEL December 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:08:17.903Z",
+            "modified": "2026-04-29T14:23:06.188Z",
             "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) has used NTDSDump and other password dumping tools to gather credentials.(Citation: Microsoft NICKEL December 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
             "target_ref": "attack-pattern--edf91964-b26e-4b4a-9600-ccacd7d7df24",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c1d394b9-e45a-4081-902e-b4b9a697228a",
+    "id": "bundle--7441cd10-f46e-4695-a622-63036aac32b0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-13T22:22:07.647Z",
+            "modified": "2026-05-12T16:30:18.383Z",
             "name": "Analytic 1612",
             "description": "Detection of processes performing local or domain account enumeration by invoking account directory queries or security APIs followed by structured output of account lists. The defender observes command execution or API invocation patterns that retrieve account information and produce enumeration artifacts shortly afterward.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

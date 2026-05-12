@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c373957d-d7d3-4387-9020-ded2784a1138",
+    "id": "bundle--909e2684-8883-4a0b-8b9d-830479a28935",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7fcfc36b-bebc-481f-b9af-b65008b045ec",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "BankInfoSecurity-BackDoor",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:49:47.788Z",
+            "modified": "2026-04-29T14:23:06.100Z",
             "description": "[Adups](https://attack.mitre.org/software/S0309) was pre-installed on Android devices from some vendors.(Citation: NYTimes-BackDoor)(Citation: BankInfoSecurity-BackDoor)",
             "relationship_type": "uses",
             "source_ref": "malware--f6ac21b6-2592-400c-8472-10d0e2f1bfaf",
             "target_ref": "attack-pattern--9558a84e-2d5e-4872-918e-d847494a8ffc",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d45cc52d-6e70-4a0e-8415-716b3260b094",
+    "id": "bundle--b69bd88e-b900-4d10-acae-cc09662881b0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--99ec87aa-5e07-4d47-8d29-6614850c88b5",
             "created": "2021-05-06T14:57:19.309Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Check Point APT34 April 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:01:27.146Z",
+            "modified": "2026-04-29T14:23:06.135Z",
             "description": "(Citation: Check Point APT34 April 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
             "target_ref": "malware--df4cd566-ff2f-4d08-976d-8c86e95782de",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

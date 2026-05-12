@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9f70d554-d799-4704-ae77-f3262043650b",
+    "id": "bundle--78f4190a-3e60-4404-a197-56b3ae32a28a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f306e706-c8c3-41ed-853a-e5f60b5c90b0",
             "created": "2025-02-19T20:39:38.297Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lumen J-Magic JAN 2025",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:57:23.420Z",
+            "modified": "2026-04-29T14:23:06.255Z",
             "description": "[cd00r](https://attack.mitre.org/software/S1204) can monitor for a single TCP-SYN packet to be sent in series to a configurable set of ports (200, 80, 22, 53 and 3 in the original code) before opening a port for communication.(Citation: Hartrell cd00r 2002)(Citation: Lumen J-Magic JAN 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--00936d7a-451d-4a9c-88fc-05b141aa2d3f",
             "target_ref": "attack-pattern--8868cb5b-d575-4a60-acb2-07d37389a2fd",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

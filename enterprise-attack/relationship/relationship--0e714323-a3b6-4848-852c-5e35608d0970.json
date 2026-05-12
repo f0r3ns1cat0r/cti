@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ddf85fd2-559a-4f02-869b-cb39222e7ef1",
+    "id": "bundle--4d17e709-41ff-4532-9ddd-e466a940cf9d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0e714323-a3b6-4848-852c-5e35608d0970",
             "created": "2023-04-08T17:10:28.147Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cyble Black Basta May 2022",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T03:10:19.777Z",
+            "modified": "2026-04-29T14:23:05.923Z",
             "description": "[Black Basta](https://attack.mitre.org/software/S1070) can collect system boot configuration and CPU information.(Citation: Minerva Labs Black Basta May 2022)(Citation: Cyble Black Basta May 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--8d242fb4-9033-4f13-8a88-4b9b4bcd9a53",

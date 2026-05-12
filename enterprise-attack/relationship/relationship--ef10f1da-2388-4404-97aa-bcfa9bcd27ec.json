@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--603e6aa3-c941-4b2e-9e38-c326f971edc5",
+    "id": "bundle--bfaa2bc6-eabd-414e-8b96-203320e76a7e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T15:41:26.175Z",
+            "modified": "2026-04-29T14:23:06.250Z",
             "description": "[LODEINFO](https://attack.mitre.org/software/S9020) can list the contents of `%LocalAppData%\\Google\\Chrome\\User Data\\` and `%LocalAppData%\\Microsoft\\Edge\\User Data\\` to obtain cookies.(Citation: ESET MirrorFace DEC 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--7908f855-5b5b-4d6a-acbc-af6b45ec27ad",

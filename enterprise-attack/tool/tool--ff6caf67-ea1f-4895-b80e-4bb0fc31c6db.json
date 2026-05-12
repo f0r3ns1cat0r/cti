@@ -1,26 +1,9 @@
 {
     "type": "bundle",
-    "id": "bundle--577eddd5-0f2c-44ae-bd93-c67f363cfd64",
+    "id": "bundle--d5ee5b50-3f72-4915-bed6-e5224d2ce78e",
     "spec_version": "2.0",
     "objects": [
         {
-            "modified": "2024-09-25T20:31:21.768Z",
-            "name": "PsExec",
-            "description": "[PsExec](https://attack.mitre.org/software/S0029) is a free Microsoft tool that can be used to execute a program on another computer. It is used by IT administrators and attackers.(Citation: Russinovich Sysinternals)(Citation: SANS PsExec)",
-            "x_mitre_platforms": [
-                "Windows"
-            ],
-            "x_mitre_deprecated": false,
-            "x_mitre_domains": [
-                "enterprise-attack"
-            ],
-            "x_mitre_version": "1.7",
-            "x_mitre_contributors": [
-                "Janantha Marasinghe"
-            ],
-            "x_mitre_aliases": [
-                "PsExec"
-            ],
             "type": "tool",
             "id": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
             "created": "2017-05-31T21:32:21.771Z",
@@ -46,8 +29,25 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "modified": "2026-05-12T15:12:00.741Z",
+            "name": "PsExec",
+            "description": "[PsExec](https://attack.mitre.org/software/S0029) is a free Microsoft tool that can be used to execute a program on another computer. It is used by IT administrators and attackers.(Citation: Russinovich Sysinternals)(Citation: SANS PsExec)",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_platforms": [
+                "Windows"
+            ],
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [
+                "enterprise-attack"
+            ],
+            "x_mitre_version": "1.7",
+            "x_mitre_attack_spec_version": "3.3.0",
+            "x_mitre_contributors": [
+                "Janantha Marasinghe"
+            ],
+            "x_mitre_aliases": [
+                "PsExec"
+            ],
             "labels": [
                 "tool"
             ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4bcaae6e-361e-414c-a5da-1303ca89e7fc",
+    "id": "bundle--de4b9c0f-e5d1-492a-9ca5-ae1150587bef",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--248a0d72-d9cd-43d3-985f-a33a49a79e8b",
             "created": "2019-10-14T16:25:38.693Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Token tactics",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:02:43.649Z",
+            "modified": "2026-04-29T14:23:05.955Z",
             "description": "Configure browsers or tasks to regularly delete persistent cookies.\n\nAdditionally, minimize the length of time a web cookie is viable to potentially reduce the impact of stolen cookies while also increasing the needed frequency of cookie theft attempts \u2013 providing defenders with additional chances at detection.(Citation: Token tactics) For example, use non-persistent cookies to limit the duration a session ID will remain on the web client cache where an attacker could obtain it.(Citation: Session Management Cheat Sheet)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--b5dbb4c5-b0b1-40b1-80b6-e9e84ab90067",
             "target_ref": "attack-pattern--10ffac09-e42d-4f56-ab20-db94c67d76ff",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

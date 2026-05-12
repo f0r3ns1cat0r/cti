@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--578ce977-80f4-4df9-a3a3-9c3c446a49ac",
+    "id": "bundle--b21e05f2-bf28-4d02-a55a-163c8ba666c7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:59:42.689Z",
+            "modified": "2026-04-29T14:23:06.149Z",
             "description": "[ZxShell](https://attack.mitre.org/software/S0412) can disable the firewall by modifying the registry key <code>HKLM\\SYSTEM\\CurrentControlSet\\Services\\SharedAccess\\Parameters\\FirewallPolicy\\StandardProfile</code>.(Citation: Talos ZxShell Oct 2014) ",
             "relationship_type": "uses",
             "source_ref": "malware--cfc75b0d-e579-40ae-ad07-a1ce00d49a6c",

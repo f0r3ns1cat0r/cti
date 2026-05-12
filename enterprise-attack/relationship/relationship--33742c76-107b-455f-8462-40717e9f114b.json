@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a43a4ad0-c4fa-435c-af98-9b9efad69215",
+    "id": "bundle--01647cd4-930e-42fa-9a3c-3c88e62b3581",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T19:15:21.926Z",
+            "modified": "2026-04-29T14:23:05.986Z",
             "description": "During the [Anthropic AI-orchestrated Campaign](https://attack.mitre.org/campaigns/C0062), the adversary obtained access to Claude Code to support cyber intrusion operations.(Citation: Anthropic AI Orchestrated Campaign NOV 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--590cd5b0-2421-4158-84a2-db13b5db02a3",

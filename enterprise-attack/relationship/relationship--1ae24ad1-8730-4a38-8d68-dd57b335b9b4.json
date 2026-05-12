@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--26869a6d-94e8-4074-aca2-c2cb7291037c",
+    "id": "bundle--867833dc-7872-4976-a0d8-8909bd4e7d16",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1ae24ad1-8730-4a38-8d68-dd57b335b9b4",
             "created": "2022-08-30T13:03:18.580Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "DFIR Conti Bazar Nov 2021",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:00:01.333Z",
+            "modified": "2026-04-29T14:23:05.941Z",
             "description": "[Rclone](https://attack.mitre.org/software/S1040) can exfiltrate data to cloud storage services such as Dropbox, Google Drive, Amazon S3, and MEGA.(Citation: Rclone)(Citation: DFIR Conti Bazar Nov 2021)",
             "relationship_type": "uses",
             "source_ref": "tool--59096109-a1dd-463b-87e7-a8d110fe3a79",
             "target_ref": "attack-pattern--bf1b6176-597c-4600-bfcd-ac989670f96b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

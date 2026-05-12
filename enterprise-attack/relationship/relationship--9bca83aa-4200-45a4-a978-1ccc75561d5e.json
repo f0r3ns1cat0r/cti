@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--30699d21-fade-4cbd-afea-9c655608210f",
+    "id": "bundle--968d5d7c-7c1e-412e-bf6a-8656899868aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9bca83aa-4200-45a4-a978-1ccc75561d5e",
             "created": "2021-05-26T13:28:32.124Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "BlackBerry CostaRicto November 2020",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:01:48.309Z",
+            "modified": "2026-04-29T14:23:06.137Z",
             "description": "[SombRAT](https://attack.mitre.org/software/S0615) can communicate over DNS with the C2 server.(Citation: BlackBerry CostaRicto November 2020)(Citation: FireEye FiveHands April 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--425771c5-48b4-4ecd-9f95-74ed3fc9da59",
             "target_ref": "attack-pattern--1996eef1-ced3-4d7f-bf94-33298cabbf72",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

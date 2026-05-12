@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2ec1f292-e3c3-4482-b5cf-a8956d42ef0a",
+    "id": "bundle--da37c2dd-5ed2-45ca-ae10-8e48379221da",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--dffbef04-c1bb-4289-98f6-8f318cbfe44a",
             "created": "2025-10-19T18:30:37.013Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Socket BeaverTail XORIndex HexEval Contagious Interview July 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-19T18:30:37.014Z",
+            "modified": "2026-04-29T14:23:06.231Z",
             "description": "[BeaverTail](https://attack.mitre.org/software/S1246) has deleted files from a compromised host after they were exfiltrated.(Citation: Socket BeaverTail XORIndex HexEval Contagious Interview July 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--6055aee2-d1c6-4877-94e9-a3bde9936470",

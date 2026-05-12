@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cad3f2e0-a261-4c13-b7b3-1109ef51e4a3",
+    "id": "bundle--cd712f12-ddaf-41ce-8a7b-62d7857dc2bc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T17:53:05.979Z",
+            "modified": "2026-04-29T14:23:05.928Z",
             "description": "[RustyWater](https://attack.mitre.org/software/S9037) has encrypted all strings in the code using position independent XOR encryption.(Citation: CloudSEK_RustyWater_Jan2026)",
             "relationship_type": "uses",
             "source_ref": "malware--50be4e81-db74-41a2-a9aa-423314082bea",

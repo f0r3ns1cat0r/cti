@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1572a082-da05-48aa-bd07-d71bc1c55144",
+    "id": "bundle--234e67c1-85a9-451c-816d-bce348e0b6d6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c08d8f49-5cca-4463-81db-bb80cc9a7af6",
             "created": "2023-08-01T20:36:56.976Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Joint Cybersecurity Advisory Volt Typhoon June 2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:44:21.545Z",
+            "modified": "2026-04-29T14:23:06.189Z",
             "description": "\n[Volt Typhoon](https://attack.mitre.org/groups/G1017) has run `net localgroup administrators` in compromised environments to enumerate accounts.(Citation: Joint Cybersecurity Advisory Volt Typhoon June 2023)\n",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
             "target_ref": "attack-pattern--a01bf75f-00b2-4568-a58f-565ff9bf202b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

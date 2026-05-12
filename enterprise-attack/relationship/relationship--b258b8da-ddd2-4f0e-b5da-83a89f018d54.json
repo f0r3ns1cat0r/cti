@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4aca8421-3aff-4f2e-9626-4ae2febb12cc",
+    "id": "bundle--75b54fe7-28cf-4fc9-9015-5c28b1a15295",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b258b8da-ddd2-4f0e-b5da-83a89f018d54",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET RTM Feb 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:05:52.593Z",
+            "modified": "2026-04-29T14:23:06.168Z",
             "description": "[RTM](https://attack.mitre.org/software/S0148) runs its core DLL file using rundll32.exe.(Citation: ESET RTM Feb 2017)(Citation: Unit42 Redaman January 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--92ec0cbd-2c30-44a2-b270-73f4ec949841",
             "target_ref": "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

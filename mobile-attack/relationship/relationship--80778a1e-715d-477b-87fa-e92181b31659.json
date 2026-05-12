@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--333b29eb-4335-43da-b375-fbd46da416ad",
+    "id": "bundle--363742db-c783-4490-b232-450465c4d78e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--80778a1e-715d-477b-87fa-e92181b31659",
             "created": "2020-12-24T21:45:56.967Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lookout Uyghur Campaign",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:49:48.473Z",
+            "modified": "2026-04-29T14:23:06.101Z",
             "description": "[SilkBean](https://attack.mitre.org/software/S0549) can delete various piece of device data, such as contacts, call logs, applications, SMS messages, email, plugins, and files in external storage.(Citation: Lookout Uyghur Campaign)",
             "relationship_type": "uses",
             "source_ref": "malware--ddbe5657-e21e-4a89-8221-2f1362d397ec",
             "target_ref": "attack-pattern--ab7400b7-3476-4776-9545-ef3fa373de63",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

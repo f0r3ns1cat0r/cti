@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f846c78c-89b3-4db8-b66e-659da7c19104",
+    "id": "bundle--061eabba-68b5-4fee-b609-5c10cd9684e2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--eac2781c-7025-47b9-8982-9d037a94c33f",
             "created": "2023-03-23T18:59:51.170Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Dukes October 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:55:17.624Z",
+            "modified": "2026-04-29T14:23:06.245Z",
             "description": "For [Operation Ghost](https://attack.mitre.org/campaigns/C0023), [APT29](https://attack.mitre.org/groups/G0016) used [PolyglotDuke](https://attack.mitre.org/software/S0518) as a first-stage downloader.(Citation: ESET Dukes October 2019)",
             "relationship_type": "uses",
             "source_ref": "campaign--7854c1a0-f06c-4876-98a4-4bbd34751b05",
             "target_ref": "malware--3d57dcc4-be99-4613-9482-d5218f5ec13e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

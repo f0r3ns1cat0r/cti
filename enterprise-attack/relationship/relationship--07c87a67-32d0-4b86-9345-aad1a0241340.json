@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2d51b3bd-eef2-41e1-afe3-c7862428b412",
+    "id": "bundle--41eb4145-30be-4207-954e-84a6c628960c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--07c87a67-32d0-4b86-9345-aad1a0241340",
             "created": "2022-02-02T21:30:09.798Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "BiZone Lizar May 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:54:54.369Z",
+            "modified": "2026-04-29T14:23:05.914Z",
             "description": "[Lizar](https://attack.mitre.org/software/S0681) can migrate the loader into another process.(Citation: BiZone Lizar May 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--f74a5069-015d-4404-83ad-5ca01056c0dc",
             "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

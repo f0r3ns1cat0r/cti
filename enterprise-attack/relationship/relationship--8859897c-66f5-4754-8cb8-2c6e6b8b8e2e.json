@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b19adf85-b10b-4da3-bca7-e7869800eb17",
+    "id": "bundle--9a36d5ec-5907-443b-bea7-5201c8d9ac94",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8859897c-66f5-4754-8cb8-2c6e6b8b8e2e",
             "created": "2017-05-31T21:33:27.064Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Accenture Dragonfish Jan 2018",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:29:34.932Z",
+            "modified": "2026-04-29T14:23:06.111Z",
             "description": "[Lotus Blossom](https://attack.mitre.org/groups/G0030) has used [Elise](https://attack.mitre.org/software/S0081).(Citation: Spring Dragon Jun 2015)(Citation: Accenture Dragonfish Jan 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--88b7dbc2-32d3-4e31-af2f-3fc24e1582d7",
             "target_ref": "malware--7551188b-8f91-4d34-8350-0d0c57b2b913",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

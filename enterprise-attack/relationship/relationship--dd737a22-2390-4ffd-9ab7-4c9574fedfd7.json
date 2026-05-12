@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4ba42846-816e-4690-912d-2f47d0365e61",
+    "id": "bundle--a22f9912-a164-4c4d-bdab-9ad1fb4512e2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T22:22:52.447Z",
+            "modified": "2026-04-29T14:23:06.227Z",
             "description": "[DynoWiper](https://attack.mitre.org/software/S9038) has utilized a five-second delay using `Sleep(5000)` between two of the three phases of the attack that involves file overwriting, file deletion, and system reboot.(Citation: CERT Polska)(Citation: ESET DynoWiper Update JAN 2026)",
             "relationship_type": "uses",
             "source_ref": "malware--34057cb6-0a56-48a3-92e5-3af1357808da",

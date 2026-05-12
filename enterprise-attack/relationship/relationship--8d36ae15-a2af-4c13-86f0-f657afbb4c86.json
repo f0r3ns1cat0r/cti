@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a33041b2-2182-4641-9c0d-393fd38ec20e",
+    "id": "bundle--3ea0f52c-7fb4-4c39-918b-aaaa1aaf9888",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8d36ae15-a2af-4c13-86f0-f657afbb4c86",
             "created": "2020-07-15T20:10:03.924Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Juniper IcedID June 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:58:56.920Z",
+            "modified": "2026-04-29T14:23:06.118Z",
             "description": "[IcedID](https://attack.mitre.org/software/S0483) has embedded binaries within RC4 encrypted .png files.(Citation: Juniper IcedID June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--5147ef15-1cae-4707-8ea1-bee8d98b7f1d",
             "target_ref": "attack-pattern--c2e147a9-d1a8-4074-811a-d8789202d916",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--88778a44-157f-4f9d-9755-081da0156fa0",
+    "id": "bundle--8bcdd85c-5b5e-42d7-910f-c97111ad04cb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--736856d1-3ae3-4135-9dd4-7dfa6b55715b",
             "created": "2022-08-18T15:44:11.423Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Proofpoint Bumblebee April 2022",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:23:53.494Z",
+            "modified": "2026-04-29T14:23:06.083Z",
             "description": "[EXOTIC LILY](https://attack.mitre.org/groups/G1011) has gained execution through victims clicking on malicious LNK files contained within ISO files, which can execute hidden DLLs within the ISO.(Citation: Google EXOTIC LILY March 2022)(Citation: Proofpoint Bumblebee April 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--129f2f77-1ab2-4c35-bd5e-21260cee92af",
             "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

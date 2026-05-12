@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ea7e612b-e0a9-40b3-9b99-d6b3d9b795d8",
+    "id": "bundle--7188d0e0-0217-4b02-b6b6-79a15a7da7d5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--90839ffa-293e-4fe3-98d2-e8edfd55be2c",
             "created": "2022-10-06T16:17:52.954Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "McAfee Night Dragon",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:31:42.068Z",
+            "modified": "2026-04-29T14:23:06.122Z",
             "description": "During [Night Dragon](https://attack.mitre.org/campaigns/C0002), threat actors used RAT malware to exfiltrate email archives.(Citation: McAfee Night Dragon)",
             "relationship_type": "uses",
             "source_ref": "campaign--ae407e32-87e0-4d92-8705-3ae25d504d8a",
             "target_ref": "attack-pattern--1e9eb839-294b-48cc-b0d3-c45555a2a004",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

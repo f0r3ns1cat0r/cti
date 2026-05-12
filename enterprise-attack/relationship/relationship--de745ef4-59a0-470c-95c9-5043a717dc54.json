@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a98ac363-be79-4a7e-900c-711fbfd6863d",
+    "id": "bundle--822458c3-4968-4e1f-916d-e42c468a3a34",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--de745ef4-59a0-470c-95c9-5043a717dc54",
             "created": "2020-06-22T20:34:05.362Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Medium Metamorfo Apr 2020",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:13:40.019Z",
+            "modified": "2026-04-29T14:23:06.229Z",
             "description": "[Metamorfo](https://attack.mitre.org/software/S0455) has used MSI files to download additional files to execute.(Citation: Medium Metamorfo Apr 2020)(Citation: FireEye Metamorfo Apr 2018)(Citation: Fortinet Metamorfo Feb 2020)(Citation: ESET Casbaneiro Oct 2019) ",
             "relationship_type": "uses",
             "source_ref": "malware--81c57a96-fc8c-4f91-af8e-63e24c2927c2",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6775bd3e-41b0-48f0-848e-2bbcb990c296",
+    "id": "bundle--7e98c7a8-94da-4667-ad2e-f4916e330078",
     "spec_version": "2.0",
     "objects": [
         {
@@ -54,7 +54,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-15T19:58:26.901Z",
+            "modified": "2026-05-12T15:12:00.629Z",
             "name": "Exfiltration Over Webhook",
             "description": "Adversaries may exfiltrate data to a webhook endpoint rather than over their primary command and control channel. Webhooks are simple mechanisms for allowing a server to push data over HTTP/S to a client without the need for the client to continuously poll the server.(Citation: RedHat Webhooks) Many public and commercial services, such as Discord, Slack, and `webhook.site`, support the creation of webhook endpoints that can be used by other services, such as Github, Jira, or Trello.(Citation: Discord Intro to Webhooks) When changes happen in the linked services (such as pushing a repository update or modifying a ticket), these services will automatically post the data to the webhook endpoint for use by the consuming application. \n\nAdversaries may link an adversary-owned environment to a victim-owned SaaS service to achieve repeated [Automated Exfiltration](https://attack.mitre.org/techniques/T1020) of emails, chat messages, and other data.(Citation: Push Security SaaS Attacks Repository Webhooks) Alternatively, instead of linking the webhook endpoint to a service, an adversary can manually post staged data directly to the URL in order to exfiltrate it.(Citation: Microsoft SQL Server)\n\nAccess to webhook endpoints is often over HTTPS, which gives the adversary an additional level of protection. Exfiltration leveraging webhooks can also blend in with normal network traffic if the webhook endpoint points to a commonly used SaaS application or collaboration service.(Citation: CyberArk Labs Discord)(Citation: Talos Discord Webhook Abuse)(Citation: Checkmarx Webhooks)",
             "kill_chain_phases": [
@@ -63,7 +63,7 @@
                     "phase_name": "exfiltration"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_contributors": [
                 "Yossi Weizman, Microsoft Threat Intelligence",
                 "Sunders Bruskin, Microsoft Threat Intelligence"

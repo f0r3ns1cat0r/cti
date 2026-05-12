@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1821436e-3647-4bda-a096-6141bdeffe72",
+    "id": "bundle--ee286953-3d5c-4c79-bc1f-e875958c800d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T19:19:13.142Z",
+            "modified": "2026-04-29T14:23:06.080Z",
             "description": "[Remcos](https://attack.mitre.org/software/S0332) uses RC4 and base64 to obfuscate data, including Registry entries and file paths.(Citation: Talos Remcos Aug 2018) [Remcos](https://attack.mitre.org/software/S0332) can also employ control flow flattening to hinder analysis.(Citation: Check Point Blind Eagle MAR 2025)",
             "relationship_type": "uses",
             "source_ref": "tool--7cd0bc75-055b-4098-a00e-83dc8beaff14",

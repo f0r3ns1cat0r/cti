@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b4a65d42-836c-4db3-930b-bdb6f051c1c0",
+    "id": "bundle--c8e6773b-96bd-4f95-826f-84dad7403b51",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T23:12:34.177Z",
+            "modified": "2026-04-29T14:23:06.183Z",
             "description": "During the [Anthropic AI-orchestrated Campaign](https://attack.mitre.org/campaigns/C0062), the adversary utilized Claude Code to automatically generate comprehensive documentation throughout the phases of the attack, including discovered services, harvested credentials, sensitive data, exploitation techniques, and complete attack progression.(Citation: Anthropic AI Orchestrated Campaign NOV 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--590cd5b0-2421-4158-84a2-db13b5db02a3",

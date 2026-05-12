@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--96a61556-4032-4e39-8d41-29b17df039d3",
+    "id": "bundle--20d56881-0d48-4bf2-a3e7-bd9b1878903b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--242de5f8-7944-4fdd-af87-a5da0050e7c3",
             "created": "2021-05-26T20:05:23.436Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Securelist Sofacy Feb 2018",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:02:38.692Z",
+            "modified": "2026-04-29T14:23:05.955Z",
             "description": "[APT28](https://attack.mitre.org/groups/G0007) has obtained and used open-source tools like [Koadic](https://attack.mitre.org/software/S0250), [Mimikatz](https://attack.mitre.org/software/S0002), and [Responder](https://attack.mitre.org/software/S0174).(Citation: Palo Alto Sofacy 06-2018)(Citation: Securelist Sofacy Feb 2018)(Citation: FireEye APT28 Hospitality Aug 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

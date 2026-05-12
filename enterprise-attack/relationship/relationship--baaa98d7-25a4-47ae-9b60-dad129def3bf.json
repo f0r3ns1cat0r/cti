@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--091b9c82-2271-4723-a7ba-7a126333354b",
+    "id": "bundle--e1d48b20-1287-454e-ba3e-c781bdf46e7d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--baaa98d7-25a4-47ae-9b60-dad129def3bf",
             "created": "2024-12-16T23:49:54.729Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Picus BlackByte 2022",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:42:45.254Z",
+            "modified": "2026-04-29T14:23:06.180Z",
             "description": "[BlackByte](https://attack.mitre.org/groups/G1043) has used ASPX web shells following exploitation of vulnerabilities in services such as Microsoft Exchange.(Citation: Picus BlackByte 2022)(Citation: Microsoft BlackByte 2023)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--02b16bd6-ae88-417a-8a3f-02c5e166175a",
             "target_ref": "attack-pattern--5d0d3609-d06d-49e1-b9c9-b544e0c618cb",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

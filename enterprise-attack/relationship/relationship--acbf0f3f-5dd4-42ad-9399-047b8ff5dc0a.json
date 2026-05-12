@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8fc64af1-a036-4361-9b42-fbaaa0cde2f8",
+    "id": "bundle--6400d47f-41a0-4545-89b2-24dfee60ecda",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--acbf0f3f-5dd4-42ad-9399-047b8ff5dc0a",
             "created": "2022-09-06T13:47:21.104Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Medium Ali Salem Bumblebee April 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:39:11.784Z",
+            "modified": "2026-04-29T14:23:06.160Z",
             "description": "[Bumblebee](https://attack.mitre.org/software/S1039) can check the Registry for specific keys.(Citation: Medium Ali Salem Bumblebee April 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--04378e79-4387-468a-a8f7-f974b8254e44",
             "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

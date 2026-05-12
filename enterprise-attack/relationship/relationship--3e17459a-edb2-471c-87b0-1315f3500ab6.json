@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7f934c93-40d3-464c-8e37-68580503eb8e",
+    "id": "bundle--df0115d7-16fb-4c0f-a8ed-87d9ffce32ec",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--3e17459a-edb2-471c-87b0-1315f3500ab6",
             "created": "2023-08-03T20:18:46.541Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Secureworks BRONZE SILHOUETTE May 2023",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T16:08:58.159Z",
+            "modified": "2026-04-29T14:23:06.010Z",
             "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has run `net group` in compromised environments to discover domain groups.(Citation: Secureworks BRONZE SILHOUETTE May 2023)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",

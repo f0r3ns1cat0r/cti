@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--53d83e62-e435-4865-85dd-5dea56e2601e",
+    "id": "bundle--58771fd5-0099-4924-84e9-42a902e1d123",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--97a31149-5322-472a-b443-b60ab1cec1af",
             "created": "2025-01-29T21:33:40.054Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason StealBit Exfiltration Tool",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:33:41.457Z",
+            "modified": "2026-04-29T14:23:06.132Z",
             "description": "[StealBit](https://attack.mitre.org/software/S1200) can enumerate the computer name and domain membership of the compromised system.(Citation: Cybereason StealBit Exfiltration Tool)",
             "relationship_type": "uses",
             "source_ref": "malware--cf8b27df-c494-4a0c-b093-556a80ad2bcf",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

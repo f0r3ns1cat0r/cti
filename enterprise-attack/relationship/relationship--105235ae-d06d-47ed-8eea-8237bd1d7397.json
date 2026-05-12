@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e2af0d53-42cd-4df9-b8f6-ac89ea49a580",
+    "id": "bundle--e5f6df3d-20e6-4d5b-80d9-f3804f34e7ad",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T17:58:43.354Z",
+            "modified": "2026-04-29T14:23:05.926Z",
             "description": "[MuddyViper](https://attack.mitre.org/software/S9032) has the ability to sleep for a certain amount of time, with the default being one minute.(Citation: ESET_MuddyWater_Dec2025)\u202f\u202f\u202f\u202f ",
             "relationship_type": "uses",
             "source_ref": "malware--7b92e996-b535-4159-be16-3c3aee4edf54",

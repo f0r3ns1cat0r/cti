@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a70f94ed-5687-4cd9-bef3-86b07afa029e",
+    "id": "bundle--2c343075-85db-4776-af93-431c0f1d4c89",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f4eabef1-c66d-45b2-a7c7-6c4cefe4862b",
             "created": "2019-04-23T18:41:37.112Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CoinTicker 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:17:26.792Z",
+            "modified": "2026-04-29T14:23:06.258Z",
             "description": "[CoinTicker](https://attack.mitre.org/software/S0369) downloads the EggShell mach-o binary using curl, which does not set the quarantine flag.(Citation: CoinTicker 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--d1531eaa-9e17-473e-a680-3298469662c3",
             "target_ref": "attack-pattern--31a0a2ac-c67c-4a7e-b9ed-6a96477d4e8e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a98f6a3c-d5a1-44fe-8509-59011bc72cb2",
+    "id": "bundle--5a6cfbac-01fa-49cd-a494-1e3a2fb6bbc6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bbd4f6df-b4e4-4e8e-8811-41212aef6264",
             "created": "2022-06-10T17:18:59.360Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MSTIC DEV-0537 Mar 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:43:04.070Z",
+            "modified": "2026-04-29T14:23:06.182Z",
             "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has added the global admin role to accounts they have created in the targeted organization's cloud instances.(Citation: MSTIC DEV-0537 Mar 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
             "target_ref": "attack-pattern--2dbbdcd5-92cf-44c0-aea2-fe24783a6bc3",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

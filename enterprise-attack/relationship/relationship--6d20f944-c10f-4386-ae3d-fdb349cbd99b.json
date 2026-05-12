@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a629c2f9-eda3-410d-b95e-c97f7060c8bf",
+    "id": "bundle--be14455f-fee5-4fce-815c-21781e86277b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T16:39:43.179Z",
+            "modified": "2026-04-29T14:23:06.074Z",
             "description": "[Fooder](https://attack.mitre.org/software/S9033) has used the WinCrypt API for payload decryption, `DuplicateTokenEx` to duplicate the token of a specified process, and `CreateProcessAsUserA` for payload execution.(Citation: ESET_MuddyWater_Dec2025)\u202f\u202f\u202f\u202f\u202f\u202f\u202f\u202f",
             "relationship_type": "uses",
             "source_ref": "malware--7c8865dc-1bf9-49ce-b5f2-f15abde0909a",

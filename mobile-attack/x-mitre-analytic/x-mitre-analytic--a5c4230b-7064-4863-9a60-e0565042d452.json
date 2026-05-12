@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a8c3291b-1e59-476a-ac8b-7a07c0148e3f",
+    "id": "bundle--89e12e38-1a2c-4629-9cd3-5c0069b3bc48",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:30:31.921Z",
+            "modified": "2026-05-12T16:30:18.381Z",
             "name": "Analytic 1652",
             "description": "Correlates (1) acquisition or presence of elevated control paths capable of forcing a lock state or blocking user interaction, (2) invocation of screen-locking or UI-denial behavior such as DevicePolicyManager lock operations, persistent overlays, accessibility-driven navigation interruption, or foreground lock-screen impersonation, and (3) immediate transition of the device into an unavailable or repeatedly re-locked state while the responsible application remains installed and active. The defender observes a causal chain where an application first gains the ability to control lock-related behavior, then forces or simulates lockout, and the device becomes unusable to the legitimate user.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

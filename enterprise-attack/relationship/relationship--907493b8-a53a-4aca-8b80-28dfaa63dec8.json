@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b3278928-c54a-44d2-9f0b-f4063d6b23eb",
+    "id": "bundle--8e9dccdf-0e31-4a39-8ebb-243fbb26d6e7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T21:26:05.408Z",
+            "modified": "2026-04-29T14:23:06.122Z",
             "description": "[ROAMINGHOUSE](https://attack.mitre.org/software/S9026) can check for specific mouse movements and user activity before initiating malicious activity.(Citation: Trend Micro Earth Kasha Anel NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--251f1715-fc97-4487-b939-5c8823ef7a39",

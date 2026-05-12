@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--82d5662f-1c26-400a-a216-b234b9aa468b",
+    "id": "bundle--1de58651-3858-46c7-9da1-4aeb85db39c7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a2ca7663-5ce0-447f-beeb-ad0f66a1a1e7",
             "created": "2024-03-26T18:39:59.604Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "checkpoint_hamas_android_malware",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:50:37.165Z",
+            "modified": "2026-04-29T14:23:06.147Z",
             "description": "[APT-C-23](https://attack.mitre.org/groups/G1028) has masqueraded malware as legitimate applications.(Citation: welivesecurity_apt-c-23)(Citation: checkpoint_hamas_android_malware)(Citation: sophos_android_apt_spyware)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--8332952e-b86b-486b-acc3-1c2a85d39394",
             "target_ref": "attack-pattern--114fed8b-7eed-4136-8b9c-411c5c7fff4b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6b2469d6-1ff5-4d05-9984-7db7c670bdfc",
+    "id": "bundle--fba9d627-d3fe-4700-bcd4-8b07bcf43599",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--07702379-2d40-48ae-a077-d68e0da5e4be",
             "created": "2019-01-29T18:17:59.219Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Eset PlugX Korplug Mustang Panda March 2022",
@@ -43,7 +44,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-11T19:28:15.047Z",
+            "modified": "2026-04-29T14:23:05.913Z",
             "description": "[PlugX](https://attack.mitre.org/software/S0013) has a module to enumerate drives and find files recursively.(Citation: Eset PlugX Korplug Mustang Panda March 2022)(Citation: Cisco Talos MUSTANG PANDA PLUGX PUBLOAD MAY 2022)(Citation: CIRCL PlugX March 2013)(Citation: Proofpoint TA416 Europe March 2022) [PlugX](https://attack.mitre.org/software/S0013) has also checked the path from which it is running for specific parameters prior to execution. (Citation: Eset PlugX Korplug Mustang Panda March 2022)(Citation: DOJ Affidavit Search and Seizure PlugX December 2024)(Citation: Sophos Mustang Panda PLUGX)",
             "relationship_type": "uses",
             "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",

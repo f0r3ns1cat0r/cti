@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f0164445-f3cf-4ff2-9de7-9972cabd71f8",
+    "id": "bundle--9510fef1-1a1b-4a7e-b49a-27d5b9e4b5a9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7e11a24f-8194-4d7c-884c-ef6390955b04",
             "created": "2025-08-06T15:25:51.937Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "2025_IBM_PUBLOAD_TONESHELL_HIUPAN_CLAIMLOADER_MUSTANG PANDA",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-25T14:11:39.449Z",
+            "modified": "2026-04-29T14:23:06.098Z",
             "description": "[PUBLOAD](https://attack.mitre.org/software/S1228) has utilized environmental keying in the payload to include the victim volume serial number, computer name, username, and machine\u2019s tick count.(Citation: 2025_IBM_PUBLOAD_TONESHELL_HIUPAN_CLAIMLOADER_MUSTANG PANDA)",
             "relationship_type": "uses",
             "source_ref": "malware--3824852d-1957-4712-9da0-38143723c060",

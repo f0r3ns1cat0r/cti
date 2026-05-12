@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e44789bd-a86f-4030-8896-6d80c41d3bb9",
+    "id": "bundle--4fd2fda4-1c1f-45de-bb2e-c6591c0cf6fb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--931c0864-0b91-46b7-bdc0-0360777d95a6",
             "created": "2019-07-08T15:24:24.660Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Waterbug Jun 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:00:06.007Z",
+            "modified": "2026-04-29T14:23:06.125Z",
             "description": "[Turla](https://attack.mitre.org/groups/G0010) has encrypted files stolen from connected USB drives into a RAR file before exfiltration.(Citation: Symantec Waterbug Jun 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
             "target_ref": "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

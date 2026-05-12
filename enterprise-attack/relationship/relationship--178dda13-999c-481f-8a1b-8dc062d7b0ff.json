@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bf72b0fc-5927-418d-a3de-ebdcc7dc6d57",
+    "id": "bundle--989d88f8-b075-4856-bc51-9c735ee0b5e7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T13:33:45.805Z",
+            "modified": "2026-04-29T14:23:05.936Z",
             "description": "[WIRTE](https://attack.mitre.org/groups/G0090) has attempted to lure users into opening malicious documents including MS Word and Excel files, at times using a decoy document to encourage execution of malicious payloads.(Citation: Kaspersky WIRTE November 2021)(Citation: Check Point Wirte NOV 2024)(Citation: Palo Alto Ashen Lepus DEC 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f8cb7b36-62ef-4488-8a6d-a7033e3271c1",

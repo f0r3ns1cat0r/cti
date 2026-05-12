@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e3325a43-5bbc-4771-8f53-320d4097ce78",
+    "id": "bundle--01a17eeb-20bb-4bc4-bfe9-efe4a775a62c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7224a7bb-225c-484a-9481-d3a0cb328b32",
             "created": "2025-10-22T03:00:39.711Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "McAfee GhostSecret",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T03:00:39.711Z",
+            "modified": "2026-04-29T14:23:06.081Z",
             "description": "[Proxysvc](https://attack.mitre.org/software/S0238) collects volume information for all drives on the system.(Citation: McAfee GhostSecret)",
             "relationship_type": "uses",
             "source_ref": "malware--069af411-9b24-4e85-b26c-623d035bbe84",

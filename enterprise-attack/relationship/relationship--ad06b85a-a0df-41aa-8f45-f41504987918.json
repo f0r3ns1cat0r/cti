@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--18247954-0d3a-4915-95c3-566648cc2cb3",
+    "id": "bundle--8fd772a6-3e91-41e7-a352-0ad9ac560c21",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ad06b85a-a0df-41aa-8f45-f41504987918",
             "created": "2020-05-13T17:16:11.136Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CrowdStrike Grim Spider May 2019",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T16:26:04.868Z",
+            "modified": "2026-04-29T14:23:06.160Z",
             "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used valid credentials for privileged accounts with the goal of accessing domain controllers.(Citation: CrowdStrike Grim Spider May 2019)(Citation: Mandiant FIN12 Oct 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",

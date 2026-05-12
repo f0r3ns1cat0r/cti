@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5f0012ed-ef54-4cc3-aa4f-ec5d4a9b8b66",
+    "id": "bundle--44040a2b-f202-47eb-b457-38c84e8e7c9e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--17e94f34-e367-491c-9f9f-79294e124b4f",
             "created": "2020-12-17T20:15:22.501Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto HenBox",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:47:13.482Z",
+            "modified": "2026-04-29T14:23:05.937Z",
             "description": "[HenBox](https://attack.mitre.org/software/S0544) can intercept SMS messages.(Citation: Palo Alto HenBox)",
             "relationship_type": "uses",
             "source_ref": "malware--aef537ba-10c2-40ed-a57a-80b8508aada4",
             "target_ref": "attack-pattern--c6421411-ae61-42bb-9098-73fddb315002",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

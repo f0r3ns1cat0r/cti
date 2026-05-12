@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--51f3a8bb-5daa-48ba-813f-bece7bb55a6c",
+    "id": "bundle--5b26fde7-a8b9-43fd-b694-b6d2d01e3ecb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1f8be617-c842-4828-a352-9d5eafb8f477",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye Fin8 May 2016",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:01:19.433Z",
+            "modified": "2026-04-29T14:23:05.947Z",
             "description": "[PUNCHTRACK](https://attack.mitre.org/software/S0197) is loaded and executed by a highly obfuscated launcher.(Citation: FireEye Fin8 May 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--c4de7d83-e875-4c88-8b5d-06c41e5b7e79",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

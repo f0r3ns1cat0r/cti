@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d2b9a9de-dc8d-4092-aca7-e6763dee359d",
+    "id": "bundle--bce2fe8e-d937-48ed-84b7-98fbbe7413b3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fc61d659-2c80-4148-92ff-b689093a49b2",
             "created": "2025-07-22T17:06:29.340Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Zscaler",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-25T18:52:50.000Z",
+            "modified": "2026-04-29T14:23:06.267Z",
             "description": "[StarProxy](https://attack.mitre.org/software/S1227) has decrypted network packets using a custom algorithm.(Citation: Zscaler)",
             "relationship_type": "uses",
             "source_ref": "malware--e91d3543-ca5d-474b-8b20-5a753ebc6e49",

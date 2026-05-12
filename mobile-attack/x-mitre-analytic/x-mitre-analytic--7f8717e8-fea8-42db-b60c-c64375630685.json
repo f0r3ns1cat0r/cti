@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--19eb943f-29d3-4dea-bc10-1ae805d661fa",
+    "id": "bundle--299412e8-866e-4ebb-b628-bd44a14b0694",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-29T19:12:28.428Z",
+            "modified": "2026-05-12T16:30:18.379Z",
             "name": "Analytic 1752",
             "description": "Defender correlates a custom keyboard extension activation (optionally with TCC \u2018Full Access\u2019) or abnormal UI text-entry interception with local keylog persistence and/or small egress. Chain: capability/consent (keyboard Full Access/TCC) \u2192 intercept (keyboard commit events or repeated secure text entry edits) \u2192 persist to container \u2192 near-term egress.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

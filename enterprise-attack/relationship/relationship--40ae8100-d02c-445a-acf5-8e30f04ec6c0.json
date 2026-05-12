@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9801a2ff-c6dd-4533-9e1d-17412f7f63be",
+    "id": "bundle--de02079a-df82-4273-957f-2bcb8285b781",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--40ae8100-d02c-445a-acf5-8e30f04ec6c0",
             "created": "2019-01-29T18:44:05.087Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Agent Tesla Oct 2018",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:44:41.678Z",
+            "modified": "2026-04-29T14:23:06.013Z",
             "description": "[Agent Tesla](https://attack.mitre.org/software/S0331) can download additional files for execution on the victim\u2019s machine.(Citation: Talos Agent Tesla Oct 2018)(Citation: DigiTrust Agent Tesla Jan 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--e7a5229f-05eb-440e-b982-9a6d2b2b87c8",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

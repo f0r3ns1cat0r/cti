@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f5e737c1-d874-4dea-9ae5-991b51b0e0bf",
+    "id": "bundle--cb534930-b833-4008-ae3c-23526dd4895c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bcee03c4-6420-4280-8212-c8aa44a13730",
             "created": "2021-06-18T15:26:55.646Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 Siloscape Jun 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:07:38.916Z",
+            "modified": "2026-04-29T14:23:06.183Z",
             "description": "[Siloscape](https://attack.mitre.org/software/S0623) can send kubectl commands to victim clusters through an IRC channel and can run kubectl locally to spread once within a victim cluster.(Citation: Unit 42 Siloscape Jun 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--4fbd565b-bf55-4ac7-80b4-b183a7b64b9c",
             "target_ref": "attack-pattern--7b50a1d3-4ca7-45d1-989d-a6503f04bfe1",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

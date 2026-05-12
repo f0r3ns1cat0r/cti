@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--63ade25b-11b4-403d-ba4c-9e6813867e0a",
+    "id": "bundle--24402fd6-fc7e-4190-abfa-2a44761dffb0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--74cd7fa0-af3f-4f50-ba66-b479b57f8a74",
             "created": "2025-10-14T20:26:44.417Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "EclecticIQ Mustang Panda PlugX",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-14T20:26:44.417Z",
+            "modified": "2026-04-29T14:23:06.085Z",
             "description": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has obtained SSL certificates for their C2 domains.(Citation: EclecticIQ Mustang Panda PlugX)(Citation: Google Threat Intelligence Group MUSTANG PANDA PLUGX August 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--420ac20b-f2b9-42b8-aa1a-6d4b72895ca4",

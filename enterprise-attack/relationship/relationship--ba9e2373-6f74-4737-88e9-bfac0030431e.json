@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1dc2c222-4e74-4dd3-9754-f8ee1e7a882c",
+    "id": "bundle--cfc8b073-e192-4cce-b047-cbe5fa7f5fe4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ba9e2373-6f74-4737-88e9-bfac0030431e",
             "created": "2024-02-12T20:03:17.955Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Ensilo Darkgate 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:42:44.011Z",
+            "modified": "2026-04-29T14:23:06.180Z",
             "description": "[DarkGate](https://attack.mitre.org/software/S1111) can deploy payloads capable of capturing credentials related to cryptocurrency wallets.(Citation: Ensilo Darkgate 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--6f6f67c9-556d-4459-95c2-78d272190e52",
             "target_ref": "attack-pattern--851e071f-208d-4c79-adc6-5974c85c78f3",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

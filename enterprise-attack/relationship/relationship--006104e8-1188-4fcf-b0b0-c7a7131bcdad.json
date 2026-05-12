@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8ce8bcf0-164f-4c58-9ba9-4d6a3ed54100",
+    "id": "bundle--9b65420e-937b-4a32-ab2c-1188c5052085",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--006104e8-1188-4fcf-b0b0-c7a7131bcdad",
             "created": "2025-03-14T19:25:51.645Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sygnia VelvetAnt 2024A",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:52:56.513Z",
+            "modified": "2026-04-29T14:23:05.903Z",
             "description": "[Velvet Ant](https://attack.mitre.org/groups/G1047) heavily relies on variants of [PlugX](https://attack.mitre.org/software/S0013) for various phases of operations.(Citation: Sygnia VelvetAnt 2024A)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--e1fc262c-dad2-4b82-abda-5f08dd134971",
             "target_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

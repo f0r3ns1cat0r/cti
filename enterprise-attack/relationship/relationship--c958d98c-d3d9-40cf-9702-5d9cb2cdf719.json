@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5a567216-05a0-4163-bb4a-f053da64721b",
+    "id": "bundle--b61c15f8-f3aa-4af4-9f62-e93f9e0d9ce4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c958d98c-d3d9-40cf-9702-5d9cb2cdf719",
             "created": "2020-09-29T16:08:22.643Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "PWC WellMess July 2020",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:09:59.077Z",
+            "modified": "2026-04-29T14:23:06.201Z",
             "description": "[WellMess](https://attack.mitre.org/software/S0514) can decode and decrypt data received from C2.(Citation: PWC WellMess July 2020)(Citation: PWC WellMess C2 August 2020)(Citation: CISA WellMess July 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--3a4197ae-ec63-4162-907b-9a073d1157e4",
             "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

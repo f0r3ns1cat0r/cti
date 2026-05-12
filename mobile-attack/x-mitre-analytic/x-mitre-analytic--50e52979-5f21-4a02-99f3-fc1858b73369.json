@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--da463e07-d644-4acf-b363-27aebbd7aeb9",
+    "id": "bundle--e459a708-1e8d-4f9e-a8c3-0a9d8ea0c563",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:30:22.993Z",
+            "modified": "2026-05-12T16:30:18.377Z",
             "name": "Analytic 1733",
             "description": "Detects indirect evidence of host-side indicator removal by correlating (1) local artifact creation or compromise-state-relevant activity, (2) later disappearance, alteration, or reporting loss for those artifacts or state indicators, and (3) continued application or device activity under reduced visibility. Because iOS provides weaker direct visibility into some Android-style artifact and jailbreak-indicator manipulation patterns, the defender relies more on app-private artifact lifecycle changes, managed posture shifts, and continued runtime or network activity after expected evidence disappears.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

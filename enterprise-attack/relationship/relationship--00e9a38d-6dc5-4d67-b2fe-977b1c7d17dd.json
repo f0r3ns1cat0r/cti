@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a578fe52-fc3f-4d4a-89e3-a959514d658b",
+    "id": "bundle--601dc80a-8a66-4774-8532-b6c63a2ed6bb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--00e9a38d-6dc5-4d67-b2fe-977b1c7d17dd",
             "created": "2019-04-12T17:01:01.266Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Novetta Blockbuster Destructive Malware",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:53:03.959Z",
+            "modified": "2026-04-29T14:23:05.904Z",
             "description": "(Citation: Novetta Blockbuster)(Citation: Novetta Blockbuster Destructive Malware)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "tool--3ffbdc1f-d2bf-41ab-91a2-c7b857e98079",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

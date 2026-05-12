@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6c0b94f7-9063-488a-91a3-f7c76215e5bd",
+    "id": "bundle--e90d4c40-8747-49aa-a024-dc0c2d4cdbc0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7b30e00a-71c6-4ad8-b2a8-39f000156930",
             "created": "2025-10-21T03:20:18.390Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Medium KONNI Jan 2020",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T03:20:18.390Z",
+            "modified": "2026-04-29T14:23:06.094Z",
             "description": "[KONNI](https://attack.mitre.org/software/S0356) can gather information on connected drives and disk space from the victim\u2019s machine.(Citation: Talos Konni May 2017)(Citation: Medium KONNI Jan 2020)(Citation: Malwarebytes Konni Aug 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--86b92f6c-9c05-4c51-b361-4c7bb13e21a1",

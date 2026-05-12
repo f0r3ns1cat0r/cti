@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a2abafec-2136-453c-9907-d2ac4ce72969",
+    "id": "bundle--f743cf0b-c39c-4929-b87a-c7bac1754f88",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T09:59:02.687Z",
+            "modified": "2026-04-29T14:23:06.004Z",
             "description": "[PureCrypter](https://attack.mitre.org/software/S9019) has executed `Set-MpPreference -ExclusionPath` to exclude files or folders from Windows Defender scans.(Citation: Zscaler PureCrypter JUN 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--6f22487c-dbbf-4a5b-85ca-a8c85e8f2f80",

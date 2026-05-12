@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--81bfb550-c032-4a7d-9d40-83ebfa5298e0",
+    "id": "bundle--c0e8fd32-a164-41ad-bb46-b68074e01fc5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--467f79d6-edf7-4e6a-a0d7-8196cd406ce1",
             "created": "2019-04-17T18:43:36.286Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CheckPoint SpeakUp Feb 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:45:45.102Z",
+            "modified": "2026-04-29T14:23:06.021Z",
             "description": "[SpeakUp](https://attack.mitre.org/software/S0374) checks for availability of specific ports on servers.(Citation: CheckPoint SpeakUp Feb 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--a5575606-9b85-4e3d-9cd2-40ef30e3672d",
             "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

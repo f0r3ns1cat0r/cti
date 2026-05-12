@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--67df1965-9236-4276-94ea-ca04a7e38c6f",
+    "id": "bundle--1bb30197-8c17-466d-b2ab-a1080a3bf20f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cab0f984-4f65-4250-bf4d-36b8250dcba0",
             "created": "2025-10-17T11:56:12.897Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Unit 42 Medusa Group Medusa Ransomware January 2024",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-17T11:56:12.897Z",
+            "modified": "2026-04-29T14:23:06.202Z",
             "description": "[Medusa Ransomware](https://attack.mitre.org/software/S1244) has launched PowerShell scripts for execution and defense evasion.(Citation: Palo Alto Unit 42 Medusa Group Medusa Ransomware January 2024)(Citation: Security Scorecard Medusa Ransomware January 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--28d93902-30e7-4436-8885-6d312c51c9a3",

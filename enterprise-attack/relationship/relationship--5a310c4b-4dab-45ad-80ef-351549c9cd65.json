@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ea93266e-d1fb-4deb-83d6-a727d3028ebc",
+    "id": "bundle--ed13f631-b98f-40f8-b68a-11ce734b3932",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T23:03:47.401Z",
+            "modified": "2026-04-29T14:23:06.048Z",
             "description": "During the [Anthropic AI-orchestrated Campaign](https://attack.mitre.org/campaigns/C0062), the adversary used Claude Code to scan target infrastructure to identify potential vulnerabilities and to enumerate services and endpoints.(Citation: Anthropic AI Orchestrated Campaign NOV 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--590cd5b0-2421-4158-84a2-db13b5db02a3",

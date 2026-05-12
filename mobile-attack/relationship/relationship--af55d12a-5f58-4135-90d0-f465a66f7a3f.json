@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b7ca0ba7-e5f2-4371-a6b9-3eb0203457dc",
+    "id": "bundle--2d97fba2-94a3-4dcc-b66d-b513b28f2ef4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--af55d12a-5f58-4135-90d0-f465a66f7a3f",
             "created": "2020-07-15T20:20:59.305Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Bitdefender Mandrake",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:30:09.165Z",
+            "modified": "2026-04-29T14:23:06.164Z",
             "description": "[Mandrake](https://attack.mitre.org/software/S0485) abuses the accessibility service to prevent removing administrator permissions, accessibility permissions, and to set itself as the default SMS handler.(Citation: Bitdefender Mandrake)",
             "relationship_type": "uses",
             "source_ref": "malware--52c994fa-b6c8-45a8-9586-a4275cf19307",
             "target_ref": "attack-pattern--d1f1337e-aea7-454c-86bd-482a98ffaf62",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

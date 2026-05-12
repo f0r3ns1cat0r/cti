@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--74be7179-cc3a-43bc-a349-2a86c6f945c3",
+    "id": "bundle--360fab70-4b25-448f-8191-4405a391a5fc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-15T19:01:26.698Z",
+            "modified": "2026-04-29T14:23:06.208Z",
             "description": "[TruffleHog](https://attack.mitre.org/software/S9009) has gathered data from home directories of the victim environment.(Citation: Netskope Shai-Hulud November 2025)",
             "relationship_type": "uses",
             "source_ref": "tool--76f8a686-3157-481f-9af6-e8558883a8d6",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4a088c3f-4075-48bd-aeec-2ea385bd8eec",
+    "id": "bundle--daa4dbea-6b15-4b62-bce5-3d7f1b214052",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0bdac0c4-3faa-429c-9945-a5e3763bee23",
             "created": "2025-10-19T18:10:07.741Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Esentire ContagiousInterview BeaverTail InvisibleFerret November 2024",
@@ -43,7 +44,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-20T22:22:02.073Z",
+            "modified": "2026-04-29T14:23:05.919Z",
             "description": "[BeaverTail](https://attack.mitre.org/software/S1246) has executed malicious JavaScript code.(Citation: Esentire ContagiousInterview BeaverTail InvisibleFerret November 2024)(Citation: Recorded Future Contagious Inteview BeaverTail InvisibleFerret OtterCookie February 2025)(Citation: ESET Contagious Interview BeaverTail InvisibleFerret February 2025)(Citation: Zscaler ContagiousInterview BeaverTail InvisibleFerret November 2024)(Citation: PaloAlto ContagiousInterview BeaverTail InvisibleFerret November 2023) [BeaverTail](https://attack.mitre.org/software/S1246) has also been compiled with the Qt framework to execute in both Windows and macOS.(Citation: PaloAlto Unit42 ContagiousInterview BeaverTail InvisibileFerret October 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--6055aee2-d1c6-4877-94e9-a3bde9936470",

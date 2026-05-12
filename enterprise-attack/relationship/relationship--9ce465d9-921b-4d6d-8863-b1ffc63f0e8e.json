@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3824d92a-8e87-43bf-9985-329c65c03a6d",
+    "id": "bundle--ee4e6d15-bc7e-4229-ab33-203da0fcf83b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9ce465d9-921b-4d6d-8863-b1ffc63f0e8e",
             "created": "2021-03-12T14:10:50.038Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Leonardo Turla Penquin May 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:35:08.838Z",
+            "modified": "2026-04-29T14:23:06.139Z",
             "description": "[Penquin](https://attack.mitre.org/software/S0587) can encrypt communications using the BlowFish algorithm and a symmetric key exchanged with Diffie Hellman.(Citation: Leonardo Turla Penquin May 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--d18cb958-f4ad-4fb3-bb4f-e8994d206550",
             "target_ref": "attack-pattern--bf176076-b789-408e-8cba-7275e81c0ada",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

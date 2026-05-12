@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a599f1e3-b3e9-4065-b035-0651abb74ca8",
+    "id": "bundle--e20b542d-a285-4a38-9309-c85e3df3cc6a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--63c9cdd8-0e64-46dd-9459-3d64828b0cc7",
             "created": "2019-07-19T14:30:22.462Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TechNet Server Operator Scheduled Task",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:51:06.478Z",
+            "modified": "2026-04-29T14:23:06.061Z",
             "description": "Configure settings for scheduled tasks to force tasks to run under the context of the authenticated account instead of allowing them to run as SYSTEM. The associated Registry key is located at <code>HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\SubmitControl</code>. The setting can be configured through GPO: Computer Configuration > [Policies] > Windows Settings > Security Settings > Local Policies > Security Options: Domain Controller: Allow server operators to schedule tasks, set to disabled. (Citation: TechNet Server Operator Scheduled Task)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--2f316f6c-ae42-44fe-adf8-150989e0f6d3",
             "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6979f611-2c35-4b75-8289-fd2b8578e3e6",
+    "id": "bundle--c8dc9005-451d-4da6-927e-46d001a15b9a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9b5e2072-35e7-4c62-baea-0e9d31df91f2",
             "created": "2019-06-14T16:51:02.198Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CitizenLab KeyBoy Nov 2016",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:01:43.110Z",
+            "modified": "2026-04-29T14:23:06.137Z",
             "description": "[KeyBoy](https://attack.mitre.org/software/S0387) uses VBS scripts for installing files and performing execution.(Citation: CitizenLab KeyBoy Nov 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--5dd649c0-bca4-488b-bd85-b180474ec62e",
             "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

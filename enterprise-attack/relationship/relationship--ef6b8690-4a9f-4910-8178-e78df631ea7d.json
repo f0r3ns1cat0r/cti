@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--88913cff-a41e-45f6-aa40-56b96ae79490",
+    "id": "bundle--253f084b-ee5b-45ea-bd62-8a00de619f79",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:53:21.787Z",
+            "modified": "2026-04-29T14:23:06.251Z",
             "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) has used appcmd.exe to disable logging on a victim server.(Citation: SecureWorks BRONZE UNION June 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",

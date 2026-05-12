@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a31fb2a8-5c3f-4ee0-b763-de86204da7d6",
+    "id": "bundle--770bb09d-2adb-4522-9b80-0011479a6047",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--848da21a-d33d-4dc4-a948-4b0e30963d30",
             "created": "2025-07-22T16:40:24.967Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit42 Bookworm Nov2015",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-25T13:31:47.250Z",
+            "modified": "2026-04-29T14:23:06.106Z",
             "description": "[BOOKWORM](https://attack.mitre.org/software/S1226) has created services that attempt to resemble legitimate services to include a service named `Microsoft Windows DeviceSync Service`.(Citation: Unit42 Bookworm Nov2015)",
             "relationship_type": "uses",
             "source_ref": "malware--2ceddaf9-b16a-4f8b-b252-bcccccd3d79f",

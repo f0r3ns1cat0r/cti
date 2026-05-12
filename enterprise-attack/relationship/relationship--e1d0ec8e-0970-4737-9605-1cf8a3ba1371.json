@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--83f0f3ff-8c16-4bcd-a3f6-9755619011bc",
+    "id": "bundle--45b01952-182c-44ee-b8fe-02d137c43135",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e1d0ec8e-0970-4737-9605-1cf8a3ba1371",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET InvisiMole June 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:14:13.114Z",
+            "modified": "2026-04-29T14:23:06.233Z",
             "description": "[InvisiMole](https://attack.mitre.org/software/S0260) can gather network share information.(Citation: ESET InvisiMole June 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--47afe41c-4c08-485e-b062-c3bd209a1cce",
             "target_ref": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

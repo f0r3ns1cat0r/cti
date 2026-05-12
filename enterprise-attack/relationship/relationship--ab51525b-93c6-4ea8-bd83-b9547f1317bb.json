@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--82a11644-630d-46d0-886d-2126a46689ea",
+    "id": "bundle--dd8c4d9c-f9f1-4fcf-b9c4-2465e97c7c2f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ab51525b-93c6-4ea8-bd83-b9547f1317bb",
             "created": "2017-05-31T21:33:27.049Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant No Easy Breach",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:38:48.482Z",
+            "modified": "2026-04-29T14:23:06.158Z",
             "description": "[APT29](https://attack.mitre.org/groups/G0016) used WMI to steal credentials and execute backdoors at a future time.(Citation: Mandiant No Easy Breach)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
             "target_ref": "attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

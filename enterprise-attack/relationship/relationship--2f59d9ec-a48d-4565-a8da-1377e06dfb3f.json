@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6d95e554-3a5f-4c66-a75c-4beb1970e18d",
+    "id": "bundle--22a8eed7-0818-4e9a-9c19-3f694c142fb8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--2f59d9ec-a48d-4565-a8da-1377e06dfb3f",
             "created": "2025-10-21T22:51:50.897Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit42 Cannon Nov 2018",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T22:51:50.897Z",
+            "modified": "2026-04-29T14:23:05.971Z",
             "description": "[Cannon](https://attack.mitre.org/software/S0351) can gather drive information from the victim's machine.(Citation: Unit42 Cannon Nov 2018)(Citation: Unit42 Sofacy Dec 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--d20b397a-ea47-48a9-b503-2e2a3551e11d",

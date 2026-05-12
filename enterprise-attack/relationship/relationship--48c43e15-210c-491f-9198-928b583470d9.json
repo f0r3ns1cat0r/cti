@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--40682a38-604a-4960-a01e-808a560a6ea5",
+    "id": "bundle--f56d8228-8840-4d7d-9da4-a375731d5f43",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--48c43e15-210c-491f-9198-928b583470d9",
             "created": "2021-04-16T19:04:13.566Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MSTIC NOBELIUM May 2021",
@@ -38,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T16:22:04.141Z",
+            "modified": "2026-04-29T14:23:06.024Z",
             "description": "(Citation: MSTIC NOBELIUM Mar 2021)(Citation: Cybersecurity Advisory SVR TTP May 2021)(Citation: MSTIC NOBELIUM May 2021)(Citation: MSTIC Nobelium Toolset May 2021)(Citation: Secureworks IRON RITUAL Profile)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",

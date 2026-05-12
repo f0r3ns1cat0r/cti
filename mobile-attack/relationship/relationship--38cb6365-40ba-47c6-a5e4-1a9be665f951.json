@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--99f45cc2-1e33-4d98-a244-3d0e821c1946",
+    "id": "bundle--aeb923ef-8a02-45c0-822d-86116b2900b2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--38cb6365-40ba-47c6-a5e4-1a9be665f951",
             "created": "2023-01-19T18:08:14.716Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "trendmicro_tianyspy_0122",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:48:00.312Z",
+            "modified": "2026-04-29T14:23:05.998Z",
             "description": "[TianySpy](https://attack.mitre.org/software/S1056) has encrypted C2 details, email addresses, and passwords.(Citation: trendmicro_tianyspy_0122) ",
             "relationship_type": "uses",
             "source_ref": "malware--fd6d56b2-d84e-4d2a-b37d-d4678d3e08a6",
             "target_ref": "attack-pattern--d13fa042-8f26-44e1-a2a8-af0bf8e2ac9a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

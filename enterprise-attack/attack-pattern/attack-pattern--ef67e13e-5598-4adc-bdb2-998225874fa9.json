@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--47441935-81ff-4188-b49c-7f63c7e9b458",
+    "id": "bundle--e4216646-187c-4ee5-8cf3-870c767dd24b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:49:35.144Z",
+            "modified": "2026-05-12T15:12:00.723Z",
             "name": "Malicious Link",
             "description": "An adversary may rely upon a user clicking a malicious link in order to gain execution. Users may be subjected to social engineering to get them to click on a link that will lead to code execution. This user action will typically be observed as follow-on behavior from [Spearphishing Link](https://attack.mitre.org/techniques/T1566/002). Clicking on a link may also lead to other execution techniques such as exploitation of a browser or application vulnerability via [Exploitation for Client Execution](https://attack.mitre.org/techniques/T1203). Links may also lead users to download files that require execution via [Malicious File](https://attack.mitre.org/techniques/T1204/002).",
             "kill_chain_phases": [
@@ -28,7 +28,7 @@
                     "phase_name": "execution"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "enterprise-attack"

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cc0c2afa-7391-484d-a0cf-bc9792d81a3b",
+    "id": "bundle--82bca283-e7a7-4f53-b7b5-3dcbb3a9cac0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--83c0f19f-e827-4e82-b771-a322fbe2b337",
             "created": "2025-01-08T17:45:14.003Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant APT42-charms",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:28:20.256Z",
+            "modified": "2026-04-29T14:23:06.105Z",
             "description": "[APT42](https://attack.mitre.org/groups/G1044) has used scheduled tasks for persistence.(Citation: Mandiant APT42-charms) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c0291346-defe-48d7-9542-9e074ba1bdfb",
             "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

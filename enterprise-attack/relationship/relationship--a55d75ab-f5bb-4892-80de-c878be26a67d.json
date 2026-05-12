@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d53583ee-05b4-413d-be5e-711193ddd40c",
+    "id": "bundle--bcd08207-80cc-482e-b47c-2d938e2a37cd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a55d75ab-f5bb-4892-80de-c878be26a67d",
             "created": "2019-10-05T02:35:42.069Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Leafminer July 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:03:30.318Z",
+            "modified": "2026-04-29T14:23:06.150Z",
             "description": "(Citation: Symantec Leafminer July 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--32bca8ff-d900-4877-aa65-d70baa041b74",
             "target_ref": "tool--999c4e6e-b8dc-4b4f-8d6e-1b829f29997e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

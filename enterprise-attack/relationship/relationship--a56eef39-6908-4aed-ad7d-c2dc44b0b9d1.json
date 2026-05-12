@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bb4e839b-8258-4675-b85e-7896fff54da6",
+    "id": "bundle--7f959341-1464-4ca3-9d9e-9996cb81eb4b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a56eef39-6908-4aed-ad7d-c2dc44b0b9d1",
             "created": "2024-04-12T10:56:02.914Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "NGLite Trojan",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:37:19.742Z",
+            "modified": "2026-04-29T14:23:06.150Z",
             "description": "[NGLite](https://attack.mitre.org/software/S1106) will use an AES encrypted channel for command and control purposes, in one case using the key <code>WHATswrongwithUu</code>.(Citation: NGLite Trojan)",
             "relationship_type": "uses",
             "source_ref": "malware--72b5f07f-5448-4e00-9ff2-08bc193a7b77",
             "target_ref": "attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

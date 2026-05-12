@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9f317705-233f-4e50-b675-b1b897832748",
+    "id": "bundle--36272c6b-2ee5-4fdf-80ce-96ea9856ee7c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6a87a107-e607-460b-a08c-cc693b15268c",
             "created": "2024-03-26T19:31:52.738Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "sophos_android_apt_spyware",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:49:17.864Z",
+            "modified": "2026-04-29T14:23:06.070Z",
             "description": "[SpyC23](https://attack.mitre.org/software/S1195) can exfiltrate the victim device\u2019s contact list.(Citation: welivesecurity_apt-c-23)(Citation: sophos_android_apt_spyware)(Citation: threatpost AndroidSpyware 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--95811c0a-abe0-4e7f-a0cc-b0662ced5807",
             "target_ref": "attack-pattern--e0b9ecb8-a7d1-43c7-aa30-8e19c6a92c86",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

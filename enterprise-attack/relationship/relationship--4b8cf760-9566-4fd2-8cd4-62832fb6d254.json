@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c3871d5e-4998-4768-a55c-db45fd863adb",
+    "id": "bundle--28c0e4c7-8465-48bc-9924-49b698defe45",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:35:40.511Z",
+            "modified": "2026-04-29T14:23:06.028Z",
             "description": "[NotPetya](https://attack.mitre.org/software/S0368) uses <code>wevtutil</code> to clear the Windows event logs.(Citation: Talos Nyetya June 2017)(Citation: US District Court Indictment GRU Unit 74455 October 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--5719af9d-6b16-46f9-9b28-fb019541ddbb",

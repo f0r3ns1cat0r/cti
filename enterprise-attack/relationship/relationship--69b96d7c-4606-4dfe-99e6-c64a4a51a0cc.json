@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2bf5e2cc-972f-48df-be07-700177353067",
+    "id": "bundle--7ea938f4-29b7-4c4a-be80-257bc75e4a02",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T10:06:44.397Z",
+            "modified": "2026-04-29T14:23:06.069Z",
             "description": "[PureCrypter](https://attack.mitre.org/software/S9019) can use `kernel32!GetGeoInfo` to determine system location.(Citation: Zscaler PureCrypter JUN 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--6f22487c-dbbf-4a5b-85ca-a8c85e8f2f80",

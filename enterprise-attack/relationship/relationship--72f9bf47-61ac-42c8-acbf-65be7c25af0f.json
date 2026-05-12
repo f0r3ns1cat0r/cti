@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4ddb8263-dee7-4f07-8db1-08a1220ee620",
+    "id": "bundle--f85149ed-12f5-4e26-9617-4444d921b7cc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--72f9bf47-61ac-42c8-acbf-65be7c25af0f",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET OceanLotus",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:53:59.980Z",
+            "modified": "2026-04-29T14:23:06.082Z",
             "description": "[APT32](https://attack.mitre.org/groups/G0050) has infected victims by tricking them into visiting compromised watering hole websites.(Citation: ESET OceanLotus)(Citation: Volexity Ocean Lotus November 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

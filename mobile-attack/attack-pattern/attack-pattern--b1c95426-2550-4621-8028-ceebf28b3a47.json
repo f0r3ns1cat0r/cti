@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b80b6daa-8dc8-43f9-9141-451109e1fa53",
+    "id": "bundle--b8581f3c-f3cc-41ba-a689-c7a9c730f543",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:49:14.276Z",
+            "modified": "2026-05-12T15:12:00.707Z",
             "name": "Keylogging",
             "description": "Adversaries may log user keystrokes to intercept credentials or other information from the user as the user types them.\n\nSome methods of keylogging include:\n\n* Masquerading as a legitimate third-party keyboard to record user keystrokes.(Citation: Zeltser-Keyboard) On both Android and iOS, users must explicitly authorize the use of third-party keyboard apps. Users should be advised to use extreme caution before granting this authorization when it is requested.\n* Abusing accessibility features. On Android, adversaries may abuse accessibility features to record keystrokes by registering an `AccessibilityService` class, overriding the `onAccessibilityEvent` method, and listening for the `AccessibilityEvent.TYPE_VIEW_TEXT_CHANGED` event type. The event object passed into the function will contain the data that the user typed. \n*Additional methods of keylogging may be possible if root access is available. \n",
             "kill_chain_phases": [
@@ -42,7 +42,7 @@
                     "phase_name": "credential-access"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "mobile-attack"

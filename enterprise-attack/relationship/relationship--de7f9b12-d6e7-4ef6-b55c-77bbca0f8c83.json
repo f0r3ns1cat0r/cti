@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--300a4c04-c768-4d47-803c-5e2736a4b640",
+    "id": "bundle--be3a4307-5c69-4783-89e2-80f031f6cb5a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--de7f9b12-d6e7-4ef6-b55c-77bbca0f8c83",
             "created": "2023-04-10T22:13:19.190Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Rapid7 HAFNIUM Mar 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:52:05.356Z",
+            "modified": "2026-04-29T14:23:06.229Z",
             "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has enumerated domain controllers using `net group \"Domain computers\"` and `nltest /dclist`.(Citation: Rapid7 HAFNIUM Mar 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
             "target_ref": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

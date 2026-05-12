@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ab677a6e-76e9-40b1-bffa-334c997fa38a",
+    "id": "bundle--a4b86650-c73f-4e8c-b935-0d1c6c4306b5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:16:16.923Z",
+            "modified": "2026-04-29T14:23:06.115Z",
             "description": "[Storm-1811](https://attack.mitre.org/groups/G1046) impersonates help desk and IT support personnel for phishing and social engineering purposes during initial access to victim environments.(Citation: Microsoft Storm-1811 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--319fd652-edde-46b2-9987-3519493989f5",

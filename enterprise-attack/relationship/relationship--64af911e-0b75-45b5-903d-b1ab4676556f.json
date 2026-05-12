@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8bcbf978-da93-42d8-8644-8362dd553d27",
+    "id": "bundle--76155cbf-f4ee-4bb8-b81d-e4b597f80d6a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--64af911e-0b75-45b5-903d-b1ab4676556f",
             "created": "2019-06-25T14:33:33.700Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Wikipedia 802.1x",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:51:15.821Z",
+            "modified": "2026-04-29T14:23:06.062Z",
             "description": "Establish network access control policies, such as using device certificates and the 802.1x standard. (Citation: Wikipedia 802.1x) Restrict use of DHCP to registered devices to prevent unregistered devices from communicating with trusted systems.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--1dcaeb21-9348-42ea-950a-f842aaf1ae1f",
             "target_ref": "attack-pattern--d40239b3-05ff-46d8-9bdd-b46d13463ef9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

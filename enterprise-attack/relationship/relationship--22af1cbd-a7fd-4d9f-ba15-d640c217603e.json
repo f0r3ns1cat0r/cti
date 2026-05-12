@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--83e8f95c-d6b5-49b3-a9e0-e57e14595e5f",
+    "id": "bundle--c0fcdbea-f300-41ec-9956-9060689bf6d5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--22af1cbd-a7fd-4d9f-ba15-d640c217603e",
             "created": "2019-09-23T23:18:23.730Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT41 Aug 2019",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:02:13.295Z",
+            "modified": "2026-04-29T14:23:05.952Z",
             "description": "[APT41](https://attack.mitre.org/groups/G0096) used a variant of [PlugX](https://attack.mitre.org/software/S0013) to connect to Windows and Linux systems via SSH and Samba/CIFS.(Citation: apt41_mandiant)(Citation: FireEye APT41 Aug 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
             "target_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

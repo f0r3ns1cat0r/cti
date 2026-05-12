@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1f88f402-67e7-4856-abe7-ddb1c9921b27",
+    "id": "bundle--0a2d150f-0554-4bf6-ba35-f26af85e6eb8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b5e8cef4-e8a1-484f-baae-cf12b26e6070",
             "created": "2020-12-18T20:14:47.302Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "WhiteOps TERRACOTTA",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:51:02.974Z",
+            "modified": "2026-04-29T14:23:06.174Z",
             "description": "[TERRACOTTA](https://attack.mitre.org/software/S0545) has used Firebase for C2 communication.(Citation: WhiteOps TERRACOTTA)",
             "relationship_type": "uses",
             "source_ref": "malware--e296b110-46d3-4f7a-894c-cc71ea50168c",
             "target_ref": "attack-pattern--939808a7-121d-467a-b028-4441ee8b7cee",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

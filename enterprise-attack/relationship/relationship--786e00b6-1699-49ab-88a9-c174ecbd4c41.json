@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cdf0609d-08cd-41f3-83ea-c613972d08f6",
+    "id": "bundle--ac1b65bf-233e-4672-ae40-ebde5e37b743",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:01:42.251Z",
+            "modified": "2026-04-29T14:23:06.090Z",
             "description": "[FIN5](https://attack.mitre.org/groups/G0053) has cleared event logs from victims.(Citation: Mandiant FIN5 GrrCON Oct 2016)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",

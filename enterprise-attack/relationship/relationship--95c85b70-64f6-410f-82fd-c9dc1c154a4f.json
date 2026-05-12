@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--93a4a18a-f48d-44a8-9712-3f73a8cbd14a",
+    "id": "bundle--723ef78d-e640-4404-8183-bc23d5b30c8f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--95c85b70-64f6-410f-82fd-c9dc1c154a4f",
             "created": "2025-12-16T00:13:31.515Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SophosGnGal_SystemBC_Dec2020",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-12-16T00:13:31.515Z",
+            "modified": "2026-04-29T14:23:06.129Z",
             "description": "[SystemBC](https://attack.mitre.org/software/S9001) has leveraged the Sleep functions before and after commands to ensure execution using the hexadecimal values within commands to include `Sleep(0x2710u)` that waits 10 seconds, and `Sleep(0xEA60u)` for 60 seconds.(Citation: SophosGnGal_SystemBC_Dec2020)  ",
             "relationship_type": "uses",
             "source_ref": "malware--39643fb9-00c1-4a45-85e5-801a3f2665d1",

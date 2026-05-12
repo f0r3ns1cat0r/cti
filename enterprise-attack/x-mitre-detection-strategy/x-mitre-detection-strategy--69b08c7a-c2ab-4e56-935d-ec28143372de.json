@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--4bbcab63-b58e-41cb-8b46-414b50f3a1dc",
+    "id": "bundle--a8809653-e80a-49c5-b2dd-2f1f04e40db4",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--69b08c7a-c2ab-4e56-935d-ec28143372de",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.680Z",
             "name": "Detect Access and Decryption of Group Policy Preference (GPP) Credentials in SYSVOL",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -29,8 +30,7 @@
             ],
             "x_mitre_analytic_refs": [
                 "x-mitre-analytic--e14e67af-6f6e-47d6-aa19-4012ea99284c"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

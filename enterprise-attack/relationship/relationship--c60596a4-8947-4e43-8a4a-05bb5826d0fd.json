@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a8f7f886-3952-44c4-9ecd-b92ee1289cd6",
+    "id": "bundle--e82f4afa-c065-4593-9c95-abbf8c9d028c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c60596a4-8947-4e43-8a4a-05bb5826d0fd",
             "created": "2025-09-29T19:06:43.596Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelOne Qilin NOV 2022",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-29T19:37:58.950Z",
+            "modified": "2026-04-29T14:23:06.196Z",
             "description": "[Qilin](https://attack.mitre.org/software/S1242) has been delivered to victims through spearphishing emails with malicious attachments.(Citation: SentinelOne Qilin NOV 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--e23d2777-b85d-44fc-861e-9149d399fbb9",

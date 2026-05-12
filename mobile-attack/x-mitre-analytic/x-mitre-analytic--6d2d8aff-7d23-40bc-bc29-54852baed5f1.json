@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--762ca526-9bcd-4abe-9c1e-b79ed801b904",
+    "id": "bundle--f5355576-6aa4-488d-ac51-4c2d7abc5b4f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-02-23T17:58:13.523Z",
+            "modified": "2026-05-12T16:30:18.378Z",
             "name": "Analytic 1756",
             "description": "Defender observes a mobile device engaging remote or internal services with traffic characteristics inconsistent with normal application behavior, followed by execution anomalies, application instability, or security context deviations consistent with exploitation effects.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

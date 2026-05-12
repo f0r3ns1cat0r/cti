@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2588a7c7-fd34-4a16-8b15-f327548148b0",
+    "id": "bundle--a0189da7-0d8a-4e4a-a91c-875f7ee0767d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--afa8a693-6e2f-40e8-a78d-2710e9683e4e",
             "created": "2025-10-22T02:24:06.184Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Novetta Blockbuster Destructive Malware",
@@ -43,7 +44,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T02:24:06.184Z",
+            "modified": "2026-04-29T14:23:06.164Z",
             "description": "A Destover-like variant used by [Lazarus Group](https://attack.mitre.org/groups/G0032) collects disk space information and sends it to its C2 server.(Citation: Novetta Blockbuster)(Citation: Novetta Blockbuster Destructive Malware)(Citation: Novetta Blockbuster Loaders)(Citation: McAfee Lazarus Resurfaces Feb 2018)(Citation: McAfee GhostSecret)(Citation: Lazarus APT January 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",

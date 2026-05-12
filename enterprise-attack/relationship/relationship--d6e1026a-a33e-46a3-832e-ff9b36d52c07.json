@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--49b68289-bc04-4b87-8f69-f1ba61fc0f08",
+    "id": "bundle--642ee7fb-a036-48b4-b196-575d902523dd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d6e1026a-a33e-46a3-832e-ff9b36d52c07",
             "created": "2021-10-01T01:57:31.609Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco Talos Intelligence Group",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:50:12.657Z",
+            "modified": "2026-04-29T14:23:06.219Z",
             "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has added RSA keys in <code>authorized_keys</code>.(Citation: Aqua TeamTNT August 2020)(Citation: Cisco Talos Intelligence Group)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
             "target_ref": "attack-pattern--6b57dc31-b814-4a03-8706-28bc20d739c4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

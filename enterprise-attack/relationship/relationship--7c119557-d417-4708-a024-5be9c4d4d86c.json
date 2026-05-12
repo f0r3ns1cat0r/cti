@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7d2f86b7-75e7-4503-83a5-660beb26d5d9",
+    "id": "bundle--a8025bc3-7489-4450-af80-afac78b16395",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7c119557-d417-4708-a024-5be9c4d4d86c",
             "created": "2020-05-06T17:47:43.569Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "JPCert BlackTech Malware September 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:55:52.918Z",
+            "modified": "2026-04-29T14:23:06.095Z",
             "description": "[TSCookie](https://attack.mitre.org/software/S0436) has the ability to proxy communications with command and control (C2) servers.(Citation: JPCert BlackTech Malware September 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--76ac7989-c5cc-42e2-93e3-d6c476f01ace",
             "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

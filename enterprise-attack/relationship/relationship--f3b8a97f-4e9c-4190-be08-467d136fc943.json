@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--54e672c1-5226-47fc-bfd8-437843708bc0",
+    "id": "bundle--e7982f4b-fcbe-4239-9370-91aff3f3f9d4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f3b8a97f-4e9c-4190-be08-467d136fc943",
             "created": "2020-03-20T23:11:09.649Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Sednit Part 2",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:17:15.339Z",
+            "modified": "2026-04-29T14:23:06.256Z",
             "description": "[CHOPSTICK](https://attack.mitre.org/software/S0023) encrypts C2 communications with TLS.(Citation: ESET Sednit Part 2)",
             "relationship_type": "uses",
             "source_ref": "malware--ccd61dfc-b03f-4689-8c18-7c97eab08472",
             "target_ref": "attack-pattern--bf176076-b789-408e-8cba-7275e81c0ada",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

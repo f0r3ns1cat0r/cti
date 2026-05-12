@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8c8e24dd-c248-4484-b4e2-af202852ca43",
+    "id": "bundle--e0a0735d-22d6-4dae-843a-ffde28445868",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:17:31.125Z",
+            "modified": "2026-04-29T14:23:06.027Z",
             "description": "[Brave Prince](https://attack.mitre.org/software/S0252) terminates antimalware processes.(Citation: McAfee Gold Dragon)",
             "relationship_type": "uses",
             "source_ref": "malware--28b97733-ef07-4414-aaa5-df50b2d30cc5",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8c8eed34-fbe2-4198-b441-c69c38bf5b2c",
+    "id": "bundle--37f1004a-3332-42d1-b2ff-f9f9e5538fc9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-16T15:51:26.313Z",
+            "modified": "2026-05-12T16:30:18.376Z",
             "name": "Analytic 1759",
             "description": "Correlates app sandbox escape attempts via unsigned binary execution, mmap memory permission changes (RWX), and sandbox profile violations. Detection chain includes app leveraging JIT/JSC to execute shellcode or triggering kernel exploit via crafted IOKit or Mach port abuse.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

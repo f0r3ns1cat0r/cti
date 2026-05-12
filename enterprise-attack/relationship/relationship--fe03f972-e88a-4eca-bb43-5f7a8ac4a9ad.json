@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--54effd04-40ce-4565-83b7-12449fa49504",
+    "id": "bundle--aec8f853-ae9e-46b8-9ece-7373dd9bd6f0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:15:32.959Z",
+            "modified": "2026-04-29T14:23:06.270Z",
             "description": "Use application controls to mitigate installation and use of payloads that may be utilized to spoof security alerting.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--47e0e9fe-96ce-4f65-8bb1-8be1feacb5db",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--31ff17e7-aed8-4c71-9d1d-e827249f5328",
+    "id": "bundle--8daf9d6d-1ff1-4131-bc5f-bf8e98362860",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1501c966-8f40-4093-b0d1-b3d572b3a1ee",
             "created": "2022-06-09T15:00:35.495Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET DazzleSpy Jan 2022",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T03:17:23.157Z",
+            "modified": "2026-04-29T14:23:05.933Z",
             "description": "[MacMa](https://attack.mitre.org/software/S1016) can collect information about a compromised computer, including: Hardware UUID, Mac serial number, and macOS version.(Citation: ESET DazzleSpy Jan 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--bdee9574-7479-4073-a7dc-e86d8acd073a",

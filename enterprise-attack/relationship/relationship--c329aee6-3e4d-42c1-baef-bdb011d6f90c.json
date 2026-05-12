@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--99e21573-00fb-49e3-8585-21c86f4bd61c",
+    "id": "bundle--740c34bb-7318-44c9-b3a4-d6868245c3bf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T00:14:29.745Z",
+            "modified": "2026-04-29T14:23:06.192Z",
             "description": "[Cyclops Blink](https://attack.mitre.org/software/S0687) can modify the Linux iptables firewall to enable C2 communication on network devices via a stored list of port numbers.(Citation: NCSC Cyclops Blink February 2022)(Citation: Trend Micro Cyclops Blink March 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--b350b47f-88fe-4921-8538-6d9c59bac84e",

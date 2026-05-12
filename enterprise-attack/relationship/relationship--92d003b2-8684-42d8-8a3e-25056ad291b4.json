@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2ceee325-84cc-4699-bf8d-790a42b2b81a",
+    "id": "bundle--e72d9fc6-8a00-4cf6-bb81-3bed3ac02ac6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--92d003b2-8684-42d8-8a3e-25056ad291b4",
             "created": "2025-01-29T21:24:24.253Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Zscaler Kimsuky TRANSLATEXT",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:32:21.008Z",
+            "modified": "2026-04-29T14:23:06.125Z",
             "description": "[TRANSLATEXT](https://attack.mitre.org/software/S1201) has the ability to capture credentials, cookies, browser screenshots, etc. and to exfiltrate data.(Citation: Zscaler Kimsuky TRANSLATEXT) ",
             "relationship_type": "uses",
             "source_ref": "malware--4b72b6a7-72be-45d9-af02-fdcf0fc6d358",
             "target_ref": "attack-pattern--278716b1-61ce-4a74-8d17-891d0c494101",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

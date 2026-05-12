@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9e6446db-6d20-49e9-9652-5d18ad7083d0",
+    "id": "bundle--edd52222-083b-41ea-a405-f317dd0a692b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T21:57:01.547Z",
+            "modified": "2026-04-29T14:23:05.986Z",
             "description": "For .NET payloads, [HeartCrypt](https://attack.mitre.org/software/S9018) can use process hollowing to inject into processes spawned by csc.exe or AppLaunch.exe.(Citation: Palo Alto HeartCrypt DEC 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--148f947c-aabd-4ba8-b6a3-22b296855119",

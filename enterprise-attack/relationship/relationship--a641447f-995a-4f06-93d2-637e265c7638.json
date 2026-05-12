@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0bb644e5-680b-40f7-a29e-3fb0e45bc59e",
+    "id": "bundle--4706dc5c-ae3c-4c60-9776-09bb13713cc5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a641447f-995a-4f06-93d2-637e265c7638",
             "created": "2021-10-01T01:57:31.657Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ATT TeamTNT Chimaera September 2020",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T03:04:39.273Z",
+            "modified": "2026-04-29T14:23:06.151Z",
             "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has searched for system version, architecture, and hostname information.(Citation: ATT TeamTNT Chimaera September 2020)(Citation: Cisco Talos Intelligence Group)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",

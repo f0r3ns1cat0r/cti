@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d7a415c6-41d2-4fdc-900a-40b2d920ab7f",
+    "id": "bundle--c276d98a-a3c0-457c-86ca-afb03d1c062c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bbc6308e-f7f6-40c7-80cb-f760d623c8af",
             "created": "2023-01-18T21:20:01.333Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "nccgroup_sharkbot_0322",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:51:10.680Z",
+            "modified": "2026-04-29T14:23:06.182Z",
             "description": "[SharkBot](https://attack.mitre.org/software/S1055) can use HTTP to send C2 messages to infected devices.(Citation: nccgroup_sharkbot_0322)",
             "relationship_type": "uses",
             "source_ref": "malware--9cd72f5c-bec0-4f7e-bb6d-296937116291",
             "target_ref": "attack-pattern--2282a98b-5049-4f61-9381-55baca7c1add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

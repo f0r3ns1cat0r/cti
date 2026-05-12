@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7af22367-8c82-4523-99ce-f8883640830c",
+    "id": "bundle--d442b436-bee6-497d-b932-948b7ab15419",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8f8d7305-96e8-46c9-8fb9-1a1b85c8fbe5",
             "created": "2025-09-29T19:32:14.714Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sophos Qilin MSP APR 2025",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-30T18:31:59.414Z",
+            "modified": "2026-04-29T14:23:06.121Z",
             "description": "[Qilin](https://attack.mitre.org/software/S1242) has been executed by luring victims into clicking links in spearphishing emails.(Citation: SentinelOne Qilin NOV 2022)(Citation: Sophos Qilin MSP APR 2025)\n",
             "relationship_type": "uses",
             "source_ref": "malware--e23d2777-b85d-44fc-861e-9149d399fbb9",

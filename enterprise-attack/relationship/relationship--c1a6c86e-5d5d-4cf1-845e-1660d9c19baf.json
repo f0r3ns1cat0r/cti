@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4b105525-3d08-45db-8fed-be147402e631",
+    "id": "bundle--c8e98b08-dceb-4155-adc5-731e7af99676",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c1a6c86e-5d5d-4cf1-845e-1660d9c19baf",
             "created": "2019-06-13T16:59:18.442Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Common Conditional Access Policies",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:44:38.465Z",
+            "modified": "2026-04-29T14:23:06.190Z",
             "description": "Set account lockout policies after a certain number of failed login attempts to prevent passwords from being guessed. Too strict a policy may create a denial of service condition and render environments un-usable, with all accounts used in the brute force being locked-out. Use conditional access policies to block logins from non-compliant devices or from outside defined organization IP ranges.(Citation: Microsoft Common Conditional Access Policies) Consider blocking risky authentication requests, such as those originating from anonymizing services/proxies.(Citation: Okta Block Anonymizing Services)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--f9f9e6ef-bc0a-41ad-ba11-0924e5e84c4c",
             "target_ref": "attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

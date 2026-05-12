@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--964e534c-f5e6-4e61-8ad9-d1b029c17e19",
+    "id": "bundle--44e2ad3a-4eb7-4a4c-afca-ecd4c53578c8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6612c397-71c8-401b-a6ae-98f4b8a1ffac",
             "created": "2025-09-12T17:10:00.566Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "2025_IBM_PUBLOAD_TONESHELL_HIUPAN_CLAIMLOADER_MUSTANG PANDA",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-12T17:10:00.566Z",
+            "modified": "2026-04-29T14:23:06.064Z",
             "description": "[CLAIMLOADER](https://attack.mitre.org/software/S1236) has modified file attributes to remain hidden to a standard user.(Citation: 2025_IBM_PUBLOAD_TONESHELL_HIUPAN_CLAIMLOADER_MUSTANG PANDA)",
             "relationship_type": "uses",
             "source_ref": "malware--47e4b55a-7803-4bf5-822c-906a1ecbdd6e",

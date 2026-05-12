@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--599a2e57-aaae-42ac-a33c-98a78085cb6d",
+    "id": "bundle--59ec6d7e-7f37-43de-9f6c-66f22ea9eb96",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:46.514Z",
+            "modified": "2026-05-12T15:12:00.632Z",
             "name": "Software Packing",
             "description": "Adversaries may perform software packing to conceal their code. Software packing is a method of compressing or encrypting an executable. Packing an executable changes the file signature in an attempt to avoid signature-based detection. Most decompression techniques decompress the executable code in memory. \n\nUtilities used to perform software packing are called packers. An example packer is FTT. A more comprehensive list of known packers is available, but adversaries may create their own packing techniques that do not leave the same artifacts as well-known packers to evade defenses.",
             "kill_chain_phases": [
@@ -28,7 +28,7 @@
                     "phase_name": "defense-evasion"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "mobile-attack"

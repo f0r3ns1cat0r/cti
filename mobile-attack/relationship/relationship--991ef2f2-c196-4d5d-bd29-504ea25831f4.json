@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a6591ba2-b31a-4771-b919-0601f47b9cfc",
+    "id": "bundle--39461db1-7633-4886-b2d0-a069542be6be",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--991ef2f2-c196-4d5d-bd29-504ea25831f4",
             "created": "2021-10-01T14:42:48.815Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SecureList BusyGasper",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:29:48.844Z",
+            "modified": "2026-04-29T14:23:06.134Z",
             "description": "[BusyGasper](https://attack.mitre.org/software/S0655) can record from the device\u2019s camera.(Citation: SecureList BusyGasper)",
             "relationship_type": "uses",
             "source_ref": "malware--e110f94a-e2c5-4f5f-ba78-9c2ab6d2d9e4",
             "target_ref": "attack-pattern--d8940e76-f9c1-4912-bea6-e21c251370b6",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

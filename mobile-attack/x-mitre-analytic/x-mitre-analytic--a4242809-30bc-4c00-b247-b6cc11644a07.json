@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9c9edc95-b226-4a75-a303-fed6714cbec2",
+    "id": "bundle--f6a2aa88-dae3-4969-8027-8003cf282fd4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T20:26:15.372Z",
+            "modified": "2026-05-12T16:30:18.381Z",
             "name": "Analytic 1741",
             "description": "The defender correlates app-driven shell or command execution setup with subsequent process creation, command invocation, or script-driven follow-on behavior under the same app context, especially when command execution occurs from background state, without recent user interaction, or immediately after payload retrieval or local staging. The analytic prioritizes Android-observable control-plane effects: Java Runtime or similar command-execution method use, shell or sh-like process creation, command parameter visibility where available, and immediate file or network effects produced by the interpreter.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

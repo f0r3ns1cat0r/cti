@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--314a2002-6b20-4a41-bbe9-aaced2fdd445",
+    "id": "bundle--488cb705-dff4-46aa-8a09-78369565e205",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T21:56:10.321Z",
+            "modified": "2026-04-29T14:23:05.950Z",
             "description": "[Remcos](https://attack.mitre.org/software/S0332) can collect the OS version and process architecture of compromised hosts.(Citation: Fortinet Remcos Campaign NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "tool--7cd0bc75-055b-4098-a00e-83dc8beaff14",

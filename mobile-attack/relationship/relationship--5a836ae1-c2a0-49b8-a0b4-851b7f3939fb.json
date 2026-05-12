@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--082a7141-dc4f-4d3e-891c-025c87f5f72e",
+    "id": "bundle--7d6528cf-c371-4f39-91b9-aedbd122077e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5a836ae1-c2a0-49b8-a0b4-851b7f3939fb",
             "created": "2025-03-24T14:53:31.951Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "McAfee MoqHao 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:48:55.263Z",
+            "modified": "2026-04-29T14:23:06.049Z",
             "description": "[Android/SpyAgent](https://attack.mitre.org/software/S1214)\u2019s payload has obtained the C2 address via Twitter accounts.(Citation: McAfee MoqHao 2019) ",
             "relationship_type": "uses",
             "source_ref": "malware--f082d7dd-20a9-4157-93c0-75e7aea09e42",
             "target_ref": "attack-pattern--c6a146ae-9c63-4606-97ff-e261e76e8380",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

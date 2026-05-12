@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--73c829d8-9173-4892-97f5-4752319e0342",
+    "id": "bundle--cdf0ab94-01ae-4688-a1f4-ce40656bb041",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-29T19:53:20.408Z",
+            "modified": "2026-05-12T16:30:18.379Z",
             "name": "Analytic 1779",
             "description": "Defender correlates a look-alike prompt inside an app (e.g., faux Apple ID password view, webview of brand login) with timing against scene/foreground activation, optional push notification bait, then local form cache writes and/or small egress. Chain: scene activation around sensitive UI \u2192 suspicious prompt creation (UIKit events without expected auth controller) or webview navigated to look-alike domain \u2192 local cache write \u2192 near-term egress",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

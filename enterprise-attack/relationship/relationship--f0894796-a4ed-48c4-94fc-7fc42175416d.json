@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d354d3d6-34d6-41b6-a383-bee9689d5060",
+    "id": "bundle--13215d83-0b86-485e-8ad4-57273e43ad5e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f0894796-a4ed-48c4-94fc-7fc42175416d",
             "created": "2020-10-21T17:32:34.297Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET InvisiMole June 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:16:44.650Z",
+            "modified": "2026-04-29T14:23:06.252Z",
             "description": "[InvisiMole](https://attack.mitre.org/software/S0260) has undergone regular technical improvements in an attempt to evade detection.(Citation: ESET InvisiMole June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--47afe41c-4c08-485e-b062-c3bd209a1cce",
             "target_ref": "attack-pattern--b0533c6e-8fea-4788-874f-b799cacc4b92",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

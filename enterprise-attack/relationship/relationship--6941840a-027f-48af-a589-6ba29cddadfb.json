@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bfe8a116-65df-4742-8088-267d35e94920",
+    "id": "bundle--44236caf-be63-4836-a500-ac6b17778019",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:27:53.451Z",
+            "modified": "2026-04-29T14:23:06.068Z",
             "description": "[Meteor](https://attack.mitre.org/software/S0688) can attempt to uninstall Kaspersky Antivirus or remove the Kaspersky license; it can also add all files and folders related to the attack to the Windows Defender exclusion list.(Citation: Check Point Meteor Aug 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--d79e7a60-5de9-448e-a074-f95d2d80f8d0",

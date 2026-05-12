@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f96b9f7f-6130-45db-87d0-2858635b5438",
+    "id": "bundle--9fec986c-800e-4481-9d1d-6178d5caa938",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--41681a87-79e2-4daf-bc5f-cdfea1b47a50",
             "created": "2024-12-07T16:15:31.258Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky ShrinkLocker 2024",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:10:22.531Z",
+            "modified": "2026-04-29T14:23:06.014Z",
             "description": "[ShrinkLocker](https://attack.mitre.org/software/S1178) is a VisualBasic script (VBS) object that calls multiple other operating system functions during execution.(Citation: Kaspersky ShrinkLocker 2024)(Citation: Splunk ShrinkLocker 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--3fc44c12-b16e-4de1-8869-cf0eb4446070",
             "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

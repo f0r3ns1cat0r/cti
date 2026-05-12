@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f3c4af9b-f827-488e-b6a2-a290a590e8df",
+    "id": "bundle--6f342858-4e74-409e-9550-7aebaf4e4d8f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c7c8b431-77bb-45ac-9826-bd92828c2f85",
             "created": "2019-02-04T18:32:07.321Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SensePost Ruler GitHub",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:09:39.642Z",
+            "modified": "2026-04-29T14:23:06.198Z",
             "description": "[Ruler](https://attack.mitre.org/software/S0358) can be used to enumerate Exchange users and dump the GAL.(Citation: SensePost Ruler GitHub)",
             "relationship_type": "uses",
             "source_ref": "tool--90ac9266-68ce-46f2-b24f-5eb3b2a8ea38",
             "target_ref": "attack-pattern--4bc31b94-045b-4752-8920-aebaebdb6470",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

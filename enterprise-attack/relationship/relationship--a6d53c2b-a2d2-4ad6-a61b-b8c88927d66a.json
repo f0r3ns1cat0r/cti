@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e3e8e015-4083-4f21-8cf6-8bdfc8c3306b",
+    "id": "bundle--a5f3a312-75b5-40bf-94d7-52df4c1228ae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a6d53c2b-a2d2-4ad6-a61b-b8c88927d66a",
             "created": "2023-02-23T22:23:00.523Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MalwareBytes WoodyRAT Aug 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:37:44.500Z",
+            "modified": "2026-04-29T14:23:06.152Z",
             "description": "[Woody RAT](https://attack.mitre.org/software/S1065) has relied on users opening a malicious email attachment for execution.(Citation: MalwareBytes WoodyRAT Aug 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--3bc7e862-5610-4c02-9c48-15b2e2dc1ddb",
             "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

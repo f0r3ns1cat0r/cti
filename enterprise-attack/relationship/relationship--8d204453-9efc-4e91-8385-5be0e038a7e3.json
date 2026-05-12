@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0308f7d3-ad39-4b6a-8c28-b1375a762bce",
+    "id": "bundle--6536e162-2db9-4acf-8448-3e77fc0dbf84",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T21:53:52.609Z",
+            "modified": "2026-04-29T14:23:06.118Z",
             "description": "[HeartCrypt](https://attack.mitre.org/software/S9018) can set the `CurrentVersion\\Run` key to establish persistence.(Citation: Palo Alto HeartCrypt DEC 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--148f947c-aabd-4ba8-b6a3-22b296855119",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--edd64659-e335-47b5-ba42-7d87512433fa",
+    "id": "bundle--b804b56c-e1b3-4d33-84db-be29470b515f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9691e661-14fc-4eee-b7d0-14ef24bd6a27",
             "created": "2019-05-02T01:07:36.981Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cylance Shaheen Nov 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:00:47.794Z",
+            "modified": "2026-04-29T14:23:06.130Z",
             "description": "[Revenge RAT](https://attack.mitre.org/software/S0379) collects the IP address and MAC address from the system.(Citation: Cylance Shaheen Nov 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--bdb27a1d-1844-42f1-a0c0-826027ae0326",
             "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

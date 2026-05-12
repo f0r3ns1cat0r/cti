@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--63e0c0ff-1dff-45d8-ae77-119601ff3233",
+    "id": "bundle--72a0d00c-37a1-4925-9f07-f0478c097472",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:30:49.704Z",
+            "modified": "2026-04-29T14:23:05.916Z",
             "description": "[Salt Typhoon](https://attack.mitre.org/groups/G1045) has cleared logs including .bash_history, auth.log, lastlog, wtmp, and btmp.(Citation: Cisco Salt Typhoon FEB 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--1c3dcf91-b859-4aae-a09c-ae26dc8b6390",

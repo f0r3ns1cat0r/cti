@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e97ba45c-d41c-45bf-abf8-b707a8e238bd",
+    "id": "bundle--fcca21b4-3147-44a5-9e14-e1528582244b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--2167de58-8453-4ac3-977d-30a2b3526818",
             "created": "2025-02-12T15:22:13.938Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CrowdStrike Scattered Spider JUL 2025",
@@ -33,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-14T21:25:32.275Z",
+            "modified": "2026-04-29T14:23:05.951Z",
             "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) has used SIM swapping to bypass MFA and to maintain persistence on mobile carrier networks and SIM cards.(Citation: Mphasis SS_SIM_Swap Apr2024)(Citation: Mandiant UNC3944 May 2025)(Citation: CrowdStrike Scattered Spider JUL 2025)(Citation: Check Point Scattered Spider JUL 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0792be09-0a80-441f-8704-a215186cac84",
+    "id": "bundle--f8ea5c01-b7dc-4f06-a70c-7dc07825830d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--3b3c27ed-0129-48bf-8c79-e86d73e5b212",
             "created": "2020-11-10T18:04:03.591Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "DHS/CISA Ransomware Targeting Healthcare October 2020",
@@ -33,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T16:26:04.863Z",
+            "modified": "2026-04-29T14:23:06.003Z",
             "description": "(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)(Citation: FireEye KEGTAP SINGLEMALT October 2020)(Citation: Sophos New Ryuk Attack October 2020)(Citation: Mandiant FIN12 Oct 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",

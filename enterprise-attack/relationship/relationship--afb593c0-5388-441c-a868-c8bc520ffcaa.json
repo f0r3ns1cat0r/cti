@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ce8c1cff-08bb-4421-be84-de614ec123bd",
+    "id": "bundle--a7e70e6b-d591-4dda-ab58-bfaae177619b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--afb593c0-5388-441c-a868-c8bc520ffcaa",
             "created": "2019-01-31T00:36:40.984Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Medium KONNI Jan 2020",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:40:01.549Z",
+            "modified": "2026-04-29T14:23:06.165Z",
             "description": "[KONNI](https://attack.mitre.org/software/S0356) has used cmd.exe to execute arbitrary commands on the infected host across different stages of the infection chain.(Citation: Talos Konni May 2017)(Citation: Medium KONNI Jan 2020)(Citation: Malwarebytes Konni Aug 2021) ",
             "relationship_type": "uses",
             "source_ref": "malware--86b92f6c-9c05-4c51-b361-4c7bb13e21a1",
             "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

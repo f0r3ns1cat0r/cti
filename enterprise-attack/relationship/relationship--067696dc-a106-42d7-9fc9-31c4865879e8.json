@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cf12fa43-235b-4ef0-a14e-b1f6e9d32a1a",
+    "id": "bundle--14587595-ae81-43b8-9c46-98e3931d3003",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--067696dc-a106-42d7-9fc9-31c4865879e8",
             "created": "2022-06-01T18:51:57.929Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Tarrask scheduled task",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:54:34.434Z",
+            "modified": "2026-04-29T14:23:05.912Z",
             "description": "(Citation: Tarrask scheduled task) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
             "target_ref": "malware--988976ff-beeb-4fb5-b07d-ca7437ea66e8",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

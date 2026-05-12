@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--79c4f635-e4cf-47a5-bf9b-c1da95d8c9f9",
+    "id": "bundle--9467d0f8-c393-4478-8d63-e0e05cfb6207",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d3272553-9c28-47af-b2ae-9f675a5eaade",
             "created": "2025-09-15T16:43:58.880Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "2022 November_TrendMicro_Earth Preta_Toneshell_Pubload",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-15T16:43:58.880Z",
+            "modified": "2026-04-29T14:23:06.214Z",
             "description": "[TONESHELL](https://attack.mitre.org/software/S1239) has obtained the username from an infected host.(Citation: 2022 November_TrendMicro_Earth Preta_Toneshell_Pubload)",
             "relationship_type": "uses",
             "source_ref": "malware--2683fde8-1dc4-415c-94bd-9bb95cc5b7ff",

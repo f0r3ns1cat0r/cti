@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a0aa1237-7dab-4255-8a82-d63282360327",
+    "id": "bundle--facbb6e8-11f7-44eb-8ab4-2487c576c908",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bf672181-ef16-4d3a-a587-9ac82ac87b8a",
             "created": "2021-04-25T21:45:21.080Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MSTIC NOBELIUM Mar 2021",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:08:05.701Z",
+            "modified": "2026-04-29T14:23:06.187Z",
             "description": "[GoldMax](https://attack.mitre.org/software/S0588) has used filenames that matched the system name, and appeared as a scheduled task impersonating systems management software within the corresponding ProgramData subfolder.(Citation: MSTIC NOBELIUM Mar 2021)(Citation: CrowdStrike StellarParticle January 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--5c747acd-47f0-4c5a-b9e5-213541fc01e0",
             "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

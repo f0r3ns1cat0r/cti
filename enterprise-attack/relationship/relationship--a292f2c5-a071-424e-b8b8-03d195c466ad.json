@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--faeced29-7276-4e26-9df8-9bf57c4bc394",
+    "id": "bundle--03db0b80-a444-47ec-9ccf-438a91181759",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a292f2c5-a071-424e-b8b8-03d195c466ad",
             "created": "2021-10-01T15:26:28.691Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybersecurity Advisory GRU Brute Force Campaign July 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:03:02.816Z",
+            "modified": "2026-04-29T14:23:06.146Z",
             "description": "[APT28](https://attack.mitre.org/groups/G0007) has renamed the WinRAR utility to avoid detection.(Citation: Cybersecurity Advisory GRU Brute Force Campaign July 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

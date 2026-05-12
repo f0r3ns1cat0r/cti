@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--75e54be3-7a50-40f6-ace6-98ae8d2233c5",
+    "id": "bundle--1388d014-7118-4b02-a868-6cb43eecbe9a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T19:00:17.929Z",
+            "modified": "2026-04-29T14:23:06.117Z",
             "description": "[VOID MANTICORE](https://attack.mitre.org/groups/G1055) has leveraged backend servers within Iran.(Citation: DOJ FBI Handala Hack March 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--ebd7ce77-c9ba-4fba-bb28-58296ac66559",

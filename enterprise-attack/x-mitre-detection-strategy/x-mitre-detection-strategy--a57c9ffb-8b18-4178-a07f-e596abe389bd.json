@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--329706d2-b91e-4a53-9593-36e51211c27e",
+    "id": "bundle--1e935616-3b22-4bdf-9ba7-982777d35483",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--a57c9ffb-8b18-4178-a07f-e596abe389bd",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.687Z",
             "name": "Detection Strategy for Steganographic Abuse in File & Script Execution",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -31,8 +32,7 @@
                 "x-mitre-analytic--a7666a4d-ece8-4e5b-ae85-d2987f14b950",
                 "x-mitre-analytic--f884a712-ace6-426c-ab81-8ff33e83be92",
                 "x-mitre-analytic--eb5334b4-8a19-4efd-a225-44a2783c6d39"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

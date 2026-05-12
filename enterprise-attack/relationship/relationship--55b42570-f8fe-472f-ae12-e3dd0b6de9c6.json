@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3aacd288-5827-4233-8c6b-1f092b0d1579",
+    "id": "bundle--5f5cc12b-cc2b-404f-97d1-26d98ab55f80",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T22:17:51.662Z",
+            "modified": "2026-04-29T14:23:06.042Z",
             "description": "[Remcos](https://attack.mitre.org/software/S0332) has been spread through emails containing malicious documents.(Citation: Fortinet Remcos Campaign NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "tool--7cd0bc75-055b-4098-a00e-83dc8beaff14",

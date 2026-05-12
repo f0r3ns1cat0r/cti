@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0fcb3632-3cb3-4e26-a39f-ae50c4efa66a",
+    "id": "bundle--15c97386-cdf3-4263-8034-7709df5e52a3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c26aa411-a68f-4093-b681-c899694cfa19",
             "created": "2022-03-15T19:56:31.054Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "KISA Operation Muzabi",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:44:52.215Z",
+            "modified": "2026-04-29T14:23:06.191Z",
             "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has obtained exploit code for various CVEs.(Citation: KISA Operation Muzabi)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
             "target_ref": "attack-pattern--f4b843c1-7e92-4701-8fed-ce82f8be2636",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

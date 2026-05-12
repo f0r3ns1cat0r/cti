@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--99cbbbb1-9b6e-4006-81f2-52a0b828b759",
+    "id": "bundle--0306fc9b-ef88-4b28-8e81-d43a5b351f3e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:49:05.552Z",
+            "modified": "2026-05-12T15:12:00.705Z",
             "name": "Exfiltration Over Asymmetric Encrypted Non-C2 Protocol",
             "description": "Adversaries may steal data by exfiltrating it over an asymmetrically encrypted network protocol other than that of the existing command and control channel. The data may also be sent to an alternate network location from the main command and control server. \n\nAsymmetric encryption algorithms are those that use different keys on each end of the channel. Also known as public-key cryptography, this requires pairs of cryptographic keys that can encrypt/decrypt data from the corresponding key. Each end of the communication channels requires a private key (only in the procession of that entity) and the public key of the other entity. The public keys of each entity are exchanged before encrypted communications begin. \n\nNetwork protocols that use asymmetric encryption (such as HTTPS/TLS/SSL) often utilize symmetric encryption once keys are exchanged. Adversaries may opt to use these encrypted mechanisms that are baked into a protocol. ",
             "kill_chain_phases": [
@@ -33,7 +33,7 @@
                     "phase_name": "exfiltration"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_contributors": [
                 "William Cain"
             ],

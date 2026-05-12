@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a5527247-f4e3-4856-adbf-cf11b28d4e5d",
+    "id": "bundle--a1114964-9280-44c9-824e-285902693e5e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--71d95d1d-d519-44d8-9177-b01196cf8fe3",
             "created": "2019-04-17T18:43:36.375Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CheckPoint SpeakUp Feb 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:53:47.872Z",
+            "modified": "2026-04-29T14:23:06.081Z",
             "description": "[SpeakUp](https://attack.mitre.org/software/S0374) uses POST and GET requests over HTTP to communicate with its main C&C server. (Citation: CheckPoint SpeakUp Feb 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--a5575606-9b85-4e3d-9cd2-40ef30e3672d",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

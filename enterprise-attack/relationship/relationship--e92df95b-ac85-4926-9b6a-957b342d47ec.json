@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5ea70b1f-df3d-4ff2-aeaf-b45f01755f76",
+    "id": "bundle--36005874-ae24-4ea1-9551-ed7bba997a6c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T14:43:59.001Z",
+            "modified": "2026-04-29T14:23:06.242Z",
             "description": "[AshTag](https://attack.mitre.org/software/S9031) has masqueraded as a legitimate VisualServer utility.(Citation: Palo Alto Ashen Lepus DEC 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--bb6f2a5c-dbc9-45b0-bd3f-a0b7849959c2",

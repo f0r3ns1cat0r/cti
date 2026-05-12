@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--710644bb-3e80-4bbc-ba7a-c0652d4adf83",
+    "id": "bundle--03e0cfbd-1896-41d7-b502-b3697fab7deb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:30:39.616Z",
+            "modified": "2026-05-12T16:30:18.384Z",
             "name": "Analytic 1712",
             "description": "Correlates (1) application access to or staging of local files likely to be of operational, evidentiary, or user value, (2) deletion of those files or wipe-like destructive actions through ordinary storage access, administrative controls, or privileged/rooted paths, and (3) continued app or device activity after deletion, including cleanup, concealment, or outbound transfer. The defender observes a causal chain where files are first accessed or prepared, then removed, and device-side behavior continues after evidence or data is gone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

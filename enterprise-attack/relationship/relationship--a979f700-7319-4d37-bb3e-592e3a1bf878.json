@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6a6f4b27-b590-4b45-a4b8-9b218ab20e7a",
+    "id": "bundle--a33c0c6d-f288-4ba8-b1c0-f66dd8be865e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a979f700-7319-4d37-bb3e-592e3a1bf878",
             "created": "2020-08-24T13:40:23.324Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET PipeMon May 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:04:17.255Z",
+            "modified": "2026-04-29T14:23:06.156Z",
             "description": "[PipeMon](https://attack.mitre.org/software/S0501) can use parent PID spoofing to elevate privileges.(Citation: ESET PipeMon May 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--8393dac0-0583-456a-9372-fd81691bca20",
             "target_ref": "attack-pattern--93591901-3172-4e94-abf8-6034ab26f44a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

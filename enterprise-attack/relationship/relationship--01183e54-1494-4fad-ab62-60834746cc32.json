@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1c9d0dc9-ec1e-41d3-b719-834868609d6f",
+    "id": "bundle--da5afc40-af3d-41c7-a6e0-9b9d51e1b471",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--01183e54-1494-4fad-ab62-60834746cc32",
             "created": "2025-10-22T03:04:28.823Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ATT TeamTNT Chimaera September 2020",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T03:04:28.823Z",
+            "modified": "2026-04-29T14:23:05.904Z",
             "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has searched for disk partition and logical volume information.(Citation: ATT TeamTNT Chimaera September 2020)(Citation: Cisco Talos Intelligence Group)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",

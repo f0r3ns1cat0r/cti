@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4b46ac1b-4ba8-46cc-aa00-62164bbfdd2b",
+    "id": "bundle--2f1c3bd6-553c-4a10-af7d-260ea5440aa4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8a16836c-ad80-4c4f-8c4a-cfc639450a5a",
             "created": "2023-07-27T15:28:27.413Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sygnia Elephant Beetle Jan 2022",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T15:10:22.480Z",
+            "modified": "2026-04-29T14:23:06.113Z",
             "description": "(Citation: Sygnia Elephant Beetle Jan 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",

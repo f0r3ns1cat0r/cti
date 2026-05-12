@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8468418d-01bc-456c-92a6-3b6702a81daf",
+    "id": "bundle--b887029d-e22d-459e-8d59-41145e4e7922",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T22:54:54.010Z",
+            "modified": "2026-04-29T14:23:06.077Z",
             "description": "[TRAILBLAZE](https://attack.mitre.org/software/S9012) has the ability to delete temporary files and contents in specified directories to cover its tracks.(Citation: Google UNC5221 Ivanti April 2025)(Citation: Picus Security UNC5221 Ivanti May 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--b82b9e25-e37b-4f7c-b1f0-2c2eea4f4be9",

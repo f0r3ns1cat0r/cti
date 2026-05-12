@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4bd5f802-a398-4df8-87b9-88503759706e",
+    "id": "bundle--bb91e87b-4453-4807-ac64-004a32e9368e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9a255458-7c76-4705-98f1-e2602ebc7795",
             "created": "2024-03-25T19:04:05.604Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SocGholish-update",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:34:21.593Z",
+            "modified": "2026-04-29T14:23:06.135Z",
             "description": "[Mustard Tempest](https://attack.mitre.org/groups/G1020) has used drive-by downloads for initial infection, often using fake browser updates as a lure.(Citation: SocGholish-update)(Citation: SentinelOne SocGholish Infrastructure November 2022)(Citation: Red Canary SocGholish March 2024)(Citation: Secureworks Gold Prelude Profile)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0d4ac089-ced4-4cc4-a989-174d08e6d030",
             "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

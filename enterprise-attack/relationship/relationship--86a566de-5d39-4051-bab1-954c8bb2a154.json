@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1cb76cce-8cb2-4280-b717-413e8e5ec933",
+    "id": "bundle--becb2f81-0a23-4940-9777-84ea2c028bfc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--86a566de-5d39-4051-bab1-954c8bb2a154",
             "created": "2025-01-06T19:16:52.567Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CCCS ArcaneDoor 2024",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:29:01.249Z",
+            "modified": "2026-04-29T14:23:06.109Z",
             "description": "[Line Runner](https://attack.mitre.org/software/S1188) utilizes an HTTP-based Lua backdoor on victim machines.(Citation: Cisco ArcaneDoor 2024)(Citation: CCCS ArcaneDoor 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--5f8c69a5-7acd-4a36-a929-de558d9c8223",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

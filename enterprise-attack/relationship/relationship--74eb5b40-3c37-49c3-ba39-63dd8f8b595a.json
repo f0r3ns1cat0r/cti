@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ed578944-5e83-4e2c-af65-0f2bb6101970",
+    "id": "bundle--51835184-ae4b-4236-ace6-df411107d7d0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--74eb5b40-3c37-49c3-ba39-63dd8f8b595a",
             "created": "2021-09-28T20:33:51.518Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Crowdstrike Qakbot October 2020",
@@ -38,14 +39,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:24:18.857Z",
+            "modified": "2026-04-29T14:23:06.085Z",
             "description": "[QakBot](https://attack.mitre.org/software/S0650) can use <code>net config workstation</code>, <code>arp -a</code>, `nslookup`, and <code>ipconfig /all</code> to gather network configuration information.(Citation: Crowdstrike Qakbot October 2020)(Citation: Kaspersky QakBot September 2021)(Citation: Group IB Ransomware September 2020)(Citation: Trend Micro Black Basta October 2022)(Citation: Microsoft Ransomware as a Service)",
             "relationship_type": "uses",
             "source_ref": "malware--edc5e045-5401-42bb-ad92-52b5b2ee0de9",
             "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

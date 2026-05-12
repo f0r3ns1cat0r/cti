@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d2fb3c87-d112-4b5f-8c76-67ff9dd4ebdc",
+    "id": "bundle--92ae83a3-14f7-480c-923b-0999974f6ec9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T19:24:15.598Z",
+            "modified": "2026-04-29T14:23:06.022Z",
             "description": "During the [Anthropic AI-orchestrated Campaign](https://attack.mitre.org/campaigns/C0062), the adversary used harvested credentials to authenticate against internal APIs, database systems, container registries, and logging infrastructure across targeted networks.(Citation: Anthropic AI Orchestrated Campaign NOV 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--590cd5b0-2421-4158-84a2-db13b5db02a3",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--14d7d340-471e-44a8-b8fe-7304ac63fcaf",
+    "id": "bundle--dc1445de-b912-4cc0-aadc-538368903132",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fbe56c62-5123-4783-8e66-7457c8cf66a2",
             "created": "2022-06-13T15:27:38.730Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Accenture Lyceum Targets November 2021",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:59:37.147Z",
+            "modified": "2026-04-29T14:23:06.267Z",
             "description": "[Shark](https://attack.mitre.org/software/S1019) can send DNS C2 communications using a unique domain generation algorithm.(Citation: ClearSky Siamesekitten August 2021)(Citation: Accenture Lyceum Targets November 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--99854cc8-f202-4e03-aa0a-4f8a4af93229",
             "target_ref": "attack-pattern--118f61a5-eb3e-4fb6-931f-2096647f4ecd",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

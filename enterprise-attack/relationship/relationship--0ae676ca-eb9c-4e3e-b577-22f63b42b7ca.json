@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0056ba6d-ac57-4fc7-bc65-e17edc3c29bc",
+    "id": "bundle--7676f8fc-e216-4962-bf78-6c4fa84453c5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:01:24.028Z",
+            "modified": "2026-04-29T14:23:05.918Z",
             "description": "[Babuk](https://attack.mitre.org/software/S0638) can stop anti-virus services on a compromised host.(Citation: Sogeti CERT ESEC Babuk March 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--61c7a91a-0b83-461d-ad32-75d96eed4a09",

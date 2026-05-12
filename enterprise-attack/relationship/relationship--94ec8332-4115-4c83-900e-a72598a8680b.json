@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8a9ae5fe-9deb-4d83-a703-b26fa3b1b5ee",
+    "id": "bundle--f87a99ba-782c-401a-8a4e-cc004a00b5d2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--94ec8332-4115-4c83-900e-a72598a8680b",
             "created": "2024-12-31T16:20:25.933Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "DCSO StrelaStealer 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:32:55.305Z",
+            "modified": "2026-04-29T14:23:06.128Z",
             "description": "[StrelaStealer](https://attack.mitre.org/software/S1183) has sideloaded a DLL payload using a renamed, legitimate `msinfo32.exe` executable.(Citation: DCSO StrelaStealer 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--951313b3-6064-4ce0-b4b6-a153c3973da7",
             "target_ref": "attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e6d2a541-0379-47e3-ae4e-e3354b5e678d",
+    "id": "bundle--631d5d53-b2f0-4d7a-ae35-6361861c8300",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:18:31.045Z",
+            "modified": "2026-04-29T14:23:06.026Z",
             "description": "[Unknown Logger](https://attack.mitre.org/software/S0130) has functionality to disable security tools, including Kaspersky, BitDefender, and MalwareBytes.(Citation: Forcepoint Monsoon)",
             "relationship_type": "uses",
             "source_ref": "malware--ab3580c8-8435-4117-aace-3d9fbe46aa56",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--681cca63-2125-4c06-aede-2f42f1e673d4",
+    "id": "bundle--f223fc97-ee8c-4b0a-8fab-f3a6808d421b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:11:03.259Z",
+            "modified": "2026-04-29T14:23:06.177Z",
             "description": "[Woody RAT](https://attack.mitre.org/software/S1065) has suppressed all error reporting by calling `SetErrorMode` with 0x8007 as a parameter.(Citation: MalwareBytes WoodyRAT Aug 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--3bc7e862-5610-4c02-9c48-15b2e2dc1ddb",

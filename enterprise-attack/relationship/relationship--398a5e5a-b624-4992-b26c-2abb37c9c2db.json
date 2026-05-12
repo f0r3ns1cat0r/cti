@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4b9acc8c-3447-42c0-975d-b77287bc0748",
+    "id": "bundle--992c41fc-0055-4237-9493-5f33c88fd7d6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--398a5e5a-b624-4992-b26c-2abb37c9c2db",
             "created": "2019-06-18T17:20:43.750Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Carbon Black JCry May 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:43:21.088Z",
+            "modified": "2026-04-29T14:23:05.999Z",
             "description": "[JCry](https://attack.mitre.org/software/S0389) has used PowerShell to execute payloads.(Citation: Carbon Black JCry May 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--aaf3fa65-8b27-4e68-91de-2b7738fe4c82",
             "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

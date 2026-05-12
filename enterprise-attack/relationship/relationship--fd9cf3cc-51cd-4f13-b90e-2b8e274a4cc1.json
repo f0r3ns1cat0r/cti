@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a9cf619a-819e-4ac7-a2c1-2f28f36499ab",
+    "id": "bundle--fef22929-a1b2-42a6-8bb9-0cba92ce4d6f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fd9cf3cc-51cd-4f13-b90e-2b8e274a4cc1",
             "created": "2021-03-29T16:39:26.339Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kubernetes Security Context",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:00:07.783Z",
+            "modified": "2026-04-29T14:23:06.269Z",
             "description": "Use read-only containers, read-only file systems, and minimal images when possible to prevent the execution of commands.(Citation: Kubernetes Hardening Guide) Where possible, also consider using application control and software restriction tools (such as those provided by SELinux) to restrict access to files, processes, and system calls in containers.(Citation: Kubernetes Security Context)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--47e0e9fe-96ce-4f65-8bb1-8be1feacb5db",
             "target_ref": "attack-pattern--7b50a1d3-4ca7-45d1-989d-a6503f04bfe1",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

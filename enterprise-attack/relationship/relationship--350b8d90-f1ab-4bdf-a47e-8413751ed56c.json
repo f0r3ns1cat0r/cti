@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dc4a5ad1-aff9-4a9a-b6be-730ed61c28d9",
+    "id": "bundle--3ead2515-3b3b-4405-8b89-0e8f7b2b35aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--350b8d90-f1ab-4bdf-a47e-8413751ed56c",
             "created": "2025-10-21T03:02:05.495Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Ensilo Darkgate 2018",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T03:02:05.495Z",
+            "modified": "2026-04-29T14:23:05.990Z",
             "description": "[DarkGate](https://attack.mitre.org/software/S1111) uses the Delphi methods <code>Sysutils::DiskSize</code> and <code>GlobalMemoryStatusEx</code> to collect disk size and physical memory as part of the malware's anti-analysis checks for running in a virtualized environment.(Citation: Ensilo Darkgate 2018) ",
             "relationship_type": "uses",
             "source_ref": "malware--6f6f67c9-556d-4459-95c2-78d272190e52",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6d1803bc-98ee-4d00-b049-104dfc79a664",
+    "id": "bundle--2f78119d-fadf-46e5-9429-a69a7f154112",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1cf04fb7-17a6-4424-a3f2-93f1b33d19cd",
             "created": "2025-10-08T20:14:00.607Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ThreatFabric_Chameleon_Dec2023",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-08T20:14:00.607Z",
+            "modified": "2026-04-29T14:23:05.944Z",
             "description": "[Chameleon](https://attack.mitre.org/software/S1083) has the ability to control calls.(Citation: ThreatFabric_Chameleon_Dec2023)",
             "relationship_type": "uses",
             "source_ref": "malware--2cf00c5a-857d-4cb6-8f03-82f15bee0f6f",

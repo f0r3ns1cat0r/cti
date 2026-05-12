@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--60c5936c-9057-471b-bf00-2af126f07b13",
+    "id": "bundle--e5f2d90a-b88a-4f18-853d-87e6065d93dd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--10c912f6-6e0c-41a7-9911-f7fa5c9ba6f8",
             "created": "2026-02-06T21:28:02.564Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ThreatFabric_Crocodilus_March2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-02-06T21:28:02.564Z",
+            "modified": "2026-04-29T14:23:05.927Z",
             "description": "[Crocodilus](https://attack.mitre.org/software/S9004) has the ability to enable call forwarding.(Citation: ThreatFabric_Crocodilus_March2025)",
             "relationship_type": "uses",
             "source_ref": "malware--eed7b988-0279-4c4f-bfa9-d81f5444a04b",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ab64d920-45ea-4a40-98ad-89d5b27ebb83",
+    "id": "bundle--8adba2f0-7aa8-440e-a89a-5f7790d1ae57",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7145e20d-4c16-47bf-bf13-40b4e031d0e5",
             "created": "2024-05-22T22:55:27.115Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit42 Agrius 2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:23:17.327Z",
+            "modified": "2026-04-29T14:23:06.080Z",
             "description": "[BFG Agonizer](https://attack.mitre.org/software/S1136) retrieves a device handle to <code>\\\\\\\\.\\\\PhysicalDrive0</code> to wipe the boot sector of a given disk.(Citation: Unit42 Agrius 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--d6aefbbf-fbef-485a-973e-b5403d8f8b18",
             "target_ref": "attack-pattern--0af0ca99-357d-4ba1-805f-674fdfb7bef9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

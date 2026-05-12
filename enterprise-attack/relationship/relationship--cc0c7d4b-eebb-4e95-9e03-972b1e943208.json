@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9910450b-b83c-4ea2-9e87-503ed1988962",
+    "id": "bundle--f9345480-7771-487e-ac6f-dfac06942f95",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cc0c7d4b-eebb-4e95-9e03-972b1e943208",
             "created": "2025-08-05T17:09:36.414Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CSIRT CTI MUSTANG PANDA PUBLOAD TONESHELL JAN 2024",
@@ -38,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-08T13:51:32.982Z",
+            "modified": "2026-04-29T14:23:06.204Z",
             "description": "[PUBLOAD](https://attack.mitre.org/software/S1228) has utilized a magic value in C2 communications and only executes in memory when response packets match specific values of 17 03 03.(Citation: CSIRT CTI MUSTANG PANDA PUBLOAD TONESHELL JAN 2024)(Citation: IBM MUSTANG PANDA PUBLOAD CLAIMLOADER JUNE 2025)(Citation: 2025_IBM_PUBLOAD_TONESHELL_HIUPAN_CLAIMLOADER_MUSTANG PANDA)(Citation: 2022 November_TrendMicro_Earth Preta_Toneshell_Pubload)(Citation: PaloAlto MUSTANG PANDA PUBLOAD MARCH 2024)  [PUBLOAD](https://attack.mitre.org/software/S1228) has also used magic bytes consisting of 46 77 4d.(Citation: CSIRT CTI MUSTANG PANDA PUBLOAD TONESHELL JAN 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--3824852d-1957-4712-9da0-38143723c060",

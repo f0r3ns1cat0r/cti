@@ -1,11 +1,10 @@
 {
     "type": "bundle",
-    "id": "bundle--d5b3f302-822c-48ce-86c2-a72baa4a63d0",
+    "id": "bundle--3cf5c795-70e7-48b9-baf7-01851cd6e257",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--fecfb9f9-645e-4e09-ba21-05bc60722688",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -20,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:26:14.331Z",
+            "modified": "2026-05-12T16:30:18.391Z",
             "name": "Detection for Spoofing Tool UI across OS Platforms",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,

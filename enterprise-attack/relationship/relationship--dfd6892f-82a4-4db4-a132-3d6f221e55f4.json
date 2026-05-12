@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b31ff019-fbc0-42cb-962c-f7ab88c80b68",
+    "id": "bundle--475ca7c3-8561-4365-b486-d8c47f3d4e19",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--dfd6892f-82a4-4db4-a132-3d6f221e55f4",
             "created": "2020-08-12T17:52:48.627Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Secureworks IRON LIBERTY July 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:13:53.939Z",
+            "modified": "2026-04-29T14:23:06.230Z",
             "description": "(Citation: Secureworks IRON LIBERTY July 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
             "target_ref": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

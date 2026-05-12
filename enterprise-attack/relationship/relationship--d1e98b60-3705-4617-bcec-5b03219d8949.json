@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5f640cf8-03b5-4489-b5ce-db082a742680",
+    "id": "bundle--f6626973-cc5a-4d89-b935-51a24224b952",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T14:35:37.933Z",
+            "modified": "2026-04-29T14:23:06.212Z",
             "description": "[Tsundere Botnet](https://attack.mitre.org/software/S9034) has disguised its MSI installer as a fake installer for popular games and software.(Citation: SecureListUbiedo_Tsundere_Nov2025) ",
             "relationship_type": "uses",
             "source_ref": "malware--18f5f8c6-bba5-4aba-93e7-3539fe565883",

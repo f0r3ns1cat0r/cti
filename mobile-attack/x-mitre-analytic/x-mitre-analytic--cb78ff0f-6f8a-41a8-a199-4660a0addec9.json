@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e6987b71-f692-43f9-8508-de94d30f10a9",
+    "id": "bundle--3ad97892-b535-497f-ac6d-3edb7e60b2d1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T17:33:41.747Z",
+            "modified": "2026-05-12T16:30:18.382Z",
             "name": "Analytic 1702",
             "description": "The defender correlates proxy-capable network setup or socket-handling behavior with subsequent bidirectional traffic relaying through the same device and app context, especially when inbound client sessions are followed by outbound connections to unrelated remote destinations or when the device sustains multiplexed traffic patterns inconsistent with normal mobile app workflows. The analytic prioritizes Android-observable effects: proxy or raw-socket setup, app background execution, inbound-to-outbound traffic bridging, and sustained relayed flows to multiple destinations without recent user interaction.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

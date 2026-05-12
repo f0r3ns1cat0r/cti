@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1b0664e5-13f9-4199-9b1b-c85bdb035747",
+    "id": "bundle--25d2799d-5965-48cf-bbe5-200077f87aef",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b077d81d-0449-493f-9b93-23dc0fb0b62d",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant FIN7 Apr 2022",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-07-11T18:45:19.622Z",
+            "modified": "2026-04-29T14:23:06.166Z",
             "description": "[FIN7](https://attack.mitre.org/groups/G0046) has downloaded additional malware to execute on the victim's machine, including by using a PowerShell script to launch shellcode that retrieves an additional payload.(Citation: FireEye FIN7 April 2017)(Citation: DOJ FIN7 Aug 2018)(Citation: Mandiant FIN7 Apr 2022)(Citation: Gemini_FIN7_Jan2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

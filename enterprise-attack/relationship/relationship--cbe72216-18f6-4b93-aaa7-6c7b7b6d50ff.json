@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ad9f9069-0fba-4140-8bb9-9acd78f6cc4f",
+    "id": "bundle--9d78abf6-5829-4c3c-932f-9f3e3e823f78",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cbe72216-18f6-4b93-aaa7-6c7b7b6d50ff",
             "created": "2025-09-12T17:40:27.910Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Threat Intelligence Group MUSTANG PANDA PLUGX August 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-12T17:40:27.910Z",
+            "modified": "2026-04-29T14:23:06.204Z",
             "description": "[STATICPLUGIN](https://attack.mitre.org/software/S1238) has utilized Windows COM Installer Object to download an MSI package containing files masqueraded as a BMP file.(Citation: Google Threat Intelligence Group MUSTANG PANDA PLUGX August 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--301e7370-c3d3-4f3e-893f-8a79345c2eb5",

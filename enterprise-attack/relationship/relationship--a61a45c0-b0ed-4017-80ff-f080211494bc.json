@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ba81fd46-7d36-4d4f-8fac-edeef69a0f9b",
+    "id": "bundle--3d2a9e47-4b9b-40a0-96b4-11db50fed177",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a61a45c0-b0ed-4017-80ff-f080211494bc",
             "created": "2025-10-19T18:07:01.802Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Esentire ContagiousInterview BeaverTail InvisibleFerret November 2024",
@@ -33,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-19T18:07:01.802Z",
+            "modified": "2026-04-29T14:23:06.151Z",
             "description": "[BeaverTail](https://attack.mitre.org/software/S1246) has been executed through lures involving malicious JavaScript projects or trojanized remote conferencing software such as MicroTalk or FreeConference.(Citation: ESET Contagious Interview BeaverTail InvisibleFerret February 2025)(Citation: PaloAlto Unit42 ContagiousInterview BeaverTail InvisibileFerret October 2024) [BeaverTail](https://attack.mitre.org/software/S1246) has also been executed through macOS and Windows installers disguised as chat applications.(Citation: Esentire ContagiousInterview BeaverTail InvisibleFerret November 2024)(Citation: Zscaler ContagiousInterview BeaverTail InvisibleFerret November 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--6055aee2-d1c6-4877-94e9-a3bde9936470",

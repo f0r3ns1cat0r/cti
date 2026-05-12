@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bfe2bd9f-a414-47dc-8127-ae3fd2934158",
+    "id": "bundle--297128b4-2f3f-4a4f-a3db-c5f3582accb0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T22:16:13.434Z",
+            "modified": "2026-04-29T14:23:06.054Z",
             "description": "[DynoWiper](https://attack.mitre.org/software/S9038) has used the Microsoft Windows native `FindFirstFile()` and `FindNextFile()` to recursively enumerate directories and files on the system.(Citation: CERT Polska)",
             "relationship_type": "uses",
             "source_ref": "malware--34057cb6-0a56-48a3-92e5-3af1357808da",

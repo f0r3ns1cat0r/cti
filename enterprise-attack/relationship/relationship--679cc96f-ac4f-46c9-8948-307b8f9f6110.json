@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ffa6b2c3-9962-42aa-9ed4-0a2460cc82ee",
+    "id": "bundle--3bd9fd52-5a0b-4859-9524-5ae5a366f7c0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T14:42:41.116Z",
+            "modified": "2026-04-29T14:23:06.066Z",
             "description": "The [AshTag](https://attack.mitre.org/software/S9031) AshenOrchestrator component payload as been Base64 encoded and embedded with HTML content from the C2 server.(Citation: Palo Alto Ashen Lepus DEC 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--bb6f2a5c-dbc9-45b0-bd3f-a0b7849959c2",

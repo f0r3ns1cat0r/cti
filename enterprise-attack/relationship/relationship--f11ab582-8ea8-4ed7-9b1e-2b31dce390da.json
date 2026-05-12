@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4e882a5f-a4c1-4abf-a1b1-25d3c5c2b414",
+    "id": "bundle--b7f11118-d2ba-465c-a481-32f84aaa013f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f11ab582-8ea8-4ed7-9b1e-2b31dce390da",
             "created": "2020-12-11T16:17:16.696Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FBI FLASH APT39 September 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:16:50.210Z",
+            "modified": "2026-04-29T14:23:06.253Z",
             "description": "[APT39](https://attack.mitre.org/groups/G0087) has utilized tools to capture mouse movements.(Citation: FBI FLASH APT39 September 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
             "target_ref": "attack-pattern--bb5a00de-e086-4859-a231-fa793f6797e2",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

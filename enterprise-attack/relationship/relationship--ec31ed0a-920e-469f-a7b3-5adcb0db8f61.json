@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--183a4661-1c5f-49d2-b099-002132e41dc7",
+    "id": "bundle--309ba09f-920c-461a-9fee-15d9a7cea6ac",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:53:50.014Z",
+            "modified": "2026-04-29T14:23:06.246Z",
             "description": "[HDoor](https://attack.mitre.org/software/S0061) kills anti-virus found on the victim.(Citation: Baumgartner Naikon 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--007b44b6-e4c5-480b-b5b9-56f2081b1b7b",

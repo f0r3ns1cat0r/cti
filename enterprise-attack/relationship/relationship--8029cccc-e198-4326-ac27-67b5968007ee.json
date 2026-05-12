@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--862f0757-5a6a-43f2-81a4-b21347402aeb",
+    "id": "bundle--fe2a1d98-dd07-4507-b7a8-af5afdedc072",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8029cccc-e198-4326-ac27-67b5968007ee",
             "created": "2019-04-15T20:57:46.666Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET OceanLotus macOS April 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:56:34.228Z",
+            "modified": "2026-04-29T14:23:06.101Z",
             "description": "[APT32](https://attack.mitre.org/groups/G0050)'s macOS backdoor can receive a \u201cdelete\u201d command.(Citation: ESET OceanLotus macOS April 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

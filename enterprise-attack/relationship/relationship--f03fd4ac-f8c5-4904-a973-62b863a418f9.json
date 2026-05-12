@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c68b39fc-0f07-41f8-adfc-cc0ddf8dffaa",
+    "id": "bundle--f81ccd13-bb1c-4784-99c3-069572a6838d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T20:14:44.063Z",
+            "modified": "2026-04-29T14:23:06.252Z",
             "description": "[SPAWNCHIMERA](https://attack.mitre.org/software/S9024) has modified the Ivanti Integrity Checker Tool to evade detection.(Citation: CISA SPAWNCHIMERA RESURGE February 2026)(Citation: Picus Security UNC5221 Ivanti May 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--d1974f35-0e06-478e-bc74-7530545d814b",

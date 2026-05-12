@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9e7555ff-c777-4dda-92bc-ac6e72a0b942",
+    "id": "bundle--af5d94df-0862-48e7-acb9-33a331578753",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bf26ba18-224d-421f-8fc7-3748dd2fe9bd",
             "created": "2021-10-07T16:37:51.651Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Bitdefender FIN8 July 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:08:02.851Z",
+            "modified": "2026-04-29T14:23:06.187Z",
             "description": "(Citation: Bitdefender FIN8 July 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
             "target_ref": "tool--981acc4c-2ede-4b56-be6e-fa1a75f37acf",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

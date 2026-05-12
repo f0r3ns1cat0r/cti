@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4e8ab50c-773c-4e77-b058-ea079c105144",
+    "id": "bundle--5add8220-76be-4d4a-9784-b028e2550868",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-15T15:42:38.361Z",
+            "modified": "2026-04-29T14:23:06.110Z",
             "description": "Enables correlation of email/identity/SaaS/endpoint activity that appears legitimate.(Citation: Proofpoint TA427 April 2024)(Citation: Unit 42 Global Incident Response Report 2026)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--488bc111-52a9-42e2-be74-f84d3f6a789f",
+    "id": "bundle--99c447f5-3c9a-4055-b816-50033f744506",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bc1f1a9f-d90e-4c8f-b8fb-eca66f582669",
             "created": "2026-04-14T13:50:28.047Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google UNC5221 Ivanti January 2025",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-14T13:56:33.993Z",
+            "modified": "2026-04-29T14:23:06.182Z",
             "description": "[DRYHOOK](https://attack.mitre.org/software/S9013) has encrypted stolen credentials strings within a file using both Base64 and RC4 with a hard-coded key.(Citation: Google UNC5221 Ivanti January 2025)(Citation: Picus Security UNC5221 Ivanti May 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--e9c72c02-b55a-4852-b2eb-c7031d215414",

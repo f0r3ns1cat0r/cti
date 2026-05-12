@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0a0d2d1d-e30f-46ee-a14a-2549818b4764",
+    "id": "bundle--4499e89b-1290-4b5c-a6b4-389d3cedcd07",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T12:53:16.981Z",
+            "modified": "2026-04-29T14:23:05.956Z",
             "description": "[LAMEHUG](https://attack.mitre.org/software/S9035) can use `whoami` to enumerate the system user.(Citation: Splunk LAMEHUG SEP 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--c55e0410-842d-4365-a2c8-26c0330f85b8",

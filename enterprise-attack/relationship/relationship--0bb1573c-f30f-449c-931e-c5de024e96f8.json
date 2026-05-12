@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--88bd7805-cf65-4ced-b8d9-d01cab8d209d",
+    "id": "bundle--92fa1702-6af3-44dc-bc85-311ff75c9c7d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0bb1573c-f30f-449c-931e-c5de024e96f8",
             "created": "2021-04-25T21:45:21.073Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye SUNSHUTTLE Mar 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:34:02.489Z",
+            "modified": "2026-04-29T14:23:05.919Z",
             "description": "[GoldMax](https://attack.mitre.org/software/S0588) has been packed for obfuscation.(Citation: FireEye SUNSHUTTLE Mar 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--5c747acd-47f0-4c5a-b9e5-213541fc01e0",
             "target_ref": "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

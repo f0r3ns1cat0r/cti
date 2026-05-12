@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e5182b43-1b81-4848-848a-50445f1cdc97",
+    "id": "bundle--27bdd122-0c57-478a-874d-d0bdb8cd2ef2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--30496669-0d01-4855-b566-6d5bfd9c97c1",
             "created": "2021-04-26T20:02:14.115Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "wardle evilquest partii",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:41:30.407Z",
+            "modified": "2026-04-29T14:23:05.976Z",
             "description": "[ThiefQuest](https://attack.mitre.org/software/S0595) uploads files via unencrypted HTTP. (Citation: wardle evilquest partii)(Citation: reed thiefquest ransomware analysis)",
             "relationship_type": "uses",
             "source_ref": "malware--727afb95-3d0f-4451-b297-362a43909923",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

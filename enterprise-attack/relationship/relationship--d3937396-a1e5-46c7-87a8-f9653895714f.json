@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--44726ff3-3e71-477d-8a61-97574eaed531",
+    "id": "bundle--eff3bfa7-5b36-4ae4-8c05-ad125d838921",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d3937396-a1e5-46c7-87a8-f9653895714f",
             "created": "2024-12-17T01:38:56.342Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trustwave BlackByte 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:49:23.395Z",
+            "modified": "2026-04-29T14:23:06.214Z",
             "description": "[BlackByte Ransomware](https://attack.mitre.org/software/S1180) is distributed as an obfuscated JavaScript launcher file.(Citation: Trustwave BlackByte 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--9454bb5d-3bdb-40f9-a878-b5fb446ded3d",
             "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--72b9d5ae-cc1f-4b6a-9694-2d41a5cc1bd7",
+    "id": "bundle--98ee9633-b35b-413a-85f4-674edd144206",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--abece522-51dc-4904-b0f9-585db7fb0223",
             "created": "2020-07-27T15:20:50.275Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trustwave Pillowmint June 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:04:43.456Z",
+            "modified": "2026-04-29T14:23:06.159Z",
             "description": "[Pillowmint](https://attack.mitre.org/software/S0517) has been decompressed by included shellcode prior to being launched.(Citation: Trustwave Pillowmint June 2020)\t",
             "relationship_type": "uses",
             "source_ref": "malware--bd7a9e13-69fa-4243-a5e5-04326a63f9f2",
             "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--17ec1c8f-c2a1-4725-923a-4705e9adf72c",
+    "id": "bundle--68c1632e-12ed-4a4c-8c7e-5bc84efe47c3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--38938866-d940-4223-b811-e3b8420f6408",
             "created": "2025-10-19T19:56:05.199Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Storm-0501 Embargo Ransomware August 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-19T19:56:05.199Z",
+            "modified": "2026-04-29T14:23:05.997Z",
             "description": "[Storm-0501](https://attack.mitre.org/groups/G1053) has destroyed data and backup files.(Citation: Microsoft Storm-0501 Embargo Ransomware August 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7b404cd0-3ae9-41d4-90c0-023793d35d97",

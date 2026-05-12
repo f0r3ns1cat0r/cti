@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5917eec4-255b-4e23-97fa-833106509be7",
+    "id": "bundle--b9ef8a05-e711-4048-bdf2-2bae451eeb64",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-13T22:32:32.447Z",
+            "modified": "2026-05-12T16:30:18.378Z",
             "name": "Analytic 1452",
             "description": "Detection of processes executing system environment inspection operations followed by access to OS configuration APIs or registry locations that expose OS version, architecture, patch level, or hardware characteristics. Defenders observe process execution retrieving system configuration metadata immediately after process startup.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

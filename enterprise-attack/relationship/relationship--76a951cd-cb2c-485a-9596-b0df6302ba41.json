@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e5a2a91c-3554-4ea7-9ea8-98766800d1fa",
+    "id": "bundle--e51ee234-c3ed-4b19-83b8-9c091988f8da",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:40:24.957Z",
+            "modified": "2026-04-29T14:23:06.087Z",
             "description": "[LockerGoga](https://attack.mitre.org/software/S0372) installation has been immediately preceded by a \"task kill\" command in order to disable anti-virus.(Citation: Wired Lockergoga 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--5af7a825-2d9f-400d-931a-e00eb9e27f48",

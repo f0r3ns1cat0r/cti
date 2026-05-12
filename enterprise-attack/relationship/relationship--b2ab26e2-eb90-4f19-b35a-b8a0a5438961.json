@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--76783c35-429b-4cc8-a0a6-2b1774f115e1",
+    "id": "bundle--d06f8caa-c91d-4b2b-90d7-0550e512ded5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b2ab26e2-eb90-4f19-b35a-b8a0a5438961",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "DustySky",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:05:55.453Z",
+            "modified": "2026-04-29T14:23:06.169Z",
             "description": "[DustySky](https://attack.mitre.org/software/S0062) has two hard-coded domains for C2 servers; if the first does not respond, it will try the second.(Citation: DustySky)",
             "relationship_type": "uses",
             "source_ref": "malware--687c23e4-4e25-4ee7-a870-c5e002511f54",
             "target_ref": "attack-pattern--f24faf46-3b26-4dbb-98f2-63460498e433",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

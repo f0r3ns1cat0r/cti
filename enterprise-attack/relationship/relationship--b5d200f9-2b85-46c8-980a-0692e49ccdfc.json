@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fdb75bc5-19d0-4029-93f1-4b281922f704",
+    "id": "bundle--4a376d82-8ee2-41b8-824b-02bd6ef419ab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b5d200f9-2b85-46c8-980a-0692e49ccdfc",
             "created": "2020-07-30T17:43:35.421Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye Metamorfo Apr 2018",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:06:27.961Z",
+            "modified": "2026-04-29T14:23:06.174Z",
             "description": "[Metamorfo](https://attack.mitre.org/software/S0455) can collect screenshots of the victim\u2019s machine.(Citation: FireEye Metamorfo Apr 2018)(Citation: ESET Casbaneiro Oct 2019) ",
             "relationship_type": "uses",
             "source_ref": "malware--81c57a96-fc8c-4f91-af8e-63e24c2927c2",
             "target_ref": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

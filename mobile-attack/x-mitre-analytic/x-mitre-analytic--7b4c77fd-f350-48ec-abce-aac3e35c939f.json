@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3cc7ae80-9276-41e6-9a29-0fb817f5a0c5",
+    "id": "bundle--93d089db-3653-49af-8ac5-872bc0f42095",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-29T17:21:52.654Z",
+            "modified": "2026-05-12T16:30:18.379Z",
             "name": "Analytic 1677",
             "description": "From the defender\u2019s view: an app retrieves opaque code (DEX/SO/JAR/JS) over the network or IPC, writes it into an app-writable path, optionally performs verification-bypass behaviors (reflection, addJavascriptInterface exposure, or execmem friction), and then loads/executes that code via DexClassLoader/PathClassLoader, dlopen, or WebView bridge invocation within a short window. The analytic correlates Network Content \u2192 File Creation/Modification \u2192 OS API Execution (loader/syscall/SELinux friction) \u2192 Module Load (DexClassLoader/dlopen) and, for WebView paths, Application Log signals of JavaScript interface attachment.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

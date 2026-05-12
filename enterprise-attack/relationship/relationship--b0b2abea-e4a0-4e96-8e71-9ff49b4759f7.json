@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--41204e49-2a2e-4e45-bf32-35bfcc1be7e2",
+    "id": "bundle--34bf0753-714a-450d-85f0-cedac5ac603b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b0b2abea-e4a0-4e96-8e71-9ff49b4759f7",
             "created": "2021-08-18T19:52:07.094Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "BleepingComputer Molerats Dec 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:05:38.085Z",
+            "modified": "2026-04-29T14:23:06.166Z",
             "description": "[DropBook](https://attack.mitre.org/software/S0547) has checked for the presence of Arabic language in the infected machine's settings.(Citation: BleepingComputer Molerats Dec 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--3ae6097d-d700-46c6-8b21-42fc0bcb48fa",
             "target_ref": "attack-pattern--c1b68a96-3c48-49ea-a6c0-9b27359f9c19",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

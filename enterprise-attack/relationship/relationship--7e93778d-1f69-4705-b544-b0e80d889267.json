@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ff507ac4-fbe2-4a3c-a81c-fdc82ab2fb36",
+    "id": "bundle--b6af522e-110e-45d4-9a55-22382bb9d7a6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7e93778d-1f69-4705-b544-b0e80d889267",
             "created": "2022-06-02T12:32:30.329Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco Talos Bitter Bangladesh May 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:26:59.691Z",
+            "modified": "2026-04-29T14:23:06.098Z",
             "description": "[ZxxZ](https://attack.mitre.org/software/S1013) has relied on victims to open a malicious attachment delivered via email.(Citation: Cisco Talos Bitter Bangladesh May 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--97cfbdc6-504d-41e9-a46c-78a9f806ff0d",
             "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

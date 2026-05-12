@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--92afa06e-2a7f-4923-9a1c-121988342dcb",
+    "id": "bundle--f1cd7a71-2fc7-4989-a096-ee1bea229fff",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7a3a5c4a-ced7-4697-aca1-de90d3b9440f",
             "created": "2024-09-16T09:22:10.359Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Cloud APT41 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:25:50.819Z",
+            "modified": "2026-04-29T14:23:06.093Z",
             "description": "[APT41 DUST](https://attack.mitre.org/campaigns/C0040) used stolen code signing certificates to sign [DUSTTRAP](https://attack.mitre.org/software/S1159) malware and components.(Citation: Google Cloud APT41 2024)",
             "relationship_type": "uses",
             "source_ref": "campaign--add4d9de-1256-4166-83b8-57087288dced",
             "target_ref": "attack-pattern--e7cbc1de-1f79-48ee-abfd-da1241c65a15",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

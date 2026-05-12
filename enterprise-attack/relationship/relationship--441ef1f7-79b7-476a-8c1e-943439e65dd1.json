@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--94744358-bc96-43e5-8725-0d0861f0b359",
+    "id": "bundle--781f67de-86d1-4ec8-a8d9-8407373fee6e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T20:26:01.474Z",
+            "modified": "2026-04-29T14:23:06.018Z",
             "description": "[Remcos](https://attack.mitre.org/software/S0332) steals and modifies data from the clipboard.(Citation: Riskiq Remcos Jan 2018)(Citation: Fortinet Remcos Campaign NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "tool--7cd0bc75-055b-4098-a00e-83dc8beaff14",

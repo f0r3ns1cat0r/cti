@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--81c7e120-5135-4f3c-a8e1-a6a7dc0723dc",
+    "id": "bundle--5c4825cf-bfdb-4ee2-9b13-f53d89c36d58",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e9404ebb-fce5-4596-b0f1-7f8a61578b32",
             "created": "2019-01-29T19:09:26.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "PaloAlto UBoatRAT Nov 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:54:52.839Z",
+            "modified": "2026-04-29T14:23:06.243Z",
             "description": "[UBoatRAT](https://attack.mitre.org/software/S0333) encrypts instructions in its C2 network payloads using a simple XOR cipher.(Citation: PaloAlto UBoatRAT Nov 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--518bb5f1-91f4-4ff2-b09d-5a94e1ebe95f",
             "target_ref": "attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--766efef9-dad1-41e0-927c-8c680a057905",
+    "id": "bundle--f88fd559-de2d-4b3b-b6d9-0e437ccedaee",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--77cd972c-459f-4cac-ae21-3cc1a96df09e",
             "created": "2019-04-12T15:55:48.141Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT38 Oct 2018",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-11-13T19:21:05.138Z",
+            "modified": "2026-04-29T14:23:06.089Z",
             "description": "[APT38](https://attack.mitre.org/groups/G0082) has used a custom secure delete function to make deleted files unrecoverable.(Citation: FireEye APT38 Oct 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",

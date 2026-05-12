@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--66059e64-0b61-4074-bbfe-bdd28be4284e",
+    "id": "bundle--6da28da8-1362-47aa-801a-6be9a9b5ff59",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8b2af30a-523f-41fe-88c3-ab2ee15bdec5",
             "created": "2020-05-22T15:43:05.190Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "BitDefender Chafer May 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:30:16.989Z",
+            "modified": "2026-04-29T14:23:06.115Z",
             "description": "[APT39](https://attack.mitre.org/groups/G0087) has used the Smartftp Password Decryptor tool to decrypt FTP passwords.(Citation: BitDefender Chafer May 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
             "target_ref": "attack-pattern--3fc9b85a-2862-4363-a64d-d692e3ffbee0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

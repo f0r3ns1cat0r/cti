@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ebca7a9e-6e39-4edb-9138-a3841b700659",
+    "id": "bundle--a1607ad5-f060-41a0-aa8b-3a5dd40cd81b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-17T17:55:46.302Z",
+            "modified": "2026-05-12T16:30:18.382Z",
             "name": "Analytic 1854",
             "description": "Anchor on supervised managed-app install/update or version drift, then correlate with unexpected background activity, managed-app state changes, or egress inconsistent with the app's historical and policy baseline.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

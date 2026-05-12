@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3c5cb4d2-5625-40b5-ac57-3b553fb93234",
+    "id": "bundle--444c6e4c-7280-4ef6-a770-08fa0aa04c95",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8acce9df-baaa-4495-b273-ca925ea68ad8",
             "created": "2024-09-16T09:07:08.102Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Cloud APT41 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:30:12.183Z",
+            "modified": "2026-04-29T14:23:06.114Z",
             "description": "[DUSTPAN](https://attack.mitre.org/software/S1158) was used during [APT41 DUST](https://attack.mitre.org/campaigns/C0040).(Citation: Google Cloud APT41 2024)",
             "relationship_type": "uses",
             "source_ref": "campaign--add4d9de-1256-4166-83b8-57087288dced",
             "target_ref": "malware--37487ff6-de2a-4c14-9e8b-ba3b97f78aaf",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

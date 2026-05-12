@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6e2fe1c7-55b7-44f3-8f8f-7ea1a66f982a",
+    "id": "bundle--e20486d3-5195-46e9-b88f-767b7919981d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ba8ceccd-5406-418b-9f10-ed333e5f1e9c",
             "created": "2025-01-17T20:16:03.968Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "S2W Troll Stealer 2024",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:42:42.976Z",
+            "modified": "2026-04-29T14:23:06.179Z",
             "description": "[Troll Stealer](https://attack.mitre.org/software/S1196) collects information from Chromium-based browsers and Firefox such as cookies, history, downloads, and extensions.(Citation: S2W Troll Stealer 2024)(Citation: Symantec Troll Stealer 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--d6748457-75c2-4989-a41f-2d017994057e",
             "target_ref": "attack-pattern--5e4a2073-9643-44cb-a0b5-e7f4048446c7",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

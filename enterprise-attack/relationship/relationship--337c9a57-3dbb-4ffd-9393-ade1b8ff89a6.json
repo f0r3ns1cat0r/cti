@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--21116e64-51b3-4571-8014-1fb925b996e8",
+    "id": "bundle--4bf520f0-645b-4203-932f-e8a85f844922",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T02:39:55.977Z",
+            "modified": "2026-04-29T14:23:05.986Z",
             "description": "[SPAWNCHIMERA](https://attack.mitre.org/software/S9024) has modified the boot process files within `/tmp/coreboot_fs/bin/init` to establish persistence.(Citation: CISA SPAWNCHIMERA RESURGE February 2026)",
             "relationship_type": "uses",
             "source_ref": "malware--d1974f35-0e06-478e-bc74-7530545d814b",

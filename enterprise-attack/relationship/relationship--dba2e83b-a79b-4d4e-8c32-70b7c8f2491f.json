@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6777e38c-fa3b-4d15-9c64-eae48add471d",
+    "id": "bundle--7cef5f27-25de-4900-b067-fc96072e611e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--dba2e83b-a79b-4d4e-8c32-70b7c8f2491f",
             "created": "2023-03-26T19:46:51.032Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye SUNBURST Backdoor December 2020",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:51:25.813Z",
+            "modified": "2026-04-29T14:23:06.225Z",
             "description": "During the [SolarWinds Compromise](https://attack.mitre.org/campaigns/C0024), [APT29](https://attack.mitre.org/groups/G0016) gained initial network access to some victims via a trojanized update of SolarWinds Orion software.(Citation: SolarWinds Sunburst Sunspot Update January 2021)(Citation: FireEye SUNBURST Backdoor December 2020)(Citation: Cybersecurity Advisory SVR TTP May 2021)(Citation: Microsoft Deep Dive Solorigate January 2021)",
             "relationship_type": "uses",
             "source_ref": "campaign--808d6b30-df4e-4341-8248-724da4bac650",
             "target_ref": "attack-pattern--bd369cd9-abb8-41ce-b5bb-fff23ee86c00",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

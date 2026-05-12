@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--5096d744-378d-4024-b713-adeafd3377df",
+    "id": "bundle--991e9672-d384-4223-b4bd-053ebaec66fd",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--1e08be7e-451c-4b10-9e65-b6dbf8d54b38",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.671Z",
             "name": "Detection Strategy for Impersonation",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -33,8 +34,7 @@
                 "x-mitre-analytic--1305f37f-8333-4d86-9714-340b66c65771",
                 "x-mitre-analytic--2266c86a-a47e-46ac-aa6d-c1eb6d49a1e5",
                 "x-mitre-analytic--250d2977-7b94-4041-a299-0f2f1532eb95"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

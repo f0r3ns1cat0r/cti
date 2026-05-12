@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--da4d6422-4cd3-4558-9fe2-a8bbb0895b43",
+    "id": "bundle--99149c7f-4251-4a43-a14c-f7960b6780de",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T20:46:34.898Z",
+            "modified": "2026-04-29T14:23:06.081Z",
             "description": "During the [2025 Poland Wiper Attacks](https://attack.mitre.org/campaigns/C0063), the adversaries used [Arp](https://attack.mitre.org/software/S0099) to write to a file named outlog.txt, including: currently running processes, network connections, routing tables, ARP cache, and the contents of user directories.(Citation: CERT Polska)",
             "relationship_type": "uses",
             "source_ref": "campaign--a6aba167-5ada-4812-9da1-912c0e73335d",

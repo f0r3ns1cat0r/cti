@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3fb29abd-21e1-48e0-996b-94528ad6a187",
+    "id": "bundle--5083ebc0-33a2-4267-b268-647012bc789e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--85ca1e00-24c4-403e-8aff-9890f91e9b78",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lotus Blossom Dec 2015",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:57:32.554Z",
+            "modified": "2026-04-29T14:23:06.108Z",
             "description": "[Emissary](https://attack.mitre.org/software/S0082) has the capability to download files from the C2 server.(Citation: Lotus Blossom Dec 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--0f862b01-99da-47cc-9bdb-db4a86a95bb1",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cd08abb5-25ef-42e7-9b1d-6f15330358bc",
+    "id": "bundle--7a0ea028-443c-41c3-a039-5b7d7131424e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ecf30cb0-3183-4ed4-bb33-da604ea6a65e",
             "created": "2020-11-06T18:40:37.977Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Cobalt Strike September 2020",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:55:49.642Z",
+            "modified": "2026-04-29T14:23:06.247Z",
             "description": "[Cobalt Strike](https://attack.mitre.org/software/S0154)'s Beacon payload can collect information on process details.(Citation: cobaltstrike manual)(Citation: Talos Cobalt Strike September 2020)(Citation: Cobalt Strike Manual 4.3 November 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
             "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

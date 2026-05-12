@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4ba345f1-5cfb-45fd-bcae-81256c6862a6",
+    "id": "bundle--fcb9f4aa-31a9-4761-a89d-e2ee7dcd9246",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--43411790-39ce-4c88-aff0-1c53631fd130",
             "created": "2025-10-22T22:09:59.068Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sekoia ClickFake 2025",
@@ -43,7 +44,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T22:09:59.068Z",
+            "modified": "2026-04-29T14:23:06.017Z",
             "description": "[Contagious Interview](https://attack.mitre.org/groups/G1052) has used fake job advertisements and messages sent via social media to spearphish targets.(Citation: Sekoia ClickFake 2025)(Citation: Validin Contagious Interview North Korea ClickFix January 2025)(Citation: Recorded Future Contagious Inteview BeaverTail InvisibleFerret OtterCookie February 2025)(Citation: ESET Contagious Interview BeaverTail InvisibleFerret February 2025)(Citation: SecurityScorecard Contagious Interview October 2024)(Citation: SecurityScorecard Contagious Interview FamousChollima October 2024) [Contagious Interview](https://attack.mitre.org/groups/G1052) has also leveraged hiring websites to solicit victims.(Citation: Recorded Future Contagious Inteview BeaverTail InvisibleFerret OtterCookie February 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--46599a4a-77ee-4697-9474-2683b6464859",

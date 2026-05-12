@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--49c9f1a9-f532-49cb-86b1-748dafb0f8fd",
+    "id": "bundle--740ad82a-2270-4dfa-91e2-f7d8fa66c96c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f528d6d4-7118-48f4-a875-310a2f511900",
             "created": "2023-09-15T20:13:08.233Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Proofpoint TA2541 February 2022",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:57:54.981Z",
+            "modified": "2026-04-29T14:23:06.258Z",
             "description": "(Citation: Proofpoint TA2541 February 2022)(Citation: Cisco Operation Layover September 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--467271fd-47c0-4e90-a3f9-d84f5cf790d0",
             "target_ref": "malware--d906e6f7-434c-44c0-b51a-ed50af8f7945",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

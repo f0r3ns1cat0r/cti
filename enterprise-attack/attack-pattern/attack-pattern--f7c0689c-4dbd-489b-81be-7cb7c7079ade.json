@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--80d14eb8-0336-4b47-a5b3-d3e8cb6f73fc",
+    "id": "bundle--97d5eafe-3985-4ac7-9355-e6f45d7a459f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:49:38.011Z",
+            "modified": "2026-05-12T15:12:00.725Z",
             "name": "Junk Data",
             "description": "Adversaries may add junk data to protocols used for command and control to make detection more difficult.(Citation: FireEye SUNBURST Backdoor December 2020) By adding random or meaningless data to the protocols used for command and control, adversaries can prevent trivial methods for decoding, deciphering, or otherwise analyzing the traffic. Examples may include appending/prepending data with junk characters or writing junk characters between significant characters. ",
             "kill_chain_phases": [
@@ -38,7 +38,7 @@
                     "phase_name": "command-and-control"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "enterprise-attack"

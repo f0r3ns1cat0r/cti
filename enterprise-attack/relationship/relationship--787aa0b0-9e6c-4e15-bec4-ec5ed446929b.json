@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--627e60ab-d832-40d4-b154-0a855c46dee1",
+    "id": "bundle--e79e09b2-118c-47e5-bfcf-8a041ea43d27",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--787aa0b0-9e6c-4e15-bec4-ec5ed446929b",
             "created": "2025-01-15T20:24:05.411Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto MidnightEclipse APR 2024",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:25:15.638Z",
+            "modified": "2026-04-29T14:23:06.090Z",
             "description": "During [Operation MidnightEclipse](https://attack.mitre.org/campaigns/C0048), threat actors downloaded additional payloads on compromised devices.(Citation: Volexity UPSTYLE 2024)(Citation: Palo Alto MidnightEclipse APR 2024)",
             "relationship_type": "uses",
             "source_ref": "campaign--455b011a-2510-49ab-a96f-2f84d6a80189",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

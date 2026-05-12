@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c3a83014-864b-47b3-95a8-c7bdb51ec4eb",
+    "id": "bundle--48931555-f433-437d-8798-e03c1272f0e3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--3f81a680-3151-4608-b83f-550756632013",
             "created": "2020-07-20T13:58:53.604Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro-XLoader-FakeSpy",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:28:28.337Z",
+            "modified": "2026-04-29T14:23:06.011Z",
             "description": "[XLoader for iOS](https://attack.mitre.org/software/S0490) can obtain the device\u2019s IMEM, ICCID, and MEID.(Citation: TrendMicro-XLoader-FakeSpy)",
             "relationship_type": "uses",
             "source_ref": "malware--29944858-da52-4d3d-b428-f8a6eb8dde6f",
             "target_ref": "attack-pattern--d4536441-1bcc-49fa-80ae-a596ed3f7ffd",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--271f6488-997d-421e-812f-31cd27d99e18",
+    "id": "bundle--3af3edc4-b057-4ac6-9444-5e5c0a9b8319",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-15T19:56:16.233Z",
+            "modified": "2026-05-12T15:12:00.705Z",
             "name": "Make and Impersonate Token",
             "description": "Adversaries may make new tokens and impersonate users to escalate privileges and bypass access controls. For example, if an adversary has a username and password but the user is not logged onto the system the adversary can then create a logon session for the user using the `LogonUser` function.(Citation: LogonUserW function) The function will return a copy of the new session's access token and the adversary can use `SetThreadToken` to assign the token to a thread.\n\nThis behavior is distinct from [Token Impersonation/Theft](https://attack.mitre.org/techniques/T1134/001) in that this refers to creating a new user token instead of stealing or duplicating an existing one.",
             "kill_chain_phases": [

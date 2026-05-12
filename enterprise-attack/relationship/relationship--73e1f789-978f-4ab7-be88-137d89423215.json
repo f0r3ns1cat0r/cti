@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--543597dd-2508-41a0-9a1c-3f41b153f084",
+    "id": "bundle--a9ef7b81-2b6f-4e8a-a9b3-70a46ee2126c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T10:11:37.374Z",
+            "modified": "2026-04-29T14:23:06.084Z",
             "description": "[PureCrypter](https://attack.mitre.org/software/S9019) can send a TLS 1.2 encrypted infection message via Discord webhook.(Citation: Zscaler PureCrypter JUN 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--6f22487c-dbbf-4a5b-85ca-a8c85e8f2f80",

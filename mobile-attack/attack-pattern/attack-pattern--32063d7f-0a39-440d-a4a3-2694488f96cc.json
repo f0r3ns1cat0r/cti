@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eb56d4b4-1ceb-4cd9-941e-8fe95ac9df19",
+    "id": "bundle--0f05f175-0f63-4a1a-8bb8-5c73875adee5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:36.720Z",
+            "modified": "2026-05-12T15:12:00.624Z",
             "name": "Exfiltration Over C2 Channel",
             "description": "Adversaries may steal data by exfiltrating it over an existing command and control channel. Stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
             "kill_chain_phases": [
@@ -33,7 +33,7 @@
                     "phase_name": "exfiltration"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "mobile-attack"

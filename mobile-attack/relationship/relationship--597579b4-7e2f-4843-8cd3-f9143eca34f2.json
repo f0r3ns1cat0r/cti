@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--511a9a6f-bab8-40cb-8f18-ce8d53389f8b",
+    "id": "bundle--1517c2e7-2401-43c1-af53-cf06f8b7850d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--597579b4-7e2f-4843-8cd3-f9143eca34f2",
             "created": "2023-12-18T19:06:59.289Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "welivesecurity_ahrat_0523",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:48:51.666Z",
+            "modified": "2026-04-29T14:23:06.047Z",
             "description": "[AhRat](https://attack.mitre.org/software/S1095) can use an encryption key received from its C2 to encrypt and decrypt configuration files and exfiltrated data.(Citation: welivesecurity_ahrat_0523)",
             "relationship_type": "uses",
             "source_ref": "malware--24c8f6db-71e0-41ef-a1dc-83399a5b17e5",
             "target_ref": "attack-pattern--d13fa042-8f26-44e1-a2a8-af0bf8e2ac9a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

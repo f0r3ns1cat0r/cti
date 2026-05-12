@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e486cc7e-e486-43e2-a872-3d78417d973d",
+    "id": "bundle--a9fb826f-2cbc-4720-a33e-ab97b1e9103d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T21:25:15.433Z",
+            "modified": "2026-04-29T14:23:06.239Z",
             "description": "During the [2025 Poland Wiper Attacks](https://attack.mitre.org/campaigns/C0063), the adversaries had staged tools and files for use on Dropbox and Pastebin.(Citation: CERT Polska)",
             "relationship_type": "uses",
             "source_ref": "campaign--a6aba167-5ada-4812-9da1-912c0e73335d",

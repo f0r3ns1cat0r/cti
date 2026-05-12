@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0a4993c3-28bf-4b35-80f6-fa481041dfb9",
+    "id": "bundle--5f710499-82c0-44e4-a75e-c744dfd4e0d6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--89c6bcd7-e330-4902-8296-0918923d6573",
             "created": "2017-05-31T21:33:27.060Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Dell Lateral Movement",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:58:20.880Z",
+            "modified": "2026-04-29T14:23:06.113Z",
             "description": "(Citation: Dell Lateral Movement)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--38fd6a28-3353-4f2b-bb2b-459fecd5c648",
             "target_ref": "tool--bba595da-b73a-4354-aa6c-224d4de7cb4e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

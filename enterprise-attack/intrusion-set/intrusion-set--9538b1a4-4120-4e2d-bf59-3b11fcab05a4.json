@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0b462c1f-77b9-4f59-8e65-156e20ac6b30",
+    "id": "bundle--e2dba712-63c6-40ef-a356-dd63ff483ab6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -17,7 +17,6 @@
                 "Dragos Threat Intelligence"
             ],
             "type": "intrusion-set",
-            "spec_version": "2.1",
             "id": "intrusion-set--9538b1a4-4120-4e2d-bf59-3b11fcab05a4",
             "created": "2019-04-16T15:14:38.533Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

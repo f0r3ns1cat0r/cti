@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4f8ffff5-826b-40b0-ab63-f304d637c667",
+    "id": "bundle--3a9fb0c6-88aa-4cf4-8246-c28b77e330b7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--aa498c95-d53a-4ab7-96ba-26d7111d71d0",
             "created": "2022-04-14T17:03:26.376Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "NCSC CISA Cyclops Blink Advisory February 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:38:33.314Z",
+            "modified": "2026-04-29T14:23:06.157Z",
             "description": "[Cyclops Blink](https://attack.mitre.org/software/S0687) has used [Tor](https://attack.mitre.org/software/S0183) nodes for C2 traffic.(Citation: NCSC CISA Cyclops Blink Advisory February 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--b350b47f-88fe-4921-8538-6d9c59bac84e",
             "target_ref": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

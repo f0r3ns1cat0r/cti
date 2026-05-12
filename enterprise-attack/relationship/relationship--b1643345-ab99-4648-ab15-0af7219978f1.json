@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ceca3d33-57b2-4b13-a8d3-d8364c81cf3a",
+    "id": "bundle--592723a7-e851-49ad-8f25-c2a9c34ed95d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b1643345-ab99-4648-ab15-0af7219978f1",
             "created": "2023-03-26T22:00:21.287Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CrowdStrike StellarParticle January 2022",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:40:29.475Z",
+            "modified": "2026-04-29T14:23:06.167Z",
             "description": "(Citation: Microsoft Analyzing Solorigate Dec 2020)(Citation: CrowdStrike StellarParticle January 2022)",
             "relationship_type": "uses",
             "source_ref": "campaign--808d6b30-df4e-4341-8248-724da4bac650",
             "target_ref": "tool--f59508a6-3615-47c3-b493-6676e1a39a87",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

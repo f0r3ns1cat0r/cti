@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--017c46d7-6974-4951-a7ee-15a8cb03f8e8",
+    "id": "bundle--48e24eed-3e69-444b-b3be-1d4bdb0bc5b6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-17T15:21:58.225Z",
+            "modified": "2026-05-12T15:12:00.624Z",
             "name": "Accounts",
             "description": "Adversaries may utilize standard operating system APIs to gather account data. On Android, this can be accomplished by using the AccountManager API. For example, adversaries may use the `getAccounts()` method to list all accounts.(Citation: Android_AccountManager_Feb2025) On iOS, this can be accomplished by using the Keychain services.  \n\nIf the device has been jailbroken or rooted, adversaries may be able to access [Accounts](https://attack.mitre.org/techniques/T1636/005) without the users\u2019 knowledge or approval. ",
             "kill_chain_phases": [

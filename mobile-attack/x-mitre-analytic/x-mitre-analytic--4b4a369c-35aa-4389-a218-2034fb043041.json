@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3f2fbf44-b3a7-424c-8e76-be11cf436a66",
+    "id": "bundle--d1f398e5-370a-4016-bfc9-0313486400e6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-06T15:53:14.197Z",
+            "modified": "2026-05-12T16:30:18.377Z",
             "name": "Analytic 1763",
             "description": "Indirect evidence of asymmetric cryptographic channel usage inferred through key exchange-like network patterns and application background execution behavior, where direct observation of keypair operations is limited. Detection correlates app entitlement posture + background execution + asymmetric handshake patterns + subsequent encrypted communication.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

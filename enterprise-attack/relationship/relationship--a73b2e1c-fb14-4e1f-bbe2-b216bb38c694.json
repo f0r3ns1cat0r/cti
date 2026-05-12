@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5c8c5340-d48e-4e65-b644-3df86114aec3",
+    "id": "bundle--59bc97df-a501-4de1-8623-0f96893b1c9f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a73b2e1c-fb14-4e1f-bbe2-b216bb38c694",
             "created": "2024-05-17T20:45:58.602Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA AA24-038A PRC Critical Infrastructure February 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:37:52.762Z",
+            "modified": "2026-04-29T14:23:06.153Z",
             "description": "[Volt Typhoon](https://attack.mitre.org/groups/G1017) has used Brightmetricagent.exe which contains a command- line interface (CLI) library that can leverage command shells including Z Shell (zsh).(Citation: CISA AA24-038A PRC Critical Infrastructure February 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2",
             "target_ref": "attack-pattern--a9d4b653-6915-42af-98b2-5758c4ceee56",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--158ce4ec-6321-466e-9cc6-d9c55214e2fc",
+    "id": "bundle--e93ae048-f1a6-4889-b534-d362a16a5825",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6ca7aa45-86c5-4ba7-bd43-8d9446fb05d2",
             "created": "2020-01-24T18:38:56.162Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Enable Cred Guard April 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:52:46.912Z",
+            "modified": "2026-04-29T14:23:06.073Z",
             "description": "On Windows 10 and Server 2016, enable Windows Defender Credential Guard (Citation: Microsoft Enable Cred Guard April 2017) to run lsass.exe in an isolated virtualized environment without any device drivers. (Citation: Microsoft Credential Guard April 2017)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--49c06d54-9002-491d-9147-8efb537fbd26",
             "target_ref": "attack-pattern--f0589bc3-a6ae-425a-a3d5-5659bfee07f4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

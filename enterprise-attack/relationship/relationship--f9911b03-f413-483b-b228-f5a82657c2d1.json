@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2fdcc8e6-1082-4645-a230-6a5976249837",
+    "id": "bundle--e013d084-8538-402d-a68f-c7040a8bc210",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f9911b03-f413-483b-b228-f5a82657c2d1",
             "created": "2022-01-05T15:37:40.852Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky Winnti April 2013",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:18:14.180Z",
+            "modified": "2026-04-29T14:23:06.264Z",
             "description": "(Citation: Kaspersky Winnti April 2013)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c5947e1c-1cbc-434c-94b8-27c7e3be0fff",
             "target_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

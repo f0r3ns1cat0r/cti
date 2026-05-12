@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9e5554ae-3d25-45b1-bbe7-c832083942a3",
+    "id": "bundle--a16a50ff-800a-4d45-8e4f-5e740833a3a2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bfdc1a69-6bc6-4a73-a2f2-48e947d19895",
             "created": "2025-01-14T22:49:06.445Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Recorded Future RedDelta 2025",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:44:08.463Z",
+            "modified": "2026-04-29T14:23:06.188Z",
             "description": "[Mustang Panda](https://attack.mitre.org/groups/G0129) initial payloads downloaded a Windows Installer MSI file that in turn dropped follow-on files leading to installation of [PlugX](https://attack.mitre.org/software/S0013) during [RedDelta Modified PlugX Infection Chain Operations](https://attack.mitre.org/campaigns/C0047).(Citation: Recorded Future RedDelta 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--276671b5-5425-48db-ad65-c8c2564a969b",
             "target_ref": "attack-pattern--365be77f-fc0e-42ee-bac8-4faf806d9336",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

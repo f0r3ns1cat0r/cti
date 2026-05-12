@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--73b5eaf1-3cca-444e-9c8d-ba7f047a1767",
+    "id": "bundle--ce4c49fe-b203-42c1-8628-37b2baee6351",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--20e34dcc-cf1f-4657-890b-8ee7658ba12a",
             "created": "2025-10-15T14:24:17.712Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "IBM MUSTANG PANDA PUBLOAD CLAIMLOADER JUNE 2025",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-15T14:24:17.713Z",
+            "modified": "2026-04-29T14:23:05.950Z",
             "description": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used open-source research to identify information about victims to use in targeting to include creating weaponized phishing lures and attachments.(Citation: IBM MUSTANG PANDA PUBLOAD CLAIMLOADER JUNE 2025)(Citation: 2025_IBM_PUBLOAD_TONESHELL_HIUPAN_CLAIMLOADER_MUSTANG PANDA)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--420ac20b-f2b9-42b8-aa1a-6d4b72895ca4",

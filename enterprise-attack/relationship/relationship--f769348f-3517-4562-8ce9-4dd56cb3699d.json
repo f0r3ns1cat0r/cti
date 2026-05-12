@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7aa299f5-7b5d-4a59-af8c-a3b048396bf3",
+    "id": "bundle--86b2458f-98d1-472e-b0aa-2dbfcf706eb2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f769348f-3517-4562-8ce9-4dd56cb3699d",
             "created": "2025-01-08T22:26:22.290Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant APT42-untangling",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:58:32.628Z",
+            "modified": "2026-04-29T14:23:06.261Z",
             "description": "[TAMECAT](https://attack.mitre.org/software/S1193) has used HTTP for C2 communications.(Citation: Mandiant APT42-untangling) ",
             "relationship_type": "uses",
             "source_ref": "malware--12fdf05a-4bd1-4f45-9cde-d3af35f82db1",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

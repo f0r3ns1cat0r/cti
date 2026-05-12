@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6f536dc5-2a07-48fa-bd8e-8d4dee561b22",
+    "id": "bundle--8d5336f6-4a37-44e8-8d8f-4bc697294c83",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9730ebe6-78b7-4dbf-93f4-add720033985",
             "created": "2024-09-23T20:43:37.860Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Gamaredon Sept2024",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-21T17:41:23.596Z",
+            "modified": "2026-04-29T14:23:06.131Z",
             "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has attempted to get users to click on a link pointing to a malicious HTML file leading to follow-on malicious content.(Citation: unit42_gamaredon_dec2022)(Citation: ESET Gamaredon Sept2024)  ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
             "target_ref": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

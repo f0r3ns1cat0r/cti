@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--82693f5a-fe9f-4fe5-a3e2-ac3a3ff43ced",
+    "id": "bundle--03301040-08aa-4c0b-ad24-c3177a7d1631",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--68876423-7dbc-4f68-9b2b-848184338395",
             "created": "2024-09-06T21:46:38.214Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA GRU29155 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:20:53.966Z",
+            "modified": "2026-04-29T14:23:06.067Z",
             "description": "[Ember Bear](https://attack.mitre.org/groups/G1003) has targeted IP ranges for vulnerability scanning related to government and critical infrastructure organizations.(Citation: CISA GRU29155 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",
             "target_ref": "attack-pattern--db8f5003-3b20-48f0-9b76-123e44208120",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

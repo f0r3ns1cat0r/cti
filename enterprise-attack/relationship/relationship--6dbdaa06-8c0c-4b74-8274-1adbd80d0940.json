@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--52b321e1-5155-4d8e-8a1f-6e13a403e40c",
+    "id": "bundle--c9664725-a84c-4cc9-836b-5e4295d5e92e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T16:25:31.218Z",
+            "modified": "2026-04-29T14:23:06.075Z",
             "description": "[LODEINFO](https://attack.mitre.org/software/S9020) has the ability to take screenshots.(Citation: Kaspersky LODEINFO Part II OCT 2022)(Citation: ESET MirrorFace DEC 2022)(Citation: ITOCHU LODEINFO JAN 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--7908f855-5b5b-4d6a-acbc-af6b45ec27ad",

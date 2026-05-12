@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1a8ae167-e87d-4c31-b418-744d6753aa19",
+    "id": "bundle--d2da788c-acd8-47b8-987e-4a211407e175",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--30437ed1-5cad-4656-9ae8-c4a06122b613",
             "created": "2025-10-22T02:05:03.407Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Eset PlugX Korplug Mustang Panda March 2022",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T02:05:03.407Z",
+            "modified": "2026-04-29T14:23:05.976Z",
             "description": "[PlugX](https://attack.mitre.org/software/S0013) has collected a list of all mapped drives on the infected host.(Citation: Eset PlugX Korplug Mustang Panda March 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",

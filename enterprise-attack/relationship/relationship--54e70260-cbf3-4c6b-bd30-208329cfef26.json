@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ea411b11-21df-4ad6-a1ca-db48580bf2b4",
+    "id": "bundle--5e6f5d96-b489-4ce6-b4df-7670ddfd3025",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T22:19:06.287Z",
+            "modified": "2026-04-29T14:23:06.041Z",
             "description": "[Remcos](https://attack.mitre.org/software/S0332) has a command to hide itself by injecting into another process.(Citation: Fortinet Remcos Feb 2017)",
             "relationship_type": "uses",
             "source_ref": "tool--7cd0bc75-055b-4098-a00e-83dc8beaff14",

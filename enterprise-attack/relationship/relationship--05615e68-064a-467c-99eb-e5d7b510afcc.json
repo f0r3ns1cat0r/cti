@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4d9d7d17-bf07-44a5-9e2a-dbd643769dbe",
+    "id": "bundle--19f11331-bde8-414b-a7ed-bbbb5a1f342c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T12:51:15.061Z",
+            "modified": "2026-04-29T14:23:05.910Z",
             "description": "[LAMEHUG](https://attack.mitre.org/software/S9035) can use wmic to collect system information.(Citation: Splunk LAMEHUG SEP 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--c55e0410-842d-4365-a2c8-26c0330f85b8",

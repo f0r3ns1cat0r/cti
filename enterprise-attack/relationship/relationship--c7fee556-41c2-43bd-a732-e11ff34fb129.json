@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0bd9e818-54a2-4e70-acbd-6a98c456213c",
+    "id": "bundle--1cf77b84-70a5-44d8-89f8-f50d2d530e05",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c7fee556-41c2-43bd-a732-e11ff34fb129",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Trojan.Hydraq Jan 2010",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:09:41.852Z",
+            "modified": "2026-04-29T14:23:06.199Z",
             "description": "[Hydraq](https://attack.mitre.org/software/S0203) creates a backdoor through which remote attackers can check for the existence of files, including its own components, as well as retrieve a list of logical drives.(Citation: Symantec Trojan.Hydraq Jan 2010)(Citation: Symantec Hydraq Jan 2010)",
             "relationship_type": "uses",
             "source_ref": "malware--73a4793a-ce55-4159-b2a6-208ef29b326f",
             "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

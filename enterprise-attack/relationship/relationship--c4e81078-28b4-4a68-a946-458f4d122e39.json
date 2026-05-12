@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--641cf9f9-94ab-46a3-a3f3-72c9bb29ec6f",
+    "id": "bundle--9a135bbd-4870-43f4-80c6-42b75023035d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c4e81078-28b4-4a68-a946-458f4d122e39",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant FIN5 GrrCON Oct 2016",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:09:09.320Z",
+            "modified": "2026-04-29T14:23:06.194Z",
             "description": "(Citation: Mandiant FIN5 GrrCON Oct 2016)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
             "target_ref": "tool--d8d19e33-94fd-4aa3-b94a-08ee801a2153",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

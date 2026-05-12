@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fafe5009-90e4-4e4a-b440-554142177753",
+    "id": "bundle--caa2e304-eaf0-4c8e-a0f9-c2414a30229c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T15:57:30.214Z",
+            "modified": "2026-05-12T16:30:18.379Z",
             "name": "Analytic 1848",
             "description": "The defender correlates an application establishing outbound retrieval to a non-baselined external source with immediate local creation of a new executable, module, staged payload, overlay asset, or secondary file in app-controlled or shared storage, followed by optional load, invocation, handoff, or repeat retrieval behavior. The analytic prioritizes Android-observable effects: network download activity, DownloadManager or direct HTTP retrieval, file creation in package-specific or external paths, and execution context inconsistent with recent user interaction or the app\u2019s declared role.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

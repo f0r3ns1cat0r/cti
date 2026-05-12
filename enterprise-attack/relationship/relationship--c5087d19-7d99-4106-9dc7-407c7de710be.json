@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6164c1d4-9f77-42f2-9ef1-1b9c76c14276",
+    "id": "bundle--247aae31-3a94-47c5-9a7c-b2728fbee8c8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c5087d19-7d99-4106-9dc7-407c7de710be",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Pasam May 2012",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T23:01:47.004Z",
+            "modified": "2026-04-29T14:23:06.194Z",
             "description": "[Pasam](https://attack.mitre.org/software/S0208) creates a backdoor through which remote attackers can retrieve information like hostname.(Citation: Symantec Pasam May 2012)",
             "relationship_type": "uses",
             "source_ref": "malware--e811ff6a-4cef-4856-a6ae-a7daf9ed39ae",

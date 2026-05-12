@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5d54f4f7-24f7-4a3c-a8c7-3c3d58fab5c8",
+    "id": "bundle--f3dbae9f-eb7c-44f5-ac01-e8a200c1008a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--427f7417-6d8a-4b0b-8bcf-a6acdd28586e",
             "created": "2022-07-18T18:36:48.429Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro EarthLusca 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:10:43.161Z",
+            "modified": "2026-04-29T14:23:06.016Z",
             "description": "(Citation: TrendMicro EarthLusca 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
             "target_ref": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

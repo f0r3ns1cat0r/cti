@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1b27178f-0afe-48f1-a80c-bd09e19beb78",
+    "id": "bundle--b788229d-41af-40c8-9990-6ed872af54ca",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-06-16T19:57:30.085Z",
+            "modified": "2026-04-29T14:23:05.925Z",
             "description": "[THINCRUST](https://attack.mitre.org/software/S1223) can use the Django python module \"django.views.decorators.csrf\u201d along with the decorator \u201ccsrf_exempt\u201d within victim firewalls to disable cross-site request forgery protections.(Citation: Mandiant Fortinet Zero Day)",
             "relationship_type": "uses",
             "source_ref": "malware--351b63d3-7b2c-4ede-b3fe-ff291527b397",

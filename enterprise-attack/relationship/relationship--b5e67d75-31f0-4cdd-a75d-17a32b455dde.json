@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--487eaebb-46b5-4036-ae1f-fec1929e13cb",
+    "id": "bundle--7e7b878b-78b0-4785-b45c-3175242595c9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T22:36:45.366Z",
+            "modified": "2026-04-29T14:23:06.174Z",
             "description": "[PHASEJAM](https://attack.mitre.org/software/S9014) has modified Ivanti Connect Secure appliances and blocks the system upgrades by altering the DSUpgrade.pm file.(Citation: Google UNC5221 Ivanti January 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--ca3f5123-b853-45ef-83cb-1d1bca22e03f",

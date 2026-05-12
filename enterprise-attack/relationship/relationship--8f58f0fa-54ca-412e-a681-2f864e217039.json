@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--23ce9c06-6c3f-49fe-a38e-f31a98e65f2d",
+    "id": "bundle--c499ac62-88bb-44a7-9dfd-47c957419f15",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T20:25:22.674Z",
+            "modified": "2026-04-29T14:23:06.120Z",
             "description": "[Remcos](https://attack.mitre.org/software/S0332) can launch a remote command line to execute commands on the victim\u2019s machine.(Citation: Fortinet Remcos Feb 2017)(Citation: Fortinet Remcos Campaign NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "tool--7cd0bc75-055b-4098-a00e-83dc8beaff14",

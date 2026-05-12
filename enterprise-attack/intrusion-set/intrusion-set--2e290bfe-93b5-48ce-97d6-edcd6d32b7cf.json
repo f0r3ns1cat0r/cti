@@ -1,11 +1,10 @@
 {
     "type": "bundle",
-    "id": "bundle--5f471914-a106-4740-8fa1-f7fe6c963c3f",
+    "id": "bundle--0c9c8f7e-7bb7-4682-bfe5-23d6f5008d36",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
-            "spec_version": "2.1",
             "id": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
             "created": "2017-05-31T21:32:09.849Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -106,7 +105,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-19T00:11:03.898Z",
+            "modified": "2026-05-12T15:12:00.731Z",
             "name": "Gamaredon Group",
             "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) is a suspected Russian cyber espionage group that has targeted military, law enforcement, judiciary, non-profit, and non-governmental organizations in Ukraine since at least 2013. The name [Gamaredon Group](https://attack.mitre.org/groups/G0047) derives from a misspelling of the word \"Armageddon,\" found in early campaigns.(Citation: Palo Alto Gamaredon Feb 2017)(Citation: TrendMicro Gamaredon April 2020)(Citation: ESET Gamaredon June 2020)(Citation: Symantec Shuckworm January 2022)(Citation: Microsoft Actinium February 2022)\n\nIn November 2021, the Ukrainian government publicly attributed [Gamaredon Group](https://attack.mitre.org/groups/G0047) to Russia\u2019s Federal Security Service (FSB) Center 18, an assessment later supported by multiple independent cybersecurity researchers. (Citation: Bleepingcomputer Gamardeon FSB November 2021)(Citation: Microsoft Actinium February 2022)",
             "aliases": [

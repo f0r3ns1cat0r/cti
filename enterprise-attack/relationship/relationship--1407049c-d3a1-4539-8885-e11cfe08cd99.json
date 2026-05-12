@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--72f7461c-63b0-4532-b0ed-845abefca2ec",
+    "id": "bundle--d32ec8b3-5b3b-4468-9d4e-7b3f18651037",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1407049c-d3a1-4539-8885-e11cfe08cd99",
             "created": "2025-03-11T19:12:54.691Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ANY.RUN XLoader 2023",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:58:04.788Z",
+            "modified": "2026-04-29T14:23:05.931Z",
             "description": "[XLoader](https://attack.mitre.org/software/S1207) uses process hollowing by injecting itself into the `explorer.exe` process and other files ithin the Windows `SysWOW64` directory.(Citation: Zscaler XLoader 2025)(Citation: Google XLoader 2017)(Citation: ANY.RUN XLoader 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--9c629607-03e4-4952-b481-2d54221d2783",
             "target_ref": "attack-pattern--b200542e-e877-4395-875b-cf1a44537ca4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

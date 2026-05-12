@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--269a9f38-3fe2-4b5e-b450-c7f471db91b4",
+    "id": "bundle--f0d342bf-a0a8-4baa-ae0b-2a3aefa2c3db",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d3bc0783-3912-40b4-a995-4241ef218977",
             "created": "2025-10-15T20:46:16.581Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft SharePoint Exploit JUL 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-16T16:03:24.275Z",
+            "modified": "2026-04-29T14:23:06.215Z",
             "description": "During [SharePoint ToolShell Exploitation](https://attack.mitre.org/campaigns/C0058), threat actors leveraged tools including [Impacket](https://attack.mitre.org/software/S0357), [PsExec](https://attack.mitre.org/software/S0029), and [Mimikatz](https://attack.mitre.org/software/S0002).(Citation: Microsoft SharePoint Exploit JUL 2025)\n",
             "relationship_type": "uses",
             "source_ref": "campaign--1a0576df-df21-4775-843e-844d8a58a94b",

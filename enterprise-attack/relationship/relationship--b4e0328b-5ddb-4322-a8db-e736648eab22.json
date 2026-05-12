@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e567f1b7-b5bb-43d3-bc64-7c94dc16bdb8",
+    "id": "bundle--fe7f6260-7e91-45c3-a021-d22591f1ce48",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b4e0328b-5ddb-4322-a8db-e736648eab22",
             "created": "2025-01-21T19:07:32.269Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET OilRig Downloaders DEC 2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:41:19.349Z",
+            "modified": "2026-04-29T14:23:06.172Z",
             "description": "[SampleCheck5000](https://attack.mitre.org/software/S1168) can log the output from C2 commands in an encrypted and compressed format on disk prior to exfiltration.(Citation: ESET OilRig Downloaders DEC 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--a87c8100-8735-440e-8ee4-27aabb643592",
             "target_ref": "attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

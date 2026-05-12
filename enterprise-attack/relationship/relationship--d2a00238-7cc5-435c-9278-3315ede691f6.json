@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4712da08-d8ec-4352-a3dd-2e2bcf32a5fb",
+    "id": "bundle--a3712e5d-deb5-499f-8f2b-659b5dd69f4c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d2a00238-7cc5-435c-9278-3315ede691f6",
             "created": "2026-04-09T19:24:47.802Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Aikido Shai-Hulud September 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T19:24:47.802Z",
+            "modified": "2026-04-29T14:23:06.213Z",
             "description": "[Shai-Hulud](https://attack.mitre.org/software/S9008) has queried the AWS and GCP metadata endpoints for instances and service credentials.(Citation: Aikido Shai-Hulud September 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--de376fb9-1093-4f59-8d13-aed61042701d",

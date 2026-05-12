@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6dc391de-7377-4fa4-a234-dab46c66fcfa",
+    "id": "bundle--f0d7f725-05c9-4fbb-a83c-0661edba8279",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:41.974Z",
+            "modified": "2026-05-12T15:12:00.628Z",
             "name": "Credentials from Password Stores",
             "description": "Adversaries may search for common password storage locations to obtain user credentials.(Citation: F-Secure The Dukes) Passwords are stored in several places on a system, depending on the operating system or application holding the credentials. There are also specific applications and services that store passwords to make them easier for users to manage and maintain, such as password managers and cloud secrets vaults. Once credentials are obtained, they can be used to perform lateral movement and access restricted information.",
             "kill_chain_phases": [
@@ -33,7 +33,7 @@
                     "phase_name": "credential-access"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "enterprise-attack"

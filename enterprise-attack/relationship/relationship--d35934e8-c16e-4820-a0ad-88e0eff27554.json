@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2b9243db-85d6-42f9-81b1-25848408b951",
+    "id": "bundle--d544dccc-6674-4630-9788-f711cb420cf4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d35934e8-c16e-4820-a0ad-88e0eff27554",
             "created": "2021-05-26T12:32:59.061Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ClearSky and Trend Micro Operation Wilted Tulip July 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:49:19.971Z",
+            "modified": "2026-04-29T14:23:06.214Z",
             "description": "[CopyKittens](https://attack.mitre.org/groups/G0052) has used Metasploit, [Empire](https://attack.mitre.org/software/S0363), and AirVPN for post-exploitation activities.(Citation: ClearSky and Trend Micro Operation Wilted Tulip July 2017)(Citation: Microsoft POLONIUM June 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
             "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

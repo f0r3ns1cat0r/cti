@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1601a51e-1293-4f66-9fbb-904da938e832",
+    "id": "bundle--1007a729-6a66-4d6e-b009-47e5ed0f3472",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T23:25:03.360Z",
+            "modified": "2026-04-29T14:23:06.151Z",
             "description": "[SPAWNCHIMERA](https://attack.mitre.org/software/S9024) has executed only in memory and hooked itself into existing processes on the victim device to include the web process.(Citation: CISA SPAWNCHIMERA RESURGE February 2026)(Citation: Google UNC5221 BRICKSTORM SPAWNCHIMERA April 2024)(Citation: JPCERT SPAWNCHIMERA Ivanti February 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--d1974f35-0e06-478e-bc74-7530545d814b",

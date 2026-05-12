@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--40d8dc35-39af-486e-9295-23f6f8ae72da",
+    "id": "bundle--992dae1a-b165-450f-8527-cf15dd2d236d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d9089fda-0f17-43d2-bd5b-b9cd441bb4e2",
             "created": "2021-01-06T16:56:56.275Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye SUNBURST Backdoor December 2020",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:12:42.759Z",
+            "modified": "2026-04-29T14:23:06.221Z",
             "description": "[SUNBURST](https://attack.mitre.org/software/S0559) collected the username from a compromised host.(Citation: FireEye SUNBURST Backdoor December 2020)(Citation: Microsoft Analyzing Solorigate Dec 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--a8839c95-029f-44cf-8f3d-a3cf2039e927",
             "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d14f4599-a4e9-486a-96e6-0ec7a3242239",
+    "id": "bundle--94054713-0a8b-40a3-bffd-139e6625ff59",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--60fe96a5-c2c2-4be8-8303-8f5bd1d1fb97",
             "created": "2025-10-17T11:45:52.910Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Unit 42 Medusa Group Medusa Ransomware January 2024",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-17T11:45:52.910Z",
+            "modified": "2026-04-29T14:23:06.057Z",
             "description": "[Medusa Ransomware](https://attack.mitre.org/software/S1244) has the ability to delete itself after execution.(Citation: Broadcom Medusa Ransomware Medusa Group March 2025) [Medusa Ransomware](https://attack.mitre.org/software/S1244) also has the ability to delete itself after execution through the command `cmd /c ping localhost -n 3 > nul & del`.(Citation: Palo Alto Unit 42 Medusa Group Medusa Ransomware January 2024)(Citation: Security Scorecard Medusa Ransomware January 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--28d93902-30e7-4436-8885-6d312c51c9a3",

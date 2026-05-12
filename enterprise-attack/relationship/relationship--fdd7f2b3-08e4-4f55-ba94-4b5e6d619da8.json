@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d114b50d-01a6-4c31-9860-a6fb1d934b75",
+    "id": "bundle--0948daa4-9b65-449c-8244-ec25a0ffd82d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fdd7f2b3-08e4-4f55-ba94-4b5e6d619da8",
             "created": "2022-09-30T20:00:58.555Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cylance Dust Storm",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:00:11.290Z",
+            "modified": "2026-04-29T14:23:06.270Z",
             "description": "[Misdat](https://attack.mitre.org/software/S0083) has used Windows APIs, including `ExitWindowsEx` and `GetKeyboardType`.(Citation: Cylance Dust Storm) ",
             "relationship_type": "uses",
             "source_ref": "malware--0db09158-6e48-4e7c-8ce7-2b10b9c0c039",
             "target_ref": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

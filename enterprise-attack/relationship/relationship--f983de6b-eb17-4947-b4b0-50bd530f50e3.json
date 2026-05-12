@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cc6039e8-1154-4bed-b3c2-c7afd3a5d3b0",
+    "id": "bundle--72bdf31a-4996-42c7-8df6-379f1385aa22",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f983de6b-eb17-4947-b4b0-50bd530f50e3",
             "created": "2021-02-10T20:45:20.026Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Windigo Mar 2014",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:18:13.678Z",
+            "modified": "2026-04-29T14:23:06.264Z",
             "description": "[Windigo](https://attack.mitre.org/groups/G0124) has distributed Windows malware via drive-by downloads.(Citation: ESET Windigo Mar 2014)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--4e868dad-682d-4897-b8df-2dc98f46c68a",
             "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

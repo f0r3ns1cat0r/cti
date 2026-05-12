@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--30463fef-83a8-4606-ab97-a6ed2c139f1e",
+    "id": "bundle--adbc411e-cb3a-4ddb-a4aa-e91e32ed60a2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b6455e96-9b28-4749-8b76-220f27ac4ee8",
             "created": "2025-09-17T16:27:52.388Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET RedLine Stealer November 2024",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-17T16:27:52.388Z",
+            "modified": "2026-04-29T14:23:06.174Z",
             "description": "[RedLine Stealer](https://attack.mitre.org/software/S1240) has built in settings to not operate based on geolocation or country of the victim host.(Citation: ESET RedLine Stealer November 2024)(Citation: Proofpoint RedLine Stealer March 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--8c8e8b01-b4b1-479b-a7a9-78c40a12b916",

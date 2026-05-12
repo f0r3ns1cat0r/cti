@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ab2cb733-8d7f-47ce-a4c1-062f205b580f",
+    "id": "bundle--06b3b4f4-6ee3-4c1a-b67e-a8990a397ce0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T18:02:21.113Z",
+            "modified": "2026-04-29T14:23:05.913Z",
             "description": "[VOID MANTICORE](https://attack.mitre.org/groups/G1055) has conducted password guessing to gain initial access.(Citation: Domain Tools Handala Hack Karma Homeland Justice MOIS April 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--ebd7ce77-c9ba-4fba-bb28-58296ac66559",

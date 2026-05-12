@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5e9306c6-4eca-470d-9c78-787df0748c59",
+    "id": "bundle--97af1eb2-a01d-4f63-b1a2-cf170cd98fdc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f5e601f7-5f7a-4888-9e90-e7f815d5013c",
             "created": "2023-04-05T16:43:39.984Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Unidentified Dec 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:58:08.271Z",
+            "modified": "2026-04-29T14:23:06.259Z",
             "description": "For [C0021](https://attack.mitre.org/campaigns/C0021), the threat actors embedded a base64-encoded payload within a LNK file.(Citation: Microsoft Unidentified Dec 2018)",
             "relationship_type": "uses",
             "source_ref": "campaign--712e38c3-a656-426a-9b3b-a6bfb63294c6",
             "target_ref": "attack-pattern--0533ab23-3f7d-463f-9bd8-634d27e4dee1",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

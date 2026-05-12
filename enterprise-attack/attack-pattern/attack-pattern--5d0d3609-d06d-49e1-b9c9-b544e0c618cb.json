@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e0cbf433-5eda-4af5-ad56-4d941a88b0c7",
+    "id": "bundle--b3a132e9-616b-46ac-8d98-fbdcc55c1312",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:50.387Z",
+            "modified": "2026-05-12T15:12:00.635Z",
             "name": "Web Shell",
             "description": "Adversaries may backdoor web servers with web shells to establish persistent access to systems. A Web shell is a Web script that is placed on an openly accessible Web server to allow an adversary to access the Web server as a gateway into a network. A Web shell may provide a set of functions to execute or a command-line interface on the system that hosts the Web server.(Citation: volexity_0day_sophos_FW)\n\nIn addition to a server-side script, a Web shell may have a client interface program that is used to talk to the Web server (e.g. [China Chopper](https://attack.mitre.org/software/S0020) Web shell client).(Citation: Lee 2013)",
             "kill_chain_phases": [
@@ -48,7 +48,7 @@
                     "phase_name": "persistence"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_contributors": [
                 "Arnim Rupp, Deutsche Lufthansa AG"
             ],

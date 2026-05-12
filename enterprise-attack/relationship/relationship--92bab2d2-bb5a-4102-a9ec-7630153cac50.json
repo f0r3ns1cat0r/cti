@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0c1644cc-ede1-4eec-8364-42fd49926251",
+    "id": "bundle--60edda34-dcbc-46c0-a5a0-596fe70db4dc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--92bab2d2-bb5a-4102-a9ec-7630153cac50",
             "created": "2024-09-21T07:20:24.798Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Cloud APT41 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:32:18.900Z",
+            "modified": "2026-04-29T14:23:06.125Z",
             "description": "[DUSTPAN](https://attack.mitre.org/software/S1158) decodes and decrypts embedded payloads.(Citation: Google Cloud APT41 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--37487ff6-de2a-4c14-9e8b-ba3b97f78aaf",
             "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

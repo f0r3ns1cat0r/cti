@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--518c0eda-4f57-4495-ac6f-46aac7b004c8",
+    "id": "bundle--5edaae9a-af0a-4e5c-9701-d02da0e8d1f2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1ddb44cc-25c0-4f18-a70c-5c13c7d1c99a",
             "created": "2025-01-08T22:26:01.852Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant APT42-untangling",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:00:51.727Z",
+            "modified": "2026-04-29T14:23:05.945Z",
             "description": "[TAMECAT](https://attack.mitre.org/software/S1193) has used `cmd.exe` to run the `curl` command.(Citation: Mandiant APT42-untangling) ",
             "relationship_type": "uses",
             "source_ref": "malware--12fdf05a-4bd1-4f45-9cde-d3af35f82db1",
             "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

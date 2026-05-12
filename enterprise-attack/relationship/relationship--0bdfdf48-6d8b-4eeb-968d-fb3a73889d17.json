@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5a513774-fdb1-4aec-913e-a0382c88c3ca",
+    "id": "bundle--68b207ce-c228-4c66-85d1-67234d428d0f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T19:13:13.600Z",
+            "modified": "2026-04-29T14:23:05.919Z",
             "description": "[ROAMINGHOUSE](https://attack.mitre.org/software/S9026) can decode and drop a malicious ZIP file prior to execution.(Citation: Trend Micro Earth Kasha Updates APR 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--251f1715-fc97-4487-b939-5c8823ef7a39",

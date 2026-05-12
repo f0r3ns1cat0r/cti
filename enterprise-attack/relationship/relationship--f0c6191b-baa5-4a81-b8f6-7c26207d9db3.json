@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5baa849a-d8c9-44c8-bd9b-0ce9a3979955",
+    "id": "bundle--dace517e-bb1e-42c9-9106-d1235ac947c8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-19T18:34:44.963Z",
+            "modified": "2026-04-29T14:23:06.252Z",
             "description": "During [Operation Digital Eye](https://attack.mitre.org/campaigns/C0061), threat actors used `GetUserInfo` to identify current user information.(Citation: sentinelone operationDigitalEye Dec 2024)",
             "relationship_type": "uses",
             "source_ref": "campaign--75ea699b-bff5-4541-b9b7-df4996c9db3c",

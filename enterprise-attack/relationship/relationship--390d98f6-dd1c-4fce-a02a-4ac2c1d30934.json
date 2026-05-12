@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--40667f89-8f43-4741-9420-5742f7724610",
+    "id": "bundle--9b8cc299-14cd-4d9a-8f2a-ee4fc614a61d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T17:07:41.832Z",
+            "modified": "2026-04-29T14:23:05.998Z",
             "description": "[LODEINFO](https://attack.mitre.org/software/S9020) can run `net view` and `net view /domain` for network discovery.(Citation: ESET MirrorFace DEC 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--7908f855-5b5b-4d6a-acbc-af6b45ec27ad",

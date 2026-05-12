@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f4ea53b7-e762-4b89-9c47-2c6e8347b8ff",
+    "id": "bundle--b353f153-0c5e-48a2-b21f-0ea397a9017a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T23:17:04.624Z",
+            "modified": "2026-04-29T14:23:06.071Z",
             "description": "[Qilin](https://attack.mitre.org/software/S1242) has pushed scheduled tasks via Group Policy Objects (GPOs) for execution.(Citation: BushidoToken Qilin RaaS JUN 2024)(Citation: Trend Micro Agenda Ransomware AUG 2022) [Qilin](https://attack.mitre.org/software/S1242) has also created a scheduled task named TVInstallRestore, configured to run at logon using the `/SC ONLOGON` argument.(Citation: Cisco Talos Qilin Ransomware OCT 2025)\n",
             "relationship_type": "uses",
             "source_ref": "malware--e23d2777-b85d-44fc-861e-9149d399fbb9",

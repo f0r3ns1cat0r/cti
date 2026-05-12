@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b962fe0e-89f4-4779-8ae5-d3201399b178",
+    "id": "bundle--8a21a8c8-022d-41e2-bbec-9e52b83ad0ad",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--de15c868-b002-415c-937b-b365e4c60597",
             "created": "2022-10-04T04:34:49.653Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Application Bundle Manipulation Brandon Dalton",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:51:59.995Z",
+            "modified": "2026-04-29T14:23:06.228Z",
             "description": "[XCSSET](https://attack.mitre.org/software/S0658) has used `mdfind` to enumerate a list of apps known to grant screen sharing permissions and leverages a module to run the command `ls -la ~/Desktop`.(Citation: Application Bundle Manipulation Brandon Dalton)(Citation: Microsoft March 2025 XCSSET)\n",
             "relationship_type": "uses",
             "source_ref": "malware--e14085cb-0e8d-4be6-92ba-e3b93ee5978f",
             "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

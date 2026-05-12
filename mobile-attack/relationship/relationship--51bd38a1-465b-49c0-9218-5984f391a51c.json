@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--544a2903-0890-48d9-bbf4-21b5813bda37",
+    "id": "bundle--bbc89208-8edd-4b57-b23f-55531958a241",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--51bd38a1-465b-49c0-9218-5984f391a51c",
             "created": "2023-12-18T19:03:44.550Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "welivesecurity_ahrat_0523",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:48:40.452Z",
+            "modified": "2026-04-29T14:23:06.037Z",
             "description": "[AhRat](https://attack.mitre.org/software/S1095) can register with the `BOOT_COMPLETED` broadcast to start when the device turns on.(Citation: welivesecurity_ahrat_0523)",
             "relationship_type": "uses",
             "source_ref": "malware--24c8f6db-71e0-41ef-a1dc-83399a5b17e5",
             "target_ref": "attack-pattern--46d818a5-67fa-4585-a7fc-ecf15376c8d5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

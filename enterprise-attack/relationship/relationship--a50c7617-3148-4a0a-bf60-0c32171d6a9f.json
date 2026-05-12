@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3bfa7129-6a81-4e6f-bdfe-acc3f14626ee",
+    "id": "bundle--6fab6a24-ba94-465d-bdcc-6bf067936213",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:57:50.238Z",
+            "modified": "2026-04-29T14:23:06.150Z",
             "description": "[TrickBot](https://attack.mitre.org/software/S0266) can disable Windows Defender.(Citation: Trend Micro Trickbot Nov 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--00806466-754d-44ea-ad6f-0caf59cb8556",

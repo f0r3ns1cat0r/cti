@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e41e84ed-0253-46aa-895e-f4645263d1cc",
+    "id": "bundle--c38bd19f-406e-48e0-b3d1-731f3f468bbf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:04:42.036Z",
+            "modified": "2026-04-29T14:23:06.096Z",
             "description": "[Proton](https://attack.mitre.org/software/S0279) removes logs from <code>/var/logs</code> and <code>/Library/logs</code>.(Citation: objsee mac malware 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--c541efb4-e7b1-4ad6-9da8-b4e113f5dd42",

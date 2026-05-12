@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9f89b0f5-566a-404e-8a74-cf44ace6e822",
+    "id": "bundle--43db6b2a-5beb-4aa1-bc96-766648ffb2de",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fcee0cef-7d5b-49da-928c-2a3d0cfd06b0",
             "created": "2020-11-10T18:04:03.668Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "DHS/CISA Ransomware Targeting Healthcare October 2020",
@@ -53,7 +54,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T16:26:04.869Z",
+            "modified": "2026-04-29T14:23:06.269Z",
             "description": "(Citation: FireEye KEGTAP SINGLEMALT October 2020)(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)(Citation: DFIR Ryuk's Return October 2020)(Citation: DFIR Ryuk 2 Hour Speed Run November 2020)(Citation: DFIR Ryuk in 5 Hours October 2020)(Citation: Sophos New Ryuk Attack October 2020)(Citation: CrowdStrike Wizard Spider October 2020)(Citation: Mandiant FIN12 Oct 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0cccbfed-18ad-4ab6-9fa3-11a8ea6a767e",
+    "id": "bundle--32fb995d-47f8-40f2-843d-386c4b825f11",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--52ff76ae-5f22-40d6-9bdf-006e9df75fc9",
             "created": "2025-09-29T21:25:14.971Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Halcyon Qilin.B OCT 2024",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T19:53:49.381Z",
+            "modified": "2026-04-29T14:23:06.039Z",
             "description": "[Qilin](https://attack.mitre.org/software/S1242) can detect virtual machine environments including ESXi hosts, datacenters, and clusters within vCenter environments.(Citation: Halcyon Qilin.B OCT 2024)(Citation: Cisco Talos Qilin Ransomware OCT 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--e23d2777-b85d-44fc-861e-9149d399fbb9",

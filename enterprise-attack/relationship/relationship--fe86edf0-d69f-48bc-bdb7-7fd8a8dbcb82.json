@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2588406e-7bb5-4e78-9261-4784df485445",
+    "id": "bundle--6b69ef97-7349-4071-8dc2-dd8294575867",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fe86edf0-d69f-48bc-bdb7-7fd8a8dbcb82",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 DarkHydrus July 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:19:08.279Z",
+            "modified": "2026-04-29T14:23:06.271Z",
             "description": "[RogueRobin](https://attack.mitre.org/software/S0270) created a shortcut in the Windows startup folder to launch a PowerShell script each time the user logs in to establish persistence.(Citation: Unit 42 DarkHydrus July 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--8ec6e3b4-b06d-4805-b6aa-af916acc2122",
             "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

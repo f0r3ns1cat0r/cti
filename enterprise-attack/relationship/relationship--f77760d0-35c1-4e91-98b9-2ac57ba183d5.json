@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dd7a5d5b-29d3-4737-81a0-b632182eb6a9",
+    "id": "bundle--70b7e265-8f9d-47dd-83b3-9b0941207d44",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f77760d0-35c1-4e91-98b9-2ac57ba183d5",
             "created": "2021-04-13T13:07:50.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ANSSI Sandworm January 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:17:54.490Z",
+            "modified": "2026-04-29T14:23:06.261Z",
             "description": "[P.A.S. Webshell](https://attack.mitre.org/software/S0598) can upload and download files to and from compromised hosts.(Citation: ANSSI Sandworm January 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--4800d0f9-00aa-47cd-a4d2-92198585b8fd",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

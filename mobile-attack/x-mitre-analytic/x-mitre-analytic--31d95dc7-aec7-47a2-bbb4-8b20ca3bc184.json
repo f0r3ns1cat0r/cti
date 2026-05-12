@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3760e7eb-ddb0-4059-a6cd-6e0fa203fa72",
+    "id": "bundle--3e92140b-a337-4159-8bd3-88e873f98eda",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-13T18:45:30.914Z",
+            "modified": "2026-05-12T16:30:18.376Z",
             "name": "Analytic 1737",
             "description": "Correlates (1) application access to device- or environment-specific attributes used to validate target conditions, (2) suppression of sensitive behavior until those attributes match an expected value, and (3) immediate transition into protected actions such as sensor use, file access, or network communication only after the condition is satisfied. The defender observes a causal chain where an app repeatedly evaluates device state or environment context and withholds execution until a target-specific match occurs.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

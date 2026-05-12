@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--998497ee-6f25-4af3-bdf8-5e357b4db312",
+    "id": "bundle--a7894075-e00b-4c9a-be87-94fe53b52491",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fc0b1fb2-f987-4d9c-8470-c40c517925d9",
             "created": "2021-04-27T03:33:35.204Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CERT-FR PYSA April 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:18:40.457Z",
+            "modified": "2026-04-29T14:23:06.267Z",
             "description": "[Pysa](https://attack.mitre.org/software/S0583) has deleted batch files after execution. (Citation: CERT-FR PYSA April 2020) ",
             "relationship_type": "uses",
             "source_ref": "malware--a19c1197-9414-46e3-986f-0f609ff4a46b",
             "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7dc7d259-d176-4535-a6cc-075e02748493",
+    "id": "bundle--4ffad016-9c20-4b27-a80a-0462eed05f1c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5179f874-72fb-4743-bd51-3f3fdb660038",
             "created": "2021-05-20T15:05:36.346Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cobalt Strike Manual 4.3 November 2020",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T18:27:12.072Z",
+            "modified": "2026-04-29T14:23:06.037Z",
             "description": "[Cobalt Strike](https://attack.mitre.org/software/S0154) can leverage the HTTP protocol for C2 communication, while hiding the actual data in either an HTTP header, URI parameter, the transaction body, or appending it to the URI.(Citation: Cobalt Strike Manual 4.3 November 2020) [Cobalt Strike](https://attack.mitre.org/software/S0154) has also added Host: ocsp.verisign.com to HTTP headers to mimic Online Certificate Status Protocol (OCSP) traffic.(Citation: Cisco Talos Qilin Ransomware OCT 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",

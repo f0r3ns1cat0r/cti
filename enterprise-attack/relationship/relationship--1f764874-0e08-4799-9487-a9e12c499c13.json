@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c3277508-0deb-4b79-a364-592b56ad1506",
+    "id": "bundle--1fa236c6-2516-40a7-8427-d29738b608f3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1f764874-0e08-4799-9487-a9e12c499c13",
             "created": "2017-05-31T21:33:27.071Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye FIN6 April 2016",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:01:17.768Z",
+            "modified": "2026-04-29T14:23:05.947Z",
             "description": "[FIN6](https://attack.mitre.org/groups/G0037) has used scripting to iterate through a list of compromised PoS systems, copy data to a log file, and remove the original data files.(Citation: FireEye FIN6 April 2016)(Citation: FireEye FIN6 Apr 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
             "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

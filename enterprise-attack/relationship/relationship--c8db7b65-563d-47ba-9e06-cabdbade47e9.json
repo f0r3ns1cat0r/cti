@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--26c2a113-4656-4677-a80a-7fa012d16cda",
+    "id": "bundle--0fdc953d-662a-4b09-b4c1-42ae88ab1666",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c8db7b65-563d-47ba-9e06-cabdbade47e9",
             "created": "2017-05-31T21:33:27.033Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft NICKEL December 2021",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:46:36.710Z",
+            "modified": "2026-04-29T14:23:06.200Z",
             "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) has dumped credentials, including by using [Mimikatz](https://attack.mitre.org/software/S0002).(Citation: Mandiant Operation Ke3chang November 2014)(Citation: NCC Group APT15 Alive and Strong)(Citation: Microsoft NICKEL December 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
             "target_ref": "attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

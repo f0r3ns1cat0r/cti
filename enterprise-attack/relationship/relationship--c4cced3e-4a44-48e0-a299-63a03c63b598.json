@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--713b1d53-8473-4b38-b203-c22cefd6a16e",
+    "id": "bundle--ff9c58a6-b767-4f34-9e11-45829a80e6bf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c4cced3e-4a44-48e0-a299-63a03c63b598",
             "created": "2024-09-23T20:37:49.490Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Gamaredon Sept2024",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-21T17:35:46.546Z",
+            "modified": "2026-04-29T14:23:06.194Z",
             "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has used various legitimate tools, such as `mshta.exe` and [Reg](https://attack.mitre.org/software/S0075), and services during operations.(Citation: unit42_gamaredon_dec2022)(Citation: ESET Gamaredon Sept2024)      ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
             "target_ref": "attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

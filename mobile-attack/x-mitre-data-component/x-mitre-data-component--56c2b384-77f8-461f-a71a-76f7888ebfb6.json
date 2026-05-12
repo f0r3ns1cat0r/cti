@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0b5e66f0-043b-44fb-a5fe-1e921e01af25",
+    "id": "bundle--2a03ad92-2936-4d01-a65e-24414882bba6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,14 +12,14 @@
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/data-components/DC0118",
+                    "url": "https://attack.mitre.org/datacomponents/DC0118",
                     "external_id": "DC0118"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-08T20:14:04.248Z",
+            "modified": "2026-05-12T15:12:00.773Z",
             "name": "System Settings",
             "description": "System Settings represent user-visible or OS-level configuration settings that influence device behavior, application permissions, connectivity, or system features.\n\nMonitoring system settings changes allows defenders to detect abnormal modifications that may indicate malicious activity or device compromise.\n\n\nCollection Methods\n\n- MDM device telemetry\n- Mobile EDR monitoring\n- OS configuration monitoring\n",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

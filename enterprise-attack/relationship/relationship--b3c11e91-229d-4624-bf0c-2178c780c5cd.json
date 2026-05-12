@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--09959e4d-a7d2-4662-bbbb-4314323d0309",
+    "id": "bundle--8838a097-0bb5-4c1e-8277-1d152cc2f637",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b3c11e91-229d-4624-bf0c-2178c780c5cd",
             "created": "2025-06-05T19:54:49.023Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Cloud Mandiant UNC3886 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T18:28:51.654Z",
+            "modified": "2026-04-29T14:23:06.171Z",
             "description": "[UNC3886](https://attack.mitre.org/groups/G1048) has used the publicly available rootkits [REPTILE](https://attack.mitre.org/software/S1219) and [MEDUSA](https://attack.mitre.org/software/S1220) on targeted VMs.(Citation: Google Cloud Mandiant UNC3886 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--461b8e25-8f4a-4ea2-a4a8-e39df7ce6630",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b2534457-3292-4168-8537-4cae0884a463",
+    "id": "bundle--765a4ee0-16fe-40ff-ada3-361fc5ec077b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--68146568-bc1f-49b6-9477-c6c06b0fa39c",
             "created": "2022-04-20T05:18:46.761Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "piazza launch agent mitigation",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:20:48.353Z",
+            "modified": "2026-04-29T14:23:06.067Z",
             "description": "Set group policies to restrict file permissions to the <code>~/launchagents</code> folder.(Citation: piazza launch agent mitigation)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--987988f0-cf86-4680-a875-2f6456ab2448",
             "target_ref": "attack-pattern--d10cbd34-42e3-45c0-84d2-535a09849584",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

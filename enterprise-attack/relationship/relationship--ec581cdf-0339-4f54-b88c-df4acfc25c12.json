@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0e9038ef-383b-446b-9d00-acdc56af4322",
+    "id": "bundle--60734487-1168-448e-a345-48a789461ce1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ec581cdf-0339-4f54-b88c-df4acfc25c12",
             "created": "2024-09-19T14:35:20.530Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Gazer Aug 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:55:40.264Z",
+            "modified": "2026-04-29T14:23:06.247Z",
             "description": "[Gazer](https://attack.mitre.org/software/S0168) creates a mutex using the hard-coded value `{531511FA-190D-5D85-8A4A-279F2F592CC7}` to ensure that only one instance of itself is running.(Citation: ESET Gazer Aug 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--76abb3ef-dafd-4762-97cb-a35379429db4",
             "target_ref": "attack-pattern--49fca0d2-685d-41eb-8bd4-05451cc3a742",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

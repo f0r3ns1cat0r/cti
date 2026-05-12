@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--497ced8b-8444-4bd6-b179-6f51345eac5a",
+    "id": "bundle--5e5f7e2a-7d43-4749-a7c8-c04898c89275",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:55:49.708Z",
+            "modified": "2026-04-29T14:23:06.121Z",
             "description": "Obfuscate/encrypt event files locally and in transit to avoid giving feedback to an adversary.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--feff9142-e8c2-46f4-842b-bd6fb3d41157",

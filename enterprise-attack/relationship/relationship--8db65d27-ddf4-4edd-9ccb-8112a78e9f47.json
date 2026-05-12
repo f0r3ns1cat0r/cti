@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--97a0ba60-c274-4f63-9238-52ee34eb8281",
+    "id": "bundle--6643d667-b790-47cd-8727-80d4b643898d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8db65d27-ddf4-4edd-9ccb-8112a78e9f47",
             "created": "2022-09-26T14:00:59.139Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Bitdefender FunnyDream Campaign November 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:30:56.250Z",
+            "modified": "2026-04-29T14:23:06.118Z",
             "description": "[FunnyDream](https://attack.mitre.org/software/S1044) can check `Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings` to extract the `ProxyServer` string.(Citation: Bitdefender FunnyDream Campaign November 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--be25c1c0-1590-4219-a3d5-6f31799d1d1b",
             "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

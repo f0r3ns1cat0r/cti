@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3ae1ca92-9c26-4778-b345-e2f00fcbc500",
+    "id": "bundle--c92d3dd3-9157-4fc9-8c5f-635894032808",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-19T16:44:08.879Z",
+            "modified": "2026-04-29T14:23:05.928Z",
             "description": "During [Operation AkaiRy\u016b](https://attack.mitre.org/campaigns/C0060), [MirrorFace](https://attack.mitre.org/groups/G1054) established OneDrive accounts to host malicious payloads.(Citation: ESET MirrorFace 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--8a7c55ea-f363-4a03-b4c5-fa3fdb132d8f",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aec3b192-c743-4815-8b21-340d3f44f373",
+    "id": "bundle--086f1cd9-b0cd-460b-af36-ec7e09980925",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T21:13:21.416Z",
+            "modified": "2026-04-29T14:23:06.105Z",
             "description": "[LP-Notes](https://attack.mitre.org/software/S9036) has been downloaded and executed by PowerShell\u2019s`Invoke-WebRequest` and `Invoke-Expression` cmdlets.(Citation: ESET_MuddyWater_Dec2025) ",
             "relationship_type": "uses",
             "source_ref": "malware--7fbf1f1e-cbd8-4060-8e3b-7ca0e56ce3fe",

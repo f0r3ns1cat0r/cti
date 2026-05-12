@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--26f0c107-8ce6-4608-b901-0307f5fb19a0",
+    "id": "bundle--21d802d7-a698-476b-936c-8acb070be196",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0f7e7dc5-ea9c-4d9e-9acd-5fa0dd25910a",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Wiarp May 2012",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:34:52.686Z",
+            "modified": "2026-04-29T14:23:05.925Z",
             "description": "[Wiarp](https://attack.mitre.org/software/S0206) creates a backdoor through which remote attackers can download files.(Citation: Symantec Wiarp May 2012)",
             "relationship_type": "uses",
             "source_ref": "malware--039814a0-88de-46c5-a4fb-b293db21880a",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

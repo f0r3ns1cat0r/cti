@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6a7b6675-8373-49d0-8868-3cae641e24f7",
+    "id": "bundle--4ea09e18-c5a9-4d89-8b83-6749e3ce3c55",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--91de92af-fe1d-469e-8c36-1a9f4b621a27",
             "created": "2020-07-20T13:27:33.488Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos-WolfRAT",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:29:41.480Z",
+            "modified": "2026-04-29T14:23:06.124Z",
             "description": "[WolfRAT](https://attack.mitre.org/software/S0489)\u2019s code is obfuscated.(Citation: Talos-WolfRAT)",
             "relationship_type": "uses",
             "source_ref": "malware--dfdac962-9461-47f0-a212-36dfce2a97e6",
             "target_ref": "attack-pattern--d13fa042-8f26-44e1-a2a8-af0bf8e2ac9a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

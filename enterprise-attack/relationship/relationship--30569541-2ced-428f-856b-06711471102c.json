@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8827fff9-6f0d-4557-8f5a-9d7da1b4a0b8",
+    "id": "bundle--cafc68eb-4ec0-45bb-8c33-07f4a4d24b60",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T16:37:02.284Z",
+            "modified": "2026-04-29T14:23:05.977Z",
             "description": "[DOWNIISSA](https://attack.mitre.org/software/S9021) code is base64 encoded and XOR encrypted.(Citation: Kaspersky LODEINFO OCT 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--eddb863e-fc77-41c1-86e9-5210d6d58b88",

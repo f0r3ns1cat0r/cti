@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--15aed1be-3070-4b8f-9334-7af888d1e2d2",
+    "id": "bundle--1776b9b5-538e-4c69-af8c-2f0d79f6482e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--85c95ce3-8685-4d2a-9d6f-7e4be4cd9623",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Gazer Aug 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:57:32.256Z",
+            "modified": "2026-04-29T14:23:06.108Z",
             "description": "[Gazer](https://attack.mitre.org/software/S0168) has commands to delete files and persistence mechanisms from the victim.(Citation: ESET Gazer Aug 2017)(Citation: Securelist WhiteBear Aug 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--76abb3ef-dafd-4762-97cb-a35379429db4",
             "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

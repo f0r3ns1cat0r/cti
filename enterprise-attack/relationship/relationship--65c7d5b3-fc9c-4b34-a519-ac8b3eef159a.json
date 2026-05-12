@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c5be3265-85b9-48cb-bb89-16c0a0efd40e",
+    "id": "bundle--195a05c7-031a-4cc0-af0e-308f7c25dac9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T16:18:25.681Z",
+            "modified": "2026-04-29T14:23:06.063Z",
             "description": "The [LODEINFO](https://attack.mitre.org/software/S9020) loader module contains XOR-encrypted shellcode.(Citation: Kaspersky LODEINFO OCT 2022)(Citation: Kaspersky LODEINFO Part II OCT 2022)(Citation: ITOCHU LODEINFO JAN 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--7908f855-5b5b-4d6a-acbc-af6b45ec27ad",

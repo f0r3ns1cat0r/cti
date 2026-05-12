@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--417d15ed-8d80-4092-bd24-0c8a0ff2f62c",
+    "id": "bundle--c23ba5ce-eead-4fc0-a284-8dc3b9397b05",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d7e57ff2-f14b-44fa-97e3-8bc976cb9bd5",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Remsec IOCs",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:12:30.134Z",
+            "modified": "2026-04-29T14:23:06.220Z",
             "description": "[Remsec](https://attack.mitre.org/software/S0125) is capable of using HTTP and HTTPS for C2.(Citation: Symantec Remsec IOCs)(Citation: Kaspersky ProjectSauron Full Report)(Citation: Kaspersky ProjectSauron Technical Analysis)",
             "relationship_type": "uses",
             "source_ref": "malware--69d6f4a9-fcf0-4f51-bca7-597c51ad0bb8",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1a9f96a8-f942-409a-b430-65c9f30b0908",
+    "id": "bundle--aa27b853-20bb-492b-a7e3-8e59105073d3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9a1da7be-9aaf-495a-bd56-f196f26b6240",
             "created": "2024-12-16T23:58:52.311Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Picus BlackByte 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:34:20.735Z",
+            "modified": "2026-04-29T14:23:06.135Z",
             "description": "[BlackByte](https://attack.mitre.org/groups/G1043) queried registry values to determine system language settings.(Citation: Picus BlackByte 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--02b16bd6-ae88-417a-8a3f-02c5e166175a",
             "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

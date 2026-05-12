@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--abf9ac47-4215-4290-a0d2-bc984f0cae9e",
+    "id": "bundle--3869b2c0-b62e-4a91-bccc-100016f41d17",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T18:24:02.743Z",
+            "modified": "2026-04-29T14:23:06.246Z",
             "description": "[HiddenFace](https://attack.mitre.org/software/S9023) can store its configuration file in the Registry.(Citation: JPCERT MirrorFace JUL 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--9edc41d1-a13d-4acf-b400-d47fb2f6809d",

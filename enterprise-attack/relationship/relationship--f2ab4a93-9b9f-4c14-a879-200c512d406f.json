@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e916a6ce-fbd3-4d37-93b8-4858eb08b533",
+    "id": "bundle--cab1b2d9-ced0-4478-840e-95d664fae5dd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f2ab4a93-9b9f-4c14-a879-200c512d406f",
             "created": "2023-02-23T18:00:41.670Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Bitdefender LuminousMoth July 2021",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:57:16.150Z",
+            "modified": "2026-04-29T14:23:06.255Z",
             "description": "(Citation: Kaspersky LuminousMoth July 2021)(Citation: Bitdefender LuminousMoth July 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",
             "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

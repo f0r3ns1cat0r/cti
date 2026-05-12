@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--72edf6d8-163d-4faa-bbe7-0f20f88f8f7b",
+    "id": "bundle--3e6eca9b-5c09-4d99-b65e-7ba88a6d4756",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e884cc7d-cea1-4ecc-84fb-5c31950b4357",
             "created": "2021-09-21T20:52:23.603Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Checkpoint Dridex Jan 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:15:22.383Z",
+            "modified": "2026-04-29T14:23:06.242Z",
             "description": "[Dridex](https://attack.mitre.org/software/S0384) has relied upon users clicking on a malicious attachment delivered through spearphishing.(Citation: Checkpoint Dridex Jan 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--f01e2711-4b48-4192-a2e8-5f56c945ca19",
             "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

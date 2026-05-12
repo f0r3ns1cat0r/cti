@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--94f330ae-1513-43fa-83c7-23e7b52d2abb",
+    "id": "bundle--dd575c06-2310-47ff-957a-9164cc346e07",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-19T17:11:04.845Z",
+            "modified": "2026-04-29T14:23:05.947Z",
             "description": "[AsyncRAT](https://attack.mitre.org/software/S1087) use a DGA to generate a C2 domains.(Citation: ESET MirrorFace 2025)",
             "relationship_type": "uses",
             "source_ref": "tool--6a5947f3-1a36-4653-8734-526df3e1d28d",

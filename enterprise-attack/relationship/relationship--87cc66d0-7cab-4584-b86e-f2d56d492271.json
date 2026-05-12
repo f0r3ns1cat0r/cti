@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e212aa14-5750-4d72-acd0-550a761677c9",
+    "id": "bundle--88a7868b-ec7d-4ab0-aec3-c3528206e036",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--87cc66d0-7cab-4584-b86e-f2d56d492271",
             "created": "2020-03-17T02:36:01.176Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit42 SilverTerrier 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:57:56.477Z",
+            "modified": "2026-04-29T14:23:06.110Z",
             "description": "[SilverTerrier](https://attack.mitre.org/groups/G0083) uses HTTP for C2 communications.(Citation: Unit42 SilverTerrier 2018)\t",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--76565741-3452-4069-ab08-80c0ea95bbeb",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

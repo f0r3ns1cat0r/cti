@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--29d29e27-71ce-48cd-8ee7-3196cb582f89",
+    "id": "bundle--ecf6d53f-088a-451b-8d49-c6de88647a15",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9366e845-6a49-44f4-abb6-c2cada6dff5a",
             "created": "2022-06-03T14:46:22.605Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SecureWorks August 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:32:30.553Z",
+            "modified": "2026-04-29T14:23:06.126Z",
             "description": "[DanBot](https://attack.mitre.org/software/S1014) can use a VBA macro embedded in an Excel file to drop the payload.(Citation: SecureWorks August 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--b8d48deb-450c-44f6-a934-ac8765aa89cb",
             "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

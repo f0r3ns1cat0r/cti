@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--835cda94-26de-455d-90b9-750a2ee69d30",
+    "id": "bundle--0ac0c1b3-4720-49af-a469-ae2ab40f850b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7e6e46e1-6990-4d37-87cb-9ef6a488a8a1",
             "created": "2020-06-11T16:28:58.270Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Telebots July 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:56:17.365Z",
+            "modified": "2026-04-29T14:23:06.098Z",
             "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) used malware to enumerate email settings, including usernames and passwords, from the M.E.Doc application.(Citation: ESET Telebots July 2017)\t",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
             "target_ref": "attack-pattern--4bc31b94-045b-4752-8920-aebaebdb6470",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

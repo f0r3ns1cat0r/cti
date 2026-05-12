@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--93502345-fd45-417a-a594-77136f705372",
+    "id": "bundle--2bf681ca-2944-42e1-8585-144967dbfad0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--be1a4757-08b1-4fdc-95b5-cb3cc57da2d3",
             "created": "2025-01-29T21:12:14.545Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason StealBit Exfiltration Tool",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:43:40.945Z",
+            "modified": "2026-04-29T14:23:06.185Z",
             "description": "[StealBit](https://attack.mitre.org/software/S1200) can determine system location based on the default language setting and will not execute on systems located in former Soviet countries.(Citation: Cybereason StealBit Exfiltration Tool)",
             "relationship_type": "uses",
             "source_ref": "malware--cf8b27df-c494-4a0c-b093-556a80ad2bcf",
             "target_ref": "attack-pattern--c1b68a96-3c48-49ea-a6c0-9b27359f9c19",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

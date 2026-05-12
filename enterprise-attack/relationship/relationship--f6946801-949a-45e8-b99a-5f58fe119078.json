@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ad41ffe0-de4a-4883-a020-47b624262472",
+    "id": "bundle--895bd893-ae43-45ea-8383-ad8097a2cded",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f6946801-949a-45e8-b99a-5f58fe119078",
             "created": "2020-06-10T21:56:39.961Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Telebots Dec 2016",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:17:44.875Z",
+            "modified": "2026-04-29T14:23:06.260Z",
             "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034)'s BCS-server tool connects to the designated C2 server via HTTP.(Citation: ESET Telebots Dec 2016)\t",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1cdf6f0d-ea5e-4f60-b904-a64d29c4b315",
+    "id": "bundle--0e7369ee-e1e1-4854-ba97-502de7c292f8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bc7896a1-8be2-403b-b31d-b7d66104999d",
             "created": "2025-06-11T19:54:11.382Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Cloud Mandiant UNC3886 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-06-11T19:54:11.382Z",
+            "modified": "2026-04-29T14:23:06.182Z",
             "description": "[MOPSLED](https://attack.mitre.org/software/S1221) can use third-party web services such as GitHub and Google Drive for C2.(Citation: Google Cloud Mandiant UNC3886 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--bfcb4a75-b6f0-489b-b506-836bfba3d70e",
             "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

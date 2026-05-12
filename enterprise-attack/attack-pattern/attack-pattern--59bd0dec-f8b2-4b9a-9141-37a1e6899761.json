@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d7778f99-aa30-4897-ba77-8837e4dc05ec",
+    "id": "bundle--29667287-0e15-47e8-af73-3edf32444b08",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-15T22:48:40.705Z",
+            "modified": "2026-05-12T15:12:00.635Z",
             "name": "Unused/Unsupported Cloud Regions",
             "description": "Adversaries may create cloud instances in unused geographic service regions in order to evade detection. Access is usually obtained through compromising accounts used to manage cloud infrastructure.\n\nCloud service providers often provide infrastructure throughout the world in order to improve performance, provide redundancy, and allow customers to meet compliance requirements. Oftentimes, a customer will only use a subset of the available regions and may not actively monitor other regions. If an adversary creates resources in an unused region, they may be able to operate undetected.\n\nA variation on this behavior takes advantage of differences in functionality across cloud regions. An adversary could utilize regions which do not support advanced detection services in order to avoid detection of their activity.\n\nAn example of adversary use of unused AWS regions is to mine cryptocurrency through [Resource Hijacking](https://attack.mitre.org/techniques/T1496), which can cost organizations substantial amounts of money over time depending on the processing power used.(Citation: CloudSploit - Unused AWS Regions)",
             "kill_chain_phases": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--093cb3d3-b369-4865-95d4-3809f00007ec",
+    "id": "bundle--d7b7ef44-05bf-4b23-b47e-7766f4f8479d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6d1074cb-a9eb-4237-b8b2-d823cfa1408b",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Dyre June 2015",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:52:52.567Z",
+            "modified": "2026-04-29T14:23:06.073Z",
             "description": "[Dyre](https://attack.mitre.org/software/S0024) decrypts resources needed for targeting the victim.(Citation: Symantec Dyre June 2015)(Citation: Malwarebytes Dyreza November 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--63c2a130-8a5b-452f-ad96-07cf0af12ffe",
             "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

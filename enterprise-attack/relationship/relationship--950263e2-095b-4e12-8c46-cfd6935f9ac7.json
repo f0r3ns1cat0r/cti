@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--347c0089-ed11-4dd0-aef1-c8bde47afd4c",
+    "id": "bundle--ac63a877-8434-4ca8-8c29-d2a7365e9f77",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--950263e2-095b-4e12-8c46-cfd6935f9ac7",
             "created": "2025-10-19T20:10:22.889Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Storm-0501 Embargo Ransomware August 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-19T20:10:22.889Z",
+            "modified": "2026-04-29T14:23:06.128Z",
             "description": "[Storm-0501](https://attack.mitre.org/groups/G1053) has utilized Azure Key Vault to store the encryption key using the operation `Microsoft.KeyVault/Vaults/write`.(Citation: Microsoft Storm-0501 Embargo Ransomware August 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7b404cd0-3ae9-41d4-90c0-023793d35d97",

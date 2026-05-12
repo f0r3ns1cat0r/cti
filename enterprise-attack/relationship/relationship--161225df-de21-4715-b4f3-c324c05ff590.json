@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2ca21212-d414-40ed-a9ae-63f96d47f2d7",
+    "id": "bundle--dd1f6714-e184-49d0-a3cb-0bc713e6b592",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--161225df-de21-4715-b4f3-c324c05ff590",
             "created": "2019-01-29T21:27:25.235Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA AA20-239A BeagleBoyz August 2020",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-11-13T19:21:05.135Z",
+            "modified": "2026-04-29T14:23:05.934Z",
             "description": "[APT38](https://attack.mitre.org/groups/G0082) has used a utility called CLOSESHAVE that can securely delete a file from the system. They have also removed malware, tools, or other non-native files used during the intrusion to reduce their footprint or as part of the post-intrusion cleanup process.(Citation: FireEye APT38 Oct 2018)(Citation: CISA AA20-239A BeagleBoyz August 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",

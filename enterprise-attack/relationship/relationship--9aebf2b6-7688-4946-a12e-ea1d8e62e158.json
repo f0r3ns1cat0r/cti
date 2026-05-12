@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--39425907-0a2c-442f-96ad-30758b2574a8",
+    "id": "bundle--7a1cdd2c-3883-455a-8427-a29b60cccebb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9aebf2b6-7688-4946-a12e-ea1d8e62e158",
             "created": "2019-06-28T17:40:32.368Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cyphort EvilBunny Dec 2014",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:01:37.699Z",
+            "modified": "2026-04-29T14:23:06.136Z",
             "description": "[EvilBunny](https://attack.mitre.org/software/S0396) has executed commands via scheduled tasks.(Citation: Cyphort EvilBunny Dec 2014)",
             "relationship_type": "uses",
             "source_ref": "malware--a8a778f5-0035-4870-bb25-53dc05029586",
             "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

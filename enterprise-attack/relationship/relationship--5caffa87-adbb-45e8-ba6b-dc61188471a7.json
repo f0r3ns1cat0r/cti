@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--111dd6c1-c18c-4f3e-b87b-5bd4d6cfc000",
+    "id": "bundle--acf4cf9c-992a-4885-9247-981cfc69b985",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5caffa87-adbb-45e8-ba6b-dc61188471a7",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ASERT Donot March 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:49:47.394Z",
+            "modified": "2026-04-29T14:23:06.052Z",
             "description": "[yty](https://attack.mitre.org/software/S0248) gets an output of running processes using the <code>tasklist</code> command.(Citation: ASERT Donot March 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--0817aaf2-afea-4c32-9285-4dcd1df5bf14",
             "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

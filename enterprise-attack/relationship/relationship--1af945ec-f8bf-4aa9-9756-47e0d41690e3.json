@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e79e4031-5381-4188-9b8b-2b2e823aab50",
+    "id": "bundle--1bec5b9c-e549-48fa-b1f7-dd5c03f7b55d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T13:06:30.196Z",
+            "modified": "2026-04-29T14:23:05.941Z",
             "description": "[LAMEHUG](https://attack.mitre.org/software/S9035) can use HTTP POST requests to exfiltrate data from compromised hosts to C2.(Citation: Splunk LAMEHUG SEP 2025)\n",
             "relationship_type": "uses",
             "source_ref": "malware--c55e0410-842d-4365-a2c8-26c0330f85b8",

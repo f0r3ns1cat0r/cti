@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a8d334f1-bae4-40de-ba1a-167e3c1050c6",
+    "id": "bundle--0e804f29-bb9b-4d75-9fee-9888d457279e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c4684b0f-86e1-4200-bd12-e9472f892779",
             "created": "2024-12-31T22:35:38.862Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Cloud BOLDMOVE 2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:45:24.716Z",
+            "modified": "2026-04-29T14:23:06.193Z",
             "description": "[BOLDMOVE](https://attack.mitre.org/software/S1184) performs system survey actions following initial execution.(Citation: Google Cloud BOLDMOVE 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--325fa466-4a2a-45a0-acc6-f6bed9b45ebe",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

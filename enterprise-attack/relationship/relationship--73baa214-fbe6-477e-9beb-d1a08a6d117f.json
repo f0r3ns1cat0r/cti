@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2ec5d9d7-4785-4e78-975f-a8aa5fe27442",
+    "id": "bundle--3ac15449-ce61-4984-8bb5-e8d13d976fa9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--73baa214-fbe6-477e-9beb-d1a08a6d117f",
             "created": "2020-05-13T13:20:59.343Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Red Canary Hospital Thwarted Ryuk October 2020",
@@ -38,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T16:26:04.866Z",
+            "modified": "2026-04-29T14:23:06.083Z",
             "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used macros to execute PowerShell scripts to download malware on victim's machines.(Citation: CrowdStrike Grim Spider May 2019) It has also used PowerShell to execute commands and move laterally through a victim network.(Citation: DHS/CISA Ransomware Targeting Healthcare October 2020)(Citation: FireEye KEGTAP SINGLEMALT October 2020)(Citation: Red Canary Hospital Thwarted Ryuk October 2020)(Citation: Mandiant FIN12 Oct 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",

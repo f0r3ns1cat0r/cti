@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ddfa2927-61ba-4485-a513-76eb4cf00f38",
+    "id": "bundle--d222b017-9140-40f8-a764-56bb1ff31a7f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-02T20:08:42.566Z",
+            "modified": "2026-05-12T16:30:18.378Z",
             "name": "Analytic 1693",
             "description": "When vetting applications for potential security weaknesses, the vetting process could look for insecure use of Intents. Defenders should validate the entirety of the URI. For example, the URI's scheme should be `https` and the URI's host should be on a list of trusted hosts.(Citation: Android_UnsafeURILoading_Sept2024)\n\nDevelopers should be encouraged to use techniques to ensure that the intent can only be sent to an appropriate destination (e.g., use explicit rather than implicit intents, permission checking, checking of the destination app's signing certificate, or utilizing the App Links feature). For mobile applications using OAuth, encourage use of best practice.(Citation: IETF-OAuthNativeApps)(Citation: Android-AppLinks)\n\nOn Android, users may be presented with a popup to select the appropriate application to open the URI in. If the user sees an application they do not recognize, they can remove it.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

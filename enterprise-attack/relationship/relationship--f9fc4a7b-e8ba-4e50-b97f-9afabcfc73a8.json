@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1213d7ee-0fb4-40e4-ac95-92ef54848560",
+    "id": "bundle--9f0e0097-f6c5-4760-a359-bd18e59704f9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f9fc4a7b-e8ba-4e50-b97f-9afabcfc73a8",
             "created": "2020-10-01T13:33:13.867Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cyberreason Anchor December 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:18:18.232Z",
+            "modified": "2026-04-29T14:23:06.264Z",
             "description": "[Anchor](https://attack.mitre.org/software/S0504) can use secondary C2 servers for communication after establishing connectivity and relaying victim information to primary C2 servers.(Citation: Cyberreason Anchor December 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--5f1d4579-4e8f-48e7-860e-2da773ae432e",
             "target_ref": "attack-pattern--f24faf46-3b26-4dbb-98f2-63460498e433",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

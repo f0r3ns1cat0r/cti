@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--04c899ea-ba9f-428b-9c9b-0c1707370bdd",
+    "id": "bundle--7e072f7f-53ac-4acf-b586-5a96c307aeec",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4267ebfa-d932-4949-9d7f-8e183f51f2d9",
             "created": "2023-12-18T18:10:38.421Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "cleafy_brata_0122",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:48:16.164Z",
+            "modified": "2026-04-29T14:23:06.016Z",
             "description": "[BRATA](https://attack.mitre.org/software/S1094) can perform a factory reset.(Citation: cleafy_brata_0122)",
             "relationship_type": "uses",
             "source_ref": "malware--5aff44ab-5a41-49bb-b5d1-b4876d0437f4",
             "target_ref": "attack-pattern--9ef14445-6f35-4ed0-a042-5024f13a9242",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

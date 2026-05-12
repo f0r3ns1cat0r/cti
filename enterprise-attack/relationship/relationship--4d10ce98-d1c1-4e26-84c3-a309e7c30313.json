@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--df12cc56-7ec3-4b81-a8c7-c84449b5ef77",
+    "id": "bundle--842bdef1-1bd2-4a29-a1ed-93890125aa70",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4d10ce98-d1c1-4e26-84c3-a309e7c30313",
             "created": "2022-03-14T14:16:33.288Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco Ukraine Wipers January 2022",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:13:32.016Z",
+            "modified": "2026-04-29T14:23:06.030Z",
             "description": "[WhisperGate](https://attack.mitre.org/software/S0689) can Base64 encode strings, store downloaded files in reverse byte order,  and use the Eazfuscator tool to obfuscate its third stage.(Citation: Cisco Ukraine Wipers January 2022)(Citation: Medium S2W WhisperGate January 2022)(Citation: RecordedFuture WhisperGate Jan 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--49fee0b0-390e-4bde-97f8-97ed46bd19b7",
             "target_ref": "attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

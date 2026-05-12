@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--15f665f9-a7d1-4212-bcf0-0811876ee18e",
+    "id": "bundle--30436ddb-050c-40be-99f6-e45ea6ebad4a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--68929916-ab9f-4078-b959-e500f8cab3b8",
             "created": "2026-04-09T19:23:50.186Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Aikido Shai-Hulud September 2025",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T19:23:50.186Z",
+            "modified": "2026-04-29T14:23:06.067Z",
             "description": "[Shai-Hulud](https://attack.mitre.org/software/S9008) has gathered secrets from AWS Secrets and GCP Secret Manager.(Citation: Aikido Shai-Hulud September 2025)(Citation: Netskope Shai-Hulud November 2025)(Citation: Socket Shai-Hulud November 2025) [Shai-Hulud](https://attack.mitre.org/software/S9008) has also gathered data from Azure Key Vault.(Citation: Netskope Shai-Hulud November 2025)(Citation: Socket Shai-Hulud November 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--de376fb9-1093-4f59-8d13-aed61042701d",

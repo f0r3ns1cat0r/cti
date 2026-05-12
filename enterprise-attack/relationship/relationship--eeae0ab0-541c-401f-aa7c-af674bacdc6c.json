@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d05b0173-9931-4ba3-8a8e-4ece84028d76",
+    "id": "bundle--efb18b8e-3149-4df6-a289-6867d1924bf1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--eeae0ab0-541c-401f-aa7c-af674bacdc6c",
             "created": "2021-01-11T20:00:58.324Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Red Canary NETWIRE January 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:16:28.989Z",
+            "modified": "2026-04-29T14:23:06.250Z",
             "description": "[NETWIRE](https://attack.mitre.org/software/S0198) can use launch agents for persistence.(Citation: Red Canary NETWIRE January 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--2a70812b-f1ef-44db-8578-a496a227aef2",
             "target_ref": "attack-pattern--d10cbd34-42e3-45c0-84d2-535a09849584",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

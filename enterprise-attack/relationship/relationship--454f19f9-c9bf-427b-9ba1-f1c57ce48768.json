@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--014f6d59-fd29-4ff0-84e6-f4d2787f2d8a",
+    "id": "bundle--63cc3c90-28df-47da-bed3-854a59408c17",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T13:11:29.583Z",
+            "modified": "2026-04-29T14:23:06.020Z",
             "description": "[SameCoin](https://attack.mitre.org/software/S9030) can send its Setup.exe file as an attachment to other addresses in the same compromised organization.(Citation: Check Point Wirte NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--4e164a21-3fbe-4aaa-be69-2513fdba90f7",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d9c52efc-e962-4056-bbda-1236a51ab877",
+    "id": "bundle--d21cf7c6-5832-46b3-b1f2-f5ad42106c27",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a5015a35-a6a2-4289-8d79-79b583c23e63",
             "created": "2017-05-31T21:33:27.048Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT30",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:37:13.508Z",
+            "modified": "2026-04-29T14:23:06.149Z",
             "description": "(Citation: FireEye APT30)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f047ee18-7985-4946-8bfb-4ed754d3a0dd",
             "target_ref": "malware--53cf6cc4-65aa-445a-bcf8-c3d296f8a7a2",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4643cae0-4178-40e1-b67f-a20c7167d387",
+    "id": "bundle--e8453149-75de-4d1b-9e07-72239ed19846",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--deb55b94-e38c-4941-9ebd-8cc3343c3eae",
             "created": "2019-07-09T17:54:21.414Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit42 Emissary Panda May 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:13:42.118Z",
+            "modified": "2026-04-29T14:23:06.229Z",
             "description": "(Citation: Unit42 Emissary Panda May 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
             "target_ref": "tool--9de2308e-7bed-43a3-8e58-f194b3586700",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

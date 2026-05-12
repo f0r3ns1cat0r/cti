@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fc39fe0b-eeab-4f5f-8e03-0345cd252c9e",
+    "id": "bundle--081c048f-5302-4bca-adfe-d33ec783a730",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T16:58:55.128Z",
+            "modified": "2026-04-29T14:23:06.129Z",
             "description": "[MirrorStealer](https://attack.mitre.org/software/S9022) has stored stolen credentials on the local machine in `%TEMP%\\31558.txt`.(Citation: ESET MirrorFace DEC 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--2f851d4a-18cc-4d7f-9408-b10ef02ee936",

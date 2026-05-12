@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e7c44501-d6ba-41b6-b585-cc3364d89829",
+    "id": "bundle--aed6b836-93f8-440c-91d2-cc4565b12e93",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4cb1a0d0-6276-4c2c-b299-c26c982e9e1e",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Eset PlugX Korplug Mustang Panda March 2022",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-11T20:15:11.062Z",
+            "modified": "2026-04-29T14:23:06.030Z",
             "description": "[PlugX](https://attack.mitre.org/software/S0013) can enumerate and query for information contained within the Windows Registry.(Citation: Eset PlugX Korplug Mustang Panda March 2022)(Citation: CIRCL PlugX March 2013)(Citation: Lastline PlugX Analysis)",
             "relationship_type": "uses",
             "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",

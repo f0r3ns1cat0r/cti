@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d2616b39-2a67-4f72-9be2-dae0ef2f8823",
+    "id": "bundle--29aa7aa5-ab07-4729-93e6-ee2cc709c60e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--49fb7af8-50cf-4af5-9195-40b2351fa6dc",
             "created": "2020-08-27T17:29:04.925Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cycraft Chimera April 2020",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:12:45.953Z",
+            "modified": "2026-04-29T14:23:06.026Z",
             "description": "[Chimera](https://attack.mitre.org/groups/G0114) has used gzip for Linux OS and a modified RAR software to archive data on Windows hosts.(Citation: Cycraft Chimera April 2020)(Citation: NCC Group Chimera January 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",
             "target_ref": "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

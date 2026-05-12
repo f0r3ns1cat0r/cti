@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--c236b9da-b9fc-4a0f-83cc-2429ac3b3968",
+    "id": "bundle--e4f21aee-7276-48ce-aa35-ecd3d2f079dc",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--8374a5e5-6d9f-4896-9546-a4d998188ac5",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.683Z",
             "name": "Behavioral Detection Strategy for WMI Execution Abuse on Windows",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -29,8 +30,7 @@
             ],
             "x_mitre_analytic_refs": [
                 "x-mitre-analytic--17687fa0-bfbf-4ff2-9eb0-520538e6af31"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

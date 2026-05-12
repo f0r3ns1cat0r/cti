@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a4b6bfce-c83c-4eee-9e6c-3dbdf1cbb2af",
+    "id": "bundle--5beb2b0d-a388-4df2-8c34-1ddcf3007359",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T21:33:41.807Z",
+            "modified": "2026-04-29T14:23:06.174Z",
             "description": "[ROAMINGHOUSE](https://attack.mitre.org/software/S9026) can use WMI to launch a legitimate executable later used to enable DLL sideloading.(Citation: Trend Micro Earth Kasha Updates APR 2025)(Citation: Trend Micro Earth Kasha Anel NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--251f1715-fc97-4487-b939-5c8823ef7a39",

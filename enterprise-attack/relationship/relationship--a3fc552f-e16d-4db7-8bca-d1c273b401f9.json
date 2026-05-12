@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0c060498-916b-462f-b286-3f72a17cf6fe",
+    "id": "bundle--d6a2bf5f-11a1-4a9a-92ee-74be0c3a0a77",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a3fc552f-e16d-4db7-8bca-d1c273b401f9",
             "created": "2023-03-02T18:55:25.411Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft BlackCat Jun 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:36:58.386Z",
+            "modified": "2026-04-29T14:23:06.148Z",
             "description": "[BlackCat](https://attack.mitre.org/software/S1068) can use Windows commands such as `fsutil behavior set SymLinkEvaluation R2L:1` to redirect file system access to a different location after gaining access into compromised networks.(Citation: Microsoft BlackCat Jun 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--50c44c34-3abb-48ae-9433-a2337de5b0bc",
             "target_ref": "attack-pattern--34e793de-0274-4982-9c1a-246ed1c19dee",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

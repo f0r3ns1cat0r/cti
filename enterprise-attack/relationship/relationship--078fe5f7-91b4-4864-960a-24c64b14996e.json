@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7068dea8-ddf2-416f-adb0-4f5e92f83bd2",
+    "id": "bundle--63bfdee7-6d6b-49dc-a769-cf71b62e0a33",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--078fe5f7-91b4-4864-960a-24c64b14996e",
             "created": "2023-03-17T15:00:49.466Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Lazarus Jun 2020",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:54:51.116Z",
+            "modified": "2026-04-29T14:23:05.914Z",
             "description": "During [Operation Dream Job](https://attack.mitre.org/campaigns/C0022), [Lazarus Group](https://attack.mitre.org/groups/G0032) executed malware with `C:\\\\windows\\system32\\rundll32.exe \"C:\\ProgramData\\ThumbNail\\thumbnail.db\"`, `CtrlPanel S-6-81-3811-75432205-060098-6872 0 0 905`.(Citation: ClearSky Lazarus Aug 2020)(Citation: ESET Lazarus Jun 2020)(Citation: McAfee Lazarus Jul 2020)",
             "relationship_type": "uses",
             "source_ref": "campaign--0257b35b-93ef-4a70-80dd-ad5258e6045b",
             "target_ref": "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

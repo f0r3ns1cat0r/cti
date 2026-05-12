@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--13ec5804-e830-4620-b5b1-69c1ed83dbe9",
+    "id": "bundle--f1372449-ba4f-4cf7-8d24-a2e75f0c00c5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--923ece74-d9a7-4084-ba1a-7f3633f6df54",
             "created": "2025-06-04T16:06:20.310Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Storm-0940",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-06-04T16:06:20.310Z",
+            "modified": "2026-04-29T14:23:06.124Z",
             "description": "[Quad7 Activity](https://attack.mitre.org/campaigns/C0055) has routed traffic through chains of compromised network devices for password spray attacks.(Citation: Microsoft Storm-0940)",
             "relationship_type": "uses",
             "source_ref": "campaign--e7511089-1076-4a3b-984d-1a0a8afe31e9",
             "target_ref": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1ee83e18-1862-4cd2-b985-143fb6c61116",
+    "id": "bundle--2351fa00-a077-44b5-a863-da7dfb7d8240",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--32864e94-8581-4f77-bf7d-53aaf3710f60",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Seaduke 2015",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:41:58.005Z",
+            "modified": "2026-04-29T14:23:05.985Z",
             "description": "Some [SeaDuke](https://attack.mitre.org/software/S0053) samples have a module to extract email from Microsoft Exchange servers using compromised credentials.(Citation: Symantec Seaduke 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--67e6d66b-1b82-4699-b47a-e2efb6268d14",
             "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

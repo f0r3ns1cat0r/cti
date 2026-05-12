@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--6e2446f3-b3f4-4433-95a1-d17405af7f3a",
+    "id": "bundle--dda5452b-8e57-4ee4-8945-e81f39c0ee30",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--909c86ca-ddd0-4e96-8464-39f5f80ef20e",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.684Z",
             "name": "Behavioral Detection of Spoofed GUI Credential Prompts",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -31,8 +32,7 @@
                 "x-mitre-analytic--ea127140-2f66-4c3d-93ab-215c210ad6c5",
                 "x-mitre-analytic--c4ff3b74-bba1-4129-b246-50213e77336d",
                 "x-mitre-analytic--3b327a8f-0ea3-4848-b34a-58029e5edf57"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--63cb0cdc-028a-4f2e-ac56-fcc70c27cfed",
+    "id": "bundle--3ef79672-28a9-4482-ad53-1f50112c5d0d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,17 +8,18 @@
             "id": "relationship--bb30a4b2-90e2-4b29-87f8-f01654b487be",
             "created": "2024-10-07T22:51:00.782Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:42:55.116Z",
+            "modified": "2026-04-29T14:23:06.181Z",
             "description": "Train users to recognize and handle suspicious email attachments. Emphasize the importance of caution when opening attachments from unknown or unexpected sources, even if they appear legitimate. Implement email warning banners to alert users about emails originating from outside the organization or containing attachments, reinforcing awareness and helping users identify potential spearphishing attempts.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--2a4f6c11-a4a7-4cb9-b0ef-6ae1bb3a718a",
             "target_ref": "attack-pattern--d4b96d2c-1032-4b22-9235-2b5b649d0605",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

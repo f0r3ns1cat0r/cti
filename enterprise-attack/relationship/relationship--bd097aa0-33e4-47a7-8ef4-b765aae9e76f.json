@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0b298759-c6b5-4f7b-bade-edbc82c5cba0",
+    "id": "bundle--5611b86f-8bb3-4ca8-93ad-15730f9d449b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T13:45:32.122Z",
+            "modified": "2026-04-29T14:23:06.184Z",
             "description": "[LAMEHUG](https://attack.mitre.org/software/S9035) has been distributed through spearphishing emails with various AI-themed malicious attachments.(Citation: Splunk LAMEHUG SEP 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--c55e0410-842d-4365-a2c8-26c0330f85b8",

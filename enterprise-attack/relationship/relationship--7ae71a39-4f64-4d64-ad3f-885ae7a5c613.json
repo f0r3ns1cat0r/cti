@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d4451972-1c62-4678-a71d-ecbe12839eb7",
+    "id": "bundle--bded8621-4204-4dab-854e-079f9476c059",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7ae71a39-4f64-4d64-ad3f-885ae7a5c613",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Briba May 2012",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:55:38.492Z",
+            "modified": "2026-04-29T14:23:06.094Z",
             "description": "[Briba](https://attack.mitre.org/software/S0204) creates run key Registry entries pointing to malicious DLLs dropped to disk.(Citation: Symantec Briba May 2012)",
             "relationship_type": "uses",
             "source_ref": "malware--79499993-a8d6-45eb-b343-bf58dea5bdde",
             "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

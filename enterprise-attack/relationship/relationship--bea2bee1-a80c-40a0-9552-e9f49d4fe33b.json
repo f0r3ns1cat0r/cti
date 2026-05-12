@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a00d87cb-f2ce-46d8-a2f5-a9df01c70296",
+    "id": "bundle--4098090e-69d3-41fe-834c-977b11af73cc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bea2bee1-a80c-40a0-9552-e9f49d4fe33b",
             "created": "2025-10-22T03:14:36.893Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 NOKKI Sept 2018",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T03:14:36.893Z",
+            "modified": "2026-04-29T14:23:06.186Z",
             "description": "[NOKKI](https://attack.mitre.org/software/S0353) can gather information on drives on the victim\u2019s machine.(Citation: Unit 42 NOKKI Sept 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--071d5d65-83ec-4a55-acfa-be7d5f28ba9a",

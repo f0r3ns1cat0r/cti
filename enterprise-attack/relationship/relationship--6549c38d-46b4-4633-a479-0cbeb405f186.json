@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--35a76455-990a-4e6f-a7a7-391eb85807b6",
+    "id": "bundle--bc4d2122-1316-4463-a6f3-271a734e3b3c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6549c38d-46b4-4633-a479-0cbeb405f186",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Twitter Ida Pro Nov 2021",
@@ -43,14 +44,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:20:04.314Z",
+            "modified": "2026-04-29T14:23:06.063Z",
             "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) has conducted C2 over HTTP and HTTPS.(Citation: McAfee Lazarus Resurfaces Feb 2018)(Citation: SentinelOne Lazarus macOS July 2020)(Citation: TrendMicro macOS Dacls May 2020)(Citation: Lazarus APT January 2022)(Citation: Qualys LolZarus)(Citation: ESET Twitter Ida Pro Nov 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

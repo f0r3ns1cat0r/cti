@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--57caa329-6253-455c-82ab-0a093b78e333",
+    "id": "bundle--9e6ce0c5-4619-4037-a09e-a72b0e1c8ced",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-18T16:14:55.614Z",
+            "modified": "2026-05-12T16:30:18.376Z",
             "name": "Analytic 1816",
             "description": "The defender correlates repeated inbound retrieval and outbound submission activity by the same Android app identity to the same legitimate public web-service class within a short operational window, where the two-way exchange is inconsistent with the app's approved role, interaction model, or background behavior baseline. The strongest Android evidence is app-attributed communication to collaboration, social, cloud storage, code-hosting, messaging, or generic HTTPS platforms where requests that retrieve content are followed by app-attributed posts, uploads, document updates, API writes, or repeated small bidirectional exchanges, especially when they occur while the app is backgrounded, while the device is locked, without recent user interaction, or shortly after local staging or protected-resource access.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

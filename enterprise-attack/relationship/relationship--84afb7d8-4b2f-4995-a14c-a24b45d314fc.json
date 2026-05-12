@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6a0711c6-0001-4aa3-8ae4-864c7285eafe",
+    "id": "bundle--e75140ee-708b-4f22-9857-05235263ddc2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--84afb7d8-4b2f-4995-a14c-a24b45d314fc",
             "created": "2024-09-17T18:38:23.693Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Bitsight Latrodectus June 2024",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:28:32.680Z",
+            "modified": "2026-04-29T14:23:06.107Z",
             "description": "\n[Latrodectus](https://attack.mitre.org/software/S1160) can exfiltrate encrypted system information to the C2 server.(Citation: Latrodectus APR 2024)(Citation: Bitsight Latrodectus June 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--76fde8df-3495-47c9-82eb-125c4f7fb621",
             "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

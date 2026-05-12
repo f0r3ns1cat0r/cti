@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c2d666b2-d587-4ae9-a85a-b8e73c443392",
+    "id": "bundle--1a271052-5b6d-48d1-ae2d-46e0aeecbd34",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8eac3e1c-f17b-4cf5-9437-2767dc312f6b",
             "created": "2024-04-04T14:36:16.405Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trellix Darkgate 2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:31:13.049Z",
+            "modified": "2026-04-29T14:23:06.119Z",
             "description": "[DarkGate](https://attack.mitre.org/software/S1111) command and control includes hard-coded domains in the malware chosen to masquerade as legitimate services such as Akamai CDN or Amazon Web Services.(Citation: Trellix Darkgate 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--6f6f67c9-556d-4459-95c2-78d272190e52",
             "target_ref": "attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

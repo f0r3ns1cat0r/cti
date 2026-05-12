@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--55b4e1db-6fa7-4667-b3fa-0436cc247d06",
+    "id": "bundle--b0b7461a-5828-4dd2-b7f8-36bab2d66c4d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ad6fb2ac-9e90-44ef-9e59-a65813eca460",
             "created": "2026-03-09T15:24:49.309Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "K7Dhanalakshmi_VajraSpy_April2022",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-09T15:24:49.309Z",
+            "modified": "2026-04-29T14:23:06.161Z",
             "description": "[VajraSpy](https://attack.mitre.org/software/S9006) has collected and exfiltrated the contact list.(Citation: ESET_VajraSpy_Feb2024)(Citation: K7Dhanalakshmi_VajraSpy_April2022) ",
             "relationship_type": "uses",
             "source_ref": "malware--8205a875-3ed5-4be2-ab9b-14a7d29431d0",

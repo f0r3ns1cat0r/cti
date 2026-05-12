@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ef0ee17c-e42f-4bd7-8d60-27990db6c52c",
+    "id": "bundle--b405386a-e652-4c74-846c-5243f4ee0307",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--865d4dac-1c58-46ed-8b86-58ec6c2633ec",
             "created": "2023-03-29T20:42:54.627Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "GitHub Rubeus March 2023",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:28:58.040Z",
+            "modified": "2026-04-29T14:23:06.108Z",
             "description": "[Rubeus](https://attack.mitre.org/software/S1071) can reveal the credentials of accounts that have Kerberos pre-authentication disabled through AS-REP roasting.(Citation: GitHub Rubeus March 2023)(Citation: DFIR Ryuk's Return October 2020)(Citation: DFIR Ryuk 2 Hour Speed Run November 2020) ",
             "relationship_type": "uses",
             "source_ref": "tool--e33267fe-099f-4af2-8730-63d49f8813b2",
             "target_ref": "attack-pattern--3986e7fd-a8e9-4ecb-bfc6-55920855912b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

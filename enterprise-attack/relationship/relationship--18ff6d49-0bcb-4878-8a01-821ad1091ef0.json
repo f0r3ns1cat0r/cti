@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--be903a28-de7e-4461-be83-9be711899ccd",
+    "id": "bundle--2187ee82-d282-43d8-97bb-c7cb5808545c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--18ff6d49-0bcb-4878-8a01-821ad1091ef0",
             "created": "2025-10-22T21:42:22.397Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sekoia ClickFake 2025",
@@ -43,7 +44,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T21:42:22.397Z",
+            "modified": "2026-04-29T14:23:05.938Z",
             "description": "[Contagious Interview](https://attack.mitre.org/groups/G1052) has delivered [BeaverTail](https://attack.mitre.org/software/S1246) malware masquerading as legitimate software or applications.(Citation: Esentire ContagiousInterview BeaverTail InvisibleFerret November 2024)(Citation: ESET Contagious Interview BeaverTail InvisibleFerret February 2025)(Citation: Zscaler ContagiousInterview BeaverTail InvisibleFerret November 2024)(Citation: PaloAlto ContagiousInterview BeaverTail InvisibleFerret November 2023)(Citation: PaloAlto Unit42 ContagiousInterview BeaverTail InvisibileFerret October 2024) [Contagious Interview](https://attack.mitre.org/groups/G1052) has also delivered malicious payloads masquerading as legitimate software drivers.(Citation: Sekoia ClickFake 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--46599a4a-77ee-4697-9474-2683b6464859",

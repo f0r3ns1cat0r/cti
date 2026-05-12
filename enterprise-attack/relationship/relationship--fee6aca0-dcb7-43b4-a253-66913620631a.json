@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1b88043d-ef69-4630-9dbb-6de817d410df",
+    "id": "bundle--9b522f5f-173d-42bf-8d5b-7c8b74fb2901",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fee6aca0-dcb7-43b4-a253-66913620631a",
             "created": "2020-05-29T19:02:06.766Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro TA505 June 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:19:12.206Z",
+            "modified": "2026-04-29T14:23:06.271Z",
             "description": "[TA505](https://attack.mitre.org/groups/G0092) has executed commands using <code>cmd.exe</code>.(Citation: Trend Micro TA505 June 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7eda3dd8-b09b-4705-8090-c2ad9fb8c14d",
             "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

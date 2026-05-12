@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b72020f2-e886-4cbd-814a-85113434b816",
+    "id": "bundle--d7327253-0b77-4669-b8e9-1dfdd2ca1ee2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e4973ce8-5f52-45ac-844d-f73c97a0e040",
             "created": "2026-02-16T15:57:38.727Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "EnkiWhiteHat_KimsukyDOCSWAP_Dec2025",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-02-16T15:57:38.727Z",
+            "modified": "2026-04-29T14:23:06.236Z",
             "description": "[DocSwap](https://attack.mitre.org/software/S9005) has checked for the `WRITE_EXTERNAL_STORAGE` permission.(Citation: EnkiWhiteHat_KimsukyDOCSWAP_Dec2025)(Citation: S2W_DocSwap_Mar2025)  ",
             "relationship_type": "uses",
             "source_ref": "malware--3dbef387-12df-4547-9dd3-075c7ffec9e3",

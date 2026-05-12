@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1d1ce83f-3747-48f7-94fa-80198c9f795b",
+    "id": "bundle--c258a91b-36a7-457a-857a-063c56c7696b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--78ba82a1-e803-42c1-b112-ce999369d348",
             "created": "2020-11-30T15:35:49.457Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Bazar July 2020",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:55:10.001Z",
+            "modified": "2026-04-29T14:23:06.090Z",
             "description": "The [Bazar](https://attack.mitre.org/software/S0534) loader has named malicious shortcuts \"adobe\" and mimicked communications software.(Citation: Cybereason Bazar July 2020)(Citation: NCC Group Team9 June 2020)(Citation: CrowdStrike Wizard Spider October 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--99fdf3b4-96ef-4ab9-b191-fc683441cad0",
             "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

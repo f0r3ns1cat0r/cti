@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c7ac5adf-1839-4600-9d84-c1b970106d57",
+    "id": "bundle--27bbc176-f0ce-4c5c-b221-28fc77298aa1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-19T15:26:39.271Z",
+            "modified": "2026-05-12T16:30:18.383Z",
             "name": "Analytic 1664",
             "description": "The defender correlates repeated retrieval-oriented communication from a supervised device or managed iOS app to a legitimate public web-service platform where the activity remains primarily inbound and does not produce corresponding writeback to that same service class during the operational window. The strongest iOS evidence is managed-app or device-attributed communication to collaboration, social, messaging, storage, or generic HTTPS platforms where inbound fetches or content pulls recur during background refresh, while the device is locked, or without recent user interaction, and no matching POST, upload, update, or message-send activity to that same public service class is observed. Because direct local runtime visibility is weaker than Android, the primary analytic is anchored on network directionality plus supervised managed-app and device-state context.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f65f5370-3e1d-4381-9f89-1d5d05a2ab97",
+    "id": "bundle--832f35a8-0f72-4905-ba09-7d0fd0240796",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T21:07:40.013Z",
+            "modified": "2026-04-29T14:23:06.005Z",
             "description": "During the [2025 Poland Wiper Attacks](https://attack.mitre.org/campaigns/C0063), the adversaries used the [Rubeus](https://attack.mitre.org/software/S1071) tool to forge a Diamond Ticket that is a modified legitimate Kerberos ticket.(Citation: CERT Polska)",
             "relationship_type": "uses",
             "source_ref": "campaign--a6aba167-5ada-4812-9da1-912c0e73335d",

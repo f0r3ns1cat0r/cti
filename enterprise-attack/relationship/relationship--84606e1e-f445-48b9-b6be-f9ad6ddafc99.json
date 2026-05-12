@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cd204e7a-c5a7-4559-b100-9462952fc78e",
+    "id": "bundle--ca6c5fa1-4532-45bc-9e28-78438b2e5bac",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--84606e1e-f445-48b9-b6be-f9ad6ddafc99",
             "created": "2026-04-09T19:30:10.947Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Aikido Shai-Hulud September 2025",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T19:30:10.947Z",
+            "modified": "2026-04-29T14:23:06.106Z",
             "description": "[Shai-Hulud](https://attack.mitre.org/software/S9008) has the ability to search open sites and code repositories for compromised credentials.(Citation: Aikido Shai-Hulud September 2025)(Citation: Microsoft Shai-Hulud December 2025) [Shai-Hulud](https://attack.mitre.org/software/S9008) has discovered packages associated with compromised accounts.(Citation: Netskope Shai-Hulud November 2025)  [Shai-Hulud](https://attack.mitre.org/software/S9008) has also searched code repositories for other compromised repositories that include predefined parameters or markers to include \u201cSecond Coming\u201d combined with an 18-character alphanumeric string.(Citation: Netskope Shai-Hulud November 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--de376fb9-1093-4f59-8d13-aed61042701d",

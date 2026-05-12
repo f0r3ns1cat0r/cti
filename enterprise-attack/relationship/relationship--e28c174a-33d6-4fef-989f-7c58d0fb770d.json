@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d3836d41-0487-43f9-9d14-ba17d4cc81a7",
+    "id": "bundle--ddf61efa-d366-47a7-8866-ac74e2e1dd4d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e28c174a-33d6-4fef-989f-7c58d0fb770d",
             "created": "2023-03-29T15:49:27.117Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lunghi Iron Tiger Linux",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:53:04.500Z",
+            "modified": "2026-04-29T14:23:06.234Z",
             "description": "[SysUpdate](https://attack.mitre.org/software/S0663) can call the `GetNetworkParams` API as part of its C2 establishment process.(Citation: Lunghi Iron Tiger Linux)",
             "relationship_type": "uses",
             "source_ref": "malware--c009560a-f097-45a3-8f9f-78ec1440a783",
             "target_ref": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

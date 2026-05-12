@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f91916cd-f98d-40d3-bab3-ac392bd69614",
+    "id": "bundle--1ef776e0-ae30-4da3-bff4-726587de6e15",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6dada572-9e79-4835-9f8c-fcb6a94947af",
             "created": "2025-03-28T14:55:59.605Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SecureList OpTriangulation 23Oct2023",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:49:23.125Z",
+            "modified": "2026-04-29T14:23:06.074Z",
             "description": "During [Operation Triangulation](https://attack.mitre.org/campaigns/C0054), the threat actors sent iMessage messages with malicious exploits that executed without user interaction.(Citation: SecureList OpTriangulation 01Jun2023)(Citation: SecureList OpTriangulation 23Oct2023)(Citation: SecureList OpTriangulation Dec2023) Additionally, the threat actors have used various exploits, such as CVE-2023-41990, CVE-2023-32435, CVE-2023-32434 and CVE-2023-38606, to obtain privilege escalation.(Citation: SecureList OpTriangulation Dec2023)   ",
             "relationship_type": "uses",
             "source_ref": "campaign--d0695b5f-b761-49e0-b3e3-2e5307f8def3",
             "target_ref": "attack-pattern--5abfc5e6-3c56-49e7-ad72-502d01acf28b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

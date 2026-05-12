@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9b825a8c-28e6-4ffe-ae3a-a009ebbd84ac",
+    "id": "bundle--fe7366fb-babe-48df-b2e5-82aaa3c2ff5a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--3b2680f0-aa69-4766-ab41-9123373ffa4e",
             "created": "2023-03-26T22:13:48.078Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant UNC2452 APT29 April 2022",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-19T15:16:28.464Z",
+            "modified": "2026-04-29T14:23:06.003Z",
             "description": "(Citation: NSA Joint Advisory SVR SolarWinds April 2021)(Citation: UK NSCS Russia SolarWinds April 2021)(Citation: Mandiant UNC2452 APT29 April 2022)",
             "relationship_type": "attributed-to",
             "source_ref": "campaign--808d6b30-df4e-4341-8248-724da4bac650",

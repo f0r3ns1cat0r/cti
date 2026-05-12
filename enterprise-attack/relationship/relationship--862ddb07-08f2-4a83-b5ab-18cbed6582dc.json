@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6b721118-af63-4a74-830d-07b826f0cefa",
+    "id": "bundle--2725876f-2dd8-4aab-bb51-d97d5b795ad4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--862ddb07-08f2-4a83-b5ab-18cbed6582dc",
             "created": "2025-09-15T16:25:05.316Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "2022 November_TrendMicro_Earth Preta_Toneshell_Pubload",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-15T16:25:05.316Z",
+            "modified": "2026-04-29T14:23:06.108Z",
             "description": "[TONESHELL](https://attack.mitre.org/software/S1239) has used RC4 encryption in C2 communications.(Citation: 2022 November_TrendMicro_Earth Preta_Toneshell_Pubload) [TONESHELL](https://attack.mitre.org/software/S1239) variants used a randomly generated variable length (0x20 - 0x200 bytes) rolling XOR key to encrypt and decrypt network packets.(Citation: Zscaler)",
             "relationship_type": "uses",
             "source_ref": "malware--2683fde8-1dc4-415c-94bd-9bb95cc5b7ff",

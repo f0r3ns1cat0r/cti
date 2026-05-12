@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--51322f32-74df-4949-833b-bc18cced2b7b",
+    "id": "bundle--4b366c45-de53-44ec-a2ff-28990db72051",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T21:42:10.467Z",
+            "modified": "2026-04-29T14:23:06.080Z",
             "description": "[Tsundere Botnet](https://attack.mitre.org/software/S9034) has created a value in the `HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run` Registry key, ensuring that it is run at login.(Citation: SecureListUbiedo_Tsundere_Nov2025)(Citation: CAL_MuddyWater_Mar2026) ",
             "relationship_type": "uses",
             "source_ref": "malware--18f5f8c6-bba5-4aba-93e7-3539fe565883",

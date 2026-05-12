@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--835da555-75bb-4d6b-9f83-c0759f0e5fe7",
+    "id": "bundle--bd917bee-5c9e-4114-bf0c-5359cdf74b96",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T19:02:46.551Z",
+            "modified": "2026-04-29T14:23:06.029Z",
             "description": "[VOID MANTICORE](https://attack.mitre.org/groups/G1055) has masqueraded malicious payloads to resemble legitimate applications.(Citation: DOJ FBI Handala Hack March 2026)(Citation: FBI IC3 Flash VOID MANTICORE Handala Hack March 2026) [VOID MANTICORE](https://attack.mitre.org/groups/G1055) has leveraged malicious payloads that use nomenclature associated with common applications that include Pictory, KeePass, WhatsApp, and Telegram.(Citation: FBI IC3 Flash VOID MANTICORE Handala Hack March 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--ebd7ce77-c9ba-4fba-bb28-58296ac66559",

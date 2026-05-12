@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4bfa4c2b-5bac-4668-9ee5-31ccbc39575a",
+    "id": "bundle--bc344478-97c6-4f39-aa49-330400aa7b2c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:58:04.123Z",
+            "modified": "2026-04-29T14:23:06.028Z",
             "description": "Periodically verify that tools are functioning appropriately \u2013 for example, that all expected hosts with EDRs or monitoring agents are checking in to the central console. Check EDRs to ensure that no unexpected exclusion paths have been added. In Microsoft Defender for Endpoint, exclusions can be reviewed with the `Get-MpPreference` cmdlet.(Citation: CodeX Microsoft Defender 2021)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8",

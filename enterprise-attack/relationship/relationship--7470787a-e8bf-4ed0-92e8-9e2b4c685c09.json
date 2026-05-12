@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cba4f240-e4df-4c75-a976-dc7dbf4cac85",
+    "id": "bundle--4a3e83fd-61e9-4a55-8561-14be365944f0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T17:59:11.156Z",
+            "modified": "2026-04-29T14:23:06.085Z",
             "description": "[Caminho](https://attack.mitre.org/software/S9016) can use junk code for obfuscation.(Citation: Zscaler BlindEagle DEC 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--97da6467-c9c5-4eb0-84d4-1234e937e534",

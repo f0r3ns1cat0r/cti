@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--05c32a37-3119-4cac-a0ff-c571d5014803",
+    "id": "bundle--f61a0f73-f077-4e63-b3e7-ea6959bf063a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T17:54:06.611Z",
+            "modified": "2026-04-29T14:23:06.242Z",
             "description": "[MuddyViper](https://attack.mitre.org/software/S9032)\u202fhas the ability to\u202festablish\u202fpersistence by configuring its installation directory as a Windows Startup folder by\u202fsetting the following Registry values to `%APPDATALOCAL%\\Microsoft\\Windows\\PPBCompatCache\\ManagerCache`:\u202f `HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders\\Startup`\u202fand `HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders\\Startup`.(Citation: ESET_MuddyWater_Dec2025)\u202f\u202f\u202f\u202f ",
             "relationship_type": "uses",
             "source_ref": "malware--7b92e996-b535-4159-be16-3c3aee4edf54",

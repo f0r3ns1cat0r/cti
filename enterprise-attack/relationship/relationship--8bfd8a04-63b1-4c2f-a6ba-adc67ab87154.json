@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3d73b27a-f849-4c76-ad47-1965a6c32e38",
+    "id": "bundle--1c921f26-9b30-46da-a7dd-c55c1348a4c1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:30:14.578Z",
+            "modified": "2026-04-29T14:23:06.116Z",
             "description": "[LockBit 2.0](https://attack.mitre.org/software/S1199) can delete log files through the use of wevtutil.(Citation: FBI Lockbit 2.0 FEB 2022)(Citation: Palo Alto Lockbit 2.0 JUN 2022)(Citation: Cybereason Lockbit 2.0)(Citation: SentinelOne LockBit 2.0)",
             "relationship_type": "uses",
             "source_ref": "malware--a4578560-42cf-4075-9fa2-056f0058c881",

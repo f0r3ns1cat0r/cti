@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a95e5153-db6e-449a-b934-08f692c37827",
+    "id": "bundle--9271cfb3-0632-4654-b7ac-cfd3949e12f4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--91730e03-6601-4203-8c00-3f595cce7d7d",
             "created": "2025-01-06T17:50:36.966Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CCCS ArcaneDoor 2024",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:31:56.999Z",
+            "modified": "2026-04-29T14:23:06.123Z",
             "description": "[Line Dancer](https://attack.mitre.org/software/S1186) uses HTTP POST requests to interact with compromised devices.(Citation: Cisco ArcaneDoor 2024)(Citation: CCCS ArcaneDoor 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--4c8ad4ed-3bbb-4088-bf14-f4caf2bf62a0",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

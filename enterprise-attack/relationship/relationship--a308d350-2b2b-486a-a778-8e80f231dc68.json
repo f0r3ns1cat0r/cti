@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e042b7e9-3e95-441e-8d05-5507c25a7c1c",
+    "id": "bundle--848f93cb-ec3a-4545-a4a1-8da229c4cd7f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a308d350-2b2b-486a-a778-8e80f231dc68",
             "created": "2020-05-06T21:01:23.483Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Attor Oct 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:03:07.597Z",
+            "modified": "2026-04-29T14:23:06.147Z",
             "description": "[Attor](https://attack.mitre.org/software/S0438)'s dispatcher can inject itself into running processes to gain higher privileges and to evade detection.(Citation: ESET Attor Oct 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--8f423bd7-6ca7-4303-9e85-008c7ad5fdaa",
             "target_ref": "attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

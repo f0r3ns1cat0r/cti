@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9fdee5c0-a88d-4a08-9605-46628e62419d",
+    "id": "bundle--3fa0464a-d3f8-4c9d-aace-33354bd8f662",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1b255a88-0189-4afa-a69f-fa99127e693e",
             "created": "2022-05-25T19:42:27.787Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "DFIR Phosphorus November 2021",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:00:05.437Z",
+            "modified": "2026-04-29T14:23:05.941Z",
             "description": "(Citation: DFIR Report APT35 ProxyShell March 2022)(Citation: DFIR Phosphorus November 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
             "target_ref": "tool--03342581-f790-4f03-ba41-e82e67392e23",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

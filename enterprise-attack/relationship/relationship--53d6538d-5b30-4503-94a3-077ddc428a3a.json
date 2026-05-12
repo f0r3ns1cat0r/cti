@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1d6eee68-b117-4437-813f-f19727518eb1",
+    "id": "bundle--3d9d55b6-d0fd-4608-a0a1-d10f21b53736",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--53d6538d-5b30-4503-94a3-077ddc428a3a",
             "created": "2025-07-22T16:38:19.168Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit42 Bookworm Nov2015",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-25T19:26:24.770Z",
+            "modified": "2026-04-29T14:23:06.040Z",
             "description": "[BOOKWORM](https://attack.mitre.org/software/S1226) has modified Registry key values as part of its created service `DeviceSync`. (Citation: Unit42 Bookworm Nov2015)",
             "relationship_type": "uses",
             "source_ref": "malware--2ceddaf9-b16a-4f8b-b252-bcccccd3d79f",

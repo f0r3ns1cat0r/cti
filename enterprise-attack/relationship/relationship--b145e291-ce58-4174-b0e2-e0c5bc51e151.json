@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6ec1f26d-57ae-4dec-b350-e6d7a729dfab",
+    "id": "bundle--6bb5d8dc-d1a3-4d60-918f-77212ac6a6de",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T14:36:21.717Z",
+            "modified": "2026-04-29T14:23:06.167Z",
             "description": "[Tsundere Botnet](https://attack.mitre.org/software/S9034)\u2019s MSI installer has Base64-encoded command execution.(Citation: SecureListUbiedo_Tsundere_Nov2025)",
             "relationship_type": "uses",
             "source_ref": "malware--18f5f8c6-bba5-4aba-93e7-3539fe565883",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f1063e9c-e3a7-40d2-a241-3747dc8b09a0",
+    "id": "bundle--07a8f07e-6371-470c-a7ac-a0797b65e693",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c9e82790-f096-46f0-ba55-579d77ec3ea8",
             "created": "2020-12-07T20:28:20.280Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Crutch December 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:10:04.886Z",
+            "modified": "2026-04-29T14:23:06.201Z",
             "description": "[Crutch](https://attack.mitre.org/software/S0538) can automatically monitor removable drives in a loop and copy interesting files.(Citation: ESET Crutch December 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--925a6c52-5cf0-4fec-99de-b0d6917d8593",
             "target_ref": "attack-pattern--30208d3e-0d6b-43c8-883e-44462a514619",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6a3e1bd3-fc3e-40ed-aa17-6b626dd457e3",
+    "id": "bundle--810acc66-59b9-4349-a765-cf61f1dedca6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7c8e34ad-89a4-44cf-bd56-d1583803f086",
             "created": "2019-01-29T18:17:59.262Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CIRCL PlugX March 2013",
@@ -33,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-11T20:25:55.349Z",
+            "modified": "2026-04-29T14:23:06.096Z",
             "description": "[PlugX](https://attack.mitre.org/software/S0013) has a module to download and execute files on the compromised machine.(Citation: CIRCL PlugX March 2013)(Citation: DOJ Affidavit Search and Seizure PlugX December 2024)(Citation: Google Threat Intelligence Group MUSTANG PANDA PLUGX August 2025)(Citation: Proofpoint TA416 Europe March 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",

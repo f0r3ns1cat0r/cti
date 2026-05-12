@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1964f2ac-2f68-4bc5-90f8-e3acba66e46a",
+    "id": "bundle--28631c03-d96b-4f77-ba7b-e0f468d571e0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--27e2b1aa-facc-4fd9-897d-32dd7590a752",
             "created": "2025-06-04T16:05:07.174Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sekoia 7777 Botnet JUL 2024",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-10T19:24:59.034Z",
+            "modified": "2026-04-29T14:23:05.959Z",
             "description": "[Quad7 Activity](https://attack.mitre.org/campaigns/C0055) has compromised network devices, such as IP cameras, Network Attached Storage (NAS) devices, and SOHO routers, to leverage for follow-on activity.(Citation: Microsoft Storm-0940)(Citation: Sekoia 7777 Botnet JUL 2024)",
             "relationship_type": "uses",
             "source_ref": "campaign--e7511089-1076-4a3b-984d-1a0a8afe31e9",

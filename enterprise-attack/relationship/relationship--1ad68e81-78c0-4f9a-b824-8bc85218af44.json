@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6efe3b7e-cab5-47ae-bccf-47bd91f137f4",
+    "id": "bundle--7b5231b1-0e5c-455b-b536-5b16ad17890e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1ad68e81-78c0-4f9a-b824-8bc85218af44",
             "created": "2025-10-23T02:37:44.110Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Socket HexEval BeaverTail Contagious Interview June 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-23T02:37:44.110Z",
+            "modified": "2026-04-29T14:23:05.941Z",
             "description": "[Contagious Interview](https://attack.mitre.org/groups/G1052) has requested victims to disable Docker and other container environments in attempts to thwart container isolation and ensure device infection.(Citation: Socket HexEval BeaverTail Contagious Interview June 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--46599a4a-77ee-4697-9474-2683b6464859",

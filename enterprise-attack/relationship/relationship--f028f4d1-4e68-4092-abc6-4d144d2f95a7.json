@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1d4b96bc-7d13-4908-9c56-e81e934ad4c7",
+    "id": "bundle--8ba9f07e-9488-4b37-a70d-d9e7ee8f0c2a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T12:54:36.445Z",
+            "modified": "2026-04-29T14:23:06.252Z",
             "description": "[LAMEHUG](https://attack.mitre.org/software/S9035) can xcopy for file collection on targeted systems.(Citation: Splunk LAMEHUG SEP 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--c55e0410-842d-4365-a2c8-26c0330f85b8",

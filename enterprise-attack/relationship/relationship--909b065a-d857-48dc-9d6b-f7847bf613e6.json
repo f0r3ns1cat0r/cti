@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9c4d26fb-bdfb-4928-bce8-e4bb3a8625f3",
+    "id": "bundle--1cea4ecc-5b6e-4470-96bd-5337c376471b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--909b065a-d857-48dc-9d6b-f7847bf613e6",
             "created": "2022-03-15T20:08:18.933Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "KISA Operation Muzabi",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:31:44.202Z",
+            "modified": "2026-04-29T14:23:06.122Z",
             "description": "[AppleSeed](https://attack.mitre.org/software/S0622) has divided files if the size is 0x1000000 bytes or more.(Citation: KISA Operation Muzabi)",
             "relationship_type": "uses",
             "source_ref": "malware--295721d2-ee20-4fa3-ade3-37f4146b4570",
             "target_ref": "attack-pattern--c3888c54-775d-4b2f-b759-75a2ececcbfd",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

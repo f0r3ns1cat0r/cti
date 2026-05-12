@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fb818514-c2cf-4fcc-aa96-fa2c71ea1a02",
+    "id": "bundle--3afec3a6-3619-4480-91d4-2ddb8dd719e5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,17 +8,18 @@
             "id": "relationship--b8606318-8c12-4381-ba33-5b2321772ea0",
             "created": "2022-03-30T20:31:57.183Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:51:06.393Z",
+            "modified": "2026-04-29T14:23:06.177Z",
             "description": "Users should be advised to be extra scrutinous of applications that request location or sensitive phone information permissions, and to deny any permissions requests for applications they do not recognize.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--653492e3-27be-4a0e-b08c-938dd2b7e0e1",
             "target_ref": "attack-pattern--498e7b81-238d-404c-aa5e-332904d63286",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1960a87d-33dc-4f49-b690-e18a19ebda26",
+    "id": "bundle--ce6820ad-7063-4b3d-a514-32319406cca1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c3893875-4f9e-43e4-babf-6f45ec485444",
             "created": "2022-03-07T19:33:01.775Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Check Point Meteor Aug 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:45:12.399Z",
+            "modified": "2026-04-29T14:23:06.192Z",
             "description": "[Meteor](https://attack.mitre.org/software/S0688) has the ability to discover the hostname of a compromised host.(Citation: Check Point Meteor Aug 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--d79e7a60-5de9-448e-a074-f95d2d80f8d0",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

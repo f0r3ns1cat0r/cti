@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6cbdd31a-cb3a-47e0-aa20-0cdd3a90246e",
+    "id": "bundle--81454e25-307e-4536-b14a-1e6575da05c1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T18:38:49.546Z",
+            "modified": "2026-05-12T15:12:00.621Z",
             "name": "System Firmware",
             "description": "Adversaries may modify system firmware to persist on systems.The BIOS (Basic Input/Output System) and The Unified Extensible Firmware Interface (UEFI) or Extensible Firmware Interface (EFI) are examples of system firmware that operate as the software interface between the operating system and hardware of a computer.(Citation: Wikipedia BIOS)(Citation: Wikipedia UEFI)(Citation: About UEFI)\n\nSystem firmware like BIOS and (U)EFI underly the functionality of a computer and may be modified by an adversary to perform or assist in malicious activity. Capabilities exist to overwrite the system firmware, which may give sophisticated adversaries a means to install malicious firmware updates as a means of persistence on a system that may be difficult to detect.",
             "kill_chain_phases": [

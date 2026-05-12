@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4ba6a838-1307-4aa4-a5fd-55a338947230",
+    "id": "bundle--7b67fb1c-6831-4a82-81ba-4357e4c84995",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T15:59:08.328Z",
+            "modified": "2026-04-29T14:23:06.202Z",
             "description": "\n[LODEINFO](https://attack.mitre.org/software/S9020) has the ability to designate specific files and folders to encryption.(Citation: ESET MirrorFace DEC 2022)(Citation: ITOCHU LODEINFO JAN 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--7908f855-5b5b-4d6a-acbc-af6b45ec27ad",

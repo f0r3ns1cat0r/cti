@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9b492538-45fb-40c6-a25e-4df97d209e35",
+    "id": "bundle--989497b8-c3b4-48a7-8434-53804dc0ee71",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d64f970a-8003-41bf-9769-d849c12340ed",
             "created": "2020-05-14T14:40:26.232Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Red Canary Hospital Thwarted Ryuk October 2020",
@@ -53,7 +54,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T16:26:04.868Z",
+            "modified": "2026-04-29T14:23:06.218Z",
             "description": "(Citation: CrowdStrike Ryuk January 2019)(Citation: Red Canary Hospital Thwarted Ryuk October 2020)(Citation: FireEye KEGTAP SINGLEMALT October 2020)(Citation: DFIR Ryuk's Return October 2020)(Citation: DFIR Ryuk 2 Hour Speed Run November 2020)(Citation: DFIR Ryuk in 5 Hours October 2020)(Citation: Sophos New Ryuk Attack October 2020)(Citation: Mandiant FIN12 Oct 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",

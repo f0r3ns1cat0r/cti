@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--be77f64b-bcb5-40f4-b7ee-d4a23cd19480",
+    "id": "bundle--3f499979-bb20-4c77-a9aa-ef962ef1c2ca",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6706d89e-27dd-48bb-ae0b-db51e07cbc91",
             "created": "2019-02-12T19:56:02.348Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit42 Xbash Sept 2018",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:51:40.790Z",
+            "modified": "2026-04-29T14:23:06.065Z",
             "description": "[Xbash](https://attack.mitre.org/software/S0341) can attempt to exploit known vulnerabilities in Hadoop, Redis, or ActiveMQ when it finds those services running in order to conduct further execution.(Citation: Unit42 Xbash Sept 2018)(Citation: Trend Micro Xbash Sept 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--6a92d80f-cc65-45f6-aa66-3cdea6786b3c",
             "target_ref": "attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

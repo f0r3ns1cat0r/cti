@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1e593ea8-e674-48f8-a879-c256a3ca2df8",
+    "id": "bundle--2c780760-36ab-4c15-a019-8cc02dba72a0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fcb42350-a01d-46f7-b172-cd327f61061c",
             "created": "2025-09-12T16:57:45.444Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "IBM MUSTANG PANDA PUBLOAD CLAIMLOADER JUNE 2025",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-12T16:57:45.444Z",
+            "modified": "2026-04-29T14:23:06.268Z",
             "description": "[CLAIMLOADER](https://attack.mitre.org/software/S1236) has utilized XOR-encrypted API names and native APIs of `LdrLoadDll()` and `LderGetProcedureAddress()` to resolve imports dynamically.(Citation: IBM MUSTANG PANDA PUBLOAD CLAIMLOADER JUNE 2025)(Citation: 2025_IBM_PUBLOAD_TONESHELL_HIUPAN_CLAIMLOADER_MUSTANG PANDA)",
             "relationship_type": "uses",
             "source_ref": "malware--47e4b55a-7803-4bf5-822c-906a1ecbdd6e",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ad49c843-6c35-4df6-b2a0-edfd078ccec1",
+    "id": "bundle--397151cc-7d55-41f6-9481-8d4971cf2e19",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--015b902b-4370-4b55-884a-a6c8d2b15687",
             "created": "2026-04-09T19:34:30.862Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Aikido Shai-Hulud September 2025",
@@ -38,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T19:34:30.862Z",
+            "modified": "2026-04-29T14:23:05.904Z",
             "description": "[Shai-Hulud](https://attack.mitre.org/software/S9008) has utilized double-base64 encoding to store stolen secrets within the Github Action Logs within the victim account.(Citation: Aikido Shai-Hulud September 2025)(Citation: Netskope Shai-Hulud November 2025)(Citation: Wiz Shai-Hulud September 2025)(Citation: Socket Shai-Hulud Trufflehog September 2025) [Shai-Hulud](https://attack.mitre.org/software/S9008) has also leveraged three layers of base64 encoding of exfiltrated data for anti-forensic purposes.(Citation: Socket Shai-Hulud November 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--de376fb9-1093-4f59-8d13-aed61042701d",

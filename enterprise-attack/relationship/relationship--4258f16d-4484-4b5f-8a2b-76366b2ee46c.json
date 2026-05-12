@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3a939a19-5a9b-4d4b-b802-272c1dde0a87",
+    "id": "bundle--d05d80fb-ea8a-414d-a673-ecb255e1246a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T12:33:13.078Z",
+            "modified": "2026-04-29T14:23:06.016Z",
             "description": "[WIRTE](https://attack.mitre.org/groups/G0090) has used security service provider naming conventions such as ESET and Kasperky (\"Kaspersky Update Agent\") in order to appear legitimate.(Citation: Kaspersky WIRTE November 2021)(Citation: Check Point Wirte NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f8cb7b36-62ef-4488-8a6d-a7033e3271c1",

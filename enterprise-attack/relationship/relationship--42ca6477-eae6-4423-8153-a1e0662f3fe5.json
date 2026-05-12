@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a8a7e041-9bb9-498c-b365-e357ac3e55fd",
+    "id": "bundle--ec6c4375-d006-49e9-995c-65aaf08e809f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T21:10:39.051Z",
+            "modified": "2026-04-29T14:23:06.016Z",
             "description": "[LP-Notes](https://attack.mitre.org/software/S9036) has stored collected credentials in ` C:\\Users\\Public\\Downloads\\lp-notes.txt`.(Citation: ESET_MuddyWater_Dec2025) ",
             "relationship_type": "uses",
             "source_ref": "malware--7fbf1f1e-cbd8-4060-8e3b-7ca0e56ce3fe",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4156af87-101f-44a8-9fa6-432980af2493",
+    "id": "bundle--dfe7f68a-a1c1-4a3b-9345-6bf348f0487d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T18:56:22.650Z",
+            "modified": "2026-04-29T14:23:06.103Z",
             "description": "[VOID MANTICORE](https://attack.mitre.org/groups/G1055) has accessed victim\u2019s public facing SharePoint servers and exfiltrated data.(Citation: DOJ FBI Handala Hack March 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--ebd7ce77-c9ba-4fba-bb28-58296ac66559",

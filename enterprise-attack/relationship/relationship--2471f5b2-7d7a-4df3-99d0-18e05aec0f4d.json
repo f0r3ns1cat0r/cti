@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8c5fccf4-6404-458b-8ed8-5772ebd4ea78",
+    "id": "bundle--71a3da28-c232-4e3a-a3d7-9c137c4d59c8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:31:58.697Z",
+            "modified": "2026-04-29T14:23:05.955Z",
             "description": "[RunningRAT](https://attack.mitre.org/software/S0253) kills antimalware running process.(Citation: McAfee Gold Dragon)",
             "relationship_type": "uses",
             "source_ref": "malware--60d50676-459a-47dd-92e9-a827a9fe9c58",

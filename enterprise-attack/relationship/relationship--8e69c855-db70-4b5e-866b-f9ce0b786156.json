@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0ae652ce-1e03-4e5c-9ebd-53159f1ed8a9",
+    "id": "bundle--706268a0-9975-4808-9c45-12c75eb7556f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8e69c855-db70-4b5e-866b-f9ce0b786156",
             "created": "2017-05-31T21:33:27.078Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Citizen Lab Group5",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:59:11.080Z",
+            "modified": "2026-04-29T14:23:06.119Z",
             "description": "Malware used by [Group5](https://attack.mitre.org/groups/G0043) is capable of watching the victim's screen.(Citation: Citizen Lab Group5)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7331c66a-5601-4d3f-acf6-ad9e3035eb40",
             "target_ref": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

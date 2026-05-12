@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--60f22866-438b-4517-b51a-1b7c952a1a36",
+    "id": "bundle--2b3d82f5-7d1f-4cf2-ad62-78b124df1780",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T17:49:08.756Z",
+            "modified": "2026-04-29T14:23:05.922Z",
             "description": "[RustyWater](https://attack.mitre.org/software/S9037) has gathered the victim machine\u2019s username.(Citation: CloudSEK_RustyWater_Jan2026)\u202f\u202f\u202f",
             "relationship_type": "uses",
             "source_ref": "malware--50be4e81-db74-41a2-a9aa-423314082bea",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--25422a67-1a88-4d09-8f93-a434fd50440e",
+    "id": "bundle--7380c581-8490-4e29-aa3d-2e3cbea12d98",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--66be8672-6075-4309-b287-c9b81249f610",
             "created": "2025-08-29T22:11:23.343Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MerkleScience_Godfather_April2023",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-29T22:11:23.343Z",
+            "modified": "2026-04-29T14:23:06.065Z",
             "description": "[GodFather](https://attack.mitre.org/software/S1231) has exfiltrated sensitive information over C2.(Citation: ZimperiumOrtegaPratapagiri_GodFather_Jun2025)(Citation: MerkleScience_Godfather_April2023) ",
             "relationship_type": "uses",
             "source_ref": "malware--bf064476-25b8-493c-a1e7-dd707b3f7f52",

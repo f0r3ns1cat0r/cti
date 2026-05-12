@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5b895145-dc2c-4659-b4a2-5cf020c337d8",
+    "id": "bundle--cbde5633-5ed5-4bab-8274-33b77914804a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--19153106-5607-4cac-91a5-c2a900bc5343",
             "created": "2020-06-29T03:27:50.994Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET ComRAT May 2020",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:37:05.176Z",
+            "modified": "2026-04-29T14:23:05.939Z",
             "description": "[ComRAT](https://attack.mitre.org/software/S0126) has used a scheduled task to launch its PowerShell loader.(Citation: ESET ComRAT May 2020)(Citation: CISA ComRAT Oct 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--da5880b4-f7da-4869-85f2-e0aba84b8565",
             "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

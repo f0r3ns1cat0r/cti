@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--84ac8cdc-8a31-4878-afc9-1efc1b158ed0",
+    "id": "bundle--8c8f15a0-aede-4dd9-9caf-f5a9dd621026",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:49:25.635Z",
+            "modified": "2026-05-12T15:12:00.717Z",
             "name": "Input Injection",
             "description": "A malicious application can inject input to the user interface to mimic user interaction through the abuse of Android's accessibility APIs.\n\n[Input Injection](https://attack.mitre.org/techniques/T1516) can be achieved using any of the following methods:\n\n* Mimicking user clicks on the screen, for example to steal money from a user's PayPal account.(Citation: android-trojan-steals-paypal-2fa)\n* Injecting global actions, such as `GLOBAL_ACTION_BACK` (programatically mimicking a physical back button press), to trigger actions on behalf of the user.(Citation: Talos Gustuff Apr 2019)\n* Inserting input into text fields on behalf of the user. This method is used legitimately to auto-fill text fields by applications such as password managers.(Citation: bitwarden autofill logins)",
             "kill_chain_phases": [
@@ -47,7 +47,7 @@
                     "phase_name": "impact"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_contributors": [
                 "Luk\u00e1\u0161 \u0160tefanko, ESET"
             ],

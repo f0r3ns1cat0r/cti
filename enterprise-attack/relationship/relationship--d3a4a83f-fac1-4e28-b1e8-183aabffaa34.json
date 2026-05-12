@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--984a5484-4521-4d61-82ac-51b1d2152940",
+    "id": "bundle--a866e37b-a30e-4f07-a731-21366e3f7375",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d3a4a83f-fac1-4e28-b1e8-183aabffaa34",
             "created": "2022-08-03T03:26:54.611Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "GitHub PSPKIAudit",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:49:25.394Z",
+            "modified": "2026-04-29T14:23:06.215Z",
             "description": "Check and remediate unneeded existing authentication certificates as well as common abusable misconfigurations of CA settings and permissions, such as AD CS certificate enrollment permissions and published overly permissive certificate templates (which define available settings for created certificates). For example, available AD CS certificate templates can be checked via the Certificate Authority MMC snap-in (`certsrv.msc`). `certutil.exe` can also be used to examine various information within an AD CS CA database.(Citation: SpecterOps Certified Pre Owned)(Citation: GitHub PSPKIAudit)(Citation: GitHub Certify)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8",
             "target_ref": "attack-pattern--7de1f7ac-5d0c-4c9c-8873-627202205331",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

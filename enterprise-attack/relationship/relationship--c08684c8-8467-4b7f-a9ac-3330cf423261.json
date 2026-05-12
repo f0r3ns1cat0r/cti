@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f2ac315d-3659-48d9-bf21-315a1b902eb7",
+    "id": "bundle--94e8e69d-4957-41b9-81ec-83a43d52c91b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c08684c8-8467-4b7f-a9ac-3330cf423261",
             "created": "2019-01-31T01:07:58.538Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Cobalt Kitty 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:08:21.703Z",
+            "modified": "2026-04-29T14:23:06.189Z",
             "description": "[APT32](https://attack.mitre.org/groups/G0050) successfully gained remote access by using pass the ticket.(Citation: Cybereason Cobalt Kitty 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
             "target_ref": "attack-pattern--7b211ac6-c815-4189-93a9-ab415deca926",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

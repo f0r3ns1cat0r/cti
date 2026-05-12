@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--51f165d6-84da-4ca6-b213-1c40a7c26377",
+    "id": "bundle--9728c089-01d8-4c7a-9778-dfdf0296dc88",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c0d66439-0ae4-4565-8b3a-e92e48e8d3c1",
             "created": "2026-02-06T21:29:31.339Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ThreatFabric_Crocodilus_March2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-02-06T21:29:31.339Z",
+            "modified": "2026-04-29T14:23:06.189Z",
             "description": "[Crocodilus](https://attack.mitre.org/software/S9004) has the ability to collect the contact list.(Citation: ThreatFabric_Crocodilus_March2025)",
             "relationship_type": "uses",
             "source_ref": "malware--eed7b988-0279-4c4f-bfa9-d81f5444a04b",

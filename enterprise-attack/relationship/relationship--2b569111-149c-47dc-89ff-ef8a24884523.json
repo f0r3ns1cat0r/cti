@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--00bcea81-3e7a-40e3-93db-9b4d04ce3fe6",
+    "id": "bundle--955de0ad-1165-4e8f-8668-83fbfe82eb7d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-18T23:53:04.477Z",
+            "modified": "2026-04-29T14:23:05.963Z",
             "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has collected sensitive browser data using the function `GetBrowserData()` to include login credentials, bookmarks, cookies, and encryption keys.(Citation: Aryaka Kimsuky July 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",

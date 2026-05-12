@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--97e1f5d5-82a5-4555-9c4d-0ce081cd0c6a",
+    "id": "bundle--bcee79d7-0f73-41d9-8aba-ab24d6f354ce",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f8e25c1f-84bd-4ddd-bf18-51543d5cff94",
             "created": "2020-06-01T15:46:47.636Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "IBM TA505 April 2020",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T15:50:34.670Z",
+            "modified": "2026-04-29T14:23:06.263Z",
             "description": "[TA505](https://attack.mitre.org/groups/G0092) has used HTTP to communicate with C2 nodes.(Citation: IBM TA505 April 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7eda3dd8-b09b-4705-8090-c2ad9fb8c14d",

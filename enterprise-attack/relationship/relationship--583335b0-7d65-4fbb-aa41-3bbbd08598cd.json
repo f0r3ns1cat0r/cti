@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d2009de6-7a12-45f6-9f75-70eec628cbb8",
+    "id": "bundle--d0fbb38a-72c7-42be-8ea9-6d44f98bd003",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--583335b0-7d65-4fbb-aa41-3bbbd08598cd",
             "created": "2022-09-30T19:35:44.644Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cylance Dust Storm",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:16:41.526Z",
+            "modified": "2026-04-29T14:23:06.046Z",
             "description": "For [Operation Dust Storm](https://attack.mitre.org/campaigns/C0016), the threat actors used UPX to pack some payloads.(Citation: Cylance Dust Storm)",
             "relationship_type": "uses",
             "source_ref": "campaign--4603cf2f-06d0-4970-9c5d-5071b08c817f",
             "target_ref": "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

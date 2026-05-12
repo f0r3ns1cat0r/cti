@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bb78c092-ee94-4532-bb9a-ab30279086a0",
+    "id": "bundle--9e4da519-d910-4596-93b3-8ddaeffd2605",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--eb251021-d2a1-46bd-bf9e-e6066d03f298",
             "created": "2025-10-17T11:39:33.391Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Unit 42 Medusa Group Medusa Ransomware January 2024",
@@ -33,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:09:13.008Z",
+            "modified": "2026-04-29T14:23:06.245Z",
             "description": "[Medusa Ransomware](https://attack.mitre.org/software/S1244) has encrypted files using AES-256 encryption, which then appends the file extension \u201c.medusa\u201d to encrypted files and leaves a ransomware note named \u201c!READ_ME_MEDUSA!!!.txt.\u201d(Citation: Palo Alto Unit 42 Medusa Group Medusa Ransomware January 2024)(Citation: CISA Medusa Group Medusa Ransomware March 2025)(Citation: Broadcom Medusa Ransomware Medusa Group March 2025)(Citation: Security Scorecard Medusa Ransomware January 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--28d93902-30e7-4436-8885-6d312c51c9a3",

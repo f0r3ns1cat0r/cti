@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1fb3b709-dea9-48e1-b899-194c6cd8b20a",
+    "id": "bundle--f47ddfad-acca-44c4-8e7d-fa1d4b2ee640",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T16:13:11.156Z",
+            "modified": "2026-05-12T16:30:18.377Z",
             "name": "Analytic 1847",
             "description": "The defender correlates application loading or invoking native libraries through JNI or NDK-backed execution paths with subsequent lower-level activity such as native thread creation, sensor access, file operations, or outbound network communication that is inconsistent with the app's declared role or recent user interaction. The analytic prioritizes defender-observable control-plane effects: native library load or JNI bridge use, transition into native execution context, and immediate post-load behavior occurring from background state, locked-device state, or non-baselined app categories.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

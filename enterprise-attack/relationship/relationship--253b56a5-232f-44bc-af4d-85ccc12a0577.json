@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f3a6074a-8db4-46d5-871f-1bfeee750ff9",
+    "id": "bundle--ec0883b4-c2e5-4326-996d-3be0538ea7f1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--253b56a5-232f-44bc-af4d-85ccc12a0577",
             "created": "2017-05-31T21:33:27.080Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Gamaredon June 2020",
@@ -48,14 +49,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-21T20:17:16.663Z",
+            "modified": "2026-04-29T14:23:05.956Z",
             "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has downloaded additional malware and tools onto a compromised host.(Citation: Palo Alto Gamaredon Feb 2017)(Citation: TrendMicro Gamaredon April 2020)(Citation: ESET Gamaredon June 2020)(Citation: Microsoft Actinium February 2022)(Citation: ESET Gamaredon Sept2024)(Citation: VenereCiscoTalos_Gamaredon_Mar2025) For example, [Gamaredon Group](https://attack.mitre.org/groups/G0047) uses a backdoor script to retrieve and decode additional payloads once in victim environments.(Citation: unit42_gamaredon_dec2022) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

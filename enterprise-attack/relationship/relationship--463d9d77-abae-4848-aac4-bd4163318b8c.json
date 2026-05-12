@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--819a2c5d-e17d-4835-ba1b-30ca07dfeea9",
+    "id": "bundle--dabda1d5-df19-4a3a-8550-4b643c9943d4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T15:49:37.020Z",
+            "modified": "2026-04-29T14:23:06.021Z",
             "description": "[LODEINFO](https://attack.mitre.org/software/S9020) can exfiltrate collected credentials and browser cookies to the C2 server.(Citation: ESET MirrorFace DEC 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--7908f855-5b5b-4d6a-acbc-af6b45ec27ad",

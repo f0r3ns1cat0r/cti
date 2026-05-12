@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--adec187b-28e8-4f68-b467-52a39b13992c",
+    "id": "bundle--cb7a1302-0960-4694-b948-0f3ab02b1671",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:37:14.094Z",
+            "modified": "2026-04-29T14:23:05.937Z",
             "description": "[Netwalker](https://attack.mitre.org/software/S0457) can detect and terminate active security software-related processes on infected systems.(Citation: TrendMicro Netwalker May 2020)(Citation: Sophos Netwalker May 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--754effde-613c-4244-a83e-fb659b2a4d06",

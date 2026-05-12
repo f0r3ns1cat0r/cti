@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--ee8b0f21-e2a7-4439-b98d-81a1c874b9c9",
+    "id": "bundle--73c39646-4335-4dc7-bd7e-c56fa88f195b",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--34d06ebf-867e-4cd2-8e44-c849fcaab072",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.674Z",
             "name": "Detection of Software Packing",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -30,8 +31,7 @@
             "x_mitre_analytic_refs": [
                 "x-mitre-analytic--75a0da5c-9f2b-4e96-bb94-10c30f16a9a2",
                 "x-mitre-analytic--d4dc642d-922b-4476-ad3f-ba23c43702f5"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

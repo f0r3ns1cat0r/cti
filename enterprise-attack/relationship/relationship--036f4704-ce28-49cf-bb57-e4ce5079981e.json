@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b8b943bf-09bb-4542-96a1-2807f0445345",
+    "id": "bundle--9a1f50e3-7297-49a7-b3d7-f577073658e7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--036f4704-ce28-49cf-bb57-e4ce5079981e",
             "created": "2020-05-06T15:48:01.780Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro BlackTech June 2017",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:32:16.623Z",
+            "modified": "2026-04-29T14:23:05.908Z",
             "description": "(Citation: TrendMicro BlackTech June 2017)(Citation: JPCert PLEAD Downloader June 2018)(Citation: Trend Micro Waterbear December 2019)(Citation: Symantec Palmerworm Sep 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--6fe8a2a1-a1b0-4af8-953d-4babd329f8f8",
             "target_ref": "malware--b57f419e-8b12-49d3-886b-145383725dcd",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

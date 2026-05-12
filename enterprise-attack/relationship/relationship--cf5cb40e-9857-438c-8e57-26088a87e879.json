@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3cd0badd-a60e-40e4-95ed-a835c218541c",
+    "id": "bundle--f609055b-7f14-4168-b75d-dda586d317b7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cf5cb40e-9857-438c-8e57-26088a87e879",
             "created": "2026-02-04T20:41:15.080Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sophos Evilginx MAR 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-02-04T20:41:15.080Z",
+            "modified": "2026-04-29T14:23:06.209Z",
             "description": "[evilginx2](https://attack.mitre.org/software/S9003) can capture information from each session with a victim including the public IP used to access the server and the user agent.(Citation: Sophos Evilginx MAR 2025)",
             "relationship_type": "uses",
             "source_ref": "tool--1eb9627d-a661-4db6-bf53-41b7dcc63087",

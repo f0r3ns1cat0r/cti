@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6dd836d1-5011-4400-b257-d0e9656c840f",
+    "id": "bundle--e9f496c3-9ae2-44bc-a36a-83d6b2bd4564",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:13:11.865Z",
+            "modified": "2026-04-29T14:23:06.263Z",
             "description": "[Waterbear](https://attack.mitre.org/software/S0579) can hook the <code>ZwOpenProcess</code> and <code>GetExtendedTcpTable</code> APIs called by the process of a security product to hide PIDs and TCP records from detection.(Citation: Trend Micro Waterbear December 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--f3f1fbed-7e29-49cb-8579-4a378f858deb",

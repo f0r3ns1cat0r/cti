@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eb8db7b6-843e-49c7-868d-49800f076e70",
+    "id": "bundle--2cda82d9-157c-4830-a187-778a0899d33a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--78f97a32-3e52-4929-8017-3503642d452c",
             "created": "2025-10-22T20:45:30.546Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Socket Contagious Interview NPM April 2025",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T20:45:30.546Z",
+            "modified": "2026-04-29T14:23:06.090Z",
             "description": "[HexEval Loader](https://attack.mitre.org/software/S1249) has encoded module names and C2 URLs as hexadecimal strings in attempts to evade analysis.(Citation: Socket Contagious Interview NPM April 2025)(Citation: Socket HexEval BeaverTail Contagious Interview June 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--3d7048f1-012e-468c-a18b-1bf98037d62c",

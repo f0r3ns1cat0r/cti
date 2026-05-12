@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ae293446-ca2e-4267-8b5c-eb95c41929d0",
+    "id": "bundle--0bcf4630-6611-4705-afdb-e8a36a2230aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T17:11:54.727Z",
+            "modified": "2026-04-29T14:23:06.042Z",
             "description": "[PHASEJAM](https://attack.mitre.org/software/S9014) has blocked legitimate upgrades of Ivanti Connect Secure systems and falsely indicates a successful upgrade while operating on an older version.(Citation: Google UNC5221 Ivanti January 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--ca3f5123-b853-45ef-83cb-1d1bca22e03f",

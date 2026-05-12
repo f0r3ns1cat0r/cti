@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fad970c4-8f60-4ab8-8a1c-8f382342215a",
+    "id": "bundle--147019d8-23b3-41bc-ab13-d27b5ba1e280",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e4019493-bd52-4011-9355-8902be6ff3f3",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "PaloAlto-SpyDealer",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:52:11.954Z",
+            "modified": "2026-04-29T14:23:06.236Z",
             "description": "[SpyDealer](https://attack.mitre.org/software/S0324) registers the broadcast receiver to listen for events related to device boot-up.(Citation: PaloAlto-SpyDealer)",
             "relationship_type": "uses",
             "source_ref": "malware--86fc6f0c-86d9-473e-89f3-f50f3cb9319b",
             "target_ref": "attack-pattern--3775a580-a1d1-46c4-8147-c614a715f2e9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

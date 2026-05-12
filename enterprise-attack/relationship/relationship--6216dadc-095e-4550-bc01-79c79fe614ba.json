@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b75f388b-8ee0-47e5-9e98-e097fed7b720",
+    "id": "bundle--4b7823ea-52ef-4ce9-8e67-0065d29d69ad",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6216dadc-095e-4550-bc01-79c79fe614ba",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Accenture SNAKEMACKEREL Nov 2018",
@@ -48,7 +49,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T02:51:33.947Z",
+            "modified": "2026-04-29T14:23:06.058Z",
             "description": "[Zebrocy](https://attack.mitre.org/software/S0251) collects the OS version and computer name. [Zebrocy](https://attack.mitre.org/software/S0251) also runs the <code>systeminfo</code> command to gather system information. (Citation: Palo Alto Sofacy 06-2018)(Citation: Unit42 Cannon Nov 2018)(Citation: ESET Zebrocy Nov 2018)(Citation: Unit42 Sofacy Dec 2018)(Citation: ESET Zebrocy May 2019)(Citation: Accenture SNAKEMACKEREL Nov 2018)(Citation: CISA Zebrocy Oct 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--a4f57468-fbd5-49e4-8476-52088220b92d",

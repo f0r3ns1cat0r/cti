@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1a101745-c1a7-431f-a7ef-37460bd77d6d",
+    "id": "bundle--c598f0c2-f83e-4e8b-a985-e8bceee4ecef",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-19T19:12:07.204Z",
+            "modified": "2026-04-29T14:23:06.234Z",
             "description": "[PHPsert](https://attack.mitre.org/software/S9028) can use Base64-encoded values in C2 communications.(Citation: sentinelone operationDigitalEye Dec 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--9491a623-5861-4d0a-9958-8c05d0d17442",

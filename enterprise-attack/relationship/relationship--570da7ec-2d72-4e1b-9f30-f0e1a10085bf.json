@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--91f2c4d4-4bdb-4521-95fd-274a38acc8e8",
+    "id": "bundle--05dd226c-7b58-4642-a8c1-c2a76b18047e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--570da7ec-2d72-4e1b-9f30-f0e1a10085bf",
             "created": "2019-04-16T17:43:42.929Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT33 Guardrail",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:48:46.780Z",
+            "modified": "2026-04-29T14:23:06.044Z",
             "description": "[POWERTON](https://attack.mitre.org/software/S0371) is written in PowerShell.(Citation: FireEye APT33 Guardrail)",
             "relationship_type": "uses",
             "source_ref": "malware--e85cae1a-bce3-4ac4-b36b-b00acac0567b",
             "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

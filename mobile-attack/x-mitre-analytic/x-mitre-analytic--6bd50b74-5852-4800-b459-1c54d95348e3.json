@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d6e771b7-5425-46de-9898-b93a1743609f",
+    "id": "bundle--4755fefd-06bb-4c01-9449-144be65446bc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-23T23:00:36.132Z",
+            "modified": "2026-05-12T16:30:18.378Z",
             "name": "Analytic 1708",
             "description": "OLD: Monitor for API calls that are related to the AccountManager API on Android and Keychain services on iOS.\nApplication vetting services may look for `MANAGE_ACCOUNTS` in an Android application\u2019s manifest. Most applications do not need access to accounts, so extra scrutiny may be applied to those that request it.\n\nNEW: A defender observes an Android application invoking the AccountManager API.  ",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

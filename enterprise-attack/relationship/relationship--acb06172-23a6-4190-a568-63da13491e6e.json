@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c85959a4-9c15-47a7-bdba-1a9bb4202886",
+    "id": "bundle--99ab21d9-f6ca-4e89-85e1-6bda45e6e4a6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--acb06172-23a6-4190-a568-63da13491e6e",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 OopsIE! Feb 2018",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:04:53.827Z",
+            "modified": "2026-04-29T14:23:06.160Z",
             "description": "[OopsIE](https://attack.mitre.org/software/S0264) creates and uses a VBScript as part of its persistent execution.(Citation: Unit 42 OopsIE! Feb 2018)(Citation: Unit 42 OilRig Sept 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--8e101fdd-9f7f-4916-bb04-6bd9e94c129c",
             "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

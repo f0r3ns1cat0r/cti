@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4407fdb5-5c17-4e25-bc8d-7c97b5b97230",
+    "id": "bundle--3f7eda9d-3860-40c8-a705-4b9e93b1c876",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--812699e3-ffb0-4aec-b7d9-96680311d5a4",
             "created": "2025-10-16T16:08:44.077Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft SharePoint Exploit JUL 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-16T16:08:44.077Z",
+            "modified": "2026-04-29T14:23:06.102Z",
             "description": "During [SharePoint ToolShell Exploitation](https://attack.mitre.org/campaigns/C0058), threat actors used WMI for execution.(Citation: Microsoft SharePoint Exploit JUL 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--1a0576df-df21-4775-843e-844d8a58a94b",

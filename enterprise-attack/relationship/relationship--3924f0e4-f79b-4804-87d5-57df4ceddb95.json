@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4a2b3337-2465-41ec-a10e-44bbc18af6d7",
+    "id": "bundle--bb2ed4b6-830a-401b-9f21-a65952243fdc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--3924f0e4-f79b-4804-87d5-57df4ceddb95",
             "created": "2025-10-17T11:42:32.973Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Unit 42 Medusa Group Medusa Ransomware January 2024",
@@ -33,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:22.175Z",
+            "modified": "2026-04-29T14:23:05.998Z",
             "description": "[Medusa Ransomware](https://attack.mitre.org/software/S1244) has deleted recovery files such as shadow copies using `vssadmin.exe`.(Citation: Palo Alto Unit 42 Medusa Group Medusa Ransomware January 2024)(Citation: CISA Medusa Group Medusa Ransomware March 2025)(Citation: Broadcom Medusa Ransomware Medusa Group March 2025)(Citation: Security Scorecard Medusa Ransomware January 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--28d93902-30e7-4436-8885-6d312c51c9a3",

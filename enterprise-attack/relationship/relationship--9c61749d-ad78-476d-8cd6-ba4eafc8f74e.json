@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--41dfd381-0710-4109-9df5-9f65c9013356",
+    "id": "bundle--4b063ecc-1583-41ca-ad13-86361635a385",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9c61749d-ad78-476d-8cd6-ba4eafc8f74e",
             "created": "2021-09-23T12:35:23.324Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant FIN7 Apr 2022",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:34:58.778Z",
+            "modified": "2026-04-29T14:23:06.138Z",
             "description": "(Citation: CrowdStrike Carbon Spider August 2021)(Citation: FBI Flash FIN7 USB)(Citation: Mandiant FIN7 Apr 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
             "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

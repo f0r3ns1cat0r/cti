@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--963e2f24-b2b3-46cb-b0d9-1af050d40c3f",
+    "id": "bundle--cc86dd49-a810-4d9d-bb93-a4564e2941b9",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--a51d4d34-78fc-49b7-9071-348905dd33c2",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.686Z",
             "name": "Detection Strategy for T1218.011 Rundll32 Abuse",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -29,8 +30,7 @@
             ],
             "x_mitre_analytic_refs": [
                 "x-mitre-analytic--2cb33f68-48f8-4ffe-86e1-bc857a300398"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--815c7abb-1db2-47da-9392-b26b0afd94a2",
+    "id": "bundle--b096a889-cd68-4215-ab0d-d7f3b90a532d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T18:43:31.439Z",
+            "modified": "2026-04-29T14:23:06.226Z",
             "description": "[VOID MANTICORE](https://attack.mitre.org/groups/G1055) has used tunneling tools to facilitate destructive attacks on compromised devices.(Citation: Check Point VOID MANTICORE Handala Hack March 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--ebd7ce77-c9ba-4fba-bb28-58296ac66559",

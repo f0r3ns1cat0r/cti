@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9e228ac7-2a70-4b05-aafc-f1d3b4f87fb9",
+    "id": "bundle--f2f49e66-4f2b-40f7-a6e6-2b12ef92e5c4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:04:18.125Z",
+            "modified": "2026-04-29T14:23:06.131Z",
             "description": "[ChChes](https://attack.mitre.org/software/S0144) can alter the victim's proxy configuration.(Citation: PWC Cloud Hopper Technical Annex April 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--dc5d1a33-62aa-4a0c-aa8c-589b87beb11e",

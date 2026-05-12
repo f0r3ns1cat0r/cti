@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--67a050c1-6d2c-4c8a-b589-69ddd2f5e0df",
+    "id": "bundle--598e0010-db18-4bd6-8679-f296f77cd265",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e39eb7ad-f233-4c22-8707-aaf600f42100",
             "created": "2019-04-16T19:29:01.556Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ASEC Emotet 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:14:33.619Z",
+            "modified": "2026-04-29T14:23:06.235Z",
             "description": "[Emotet](https://attack.mitre.org/software/S0367) has been observed enumerating local processes.(Citation: ASEC Emotet 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--32066e94-3112-48ca-b9eb-ba2b59d2f023",
             "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

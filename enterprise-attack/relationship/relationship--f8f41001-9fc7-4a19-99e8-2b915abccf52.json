@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6cbea92b-db2a-4a21-8fda-cda6a81c24e3",
+    "id": "bundle--bf0cba6c-517c-41e3-bef6-ebc746c546aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f8f41001-9fc7-4a19-99e8-2b915abccf52",
             "created": "2024-11-25T20:42:03.827Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET OilRig Campaigns Sep 2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:58:54.628Z",
+            "modified": "2026-04-29T14:23:06.263Z",
             "description": "During [Juicy Mix](https://attack.mitre.org/campaigns/C0044), [OilRig](https://attack.mitre.org/groups/G0049) compromised an Israeli job portal to use for a C2 server.(Citation: ESET OilRig Campaigns Sep 2023)",
             "relationship_type": "uses",
             "source_ref": "campaign--7ab2f1a1-26af-4204-ad84-d640fde391da",
             "target_ref": "attack-pattern--e196b5c5-8118-4a1c-ab8a-936586ce3db5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

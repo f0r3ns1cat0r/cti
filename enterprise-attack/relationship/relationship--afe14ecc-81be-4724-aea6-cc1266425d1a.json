@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6daa4f1f-2556-4661-a9f9-fe26b677b9c1",
+    "id": "bundle--efbc1a6e-b9cc-49ba-93e8-4d0500940243",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--afe14ecc-81be-4724-aea6-cc1266425d1a",
             "created": "2022-01-26T22:07:08.613Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Bisonal Mar 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:40:05.073Z",
+            "modified": "2026-04-29T14:23:06.165Z",
             "description": "[Bisonal](https://attack.mitre.org/software/S0268) has used the MPRESS packer and similar tools for obfuscation.(Citation: Talos Bisonal Mar 2020) ",
             "relationship_type": "uses",
             "source_ref": "malware--65ffc206-d7c1-45b3-b543-f6b726e7840d",
             "target_ref": "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

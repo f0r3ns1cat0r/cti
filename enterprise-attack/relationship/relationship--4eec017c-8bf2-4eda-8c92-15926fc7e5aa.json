@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--23b094e3-c7a6-468e-95e9-a004089f0842",
+    "id": "bundle--be53e48c-65a2-4a8d-ae8c-da725e4a9252",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4eec017c-8bf2-4eda-8c92-15926fc7e5aa",
             "created": "2017-05-31T21:33:27.066Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Novetta Blockbuster Destructive Malware",
@@ -43,7 +44,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T02:24:19.604Z",
+            "modified": "2026-04-29T14:23:06.033Z",
             "description": "Several [Lazarus Group](https://attack.mitre.org/groups/G0032) malware families collect information on the type and version of the victim OS, as well as the victim computer name and CPU information.(Citation: Novetta Blockbuster)(Citation: Novetta Blockbuster Destructive Malware)(Citation: Novetta Blockbuster Loaders)(Citation: McAfee Lazarus Resurfaces Feb 2018)(Citation: McAfee GhostSecret)(Citation: Lazarus APT January 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",

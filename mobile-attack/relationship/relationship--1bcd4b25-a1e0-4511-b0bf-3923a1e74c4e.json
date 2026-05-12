@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--26d5ce1d-73a7-44df-abf6-047c4581ba97",
+    "id": "bundle--3e4432a6-6f3c-4dcf-b3fe-19076e96a266",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1bcd4b25-a1e0-4511-b0bf-3923a1e74c4e",
             "created": "2020-12-31T18:25:05.165Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CYBERWARCON CHEMISTGAMES",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:47:17.824Z",
+            "modified": "2026-04-29T14:23:05.942Z",
             "description": "[CHEMISTGAMES](https://attack.mitre.org/software/S0555) has used HTTPS for C2 communication.(Citation: CYBERWARCON CHEMISTGAMES) ",
             "relationship_type": "uses",
             "source_ref": "malware--a0d774e4-bafc-4292-8651-3ec899391341",
             "target_ref": "attack-pattern--16d73b64-5681-4ea0-9af4-4ad86f7c96e8",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

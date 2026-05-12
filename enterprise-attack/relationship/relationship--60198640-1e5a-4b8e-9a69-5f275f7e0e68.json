@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--00ab02cc-9b46-4887-8b0e-7932bc9eab30",
+    "id": "bundle--3b5efc30-c6c8-471d-b3b7-88e7f12577d1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--60198640-1e5a-4b8e-9a69-5f275f7e0e68",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Buckeye",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T15:46:53.921Z",
+            "modified": "2026-04-29T14:23:06.056Z",
             "description": "[OSInfo](https://attack.mitre.org/software/S0165) queries the registry to look for information about Terminal Services.(Citation: Symantec Buckeye)",
             "relationship_type": "uses",
             "source_ref": "malware--f6d1d2cb-12f5-4221-9636-44606ea1f3f8",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f42d7556-a2ac-4468-a325-7c27cfd60bb2",
+    "id": "bundle--7a0dc8db-7342-4b32-9fa0-ccabab2d0ed1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--46393d52-ee2f-44d6-bad6-37a75344f5d2",
             "created": "2025-01-29T18:53:23.623Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Lockbit 2.0 JUN 2022",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:11:42.022Z",
+            "modified": "2026-04-29T14:23:06.021Z",
             "description": "[LockBit 2.0](https://attack.mitre.org/software/S1199) can bypass UAC through creating the Registry key  `HKEY_LOCAL_MACHINE\\SOFTWARE\\WOW6432Node\\Microsoft\\Windows NT\\CurrentVersion\\ICM\\Calibration`.(Citation: FBI Lockbit 2.0 FEB 2022)(Citation: Palo Alto Lockbit 2.0 JUN 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--a4578560-42cf-4075-9fa2-056f0058c881",
             "target_ref": "attack-pattern--120d5519-3098-4e1c-9191-2aa61232f073",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

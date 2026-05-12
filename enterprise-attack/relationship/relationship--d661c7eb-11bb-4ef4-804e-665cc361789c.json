@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9058cc88-6afc-42f5-a92b-d2e0e2f095db",
+    "id": "bundle--52dc7704-b79c-4f6f-a74a-69d66817b242",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d661c7eb-11bb-4ef4-804e-665cc361789c",
             "created": "2023-02-07T21:27:58.650Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Brute Ratel July 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:50:05.361Z",
+            "modified": "2026-04-29T14:23:06.218Z",
             "description": "[Brute Ratel C4](https://attack.mitre.org/software/S1063) has the ability to use TCP for external C2.(Citation: Palo Alto Brute Ratel July 2022)",
             "relationship_type": "uses",
             "source_ref": "tool--75d8b521-6b6a-42ff-8af3-d97e20ce12a5",
             "target_ref": "attack-pattern--c21d5a77-d422-4a69-acd7-2c53c1faa34b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

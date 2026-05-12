@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c75c7171-becc-40e4-b143-6724e57ae064",
+    "id": "bundle--fdb713bb-3a08-4777-a16f-d7573b3eee01",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:48:47.221Z",
+            "modified": "2026-04-29T14:23:06.052Z",
             "description": "[Pysa](https://attack.mitre.org/software/S0583) has the capability to stop antivirus services and disable Windows Defender.(Citation: CERT-FR PYSA April 2020) ",
             "relationship_type": "uses",
             "source_ref": "malware--a19c1197-9414-46e3-986f-0f609ff4a46b",

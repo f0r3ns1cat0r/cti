@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ccba8e46-5c02-48d3-bcf1-056774aae8bd",
+    "id": "bundle--ca9167a5-cc47-42be-8e4e-4d2a45ec1617",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T13:55:23.850Z",
+            "modified": "2026-04-29T14:23:06.094Z",
             "description": "[WIRTE](https://attack.mitre.org/groups/G0090) has exfiltrated collected victim data to C2 infrastructure.(Citation: Palo Alto Ashen Lepus DEC 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f8cb7b36-62ef-4488-8a6d-a7033e3271c1",

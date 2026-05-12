@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f2e94f09-2a66-4d35-85e7-e25964e7ec78",
+    "id": "bundle--cde9605b-b58c-4a65-8867-de1d674fcb36",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--83ba5b2c-b3fd-4558-a3f8-cef4c31e02bd",
             "created": "2017-05-31T21:33:27.069Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Novetta Blockbuster RATs",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:28:19.613Z",
+            "modified": "2026-04-29T14:23:06.105Z",
             "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) malware attempts to connect to Windows shares for lateral movement by using a generated list of usernames, which center around permutations of the username Administrator, and weak passwords.(Citation: Novetta Blockbuster)(Citation: Novetta Blockbuster RATs)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
             "target_ref": "attack-pattern--692074ae-bb62-4a5e-a735-02cb6bde458c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

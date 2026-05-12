@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d7575f7d-d5a8-4812-ad7b-4d74c8ca48b0",
+    "id": "bundle--2021bdf4-0e99-41f1-a86c-44e5ac7059b2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f425ddf8-fc3b-41d5-ba2e-66291ba16329",
             "created": "2020-11-30T17:05:19.844Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "US District Court Indictment GRU Unit 74455 October 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:17:18.901Z",
+            "modified": "2026-04-29T14:23:06.257Z",
             "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has obtained valid emails addresses while conducting research against target organizations that were subsequently used in spearphishing campaigns.(Citation: US District Court Indictment GRU Unit 74455 October 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
             "target_ref": "attack-pattern--69f897fd-12a9-4c89-ad6a-46d2f3c38262",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

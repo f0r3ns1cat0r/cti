@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--61f2c39c-b55d-4c90-a925-8d69c5b7ffda",
+    "id": "bundle--528ad31a-d564-4c58-a8f6-7177433f5c1f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bb39cbf2-a9dc-4c31-9fb9-b6c456c2005c",
             "created": "2019-01-29T18:17:59.258Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CIRCL PlugX March 2013",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:07:21.220Z",
+            "modified": "2026-04-29T14:23:06.181Z",
             "description": "[PlugX](https://attack.mitre.org/software/S0013) allows the operator to capture screenshots.(Citation: CIRCL PlugX March 2013)",
             "relationship_type": "uses",
             "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",
             "target_ref": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

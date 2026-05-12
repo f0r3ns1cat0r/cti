@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1f06e2b5-e690-4f85-afbc-6a2b7ce69f5f",
+    "id": "bundle--56941e06-ab10-4dc0-8b70-e2f383ff8ec0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fabd053f-487c-404f-b1b0-b090e442ff83",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET InvisiMole June 2018",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:18:27.369Z",
+            "modified": "2026-04-29T14:23:06.265Z",
             "description": "[InvisiMole](https://attack.mitre.org/software/S0260) has disguised its droppers as legitimate software or documents, matching their original names and locations, and saved its files as mpr.dll in the Windows folder.(Citation: ESET InvisiMole June 2018)(Citation: ESET InvisiMole June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--47afe41c-4c08-485e-b062-c3bd209a1cce",
             "target_ref": "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

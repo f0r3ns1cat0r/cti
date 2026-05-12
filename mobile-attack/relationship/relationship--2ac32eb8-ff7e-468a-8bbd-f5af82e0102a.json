@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e10708a3-bcd7-408f-8984-54e137b81e18",
+    "id": "bundle--ace6ecde-287a-4734-921f-1ec80c489f76",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--2ac32eb8-ff7e-468a-8bbd-f5af82e0102a",
             "created": "2025-03-24T20:13:08.333Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "LinkedIn Dmitry LightSpy 2025",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:47:39.505Z",
+            "modified": "2026-04-29T14:23:05.963Z",
             "description": "[LightSpy](https://attack.mitre.org/software/S1185) has accessed the device\u2019s KeyChain data.(Citation: MelikovBlackBerry LightSpy 2024)(Citation: Threatfabric LightSpy 2024)(Citation: Shoshin_Kaspersky LightSpy 2020)(Citation: LinkedIn Dmitry LightSpy 2025) ",
             "relationship_type": "uses",
             "source_ref": "malware--5b5d1e6c-e7de-4b46-ab8f-8556e8745927",
             "target_ref": "attack-pattern--8605a0ec-b44a-4e98-a7fc-87d4bd3acb66",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

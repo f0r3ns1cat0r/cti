@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2306e214-6600-4260-951e-a1d1e3f48e3e",
+    "id": "bundle--73cdd69b-0d41-462b-8681-544019818b1d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:42:43.411Z",
+            "modified": "2026-04-29T14:23:06.228Z",
             "description": "Protect generated event files that are stored locally with proper permissions and authentication and limit opportunities for adversaries to increase privileges by preventing Privilege Escalation opportunities.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--987988f0-cf86-4680-a875-2f6456ab2448",

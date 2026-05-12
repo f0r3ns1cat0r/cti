@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5866c005-707c-4af3-997f-f088dd2eb75a",
+    "id": "bundle--545afa60-91bc-432f-91d1-07531f093e07",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cd2842e8-13e8-4946-9f16-f0473c6ac205",
             "created": "2021-09-29T20:46:38.422Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA AA20-239A BeagleBoyz August 2020",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:47:46.903Z",
+            "modified": "2026-04-29T14:23:06.206Z",
             "description": "[APT38](https://attack.mitre.org/groups/G0082)  has attempted to lure victims into enabling malicious macros within email attachments.(Citation: CISA AA20-239A BeagleBoyz August 2020) Additionally, [APT38](https://attack.mitre.org/groups/G0082) has used malicious Word documents and shortcut files.(Citation: 1 - appv) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
             "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

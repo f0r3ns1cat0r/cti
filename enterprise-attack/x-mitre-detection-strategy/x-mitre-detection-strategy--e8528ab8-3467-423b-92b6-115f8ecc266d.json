@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--1a190aae-7b70-4c1b-a10f-e758b72f0d5e",
+    "id": "bundle--eb675f75-a40b-4719-8dc3-c1ccd577fceb",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--e8528ab8-3467-423b-92b6-115f8ecc266d",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.696Z",
             "name": "Detect Archiving via Utility (T1560.001)",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -31,8 +32,7 @@
                 "x-mitre-analytic--ebfa3aa8-dc7c-4d56-868e-169c873b5e78",
                 "x-mitre-analytic--89cfa3ac-22c9-462f-a6a5-b142124e22a5",
                 "x-mitre-analytic--18cf5cf7-f46b-4258-a0aa-503881c9c88e"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

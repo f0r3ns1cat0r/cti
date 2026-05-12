@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--92d71e03-36bc-4d95-8211-9629430bf8f8",
+    "id": "bundle--beb2c447-fbda-4a85-b816-6696e9450307",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6924c49b-0f86-4712-9600-f91b21fa5691",
             "created": "2023-08-07T16:07:34.927Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant FIN12 Oct 2021",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T16:26:04.866Z",
+            "modified": "2026-04-29T14:23:06.068Z",
             "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has utilized `rundll32.exe` to deploy ransomware commands with the use of WebDAV.(Citation: Mandiant FIN12 Oct 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",

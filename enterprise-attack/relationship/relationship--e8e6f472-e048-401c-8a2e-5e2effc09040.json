@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--65106bfc-fc30-49b1-83c9-a61b21e2ab5f",
+    "id": "bundle--312fb1a3-e71c-42ed-bcd0-9e2f58cb2f3b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e8e6f472-e048-401c-8a2e-5e2effc09040",
             "created": "2021-03-03T19:53:18.996Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye Exchange Zero Days March 2021",
@@ -43,14 +44,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:54:46.055Z",
+            "modified": "2026-04-29T14:23:06.242Z",
             "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has exploited multiple vulnerabilities to compromise edge devices and on-premises versions of Microsoft Exchange Server.(Citation: Microsoft HAFNIUM March 2020)(Citation: Volexity Exchange Marauder March 2021)(Citation: FireEye Exchange Zero Days March 2021)(Citation: Tarrask scheduled task)(Citation: Microsoft Log4j Vulnerability Exploitation December 2021)(Citation: Microsoft Silk Typhoon MAR 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
             "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

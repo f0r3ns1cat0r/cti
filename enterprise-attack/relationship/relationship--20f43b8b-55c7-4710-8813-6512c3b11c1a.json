@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--deed8045-9465-4067-8038-c25399d28569",
+    "id": "bundle--ac1736f6-2bd3-4365-8428-a6e686204d76",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--20f43b8b-55c7-4710-8813-6512c3b11c1a",
             "created": "2023-03-31T19:40:01.468Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Royal December 2022",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T03:24:42.817Z",
+            "modified": "2026-04-29T14:23:05.950Z",
             "description": " [Royal](https://attack.mitre.org/software/S1073) can use `GetNativeSystemInfo` to enumerate system processors.(Citation: Cybereason Royal December 2022)(Citation: Trend Micro Royal Linux ESXi February 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--802a874d-7463-4f2a-99e3-6a1f5a919a21",

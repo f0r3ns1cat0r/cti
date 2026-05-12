@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--76ee2919-f5a6-4233-a361-f5ea43e039e3",
+    "id": "bundle--f1959a8f-150e-492a-a7c2-72d492085203",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0125d222-8e17-44eb-b89b-6d795607e81f",
             "created": "2024-12-17T00:45:02.460Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft BlackByte 2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:53:08.421Z",
+            "modified": "2026-04-29T14:23:05.904Z",
             "description": "[Exbyte](https://attack.mitre.org/software/S1179) calls `ShellExecuteW` with the `IpOperation` parameter `RunAs` to launch `explorer.exe` with elevated privileges.(Citation: Microsoft BlackByte 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--6207dd22-bf18-4c96-aada-c573a9bbf5ec",
             "target_ref": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

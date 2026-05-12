@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3104b56a-7493-45e1-930e-6180f9564ada",
+    "id": "bundle--f381cf71-806c-49c3-a2f4-2c5c5377f6c3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b01660bb-1725-42f4-9419-495b8710e930",
             "created": "2023-03-17T14:10:39.072Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "McAfee Lazarus Nov 2020",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:40:09.523Z",
+            "modified": "2026-04-29T14:23:06.165Z",
             "description": "During [Operation Dream Job](https://attack.mitre.org/campaigns/C0022), [Lazarus Group](https://attack.mitre.org/groups/G0032) packed malicious .db files with Themida to evade detection.(Citation: ClearSky Lazarus Aug 2020)(Citation: McAfee Lazarus Jul 2020)(Citation: McAfee Lazarus Nov 2020)",
             "relationship_type": "uses",
             "source_ref": "campaign--0257b35b-93ef-4a70-80dd-ad5258e6045b",
             "target_ref": "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

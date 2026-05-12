@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fef64515-fec7-493c-8f5c-bf26d8098e98",
+    "id": "bundle--89d5b9b0-ee5d-4f3a-8cde-110c06d61eae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4fc9c0a5-952f-4726-8c53-39fbf40a67e3",
             "created": "2019-08-26T15:27:12.991Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Crowdstrike GTR2020 Mar 2020",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:14:17.940Z",
+            "modified": "2026-04-29T14:23:06.034Z",
             "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has used a modified TeamViewer client as a command and control channel.(Citation: Securelist Kimsuky Sept 2013)(Citation: Crowdstrike GTR2020 Mar 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
             "target_ref": "attack-pattern--d4287702-e2f7-4946-bdfa-2c7f5aaa5032",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

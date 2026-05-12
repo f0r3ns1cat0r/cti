@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b6130f07-8ff0-425e-a0b1-3e1a9b69c717",
+    "id": "bundle--db779f75-7bfd-4571-a240-aab07278029b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--85eeec51-34a1-421f-aae2-892843dfd19d",
             "created": "2022-03-25T16:21:29.226Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "NTT Security Flagpro new December 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:28:52.784Z",
+            "modified": "2026-04-29T14:23:06.108Z",
             "description": "[Flagpro](https://attack.mitre.org/software/S0696) can communicate with its C2 using HTTP.(Citation: NTT Security Flagpro new December 2021) ",
             "relationship_type": "uses",
             "source_ref": "malware--592260fb-dd5c-4a30-8d99-106a0485be0d",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8e695794-0dad-4f9d-ba8a-000aeb13e3ab",
+    "id": "bundle--b0bde9ec-d842-457f-83cb-edde6e4b539e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-29T18:53:00.289Z",
+            "modified": "2026-05-12T16:30:18.380Z",
             "name": "Analytic 1751",
             "description": "Defender correlates an app acquiring input-capture capability (AccessibilityService enablement or default IME set) with high-frequency text-change/IME commit callbacks sourced from other packages, followed by local keylog persistence and/or small, immediate network egress. Chain: capability/permission \u2192 intercept (accessibility \u2018TYPE_VIEW_TEXT_CHANGED\u2019 or IME commitText/onStartInput bursts) \u2192 persist to container \u2192 near-term egress.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

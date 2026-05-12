@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cbf30c4d-7d80-4751-8940-f3970f5f3ce5",
+    "id": "bundle--34457356-877f-42ab-8790-a414aefb2444",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1f35d6bf-c5e1-42bc-ba47-e06ee1a2e305",
             "created": "2025-10-08T20:12:37.612Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ThreatFabric_Chameleon_Dec2023",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-08T20:12:37.612Z",
+            "modified": "2026-04-29T14:23:05.947Z",
             "description": "[Chameleon](https://attack.mitre.org/software/S1083) has been distributed using phishing links and a Content Distribution Network (CDN) for file distribution.(Citation: ThreatFabric_Chameleon_Dec2023) ",
             "relationship_type": "uses",
             "source_ref": "malware--2cf00c5a-857d-4cb6-8f03-82f15bee0f6f",

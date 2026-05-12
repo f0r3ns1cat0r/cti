@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ff895584-457c-43f5-8b22-07d709bc483d",
+    "id": "bundle--1a2d4816-dcad-4031-95f3-435a6e199e62",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-13T19:20:39.637Z",
+            "modified": "2026-05-12T16:30:18.376Z",
             "name": "Analytic 1729",
             "description": "Correlates (1) application possession and use of location authorization sufficient for ongoing geographic evaluation, (2) repeated location or region-monitoring behavior with limited visible feature activation outside target area, and (3) abrupt onset of network communication, background execution, or feature activation only after a qualifying location context is reached. Because direct visibility into every geofence callback is often weaker on iOS, the defender relies more heavily on the combination of location authorization state, repeated location access, app state transition, and downstream behavior that begins after region alignment.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

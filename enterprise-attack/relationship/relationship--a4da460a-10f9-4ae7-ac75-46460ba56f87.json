@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fb62a502-2ad8-46f4-8adc-ce32dea3adbc",
+    "id": "bundle--c0919569-07a0-43aa-af61-289487bf220b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a4da460a-10f9-4ae7-ac75-46460ba56f87",
             "created": "2022-06-15T12:59:14.318Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky Lyceum October 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:37:11.703Z",
+            "modified": "2026-04-29T14:23:06.149Z",
             "description": "[Kevin](https://attack.mitre.org/software/S1020) can generate a sequence of dummy HTTP C2 requests to obscure traffic.(Citation: Kaspersky Lyceum October 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--e7863f5d-cb6a-4f81-8804-0a635eec160a",
             "target_ref": "attack-pattern--f7c0689c-4dbd-489b-81be-7cb7c7079ade",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

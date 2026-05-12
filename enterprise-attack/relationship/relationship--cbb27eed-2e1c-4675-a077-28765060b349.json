@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--043f9e75-8a19-4333-b59e-061a6c31445a",
+    "id": "bundle--935b0db9-48fe-4287-acb5-e693a0d62f4a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cbb27eed-2e1c-4675-a077-28765060b349",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ASERT Donot March 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:10:25.624Z",
+            "modified": "2026-04-29T14:23:06.204Z",
             "description": "[yty](https://attack.mitre.org/software/S0248) packs a plugin with UPX.(Citation: ASERT Donot March 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--0817aaf2-afea-4c32-9285-4dcd1df5bf14",
             "target_ref": "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3ff6a73d-1ba6-4a4d-b425-76e0cdf82d6a",
+    "id": "bundle--81162a88-9c7c-4646-8bdc-3e431156f652",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T17:58:03.432Z",
+            "modified": "2026-04-29T14:23:06.033Z",
             "description": "[MuddyViper](https://attack.mitre.org/software/S9032) has archived collected web browser data into a file named\u202fCacheDump.zip.(Citation: ESET_MuddyWater_Dec2025)\u202f\u202f\u202f\u202f\u202f\u202f\u202f",
             "relationship_type": "uses",
             "source_ref": "malware--7b92e996-b535-4159-be16-3c3aee4edf54",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--590cfb6c-c9ec-4c70-ad92-5be32c721958",
+    "id": "bundle--ca27ee7e-60da-4d33-bcab-a04716531c4c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ee565652-51c8-4fe8-bb05-682c6942485a",
             "created": "2019-03-11T20:01:20.298Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Frankenstein June 2019",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:56:13.988Z",
+            "modified": "2026-04-29T14:23:06.249Z",
             "description": "[Empire](https://attack.mitre.org/software/S0363) can find information about processes running on local and remote systems.(Citation: Github PowerShell Empire)(Citation: Talos Frankenstein June 2019)",
             "relationship_type": "uses",
             "source_ref": "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",
             "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

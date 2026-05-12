@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--20e708b4-4ba9-4117-81e5-2892b965acc1",
+    "id": "bundle--552ba0b7-567a-4281-90db-7689eb3bf81f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c902196d-7a86-4235-b2a8-bf380a0cab3c",
             "created": "2024-03-28T14:24:55.530Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye TEMP.Veles 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:46:40.932Z",
+            "modified": "2026-04-29T14:23:06.200Z",
             "description": "In the [Triton Safety Instrumented System Attack](https://attack.mitre.org/campaigns/C0030), [TEMP.Veles](https://attack.mitre.org/groups/G0088) modified files based on the open-source project cryptcat in an apparent attempt to decrease anti-virus detection rates.(Citation: FireEye TEMP.Veles 2018)",
             "relationship_type": "uses",
             "source_ref": "campaign--45a98f02-852f-49b2-94c0-c63207bebbbf",
             "target_ref": "attack-pattern--b0533c6e-8fea-4788-874f-b799cacc4b92",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

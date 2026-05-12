@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1f48b9d0-2de0-4082-a78a-eafeb717114e",
+    "id": "bundle--e4db7c58-7c51-44a5-9400-c4efa3d9d42c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cafdf392-1a61-422f-80ca-4d0d088bd44a",
             "created": "2021-10-11T16:56:45.466Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Lokibot Jan 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:10:15.583Z",
+            "modified": "2026-04-29T14:23:06.202Z",
             "description": "[Lokibot](https://attack.mitre.org/software/S0447) has used PowerShell commands embedded inside batch scripts.(Citation: Talos Lokibot Jan 2021) ",
             "relationship_type": "uses",
             "source_ref": "malware--cb741463-f0fe-42e0-8d45-bc7e8335f5ae",
             "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

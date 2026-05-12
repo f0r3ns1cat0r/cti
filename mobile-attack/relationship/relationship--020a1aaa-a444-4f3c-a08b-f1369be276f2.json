@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2ddb14df-1a48-440f-89b1-9d411ffcd55a",
+    "id": "bundle--9c0b942c-8f5d-4856-8d4b-88a7ed3a4e7b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--020a1aaa-a444-4f3c-a08b-f1369be276f2",
             "created": "2020-09-15T15:18:12.398Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason FakeSpy",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:27:31.684Z",
+            "modified": "2026-04-29T14:23:05.905Z",
             "description": "[FakeSpy](https://attack.mitre.org/software/S0509) can collect device networking information, including phone number, IMEI, and IMSI.(Citation: Cybereason FakeSpy)",
             "relationship_type": "uses",
             "source_ref": "malware--838f647e-8ff8-48bd-bbd5-613cee7736cb",
             "target_ref": "attack-pattern--d4536441-1bcc-49fa-80ae-a596ed3f7ffd",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

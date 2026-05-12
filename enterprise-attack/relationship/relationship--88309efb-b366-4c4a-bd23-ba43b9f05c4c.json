@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--32f2ba4e-d303-47b6-bb98-93bcb75ae2d6",
+    "id": "bundle--d98caf05-f202-4cbb-a23b-d1c91f22f032",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--88309efb-b366-4c4a-bd23-ba43b9f05c4c",
             "created": "2019-03-26T19:23:02.073Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Symantec Emotet Jul 2018",
@@ -38,14 +39,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:58:01.253Z",
+            "modified": "2026-04-29T14:23:06.111Z",
             "description": "[Emotet](https://attack.mitre.org/software/S0367) has sent Microsoft Word documents with embedded macros that will invoke scripts to download additional payloads. (Citation: Symantec Emotet Jul 2018)(Citation: Talos Emotet Jan 2019)(Citation: Trend Micro Emotet Jan 2019)(Citation: Picus Emotet Dec 2018)(Citation: Carbon Black Emotet Apr 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--32066e94-3112-48ca-b9eb-ba2b59d2f023",
             "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

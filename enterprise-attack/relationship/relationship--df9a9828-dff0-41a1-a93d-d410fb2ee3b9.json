@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e8479d62-6122-4d3c-a8fd-a1e62913e011",
+    "id": "bundle--459544db-544a-484b-8e1c-c3cc227e3083",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--df9a9828-dff0-41a1-a93d-d410fb2ee3b9",
             "created": "2024-03-01T20:55:21.199Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "NCSC et al APT29 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:52:22.358Z",
+            "modified": "2026-04-29T14:23:06.230Z",
             "description": "[APT29](https://attack.mitre.org/groups/G0016) targets dormant or inactive user accounts, accounts belonging to individuals no longer at the organization but whose accounts remain on the system, for access and persistence.(Citation: NCSC et al APT29 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
             "target_ref": "attack-pattern--fdc47f44-dd32-4b99-af5f-209f556f63c2",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

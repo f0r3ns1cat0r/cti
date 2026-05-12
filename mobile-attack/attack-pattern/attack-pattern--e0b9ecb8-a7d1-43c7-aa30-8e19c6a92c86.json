@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d6c4acea-5b39-4ca3-91f0-fc8bf0e73083",
+    "id": "bundle--90cbc882-6bd2-4e66-a3dc-3efa965be91b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:49:30.430Z",
+            "modified": "2026-05-12T15:12:00.722Z",
             "name": "Contact List",
             "description": "Adversaries may utilize standard operating system APIs to gather contact list data. On Android, this can be accomplished using the Contacts Content Provider. On iOS, this can be accomplished using the `Contacts` framework. \n\n \n\nIf the device has been jailbroken or rooted, an adversary may be able to access the [Contact List](https://attack.mitre.org/techniques/T1636/003) without the user\u2019s knowledge or approval. ",
             "kill_chain_phases": [
@@ -33,7 +33,7 @@
                     "phase_name": "collection"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "mobile-attack"

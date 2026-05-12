@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--feab5879-e777-44f4-a326-d27d513cefe6",
+    "id": "bundle--c7983c94-f152-47a6-a318-031a81de58d0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--dd9c1644-259d-4980-8058-fdc3c72fac7b",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "F-Secure Sofacy 2015",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:13:31.636Z",
+            "modified": "2026-04-29T14:23:06.228Z",
             "description": "[JHUHUGIT](https://attack.mitre.org/software/S0044) is executed using rundll32.exe.(Citation: F-Secure Sofacy 2015)(Citation: Talos Seduploader Oct 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--8ae43c46-57ef-47d5-a77a-eebb35628db2",
             "target_ref": "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

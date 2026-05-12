@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--59f435b3-b6da-443a-8c9c-cebe9a3f83c8",
+    "id": "bundle--33691a7f-a67d-4c86-b9e8-75997aba25bf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ee94b399-2bbd-43b4-a232-75f9e24139da",
             "created": "2024-12-17T00:20:53.988Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft BlackByte 2023",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:56:17.623Z",
+            "modified": "2026-04-29T14:23:06.250Z",
             "description": "[Exbyte](https://attack.mitre.org/software/S1179) exfiltrates collected data to online file hosting sites such as `Mega.co.nz`.(Citation: Symantec BlackByte 2022)(Citation: Microsoft BlackByte 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--6207dd22-bf18-4c96-aada-c573a9bbf5ec",
             "target_ref": "attack-pattern--40597f16-0963-4249-bf4c-ac93b7fb9807",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

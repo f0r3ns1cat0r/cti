@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2738be90-c5d0-4201-a2cb-d5dcdc8fa639",
+    "id": "bundle--68cb4d8a-0229-4eb1-91ed-cdc2cc081d26",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T20:20:05.594Z",
+            "modified": "2026-04-29T14:23:06.065Z",
             "description": "[Remcos](https://attack.mitre.org/software/S0332) has full control of the Registry, including the ability to modify it.(Citation: Riskiq Remcos Jan 2018)(Citation: Fortinet Remcos Campaign NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "tool--7cd0bc75-055b-4098-a00e-83dc8beaff14",

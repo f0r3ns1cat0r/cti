@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--212377d5-5a1f-48c0-9bb7-f9eae865b2e9",
+    "id": "bundle--2cedc616-81a2-4158-8fbe-fb21c308c737",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:19.886Z",
+            "modified": "2026-05-12T15:12:00.619Z",
             "name": "Screen Capture",
             "description": "Adversaries may attempt to take screen captures of the desktop to gather information over the course of an operation. Screen capturing functionality may be included as a feature of a remote access tool used in post-compromise operations. Taking a screenshot is also typically possible through native utilities or API calls, such as <code>CopyFromScreen</code>, <code>xwd</code>, or <code>screencapture</code>.(Citation: CopyFromScreen .NET)(Citation: Antiquated Mac Malware)\n",
             "kill_chain_phases": [
@@ -38,7 +38,7 @@
                     "phase_name": "collection"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "enterprise-attack"

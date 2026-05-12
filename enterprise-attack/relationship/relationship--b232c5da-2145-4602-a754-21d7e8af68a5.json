@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a9d012ea-0322-4fb8-a808-7a2227d3f36b",
+    "id": "bundle--50197872-e599-4b20-8412-5887fbfe9e3f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b232c5da-2145-4602-a754-21d7e8af68a5",
             "created": "2025-10-13T20:35:16.913Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant UNC3944 May 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-13T20:35:16.913Z",
+            "modified": "2026-04-29T14:23:06.168Z",
             "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) has used RDP to enable lateral movement.(Citation: Mandiant UNC3944 May 2025) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",

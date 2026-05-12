@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eb5b27c5-0e79-4d7a-a828-e5fa56535df8",
+    "id": "bundle--2371f835-15da-43a0-9d1a-efcec5aec736",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7af39008-1480-4524-b8ce-e285628f61be",
             "created": "2019-04-23T16:12:37.664Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "GitHub PoshC2",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:55:39.514Z",
+            "modified": "2026-04-29T14:23:06.094Z",
             "description": "[PoshC2](https://attack.mitre.org/software/S0378) can enumerate files on the local file system and includes a module for enumerating recently accessed files.(Citation: GitHub PoshC2)",
             "relationship_type": "uses",
             "source_ref": "tool--4b57c098-f043-4da2-83ef-7588a6d426bc",
             "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

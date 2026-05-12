@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c92677a2-abba-44e3-8658-fac6bafebae0",
+    "id": "bundle--420fbd53-1891-4329-b7d7-9784e69d63b6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b640dfee-9502-4ffb-92e4-f153f8726383",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT32 May 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:06:30.884Z",
+            "modified": "2026-04-29T14:23:06.174Z",
             "description": "[SOUNDBITE](https://attack.mitre.org/software/S0157) is capable of enumerating application windows.(Citation: FireEye APT32 May 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--9ca488bd-9587-48ef-b923-1743523e63b2",
             "target_ref": "attack-pattern--4ae4f953-fe58-4cc8-a327-33257e30a830",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

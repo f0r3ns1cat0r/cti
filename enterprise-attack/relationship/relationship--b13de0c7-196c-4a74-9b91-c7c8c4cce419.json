@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dff0bd2e-027d-4df9-9efe-781e382f3473",
+    "id": "bundle--bdc1af2a-b65d-4192-860b-9081806ee33e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b13de0c7-196c-4a74-9b91-c7c8c4cce419",
             "created": "2024-02-12T20:07:33.433Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Ensilo Darkgate 2018",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:40:27.141Z",
+            "modified": "2026-04-29T14:23:06.167Z",
             "description": "[DarkGate](https://attack.mitre.org/software/S1111) initial infection payloads can masquerade as pirated media content requiring user interaction for code execution.(Citation: Ensilo Darkgate 2018) [DarkGate](https://attack.mitre.org/software/S1111) is distributed through phishing links to VBS or MSI objects requiring user interaction for execution.(Citation: Trellix Darkgate 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--6f6f67c9-556d-4459-95c2-78d272190e52",
             "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

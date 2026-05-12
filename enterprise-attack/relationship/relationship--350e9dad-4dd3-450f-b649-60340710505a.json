@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--76786338-d630-46a7-a215-c87c8fc97f8d",
+    "id": "bundle--32ea0b95-f747-439e-9f3d-ca6a0e4e5ec9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--350e9dad-4dd3-450f-b649-60340710505a",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Accenture Hogfish April 2018",
@@ -38,14 +39,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:07:02.431Z",
+            "modified": "2026-04-29T14:23:05.990Z",
             "description": "[menuPass](https://attack.mitre.org/groups/G0045) has attempted to get victims to open malicious files such as Windows Shortcuts (.lnk) and/or Microsoft Office documents, sent via email as part of spearphishing campaigns.(Citation: PWC Cloud Hopper Technical Annex April 2017)(Citation: FireEye APT10 April 2017)(Citation: Accenture Hogfish April 2018)(Citation: FireEye APT10 Sept 2018)(Citation: District Court of NY APT10 Indictment December 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
             "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

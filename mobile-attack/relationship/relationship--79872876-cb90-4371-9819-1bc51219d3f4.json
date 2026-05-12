@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ad808bd2-7963-4491-8cc8-5ddc6b4a43eb",
+    "id": "bundle--d31207c9-3e0a-439d-9395-28105f28fc61",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--79872876-cb90-4371-9819-1bc51219d3f4",
             "created": "2026-02-16T15:59:27.969Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "EnkiWhiteHat_KimsukyDOCSWAP_Dec2025",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-02-16T16:05:44.094Z",
+            "modified": "2026-04-29T14:23:06.091Z",
             "description": "[DocSwap](https://attack.mitre.org/software/S9005) has requested for the `CALL_PHONE` permission to make phone calls.(Citation: EnkiWhiteHat_KimsukyDOCSWAP_Dec2025)(Citation: S2W_DocSwap_Mar2025)  ",
             "relationship_type": "uses",
             "source_ref": "malware--3dbef387-12df-4547-9dd3-075c7ffec9e3",

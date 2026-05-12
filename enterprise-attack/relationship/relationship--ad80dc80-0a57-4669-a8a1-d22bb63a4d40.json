@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cb79deb1-4591-446e-b672-28fa9f5f840b",
+    "id": "bundle--1e19d360-e7db-4d03-ac30-583915b7989e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T19:16:52.514Z",
+            "modified": "2026-04-29T14:23:06.161Z",
             "description": "[ROAMINGHOUSE](https://attack.mitre.org/software/S9026) can identify McAfee applications on compromised hosts and change its execution method if one is detected.(Citation: Trend Micro Earth Kasha Updates APR 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--251f1715-fc97-4487-b939-5c8823ef7a39",

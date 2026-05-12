@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b0ed0621-2792-4594-a4b2-5e7e34fbb372",
+    "id": "bundle--456b0a96-e7f0-475f-89fc-6082c8bd6202",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--17ea71a2-4be4-434a-956c-79ec00d010f6",
             "created": "2025-01-17T20:18:02.855Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "S2W Troll Stealer 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:59:16.613Z",
+            "modified": "2026-04-29T14:23:05.937Z",
             "description": "[Troll Stealer](https://attack.mitre.org/software/S1196) performs XOR encryption and Base64 encoding of data prior to sending to command and control infrastructure.(Citation: S2W Troll Stealer 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--d6748457-75c2-4989-a41f-2d017994057e",
             "target_ref": "attack-pattern--04fd5427-79c7-44ea-ae13-11b24778ff1c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ded7d4a0-d452-4059-a184-1e2eaf506378",
+    "id": "bundle--0cfdd6c1-ff93-4938-9cab-d6a4100517e9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0c870326-6b8a-4279-bbd3-2c1ae23ba54a",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Forcepoint Monsoon",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:34:11.637Z",
+            "modified": "2026-04-29T14:23:05.920Z",
             "description": "[BADNEWS](https://attack.mitre.org/software/S0128) collects C2 information via a dead drop resolver.(Citation: Forcepoint Monsoon)(Citation: PaloAlto Patchwork Mar 2018)(Citation: TrendMicro Patchwork Dec 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--e9595678-d269-469e-ae6b-75e49259de63",
             "target_ref": "attack-pattern--f7827069-0bf2-4764-af4f-23fae0d181b7",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

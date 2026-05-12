@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--622ad581-cc54-4f5b-abfb-5cb66b8e85c8",
+    "id": "bundle--10d338e1-fc75-46cd-a53c-9ea73b1726ea",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T17:02:38.052Z",
+            "modified": "2026-04-29T14:23:05.912Z",
             "description": "[MirrorStealer](https://attack.mitre.org/software/S9022) has the ability to steal credentials from email clients.(Citation: ESET MirrorFace DEC 2022)(Citation: Trend Micro Earth Kasha NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--2f851d4a-18cc-4d7f-9408-b10ef02ee936",

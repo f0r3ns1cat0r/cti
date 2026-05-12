@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e2ce82bc-a4a9-4335-bfc0-4d45b614a4dd",
+    "id": "bundle--f21a2164-fac8-46db-a06a-5827eb08a13a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--83c913fb-b9e4-4468-b3e2-976d59e32e9c",
             "created": "2024-08-14T22:27:29.464Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "PWC Yellow Liderc 2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:28:20.660Z",
+            "modified": "2026-04-29T14:23:06.105Z",
             "description": "[CURIUM](https://attack.mitre.org/groups/G1012) deployed mechanisms to check system time information following strategic website compromise attacks.(Citation: PWC Yellow Liderc 2023)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--3ea7add5-5b8f-45d8-b1f1-905d2729d62a",
             "target_ref": "attack-pattern--f3c544dc-673c-4ef3-accb-53229f1ae077",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

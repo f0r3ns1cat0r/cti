@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--86ce5fa2-ba84-4f6f-b270-904d7242be70",
+    "id": "bundle--cc4b810f-8f52-4ba8-9f8a-4e66a75c8011",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:08:01.171Z",
+            "modified": "2026-04-29T14:23:06.173Z",
             "description": "[DarkComet](https://attack.mitre.org/software/S0334) can disable Security Center functions like anti-virus.(Citation: TrendMicro DarkComet Sept 2014)(Citation: Malwarebytes DarkComet March 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--53ab35c2-d00e-491a-8753-41d35ae7e547",

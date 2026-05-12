@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--14c18f24-404f-40b7-978c-97917b428709",
+    "id": "bundle--82cc2a4c-6045-42ab-b12f-b06dbd6e64cc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f85688c1-2f43-460f-bf74-a1b80bed7008",
             "created": "2024-12-07T16:16:30.071Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky ShrinkLocker 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:58:46.116Z",
+            "modified": "2026-04-29T14:23:06.262Z",
             "description": "[ShrinkLocker](https://attack.mitre.org/software/S1178) uses HTTP POST requests to communicate victim information back to the threat actor.(Citation: Kaspersky ShrinkLocker 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--3fc44c12-b16e-4de1-8869-cf0eb4446070",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

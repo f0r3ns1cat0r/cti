@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2c27ffb6-b261-48d1-903b-2c91825dad62",
+    "id": "bundle--3dfaa827-5ad0-4095-9ef7-213059467901",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T12:11:38.010Z",
+            "modified": "2026-04-29T14:23:06.244Z",
             "description": "[WIRTE](https://attack.mitre.org/groups/G0090) has XOR encrypted command line strings to conceal malware execution chains.(Citation: Check Point Wirte NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f8cb7b36-62ef-4488-8a6d-a7033e3271c1",

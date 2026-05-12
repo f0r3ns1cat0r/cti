@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--24248f4f-e3c1-4f51-a0a9-4d43ae17c2fa",
+    "id": "bundle--b3808894-66f1-48d2-a05a-0815279f9cc4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--79c960d7-edf2-4005-8c0a-31acd830ca8a",
             "created": "2019-05-02T14:56:18.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cofense RevengeRAT Feb 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:25:40.832Z",
+            "modified": "2026-04-29T14:23:06.092Z",
             "description": "[Revenge RAT](https://attack.mitre.org/software/S0379) used blogpost.com as its primary command and control server during a campaign.(Citation: Cofense RevengeRAT Feb 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--bdb27a1d-1844-42f1-a0c0-826027ae0326",
             "target_ref": "attack-pattern--be055942-6e63-49d7-9fa1-9cb7d8a8f3f4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

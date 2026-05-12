@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8f398c33-2500-4d87-a5f8-864f1ef3a8a9",
+    "id": "bundle--ab7f5fc5-c08a-49cc-8af0-34bec72912bb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--47736f23-469c-40a6-b287-8a6a39eca799",
             "created": "2025-05-30T19:42:27.202Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Cloud Mandiant UNC3886 2024",
@@ -33,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-20T19:54:00.768Z",
+            "modified": "2026-04-29T14:23:06.023Z",
             "description": "[UNC3886](https://attack.mitre.org/groups/G1048) used `vmtoolsd.exe` to run commands on guest virtual machines from a compromised ESXi host.(Citation: Google Cloud Threat Intelligence ESXi VIBs 2022)(Citation: Google Cloud Threat Intelligence VMWare ESXi Zero-Day 2023)(Citation: Google Cloud Mandiant UNC3886 2024)(Citation: Mandiant Fortinet Zero Day)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--461b8e25-8f4a-4ea2-a4a8-e39df7ce6630",

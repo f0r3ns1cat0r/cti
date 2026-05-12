@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a13af352-bed1-43eb-a2b4-ad5bb724698e",
+    "id": "bundle--52ae2d33-34b7-4600-8078-08c1d02a72af",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--644b6c21-90f0-43b7-8da4-7f6f24ddabb6",
             "created": "2017-05-31T21:33:27.038Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Bitdefender APT28 Dec 2015",
@@ -38,14 +39,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:51:12.006Z",
+            "modified": "2026-04-29T14:23:06.061Z",
             "description": "[APT28](https://attack.mitre.org/groups/G0007) has downloaded additional files, including by using a first-stage downloader to contact the C2 server to obtain the second-stage implant.(Citation: Bitdefender APT28 Dec 2015)(Citation: Unit 42 Playbook Dec 2017)(Citation: Accenture SNAKEMACKEREL Nov 2018)(Citation: TrendMicro Pawn Storm Dec 2020)(Citation: Cybersecurity Advisory GRU Brute Force Campaign July 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

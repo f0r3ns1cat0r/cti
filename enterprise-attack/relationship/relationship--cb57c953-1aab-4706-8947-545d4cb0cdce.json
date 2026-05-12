@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3149afcc-d7e9-40ed-8422-ef4ec1a6c719",
+    "id": "bundle--ed8d4e7c-ebbf-4e95-85bd-4e2deb575202",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cb57c953-1aab-4706-8947-545d4cb0cdce",
             "created": "2020-02-12T15:27:00.955Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "NSA Spotting",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T21:41:45.290Z",
+            "modified": "2026-04-29T14:23:06.203Z",
             "description": "If the service is necessary, lock down critical enclaves with separate WinRM infrastructure and follow WinRM best practices on use of host firewalls to restrict WinRM access to allow communication only to/from specific devices.(Citation: NSA Spotting)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--86598de0-b347-4928-9eb0-0acbfc21908c",

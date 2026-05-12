@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7310f9ce-9263-4598-85d8-69419cc511b0",
+    "id": "bundle--cdb11ff0-242a-4504-b79c-ca30eab44d95",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f315cbb6-e49c-4820-99cb-262d36acf17f",
             "created": "2019-01-30T18:58:03.992Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit42 Cannon Nov 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:17:09.012Z",
+            "modified": "2026-04-29T14:23:06.255Z",
             "description": "[Cannon](https://attack.mitre.org/software/S0351) can download a payload for execution.(Citation: Unit42 Cannon Nov 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--d20b397a-ea47-48a9-b503-2e2a3551e11d",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7776d350-48a9-444c-b28d-8468ab749244",
+    "id": "bundle--a5590a12-28ec-42d6-955b-5e516d5d32e0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6b2d240a-66f6-484c-a6f6-04661860ae0e",
             "created": "2025-10-19T19:46:02.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Storm-501 Sabbath Ransomware Embargo September 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-20T16:57:04.337Z",
+            "modified": "2026-04-29T14:23:06.071Z",
             "description": "[Storm-0501](https://attack.mitre.org/groups/G1053) has discovered running processes through `tasklist.exe`.(Citation: Microsoft Storm-501 Sabbath Ransomware Embargo September 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7b404cd0-3ae9-41d4-90c0-023793d35d97",

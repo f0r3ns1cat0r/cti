@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ae46b2f6-a759-4965-9ce3-a7cc1150b1c2",
+    "id": "bundle--fcb30197-3f72-49fb-83c3-aa2c159fb868",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--316bb062-76c2-4894-9f4e-57fa0938e6a4",
             "created": "2021-08-04T13:59:14.960Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MSTIC Nobelium Toolset May 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:41:45.048Z",
+            "modified": "2026-04-29T14:23:05.981Z",
             "description": "(Citation: MSTIC Nobelium Toolset May 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
             "target_ref": "malware--2f8229dc-da94-41c6-89ba-b5b6c32f6b7d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

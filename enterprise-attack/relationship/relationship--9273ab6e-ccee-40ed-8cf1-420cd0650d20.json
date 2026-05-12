@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--360ca498-c4a2-4c69-a352-f4b938b271ac",
+    "id": "bundle--3d3377e9-1924-4464-bf1d-e742ba2e5815",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9273ab6e-ccee-40ed-8cf1-420cd0650d20",
             "created": "2025-02-06T18:46:33.470Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Joint Cybersecurity Advisory LockBit 3.0 MAR 2023",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T23:34:59.067Z",
+            "modified": "2026-04-29T14:23:06.125Z",
             "description": "[LockBit 3.0](https://attack.mitre.org/software/S1202) can enumerate system hostname and domain.(Citation: Joint Cybersecurity Advisory LockBit 3.0 MAR 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--71fe9df1-1c6f-430c-ab9b-ff3c11074e52",

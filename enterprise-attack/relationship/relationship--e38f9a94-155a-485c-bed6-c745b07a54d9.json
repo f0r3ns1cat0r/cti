@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--58c7e56a-b1a5-45c5-8671-59c084faed62",
+    "id": "bundle--b4100e11-508e-4242-b962-1c94c84b8ac2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e38f9a94-155a-485c-bed6-c745b07a54d9",
             "created": "2024-06-10T19:10:20.609Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lumen KVBotnet 2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:53:22.901Z",
+            "modified": "2026-04-29T14:23:06.235Z",
             "description": "[KV Botnet Activity](https://attack.mitre.org/campaigns/C0035) includes use of native system tools, such as <code>uname</code>, to obtain information about victim device architecture, as well as gathering other system information such as the victim's hosts file and CPU utilization.(Citation: Lumen KVBotnet 2023)",
             "relationship_type": "uses",
             "source_ref": "campaign--0c259854-4044-4f6c-ac49-118d484b3e3b",
             "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

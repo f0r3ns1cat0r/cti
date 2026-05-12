@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7562dae3-3d50-4e5a-bc5f-53bd5f00fcdd",
+    "id": "bundle--4022cdc8-5e92-46b1-8402-263f0e7b4d21",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--73321011-c231-402e-a6bb-b9fd6cf6b658",
             "created": "2019-04-19T13:58:34.860Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit42 Sofacy Dec 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:54:03.866Z",
+            "modified": "2026-04-29T14:23:06.083Z",
             "description": "[APT28](https://attack.mitre.org/groups/G0007) used weaponized Microsoft Word documents abusing the remote template function to retrieve a malicious macro. (Citation: Unit42 Sofacy Dec 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",
             "target_ref": "attack-pattern--dc31fe1e-d722-49da-8f5f-92c7b5aff534",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

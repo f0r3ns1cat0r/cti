@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--096fe0e8-4c02-4909-9a9e-226c5bcf0d03",
+    "id": "bundle--81fba5ad-5fe9-4df4-adf5-2bc9640d404a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--54fad432-5890-4a82-b1c3-83c54ad773ff",
             "created": "2024-05-29T20:09:12.526Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SentinelOne Gootloader June 2021",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:15:47.187Z",
+            "modified": "2026-04-29T14:23:06.041Z",
             "description": "[Gootloader](https://attack.mitre.org/software/S1138) can use an encoded PowerShell stager to write to the Registry for persistence.(Citation: Sophos Gootloader)(Citation: SentinelOne Gootloader June 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--396c18b9-26fb-4435-8589-fb856502e4c4",
             "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

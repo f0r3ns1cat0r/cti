@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e97764b6-5c20-45d4-870a-4a0bf9030f16",
+    "id": "bundle--28aff7dd-2d83-40ab-b2f6-70660aa1036f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-20T14:35:37.951Z",
+            "modified": "2026-04-29T14:23:06.094Z",
             "description": "The [AshTag](https://attack.mitre.org/software/S9031) stager compoment can decode and decrypt Base64 and XOR-encrypted payloads.(Citation: Palo Alto Ashen Lepus DEC 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--bb6f2a5c-dbc9-45b0-bd3f-a0b7849959c2",

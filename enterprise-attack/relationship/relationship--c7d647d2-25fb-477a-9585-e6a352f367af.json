@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--25925f12-1cc3-4a54-8bb9-e93442206044",
+    "id": "bundle--17af5ce8-a0a9-4403-8a90-389da53e97ce",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:09:45.544Z",
+            "modified": "2026-04-29T14:23:06.198Z",
             "description": "[Pupy](https://attack.mitre.org/software/S0192) has a module to clear event logs with PowerShell.(Citation: GitHub Pupy)",
             "relationship_type": "uses",
             "source_ref": "tool--cb69b20d-56d0-41ab-8440-4a4b251614d4",

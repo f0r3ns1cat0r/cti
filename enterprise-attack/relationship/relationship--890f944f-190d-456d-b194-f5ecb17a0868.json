@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1372f0b3-6ee7-40e7-9112-23393df14aab",
+    "id": "bundle--aec4aded-fcba-40d8-9949-f41166c54538",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--890f944f-190d-456d-b194-f5ecb17a0868",
             "created": "2019-06-24T17:20:24.258Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky Adwind Feb 2016",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:58:12.042Z",
+            "modified": "2026-04-29T14:23:06.112Z",
             "description": "[jRAT](https://attack.mitre.org/software/S0283) can capture passwords from common web browsers such as Internet Explorer, Google Chrome, and Firefox.(Citation: Kaspersky Adwind Feb 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--efece7e8-e40b-49c2-9f84-c55c5c93d05c",
             "target_ref": "attack-pattern--58a3e6aa-4453-4cc8-a51f-4befe80b31a8",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

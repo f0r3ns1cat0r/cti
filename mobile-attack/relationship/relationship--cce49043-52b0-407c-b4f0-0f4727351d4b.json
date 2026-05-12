@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3ec605a4-87e6-421b-a187-a30f9d065559",
+    "id": "bundle--b8d952c6-8f27-463d-9eb4-7c8001e709ed",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cce49043-52b0-407c-b4f0-0f4727351d4b",
             "created": "2024-01-26T17:36:52.812Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "checkpoint_flixonline_0421",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:51:38.687Z",
+            "modified": "2026-04-29T14:23:06.205Z",
             "description": "[FlixOnline](https://attack.mitre.org/software/S1103) requests overlay permissions, which can allow it to create fake Login screens for other apps.(Citation: checkpoint_flixonline_0421)",
             "relationship_type": "uses",
             "source_ref": "malware--0ec9593f-3221-49b1-b597-37f307c19f13",
             "target_ref": "attack-pattern--4c58b7c6-a839-4789-bda9-9de33e4d4512",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

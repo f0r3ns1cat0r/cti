@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--147436fe-ce49-47e1-ab45-ec539f7bae5e",
+    "id": "bundle--8a41d3c9-91df-4875-b776-47ea10a7b764",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-19T15:49:43.791Z",
+            "modified": "2026-04-29T14:23:06.248Z",
             "description": "[UPPERCUT](https://attack.mitre.org/software/S0275) can use a sleep function to delay execution.(Citation: Trend Micro Earth Kasha Updates APR 2025)(Citation: Trend Micro Earth Kasha Anel NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--fb4e3792-e915-4fdd-a9cd-92dfa2ace7aa",

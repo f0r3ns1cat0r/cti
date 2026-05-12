@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ce8381b9-a42b-4c06-b81c-71d3235f8842",
+    "id": "bundle--eea8d9db-c7d7-4076-873d-45b8b64c963c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cdc0bf25-e132-4214-b3e0-c784da6cfbeb",
             "created": "2019-01-29T18:23:46.181Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit 42 Nokki Oct 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:10:47.177Z",
+            "modified": "2026-04-29T14:23:06.206Z",
             "description": "[DOGCALL](https://attack.mitre.org/software/S0213) can capture microphone data from the victim's machine.(Citation: Unit 42 Nokki Oct 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--0852567d-7958-4f4b-8947-4f840ec8d57d",
             "target_ref": "attack-pattern--1035cdf2-3e5f-446f-a7a7-e8f6d7925967",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

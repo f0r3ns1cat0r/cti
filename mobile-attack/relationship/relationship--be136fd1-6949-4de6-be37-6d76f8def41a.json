@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ef3605a8-ea5a-4392-a643-e0b95406c2c4",
+    "id": "bundle--3b058ca1-9e48-462d-a6dd-291853a0ff0d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--be136fd1-6949-4de6-be37-6d76f8def41a",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "PaloAlto-SpyDealer",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:30:25.202Z",
+            "modified": "2026-04-29T14:23:06.185Z",
             "description": "[SpyDealer](https://attack.mitre.org/software/S0324) harvests location data from victims.(Citation: PaloAlto-SpyDealer)",
             "relationship_type": "uses",
             "source_ref": "malware--86fc6f0c-86d9-473e-89f3-f50f3cb9319b",
             "target_ref": "attack-pattern--99e6295e-741b-4857-b6e5-64989eb039b4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

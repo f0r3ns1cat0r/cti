@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c50343cc-7b95-47e5-858e-d9d29d17b288",
+    "id": "bundle--1cfc9403-e894-44a9-9da0-ec527ea4e0a5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9c3459f4-8c8e-4650-bd21-ad506a1a3ee9",
             "created": "2024-08-26T18:13:28.315Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Moonstone Sleet 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:34:54.473Z",
+            "modified": "2026-04-29T14:23:06.138Z",
             "description": "[Moonstone Sleet](https://attack.mitre.org/groups/G1036) used registry run keys for process execution during initial victim infection.(Citation: Microsoft Moonstone Sleet 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--e6db1e55-b199-4b6b-8633-989345ee45e0",
             "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

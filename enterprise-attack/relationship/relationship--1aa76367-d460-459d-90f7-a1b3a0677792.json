@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8aad5acb-c12f-4baf-bc27-bc49dced48d4",
+    "id": "bundle--549cfde3-c2df-4286-87a3-def9a06440ab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--1aa76367-d460-459d-90f7-a1b3a0677792",
             "created": "2025-10-22T18:46:46.729Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Salesforce JUN 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T18:46:46.729Z",
+            "modified": "2026-04-29T14:23:05.941Z",
             "description": "During [Salesforce Data Exfiltration](https://attack.mitre.org/campaigns/C0059), threat actors accessed and exfiltrated sensitive information from compromised Salesforce instances.(Citation: Google Salesforce JUN 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--9cea8bec-07c5-422b-84b8-99d3128ce570",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--af56c0de-ac37-4f38-a326-9d89edec7205",
+    "id": "bundle--8112e945-a917-41aa-a1ae-245393a1dfd5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cf0b7d7d-0770-4b97-86ff-cbb5ec19bb83",
             "created": "2023-03-26T15:45:52.810Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Volexity SolarWinds",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:48:14.971Z",
+            "modified": "2026-04-29T14:23:06.208Z",
             "description": "During the [SolarWinds Compromise](https://attack.mitre.org/campaigns/C0024), [APT29](https://attack.mitre.org/groups/G0016) used the `Get-AcceptedDomain` PowerShell cmdlet to enumerate accepted domains through an Exchange Management Shell.(Citation: Volexity SolarWinds) They also used [AdFind](https://attack.mitre.org/software/S0552) to enumerate domains and to discover trust between federated domains.(Citation: CrowdStrike StellarParticle January 2022)(Citation: Microsoft Deep Dive Solorigate January 2021)",
             "relationship_type": "uses",
             "source_ref": "campaign--808d6b30-df4e-4341-8248-724da4bac650",
             "target_ref": "attack-pattern--767dbf9e-df3f-45cb-8998-4903ab5f80c0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

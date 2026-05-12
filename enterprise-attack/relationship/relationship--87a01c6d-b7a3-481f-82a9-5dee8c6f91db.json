@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--875069ed-590c-44b0-86bb-2b5bcb0f91dd",
+    "id": "bundle--a7fd2f8a-24ff-4fa2-a058-951b5b46479e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--87a01c6d-b7a3-481f-82a9-5dee8c6f91db",
             "created": "2022-03-25T18:33:51.705Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Qualys Hermetic Wiper March 2022",
@@ -33,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T23:23:32.432Z",
+            "modified": "2026-04-29T14:23:06.110Z",
             "description": "[HermeticWiper](https://attack.mitre.org/software/S0697) can determine the OS version and bitness on a targeted host.(Citation: SentinelOne Hermetic Wiper February 2022)(Citation: Crowdstrike DriveSlayer February 2022)(Citation: ESET Hermetic Wizard March 2022)(Citation: Qualys Hermetic Wiper March 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--a0ab8a96-40c9-4483-8a54-3fafa6d6007a",

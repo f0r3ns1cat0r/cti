@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--deb5134c-864f-4147-8e1f-4f4382dbc588",
+    "id": "bundle--75868cad-5ca2-4f90-81c0-892a4f7a3ff8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--dc2c709d-89cf-46b9-98d3-385e33c23e34",
             "created": "2026-02-06T21:24:48.107Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ThreatFabric_Crocodilus_June2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-02-06T21:24:48.107Z",
+            "modified": "2026-04-29T14:23:06.226Z",
             "description": "[Crocodilus](https://attack.mitre.org/software/S9004) dropper and payload have been packed to hinder detection.(Citation: ThreatFabric_Crocodilus_June2025)",
             "relationship_type": "uses",
             "source_ref": "malware--eed7b988-0279-4c4f-bfa9-d81f5444a04b",

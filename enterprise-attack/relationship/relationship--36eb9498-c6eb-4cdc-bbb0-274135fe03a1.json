@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--01452ee1-532e-44fc-97c3-24d45e7668e0",
+    "id": "bundle--044f8b52-3a7b-4f42-a5bf-698ecffc9745",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T02:58:32.060Z",
+            "modified": "2026-04-29T14:23:05.995Z",
             "description": "[PHASEJAM](https://attack.mitre.org/software/S9014) has renamed the file `/home/bin/remotedebug` to `remotedebug.bak`, allowing the threats actors to write a malicious `/home/bin/remotedebug` shell script.(Citation: Google UNC5221 Ivanti January 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--ca3f5123-b853-45ef-83cb-1d1bca22e03f",

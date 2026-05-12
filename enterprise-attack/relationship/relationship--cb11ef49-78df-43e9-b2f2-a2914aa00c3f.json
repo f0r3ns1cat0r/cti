@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3ac3ff37-07ca-4547-ac07-6b5993e55e4f",
+    "id": "bundle--622baf9b-8315-4054-8381-2bf5fd1c20de",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T09:41:04.676Z",
+            "modified": "2026-04-29T14:23:06.203Z",
             "description": "[PureCrypter](https://attack.mitre.org/software/S9019) has used a .NET downloader named 63342221.BAT and has used .jpg, .png, and .log as false extensions for malicious files.(Citation: Zscaler PureCrypter JUN 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--6f22487c-dbbf-4a5b-85ca-a8c85e8f2f80",

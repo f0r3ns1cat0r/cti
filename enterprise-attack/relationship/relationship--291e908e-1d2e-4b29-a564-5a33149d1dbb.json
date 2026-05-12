@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--77e050d3-15f5-41b5-9014-fc008a279bc0",
+    "id": "bundle--d1ee9546-8e81-4bc1-8559-6ec9ee56265a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--291e908e-1d2e-4b29-a564-5a33149d1dbb",
             "created": "2019-01-29T19:55:48.173Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky Turla",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:40:18.918Z",
+            "modified": "2026-04-29T14:23:05.961Z",
             "description": "[Epic](https://attack.mitre.org/software/S0091) recursively searches for all .doc files on the system and collects a directory listing of the Desktop, %TEMP%, and %WINDOWS%\\Temp directories.(Citation: Kaspersky Turla)(Citation: Kaspersky Turla Aug 2014)",
             "relationship_type": "uses",
             "source_ref": "malware--6b62e336-176f-417b-856a-8552dd8c44e1",
             "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

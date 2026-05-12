@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--202d4447-64d0-4c3d-8242-6bdb5b9cde24",
+    "id": "bundle--6a33ccd3-ebb1-401e-b1ae-137534503b94",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--07ccc973-19fb-4926-953a-9ec205372683",
             "created": "2025-07-07T21:49:15.656Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "cyble_chameleon_0423",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-08T20:23:10.053Z",
+            "modified": "2026-04-29T14:23:05.914Z",
             "description": "After accessibility permissions are granted, [Chameleon](https://attack.mitre.org/software/S1083) has used the Accessibility Service to perform a variety of actions, such as switching from biometric authentication to PIN authentication, automatically granting additional permissions, preventing uninstallation, disabling Play Protect.(Citation: cyble_chameleon_0423)(Citation: ThreatFabric_Chameleon_Dec2023) ",
             "relationship_type": "uses",
             "source_ref": "malware--2cf00c5a-857d-4cb6-8f03-82f15bee0f6f",

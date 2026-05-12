@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--933b0f1b-414a-4712-a05e-2417164f17f1",
+    "id": "bundle--a1785877-e53b-43f2-b86e-4bf63ceb7b39",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T15:07:48.766Z",
+            "modified": "2026-04-29T14:23:05.993Z",
             "description": "[QuasarRAT](https://attack.mitre.org/software/S0262) can obtain passwords from common web browsers.(Citation: GitHub QuasarRAT)(Citation: Volexity Patchwork June 2018)(Citation: Kaspersky BlindEagle AUG 2024)\n",
             "relationship_type": "uses",
             "source_ref": "tool--da04ac30-27da-4959-a67d-450ce47d9470",

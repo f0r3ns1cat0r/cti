@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aca03fe2-840c-4163-9e27-55fdea3beb4b",
+    "id": "bundle--395dd2b5-376f-4f8f-ac7b-5a5e8b9526db",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T16:16:28.960Z",
+            "modified": "2026-04-29T14:23:06.131Z",
             "description": "[LODEINFO](https://attack.mitre.org/software/S9020) can use Windows APIs such as `VirtualAllocEx()`, `WriteProcessMemory()`, `CreateRemoteThread()`, `NtAllocateVirtualMemory()`, `NtWriteVirtualMemory()`, and `RtlCreateUserThread()` to enable memory injection of shellcode.(Citation: Kaspersky LODEINFO Part II OCT 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--7908f855-5b5b-4d6a-acbc-af6b45ec27ad",

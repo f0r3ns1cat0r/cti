@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d995a464-03a8-4aae-8a30-53e780b07356",
+    "id": "bundle--f2e2fe3d-641d-4f4b-b4ad-b8f1269105c0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--829794bf-ad71-4f31-8e78-df712d751419",
             "created": "2023-03-20T16:49:21.584Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Lunghi Iron Tiger Linux",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:28:01.614Z",
+            "modified": "2026-04-29T14:23:06.104Z",
             "description": "[SysUpdate](https://attack.mitre.org/software/S0663) has named their unit configuration file similarly to other unit files residing in the same directory, `/usr/lib/systemd/system/`, to appear benign.(Citation: Lunghi Iron Tiger Linux)",
             "relationship_type": "uses",
             "source_ref": "malware--c009560a-f097-45a3-8f9f-78ec1440a783",
             "target_ref": "attack-pattern--7bdca9d5-d500-4d7d-8c52-5fd47baf4c0c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

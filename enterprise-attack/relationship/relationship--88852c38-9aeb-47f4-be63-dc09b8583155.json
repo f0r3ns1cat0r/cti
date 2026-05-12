@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--787295b6-da09-4b02-bed7-95683bb8177c",
+    "id": "bundle--c3c8157b-2007-4080-8447-6082107d1062",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--88852c38-9aeb-47f4-be63-dc09b8583155",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Cobalt Group July 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:58:06.649Z",
+            "modified": "2026-04-29T14:23:06.111Z",
             "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) deleted the DLL dropper from the victim\u2019s machine to cover their tracks.(Citation: Talos Cobalt Group July 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
             "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

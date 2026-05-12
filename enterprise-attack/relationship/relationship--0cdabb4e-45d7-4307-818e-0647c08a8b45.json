@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--634fa1ee-eed8-408a-a935-7b7d8256b794",
+    "id": "bundle--a74a962c-e074-4a0e-8e0a-fb9a741819a1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--0cdabb4e-45d7-4307-818e-0647c08a8b45",
             "created": "2025-10-20T11:40:33.121Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET Embargo Ransomware October 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-20T20:15:02.715Z",
+            "modified": "2026-04-29T14:23:05.921Z",
             "description": "[Embargo](https://attack.mitre.org/software/S1247) has leveraged MS4Killer to deliver a vulnerable driver to the victim device, sometimes referred to as Bring Your Own Vulnerable Driver (BYOVD).(Citation: ESET Embargo Ransomware October 2024) [Embargo](https://attack.mitre.org/software/S1247) has utilized the vulnerable driver probmon.sys version 3.0.0.4 which had a revoked certificated from \u201cITM System Co.,LTD.\u201d(Citation: ESET Embargo Ransomware October 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--82adb90e-43b8-4bce-9efe-afeba65457b2",

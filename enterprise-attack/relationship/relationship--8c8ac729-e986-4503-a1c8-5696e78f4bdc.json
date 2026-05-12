@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2b553a36-b442-4a29-a525-86788d8327a9",
+    "id": "bundle--437c2ab1-e3a1-47c7-a0dd-7998052be61d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8c8ac729-e986-4503-a1c8-5696e78f4bdc",
             "created": "2025-10-16T16:32:11.941Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft SharePoint Exploit JUL 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-16T16:32:11.941Z",
+            "modified": "2026-04-29T14:23:06.117Z",
             "description": "During [SharePoint ToolShell Exploitation](https://attack.mitre.org/campaigns/C0058), threat actors utilized [ngrok](https://attack.mitre.org/software/S0508) tunnels to deliver PowerShell payloads.(Citation: Microsoft SharePoint Exploit JUL 2025)\n\n",
             "relationship_type": "uses",
             "source_ref": "campaign--1a0576df-df21-4775-843e-844d8a58a94b",

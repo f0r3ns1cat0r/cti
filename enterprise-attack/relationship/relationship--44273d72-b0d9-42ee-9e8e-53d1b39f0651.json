@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e369b087-0657-45ed-8ddc-14a41ffb9fd6",
+    "id": "bundle--f312534a-993d-4edc-b5fd-4c7308bcb168",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--44273d72-b0d9-42ee-9e8e-53d1b39f0651",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Securelist APT10 March 2021",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:11:08.975Z",
+            "modified": "2026-04-29T14:23:06.018Z",
             "description": "[menuPass](https://attack.mitre.org/groups/G0045) has used valid accounts including shared between Managed Service Providers and clients to move between the two environments.(Citation: PWC Cloud Hopper April 2017)(Citation: Symantec Cicada November 2020)(Citation: District Court of NY APT10 Indictment December 2018)(Citation: Securelist APT10 March 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
             "target_ref": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

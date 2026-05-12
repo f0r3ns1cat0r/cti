@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eba37b01-1103-4a29-b476-2016ed886cc8",
+    "id": "bundle--ac24288a-bb87-4d11-ba99-aa5c2941c99d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--75f7d0e0-b1e9-4289-8895-d8a262930523",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Savill 1999",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:24:36.577Z",
+            "modified": "2026-04-29T14:23:06.087Z",
             "description": "Commands such as <code>net group</code> and <code>net localgroup</code> can be used in [Net](https://attack.mitre.org/software/S0039) to gather information about and manipulate groups.(Citation: Savill 1999)",
             "relationship_type": "uses",
             "source_ref": "tool--03342581-f790-4f03-ba41-e82e67392e23",
             "target_ref": "attack-pattern--a01bf75f-00b2-4568-a58f-565ff9bf202b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

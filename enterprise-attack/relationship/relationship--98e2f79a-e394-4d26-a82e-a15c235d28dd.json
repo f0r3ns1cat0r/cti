@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--af39ac12-a8f2-4bdf-9654-660617baeca0",
+    "id": "bundle--1eec01f1-42a9-4012-8fdf-99509de7a178",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--98e2f79a-e394-4d26-a82e-a15c235d28dd",
             "created": "2025-10-15T19:52:33.475Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Unit 42 Medusa Group Medusa Ransomware January 2024",
@@ -33,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T16:56:26.849Z",
+            "modified": "2026-04-29T14:23:06.134Z",
             "description": "[Medusa Group](https://attack.mitre.org/groups/G1051) has leveraged PowerShell for execution and defense evasion.(Citation: Check Point Medusa Ransomware April 2025)(Citation: CISA Medusa Group Medusa Ransomware March 2025)(Citation: Intel471 Medusa Ransomware May 2025) [Medusa Group](https://attack.mitre.org/groups/G1051) has also utilized PowerShell to execute a bitsadmin transfer from file hosting site.(Citation: Palo Alto Unit 42 Medusa Group Medusa Ransomware January 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--918da025-04bd-48af-b6c4-f3e4d1b915eb",

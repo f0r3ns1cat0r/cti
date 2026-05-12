@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bfc5df22-2184-4470-85e9-335f46469f26",
+    "id": "bundle--dbe6e194-28ed-4754-a86c-5e3f09566c93",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--85a92b0f-f8c3-41a9-a1b3-cfbf8b442b39",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Bitdefender APT28 Dec 2015",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:57:30.193Z",
+            "modified": "2026-04-29T14:23:06.108Z",
             "description": "A variant of [ADVSTORESHELL](https://attack.mitre.org/software/S0045) encrypts some C2 with 3DES.(Citation: Bitdefender APT28 Dec 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--fb575479-14ef-41e9-bfab-0b7cf10bec73",
             "target_ref": "attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

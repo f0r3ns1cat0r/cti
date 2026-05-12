@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--21f121fe-9724-4be6-b197-89f2e3eb4641",
+    "id": "bundle--b4650ddd-f515-4c4f-9439-9c4ba0184677",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d6a3bb6f-12e1-4b2b-a614-78548309e9f5",
             "created": "2026-04-09T17:23:30.907Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Gen Digital Kimsuky HTTPTroy October 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T17:23:30.907Z",
+            "modified": "2026-04-29T14:23:06.219Z",
             "description": "[HTTPTroy](https://attack.mitre.org/software/S9007) can terminate its running process and then remove traces of itself through the `die <COMMAND>` command.(Citation: Gen Digital Kimsuky HTTPTroy October 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--52b52f72-88e6-4847-88d6-da3b9e4a4f71",

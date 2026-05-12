@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f11cf8db-ed9b-4fc9-8731-12eeca76bb5c",
+    "id": "bundle--6751b3e0-6f4d-4c81-bb09-89535a43f449",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d9ce045e-7186-4c65-82a7-1dc58de44032",
             "created": "2025-02-25T17:43:30.578Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Nearest Neighbor Volexity",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:50:57.402Z",
+            "modified": "2026-04-29T14:23:06.223Z",
             "description": "During [APT28 Nearest Neighbor Campaign](https://attack.mitre.org/campaigns/C0051), [APT28](https://attack.mitre.org/groups/G0007) compromised third-party infrastructure in physical proximity to targets of interest for follow-on activities.(Citation: Nearest Neighbor Volexity)  ",
             "relationship_type": "uses",
             "source_ref": "campaign--a010610e-22cb-437e-bfde-b78861bdca7a",
             "target_ref": "attack-pattern--7e3beebd-8bfe-4e7b-a892-e44ab06a75f9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

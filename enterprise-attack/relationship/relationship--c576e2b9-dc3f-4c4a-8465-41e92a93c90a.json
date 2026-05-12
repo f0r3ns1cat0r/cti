@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4efb5361-47ee-4367-899a-891a19276da9",
+    "id": "bundle--40ca3aff-b765-4787-9aef-a624a196d46a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T22:43:45.782Z",
+            "modified": "2026-04-29T14:23:06.195Z",
             "description": "[LazyWiper](https://attack.mitre.org/software/S9039) has overwritten files with pseudorandom 32\u2011byte sequences written at 16\u2011byte intervals making the file unrecoverable.(Citation: CERT Polska)",
             "relationship_type": "uses",
             "source_ref": "malware--e4160979-b9bc-4f58-acbe-1d921ebbc122",

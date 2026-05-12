@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e57e1622-6c31-40c5-aa64-75815f7582b7",
+    "id": "bundle--6d967c90-91fc-4aac-989a-a836eb911833",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--994462e4-b75a-45b5-9b63-43e449bb1b10",
             "created": "2021-12-27T23:25:08.643Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Check Point Warzone Feb 2020",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:34:10.534Z",
+            "modified": "2026-04-29T14:23:06.134Z",
             "description": "(Citation: Check Point Warzone Feb 2020)(Citation: Uptycs Confucius APT Jan 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--6eded342-33e5-4451-b6b2-e1c62863129f",
             "target_ref": "malware--fde19a18-e502-467f-be14-58c71b4e7f4b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

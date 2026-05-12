@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--023397d3-bd3f-415b-b458-3078a2d61aef",
+    "id": "bundle--686ac9d8-76dc-48c0-a1fa-6b1713deaf14",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--14474366-938a-4359-bf24-e2c718adfaf5",
             "created": "2020-06-26T14:55:13.382Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason EventBot",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:27:50.636Z",
+            "modified": "2026-04-29T14:23:05.932Z",
             "description": "[EventBot](https://attack.mitre.org/software/S0478) can download new libraries when instructed to.(Citation: Cybereason EventBot)",
             "relationship_type": "uses",
             "source_ref": "malware--aecc0097-c9f8-4786-9b39-e891ff173f54",
             "target_ref": "attack-pattern--6c49d50f-494d-4150-b774-a655022d20a6",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e8b8793b-544a-4f85-a7a2-ab2e963a8101",
+    "id": "bundle--fc32648e-eaa1-4f66-a7bc-ae59561f9864",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9a3ce7a9-f3b9-4387-bd7e-a1cf1b8c8f67",
             "created": "2025-01-08T21:51:53.165Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Palo Alto Howling Scorpius DEC 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:34:22.986Z",
+            "modified": "2026-04-29T14:23:06.135Z",
             "description": "[Megazord](https://attack.mitre.org/software/S1191) has the ability to print the trace, debug, error, info, and warning logs.(Citation: Palo Alto Howling Scorpius DEC 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--4e762e29-3c56-4a2b-b205-c5890c0856ed",
             "target_ref": "attack-pattern--866d0d6d-02c6-42bd-aa2f-02907fdc0969",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

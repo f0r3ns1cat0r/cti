@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--68440bf9-ab3f-4b50-96e9-275c3ebb66e5",
+    "id": "bundle--dc74c0ae-521a-4860-9043-67a53b389f6c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--905e27bb-8d9b-4185-b5e6-4febc5d17333",
             "created": "2023-01-17T21:53:51.499Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Costa AvosLocker May 2022",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:31:40.150Z",
+            "modified": "2026-04-29T14:23:06.122Z",
             "description": "During [C0018](https://attack.mitre.org/campaigns/C0018), the threat actors used Base64 to encode their PowerShell scripts.(Citation: Cisco Talos Avos Jun 2022)(Citation: Costa AvosLocker May 2022)",
             "relationship_type": "uses",
             "source_ref": "campaign--519ee082-8ab6-439b-988f-a8a3f02c8d30",
             "target_ref": "attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

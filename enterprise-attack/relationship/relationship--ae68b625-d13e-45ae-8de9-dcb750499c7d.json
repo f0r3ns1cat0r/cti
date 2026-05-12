@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f6747769-1c60-41bc-b0f5-a7cf29ca4ca7",
+    "id": "bundle--f14b468d-e330-4b2c-9aa3-601e636413a6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T12:26:24.232Z",
+            "modified": "2026-04-29T14:23:06.162Z",
             "description": "[LAMEHUG](https://attack.mitre.org/software/S9035) can use `cmd.exe` to display a decoy file to spearphishing victims.(Citation: Splunk LAMEHUG SEP 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--c55e0410-842d-4365-a2c8-26c0330f85b8",

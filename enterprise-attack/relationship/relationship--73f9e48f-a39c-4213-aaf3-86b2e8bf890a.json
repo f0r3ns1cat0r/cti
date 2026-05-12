@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--10b246b5-47ee-433b-9ca6-145869ec4ec8",
+    "id": "bundle--487f0c53-b936-4146-9e29-650b9bfc08c4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:19:09.058Z",
+            "modified": "2026-04-29T14:23:06.084Z",
             "description": "[Bundlore](https://attack.mitre.org/software/S0482) can change browser security settings to enable extensions to be installed. [Bundlore](https://attack.mitre.org/software/S0482) uses the <code>pkill cfprefsd</code> command to prevent users from inspecting processes.(Citation: MacKeeper Bundlore Apr 2019)(Citation: 20 macOS Common Tools and Techniques)",
             "relationship_type": "uses",
             "source_ref": "malware--7bef1b56-4870-4e74-b32a-7dd88c390c44",

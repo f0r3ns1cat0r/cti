@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0d7c28c3-e87d-4523-87e9-42f7f5bc62b6",
+    "id": "bundle--27195ff1-becc-4958-90ae-ab09abe5a765",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4b3cfd7c-5e41-4d9e-8879-b126ba66eaf1",
             "created": "2021-10-01T14:42:49.176Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SecureList BusyGasper",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:48:29.262Z",
+            "modified": "2026-04-29T14:23:06.028Z",
             "description": "[BusyGasper](https://attack.mitre.org/software/S0655) can collect every user screen tap and compare the input to a hardcoded list of coordinates to translate the input to a character.(Citation: SecureList BusyGasper)",
             "relationship_type": "uses",
             "source_ref": "malware--e110f94a-e2c5-4f5f-ba78-9c2ab6d2d9e4",
             "target_ref": "attack-pattern--b1c95426-2550-4621-8028-ceebf28b3a47",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--68b18059-1cc6-478c-94a5-e302f732b48b",
+    "id": "bundle--b347aba0-a5f2-4afb-b274-d700b890bb3e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-15T22:51:08.702Z",
+            "modified": "2026-05-12T15:12:00.726Z",
             "name": "Local Accounts",
             "description": "Adversaries may obtain and abuse credentials of a local account as a means of gaining Initial Access, Persistence, Privilege Escalation, or Defense Evasion. Local accounts are those configured by an organization for use by users, remote support, services, or for administration on a single system or service.\n\nLocal Accounts may also be abused to elevate privileges and harvest credentials through [OS Credential Dumping](https://attack.mitre.org/techniques/T1003). Password reuse may allow the abuse of local accounts across a set of machines on a network for the purposes of Privilege Escalation and Lateral Movement. ",
             "kill_chain_phases": [

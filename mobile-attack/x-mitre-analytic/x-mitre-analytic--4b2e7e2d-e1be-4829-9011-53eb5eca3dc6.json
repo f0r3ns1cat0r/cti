@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4108f932-a27b-476f-b5af-d3dd9e2157fc",
+    "id": "bundle--f31b5479-bc8d-42ff-ba4e-49409351c0c2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-29T18:06:40.461Z",
+            "modified": "2026-05-12T16:30:18.377Z",
             "name": "Analytic 1719",
             "description": "From the defender view: an app registers a clipboard listener or calls ClipboardManager getters; the app is (a) foreground, (b) the default IME, or (c) abusing legacy paths. Shortly after each clipboard change, the app reads the primary clip repeatedly, optionally persists content (local file/DB) and/or exfiltrates it. We correlate: listener/clip-access \u2192 privilege/foreground confirmation \u2192 bursty reads \u2192 local write and/or network egress within a tight window.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

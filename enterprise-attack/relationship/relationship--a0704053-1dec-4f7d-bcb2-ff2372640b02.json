@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c73aefde-bd76-43f0-92d7-50226356f146",
+    "id": "bundle--2388a840-4a96-45de-86c7-f0b6f167f70f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a0704053-1dec-4f7d-bcb2-ff2372640b02",
             "created": "2025-09-17T14:43:57.587Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET RedLine Stealer November 2024",
@@ -33,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-17T14:47:09.976Z",
+            "modified": "2026-04-29T14:23:06.144Z",
             "description": "[RedLine Stealer](https://attack.mitre.org/software/S1240) was designed to steal sensitive information from web browsers, including credit card details, saved credentials, and autocomplete data.(Citation: ESET RedLine Stealer November 2024) [RedLine Stealer](https://attack.mitre.org/software/S1240) can also gather credentials from several browsers.(Citation: Kroll RedLine Stealer August 2024)(Citation: Proofpoint RedLine Stealer March 2020)(Citation: Splunk RedLine Stealer June 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--8c8e8b01-b4b1-479b-a7a9-78c40a12b916",

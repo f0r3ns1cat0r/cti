@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--61a7978f-33b9-46e7-a7dd-8c463d166a1c",
+    "id": "bundle--1e04b000-e876-4b7d-b45e-17e23aa7ec38",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d0b79bdf-75ba-4133-bab0-2fe21f3ded43",
             "created": "2025-07-21T20:54:59.764Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit42 Bookworm Nov2015",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-25T13:34:09.270Z",
+            "modified": "2026-04-29T14:23:06.211Z",
             "description": "[BOOKWORM](https://attack.mitre.org/software/S1226) has been delivered using self-extracting RAR archives.(Citation: Unit42 Bookworm Nov2015)",
             "relationship_type": "uses",
             "source_ref": "malware--2ceddaf9-b16a-4f8b-b252-bcccccd3d79f",

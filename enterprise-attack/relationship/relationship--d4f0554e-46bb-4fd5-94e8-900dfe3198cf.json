@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--484cc7fa-a1eb-457a-bc7d-4fb574f3e9e2",
+    "id": "bundle--2f261394-94f2-4a8b-99ff-450663918294",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d4f0554e-46bb-4fd5-94e8-900dfe3198cf",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "US-CERT KEYMARBLE Aug 2018",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:12:02.293Z",
+            "modified": "2026-04-29T14:23:06.216Z",
             "description": "[KEYMARBLE](https://attack.mitre.org/software/S0271) has a command to create Registry entries for storing data under <code>HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\WABE\\DataPath</code>.(Citation: US-CERT KEYMARBLE Aug 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--11e36d5b-6a92-4bf9-8eb7-85eb24f59e22",
             "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

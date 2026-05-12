@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--36339260-1b88-4f66-9799-d83328d286dd",
+    "id": "bundle--6f15db4b-c183-43f7-b4f1-195b6f65e6d7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T13:17:52.056Z",
+            "modified": "2026-04-29T14:23:05.958Z",
             "description": "[MirrorFace](https://attack.mitre.org/groups/G1054) has used [Nltest](https://attack.mitre.org/software/S0359) for discovery.(Citation: Trend Micro Earth Kasha NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--8cf6e33b-b6ef-4a1f-a77c-0ecdde93161f",

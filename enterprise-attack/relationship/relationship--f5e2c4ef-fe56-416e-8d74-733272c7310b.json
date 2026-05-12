@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cf15266d-2084-41a4-97ee-5286a81649f9",
+    "id": "bundle--6c21258e-3467-41cf-8d90-199ca029b7f7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f5e2c4ef-fe56-416e-8d74-733272c7310b",
             "created": "2021-04-16T19:04:13.689Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye SUNBURST Backdoor December 2020",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-20T16:22:04.142Z",
+            "modified": "2026-04-29T14:23:06.259Z",
             "description": "(Citation: FireEye SUNBURST Backdoor December 2020)(Citation: MSTIC NOBELIUM May 2021)(Citation: Secureworks IRON RITUAL Profile)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a64e8254-0907-46e1-8f28-2f0b3234321f",
+    "id": "bundle--d329ce0f-62d3-438f-af05-c9e130c25b01",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--638b21af-b5d5-44dd-9d14-ea3c2be3eb4e",
             "created": "2022-02-02T21:05:49.133Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "BiZone Lizar May 2021",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-01T21:25:49.699Z",
+            "modified": "2026-04-29T14:23:06.060Z",
             "description": "[Lizar](https://attack.mitre.org/software/S0681) can take JPEG screenshots of an infected system.(Citation: Threatpost Lizar May 2021)(Citation: BiZone Lizar May 2021) [Lizar](https://attack.mitre.org/software/S0681) has also used a plugin to take a screenshot of the infected system.(Citation: BiZone Lizar May 2021) ",
             "relationship_type": "uses",
             "source_ref": "malware--f74a5069-015d-4404-83ad-5ca01056c0dc",

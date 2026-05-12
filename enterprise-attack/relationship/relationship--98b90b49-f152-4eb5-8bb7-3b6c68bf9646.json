@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c9aefa09-fb4f-4423-a99b-00d5234d014c",
+    "id": "bundle--4033aaf0-1c7a-42b6-a063-1a3a237b7ce8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--98b90b49-f152-4eb5-8bb7-3b6c68bf9646",
             "created": "2020-11-02T19:33:14.206Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA AA20-301A Kimsuky",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:34:02.038Z",
+            "modified": "2026-04-29T14:23:06.133Z",
             "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has used JScript for logging and downloading additional tools.(Citation: VirusBulletin Kimsuky October 2019)(Citation: CISA AA20-301A Kimsuky) [Kimsuky](https://attack.mitre.org/groups/G0094) has used [TRANSLATEXT](https://attack.mitre.org/software/S1201), which contained four Javascript files for bypassing defenses, collecting sensitive information and screenshots, and exfiltrating data.(Citation: Zscaler Kimsuky TRANSLATEXT) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
             "target_ref": "attack-pattern--0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

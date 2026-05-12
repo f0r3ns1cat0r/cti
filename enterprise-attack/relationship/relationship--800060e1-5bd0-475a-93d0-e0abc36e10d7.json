@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--638d9dbd-57f9-411b-b342-21c7bbc595e4",
+    "id": "bundle--aaf333cd-2470-4e7c-a3a8-93bb5640952e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--800060e1-5bd0-475a-93d0-e0abc36e10d7",
             "created": "2025-10-21T15:28:36.928Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft BlackCat Jun 2022",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:28:36.928Z",
+            "modified": "2026-04-29T14:23:06.101Z",
             "description": "[BlackCat](https://attack.mitre.org/software/S1068) can enumerate local drives.(Citation: Microsoft BlackCat Jun 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--50c44c34-3abb-48ae-9433-a2337de5b0bc",

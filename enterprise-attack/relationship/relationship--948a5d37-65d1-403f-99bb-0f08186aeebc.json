@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e36f25aa-7d1a-4219-9cbf-f27f2dd440bf",
+    "id": "bundle--6e5a1f8f-36d0-41af-86b6-388c3c8ff246",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--948a5d37-65d1-403f-99bb-0f08186aeebc",
             "created": "2019-10-10T22:17:29.523Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ClearSky Wilted Tulip July 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:00:21.954Z",
+            "modified": "2026-04-29T14:23:06.127Z",
             "description": "[CopyKittens](https://attack.mitre.org/groups/G0052) has used <code>-w hidden</code> and <code>-windowstyle hidden</code> to conceal [PowerShell](https://attack.mitre.org/techniques/T1059/001) windows. (Citation: ClearSky Wilted Tulip July 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
             "target_ref": "attack-pattern--cbb66055-0325-4111-aca0-40547b6ad5b0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

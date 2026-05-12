@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--104e833a-e460-4204-8b31-d709862bceb0",
+    "id": "bundle--783c107e-98ad-4b8b-b0d5-5d18b7e0c5ae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--4696a49d-caa1-4746-b106-45faf327270b",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ClearSky Wilted Tulip July 2017",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:11:47.936Z",
+            "modified": "2026-04-29T14:23:06.022Z",
             "description": "[Matryoshka](https://attack.mitre.org/software/S0167) can establish persistence by adding Registry Run keys.(Citation: ClearSky Wilted Tulip July 2017)(Citation: CopyKittens Nov 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--1cc934e4-b01d-4543-a011-b988dfc1a458",
             "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

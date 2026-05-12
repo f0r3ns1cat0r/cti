@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a8d2b456-63bb-4268-988d-6022bc8911d7",
+    "id": "bundle--9fd120c9-a985-45c7-b4b1-67f2aa47be65",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e612293a-23f1-457e-b92c-43c84f57389a",
             "created": "2025-10-19T19:55:31.013Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Mandiant Storm-0501 Sabbath Ransomware November 2021",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-19T19:55:31.013Z",
+            "modified": "2026-04-29T14:23:06.238Z",
             "description": "[Storm-0501](https://attack.mitre.org/groups/G1053) has utilized their own self-signed TLS certificate \u201cMicrosoft IT TLS CA 5\u201d with their infrastructure.(Citation: Google Mandiant Storm-0501 Sabbath Ransomware November 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7b404cd0-3ae9-41d4-90c0-023793d35d97",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9f4cd94f-b4c5-4a5b-b329-76113a68c8e4",
+    "id": "bundle--a8d18906-60ce-4785-9dcd-bf5c51acce48",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--68602080-9968-4a36-9a5e-130343e61566",
             "created": "2019-05-24T17:57:36.686Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "SecureList Silence Nov 2017",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:20:52.083Z",
+            "modified": "2026-04-29T14:23:06.067Z",
             "description": "[Silence](https://attack.mitre.org/groups/G0091) has weaponized CHM files in their phishing campaigns.(Citation: Cyber Forensicator Silence Jan 2019)(Citation: SecureList Silence Nov 2017)(Citation: Group IB Silence Aug 2019)(Citation: Group IB Silence Sept 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
             "target_ref": "attack-pattern--a6937325-9321-4e2e-bb2b-3ed2d40b2a9d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

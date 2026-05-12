@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ca410c95-094f-48af-a833-bfff98658536",
+    "id": "bundle--09c97f8e-1af3-4e97-9a63-a19c5a28fe29",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--558132f8-5d0f-4c77-b3a2-b7e9c060a3f5",
             "created": "2025-06-05T16:21:28.671Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Empire Keychain Decrypt",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-06-05T16:31:32.780Z",
+            "modified": "2026-04-29T14:23:06.042Z",
             "description": "[Empire](https://attack.mitre.org/software/S0363) uses the command `/usr/bin/security dump-keychain -d` to read the keychain credential.(Citation: Empire Keychain Decrypt)",
             "relationship_type": "uses",
             "source_ref": "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",
             "target_ref": "attack-pattern--1eaebf46-e361-4437-bc23-d5d65a3b92e3",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

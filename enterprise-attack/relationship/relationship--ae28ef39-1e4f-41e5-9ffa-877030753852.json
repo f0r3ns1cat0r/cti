@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--88a57af3-ba7b-4e69-857b-bbde553c2055",
+    "id": "bundle--a749cc84-0746-424e-adb6-1a13160a5dee",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ae28ef39-1e4f-41e5-9ffa-877030753852",
             "created": "2021-12-08T19:20:55.378Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Gigamon Berserk Bear October 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:39:36.835Z",
+            "modified": "2026-04-29T14:23:06.162Z",
             "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) has acquired VPS infrastructure for use in malicious campaigns.(Citation: Gigamon Berserk Bear October 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
             "target_ref": "attack-pattern--79da0971-3147-4af6-a4f5-e8cd447cd795",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

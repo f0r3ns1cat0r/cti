@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a7c2f594-50b1-4f9a-b649-61a42981fdaa",
+    "id": "bundle--25ab4bd9-b110-408b-8e80-0e5e1d99a6c4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--891f37e3-9c72-4eed-8fcc-8106dc360a97",
             "created": "2020-07-15T20:10:03.852Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Juniper IcedID June 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:58:12.836Z",
+            "modified": "2026-04-29T14:23:06.112Z",
             "description": "[IcedID](https://attack.mitre.org/software/S0483) has called <code>ZwWriteVirtualMemory</code>, <code>ZwProtectVirtualMemory</code>, <code>ZwQueueApcThread</code>, and <code>NtResumeThread</code> to inject itself into a remote process.(Citation: Juniper IcedID June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--5147ef15-1cae-4707-8ea1-bee8d98b7f1d",
             "target_ref": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

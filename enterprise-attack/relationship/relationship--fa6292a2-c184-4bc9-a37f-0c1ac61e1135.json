@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6510ccc2-357e-4f17-b608-2ecd74c13109",
+    "id": "bundle--5dd9b7a0-7324-48f0-9751-f94f1c20acb7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--fa6292a2-c184-4bc9-a37f-0c1ac61e1135",
             "created": "2017-05-31T21:33:27.045Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kaspersky Turla",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:18:22.241Z",
+            "modified": "2026-04-29T14:23:06.265Z",
             "description": "[Turla](https://attack.mitre.org/groups/G0010) surveys a system upon check-in to discover files in specific locations on the hard disk %TEMP% directory, the current user's desktop, the Program Files directory, and Recent.(Citation: Kaspersky Turla)(Citation: ESET ComRAT May 2020) [Turla](https://attack.mitre.org/groups/G0010) RPC backdoors have also searched for files matching the <code>lPH*.dll</code> pattern.(Citation: ESET Turla PowerShell May 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
             "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

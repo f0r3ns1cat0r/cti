@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b03dddd1-4ef1-40ff-b4c0-17736590070a",
+    "id": "bundle--84157017-7000-4c5b-a9b8-76b6b2e4e7b8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T17:49:31.856Z",
+            "modified": "2026-04-29T14:23:06.114Z",
             "description": "[RustyWater](https://attack.mitre.org/software/S9037) has gathered the domain membership of the victim machine\u2019s user.(Citation: CloudSEK_RustyWater_Jan2026)\u202f\u202f\u202f",
             "relationship_type": "uses",
             "source_ref": "malware--50be4e81-db74-41a2-a9aa-423314082bea",

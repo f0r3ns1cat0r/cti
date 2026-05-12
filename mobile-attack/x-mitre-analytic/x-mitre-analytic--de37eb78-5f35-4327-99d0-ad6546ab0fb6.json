@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bd597006-b9c7-45fd-9c48-913941231bf3",
+    "id": "bundle--522119a1-3801-4dc1-8d50-6d1f1b62a26b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-09T17:36:14.306Z",
+            "modified": "2026-05-12T16:30:18.383Z",
             "name": "Analytic 1670",
             "description": "A defender correlates Safari or embedded web content navigation with short-lived but abnormal web session behavior such as staged redirects, environment fingerprinting, or exploit-preparation fetches, followed by browser/WebView instability, unusual file handling, profile/download prompts, or near-term changes in device or application behavior inconsistent with normal browsing.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

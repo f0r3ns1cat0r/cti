@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8ace98f3-d4df-4cdd-9bee-601d6dea1811",
+    "id": "bundle--d00abdad-ebe3-4805-b743-62fc7f9c645b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--389ad3ac-7d28-4cb5-96fe-c99ace701e55",
             "created": "2025-02-25T17:37:51.418Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Nearest Neighbor Volexity",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:08:01.022Z",
+            "modified": "2026-04-29T14:23:05.997Z",
             "description": "During [APT28 Nearest Neighbor Campaign](https://attack.mitre.org/campaigns/C0051), [APT28](https://attack.mitre.org/groups/G0007) performed password-spray attacks against public facing services to validate credentials.(Citation: Nearest Neighbor Volexity)",
             "relationship_type": "uses",
             "source_ref": "campaign--a010610e-22cb-437e-bfde-b78861bdca7a",
             "target_ref": "attack-pattern--692074ae-bb62-4a5e-a735-02cb6bde458c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

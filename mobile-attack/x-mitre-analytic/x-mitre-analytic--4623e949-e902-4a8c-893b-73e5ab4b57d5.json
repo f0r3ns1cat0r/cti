@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--662c1213-721c-44db-b319-0f1e1accb136",
+    "id": "bundle--bd6e9fdb-39a6-4304-8da6-4e1137d02f57",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-04T23:33:56.647Z",
+            "modified": "2026-05-12T16:30:18.377Z",
             "name": "Analytic 1773",
             "description": "A defender observes an application with declared microphone capability initiating microphone resource use through iOS audio frameworks, potentially during background execution or shortly after a silent wake event, followed by sustained audio capture and outbound encrypted traffic suggesting audio streaming or upload activity.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

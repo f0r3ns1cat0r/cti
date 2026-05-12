@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7385944a-6f33-4b0b-81b3-85b15507c5b9",
+    "id": "bundle--ea40ca30-0611-4013-825b-8db2feac7185",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T18:59:27.521Z",
+            "modified": "2026-04-29T14:23:06.267Z",
             "description": " [HiddenFace](https://attack.mitre.org/software/S9023) can reconfigure Windows firewalls to enable communication by adding a rule named \u201cCortana\u201d to allow inbound connection to TCP/47000.(Citation: ESET HiddenFace 2024)(Citation: Trend Micro Earth Kasha NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--9edc41d1-a13d-4acf-b400-d47fb2f6809d",

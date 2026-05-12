@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6023bc7f-c6f4-4abd-b2e7-4f0fa291119a",
+    "id": "bundle--c683e13b-6505-4cb7-a7b5-9649f985f412",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "attack-pattern--1e9eb839-294b-48cc-b0d3-c45555a2a004",
             "created": "2020-02-19T18:46:06.098Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -28,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:29.669Z",
+            "modified": "2026-05-12T15:12:00.622Z",
             "name": "Local Email Collection",
             "description": "Adversaries may target user email on local systems to collect sensitive information. Files containing email data can be acquired from a user\u2019s local system, such as Outlook storage or cache files.\n\nOutlook stores data locally in offline data files with an extension of .ost. Outlook 2010 and later supports .ost file sizes up to 50GB, while earlier versions of Outlook support up to 20GB.(Citation: Outlook File Sizes) IMAP accounts in Outlook 2013 (and earlier) and POP accounts use Outlook Data Files (.pst) as opposed to .ost, whereas IMAP accounts in Outlook 2016 (and later) use .ost files. Both types of Outlook data files are typically stored in `C:\\Users\\<username>\\Documents\\Outlook Files` or `C:\\Users\\<username>\\AppData\\Local\\Microsoft\\Outlook`.(Citation: Microsoft Outlook Files)",
             "kill_chain_phases": [
@@ -37,7 +38,7 @@
                     "phase_name": "collection"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "enterprise-attack"
@@ -47,8 +48,7 @@
             "x_mitre_platforms": [
                 "Windows"
             ],
-            "x_mitre_version": "1.1",
-            "revoked": false
+            "x_mitre_version": "1.1"
         }
     ]
 }

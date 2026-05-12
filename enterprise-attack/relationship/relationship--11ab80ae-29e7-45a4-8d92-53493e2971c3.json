@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2154381f-9e3b-44e2-b6bf-89cad91bef9b",
+    "id": "bundle--6e3de1a9-df61-4a37-806d-d66b60dc96e3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--11ab80ae-29e7-45a4-8d92-53493e2971c3",
             "created": "2019-09-09T17:51:47.352Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT38 Oct 2018",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-11-13T19:21:05.135Z",
+            "modified": "2026-04-29T14:23:05.928Z",
             "description": "[APT38](https://attack.mitre.org/groups/G0082) installed a port monitoring tool, MAPMAKER, to print the active TCP connections on the local system.(Citation: FireEye APT38 Oct 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",

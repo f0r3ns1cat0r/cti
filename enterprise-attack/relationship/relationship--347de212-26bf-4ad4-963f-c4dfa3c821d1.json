@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a0c3bd3c-7f96-4d25-8eba-0063fe69e92c",
+    "id": "bundle--ddb2e1ea-6466-49c3-94ed-11589192fab5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--347de212-26bf-4ad4-963f-c4dfa3c821d1",
             "created": "2020-06-30T00:39:39.895Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sophos Ragnar May 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:42:23.558Z",
+            "modified": "2026-04-29T14:23:05.989Z",
             "description": "[Ragnar Locker](https://attack.mitre.org/software/S0481) has used sc.exe to execute a service that it creates.(Citation: Sophos Ragnar May 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--54895630-efd2-4608-9c24-319de972a9eb",
             "target_ref": "attack-pattern--f1951e8a-500e-4a26-8803-76d95c4554b4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

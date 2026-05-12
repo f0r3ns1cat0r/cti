@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5936138c-3159-4027-963c-f55caa3baf95",
+    "id": "bundle--bf933a57-6404-43e8-88dc-10669af7303d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--40364e9d-b579-440e-9528-0edb6c790c25",
             "created": "2025-06-12T19:05:24.841Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Cloud Mandiant UNC3886 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-06-12T19:05:24.841Z",
+            "modified": "2026-04-29T14:23:06.012Z",
             "description": "[RIFLESPINE](https://attack.mitre.org/software/S1222) can use the AES algorithm to encrypt C2 data.(Citation: Google Cloud Mandiant UNC3886 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--d0270367-37fc-471e-9206-483582c5f47d",
             "target_ref": "attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

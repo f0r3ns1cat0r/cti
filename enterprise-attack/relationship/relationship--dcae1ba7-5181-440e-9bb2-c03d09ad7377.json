@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5bd31c41-744c-4aa5-9e08-e8fd7266abd3",
+    "id": "bundle--817318a7-233c-4442-a781-8c9a2fee7b34",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--dcae1ba7-5181-440e-9bb2-c03d09ad7377",
             "created": "2024-03-05T18:40:24.439Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant Cutting Edge January 2024",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:51:39.145Z",
+            "modified": "2026-04-29T14:23:06.226Z",
             "description": "[WIREFIRE](https://attack.mitre.org/software/S1115) can respond to specific HTTP `POST` requests to `/api/v1/cav/client/visits`.(Citation: Mandiant Cutting Edge January 2024)(Citation: Volexity Ivanti Zero-Day Exploitation January 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--c93e3079-43fb-4d8d-9e99-db63d07eadc9",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

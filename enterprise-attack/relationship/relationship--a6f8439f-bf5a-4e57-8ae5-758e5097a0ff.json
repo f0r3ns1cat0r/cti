@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--831260a8-907a-48f5-ac20-272fef189d7e",
+    "id": "bundle--27dee673-9cad-4ac6-abaa-ffaf4d23e5c0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a6f8439f-bf5a-4e57-8ae5-758e5097a0ff",
             "created": "2024-08-01T22:29:02.680Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sekoia Raccoon2 2022",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:37:47.339Z",
+            "modified": "2026-04-29T14:23:06.152Z",
             "description": "[Raccoon Stealer](https://attack.mitre.org/software/S1148) can capture screenshots from victim systems.(Citation: S2W Racoon 2022)(Citation: Sekoia Raccoon2 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--b5a8fb8b-4ff1-43e5-a1ad-75ae565f5175",
             "target_ref": "attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

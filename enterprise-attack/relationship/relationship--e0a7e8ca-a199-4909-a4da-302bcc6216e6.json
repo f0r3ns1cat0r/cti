@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--058fcaf4-da3e-462b-9ed2-9a74522fae4b",
+    "id": "bundle--0827677e-549a-4a82-9d54-d138d35f784b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e0a7e8ca-a199-4909-a4da-302bcc6216e6",
             "created": "2022-01-24T17:00:32.570Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Check Point APT35 CharmPower January 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:14:01.569Z",
+            "modified": "2026-04-29T14:23:06.231Z",
             "description": "[CharmPower](https://attack.mitre.org/software/S0674) has the ability to download additional modules to a compromised host.(Citation: Check Point APT35 CharmPower January 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--7acb15b6-fe2c-4319-b136-6ab36ff0b2d4",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

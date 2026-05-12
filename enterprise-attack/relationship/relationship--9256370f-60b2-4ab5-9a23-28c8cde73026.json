@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7ad7c07a-f61c-4eb8-b284-a46a0e765694",
+    "id": "bundle--1f0233da-cc83-4fcb-80e7-56798308e48d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9256370f-60b2-4ab5-9a23-28c8cde73026",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET InvisiMole June 2018",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:59:55.916Z",
+            "modified": "2026-04-29T14:23:06.124Z",
             "description": "[InvisiMole](https://attack.mitre.org/software/S0260) can launch a remote shell to execute commands.(Citation: ESET InvisiMole June 2018)(Citation: ESET InvisiMole June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--47afe41c-4c08-485e-b062-c3bd209a1cce",
             "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

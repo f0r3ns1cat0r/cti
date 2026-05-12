@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--59bf0471-970a-4f65-b61f-2e7983c3fd14",
+    "id": "bundle--1d7a7a4b-e58e-4bb2-8682-0d68ffc8a689",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9b8ff6e6-8b67-4182-9752-fa1cf15c0485",
             "created": "2022-02-04T22:03:05.857Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "BiZone Lizar May 2021",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-01T19:17:50.765Z",
+            "modified": "2026-04-29T14:23:06.137Z",
             "description": "[Lizar](https://attack.mitre.org/software/S0681) has decrypted its configuration data, such as the C2 IP address, ports and other network communication.(Citation: BiZone Lizar May 2021)(Citation: SekoiaBourhis_DiceLoader_Feb2024)",
             "relationship_type": "uses",
             "source_ref": "malware--f74a5069-015d-4404-83ad-5ca01056c0dc",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--374cbebc-4efc-4409-96d3-b3a0eff189e4",
+    "id": "bundle--3c20cb20-fd1c-48cf-ae8d-3c3a2c4e5f99",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bb8dc4b5-4308-4c84-a63a-ab3d5fa9053e",
             "created": "2025-01-29T21:29:48.134Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Zscaler Kimsuky TRANSLATEXT",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:43:01.063Z",
+            "modified": "2026-04-29T14:23:06.181Z",
             "description": "[TRANSLATEXT](https://attack.mitre.org/software/S1201) has used a Github repository for C2.(Citation: Zscaler Kimsuky TRANSLATEXT) ",
             "relationship_type": "uses",
             "source_ref": "malware--4b72b6a7-72be-45d9-af02-fdcf0fc6d358",
             "target_ref": "attack-pattern--be055942-6e63-49d7-9fa1-9cb7d8a8f3f4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

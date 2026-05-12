@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--57a36423-880e-4a5f-b624-8ac58dbc8b38",
+    "id": "bundle--14e1f310-8c7b-4c62-99b9-b73f42282342",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d4faeb90-07ee-4ae2-b77d-e002418d1b22",
             "created": "2020-06-19T19:08:40.383Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason Valak May 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:12:03.286Z",
+            "modified": "2026-04-29T14:23:06.216Z",
             "description": "[Valak](https://attack.mitre.org/software/S0476) has the ability to enumerate domain admin accounts.(Citation: Cybereason Valak May 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--ade37ada-14af-4b44-b36c-210eec255d53",
             "target_ref": "attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

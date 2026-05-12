@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7a8ad9d3-894b-40c3-be1f-d0007ca7898a",
+    "id": "bundle--e1501eb4-a5c6-4812-a49e-3296724a3adc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--2b1b3740-cbf5-47cb-8a91-1b2c9a683342",
             "created": "2025-10-22T03:12:00.126Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ESET OilRig Downloaders DEC 2023",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-22T03:12:00.126Z",
+            "modified": "2026-04-29T14:23:05.963Z",
             "description": "[SampleCheck5000](https://attack.mitre.org/software/S1168) can create unique victim identifiers by using the compromised system\u2019s volume ID.(Citation: ESET OilRig Downloaders DEC 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--a87c8100-8735-440e-8ee4-27aabb643592",

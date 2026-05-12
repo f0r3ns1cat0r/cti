@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bb880ce1-227c-4f83-91a2-49be99a7612d",
+    "id": "bundle--31d24da4-8f9e-4a4b-86ae-da4769a9df83",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cb62e9ed-6a69-439b-865a-bcda20c8a5e3",
             "created": "2025-08-06T18:25:02.230Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "2025_IBM_PUBLOAD_TONESHELL_HIUPAN_CLAIMLOADER_MUSTANG PANDA",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-25T15:06:21.155Z",
+            "modified": "2026-04-29T14:23:06.203Z",
             "description": "[HIUPAN](https://attack.mitre.org/software/S1230) has added Registry Run keys to achieve persistence using `HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run`.(Citation: 2025_IBM_PUBLOAD_TONESHELL_HIUPAN_CLAIMLOADER_MUSTANG PANDA)(Citation: Trend Micro MUSTANG PANDA PUBLOAD HIUPAN SEPTEMBER 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--da43312a-0188-4949-bab3-0df9a5df0aba",

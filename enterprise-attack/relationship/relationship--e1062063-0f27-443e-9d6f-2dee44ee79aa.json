@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--16c93dc7-f21b-4dd1-bb40-3ef742e75b49",
+    "id": "bundle--347b85af-5f6a-42e5-9f7c-2c4dea370f39",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e1062063-0f27-443e-9d6f-2dee44ee79aa",
             "created": "2025-01-08T21:22:29.664Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant APT42-charms",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:52:41.640Z",
+            "modified": "2026-04-29T14:23:06.232Z",
             "description": "[APT42](https://attack.mitre.org/groups/G1044) has used custom malware to steal login and cookie data from common browsers.(Citation: Mandiant APT42-charms) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c0291346-defe-48d7-9542-9e074ba1bdfb",
             "target_ref": "attack-pattern--10ffac09-e42d-4f56-ab20-db94c67d76ff",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

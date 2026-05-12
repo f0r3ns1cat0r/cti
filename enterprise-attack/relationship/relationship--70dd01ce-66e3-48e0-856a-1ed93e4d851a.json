@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--adfe94e9-e60e-45a1-b225-2479d06c38f0",
+    "id": "bundle--174f0a38-dd6a-4fd6-90e6-aae6d90a33c2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T16:44:50.986Z",
+            "modified": "2026-04-29T14:23:06.079Z",
             "description": "[DOWNIISSA](https://attack.mitre.org/software/S9021) can create an instance of msiexec.exe and inject [LODEINFO](https://attack.mitre.org/software/S9020) shellcode into the memory of the process.(Citation: Kaspersky LODEINFO OCT 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--eddb863e-fc77-41c1-86e9-5210d6d58b88",

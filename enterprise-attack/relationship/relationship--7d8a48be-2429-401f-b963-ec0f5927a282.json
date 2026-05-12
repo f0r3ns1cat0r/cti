@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--478bf1f7-0b9c-4d0a-a6ac-7caac1d28d6f",
+    "id": "bundle--7498bbb8-7a27-4528-aeaa-1f52a2d10ed7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7d8a48be-2429-401f-b963-ec0f5927a282",
             "created": "2022-08-07T15:02:06.136Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "MalwareBytes SideCopy Dec 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:26:41.490Z",
+            "modified": "2026-04-29T14:23:06.097Z",
             "description": " [Action RAT](https://attack.mitre.org/software/S1028)'s commands, strings, and domains can be Base64 encoded within the payload.(Citation: MalwareBytes SideCopy Dec 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--36801ffb-5c85-4c50-9121-6122e389366d",
             "target_ref": "attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

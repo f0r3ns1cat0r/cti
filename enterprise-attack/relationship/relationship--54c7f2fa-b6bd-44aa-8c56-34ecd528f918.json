@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--98b0f68c-a5a1-442b-8c14-ffce2b057b97",
+    "id": "bundle--0e63fb85-b3e4-4d98-a134-9be290f2ac3d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--54c7f2fa-b6bd-44aa-8c56-34ecd528f918",
             "created": "2024-07-19T18:29:42.749Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "TrendMicro Pikabot 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:15:43.250Z",
+            "modified": "2026-04-29T14:23:06.041Z",
             "description": "[Water Curupira Pikabot Distribution](https://attack.mitre.org/campaigns/C0037) used Curl.exe to download the [Pikabot](https://attack.mitre.org/software/S1145) payload from an external server, saving the file to the victim machine's temporary directory.(Citation: TrendMicro Pikabot 2024)",
             "relationship_type": "uses",
             "source_ref": "campaign--57541e3b-657e-463a-a4ab-ca08d7ea9965",
             "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

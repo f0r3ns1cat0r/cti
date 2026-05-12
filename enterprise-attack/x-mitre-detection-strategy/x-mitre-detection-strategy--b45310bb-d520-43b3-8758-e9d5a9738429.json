@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--9333a8c7-83d7-4d5a-9fba-99b12cf38090",
+    "id": "bundle--9733ac74-be16-47f6-9e3e-3eb0da8e96b5",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--b45310bb-d520-43b3-8758-e9d5a9738429",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.689Z",
             "name": "Detect Forced SMB/WebDAV Authentication via lure files and outbound NTLM",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -29,8 +30,7 @@
             ],
             "x_mitre_analytic_refs": [
                 "x-mitre-analytic--f2064dd1-8cdb-472e-b187-8d1ef18fb059"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

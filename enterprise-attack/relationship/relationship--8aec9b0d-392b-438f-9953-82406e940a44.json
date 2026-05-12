@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7e059e0e-962c-4423-a837-587d2af13ce7",
+    "id": "bundle--9af4381a-3ba5-4505-b3cb-a03bb7581d26",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-17T18:20:06.289Z",
+            "modified": "2026-04-29T14:23:06.114Z",
             "description": "[HiddenFace](https://attack.mitre.org/software/S9023) can enumerate the hostname and username of the compromised system.(Citation: ESET HiddenFace 2024)(Citation: Trend Micro Earth Kasha NOV 2024)(Citation: JPCERT MirrorFace JUL 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--9edc41d1-a13d-4acf-b400-d47fb2f6809d",

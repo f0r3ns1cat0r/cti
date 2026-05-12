@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--813c32b2-0171-4ade-9c3c-c2d800fed657",
+    "id": "bundle--4c9f8bdf-427a-4ee8-a294-449a7b17f6cd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-13T23:48:31.416Z",
+            "modified": "2026-05-12T16:30:18.384Z",
             "name": "Analytic 1823",
             "description": "A legitimate-seeming application or update is installed through an expected or previously trusted path, but shortly after first run or update the application exhibits new runtime behavior, sensor use, file staging, or network communications inconsistent with its historical baseline, documented role, or prior version. The defender specifically looks for behaviors commonly introduced by compromised third-party libraries or manipulated build tooling, such as unexpected background service activation, first-seen framework use, new permissions exercised, novel network destinations, or dropped local artifacts not aligned to the app's expected function.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

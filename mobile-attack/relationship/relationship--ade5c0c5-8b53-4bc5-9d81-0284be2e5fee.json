@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b9acc540-e076-42c4-9d3f-adce62b55a5d",
+    "id": "bundle--09b58ee9-0383-4f1b-aae6-7608f9dc60b0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--ade5c0c5-8b53-4bc5-9d81-0284be2e5fee",
             "created": "2023-07-21T19:51:55.111Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "kaspersky_fakecalls_0422",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:50:52.376Z",
+            "modified": "2026-04-29T14:23:06.162Z",
             "description": "[Fakecalls](https://attack.mitre.org/software/S1080) can intercept and imitate phone conversations by breaking the connection and displaying a fake call screen. It can also make outgoing calls and spoof incoming calls.(Citation: kaspersky_fakecalls_0422)",
             "relationship_type": "uses",
             "source_ref": "malware--429e1526-6293-495b-8808-af7f9a66c4be",
             "target_ref": "attack-pattern--351ddf79-2d3a-41b4-9bef-82ea5d3ccd69",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

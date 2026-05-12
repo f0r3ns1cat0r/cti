@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6e143cd9-545c-408d-a940-2aecc7c6428e",
+    "id": "bundle--9b01a7c6-662b-4bae-87e5-7e59335f68a2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T22:25:34.750Z",
+            "modified": "2026-04-29T14:23:06.155Z",
             "description": "[DynoWiper](https://attack.mitre.org/software/S9038) has enumerated and overwritten files on all removeable and fixed drives.(Citation: ESET DynoWiper JAN 2026)  ",
             "relationship_type": "uses",
             "source_ref": "malware--34057cb6-0a56-48a3-92e5-3af1357808da",

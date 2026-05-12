@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--75d9916e-1f7c-4949-98fa-bf3a7becd38c",
+    "id": "bundle--c3f6e338-05f8-4b94-aace-49e3fae2c34c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c2bbf923-e30e-4888-894c-7c8ba655c753",
             "created": "2019-06-05T13:57:44.690Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "NJCCIC Ursnif Sept 2016",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:44:59.124Z",
+            "modified": "2026-04-29T14:23:06.191Z",
             "description": "[Ursnif](https://attack.mitre.org/software/S0386) has used a peer-to-peer (P2P) network for C2.(Citation: NJCCIC Ursnif Sept 2016)(Citation: ProofPoint Ursnif Aug 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--1492d0f8-7e14-4af3-9239-bc3fe10d3407",
             "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dd38d746-68a3-4c75-9a5c-836404f1c767",
+    "id": "bundle--508d7b68-77df-4f94-bc56-15522cb1d12d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:48:47.482Z",
+            "modified": "2026-05-12T15:12:00.633Z",
             "name": "Native API",
             "description": "Adversaries may use Android\u2019s Native Development Kit (NDK) to write native functions that can achieve execution of binaries or functions. Like system calls on a traditional desktop operating system, native code achieves execution on a lower level than normal Android SDK calls.\n\nThe NDK allows developers to write native code in C or C++ that is compiled directly to machine code, avoiding all intermediate languages and steps in compilation that higher level languages, like Java, typically have. The Java Native Interface (JNI) is the component that allows Java functions in the Android app to call functions in a native library.(Citation: Google NDK Getting Started)\n\nAdversaries may also choose to use native functions to execute malicious code since native actions are typically much more difficult to analyze than standard, non-native behaviors.(Citation: MITRE App Vetting Effectiveness)",
             "kill_chain_phases": [
@@ -42,7 +42,7 @@
                     "phase_name": "execution"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "mobile-attack"

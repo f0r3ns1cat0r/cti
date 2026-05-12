@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c398f59f-a559-409b-ba2d-8055031ca5d9",
+    "id": "bundle--ef777aa4-dce5-43cd-b0fe-44157ee685ca",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--855c5caf-8553-45d0-a08b-842a9358d138",
             "created": "2022-09-21T22:43:00.559Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mandiant UNC3890 Aug 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:28:43.702Z",
+            "modified": "2026-04-29T14:23:06.107Z",
             "description": "During [C0010](https://attack.mitre.org/campaigns/C0010), UNC3890 actors likely established a watering hole that was hosted on a login page of a legitimate Israeli shipping company that was active until at least November 2021.(Citation: Mandiant UNC3890 Aug 2022)",
             "relationship_type": "uses",
             "source_ref": "campaign--ab747e62-1bcb-479f-a26b-1cd39d413d81",
             "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

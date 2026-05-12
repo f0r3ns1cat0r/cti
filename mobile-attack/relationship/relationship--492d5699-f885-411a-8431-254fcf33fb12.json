@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4e5572f6-c598-4a0b-8563-6e78c1aafe89",
+    "id": "bundle--d3c80963-156e-4360-851a-d3811f62a953",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--492d5699-f885-411a-8431-254fcf33fb12",
             "created": "2019-08-09T16:14:58.367Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Android Capture Sensor 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:48:25.422Z",
+            "modified": "2026-04-29T14:23:06.025Z",
             "description": "Android 9 and above restricts access to the mic, camera, and other device sensors from applications running in the background. iOS 14 and Android 12 introduced a visual indicator on the status bar (green dot) when an application is accessing the device\u2019s camera.(Citation: Android Capture Sensor 2019)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--0beabf44-e8d8-4ae4-9122-ef56369a2564",
             "target_ref": "attack-pattern--d8940e76-f9c1-4912-bea6-e21c251370b6",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

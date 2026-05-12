@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7761c88e-a01f-4fc3-817e-f5075d4c1e87",
+    "id": "bundle--2b604705-3cc9-48fe-8dee-cb8b307c1d35",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T23:53:41.079Z",
+            "modified": "2026-04-29T14:23:06.135Z",
             "description": "[WIRTE](https://attack.mitre.org/groups/G0090) has configured C2 servers to check location and user-agent strings for victim endpoints to prevent sending a payload to sandboxed environments.(Citation: Palo Alto Ashen Lepus DEC 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f8cb7b36-62ef-4488-8a6d-a7033e3271c1",

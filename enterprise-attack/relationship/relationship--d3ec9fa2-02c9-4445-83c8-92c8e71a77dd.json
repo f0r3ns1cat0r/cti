@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--00102a68-070a-43f8-a7a2-4151aca14c14",
+    "id": "bundle--b1f582ec-9db9-45e7-b51c-c6957f3a1b1a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d3ec9fa2-02c9-4445-83c8-92c8e71a77dd",
             "created": "2024-05-22T22:45:10.215Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit42 Agrius 2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:49:29.420Z",
+            "modified": "2026-04-29T14:23:06.215Z",
             "description": "[MultiLayer Wiper](https://attack.mitre.org/software/S1135) creates a malicious scheduled task that launches a batch file to remove Windows Event Logs.(Citation: Unit42 Agrius 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--663d7dee-5a47-459e-a5ef-e850a94a8ee5",
             "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

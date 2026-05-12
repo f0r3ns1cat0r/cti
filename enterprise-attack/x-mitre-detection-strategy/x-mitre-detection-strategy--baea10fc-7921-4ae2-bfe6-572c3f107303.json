@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--d07762aa-82a5-493a-95c2-4220cd40d5d6",
+    "id": "bundle--7f36d6cf-9ef5-40da-930b-a495d1666407",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--baea10fc-7921-4ae2-bfe6-572c3f107303",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.690Z",
             "name": "Behavioral Detection of Wi-Fi Discovery Activity",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -31,8 +32,7 @@
                 "x-mitre-analytic--8d58973f-7fd7-435e-86b8-58f9b399f89f",
                 "x-mitre-analytic--1f3a6d61-9658-4c9b-92af-5c711206e3fa",
                 "x-mitre-analytic--ce2233bb-9715-4e7b-8603-7218f8bae326"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

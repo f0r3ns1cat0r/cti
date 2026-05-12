@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b72abcbf-5ad7-49bc-b67c-3f90a4dbc9e6",
+    "id": "bundle--51fc36d2-eca7-4b57-915b-4553ed890623",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T15:09:53.960Z",
+            "modified": "2026-04-29T14:23:06.030Z",
             "description": "[LazyWiper](https://attack.mitre.org/software/S9039) can halt execution if `[System.Net.Dns]::GetHostName()` or `$env:COMPUTERNAME` contains `\u201cpe-dc\u201d`.(Citation: CERT Polska)",
             "relationship_type": "uses",
             "source_ref": "malware--e4160979-b9bc-4f58-acbe-1d921ebbc122",

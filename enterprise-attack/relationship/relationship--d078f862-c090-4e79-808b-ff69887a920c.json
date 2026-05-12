@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cc367999-bbc2-4a86-963d-04d454b93f02",
+    "id": "bundle--aeb98a51-9502-4fce-a61d-d32fb8eee895",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d078f862-c090-4e79-808b-ff69887a920c",
             "created": "2018-01-16T16:13:52.465Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT34 Dec 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:11:19.584Z",
+            "modified": "2026-04-29T14:23:06.211Z",
             "description": "[POWRUNER](https://attack.mitre.org/software/S0184) may query the Registry by running <code>reg query</code> on a victim.(Citation: FireEye APT34 Dec 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--09b2cd76-c674-47cc-9f57-d2f2ad150a46",
             "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b725d486-b3a8-4050-b255-dc1ddf934035",
+    "id": "bundle--14d8a2ae-f8a0-4e65-a756-03e08a8b2717",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--efb8b96b-7f50-4152-b18c-bbec7de28cbb",
             "created": "2023-09-05T18:02:46.582Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Bitdefender Sardonic Aug 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:56:34.913Z",
+            "modified": "2026-04-29T14:23:06.251Z",
             "description": "[Sardonic](https://attack.mitre.org/software/S1085) has the ability to execute PowerShell commands on a compromised machine.(Citation: Bitdefender Sardonic Aug 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--0c52f5bc-557d-4083-bd27-66d7cdb794bb",
             "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

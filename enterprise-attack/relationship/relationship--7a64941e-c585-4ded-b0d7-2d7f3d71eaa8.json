@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--07bc4efa-5a10-49df-b315-de305613f68d",
+    "id": "bundle--e320aa8e-680a-4423-937d-3e00de78f32a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7a64941e-c585-4ded-b0d7-2d7f3d71eaa8",
             "created": "2021-07-30T21:03:08.929Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Mcafee Clop Aug 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:55:31.691Z",
+            "modified": "2026-04-29T14:23:06.093Z",
             "description": "[Clop](https://attack.mitre.org/software/S0611) has checked the keyboard language using the GetKeyboardLayout() function to avoid installation on Russian-language or other Commonwealth of Independent States-language machines; it will also check the <code>GetTextCharset</code> function.(Citation: Mcafee Clop Aug 2019) ",
             "relationship_type": "uses",
             "source_ref": "malware--cad3ba95-8c89-4146-ab10-08daa813f9de",
             "target_ref": "attack-pattern--c1b68a96-3c48-49ea-a6c0-9b27359f9c19",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

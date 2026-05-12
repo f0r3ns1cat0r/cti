@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d4a4a704-80ac-48a6-94fd-d8a893a9a6bd",
+    "id": "bundle--00c5a46c-a217-4212-9e31-89c61a6b8878",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--eb5164e4-bd62-4b9d-bfcc-fba023b7e235",
             "created": "2025-10-20T11:32:33.850Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cyble Embargo Ransomware May 2024",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-20T15:20:30.071Z",
+            "modified": "2026-04-29T14:23:06.245Z",
             "description": "[Embargo](https://attack.mitre.org/software/S1247) has the ability to encrypt files with the ChaCha20 and Curve25519 cryptographic algorithms.(Citation: Cyble Embargo Ransomware May 2024) [Embargo](https://attack.mitre.org/software/S1247) also has the ability to encrypt system data and add a random six-letter extension consisting of hexadecimal characters such as \".b58eeb\" or \u201c.3d828a\u201d to encrypted files.(Citation: ESET Embargo Ransomware October 2024) ",
             "relationship_type": "uses",
             "source_ref": "malware--82adb90e-43b8-4bce-9efe-afeba65457b2",

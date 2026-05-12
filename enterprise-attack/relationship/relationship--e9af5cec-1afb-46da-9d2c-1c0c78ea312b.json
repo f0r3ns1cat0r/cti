@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4dfc3609-2cf4-47d6-91ce-bcc2ca05bb27",
+    "id": "bundle--0872355b-52be-4b46-b387-2dcca3dad794",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e9af5cec-1afb-46da-9d2c-1c0c78ea312b",
             "created": "2022-10-06T21:16:05.336Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cybereason OperationCuckooBees May 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:54:59.453Z",
+            "modified": "2026-04-29T14:23:06.243Z",
             "description": "During [Operation CuckooBees](https://attack.mitre.org/campaigns/C0012), the threat actors used the `net start` command as part of their initial reconnaissance.(Citation: Cybereason OperationCuckooBees May 2022)",
             "relationship_type": "uses",
             "source_ref": "campaign--93c23946-49af-41f4-ac03-40f9ffc7419b",
             "target_ref": "attack-pattern--322bad5a-1c49-4d23-ab79-76d641794afa",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

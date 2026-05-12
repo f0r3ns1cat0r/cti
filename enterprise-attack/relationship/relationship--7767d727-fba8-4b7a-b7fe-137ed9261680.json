@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2141ac73-727d-4b79-8313-880fc7c3355b",
+    "id": "bundle--7d312282-cc5d-47c6-a83f-7036da4c3118",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7767d727-fba8-4b7a-b7fe-137ed9261680",
             "created": "2019-03-25T15:05:23.734Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Talos Olympic Destroyer 2018",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:54:54.206Z",
+            "modified": "2026-04-29T14:23:06.088Z",
             "description": "[Olympic Destroyer](https://attack.mitre.org/software/S0365) overwrites files locally and on remote shares.(Citation: Talos Olympic Destroyer 2018)(Citation: US District Court Indictment GRU Unit 74455 October 2020) ",
             "relationship_type": "uses",
             "source_ref": "malware--3249e92a-870b-426d-8790-ba311c1abfb4",
             "target_ref": "attack-pattern--d45a3d09-b3cf-48f4-9f0f-f521ee5cb05c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

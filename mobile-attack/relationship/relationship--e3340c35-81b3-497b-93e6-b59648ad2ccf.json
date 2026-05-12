@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bf89bf02-4c28-446f-9ddb-e918bd7ec132",
+    "id": "bundle--54b78c49-9619-49f9-80ff-fe616d943f30",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e3340c35-81b3-497b-93e6-b59648ad2ccf",
             "created": "2026-02-16T16:03:51.821Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "EnkiWhiteHat_KimsukyDOCSWAP_Dec2025",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-02-16T16:03:51.821Z",
+            "modified": "2026-04-29T14:23:06.235Z",
             "description": "[DocSwap](https://attack.mitre.org/software/S9005) has the ability to send registered account information.(Citation: EnkiWhiteHat_KimsukyDOCSWAP_Dec2025)(Citation: S2W_DocSwap_Mar2025)",
             "relationship_type": "uses",
             "source_ref": "malware--3dbef387-12df-4547-9dd3-075c7ffec9e3",

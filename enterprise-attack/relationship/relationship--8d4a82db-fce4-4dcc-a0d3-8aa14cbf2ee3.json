@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c57690de-cb37-4e80-afce-5230453ae71c",
+    "id": "bundle--0464cd4b-3026-41bb-949f-998ef6b5c3f0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8d4a82db-fce4-4dcc-a0d3-8aa14cbf2ee3",
             "created": "2021-10-01T20:57:16.408Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Volexity InkySquid BLUELIGHT August 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:58:57.606Z",
+            "modified": "2026-04-29T14:23:06.118Z",
             "description": "[BLUELIGHT](https://attack.mitre.org/software/S0657) can use different cloud providers for its C2.(Citation: Volexity InkySquid BLUELIGHT August 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--8bd47506-29ae-44ea-a5c1-c57e8a1ab6b0",
             "target_ref": "attack-pattern--be055942-6e63-49d7-9fa1-9cb7d8a8f3f4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

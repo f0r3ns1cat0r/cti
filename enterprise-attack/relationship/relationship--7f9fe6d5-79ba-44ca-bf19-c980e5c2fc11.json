@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e9caee64-6071-484b-8b39-fafb16e21cce",
+    "id": "bundle--2b340579-6924-456f-9992-4cf04ff4dc80",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7f9fe6d5-79ba-44ca-bf19-c980e5c2fc11",
             "created": "2020-12-22T17:48:21.017Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Crowdstrike GTR2020 Mar 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:56:28.173Z",
+            "modified": "2026-04-29T14:23:06.100Z",
             "description": "[APT41](https://attack.mitre.org/groups/G0096) has configured payloads to load via LD_PRELOAD.(Citation: Crowdstrike GTR2020 Mar 2020)\t",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
             "target_ref": "attack-pattern--633a100c-b2c9-41bf-9be5-905c1b16c825",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

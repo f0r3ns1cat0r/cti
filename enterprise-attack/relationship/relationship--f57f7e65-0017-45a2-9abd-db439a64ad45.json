@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8d9bd97e-6e85-48db-8739-4efb89c5695b",
+    "id": "bundle--d331d7b8-08da-489d-be7e-46d094f5c9e7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f57f7e65-0017-45a2-9abd-db439a64ad45",
             "created": "2020-03-11T14:17:21.292Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "OWASP Top 10",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:17:32.335Z",
+            "modified": "2026-04-29T14:23:06.258Z",
             "description": "Continuous monitoring of vulnerability sources and the use of automatic and manual code review tools should also be implemented as well.(Citation: OWASP Top 10)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--15437c6d-b998-4a36-be41-4ace3d54d266",
             "target_ref": "attack-pattern--bd369cd9-abb8-41ce-b5bb-fff23ee86c00",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

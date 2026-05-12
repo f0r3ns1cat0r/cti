@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ad7406f6-d0bd-41a0-9fb5-7e6397fc0414",
+    "id": "bundle--5221f243-ced3-4cc4-9552-394cff572094",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--23f12b64-a938-4cf7-97ab-81e90ee3992d",
             "created": "2024-09-25T17:22:54.194Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA Play Ransomware Advisory December 2023",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:02:35.235Z",
+            "modified": "2026-04-29T14:23:05.954Z",
             "description": "[Playcrypt](https://attack.mitre.org/software/S1162) encrypts files on targeted hosts with an AES-RSA hybrid encryption, encrypting every other file portion of 0x100000 bytes.(Citation: CISA Play Ransomware Advisory December 2023)(Citation: Trend Micro Ransomware Spotlight Play July 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--28ad4983-151e-4e30-9792-768470e92b3e",
             "target_ref": "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

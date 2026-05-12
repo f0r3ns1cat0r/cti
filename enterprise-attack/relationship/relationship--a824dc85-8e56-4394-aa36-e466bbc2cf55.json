@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--10b8963c-990c-40a5-b968-71cfd1268c6f",
+    "id": "bundle--b94201f7-9283-4249-971c-b10add2f1c42",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-21T17:53:29.293Z",
+            "modified": "2026-04-29T14:23:06.154Z",
             "description": "[RustyWater](https://attack.mitre.org/software/S9037) has attempted to detect more than 25 antivirus and EDR tools.(Citation: CloudSEK_RustyWater_Jan2026)\u202f\u202f\u202f ",
             "relationship_type": "uses",
             "source_ref": "malware--50be4e81-db74-41a2-a9aa-423314082bea",

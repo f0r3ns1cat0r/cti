@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1893e7a5-43cf-4c2c-a592-f9d3f719c111",
+    "id": "bundle--6520e8e7-371c-4c7f-b2bd-3d60a2ba9632",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f81b567d-9fd3-44f4-bd6b-9ba6f386609e",
             "created": "2020-05-15T15:04:34.561Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FOX-IT May 2016 Mofang",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:18:00.714Z",
+            "modified": "2026-04-29T14:23:06.262Z",
             "description": "[ShimRat](https://attack.mitre.org/software/S0444) has registered two registry keys for shim databases.(Citation: FOX-IT May 2016 Mofang)",
             "relationship_type": "uses",
             "source_ref": "malware--5763217a-05b6-4edd-9bca-057e47b5e403",
             "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

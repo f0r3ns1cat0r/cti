@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1f064850-c1c0-4448-9182-a5af9febe9dd",
+    "id": "bundle--ac033704-b64d-4463-b29b-03ca73e19d14",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:20:40.999Z",
+            "modified": "2026-04-29T14:23:06.174Z",
             "description": "[MacMa](https://attack.mitre.org/software/S1016) can clear possible malware traces such as application logs.(Citation: ESET DazzleSpy Jan 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--bdee9574-7479-4073-a7dc-e86d8acd073a",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8cb11d83-2c9f-4bda-bc86-9a82b9394830",
+    "id": "bundle--4ce18031-9ea7-4c24-bd1d-7689e82be65d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c04b25dd-9f70-4949-9680-b976aa5455cf",
             "created": "2024-12-31T22:46:07.565Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Google Cloud BOLDMOVE 2023",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:44:16.759Z",
+            "modified": "2026-04-29T14:23:06.188Z",
             "description": "[BOLDMOVE](https://attack.mitre.org/software/S1184) uses web services for command and control communication.(Citation: Google Cloud BOLDMOVE 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--325fa466-4a2a-45a0-acc6-f6bed9b45ebe",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

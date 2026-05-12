@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c58cb990-4865-4670-82b9-92cd39f3729a",
+    "id": "bundle--434f6d34-203b-4331-9ab0-8f34fa33dea5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7ed93170-2dba-4e59-b0f0-7c716c73bdc0",
             "created": "2017-05-31T21:33:27.047Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Bizeul 2014",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:56:21.884Z",
+            "modified": "2026-04-29T14:23:06.099Z",
             "description": "(Citation: Bizeul 2014)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--fe98767f-9df8-42b9-83c9-004b1dec8647",
             "target_ref": "tool--b07c2c47-fefb-4d7c-a69e-6a3296171f54",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

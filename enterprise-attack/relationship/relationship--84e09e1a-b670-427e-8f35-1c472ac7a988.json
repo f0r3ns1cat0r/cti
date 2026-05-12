@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--45a0deaf-d7a9-46f0-8814-a447c38bdb65",
+    "id": "bundle--053aeb6b-e813-4962-905c-3294cf21da4a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--84e09e1a-b670-427e-8f35-1c472ac7a988",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft PLATINUM April 2016",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:57:21.452Z",
+            "modified": "2026-04-29T14:23:06.107Z",
             "description": "[Dipsind](https://attack.mitre.org/software/S0200) uses HTTP for C2.(Citation: Microsoft PLATINUM April 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--e170995d-4f61-4f17-b60e-04f9a06ee517",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

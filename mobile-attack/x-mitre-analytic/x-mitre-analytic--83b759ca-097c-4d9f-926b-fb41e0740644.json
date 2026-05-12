@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--65cb5e5e-7ffd-45e7-baa7-c47dd86c9ddb",
+    "id": "bundle--741423fb-398f-4edd-9013-f2f27592bfdc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-04T23:46:03.218Z",
+            "modified": "2026-05-12T16:30:18.379Z",
             "name": "Analytic 1776",
             "description": "Defender correlates an application gaining/retaining fine or background location capability with subsequent location sensor sessions that occur while the app is backgrounded or the device is locked, followed by repeated location reads at a periodic cadence and near-term outbound connections to domains not typical for fleet navigation/MDM services, indicating covert location tracking.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

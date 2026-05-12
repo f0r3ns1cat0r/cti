@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8f8cc48a-c6e5-4c91-b044-fe466e06e146",
+    "id": "bundle--25880e9d-f3e3-4041-8f41-6fc8ea00045c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--86bf339d-20a1-45c2-bad8-12b264bc7c5b",
             "created": "2025-01-06T18:24:36.788Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Fortinet reGeorg MAR 2019",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:29:03.826Z",
+            "modified": "2026-04-29T14:23:06.109Z",
             "description": "[reGeorg](https://attack.mitre.org/software/S1187) can establish an HTTP or SOCKS proxy to tunnel data in and out of a network.(Citation: GitHub reGeorg 2016)(Citation: Fortinet reGeorg MAR 2019)(Citation: Mandiant APT29 Eye Spy Email Nov 22)",
             "relationship_type": "uses",
             "source_ref": "malware--0e17b066-50dd-4c2f-83bf-205c5eb2bb34",
             "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

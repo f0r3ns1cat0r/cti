@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1ea481ea-b0a7-40d9-9c2e-cab16aceeec1",
+    "id": "bundle--67a63686-ee54-40d8-81a6-2a69f3705c10",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,10 +8,11 @@
             "id": "relationship--7c0db609-3c5a-4e70-8fc6-5dc6905f560e",
             "created": "2025-09-26T15:55:34.521Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-26T17:12:45.459Z",
+            "modified": "2026-04-29T14:23:06.095Z",
             "description": "This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls. Efforts should focus on designing defenses that are not reliant on atomic indicators.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--78bb71be-92b4-46de-acd6-5f998fedf1cc",

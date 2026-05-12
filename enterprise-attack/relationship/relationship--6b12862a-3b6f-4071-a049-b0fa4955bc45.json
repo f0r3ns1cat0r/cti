@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d8b7113a-5746-4287-ba45-1656d2016806",
+    "id": "bundle--87f99ed6-38be-4a32-a2ff-731ef48c1c9e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,8 +19,8 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-19T16:05:32.761Z",
-            "description": "During [Operation AkaiRy\u016b](https://attack.mitre.org/campaigns/C0060), [MirrorFace](https://attack.mitre.org/groups/G1054) abused the remote tunnels of Visual Studio Code (VS Code) to deliver malware.(Citation: ESET MirrorFace 2025)\n",
+            "modified": "2026-05-05T17:26:45.805Z",
+            "description": "During [Operation AkaiRy\u016b](https://attack.mitre.org/campaigns/C0060), [MirrorFace](https://attack.mitre.org/groups/G1054) abused Visual Studio Code (VS Code) remote tunnels to gain access and execute code on compromised machines.(Citation: ESET MirrorFace 2025)\n",
             "relationship_type": "uses",
             "source_ref": "campaign--8a7c55ea-f363-4a03-b4c5-fa3fdb132d8f",
             "target_ref": "attack-pattern--77e29a47-e263-4f11-8692-e5012f44dbac",

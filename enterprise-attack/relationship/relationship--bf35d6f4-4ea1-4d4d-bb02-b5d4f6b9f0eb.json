@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9a2d2ecd-49d3-48cf-9685-3bb0f05b71bb",
+    "id": "bundle--97716a0e-55d4-4287-a038-e232b895983f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--bf35d6f4-4ea1-4d4d-bb02-b5d4f6b9f0eb",
             "created": "2025-10-23T02:48:06.958Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sekoia ClickFake 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-23T02:48:06.958Z",
+            "modified": "2026-04-29T14:23:06.187Z",
             "description": "[Contagious Interview](https://attack.mitre.org/groups/G1052) has configured malicious webpages to identify the victim\u2019s operating system by reviewing the details of the victims User-Agent of their browser.(Citation: Sekoia ClickFake 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--46599a4a-77ee-4697-9474-2683b6464859",

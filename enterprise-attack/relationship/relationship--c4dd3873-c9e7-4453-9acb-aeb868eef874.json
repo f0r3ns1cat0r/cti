@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--31fdb4b3-79f8-420b-a7cd-4647a12ae6c7",
+    "id": "bundle--1f1e2d7c-a8cb-44dc-b21b-444d6b275f6f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c4dd3873-c9e7-4453-9acb-aeb868eef874",
             "created": "2025-10-21T03:34:23.451Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "ASERT InnaputRAT April 2018",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T03:34:23.451Z",
+            "modified": "2026-04-29T14:23:06.194Z",
             "description": "[InnaputRAT](https://attack.mitre.org/software/S0259) gathers volume drive information.(Citation: ASERT InnaputRAT April 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--c8b6cc43-ce61-42ae-87f3-a5f10526f952",

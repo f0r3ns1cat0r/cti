@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4b4ab40f-3c21-4d6a-99ad-d730020b14c1",
+    "id": "bundle--1afe2b81-00b7-4c01-a6e0-45d7c3fcbb23",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9d753094-3f5a-4d38-88dd-13289e1d8318",
             "created": "2025-10-17T12:04:47.594Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Security Scorecard Medusa Ransomware January 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T16:01:33.818Z",
+            "modified": "2026-04-29T14:23:06.140Z",
             "description": "[Medusa Ransomware](https://attack.mitre.org/software/S1244) has leveraged the `CreatePipe` API to enable inter-process communication.(Citation: Security Scorecard Medusa Ransomware January 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--28d93902-30e7-4436-8885-6d312c51c9a3",

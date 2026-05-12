@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--019d977a-15f9-4e22-b793-c91ae6f34de6",
+    "id": "bundle--9a3f3e7b-ea6a-43e5-b149-845a3274812b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--3f58682a-dc04-40f6-b224-42bab6ef6f67",
             "created": "2019-03-26T13:38:24.556Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye WannaCry 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:44:27.506Z",
+            "modified": "2026-04-29T14:23:06.011Z",
             "description": "[WannaCry](https://attack.mitre.org/software/S0366) contains a thread that will attempt to scan for new attached drives every few seconds. If one is identified, it will encrypt the files on the attached device.(Citation: FireEye WannaCry 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--75ecdbf1-c2bb-4afc-a3f9-c8da4de8c661",
             "target_ref": "attack-pattern--348f1eef-964b-4eb6-bb53-69b3dcb0c643",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

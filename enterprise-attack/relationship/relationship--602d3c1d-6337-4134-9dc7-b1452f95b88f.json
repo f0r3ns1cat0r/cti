@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--95e871f4-7471-418b-82ec-02750a8b8f8e",
+    "id": "bundle--3960cc94-4f05-4629-adc7-0d60b923e667",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--602d3c1d-6337-4134-9dc7-b1452f95b88f",
             "created": "2025-09-30T18:03:06.394Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Picus Qilin MAR 2025",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T18:48:47.332Z",
+            "modified": "2026-04-29T14:23:06.056Z",
             "description": "[Qilin](https://attack.mitre.org/software/S1242) can embed a copy of [PsExec](https://attack.mitre.org/software/S0029) within its payload and place it in the %Temp% directory under a randomly generated filename.(Citation: Picus Qilin MAR 2025)(Citation: Cisco Talos Qilin Ransomware OCT 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--e23d2777-b85d-44fc-861e-9149d399fbb9",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ba14f6e6-64c9-45ae-8a9b-967629b11cb2",
+    "id": "bundle--45ae8333-5d46-4828-8709-b938cb748821",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-03-19T19:41:30.977Z",
+            "modified": "2026-05-12T16:30:18.379Z",
             "name": "Analytic 1828",
             "description": "The defender correlates managed-app or supervised-device outbound sessions where protocol indicators such as TLS handshake, HTTP semantics, or other application-layer behaviors are observed over destination ports outside the approved baseline for that protocol and bundle role. The strongest iOS evidence is network telemetry showing repeated or persistent sessions using recognizable application protocols over uncommon ports, particularly during background refresh, while the device is locked, or without recent user interaction. Because direct local runtime attribution is weaker than Android, the primary iOS analytic should be anchored on network protocol-versus-port mismatch plus supervised managed-app context and device-state enrichment.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

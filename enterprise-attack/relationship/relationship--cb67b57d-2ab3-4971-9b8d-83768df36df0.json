@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a6291433-91bf-46ec-90d9-85822c056906",
+    "id": "bundle--65fb1ee7-2a83-4492-b3f9-71102a6d6a02",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cb67b57d-2ab3-4971-9b8d-83768df36df0",
             "created": "2019-01-29T18:17:59.152Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Eset PlugX Korplug Mustang Panda March 2022",
@@ -48,7 +49,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-11T20:22:51.216Z",
+            "modified": "2026-04-29T14:23:06.203Z",
             "description": "[PlugX](https://attack.mitre.org/software/S0013) decompresses and decrypts itself using the Microsoft API call RtlDecompressBuffer.(Citation: CIRCL PlugX March 2013)(Citation: Trend Micro DRBControl February 2020)(Citation: Proofpoint TA416 Europe March 2022) [PlugX](https://attack.mitre.org/software/S0013) has also decrypted its payloads in memory.(Citation: Eset PlugX Korplug Mustang Panda March 2022)(Citation: Cisco Talos MUSTANG PANDA PLUGX PUBLOAD MAY 2022)(Citation: EclecticIQ Mustang Panda PlugX)(Citation: Sophos Mustang Panda PLUGX)",
             "relationship_type": "uses",
             "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",

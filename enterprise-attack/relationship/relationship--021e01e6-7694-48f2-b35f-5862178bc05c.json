@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f27c3183-bb35-4224-b5dc-660673d990ed",
+    "id": "bundle--636c2ef9-83cc-4fce-a09c-55aee470ab8f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-23T14:19:37.291Z",
+            "modified": "2026-04-29T14:23:05.906Z",
             "description": "[SplatCloak](https://attack.mitre.org/software/S1234) has identified and disabled API callback features of Windows Defender and Kaspersky.(Citation: Zscaler PAKLOG CorkLog SplatCloak Splatdropper April 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--f39c6d39-0165-46db-a7ae-43341c428d22",

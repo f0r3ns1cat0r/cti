@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ae08e740-d2b4-4c34-91ec-ed71152254e2",
+    "id": "bundle--f1d179d9-a482-452c-bb9c-a92b2224456b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--b4b6fec9-3f56-4571-9555-344cea28e667",
             "created": "2021-11-29T19:10:14.961Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro Iron Tiger April 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:06:16.418Z",
+            "modified": "2026-04-29T14:23:06.172Z",
             "description": "[SysUpdate](https://attack.mitre.org/software/S0663) has the ability to set file attributes to hidden.(Citation: Trend Micro Iron Tiger April 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--c009560a-f097-45a3-8f9f-78ec1440a783",
             "target_ref": "attack-pattern--ec8fc7e2-b356-455c-8db5-2e37be158e7d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eb10ec68-1eb9-495e-bf2b-1b2587890d5f",
+    "id": "bundle--609d00ee-084f-45ba-9976-770b5de50193",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--f0fb848a-8237-4887-b2cf-f916d477a92c",
             "created": "2025-08-04T19:59:45.401Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "2022 November_TrendMicro_Earth Preta_Toneshell_Pubload",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-08-25T14:16:04.593Z",
+            "modified": "2026-04-29T14:23:06.253Z",
             "description": "[PUBLOAD](https://attack.mitre.org/software/S1228) has renamed malicious files to mimic legitimate file names such as adobe_wf.exe.(Citation: 2022 November_TrendMicro_Earth Preta_Toneshell_Pubload)",
             "relationship_type": "uses",
             "source_ref": "malware--3824852d-1957-4712-9da0-38143723c060",

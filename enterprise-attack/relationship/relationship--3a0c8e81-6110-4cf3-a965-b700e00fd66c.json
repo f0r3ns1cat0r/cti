@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6c1fd61c-4f1f-4ad7-b0f7-b14b74aafa6f",
+    "id": "bundle--246bb87c-e5ea-4ef3-b773-2dc485d5c5db",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--3a0c8e81-6110-4cf3-a965-b700e00fd66c",
             "created": "2019-10-07T19:05:49.030Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Unit42 BabyShark Apr 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:43:25.739Z",
+            "modified": "2026-04-29T14:23:05.999Z",
             "description": "[BabyShark](https://attack.mitre.org/software/S0414) has a [PowerShell](https://attack.mitre.org/techniques/T1059/001)-based remote administration ability that can implement a PowerShell or C# based keylogger.(Citation: Unit42 BabyShark Apr 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--d1b7830a-fced-4be3-a99c-f495af9d9e1b",
             "target_ref": "attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

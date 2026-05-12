@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2eb5fba2-e34f-4606-a3f3-a777ccc4d73c",
+    "id": "bundle--40ea5e4c-98dc-40c1-9c7d-d59994098847",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--45269484-5a48-48a5-b0b5-23f4f792e06e",
             "created": "2025-09-29T20:45:01.844Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "BushidoToken Qilin RaaS JUN 2024",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-09-29T20:45:01.844Z",
+            "modified": "2026-04-29T14:23:06.020Z",
             "description": "[Water Galura](https://attack.mitre.org/groups/G1050) operates a news channel on Telegram to make announcements for the [Qilin](https://attack.mitre.org/software/S1242) RaaS.(Citation: BushidoToken Qilin RaaS JUN 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--be8847e0-9512-45db-895e-f871ab6d3820",

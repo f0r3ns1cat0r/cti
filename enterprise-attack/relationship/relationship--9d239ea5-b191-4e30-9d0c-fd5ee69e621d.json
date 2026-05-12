@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3b4c94b7-8ffb-4218-98a6-e62644b1cb26",
+    "id": "bundle--fadeed2b-cbe7-483e-8253-5f817240d4cb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9d239ea5-b191-4e30-9d0c-fd5ee69e621d",
             "created": "2022-02-02T22:02:29.899Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "BiZone Lizar May 2021",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:35:13.360Z",
+            "modified": "2026-04-29T14:23:06.139Z",
             "description": "[Lizar](https://attack.mitre.org/software/S0681) has used PowerShell scripts.(Citation: BiZone Lizar May 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--f74a5069-015d-4404-83ad-5ca01056c0dc",
             "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

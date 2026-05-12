@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1e19c116-d0b5-43e8-8df0-a530b7de8864",
+    "id": "bundle--bfab3c70-373a-4c4b-8b7b-2c405e069b4e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e4465d76-d212-4f14-8493-c9c5d7c8a6f4",
             "created": "2019-04-16T17:43:42.914Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "FireEye APT33 Guardrail",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:14:39.814Z",
+            "modified": "2026-04-29T14:23:06.236Z",
             "description": "[POWERTON](https://attack.mitre.org/software/S0371) can install a Registry Run key for persistence.(Citation: FireEye APT33 Guardrail)",
             "relationship_type": "uses",
             "source_ref": "malware--e85cae1a-bce3-4ac4-b36b-b00acac0567b",
             "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

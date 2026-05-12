@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e804b11a-81ba-41b4-962c-eddaa1015eca",
+    "id": "bundle--0e562ece-2a67-4ae6-93a9-597c08c2fc15",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--e601ccd0-3b36-4ef9-b2de-9784539ecb75",
             "created": "2022-10-13T15:45:00.433Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "BlackBerry Amadey 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:53:59.941Z",
+            "modified": "2026-04-29T14:23:06.238Z",
             "description": "[Amadey](https://attack.mitre.org/software/S1025) has used HTTP for C2 communications.(Citation: BlackBerry Amadey 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--05318127-5962-444b-b900-a9dcfe0ff6e9",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

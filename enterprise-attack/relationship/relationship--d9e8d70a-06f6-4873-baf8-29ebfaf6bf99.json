@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--946412a3-77da-4228-965d-7c9270db44bc",
+    "id": "bundle--0297d45c-7f92-4a57-864a-31812962eed5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d9e8d70a-06f6-4873-baf8-29ebfaf6bf99",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "F-Secure The Dukes",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T16:12:53.714Z",
+            "modified": "2026-04-29T14:23:06.223Z",
             "description": "[MiniDuke](https://attack.mitre.org/software/S0051) uses HTTP and HTTPS for command and control.(Citation: F-Secure The Dukes)(Citation: ESET Dukes October 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--5e7ef1dc-7fb6-4913-ac75-e06113b59e0c",
             "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

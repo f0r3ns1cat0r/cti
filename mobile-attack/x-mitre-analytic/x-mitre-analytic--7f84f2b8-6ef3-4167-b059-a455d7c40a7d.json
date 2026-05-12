@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--09b4b32f-4790-48f7-b7aa-b8e2dc788bc0",
+    "id": "bundle--35e6fe08-b82f-478a-9ef9-cb4fc9411667",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-29T17:51:41.189Z",
+            "modified": "2026-05-12T16:30:18.379Z",
             "name": "Analytic 1683",
             "description": "Defender correlates an app escalating file visibility (permissions/flags, legacy storage modes) with enumeration of other apps\u2019 storage or exported ContentProviders, followed by bulk reads/copies from target paths (including shared/external storage) and optional archive/encode then share/upload. Sequence: storage capability/permission gain \u2192 target discovery (provider queries, directory listing) \u2192 high-volume cross-app data reads from writable/shared paths \u2192 archive/encode \u2192 exfil/share within a short window.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

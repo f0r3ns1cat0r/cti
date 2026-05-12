@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ad4d28e5-4484-4b35-9618-5117de6d95f5",
+    "id": "bundle--46eab906-8b7e-43b3-9b7e-d6a6869e4582",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7d527d88-29d3-40d8-9347-48b0f788fcc3",
             "created": "2025-10-23T02:23:41.283Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Sekoia ClickFake 2025",
@@ -43,7 +44,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-23T02:23:41.283Z",
+            "modified": "2026-04-29T14:23:06.097Z",
             "description": "[Contagious Interview](https://attack.mitre.org/groups/G1052) had identified and solicited victims through social media such as LinkedIn, X, and Telegram.(Citation: Sekoia ClickFake 2025)(Citation: Validin Contagious Interview North Korea ClickFix January 2025)(Citation: SecurityScorecard Contagious Interview October 2024)(Citation: SecurityScorecard Contagious Interview FamousChollima October 2024)(Citation: PaloAlto ContagiousInterview BeaverTail InvisibleFerret November 2023)(Citation: PaloAlto Unit42 ContagiousInterview BeaverTail InvisibileFerret October 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--46599a4a-77ee-4697-9474-2683b6464859",

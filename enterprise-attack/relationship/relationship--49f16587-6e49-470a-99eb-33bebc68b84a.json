@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7b01f824-3fe4-45f5-89fa-2c6b89f43524",
+    "id": "bundle--5f1024ae-7edd-44eb-a556-550021db5fd6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--49f16587-6e49-470a-99eb-33bebc68b84a",
             "created": "2025-10-16T16:38:46.562Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA Medusa Group Medusa Ransomware March 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-16T16:38:46.562Z",
+            "modified": "2026-04-29T14:23:06.026Z",
             "description": "[Medusa Group](https://attack.mitre.org/groups/G1051) has cleared command history by running the PowerShell command `Remove-Item (Get-PSReadlineOption).HistorySavePath`.(Citation: CISA Medusa Group Medusa Ransomware March 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--918da025-04bd-48af-b6c4-f3e4d1b915eb",

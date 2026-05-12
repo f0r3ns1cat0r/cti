@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--78dc3412-d245-42e7-84f2-db138ba91892",
+    "id": "bundle--0294a3e9-332d-4df4-9c9d-be57693a07c1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--cdf90f2f-5ea8-44a2-bd90-d607c5270a06",
             "created": "2026-04-09T20:38:29.582Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Microsoft Shai-Hulud December 2025",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-09T20:38:29.582Z",
+            "modified": "2026-04-29T14:23:06.207Z",
             "description": "[Shai-Hulud](https://attack.mitre.org/software/S9008) has utilized PowerShell `Invoke-WebRequest` to download and install the malicious payload.(Citation: Microsoft Shai-Hulud December 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--de376fb9-1093-4f59-8d13-aed61042701d",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--82d43604-5bbe-472e-9d5b-9f1544bd7646",
+    "id": "bundle--b125ba92-06c0-4eb0-a4c8-0540b99e849f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9daabee7-614e-499a-be20-e39a404f15ee",
             "created": "2024-12-30T19:46:05.812Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Cisco MagicRAT 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:35:21.848Z",
+            "modified": "2026-04-29T14:23:06.140Z",
             "description": "[MagicRAT](https://attack.mitre.org/software/S1182) exfiltrates data via HTTP over existing command and control channels.(Citation: Cisco MagicRAT 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--858b0f9d-3a2a-437e-a058-afe72154f6da",
             "target_ref": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }
