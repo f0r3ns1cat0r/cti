@@ -1,0 +1,38 @@
+name: Publish GitHub Release
+
+on:
+  push:
+    tags:
+      - "ATT&CK-v*"
+
+permissions:
+  contents: write
+
+jobs:
+  publish-release:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      TAG_NAME: ${{ github.ref_name }}
+      REPOSITORY: ${{ github.repository }}
+      RELEASE_CONFIG: .github/release.env
+    steps:
+      - name: Check out tagged commit
+        uses: actions/checkout@v4
+
+      - name: Publish release from tag
+        run: |
+          version="${TAG_NAME#ATT&CK-v}"
+          source "${RELEASE_CONFIG}"
+          notes="See release notes for the content changes [here](https://attack.mitre.org/resources/updates/${UPDATES_MONTH_FILE})
+          See a summary of STIX data model changes [here](https://mitre-attack.github.io/attack-data-model/schemas/changelog-schema/)
+          Changelog for v${OLD_VERSION} - v${version} [Details](https://attack.mitre.org/docs/changelogs/v${OLD_VERSION}-v${version}/changelog-detailed.html) ([JSON](https://attack.mitre.org/docs/changelogs/v${OLD_VERSION}-v${version}/changelog.json))"
+
+          gh release create "${TAG_NAME}" \
+            enterprise-attack/enterprise-attack.json \
+            mobile-attack/mobile-attack.json \
+            ics-attack/ics-attack.json \
+            --repo "${REPOSITORY}" \
+            --verify-tag \
+            --title "ATT&CK version ${version}" \
+            --notes "${notes}"
