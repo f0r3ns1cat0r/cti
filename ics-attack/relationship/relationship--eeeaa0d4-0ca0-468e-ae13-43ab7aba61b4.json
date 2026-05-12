@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f3644179-080c-4a91-818e-1fba32475674",
+    "id": "bundle--86313108-42b6-42f3-bee2-f1ad456396e3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--eeeaa0d4-0ca0-468e-ae13-43ab7aba61b4",
             "created": "2020-09-21T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Keith Stouffer May 2015",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:27:19.009Z",
+            "modified": "2026-04-29T14:23:06.250Z",
             "description": "Consider configuration and use of a network-wide authentication service such as Active Directory, LDAP, or RADIUS capabilities which can be found in ICS devices. (Citation: Keith Stouffer May 2015) (Citation: Schweitzer Engineering Laboratories August 2015)\n",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--2f0160b7-e982-49d7-9612-f19b810f1722",
             "target_ref": "attack-pattern--cd2c76a4-5e23-4ca5-9c40-d5e0604f7101",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

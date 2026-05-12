@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7b4b9e7a-c79a-4ab0-9944-a9d0f858670f",
+    "id": "bundle--903fcb49-bbed-4504-9b4d-d8606622b0a0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--3f261739-b6ec-4a86-94a3-146929f9facf",
             "created": "2024-11-20T23:28:20.295Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Dragos FROSTYGOOP 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:02:04.869Z",
+            "modified": "2026-04-29T14:23:06.011Z",
             "description": "In [FrostyGoop Incident](https://attack.mitre.org/campaigns/C0041), the adversary caused the victim controllers to report incorrect measurements by modifying parameters.(Citation: Dragos FROSTYGOOP 2024)",
             "relationship_type": "uses",
             "source_ref": "campaign--1169ff24-b35f-4d8d-8cf3-643a2834227f",
             "target_ref": "attack-pattern--097924ce-a9a9-4039-8591-e0deedfb8722",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

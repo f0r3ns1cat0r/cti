@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2a5362bc-183c-4c91-a6bf-6b3f365baf83",
+    "id": "bundle--33f701ff-595c-489e-b3f6-b1fd5dbfd84a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T16:19:22.209Z",
+            "modified": "2026-04-29T14:23:05.924Z",
             "description": "Allow for code signing of any project files stored at rest to prevent unauthorized tampering. Ensure the signing keys are not easily accessible on the same system.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--71eb7dad-07eb-4bbc-9df0-ac57bf2fba4a",

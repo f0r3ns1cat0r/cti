@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6b214de5-7373-46d1-a4ef-92f7e011541d",
+    "id": "bundle--1d2f727c-8b6e-4fac-a93d-f1e6edf833e5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T19:46:57.236Z",
+            "modified": "2026-04-29T14:23:05.936Z",
             "description": "ICS environments typically have more statically defined devices, therefore minimize the use of both IT discovery protocols (e.g., DHCP, LLDP) and discovery functions in automation protocols.(Citation: D. Parsons and D. Wylie September 2019)(Citation: Colin Gray) Examples of automation protocols with discovery capabilities include OPC UA Device Discovery (Citation: Josh Rinaldi April 2016), BACnet(Citation: Aditya K Sood July 2019), and Ethernet/IP.(Citation: Langner November 2018)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--52c7a1a9-3a78-4528-a44f-cd7b0fa3541a",

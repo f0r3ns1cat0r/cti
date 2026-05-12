@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--040e9ac5-b639-4204-a2e7-621cd22354a7",
+    "id": "bundle--6fc786b5-10e0-4fc1-9d39-eda05b3a56da",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T00:56:16.357Z",
+            "modified": "2026-05-12T15:12:00.731Z",
             "name": "Encrypt Sensitive Information",
             "description": "Protect sensitive data-at-rest with strong encryption.",
             "labels": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3afb5644-776f-45b6-a50c-80735edc5cb5",
+    "id": "bundle--ab3be831-1f7b-42ee-9720-e6aadf3c0ee5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T20:06:22.552Z",
+            "modified": "2026-04-29T14:23:06.029Z",
             "description": "[Triton](https://attack.mitre.org/software/S1009) uses a Python script that is capable of detecting Triconex controllers on the network by sending a specific UDP broadcast packet over port 1502. (Citation: DHS CISA February 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--80099a91-4c86-4bea-9ccb-dac55d61960e",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c7070e5e-d3a8-4c7b-adf3-b002270a8025",
+    "id": "bundle--a9bd3d16-1359-4424-8dc8-679e87ecb359",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T00:54:03.965Z",
+            "modified": "2026-05-12T15:12:00.731Z",
             "name": "Authorization Enforcement",
             "description": "The device or system should restrict read, manipulate, or execute privileges to only authenticated users who require access based on approved security policies.  Role-based Access Control (RBAC) schemes can help reduce the overhead of assigning permissions to the large number of devices within an ICS. For example, IEC 62351 provides examples of roles used to support common system operations within the electric power sector  (Citation: International Electrotechnical Commission July 2020), while IEEE 1686 defines standard permissions for users of IEDs. (Citation: Institute of Electrical and Electronics Engineers January 2014)",
             "labels": [

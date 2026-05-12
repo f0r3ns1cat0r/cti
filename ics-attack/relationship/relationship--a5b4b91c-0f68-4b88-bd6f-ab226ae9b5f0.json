@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a05d53ab-b68a-4efb-b430-9125f2633cde",
+    "id": "bundle--7714010f-ab81-4a34-91ea-1cf48c973594",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T18:39:02.307Z",
+            "modified": "2026-04-29T14:23:06.151Z",
             "description": "[LockerGoga](https://attack.mitre.org/software/S0372) has disabled all the network interfaces on the system via netsh.exe to include Wi-Fi.(Citation: LockerGoga Revisited)(Citation: Kevin Beaumont)(Citation: Detecting LockerGoga)",
             "relationship_type": "uses",
             "source_ref": "malware--5af7a825-2d9f-400d-931a-e00eb9e27f48",

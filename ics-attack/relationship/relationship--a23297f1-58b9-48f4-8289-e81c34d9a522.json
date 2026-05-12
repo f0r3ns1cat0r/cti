@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--76542087-f957-4d9d-9518-51e6e00b68e1",
+    "id": "bundle--2814a7a5-361e-4745-b54d-ab937bc011af",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T17:35:02.270Z",
+            "modified": "2026-04-29T14:23:06.146Z",
             "description": "All field controllers should require users to authenticate for all remote or local management sessions. The authentication mechanisms should also support [Account Use Policies](https://attack.mitre.org/mitigations/M0936), [Password Policies](https://attack.mitre.org/mitigations/M0927), and [User Account Management](https://attack.mitre.org/mitigations/M0918).",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--66cfe23e-34b6-4583-b178-ed6a412db2b0",

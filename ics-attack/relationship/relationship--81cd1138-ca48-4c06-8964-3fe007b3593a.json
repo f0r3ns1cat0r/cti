@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7e3c35a8-33b5-4a4a-b1f2-2f11579e6fb5",
+    "id": "bundle--daa37024-1048-42cf-b8b4-8ccaeda70f40",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-12-24T17:47:20.456Z",
+            "modified": "2026-04-29T14:23:06.103Z",
             "description": "Authenticate connections from software and devices to prevent unauthorized systems from accessing protected management functions.\n",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--72e46e53-e12d-4106-9c70-33241b6ed549",

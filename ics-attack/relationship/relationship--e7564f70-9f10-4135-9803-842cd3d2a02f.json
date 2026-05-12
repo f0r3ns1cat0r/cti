@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a4e977e2-b9d3-46f4-8a0e-6acf9f5f31e4",
+    "id": "bundle--db6f9bb7-ec9e-4d2e-b465-39c1b72fea6f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:26:25.760Z",
+            "modified": "2026-04-29T14:23:06.240Z",
             "description": "Patch the BIOS and EFI as necessary.\n",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--97f33c84-8508-45b9-8a1d-cac921828c9e",

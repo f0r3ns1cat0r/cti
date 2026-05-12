@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9382711e-413b-46a0-9b8e-ced18ebbbe20",
+    "id": "bundle--41b554e2-27cc-461c-b04a-41f81129fc95",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-16T16:41:53.549Z",
+            "modified": "2026-05-12T15:12:00.775Z",
             "name": "File Modification",
             "description": "Changes made to a file, including updates to its contents, metadata, access permissions, or attributes. These modifications may indicate legitimate activity (e.g., software updates) or unauthorized changes (e.g., tampering, ransomware, or adversarial modifications). Examples: \n\n- Content Modifications: Changes to the content of a configuration file, such as modifying `/etc/ssh/sshd_config` on Linux or `C:\\Windows\\System32\\drivers\\etc\\hosts` on Windows.\n- Permission Changes: Altering file permissions to allow broader access, such as changing a file from `644` to `777` on Linux or modifying NTFS permissions on Windows.\n- Attribute Modifications: Changing a file's attributes to hidden, read-only, or system on Windows.\n- Timestamp Manipulation: Adjusting a file's creation or modification timestamp using tools like `touch` in Linux or timestomping tools on Windows.\n- Software or System File Changes: Modifying system files such as `boot.ini`, kernel modules, or application binaries.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

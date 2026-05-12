@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8aa952ae-a8ce-4dce-b05c-1c1aea410101",
+    "id": "bundle--1b539d95-ea91-4dc2-b369-9bf34ebadc14",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,14 +12,14 @@
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/matrices/ics-attack",
+                    "url": "https://attack.mitre.org/matrices/ics",
                     "external_id": "ics-attack"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-14T17:36:35.980Z",
+            "modified": "2026-05-12T15:12:00.780Z",
             "name": "ATT&CK for ICS",
             "description": "Below are the tactics and techniques representing the MITRE ATT&CK Matrix for ICS.",
             "tactic_refs": [

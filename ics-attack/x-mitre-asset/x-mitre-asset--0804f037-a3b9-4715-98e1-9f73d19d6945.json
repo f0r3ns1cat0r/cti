@@ -1,11 +1,10 @@
 {
     "type": "bundle",
-    "id": "bundle--36e811c4-49a7-4c59-a770-08ef9168eaba",
+    "id": "bundle--508b4db1-3d0c-4b90-941e-11671dec2c9f",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-asset",
-            "spec_version": "2.1",
             "id": "x-mitre-asset--0804f037-a3b9-4715-98e1-9f73d19d6945",
             "created": "2023-09-28T15:13:07.950Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -25,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T00:57:53.372Z",
+            "modified": "2026-05-12T15:12:00.768Z",
             "name": "Virtual Private Network (VPN) Server",
             "description": "A VPN server is a device that is used to establish a secure network tunnel between itself and other remote VPN devices, including field VPNs. VPN servers can be used to establish a secure connection with a single remote device, or to securely bridge all traffic between two separate networks together by encapsulating all data between those networks. VPN servers typically support remote network services that are used by field VPNs to initiate the establishment of the secure VPN tunnel between the field device and server.",
             "x_mitre_sectors": [

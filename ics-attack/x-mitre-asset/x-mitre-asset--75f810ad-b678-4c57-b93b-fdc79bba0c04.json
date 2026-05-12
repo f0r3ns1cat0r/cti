@@ -1,11 +1,10 @@
 {
     "type": "bundle",
-    "id": "bundle--36b8328e-58f7-4590-89d8-4262dff5e595",
+    "id": "bundle--eee5f045-4462-4bc4-b93a-f626797bb9f4",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-asset",
-            "spec_version": "2.1",
             "id": "x-mitre-asset--75f810ad-b678-4c57-b93b-fdc79bba0c04",
             "created": "2023-09-28T14:46:42.566Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -20,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-27T16:47:33.077Z",
+            "modified": "2026-05-12T15:12:00.768Z",
             "name": "Intelligent Electronic Device (IED)",
             "description": "An Intelligent Electronic Device (IED) is a type of specialized field device that is designed to perform specific operational functions, frequently for protection, monitoring, or control within the electric sector. IEDs are typically used to both acquire telemetry and execute tailored control algorithms/actions based on customizable parameters/settings. An IED is usually implemented as a dedicated embedded device and supports various network automation protocols to communicate with RTUs and Control Servers.",
             "x_mitre_sectors": [

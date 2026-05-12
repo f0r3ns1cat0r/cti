@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--503c1482-d2cd-4b2b-871f-9d818896ca73",
+    "id": "bundle--68ac6163-68c4-461d-8f6d-a0c84a103210",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:26:56.507Z",
+            "modified": "2026-04-29T14:23:06.077Z",
             "description": "Implement network allowlists to minimize serial comm port access to only authorized hosts, such as comm servers and RTUs.\n",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--aadac250-bcdc-44e3-a4ae-f52bd0a7a16a",

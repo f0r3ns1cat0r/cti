@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d0859fe0-2323-4bb8-ad67-7b6f5d02d200",
+    "id": "bundle--65299037-88c1-4664-a22c-cbe7352b1ce4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:02:55.057Z",
+            "modified": "2026-04-29T14:23:06.113Z",
             "description": "[Industroyer2](https://attack.mitre.org/software/S1072) is capable of sending command messages from the compromised device to target remote stations to open data channels, retrieve the location and values of Information Object Addresses (IOAs), and modify the IO state values through Select Before Operate I/O, Select/Execute, and Invert Default State operations.(Citation: Industroyer2 Mandiant April 2022)(Citation: Industroyer2 Forescout July 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--6a0d0ea9-b2c4-43fe-a552-ac41a3009dc5",

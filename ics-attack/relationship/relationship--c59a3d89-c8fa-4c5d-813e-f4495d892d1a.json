@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a811c81f-2263-4e3e-b2ac-2932b4cd08b7",
+    "id": "bundle--98f55d5d-6250-420e-8e81-e84f75a7af96",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c59a3d89-c8fa-4c5d-813e-f4495d892d1a",
             "created": "2019-03-25T19:13:54.947Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Joe Slowik April 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:04:36.946Z",
+            "modified": "2026-04-29T14:23:06.196Z",
             "description": "[WannaCry](https://attack.mitre.org/software/S0366) initially infected IT networks, but by means of an exploit (particularly the SMBv1-targeting MS17-010 vulnerability) spread to industrial networks. (Citation: Joe Slowik April 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--75ecdbf1-c2bb-4afc-a3f9-c8da4de8c661",
             "target_ref": "attack-pattern--85a45294-08f1-4539-bf00-7da08aa7b0ee",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

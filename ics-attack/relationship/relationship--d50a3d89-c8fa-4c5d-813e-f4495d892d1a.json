@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--36821f3a-7e2f-4c6a-8b0c-0f34dfc3c971",
+    "id": "bundle--f4b81915-7ad3-4645-b64d-a50a9756c2e8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d50a3d89-c8fa-4c5d-813e-f4495d892d1a",
             "created": "2019-03-25T19:13:54.947Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Joe Slowik April 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:04:55.118Z",
+            "modified": "2026-04-29T14:23:06.216Z",
             "description": "[WannaCry](https://attack.mitre.org/software/S0366) can move laterally through industrial networks by means of the SMB service. (Citation: Joe Slowik April 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--75ecdbf1-c2bb-4afc-a3f9-c8da4de8c661",
             "target_ref": "attack-pattern--ead7bd34-186e-4c79-9a4d-b65bcce6ed9d",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

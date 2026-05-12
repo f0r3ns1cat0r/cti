@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--65834319-d291-459b-951e-d7f668b3f1eb",
+    "id": "bundle--17f14936-da9a-482f-8d30-cc2e1ebd486e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a6519c11-e9d4-4b6f-8d92-8efaa2144c28",
             "created": "2021-04-13T12:28:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Davey Winder June 2020",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:03:59.465Z",
+            "modified": "2026-04-29T14:23:06.152Z",
             "description": "[EKANS](https://attack.mitre.org/software/S0605) infection resulted in a temporary production loss within a Honda manufacturing plant. (Citation: Davey Winder June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--00e7d565-9883-4ee5-b642-8fd17fd6a3f5",
             "target_ref": "attack-pattern--63b6942d-8359-4506-bfb3-cf87aa8120ee",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

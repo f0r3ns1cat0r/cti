@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dc26490f-b6d5-4745-af32-7136fd5b10be",
+    "id": "bundle--b82f331e-1661-4292-b996-5128fe4994f4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "attack-pattern--c5e3cdbc-0387-4be9-8f83-ff5c0865f377",
             "created": "2020-05-21T17:43:26.506Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -23,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:49:21.744Z",
+            "modified": "2026-05-12T15:12:00.715Z",
             "name": "Screen Capture",
             "description": "Adversaries may attempt to perform screen capture of devices in the control system environment. Screenshots may be taken of workstations, HMIs, or other devices that display environment-relevant process, device, reporting, alarm, or related data. These device displays may reveal information regarding the ICS process, layout, control, and related schematics. In particular, an HMI can provide a lot of important industrial process information. (Citation: ICS-CERT October 2017) Analysis of screen captures may provide the adversary with an understanding of intended operations and interactions between critical devices.",
             "kill_chain_phases": [
@@ -32,7 +33,7 @@
                     "phase_name": "collection"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "ics-attack"
@@ -42,8 +43,7 @@
             "x_mitre_platforms": [
                 "None"
             ],
-            "x_mitre_version": "1.0",
-            "revoked": false
+            "x_mitre_version": "1.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8f574f82-e238-44a4-b59e-34d73a22f8e5",
+    "id": "bundle--0d8b42d0-de7c-4c89-81b7-c487de9c80ac",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T19:47:16.123Z",
+            "modified": "2026-05-12T15:12:00.774Z",
             "name": "Command Execution",
             "description": "Command Execution involves monitoring and capturing the execution of textual commands (including shell commands, cmdlets, and scripts) within an operating system or application. These commands may include arguments or parameters and are typically executed through interpreters such as `cmd.exe`, `bash`, `zsh`, `PowerShell`, or programmatic execution. Examples: \n\n- Windows Command Prompt\n    - dir \u2013 Lists directory contents.\n    - net user \u2013 Queries or manipulates user accounts.\n    - tasklist \u2013 Lists running processes.\n- PowerShell\n    - Get-Process \u2013 Retrieves processes running on a system.\n    - Set-ExecutionPolicy \u2013 Changes PowerShell script execution policies.\n    - Invoke-WebRequest \u2013 Downloads remote resources.\n- Linux Shell\n    - ls \u2013 Lists files in a directory.\n    - cat /etc/passwd \u2013 Reads the user accounts file.\n    - curl http://malicious-site.com \u2013 Retrieves content from a malicious URL.\n- Container Environments\n    - docker exec \u2013 Executes a command inside a running container.\n    - kubectl exec \u2013 Runs commands in Kubernetes pods.\n- macOS Terminal\n    - open \u2013 Opens files or URLs.\n    - dscl . -list /Users \u2013 Lists all users on the system.\n    - osascript -e \u2013 Executes AppleScript commands.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

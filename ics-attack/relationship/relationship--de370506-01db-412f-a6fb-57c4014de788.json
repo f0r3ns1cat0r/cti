@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a5ae27cd-1d5d-42e4-8123-75e9acd659bb",
+    "id": "bundle--7144f6b8-c920-45d2-97de-d99bfad53582",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T17:32:39.523Z",
+            "modified": "2026-04-29T14:23:06.228Z",
             "description": "Utilize code signatures to verify the integrity and authenticity of programs downloaded to the device.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--71eb7dad-07eb-4bbc-9df0-ac57bf2fba4a",

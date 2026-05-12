@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--f7b36678-5f2b-42cd-b771-1bd2c750f5c4",
+    "id": "bundle--75e14540-5404-4f9b-b432-035936da3cdb",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--4ea060f9-f6fc-4122-9544-70afd567ea10",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.677Z",
             "name": "Detection of Block Serial COM",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -29,8 +30,7 @@
             ],
             "x_mitre_analytic_refs": [
                 "x-mitre-analytic--354b93da-06e9-4634-a5fd-7f9b7b3a9d5a"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

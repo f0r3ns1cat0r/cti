@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7474794e-ab8f-4729-8b6a-7e82017fb51f",
+    "id": "bundle--9f19ee10-8d0d-4105-b218-332d488c3909",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T15:52:40.357Z",
+            "modified": "2026-04-29T14:23:06.049Z",
             "description": "The encryption of firmware should be considered to prevent adversaries from identifying possible vulnerabilities within the firmware.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--7f153c28-e5f1-4764-88fb-eea1d9b0ad4a",

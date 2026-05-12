@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d7941dd3-a541-4019-9190-02dcde66948e",
+    "id": "bundle--59bc0b72-32cc-4f56-ae7e-efde0f32ecfd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T20:20:11.148Z",
+            "modified": "2026-04-29T14:23:06.105Z",
             "description": "During the [2025 Poland Wiper Attacks](https://attack.mitre.org/campaigns/C0063), the adversaries executed PowerShell commands on the Human Machine Interface (HMI) to make configuration changes that enabled administrative shares and created a new firewall rule to enable traffic over port 445 as well as conducted network reconnaissance activities.(Citation: CERT Polska)\n\nDuring the [2025 Poland Wiper Attacks](https://attack.mitre.org/campaigns/C0063), the adversaries executed PowerShell commands on the domain controller that collected and exfiltrated the SAM and SYSTEM registry hives and the Active Directory database (ntds.dit).(Citation: CERT Polska)\n\nDuring the [2025 Poland Wiper Attacks](https://attack.mitre.org/campaigns/C0063), the adversaries logged into the Mikronika RTUs via SSH, with root privileges, and executed Linux commands to delete all the files on the system resulting in device failure.(Citation: CERT Polska)\n",
             "relationship_type": "uses",
             "source_ref": "campaign--a6aba167-5ada-4812-9da1-912c0e73335d",

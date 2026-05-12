@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--88ef68ee-c2d1-4339-aea3-3b63da08addc",
+    "id": "bundle--63cfe222-a639-45a1-945f-55dc4f0b5ad8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T16:43:29.753Z",
+            "modified": "2026-04-29T14:23:05.994Z",
             "description": "Ensure proper network segmentation is followed to protect critical servers and devices.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--1e7ccfc0-94c8-496e-8d27-032120892291",

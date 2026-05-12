@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--37b10203-d7a1-44ff-baa5-1082c89aa72d",
+    "id": "bundle--383c8b7a-f2b9-47fa-bc2e-13491c6dd779",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:33:52.139Z",
+            "modified": "2026-05-12T16:30:18.375Z",
             "name": "Analytic 2055",
             "description": "Monitor asset alarms which may help identify a loss of communications. Consider correlating alarms with other data sources that indicate traffic has been blocked, such as network traffic. In cases where alternative methods of communicating with outstations exist, alarms may still be visible even if Wi-Fi messages are blocked.\n\nMonitor for a loss of network communications, which may indicate this technique is being used.\n\nMonitor for lack of operational process data which may help identify a loss of communications. This will not directly detect the technique\u2019s execution, but instead may provide additional evidence that the technique has been used and may complement other detections.\n\nMonitor application logs for changes to settings and other events associated with network protocols that may be used to block communications.\n\nMonitor for the termination of processes or services associated with ICS automation protocols and application software which could help detect blocked communications.\n",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

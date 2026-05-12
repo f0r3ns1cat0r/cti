@@ -1,11 +1,10 @@
 {
     "type": "bundle",
-    "id": "bundle--f4e1b6de-d652-469b-90a1-f0fb2c06caf2",
+    "id": "bundle--81bbbeaf-9d58-4a38-a474-d5211b1f977c",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "intrusion-set",
-            "spec_version": "2.1",
             "id": "intrusion-set--68ba94ab-78b8-43e7-83e2-aed3466882c6",
             "created": "2018-01-16T16:13:52.465Z",
             "revoked": true,
@@ -26,7 +25,7 @@
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_domains": [
-                "ics-attack"
+                "enterprise-attack"
             ]
         }
     ]

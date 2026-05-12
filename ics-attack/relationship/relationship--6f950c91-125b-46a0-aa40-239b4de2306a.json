@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d1bdf78b-442f-4d28-8481-1685a1ad0449",
+    "id": "bundle--f03d69c3-cee3-4764-b7bb-4e32c022b0c4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,16 +8,17 @@
             "id": "relationship--6f950c91-125b-46a0-aa40-239b4de2306a",
             "created": "2023-09-28T21:14:03.305Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:03:02.130Z",
+            "modified": "2026-04-29T14:23:06.077Z",
             "relationship_type": "targets",
             "source_ref": "attack-pattern--2d0d40ad-22fa-4cc8-b264-072557e1364b",
             "target_ref": "x-mitre-asset--ecb81a8b-022e-4529-a404-55cffca7d3a3",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

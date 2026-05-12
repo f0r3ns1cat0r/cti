@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--264b795f-4d59-430e-b571-008a8fc11b20",
+    "id": "bundle--ff7a4671-21f5-4fc2-a317-6662a4b10188",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T19:36:36.508Z",
+            "modified": "2026-04-29T14:23:06.198Z",
             "description": "When at rest, project files should be encrypted to prevent unauthorized changes.(Citation: National Institute of Standards and Technology April 2013)\n",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--9f99fcfd-772e-4e63-9d39-e45612e546dc",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--734b5b0e-10df-44b4-9b10-fa86a28d1aeb",
+    "id": "bundle--14f76770-d1dc-4eb5-87f3-5328e049082e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:02:30.068Z",
+            "modified": "2026-04-29T14:23:06.036Z",
             "description": "Ensure embedded controls and network devices are protected through access management, as these devices often have unknown hardcoded accounts which could be used to gain unauthorized access.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--3992ce42-43e9-4bea-b8db-a102ec3ec1e3",

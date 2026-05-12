@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6092d5f6-f56c-4a28-82d7-36f9385eb6d3",
+    "id": "bundle--4c7cc68d-e587-4f29-900d-e848f5e0f3e9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:33:57.629Z",
+            "modified": "2026-05-12T16:30:18.378Z",
             "name": "Analytic 2049",
             "description": "Monitor for unexpected changes to project files, although if the malicious modification occurs in tandem with legitimate changes it will be difficult to isolate the unintended changes by analyzing only file systems modifications.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

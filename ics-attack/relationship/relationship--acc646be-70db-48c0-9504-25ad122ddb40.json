@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9b27c4d6-0f40-4c8d-8c7c-d6b21fde9181",
+    "id": "bundle--97206c7e-372f-49ac-9993-e6808b5428d6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T22:33:32.825Z",
+            "modified": "2026-04-29T14:23:06.160Z",
             "relationship_type": "targets",
             "source_ref": "attack-pattern--6008c1f0-1b68-4614-8f5b-a547436b8855",
             "target_ref": "x-mitre-asset--14932ed5-1098-4cc1-9f57-159ab7366787",

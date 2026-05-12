@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9dbc1948-9248-431a-a399-87699312bebc",
+    "id": "bundle--d58fcd74-632e-4cbe-bb35-e96631d7c099",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:25:12.890Z",
+            "modified": "2026-04-29T14:23:05.919Z",
             "description": "Filter for protocols and payloads associated with firmware activation or updating activity.\n",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--11f242bc-3121-438c-84b2-5cbd46a4bb17",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dccf64a4-38a1-4e28-a56f-05a05e5e6e3c",
+    "id": "bundle--a7109264-596a-4181-a32a-fd0490e3a993",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T18:35:28.172Z",
+            "modified": "2026-04-29T14:23:06.046Z",
             "description": "[LockerGoga](https://attack.mitre.org/software/S0372) had blocked network communications by disabling all the network interfaces on the system via netsh.exe.(Citation: LockerGoga Revisited)(Citation: Kevin Beaumont)(Citation: Detecting LockerGoga)",
             "relationship_type": "uses",
             "source_ref": "malware--5af7a825-2d9f-400d-931a-e00eb9e27f48",

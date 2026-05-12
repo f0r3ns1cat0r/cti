@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bc562588-713f-4154-b043-83078d206350",
+    "id": "bundle--cd77b346-07df-42e1-b895-5e739a266347",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T16:32:27.293Z",
+            "modified": "2026-04-29T14:23:06.026Z",
             "description": "Ensure proper network segmentation is followed to protect critical systems and devices.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--1e7ccfc0-94c8-496e-8d27-032120892291",

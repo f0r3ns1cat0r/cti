@@ -1,11 +1,10 @@
 {
     "type": "bundle",
-    "id": "bundle--315e4540-e50e-4d0f-8be0-75a8084dd90e",
+    "id": "bundle--12501902-ac97-4740-974a-c599ea51de65",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--ff6456fc-576d-4da5-b561-b58f70961b15",
             "created": "2026-04-22T16:29:50.802Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -20,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:30:16.130Z",
+            "modified": "2026-05-12T16:30:18.391Z",
             "name": "Detection of Insecure Credentials",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a921c99c-6a1e-4645-b346-c383ee6d84e6",
+    "id": "bundle--c1d98e99-572e-45fd-b8df-b8e734dafe7d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T00:50:32.432Z",
+            "modified": "2026-05-12T15:12:00.730Z",
             "name": "Static Network Configuration",
             "description": "Configure hosts and devices to use static network configurations when possible, protocols that require dynamic discovery/addressing (e.g., ARP, DHCP, DNS) can be used to manipulate network message forwarding and enable various AiTM attacks. This mitigation may not always be usable due to limited device features or challenges introduced with different network configurations.",
             "labels": [

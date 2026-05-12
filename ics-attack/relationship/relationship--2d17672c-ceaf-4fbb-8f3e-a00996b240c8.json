@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dbb89bce-2164-4c4d-9204-2f52e14da63c",
+    "id": "bundle--f9d5f89d-7475-47cd-b953-5fa875b457c2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-22T21:43:53.991Z",
+            "modified": "2026-04-29T14:23:05.966Z",
             "description": "During the [2025 Poland Wiper Attacks](https://attack.mitre.org/campaigns/C0063), the adversaries wiped devices and also damaged Mikronika RTUs, Hitachi Relion Protection and Control Relays (IEDs), and HMI workstations resulting in a loss of communications and view between the facility and the distribution system operators (DSO).(Citation: CERT Polska)(Citation: Dragos ELECTRUM JAN 2026)",
             "relationship_type": "uses",
             "source_ref": "campaign--a6aba167-5ada-4812-9da1-912c0e73335d",

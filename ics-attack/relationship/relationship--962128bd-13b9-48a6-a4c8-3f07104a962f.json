@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--67a5abd1-8f20-426d-b1f7-75db9999f0b5",
+    "id": "bundle--a8362d7b-7d2e-43c2-aa9f-c3b2141be25d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T15:53:41.931Z",
+            "modified": "2026-04-29T14:23:06.130Z",
             "description": "Devices that allow remote management of firmware should require authentication before allowing any changes. The authentication mechanisms should also support [Account Use Policies](https://attack.mitre.org/mitigations/M0936), [Password Policies](https://attack.mitre.org/mitigations/M0927), and [User Account Management](https://attack.mitre.org/mitigations/M0918).",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--66cfe23e-34b6-4583-b178-ed6a412db2b0",

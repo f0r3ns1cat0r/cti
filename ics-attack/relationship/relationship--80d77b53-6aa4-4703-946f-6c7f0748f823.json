@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bb44e337-3e6d-4bd7-a1f3-31e21e879ab0",
+    "id": "bundle--640f5fe7-425d-494c-9d24-a65ca2fe7c84",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:24:32.756Z",
+            "modified": "2026-04-29T14:23:06.102Z",
             "description": "Perform integrity checks of firmware before uploading it on a device. Utilize cryptographic hashes to verify the firmware has not been tampered with by comparing it to a trusted hash of the firmware. This could be from trusted data sources (e.g., vendor site) or through a third-party verification service.\n",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--bcf91ebc-f316-4e19-b2f6-444e9940c697",

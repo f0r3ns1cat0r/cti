@@ -1,11 +1,10 @@
 {
     "type": "bundle",
-    "id": "bundle--e27629db-4758-4658-93c7-4c040639972f",
+    "id": "bundle--0fe552f4-0918-41de-b2d6-f3f31d8c9c98",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-asset",
-            "spec_version": "2.1",
             "id": "x-mitre-asset--986c455b-0f43-42b6-8360-33ac48bd9990",
             "created": "2023-09-28T14:43:05.105Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -25,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-27T16:47:46.663Z",
+            "modified": "2026-05-12T15:12:00.768Z",
             "name": "Programmable Logic Controller (PLC)",
             "description": "A Programmable Logic Controller (PLC) is an embedded programmable control device. PLCs typically utilize a modular architecture with separate modules used to support its processing capabilities, communication mediums, and I/O interfaces. PLCs allow for the deployment of customized programs/logic to control or monitor an operational process. This logic is defined using industry specific programming languages, such as IEC 61131 (Citation: IEC February 2013), which define the set of tasks and program organizational units (POUs) included in the device\u2019s programs.  PLCs also typically have distinct operating modes (e.g., Remote, Run, Program, Stop) which are used to determine when the device can be programmed or whether it should execute the custom logic.",
             "x_mitre_sectors": [

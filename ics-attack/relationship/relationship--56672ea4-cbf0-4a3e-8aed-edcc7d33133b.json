@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--11bc0aa4-1a20-49fa-b033-a41e3d8b9b17",
+    "id": "bundle--982787e8-d83b-446c-b2f7-fb65739261a2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--56672ea4-cbf0-4a3e-8aed-edcc7d33133b",
             "created": "2020-09-21T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Karen Scarfone; Paul Hoffman September 2009",
@@ -33,14 +34,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:25:30.145Z",
+            "modified": "2026-04-29T14:23:06.043Z",
             "description": "Segment operational assets and their management devices based on their functional role within the process. Enabling more strict isolation to more critical control and operational information within the control environment. (Citation: Karen Scarfone; Paul Hoffman September 2009) (Citation: Keith Stouffer May 2015) (Citation: Department of Homeland Security September 2016) (Citation: Dwight Anderson 2014) \n",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--1e7ccfc0-94c8-496e-8d27-032120892291",
             "target_ref": "attack-pattern--8e7089d3-fba2-44f8-94a8-9a79c53920c4",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

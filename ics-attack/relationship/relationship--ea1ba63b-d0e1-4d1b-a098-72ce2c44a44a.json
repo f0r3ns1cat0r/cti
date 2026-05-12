@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5f74c6f7-3763-471e-9200-9d08334283c5",
+    "id": "bundle--402ef6e5-66f0-4b83-b4fc-038eea0a744e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T15:38:37.483Z",
+            "modified": "2026-04-29T14:23:06.244Z",
             "description": "Protocols used for control functions should provide authenticity through MAC functions or digital signatures. If not, utilize bump-in-the-wire devices or VPNs to enforce communication authenticity between devices that are not capable of supporting this (e.g., legacy controllers, RTUs).",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--c7257b6e-4159-4771-b1f3-2bb93adaecac",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fefceba2-b6f6-4b2d-84aa-469fa035a6ef",
+    "id": "bundle--df4b5ef2-d4e9-4654-9cab-68640693753b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d8911566-f622-4a01-b765-514dbbfd8201",
             "created": "2022-09-28T20:27:01.345Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Wylie-22",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:04:58.493Z",
+            "modified": "2026-04-29T14:23:06.221Z",
             "description": "[INCONTROLLER](https://attack.mitre.org/software/S1045) can deploy Tcpdump to sniff network traffic and collect PCAP files.(Citation: Wylie-22) ",
             "relationship_type": "uses",
             "source_ref": "malware--d3aa1058-b1b3-4c29-a3ba-9a9b90ccd93b",
             "target_ref": "attack-pattern--38213338-1aab-479d-949b-c81b66ccca5c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

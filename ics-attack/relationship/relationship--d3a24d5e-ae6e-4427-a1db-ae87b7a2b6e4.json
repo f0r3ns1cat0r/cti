@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fb161b1c-02cc-4cbe-bbf6-c2815afd7f9d",
+    "id": "bundle--4bd488b8-3b05-4b00-af11-2be7f8787cf1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T15:21:19.990Z",
+            "modified": "2026-04-29T14:23:06.215Z",
             "description": "Unauthorized connections can be prevented by statically defining the hosts and ports used for automation protocol connections.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--52c7a1a9-3a78-4528-a44f-cd7b0fa3541a",

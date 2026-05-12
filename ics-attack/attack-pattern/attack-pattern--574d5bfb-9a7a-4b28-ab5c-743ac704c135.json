@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7fb56028-5e94-4881-835e-8128cfd9c4b1",
+    "id": "bundle--b355ac07-ab7c-4db8-a2db-a8ddd549c93b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T00:18:49.737Z",
+            "modified": "2026-05-12T15:12:00.634Z",
             "name": "Program Append",
             "description": "Adversaries may execute a program append to a PLC to update parts of an existing program. It may or may not require stopping the PLC which may allow it to continue running during transfer and reconfiguration without interruption to process control. Adversaries may leverage this approach to minimize downtime and evade detection. \n\nThe ability to perform a program append to the PLC typically relies on access to a workstation with the vendor-specific PLC programming software installed.\n",
             "kill_chain_phases": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a7a354cb-be34-410a-ae75-11f15ceb1128",
+    "id": "bundle--41b75bf8-5815-4b8a-92e3-aa2b2b4cdf23",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T00:46:09.190Z",
+            "modified": "2026-05-12T15:12:00.730Z",
             "name": "Network Segmentation",
             "description": "Architect sections of the network to isolate critical systems, functions, or resources. Use physical and logical segmentation to prevent access to potentially sensitive systems and information. Use a DMZ to contain any internet-facing services that should not be exposed from the internal network.  Restrict network access to only required systems and services. In addition, prevent systems from other networks or business functions (e.g., enterprise) from accessing critical process control systems. For example, in IEC 62443, systems within the same secure level should be grouped into a zone, and access to that zone is restricted by a conduit, or mechanism to restrict data flows between zones by segmenting the network. (Citation: IEC February 2019) (Citation: IEC August 2013)",
             "labels": [

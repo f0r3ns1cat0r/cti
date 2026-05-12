@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e58425e6-f7d0-423a-9fe9-b5f7143a2596",
+    "id": "bundle--a034ca68-4c2b-4776-9d5e-c3a25ff2617b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:02:44.640Z",
+            "modified": "2026-04-29T14:23:06.056Z",
             "description": "[Industroyer](https://attack.mitre.org/software/S0604) uses the first COM port from the configuration file for the communication and the other two COM ports are opened to prevent other processes accessing them. This may block processes or operators from getting reporting messages from a device. (Citation: Anton Cherepanov, ESET June 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--e401d4fe-f0c9-44f0-98e6-f93487678808",

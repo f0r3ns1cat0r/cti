@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4938eb50-8b44-4453-a234-5fc35a223eb0",
+    "id": "bundle--ae57cca8-d4c9-4928-90f0-0df96b9c81b6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T18:33:47.956Z",
+            "modified": "2026-05-12T15:12:00.774Z",
             "name": "File Metadata",
             "description": "contextual information about a file, including attributes such as the file's name, size, type, content (e.g., signatures, headers, media), user/owner, permissions, timestamps, and other related properties. File metadata provides insights into a file's characteristics and can be used to detect malicious activity, unauthorized modifications, or other anomalies. Examples: \n\n- File Ownership and Permissions: Checking the owner and permissions of a critical configuration file like /etc/passwd on Linux or C:\\Windows\\System32\\config\\SAM on Windows.\n- Timestamps: Analyzing the creation, modification, and access timestamps of a file.\n- File Content and Signatures: Extracting the headers of an executable file to verify its signature or detect packing/obfuscation.\n- File Attributes: Analyzing attributes like hidden, system, or read-only flags in Windows.\n- File Hashes: Generating MD5, SHA-1, or SHA-256 hashes of files to compare against threat intelligence feeds.\n- File Location: Monitoring files located in unusual directories or paths, such as temporary or user folders.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

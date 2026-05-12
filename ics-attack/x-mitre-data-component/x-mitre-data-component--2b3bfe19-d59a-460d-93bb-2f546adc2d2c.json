@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--72320def-8d97-4833-87f5-413ee88ddb55",
+    "id": "bundle--1e78200f-324b-43b2-8932-e1e777b45704",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T17:17:05.280Z",
+            "modified": "2026-05-12T15:12:00.770Z",
             "name": "File Creation",
             "description": "A new file is created on a system or network storage. This action often signifies an operation such as saving a document, writing data, or deploying a file. Logging these events helps identify legitimate or potentially malicious file creation activities. Examples include logging file creation events (e.g., Sysmon Event ID 11 or Linux auditd logs). ",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

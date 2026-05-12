@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7093e02a-c8e4-43ce-b812-e4bd71561225",
+    "id": "bundle--999545ad-63ef-4a6a-aa7d-19388996b8c8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:03:40.724Z",
+            "modified": "2026-04-29T14:23:06.260Z",
             "description": "[Triton](https://attack.mitre.org/software/S1009) is able to read, write and execute code in memory on the safety controller at an arbitrary address within the devices firmware region. This allows the malware to make changes to the running firmware in memory and  modify how the device operates. (Citation: DHS CISA February 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--80099a91-4c86-4bea-9ccb-dac55d61960e",

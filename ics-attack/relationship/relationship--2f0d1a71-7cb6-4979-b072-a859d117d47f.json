@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dd8215dd-21be-4361-82ff-f08957da051c",
+    "id": "bundle--9c820af7-532b-46a7-bdac-2dd54b6715ec",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--2f0d1a71-7cb6-4979-b072-a859d117d47f",
             "created": "2023-09-27T14:47:29.337Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Booz Allen Hamilton",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:01:44.177Z",
+            "modified": "2026-04-29T14:23:05.969Z",
             "description": "During the [2015 Ukraine Electric Power Attack](https://attack.mitre.org/campaigns/C0028), [Sandworm Team](https://attack.mitre.org/groups/G0034) used valid accounts to laterally move through VPN connections and dual-homed systems. Sandworm Team used the credentials of valid accounts to interact with client applications and access employee workstations hosting HMI applications.  (Citation: Ukraine15 - EISAC - 201603)(Citation: Booz Allen Hamilton)",
             "relationship_type": "uses",
             "source_ref": "campaign--46421788-b6e1-4256-b351-f8beffd1afba",
             "target_ref": "attack-pattern--cd2c76a4-5e23-4ca5-9c40-d5e0604f7101",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

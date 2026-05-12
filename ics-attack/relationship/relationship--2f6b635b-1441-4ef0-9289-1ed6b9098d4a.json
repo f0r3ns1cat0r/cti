@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--62849746-b05d-4536-a895-158f56287a3a",
+    "id": "bundle--4d0ec773-aff7-4d07-82fd-51bff42a9975",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--2f6b635b-1441-4ef0-9289-1ed6b9098d4a",
             "created": "2020-09-21T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "DHS  National Urban Security Technology Laboratory April 2019",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:25:02.545Z",
+            "modified": "2026-04-29T14:23:05.971Z",
             "description": "Reduce the range of RF communications to their intended operating range when possible. Propagation reduction methods may include (i) reducing transmission power on wireless signals, (ii) adjusting antenna gain to prevent extensions beyond organizational boundaries, and (iii) employing RF shielding techniques to block excessive signal propagation.  (Citation: DHS  National Urban Security Technology Laboratory April 2019)\n",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--fce6866f-9a87-4d3e-a73c-f02d8937fe0e",
             "target_ref": "attack-pattern--0fe075d5-beac-4d02-b93e-0f874997db72",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

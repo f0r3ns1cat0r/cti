@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--31095341-fecc-4ae8-9cab-d6a4fa2357c8",
+    "id": "bundle--007ca2c3-d61e-46fc-b9e5-6026e0086b8f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T18:22:40.476Z",
+            "modified": "2026-05-12T15:12:00.775Z",
             "name": "OS API Execution",
             "description": "Calls made by a process to operating system-provided Application Programming Interfaces (APIs). These calls are essential for interacting with system resources such as memory, files, and hardware, or for performing system-level tasks. Monitoring these calls can provide insight into a process's intent, especially if the process is malicious.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

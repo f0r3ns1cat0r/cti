@@ -1,11 +1,10 @@
 {
     "type": "bundle",
-    "id": "bundle--b21f8e71-c4a2-4e73-ba9a-3c6341060a08",
+    "id": "bundle--a49c54dd-4279-4e6f-b08c-a2fabc2397e2",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--527668a3-cc0c-48c2-856a-a45615817366",
             "created": "2026-04-22T22:56:48.997Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -20,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:28:13.555Z",
+            "modified": "2026-05-12T16:30:18.390Z",
             "name": "Detection of Block Wi-Fi",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,

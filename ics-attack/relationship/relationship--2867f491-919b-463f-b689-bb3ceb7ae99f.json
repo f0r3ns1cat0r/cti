@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7835909c-59b9-4ca5-9e91-b3b496a9301c",
+    "id": "bundle--24bb90f1-7259-4879-a999-86b898143b8f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--2867f491-919b-463f-b689-bb3ceb7ae99f",
             "created": "2022-09-28T20:31:07.486Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Dragos-Pipedream",
@@ -28,14 +29,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:01:38.377Z",
+            "modified": "2026-04-29T14:23:05.960Z",
             "description": "[INCONTROLLER](https://attack.mitre.org/software/S1045) can use the CODESYS protocol to remotely connect to Schneider PLCs and perform maintenance functions on the device.(Citation: Wylie-22)\n\n[INCONTROLLER](https://attack.mitre.org/software/S1045) can use Telnet to upload payloads and execute commands on Omron PLCs.\t(Citation: Brubaker-Incontroller)(Citation: Dragos-Pipedream) The malware can also use HTTP-based CGI scripts (e.g., cpu.fcgi, ecat.fcgi) to gain administrative access to the device.(Citation: Wylie-22) ",
             "relationship_type": "uses",
             "source_ref": "malware--d3aa1058-b1b3-4c29-a3ba-9a9b90ccd93b",
             "target_ref": "attack-pattern--e1f9cdd2-9511-4fca-90d7-f3e92cfdd0bf",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

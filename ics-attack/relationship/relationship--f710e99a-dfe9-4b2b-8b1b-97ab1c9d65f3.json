@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dd900fcf-a5b3-4460-b880-de3ef3f99e59",
+    "id": "bundle--635431bd-0115-4b61-8769-2b91ecf4d78c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T16:18:54.342Z",
+            "modified": "2026-04-29T14:23:06.261Z",
             "description": "Review the integrity of project files to verify they have not been modified by adversary behavior. Verify a cryptographic hash for the file with a known trusted version, or look for other indicators of modification (e.g., timestamps).",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--bcf91ebc-f316-4e19-b2f6-444e9940c697",

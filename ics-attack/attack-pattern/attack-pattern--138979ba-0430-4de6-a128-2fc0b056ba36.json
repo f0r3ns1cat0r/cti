@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8acf0b5f-6171-41fd-b5e2-dfc7c8de1da9",
+    "id": "bundle--977338e5-819f-44cf-ad4e-c18f18baa7ba",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-15T19:58:08.228Z",
+            "modified": "2026-05-12T15:12:00.621Z",
             "name": "Loss of View",
             "description": "Adversaries may cause a sustained or permanent loss of view where the ICS equipment will require local, hands-on operator intervention; for instance, a restart or manual operation. By causing a sustained reporting or visibility loss, the adversary can effectively hide the present state of operations. This loss of view can occur without affecting the physical processes themselves. (Citation: Corero) (Citation: Michael J. Assante and Robert M. Lee) (Citation: Tyson Macaulay)",
             "kill_chain_phases": [
@@ -43,7 +43,7 @@
                     "phase_name": "impact"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "ics-attack"

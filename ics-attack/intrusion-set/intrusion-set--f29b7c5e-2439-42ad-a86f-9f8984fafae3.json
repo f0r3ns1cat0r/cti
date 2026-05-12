@@ -1,26 +1,10 @@
 {
     "type": "bundle",
-    "id": "bundle--50087d5d-dd0c-440a-81f4-5a77c70d2981",
+    "id": "bundle--c1ae03e1-67b0-4907-85b4-2bc0e06095c8",
     "spec_version": "2.0",
     "objects": [
         {
-            "modified": "2024-08-14T15:24:19.141Z",
-            "name": "HEXANE",
-            "description": "[HEXANE](https://attack.mitre.org/groups/G1001) is a cyber espionage threat group that has targeted oil & gas, telecommunications, aviation, and internet service provider organizations since at least 2017. Targeted companies have been located in the Middle East and Africa, including Israel, Saudi Arabia, Kuwait, Morocco, and Tunisia. [HEXANE](https://attack.mitre.org/groups/G1001)'s TTPs appear similar to [APT33](https://attack.mitre.org/groups/G0064) and [OilRig](https://attack.mitre.org/groups/G0049) but due to differences in victims and tools it is tracked as a separate entity.(Citation: Dragos Hexane)(Citation: Kaspersky Lyceum October 2021)(Citation: ClearSky Siamesekitten August 2021)(Citation: Accenture Lyceum Targets November 2021)",
-            "aliases": [
-                "HEXANE",
-                "Lyceum",
-                "Siamesekitten",
-                "Spirlin"
-            ],
-            "x_mitre_deprecated": false,
-            "x_mitre_version": "2.3",
-            "x_mitre_contributors": [
-                "Dragos Threat Intelligence",
-                "Mindaugas Gudzis, BT Security"
-            ],
             "type": "intrusion-set",
-            "spec_version": "2.1",
             "id": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
             "created": "2018-10-17T00:14:20.652Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -72,8 +56,23 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "modified": "2026-05-12T15:12:00.732Z",
+            "name": "HEXANE",
+            "description": "[HEXANE](https://attack.mitre.org/groups/G1001) is a cyber espionage threat group that has targeted oil & gas, telecommunications, aviation, and internet service provider organizations since at least 2017. Targeted companies have been located in the Middle East and Africa, including Israel, Saudi Arabia, Kuwait, Morocco, and Tunisia. [HEXANE](https://attack.mitre.org/groups/G1001)'s TTPs appear similar to [APT33](https://attack.mitre.org/groups/G0064) and [OilRig](https://attack.mitre.org/groups/G0049) but due to differences in victims and tools it is tracked as a separate entity.(Citation: Dragos Hexane)(Citation: Kaspersky Lyceum October 2021)(Citation: ClearSky Siamesekitten August 2021)(Citation: Accenture Lyceum Targets November 2021)",
+            "aliases": [
+                "HEXANE",
+                "Lyceum",
+                "Siamesekitten",
+                "Spirlin"
+            ],
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "2.3",
+            "x_mitre_attack_spec_version": "3.3.0",
+            "x_mitre_contributors": [
+                "Dragos Threat Intelligence",
+                "Mindaugas Gudzis, BT Security"
+            ],
             "x_mitre_domains": [
                 "enterprise-attack",
                 "ics-attack"

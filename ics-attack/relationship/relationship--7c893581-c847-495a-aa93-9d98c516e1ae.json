@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9b05ad02-eff5-4565-a517-e4b12208c7cc",
+    "id": "bundle--23a9a26e-5906-4759-a3e8-45d8dd249ba1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--7c893581-c847-495a-aa93-9d98c516e1ae",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Nicolas Falliere, Liam O Murchu, Eric Chien February 2011",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:03:17.887Z",
+            "modified": "2026-04-29T14:23:06.096Z",
             "description": "[Stuxnet](https://attack.mitre.org/software/S0603)'s infection sequence consists of code blocks and data blocks that will be downloaded to the PLC to alter its behavior. (Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)",
             "relationship_type": "uses",
             "source_ref": "malware--088f1d6e-0783-47c6-9923-9c79b2af43d4",
             "target_ref": "attack-pattern--be69c571-d746-4b1f-bdd0-c0c9817e9068",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

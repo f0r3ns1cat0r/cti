@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2622a637-37e6-494d-a523-7091beae95c0",
+    "id": "bundle--9f760600-6174-4973-9c46-46f617e38784",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--c5dd0d66-99f1-4efd-b0f9-bf9f9118ff16",
             "created": "2020-06-10T18:36:54.638Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Trend Micro Cyclops Blink March 2022",
@@ -43,14 +44,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:45:51.619Z",
+            "modified": "2026-04-29T14:23:06.196Z",
             "description": "(Citation: NCSC Sandworm Feb 2020)(Citation: US District Court Indictment GRU Unit 74455 October 2020)(Citation: UK NCSC Olympic Attacks October 2020)(Citation: Secureworks IRON VIKING )(Citation: Trend Micro Cyclops Blink March 2022)(Citation: mandiant_apt44_unearthing_sandworm)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
             "target_ref": "malware--5719af9d-6b16-46f9-9b28-fb019541ddbb",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

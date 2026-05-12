@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0c78a0df-782e-4961-b50b-5086791dd694",
+    "id": "bundle--fcf19537-b6c7-463f-8cc2-d18ef30d8872",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T19:00:06.758Z",
+            "modified": "2026-04-29T14:23:06.182Z",
             "description": "Use host-based allowlists to prevent devices from accepting connections from unauthorized systems. For example, allowlists can be used to ensure devices can only connect with master stations or known management/engineering workstations.(Citation: Department of Homeland Security September 2016)\n",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--aadac250-bcdc-44e3-a4ae-f52bd0a7a16a",

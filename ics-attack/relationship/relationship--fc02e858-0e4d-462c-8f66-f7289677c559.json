@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3d34779a-a091-4a91-b2c9-a1cdf35e1ae1",
+    "id": "bundle--8361d621-b559-4290-b5bc-ca4e46ae670c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T16:19:51.453Z",
+            "modified": "2026-04-29T14:23:06.267Z",
             "description": "Ensure permissions restrict project file access to only engineer and technician user groups and accounts.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--f9fcb3ec-6de0-4559-8cd9-ef1c0c7d1971",

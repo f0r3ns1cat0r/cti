@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--488a48c4-7463-479c-9b99-6c009cbfa7f1",
+    "id": "bundle--ecd928f7-8bd9-458e-a935-c76787cf7968",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--5f03ee5d-534c-454c-aae3-b41130b00286",
             "created": "2021-04-13T12:08:26.506Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Dan Goodin March 2017",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:25:37.088Z",
+            "modified": "2026-04-29T14:23:06.054Z",
             "description": "Make it difficult for adversaries to advance their operation through exploitation of undiscovered or unpatched vulnerabilities by using sandboxing. Other types of virtualization and application microsegmentation may also mitigate the impact of some types of exploitation. Risks of additional exploits and weaknesses in these systems may still exist. (Citation: Dan Goodin March 2017)\n",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--059ba11e-e3dc-49aa-84ca-88197f40d4ea",
             "target_ref": "attack-pattern--cfe68e93-ce94-4c0f-a57d-3aa72cedd618",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7d4302b1-7d23-4bcb-ac0c-1386dcaeaa1a",
+    "id": "bundle--9e6999a5-308a-4de8-b456-2d74277f2367",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-15T19:59:18.381Z",
+            "modified": "2026-05-12T15:12:00.723Z",
             "name": "Network Connection Enumeration",
             "description": "Adversaries may perform network connection enumeration to discover information about device communication patterns. If an adversary can inspect the state of a network connection with tools, such as Netstat(Citation: Netstat), in conjunction with [System Firmware](https://attack.mitre.org/techniques/T0857), then they can determine the role of certain devices on the network  (Citation: MITRE). The adversary can also use [Network Sniffing](https://attack.mitre.org/techniques/T0842) to watch network traffic for details about the source, destination, protocol, and content.",
             "kill_chain_phases": [
@@ -38,7 +38,7 @@
                     "phase_name": "discovery"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "ics-attack"

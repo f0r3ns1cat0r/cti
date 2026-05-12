@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--96a80ae5-09ae-4338-8106-4a0a3ac6b296",
+    "id": "bundle--24da3558-b234-45a2-871c-99855f98285c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:26:28.470Z",
+            "modified": "2026-05-12T15:12:00.730Z",
             "name": "Password Policies",
             "description": "Set and enforce secure password policies for accounts.",
             "labels": [
@@ -33,7 +33,7 @@
                 "ics-attack"
             ],
             "x_mitre_version": "1.0",
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

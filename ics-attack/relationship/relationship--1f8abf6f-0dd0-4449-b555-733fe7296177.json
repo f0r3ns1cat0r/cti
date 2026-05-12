@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a364c401-9ae3-4cea-8257-93922d8c8ae7",
+    "id": "bundle--b547ea24-8a31-4a4f-b7da-110b659d4ef9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T18:40:49.819Z",
+            "modified": "2026-04-29T14:23:05.947Z",
             "description": "[Triton](https://attack.mitre.org/software/S1009) leveraged the TriStation protocol to download programs onto Triconex Safety Instrumented System.(Citation: Jos Wetzels January 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--80099a91-4c86-4bea-9ccb-dac55d61960e",

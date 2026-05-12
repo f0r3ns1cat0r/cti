@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fff7a6c4-2e5c-4ae3-a4ce-83acc262e59b",
+    "id": "bundle--d0c74431-4b45-45dd-b351-ce9e21ceb27d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6be4cef2-3d54-4cd8-97df-8a8b37c03605",
             "created": "2020-09-21T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "National Institute of Standards and Technology April 2013",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:25:48.108Z",
+            "modified": "2026-04-29T14:23:06.072Z",
             "description": "Utilize central storage servers for critical operations where possible (e.g., historians) and keep remote backups. For outstations, use local redundant storage for event recorders. Have backup control system platforms, preferably as hot-standbys to respond immediately to data destruction events. (Citation: National Institute of Standards and Technology April 2013)\n",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--ad12819e-3211-4291-b360-069f280cff0a",
             "target_ref": "attack-pattern--493832d9-cea6-4b63-abe7-9a65a6473675",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

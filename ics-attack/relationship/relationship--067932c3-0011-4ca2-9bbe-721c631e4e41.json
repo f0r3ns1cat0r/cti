@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e75971cc-4806-4b13-8248-bd1a917eecd2",
+    "id": "bundle--abf82936-29d2-4d50-b1e0-4c766f8a3364",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--067932c3-0011-4ca2-9bbe-721c631e4e41",
             "created": "2021-04-13T12:45:26.506Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Daavid Hentunen, Antti Tikkanen June 2014",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:00:56.182Z",
+            "modified": "2026-04-29T14:23:05.912Z",
             "description": "The [Backdoor.Oldrea](https://attack.mitre.org/software/S0093) payload gathers server information that includes CLSID, server name, Program ID, OPC version, vendor information, running state, group count, and server bandwidth. This information helps indicate the role the server has in the control process. (Citation: ICS-CERT August 2018) (Citation: Daavid Hentunen, Antti Tikkanen June 2014)",
             "relationship_type": "uses",
             "source_ref": "malware--083bb47b-02c8-4423-81a2-f9ef58572974",
             "target_ref": "attack-pattern--2fedbe69-581f-447d-8a78-32ee7db939a9",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

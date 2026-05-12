@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e456cd6c-6144-4270-aafa-d0695c331b7a",
+    "id": "bundle--f39bbe80-d53c-4137-bd78-9a6dd48d23c4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:26:11.395Z",
+            "modified": "2026-05-12T15:12:00.623Z",
             "name": "Device Restart/Shutdown",
             "description": "Adversaries may forcibly restart or shutdown a device in an ICS environment to disrupt and potentially negatively impact physical processes. Methods of device restart and shutdown exist in some devices as built-in, standard functionalities. These functionalities can be executed using interactive device web interfaces, CLIs, and network protocol commands.\n\nUnexpected restart or shutdown of control system devices may prevent expected response functions happening during critical states.\n\nA device restart can also be a sign of malicious device modifications, as many updates require a shutdown in order to take effect.",
             "kill_chain_phases": [
@@ -28,7 +28,7 @@
                     "phase_name": "inhibit-response-function"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "ics-attack"

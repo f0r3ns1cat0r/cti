@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3bea1843-c64d-46a1-bcb0-6d76ce1f59fe",
+    "id": "bundle--61d308c6-b4f6-4fcc-9cac-ec80962602f4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T15:02:35.035Z",
+            "modified": "2026-04-29T14:23:06.236Z",
             "description": "During the [2025 Poland Wiper Attacks](https://attack.mitre.org/campaigns/C0063), the adversaries used `nslookup` and `ping` to conduct remote system discovery activities.(Citation: CERT Polska)",
             "relationship_type": "uses",
             "source_ref": "campaign--a6aba167-5ada-4812-9da1-912c0e73335d",

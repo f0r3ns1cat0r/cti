@@ -1,11 +1,10 @@
 {
     "type": "bundle",
-    "id": "bundle--391086b4-5ca0-47d2-89b9-b5a5a7ece734",
+    "id": "bundle--1413a46a-7af7-44e3-86df-641983623472",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-asset",
-            "spec_version": "2.1",
             "id": "x-mitre-asset--ecb81a8b-022e-4529-a404-55cffca7d3a3",
             "created": "2023-09-28T14:55:39.339Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -25,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T01:04:14.767Z",
+            "modified": "2026-05-12T15:12:00.768Z",
             "name": "Control Server",
             "description": "Control servers are typically a software platform that runs on a modern server operating system (e.g., MS Windows Server). The server typically uses one or more automation protocols (e.g., Modbus, DNP3) to communicate with the various low-level control devices such as Remote Terminal Units (RTUs) and Programmable Logic Controllers (PLCs). The control server also usually provides an interface/network service to connect with an HMI.",
             "x_mitre_sectors": [

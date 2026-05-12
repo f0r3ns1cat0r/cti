@@ -1,11 +1,10 @@
 {
     "type": "bundle",
-    "id": "bundle--674536d3-38e2-42ec-8beb-4aa351bde5c7",
+    "id": "bundle--3e232a31-37bf-4c28-a2b6-3533f11fbaa4",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-asset",
-            "spec_version": "2.1",
             "id": "x-mitre-asset--2b676abd-8263-49ea-81a4-78a7e1f776fe",
             "created": "2023-09-28T17:57:22.946Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -25,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-27T16:50:21.228Z",
+            "modified": "2026-05-12T15:12:00.768Z",
             "name": "Field I/O",
             "description": "Field I/O are devices that communicate with a controller or data aggregator to either send input data or receive output data. Input data may include readings about a given environment/device state from sensors, while output data may include data sent back to actuators for them to either undertake actions or change parameter values.(Citation: Guidance - NIST SP800-82) These devices are frequently embedded devices running on lightweight embedded operating systems or RTOSes. ",
             "x_mitre_sectors": [

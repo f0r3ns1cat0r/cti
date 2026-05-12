@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cc8cd886-7790-44e9-a88a-6d4309e7385c",
+    "id": "bundle--7db8d6f5-edb0-47db-bc0a-48a9fdae615e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--6ff846b1-9444-45f1-837a-4eeeb16bdfe7",
             "created": "2023-03-30T19:25:22.673Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Industroyer2 Forescout July 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:03:02.767Z",
+            "modified": "2026-04-29T14:23:06.078Z",
             "description": "[Industroyer2](https://attack.mitre.org/software/S1072) leverages a hardcoded list of remote-station IP addresses to iteratively initiate communications and collect information across multiple priority IEC-104 priority levels.(Citation: Industroyer2 Forescout July 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--6a0d0ea9-b2c4-43fe-a552-ac41a3009dc5",
             "target_ref": "attack-pattern--3de230d4-3e42-4041-b089-17e1128feded",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

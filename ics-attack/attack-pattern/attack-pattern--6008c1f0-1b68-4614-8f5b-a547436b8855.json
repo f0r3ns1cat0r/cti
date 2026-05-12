@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c92be924-948e-46e4-8250-78bc668c377b",
+    "id": "bundle--a941e53b-7bbe-4b54-a425-05c0226bdd4f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T19:57:13.444Z",
+            "modified": "2026-05-12T15:12:00.635Z",
             "name": "Ethernet",
             "description": "Adversaries may block access to Ethernet communications to prevent instructions or configurations messages from reaching target systems and devices. Ethernet connections allow for communications between IT and OT systems and devices. Blocking Ethernet communications may also block command and reporting messages.(Citation: Bonnie Zhu, Anthony Joseph, Shankar Sastry 2011)\n\nAn adversary may block Ethernet communications by disabling network interfaces, [Service Stop](https://attack.mitre.org/techniques/T0881), or conducting an [Adversary-in-the-Middle](https://attack.mitre.org/techniques/T0830) attack and dropping the network traffic.\n",
             "kill_chain_phases": [

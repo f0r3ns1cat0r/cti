@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a7aec873-d25e-43d0-b6bd-e6d19c60d251",
+    "id": "bundle--abc172e5-64d1-4c1f-9184-044d6bf4015d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--66eb9d6f-498b-4a9a-94d3-fe808460bb68",
             "created": "2024-09-11T22:50:15.550Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Claroty Fuxnet 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:02:49.271Z",
+            "modified": "2026-04-29T14:23:06.065Z",
             "description": "[Fuxnet](https://attack.mitre.org/software/S1157) initial execution relied on accessing external remote services for victim environments.(Citation: Claroty Fuxnet 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--931e2489-8078-4f9f-85b2-a9211950e75b",
             "target_ref": "attack-pattern--8d2f3bab-507c-4424-b58b-edc977bd215c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

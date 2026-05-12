@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4377f8c8-3b97-4bea-afcc-8be293ea04ef",
+    "id": "bundle--1bb6bb27-04cd-4b8b-957e-3f4287cfbfb5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9515f24c-1c33-4197-b9c9-b9992bc696ca",
             "created": "2021-04-13T11:15:26.506Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Spenneberg, Ralf, Maik Brggemann, and Hendrik Schwartke March 2016",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:03:41.817Z",
+            "modified": "2026-04-29T14:23:06.128Z",
             "description": "[PLC-Blaster](https://attack.mitre.org/software/S1006) copies itself to various Program Organization Units (POU) on the target device.  The POUs include the Data Block, Function, and Function Block. (Citation: Spenneberg, Ralf, Maik Brggemann, and Hendrik Schwartke March 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--4dcff507-5af8-47ce-964a-8d9569e9ccfe",
             "target_ref": "attack-pattern--fc5fda7e-6b2c-4457-b036-759896a2efa2",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--314ddbbe-58a4-4616-8d12-c4da4266da9e",
+    "id": "bundle--546f6c18-76af-4f43-81a4-d65a0b4a80c2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T17:16:58.628Z",
+            "modified": "2026-04-29T14:23:06.164Z",
             "description": "Ensure systems and devices have an alternative method for communicating in the event that Ethernet communication channels become unavailable.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--b11cad63-ef30-4eb8-af0d-6cc46eef3f3e",

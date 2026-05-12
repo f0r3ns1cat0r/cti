@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6088beec-503f-4ddb-b681-048d1ab3dba9",
+    "id": "bundle--70c666f9-6822-46ac-9744-0c6643ea8829",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-15T19:58:56.356Z",
+            "modified": "2026-05-12T15:12:00.706Z",
             "name": "Loss of Control",
             "description": "Adversaries may seek to achieve a sustained loss of control or a runaway condition in which operators cannot issue any commands even if the malicious interference has subsided. (Citation: Corero) (Citation: Michael J. Assante and Robert M. Lee) (Citation: Tyson Macaulay)\n\nThe German Federal Office for Information Security (BSI) reported a targeted attack on a steel mill in its 2014 IT Security Report.(Citation: BSI State of IT Security 2014) These targeted attacks affected industrial operations and resulted in breakdowns of control system components and even entire installations. As a result of these breakdowns, massive impact resulted in damage and unsafe conditions from the uncontrolled shutdown of a blast furnace.",
             "kill_chain_phases": [
@@ -48,7 +48,7 @@
                     "phase_name": "impact"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_contributors": [
                 "Dragos Threat Intelligence"
             ],

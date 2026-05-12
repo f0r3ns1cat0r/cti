@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8070241b-d2ab-4fb9-8f29-72264b9232af",
+    "id": "bundle--4b55d6e4-634b-4b21-908c-8677b83e9f43",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T17:04:07.023Z",
+            "modified": "2026-04-29T14:23:06.126Z",
             "description": "Ensure systems and devices have an alternative method for communicating in the event that communication channels become unavailable.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--b11cad63-ef30-4eb8-af0d-6cc46eef3f3e",

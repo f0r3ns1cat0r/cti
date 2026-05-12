@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1e8d1a0b-dca6-4e70-b5d9-5563e566e70c",
+    "id": "bundle--1537e0ea-199e-43f0-bee1-671ac9e9197b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:25:26.221Z",
+            "modified": "2026-04-29T14:23:06.028Z",
             "description": "Restrict unauthorized devices from accessing serial comm ports.\n",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--1e7ccfc0-94c8-496e-8d27-032120892291",

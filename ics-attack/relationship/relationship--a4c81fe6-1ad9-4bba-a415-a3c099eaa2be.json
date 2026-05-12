@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a304ffe5-885d-4c0f-97e0-3e46da9c0f08",
+    "id": "bundle--264e0f55-406c-439c-a3c8-9afb69165d51",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--a4c81fe6-1ad9-4bba-a415-a3c099eaa2be",
             "created": "2021-04-13T11:15:26.506Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Spenneberg, Ralf, Maik Brggemann, and Hendrik Schwartke March 2016",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:03:58.388Z",
+            "modified": "2026-04-29T14:23:06.149Z",
             "description": "[PLC-Blaster](https://attack.mitre.org/software/S1006) stops the execution of the user program on the target to enable the transfer of its own code. The worm then copies itself to the target and subsequently starts the target PLC again. (Citation: Spenneberg, Ralf, Maik Brggemann, and Hendrik Schwartke March 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--4dcff507-5af8-47ce-964a-8d9569e9ccfe",
             "target_ref": "attack-pattern--2883c520-7957-46ca-89bd-dab1ad53b601",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

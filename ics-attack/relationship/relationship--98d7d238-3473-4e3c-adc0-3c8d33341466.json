@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--165dc5c8-8f85-4fa6-895c-ea7fdaef29c1",
+    "id": "bundle--024a2cde-14c1-48c5-bab6-c76f8832e93f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T17:31:30.672Z",
+            "modified": "2026-04-29T14:23:06.134Z",
             "description": "ll field controllers should restrict the download of programs, including online edits and program appends, to only certain users (e.g., engineers, field technician), preferably through implementing a role-based access mechanism.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--e0d38502-decb-481d-ad8b-b8f0a0c330bd",

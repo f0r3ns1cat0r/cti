@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3d17279c-bf6d-4523-a2d3-e7a65e4650b2",
+    "id": "bundle--826ea905-f0d5-4af4-b6ce-07995df46c39",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--69d19946-72fb-40ce-90fb-0757df8353b5",
             "created": "2024-11-20T23:05:29.090Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Dragos FROSTYGOOP 2024",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:02:54.431Z",
+            "modified": "2026-04-29T14:23:06.069Z",
             "description": "[FrostyGoop](https://attack.mitre.org/software/S1165) communicates using the Modbus protocol over the standard port of TCP 502.(Citation: Dragos FROSTYGOOP 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--b34df04a-9d30-4d84-a03f-0d536ee19a05",
             "target_ref": "attack-pattern--e6c31185-8040-4267-83d3-b217b8a92f07",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

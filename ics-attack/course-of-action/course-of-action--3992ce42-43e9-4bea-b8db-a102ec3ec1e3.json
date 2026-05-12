@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--da859964-1bdf-4ddf-8638-6f43221a1f2d",
+    "id": "bundle--4834004a-be16-4e8d-b9b7-626fd51798a1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T00:47:44.798Z",
+            "modified": "2026-05-12T15:12:00.730Z",
             "name": "Access Management",
             "description": "Access Management technologies can be used to enforce authorization polices and decisions, especially when existing field devices do not provide sufficient capabilities to support user identification and authentication. (Citation: McCarthy, J et al. July 2018) These technologies typically utilize an in-line network device or gateway system to prevent access to unauthenticated users, while also integrating with an authentication service to first verify user credentials. (Citation: Centre for the Protection of National Infrastructure November 2010)",
             "labels": [

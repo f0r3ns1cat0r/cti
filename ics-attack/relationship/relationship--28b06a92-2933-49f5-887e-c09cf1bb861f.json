@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1324db1d-9eb3-401d-ac6a-cd66368775b7",
+    "id": "bundle--029a35fb-1691-433c-b66a-e2b9419cdecc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T17:18:25.444Z",
+            "modified": "2026-04-29T14:23:05.960Z",
             "description": "Implement network allowlists to minimize network access to only authorized hosts.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--aadac250-bcdc-44e3-a4ae-f52bd0a7a16a",

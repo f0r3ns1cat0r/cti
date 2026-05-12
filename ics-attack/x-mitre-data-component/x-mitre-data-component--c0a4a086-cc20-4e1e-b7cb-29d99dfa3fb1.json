@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e1b5a972-8597-41b5-876a-625a5c7a99f0",
+    "id": "bundle--3f13a3fe-b8be-4815-8221-9e43c7396a9e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,14 +12,14 @@
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/data-components/DC0016",
+                    "url": "https://attack.mitre.org/datacomponents/DC0016",
                     "external_id": "DC0016"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-01-29T17:21:27.873Z",
+            "modified": "2026-05-12T15:12:00.778Z",
             "name": "Module Load",
             "description": "When a process or program dynamically attaches a shared library, module, or plugin into its memory space. This action is typically performed to extend the functionality of an application, access shared system resources, or interact with kernel-mode components.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

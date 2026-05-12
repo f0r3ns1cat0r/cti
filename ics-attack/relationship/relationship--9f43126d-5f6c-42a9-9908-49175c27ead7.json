@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--463883d9-a4ac-437c-abe8-f7392cc85c1d",
+    "id": "bundle--2c473152-b643-40f4-a1f4-13a22cebcbcc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--9f43126d-5f6c-42a9-9908-49175c27ead7",
             "created": "2023-03-30T19:27:26.398Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Industroyer2 ESET April 2022",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:35:48.256Z",
+            "modified": "2026-04-29T14:23:06.142Z",
             "description": "(Citation: Industroyer2 ESET April 2022)(Citation: mandiant_apt44_unearthing_sandworm)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
             "target_ref": "malware--6a0d0ea9-b2c4-43fe-a552-ac41a3009dc5",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,11 +1,10 @@
 {
     "type": "bundle",
-    "id": "bundle--54fab86b-e7e7-471b-a242-d4ba80fb9bb5",
+    "id": "bundle--b9acd4f4-9677-45af-9d5f-302c8e3d1412",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-asset",
-            "spec_version": "2.1",
             "id": "x-mitre-asset--69d1b1ef-e918-4cfd-9a98-29debd04cb32",
             "created": "2023-09-28T15:10:05.534Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -30,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-27T17:25:50.475Z",
+            "modified": "2026-05-12T15:12:00.768Z",
             "name": "Safety Controller",
             "description": "Safety controllers are typically a type of field device used to perform the safety critical function. Safety controllers often support the deployment of custom programs/logic, similar to a PLC, but can also be tailored for sector specific functions/applications. The safety controllers typically utilize redundant hardware and processors to ensure they operate reliably if a component fails.",
             "x_mitre_sectors": [

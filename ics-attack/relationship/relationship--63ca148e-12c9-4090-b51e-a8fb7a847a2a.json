@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cbc2e811-bb53-4caf-9b9e-148a34d9442d",
+    "id": "bundle--679aedcf-4e8d-4d55-88cd-54f19c2e56ac",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--63ca148e-12c9-4090-b51e-a8fb7a847a2a",
             "created": "2021-04-13T11:15:26.506Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "DHS CISA February 2019",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:02:43.943Z",
+            "modified": "2026-04-29T14:23:06.061Z",
             "description": "[Triton](https://attack.mitre.org/software/S1009)'s argument-setting and inject.bin shellcode are added to the program table on the Tricon so that they are executed by the firmware once each cycle. (Citation: DHS CISA February 2019) (Citation: Jos Wetzels January 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--80099a91-4c86-4bea-9ccb-dac55d61960e",
             "target_ref": "attack-pattern--09a61657-46e1-439e-b3ed-3e4556a78243",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

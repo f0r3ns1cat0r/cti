@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--681ae092-7bfa-43f8-8fd4-778fef201378",
+    "id": "bundle--27cdfd38-4936-4a48-99cf-6bb75f0b5b97",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T19:45:38.166Z",
+            "modified": "2026-05-12T15:12:00.636Z",
             "name": "Multicast Discovery",
             "description": "Adversaries may perform multicast discovery requests which is when one system or device sends messages to all systems and devices in a pre-defined group on a network (or subnet) and then waits for a response. If a response is received that means the system or device that responded is live and can communicate over that protocol.  Multicast discovery tends to be stealthier than broadcast discovery because every system or device on the network (or subnet) is not being messaged. \n\nOne common OT protocol that has a multicast discovery mechanism is the Process Field Network (PROFINET) Discovery and Configuration Protocol (DCP) with its Identify All requests.(Citation: Cisco Active Discovery)\n",
             "kill_chain_phases": [

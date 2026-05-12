@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9958acfd-81c8-4e68-849f-0cd6168d16bb",
+    "id": "bundle--40cfc094-db01-4974-b7bc-140055ca7e3c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--8f76d408-be8a-478e-8a5a-aab1d1f96572",
             "created": "2018-04-18T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Daavid Hentunen, Antti Tikkanen June 2014",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:03:37.448Z",
+            "modified": "2026-04-29T14:23:06.121Z",
             "description": "Using OPC, a component of [Backdoor.Oldrea](https://attack.mitre.org/software/S0093) gathers any details about connected devices and sends them back to the C2 for the attackers to analyze. (Citation: Daavid Hentunen, Antti Tikkanen June 2014)",
             "relationship_type": "uses",
             "source_ref": "malware--083bb47b-02c8-4423-81a2-f9ef58572974",
             "target_ref": "attack-pattern--3de230d4-3e42-4041-b089-17e1128feded",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

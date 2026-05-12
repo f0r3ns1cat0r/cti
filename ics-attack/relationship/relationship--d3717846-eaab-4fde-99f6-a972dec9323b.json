@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8555a12e-1921-41dd-8988-0c1f5379e18b",
+    "id": "bundle--61168de5-675d-49d0-95c1-38547d4cb269",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d3717846-eaab-4fde-99f6-a972dec9323b",
             "created": "2024-03-27T19:43:45.213Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Dragos-Sandworm-Ukraine-2022",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T22:49:21.362Z",
+            "modified": "2026-04-29T14:23:06.214Z",
             "description": "(Citation: Mandiant-Sandworm-Ukraine-2022)(Citation: Dragos-Sandworm-Ukraine-2022) ",
             "relationship_type": "attributed-to",
             "source_ref": "campaign--df8eb785-70f8-4300-b444-277ba849083d",
             "target_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

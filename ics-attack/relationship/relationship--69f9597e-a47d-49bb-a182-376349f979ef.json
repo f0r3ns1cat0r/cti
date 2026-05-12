@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--43659f65-8d77-40df-8af4-b83f9f134465",
+    "id": "bundle--d4ddb225-5d89-4aaf-8496-2e40a3903e78",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T15:20:53.842Z",
+            "modified": "2026-04-29T14:23:06.069Z",
             "description": "Provide an alternative method for sending critical commands message to outstations, this could include using radio/cell communication to send messages to a field technician that physically performs the control function.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--b11cad63-ef30-4eb8-af0d-6cc46eef3f3e",

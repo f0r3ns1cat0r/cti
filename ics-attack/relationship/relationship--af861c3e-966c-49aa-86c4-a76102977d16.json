@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9f13d89f-7770-4c75-892c-31bb068fd654",
+    "id": "bundle--0b4f9a77-ab15-4465-8a32-cff54597162e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T20:11:55.425Z",
+            "modified": "2026-04-29T14:23:06.164Z",
             "description": "Provide the ability to verify the integrity of programs downloaded on a controller. While techniques like CRCs and checksums are commonly used, they are not cryptographically secure and can be vulnerable to collisions. Preferably cryptographic hash functions (e.g., SHA-2, SHA-3) should be used.(Citation: IEC February 2019)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--bcf91ebc-f316-4e19-b2f6-444e9940c697",

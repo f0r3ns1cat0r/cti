@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--26ea96cd-ecd0-4436-98a3-134600e19008",
+    "id": "bundle--266abcf1-5428-47d7-bfe6-dcb7a79e2d41",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--d1388bba-9869-4e3e-a6c9-430784ad924d",
             "created": "2023-09-27T14:59:13.988Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Ukraine15 - EISAC - 201603",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:04:50.912Z",
+            "modified": "2026-04-29T14:23:06.212Z",
             "description": "During the [2015 Ukraine Electric Power Attack](https://attack.mitre.org/campaigns/C0028), operators were shut out of their equipment either through the denial of peripheral use or the degradation of equipment. Operators were therefore unable to recover from the incident through their traditional means. Much of the power was restored manually. (Citation: Ukraine15 - EISAC - 201603)",
             "relationship_type": "uses",
             "source_ref": "campaign--46421788-b6e1-4256-b351-f8beffd1afba",
             "target_ref": "attack-pattern--a81696ef-c106-482c-8f80-59c30f2569fb",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

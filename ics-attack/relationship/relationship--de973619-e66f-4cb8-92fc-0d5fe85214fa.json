@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cea5e9ad-4d9a-45a8-b0f7-d930df6d02e6",
+    "id": "bundle--3313ee80-2477-4731-b890-f0dd1f5741b0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T01:11:19.464Z",
+            "modified": "2026-04-29T14:23:06.229Z",
             "description": "During the [2025 Poland Wiper Attacks](https://attack.mitre.org/campaigns/C0063), the adversaries used `arp` to conduct remote system discovery activities.(Citation: CERT Polska)",
             "relationship_type": "uses",
             "source_ref": "campaign--a6aba167-5ada-4812-9da1-912c0e73335d",

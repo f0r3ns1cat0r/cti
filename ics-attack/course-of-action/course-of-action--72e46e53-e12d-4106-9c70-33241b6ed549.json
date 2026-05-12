@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--29dfab53-5cb7-4bde-9ddd-1e393f0012fb",
+    "id": "bundle--491fb9e8-1908-4750-b39b-d960e33aa80f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T00:55:20.765Z",
+            "modified": "2026-05-12T15:12:00.731Z",
             "name": "Software Process and Device Authentication",
             "description": "Require the authentication of devices and software processes where appropriate. Devices that connect remotely to other systems should require strong authentication to prevent spoofing of communications. Furthermore, software processes should also require authentication when accessing APIs.",
             "labels": [

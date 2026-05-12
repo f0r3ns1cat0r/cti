@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4f237b15-d299-402a-9dde-a9dfff4b250a",
+    "id": "bundle--efb3294b-87df-4699-9d37-8607b1c01f5e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,14 +12,14 @@
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/data-components/DC0032",
+                    "url": "https://attack.mitre.org/datacomponents/DC0032",
                     "external_id": "DC0032"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-13T15:49:16.424Z",
+            "modified": "2026-05-12T15:12:00.773Z",
             "name": "Process Creation",
             "description": "Refers to the event in which a new process (executable) is initialized by an operating system. This can involve parent-child process relationships, process arguments, and environmental variables. Monitoring process creation is crucial for detecting malicious behaviors, such as execution of unauthorized binaries, scripting abuse, or privilege escalation attempts.. ",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

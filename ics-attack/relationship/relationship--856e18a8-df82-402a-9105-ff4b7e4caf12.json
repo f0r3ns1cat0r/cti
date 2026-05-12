@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--08ea1fa3-9f35-4bd3-8558-c06998376b49",
+    "id": "bundle--73d392a5-ac7a-4276-8989-54fb1ebcfaf5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--856e18a8-df82-402a-9105-ff4b7e4caf12",
             "created": "2024-11-20T23:07:17.528Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Dragos FROSTYGOOP 2024",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:03:28.490Z",
+            "modified": "2026-04-29T14:23:06.107Z",
             "description": "[FrostyGoop](https://attack.mitre.org/software/S1165) is compiled for Windows systems and leverages a Windows-based command line interface.(Citation: Dragos FROSTYGOOP 2024) Modbus interaction functionality is based off a publicly available Github repository for command line input.(Citation: Nozomi BUSTLEBERM 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--b34df04a-9d30-4d84-a03f-0d536ee19a05",
             "target_ref": "attack-pattern--24a9253e-8948-4c98-b751-8e2aee53127c",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

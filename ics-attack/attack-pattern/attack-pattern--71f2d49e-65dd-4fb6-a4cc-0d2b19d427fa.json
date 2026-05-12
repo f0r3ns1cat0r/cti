@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c2b6b159-a963-467b-93de-f44d6c8258ea",
+    "id": "bundle--ae746b23-5f40-4c82-a59d-485818f7b763",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T19:59:42.404Z",
+            "modified": "2026-05-12T15:12:00.641Z",
             "name": "Wi-Fi",
             "description": "Adversaries may block access to Wi-Fi communications to prevent messages from reaching target systems and devices. Wi-Fi connections allow for communications between IT and OT systems and devices. Blocking Wi-Fi communications may also block command and reporting messages.(Citation: Bonnie Zhu, Anthony Joseph, Shankar Sastry 2011)\n\nAn adversary may block Wi-Fi communications by disabling network interfaces, [Service Stop](https://attack.mitre.org/techniques/T0881), conducting an [Adversary-in-the-Middle](https://attack.mitre.org/techniques/T0830) attack and dropping the network traffic, or by jamming the Wi-Fi signal.\n",
             "kill_chain_phases": [

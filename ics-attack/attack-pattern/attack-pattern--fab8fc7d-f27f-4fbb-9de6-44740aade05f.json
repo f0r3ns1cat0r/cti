@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b0372bd4-3edf-440e-be20-aa8713f22cfb",
+    "id": "bundle--9f875b84-1cee-40e1-a016-ddc941b7a45f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:26:20.690Z",
+            "modified": "2026-05-12T15:12:00.726Z",
             "name": "Change Credential",
             "description": "Adversaries may modify software and device credentials to prevent operator and responder access. Depending on the device, the modification or addition of this password could prevent any device configuration actions from being accomplished and may require a factory reset or replacement of hardware. These credentials are often built-in features provided by the device vendors as a means to restrict access to management interfaces.\n\nAn adversary with access to valid or hardcoded credentials could change the credential to prevent future authorized device access. Change Credential may be especially damaging when paired with other techniques such as Modify Program, Data Destruction, or Modify Controller Tasking. In these cases, a device\u2019s configuration may be destroyed or include malicious actions for the process environment, which cannot not be removed through normal device configuration actions. \n\nAdditionally, recovery of the device and original configuration may be difficult depending on the features provided by the device. In some cases, these passwords cannot be removed onsite and may require that the device be sent back to the vendor for additional recovery steps.\n\n\nA chain of incidents occurred in Germany, where adversaries locked operators out of their building automation system (BAS) controllers by enabling a previously unset BCU key. (Citation: German BAS Lockout Dec 2021) \n",
             "kill_chain_phases": [
@@ -33,7 +33,7 @@
                     "phase_name": "inhibit-response-function"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_contributors": [
                 "Felix Eberstaller"
             ],

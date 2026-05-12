@@ -1,11 +1,10 @@
 {
     "type": "bundle",
-    "id": "bundle--0250a6d9-4179-496f-a1a1-bba2467e8b05",
+    "id": "bundle--b3a13ea2-7e9b-412a-ada5-cc51e36f3da7",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--c1645705-a26f-45b2-aa68-ff5c93dfc0f4",
             "created": "2026-04-23T00:43:15.974Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -20,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:30:40.347Z",
+            "modified": "2026-05-12T16:30:18.390Z",
             "name": "Detection of Online Edit",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,

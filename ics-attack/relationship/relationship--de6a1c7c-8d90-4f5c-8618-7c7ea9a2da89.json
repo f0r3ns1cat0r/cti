@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--055c74bf-0185-4a9d-8519-07100b977005",
+    "id": "bundle--00ec1dec-e6f5-49e4-a5c3-593daf91f59d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T15:49:23.881Z",
+            "modified": "2026-04-29T14:23:06.228Z",
             "description": "All devices or systems changes, including all administrative functions, should require authentication. Consider using access management technologies to enforce authorization on all management interface access attempts, especially when the device does not inherently provide strong authentication and authorization functions.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--3992ce42-43e9-4bea-b8db-a102ec3ec1e3",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cfc725ba-a4d9-4327-982b-09001b2e8652",
+    "id": "bundle--a3558dd0-8081-4239-a34a-e784694805d8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T19:31:58.810Z",
+            "modified": "2026-04-29T14:23:05.916Z",
             "description": "Review vendor documents and security alerts for potentially unknown or overlooked default credentials within existing devices.\n",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--5d97c693-e054-48ba-a3a3-eaf6942dfb65",

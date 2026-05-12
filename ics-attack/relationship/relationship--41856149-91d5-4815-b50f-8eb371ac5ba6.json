@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--488f8b85-c520-4788-82e2-dae3ab727152",
+    "id": "bundle--a5118a58-c958-47c8-a9a5-2c1bb0e85a9f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:04:33.468Z",
+            "modified": "2026-04-29T14:23:06.014Z",
             "description": "In the [Maroochy Water Breach](https://attack.mitre.org/campaigns/C0020), the adversary used a dedicated analog two-way radio system to send false data and instructions to pumping stations and the central computer.(Citation: Marshall Abrams July 2008)",
             "relationship_type": "uses",
             "source_ref": "campaign--70cab19e-1745-425e-b3db-c02cd5ff157a",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a9144e20-f35f-4373-91d2-649f94ea8b72",
+    "id": "bundle--760cda24-45ef-4359-ba09-1988b46408be",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--3a7d1db3-9383-4171-8938-382e9b0375c6",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Booz Allen Hamilton",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:01:58.707Z",
+            "modified": "2026-04-29T14:23:06.001Z",
             "description": "[BlackEnergy](https://attack.mitre.org/software/S0089) uses HTTP POST request to contact external command and control servers. (Citation: Booz Allen Hamilton)\n",
             "relationship_type": "uses",
             "source_ref": "malware--54cc1d4f-5c53-4f0e-9ef5-11b4998e82e4",
             "target_ref": "attack-pattern--e076cca8-2f08-45c9-aff7-ea5ac798b387",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

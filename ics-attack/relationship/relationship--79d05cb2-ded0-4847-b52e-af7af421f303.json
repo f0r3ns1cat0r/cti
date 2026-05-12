@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8287efec-6c74-4538-a36c-ee6c03a2145b",
+    "id": "bundle--a929be24-d21e-44be-8372-9b99cac68166",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--79d05cb2-ded0-4847-b52e-af7af421f303",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Kevin Savage and Branko Spasojevic",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:03:13.202Z",
+            "modified": "2026-04-29T14:23:06.092Z",
             "description": "[Flame](https://attack.mitre.org/software/S0143) can collect AutoCAD design data and visio diagrams as well as other documents that may contain operational information. (Citation: Kevin Savage and Branko Spasojevic)",
             "relationship_type": "uses",
             "source_ref": "malware--ff6840c9-4c87-4d07-bbb6-9f50aa33d498",
             "target_ref": "attack-pattern--b7e13ee8-182c-4f19-92a4-a88d7d855d54",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

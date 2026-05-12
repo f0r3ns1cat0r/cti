@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fe0472f2-275c-424b-92ec-83a992a91730",
+    "id": "bundle--208f12b2-790f-42bf-9f99-a049ec29881b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:24:35.268Z",
+            "modified": "2026-04-29T14:23:06.262Z",
             "description": "Devices should authenticate all messages between master and outstation assets.\n",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--72e46e53-e12d-4106-9c70-33241b6ed549",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c64a969f-7b09-4276-a25a-48be1c5540e0",
+    "id": "bundle--de1215e7-d684-4369-85b7-e3b2b1e5710c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T17:33:28.216Z",
+            "modified": "2026-04-29T14:23:06.032Z",
             "description": "Protocols used for device management should authenticate all network messages to prevent unauthorized system changes.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--c7257b6e-4159-4771-b1f3-2bb93adaecac",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7d2ef958-efa9-4e95-82ce-ec3b91fe76a4",
+    "id": "bundle--27bfda8b-7406-4617-a3fe-24c3058d8415",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T14:06:34.173Z",
+            "modified": "2026-04-29T14:23:06.126Z",
             "description": "[INCONTROLLER](https://attack.mitre.org/software/S1045) has the ability to perform scans for TCP port 4840 to identify devices running OPC UA servers.(Citation: Wylie-22)",
             "relationship_type": "uses",
             "source_ref": "malware--d3aa1058-b1b3-4c29-a3ba-9a9b90ccd93b",

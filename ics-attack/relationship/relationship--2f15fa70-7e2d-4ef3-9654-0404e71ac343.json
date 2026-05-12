@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4d3a779c-bdbf-4a78-a0bd-d56d78cd95bf",
+    "id": "bundle--6080b3cd-026b-406d-8f65-09107136a9a3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:01:19.765Z",
+            "modified": "2026-04-29T14:23:05.969Z",
             "description": "[INCONTROLLER](https://attack.mitre.org/software/S1045) can send custom Modbus commands to write register values on Schneider PLCs.(Citation: CISA-AA22-103A) \n\n[INCONTROLLER](https://attack.mitre.org/software/S1045) can send write tag values on OPC UA servers.(Citation: CISA-AA22-103A) ",
             "relationship_type": "uses",
             "source_ref": "malware--d3aa1058-b1b3-4c29-a3ba-9a9b90ccd93b",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7f4c2c50-7b5c-4c55-bb7e-53425b21a141",
+    "id": "bundle--5e9d53fd-fbce-43ae-969a-3d6405136bcb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--82b20c35-88c6-49aa-8241-a59512b17b74",
             "created": "2017-12-14T16:46:06.044Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Nicolas Falliere, Liam O Murchu, Eric Chien February 2011",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:03:25.567Z",
+            "modified": "2026-04-29T14:23:06.104Z",
             "description": "[Stuxnet](https://attack.mitre.org/software/S0603) was able to self-replicate by being spread through removable drives. A willing insider or unknown third party, such as a contractor, may have brought the removable media into the target environment. (Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011) The earliest version of Stuxnet relied on physical installation, infecting target systems when an infected configuration file carried by a USB stick was opened. (Citation: Langer Stuxnet)",
             "relationship_type": "uses",
             "source_ref": "malware--088f1d6e-0783-47c6-9923-9c79b2af43d4",
             "target_ref": "attack-pattern--c267bbee-bb59-47fe-85e0-3ed210337c21",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

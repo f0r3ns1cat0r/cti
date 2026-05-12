@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b786de86-1d37-412b-ab19-6247f26d51a9",
+    "id": "bundle--b72c2a83-d42a-43ac-a5d6-93728a579503",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T14:20:03.889Z",
+            "modified": "2026-04-29T14:23:05.911Z",
             "description": "[INCONTROLLER](https://attack.mitre.org/software/S1045) can perform a UDP multicast scan of UDP port 27127 to identify Schneider PLCs that use that port for the NetManage protocol.(Citation: Dragos-Pipedream)(Citation: Wylie-22)\n",
             "relationship_type": "uses",
             "source_ref": "malware--d3aa1058-b1b3-4c29-a3ba-9a9b90ccd93b",

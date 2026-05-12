@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--88d9420f-9c40-4d83-9f60-185c6bb326c6",
+    "id": "bundle--d40f3ba4-5f72-4b62-b5fc-a461a3c91cc0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--730580d4-d68c-407f-9d09-f379e9aefc7e",
             "created": "2023-03-30T19:25:41.475Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Industroyer2 Forescout July 2022",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:03:05.631Z",
+            "modified": "2026-04-29T14:23:06.082Z",
             "description": "[Industroyer2](https://attack.mitre.org/software/S1072) uses a General Interrogation command to monitor the device\u2019s Information Object Addresses (IOAs) and their IO state values.(Citation: Industroyer2 Forescout July 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--6a0d0ea9-b2c4-43fe-a552-ac41a3009dc5",
             "target_ref": "attack-pattern--2d0d40ad-22fa-4cc8-b264-072557e1364b",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

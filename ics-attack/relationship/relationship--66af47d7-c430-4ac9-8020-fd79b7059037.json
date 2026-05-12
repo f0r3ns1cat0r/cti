@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--49497556-ebb5-4438-8988-9d30ae930bf4",
+    "id": "bundle--19b28948-7366-4855-aec7-f158fbc8f2e8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T14:20:50.156Z",
+            "modified": "2026-04-29T14:23:06.065Z",
             "description": "[INCONTROLLER](https://attack.mitre.org/software/S1045) can use the FINS (Factory Interface Network Service) protocol to scan for and obtain MAC address associated with Omron devices.(Citation: CISA-AA22-103A)(Citation: Wylie-22)",
             "relationship_type": "uses",
             "source_ref": "malware--d3aa1058-b1b3-4c29-a3ba-9a9b90ccd93b",

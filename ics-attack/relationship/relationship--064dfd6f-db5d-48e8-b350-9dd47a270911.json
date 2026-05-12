@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--49f3d378-029a-45dd-b092-e6d52203a12d",
+    "id": "bundle--29ce366c-32e4-4e0a-aa65-9daebdb35885",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--064dfd6f-db5d-48e8-b350-9dd47a270911",
             "created": "2022-09-28T20:22:09.916Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA-AA22-103A",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:00:55.721Z",
+            "modified": "2026-04-29T14:23:05.912Z",
             "description": "[INCONTROLLER](https://attack.mitre.org/software/S1045) can remotely read the OCP UA structure from devices.(Citation: CISA-AA22-103A) ",
             "relationship_type": "uses",
             "source_ref": "malware--d3aa1058-b1b3-4c29-a3ba-9a9b90ccd93b",
             "target_ref": "attack-pattern--25852363-5968-4673-b81d-341d5ed90bd1",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

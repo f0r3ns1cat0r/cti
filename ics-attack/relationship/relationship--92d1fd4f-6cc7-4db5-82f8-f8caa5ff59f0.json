@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--74d1cbae-c3db-48ef-9ed3-05b34287544f",
+    "id": "bundle--6cca095f-0d51-41c2-b185-ca563e42144b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--92d1fd4f-6cc7-4db5-82f8-f8caa5ff59f0",
             "created": "2020-09-21T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "Keith Stouffer May 2015",
@@ -23,14 +24,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:26:13.199Z",
+            "modified": "2026-04-29T14:23:06.125Z",
             "description": "Protect files stored locally with proper permissions to limit opportunities for adversaries to remove indicators of their activity on the system. (Citation: Keith Stouffer May 2015) (Citation: National Institute of Standards and Technology April 2013)\n",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--f9fcb3ec-6de0-4559-8cd9-ef1c0c7d1971",
             "target_ref": "attack-pattern--53a26eee-1080-4d17-9762-2027d5a1b805",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e0518f7e-8f7f-4a15-b6d3-9637664dd0a5",
+    "id": "bundle--7ef54b6b-35ca-4a6d-a566-66ac5983ca31",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T00:01:28.898Z",
+            "modified": "2026-05-12T15:12:00.642Z",
             "name": "Download All",
             "description": "Adversaries may execute a full program download to a PLC to overwrite the entire PLC program and configuration to deploy a new project or make major changes. This typically requires stopping the PLC and adversely impacting control processes.\n\nThe ability to perform a full program download to the PLC typically relies on access to a workstation with the vendor-specific PLC programming software installed.\n",
             "kill_chain_phases": [

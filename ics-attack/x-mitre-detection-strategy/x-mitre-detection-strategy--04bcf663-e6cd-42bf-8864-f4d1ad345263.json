@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--210ac9c0-c63f-4de7-bf2b-215ec1f6f380",
+    "id": "bundle--7a1dd18c-8f7f-4686-92d6-37092dfab3c5",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--04bcf663-e6cd-42bf-8864-f4d1ad345263",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.667Z",
             "name": "Detection of Rootkit",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -29,8 +30,7 @@
             ],
             "x_mitre_analytic_refs": [
                 "x-mitre-analytic--ec695157-8c3c-439b-9925-459c9d4172f0"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

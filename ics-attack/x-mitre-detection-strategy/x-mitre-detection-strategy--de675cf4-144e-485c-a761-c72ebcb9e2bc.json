@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--ce4e51d7-b397-4b02-89d2-de048d863436",
+    "id": "bundle--52eaa39c-5418-478d-90c7-e76523abe610",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-detection-strategy",
-            "spec_version": "2.1",
             "id": "x-mitre-detection-strategy--de675cf4-144e-485c-a761-c72ebcb9e2bc",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -19,9 +19,10 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-05-12T16:34:50.695Z",
             "name": "Detection of Hardcoded Credentials",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -29,8 +30,7 @@
             ],
             "x_mitre_analytic_refs": [
                 "x-mitre-analytic--b337bf06-d69b-41e0-8e60-8f24cb718998"
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

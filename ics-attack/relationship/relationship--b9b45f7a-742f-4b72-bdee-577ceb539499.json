@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5cea1c19-b278-4cb2-bb61-15ac845a8419",
+    "id": "bundle--8273b0c6-19c6-4952-a1bd-48e3ef3245ab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T18:46:02.040Z",
+            "modified": "2026-04-29T14:23:06.178Z",
             "description": "[PLC-Blaster](https://attack.mitre.org/software/S1006) scans the network to find other Siemens S7 PLC devices to infect. It locates these devices by checking for a service listening on TCP port 102.(Citation: Spenneberg, Ralf, Maik Brggemann, and Hendrik Schwartke March 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--4dcff507-5af8-47ce-964a-8d9569e9ccfe",

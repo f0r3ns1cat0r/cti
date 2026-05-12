@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3f894862-a3a2-4a20-97c3-42227df0579d",
+    "id": "bundle--40a67fae-bbff-4601-a852-c3cb4e2780b6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:04:39.776Z",
+            "modified": "2026-04-29T14:23:06.073Z",
             "description": "In [Industroyer](https://attack.mitre.org/software/S0604) the first COM port from the configuration file is used for the actual communication and the two other COM ports are just opened to prevent other processes accessing them. Thus, the IEC 101 payload component is able to take over and maintain control of the RTU device. (Citation: Anton Cherepanov, ESET June 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--e401d4fe-f0c9-44f0-98e6-f93487678808",

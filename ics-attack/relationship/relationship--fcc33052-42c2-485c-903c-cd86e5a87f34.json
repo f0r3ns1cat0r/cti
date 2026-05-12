@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a382e590-3132-4030-b4c4-403c66ac9c19",
+    "id": "bundle--4cba64c6-c559-4d09-8d96-617e36ae7800",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T23:01:26.160Z",
+            "modified": "2026-04-29T14:23:06.268Z",
             "description": "[INCONTROLLER](https://attack.mitre.org/software/S1045) can login to Omron PLCs using hardcoded credentials, which is documented in CVE-2022-34151.(Citation: Wylie-22) ",
             "relationship_type": "uses",
             "source_ref": "malware--d3aa1058-b1b3-4c29-a3ba-9a9b90ccd93b",

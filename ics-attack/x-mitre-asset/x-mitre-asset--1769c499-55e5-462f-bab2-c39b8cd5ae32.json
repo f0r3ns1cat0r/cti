@@ -1,11 +1,10 @@
 {
     "type": "bundle",
-    "id": "bundle--7f6f79a8-94d8-4c35-b56a-8fe0c4b21107",
+    "id": "bundle--f540c2e1-1bf2-4198-bde2-8eb42f74eff3",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "x-mitre-asset",
-            "spec_version": "2.1",
             "id": "x-mitre-asset--1769c499-55e5-462f-bab2-c39b8cd5ae32",
             "created": "2023-09-28T14:44:54.756Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -20,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T00:58:18.239Z",
+            "modified": "2026-05-12T15:12:00.768Z",
             "name": "Remote Terminal Unit (RTU)",
             "description": "A Remote Terminal Unit (RTU) is a device that typically resides between field devices (e.g., PLCs, IEDs) and control/SCADA servers and supports various communication interfacing and data aggregation functions. RTUs are typically responsible for forwarding commands from the control server and the collection of telemetry, events, and alerts from the field devices. An RTU can be implemented as a dedicated embedded device, as software platform that runs on a hardened/ruggedized computer, or using a custom application program on a PLC.",
             "x_mitre_sectors": [

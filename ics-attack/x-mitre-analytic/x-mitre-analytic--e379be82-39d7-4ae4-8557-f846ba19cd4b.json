@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0f9f67b9-f67b-433e-a7a6-9cd00de4abb8",
+    "id": "bundle--a83ff532-aea7-4336-907e-777de02ea8d6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:34:02.964Z",
+            "modified": "2026-05-12T16:30:18.383Z",
             "name": "Analytic 2056",
             "description": "Monitor device alarms for program downloads, although not all devices produce such alarms.\n\nMonitor for protocol functions related to program download or modification. Program downloads may be observable in ICS automation protocols and remote management protocols.\n\nConsult asset management systems to understand expected program versions.\n\nMonitor devices configuration logs which may contain alerts that indicate whether a program download has occurred. Devices may maintain application logs that indicate whether a full program download, online edit, or program append function has occurred.\n",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

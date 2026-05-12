@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--75b89ca7-a086-40ad-b4de-cf60f828ddf9",
+    "id": "bundle--777842ce-13f4-4f0a-9d27-6cbcb6bbee9a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T19:47:33.610Z",
+            "modified": "2026-05-12T15:12:00.777Z",
             "name": "User Account Authentication",
             "description": "An attempt (successful and failed login attempts) by a user, service, or application to gain access to a network, system, or cloud-based resource. This typically involves credentials such as passwords, tokens, multi-factor authentication (MFA), or biometric validation.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

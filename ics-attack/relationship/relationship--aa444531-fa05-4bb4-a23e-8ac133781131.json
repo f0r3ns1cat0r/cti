@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f5f87977-7ff2-4f18-ad22-2b27647222ca",
+    "id": "bundle--8c7eb1d5-ed12-494c-b437-99ecaf45575e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T13:42:51.920Z",
+            "modified": "2026-04-29T14:23:06.157Z",
             "description": "[Stuxnet](https://attack.mitre.org/software/S0603) copies itself into Step 7 projects in such a way that it automatically executes when the Step 7 project is loaded. (Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)",
             "relationship_type": "uses",
             "source_ref": "malware--088f1d6e-0783-47c6-9923-9c79b2af43d4",

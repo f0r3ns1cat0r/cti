@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--30f9b3d5-c188-443e-82c7-0c9f7a515301",
+    "id": "bundle--ed9ba1f2-2a7a-48fb-88b6-abd1383db3a7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T16:31:55.578Z",
+            "modified": "2026-04-29T14:23:06.084Z",
             "description": "Use network intrusion detection/prevention systems to detect and prevent port scans.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--3172222b-4983-43f7-8983-753ded4f13bc",

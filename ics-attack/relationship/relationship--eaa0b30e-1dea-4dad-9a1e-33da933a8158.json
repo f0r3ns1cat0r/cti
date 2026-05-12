@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0c46a610-eea9-4f8e-be2e-3f38bc5edbaf",
+    "id": "bundle--2d82af8a-1291-4650-985f-f71fd857ff06",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:25:11.687Z",
+            "modified": "2026-04-29T14:23:06.244Z",
             "description": "Devices should verify that firmware has been properly signed by the vendor before allowing installation.\n",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--71eb7dad-07eb-4bbc-9df0-ac57bf2fba4a",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--381b55f7-4a09-47cb-afc5-1e18b8f369bc",
+    "id": "bundle--78c8dc77-2961-437b-bc3c-3f3004e600d7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T17:34:27.166Z",
+            "modified": "2026-04-29T14:23:06.200Z",
             "description": "Filter for protocols and payloads associated with program download activity to prevent unauthorized device configurations.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--11f242bc-3121-438c-84b2-5cbd46a4bb17",

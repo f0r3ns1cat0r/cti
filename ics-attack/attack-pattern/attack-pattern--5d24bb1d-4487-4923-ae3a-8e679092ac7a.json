@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6c66f19b-3e5d-4e66-98e0-6837f8837986",
+    "id": "bundle--103396d8-dd00-4119-8540-1f693cb0d82a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T19:41:07.822Z",
+            "modified": "2026-05-12T15:12:00.635Z",
             "name": "Port Scan",
             "description": "Adversaries may perform a port scan on a system, device, or network to identify live hosts, enumerate open ports and running services, identify operating systems, and map out the network.(Citation: NIST SP 800-82r3) The results of a port scan may inform adversary [Discovery](https://attack.mitre.org/tactics/TA0102), [Lateral Movement](https://attack.mitre.org/tactics/TA0109), and vulnerability exploitation decisions ([Exploitation for Evasion](https://attack.mitre.org/techniques/T0820), [Exploitation for Privilege Escalation](https://attack.mitre.org/techniques/T0890), [Exploitation of Remote Services](https://attack.mitre.org/techniques/T0866)). \n\nSome common tools for executing a port scan include `nmap`, `netcat`, and the Advanced Port Scanner.\n",
             "kill_chain_phases": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--66cad171-2feb-4a86-bc86-a21918ac341f",
+    "id": "bundle--61a9aa9e-eb8b-4c38-bf38-b97ea689e732",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-24T20:33:56.808Z",
+            "modified": "2026-05-12T16:30:18.378Z",
             "name": "Analytic 2045",
             "description": "Unauthorized messages may be detected by reviewing the content of automation protocols, either through detecting based on expected values or comparing to other out of band process data sources. Unauthorized messages may not precisely match legitimate messages which may lead to malformed traffic, although traffic may be malformed for benign reasons. Monitor messages for changes in how they are constructed.\n\nMonitor for anomalous or unexpected messages that may result in changes to the process operation observable via asset application logs (e.g., discrete write, logic and device configuration, mode changes, safety triggers).\n\nConsider monitoring for [Rogue Master](https://attack.mitre.org/techniques/T0848) and [Adversary-in-the-Middle](https://attack.mitre.org/techniques/T0830) activity which may precede this technique.\n",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",

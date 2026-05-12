@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--97b34632-8057-4f11-a926-5c6daf9467a9",
+    "id": "bundle--5e881e69-1fee-4c3b-aec4-118f0dd4b878",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "relationship--3ab912a4-70aa-45f8-b2ef-57113dde2cfa",
             "created": "2020-09-21T17:59:24.739Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "CISA March 2010",
@@ -18,14 +19,14 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-28T15:25:10.956Z",
+            "modified": "2026-04-29T14:23:06.001Z",
             "description": "Do not inherently rely on the authenticity provided by the network/link layer (e.g., 802.11, LTE, 802.15.4), as link layer equipment may have long lifespans and protocol vulnerabilities may not be easily patched. Provide defense-in-depth by implementing authenticity within the associated application-layer protocol, or through a network-layer VPN. (Citation: CISA March 2010)  Furthermore, ensure communication schemes provide strong replay protection, employing techniques such as timestamps or cryptographic nonces.\n",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--c7257b6e-4159-4771-b1f3-2bb93adaecac",
             "target_ref": "attack-pattern--2877063e-1851-48d2-bcc6-bc1d2733157e",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

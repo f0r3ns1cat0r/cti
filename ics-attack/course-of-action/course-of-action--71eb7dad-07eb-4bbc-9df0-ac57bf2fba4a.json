@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1f2a69bf-f42b-401b-bd66-b58f79236b74",
+    "id": "bundle--bcd3f6b6-178f-4ecd-8873-2085378cffdc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T00:54:56.965Z",
+            "modified": "2026-05-12T15:12:00.731Z",
             "name": "Code Signing",
             "description": "Enforce binary and application integrity with digital signature verification to prevent untrusted code from executing.",
             "labels": [

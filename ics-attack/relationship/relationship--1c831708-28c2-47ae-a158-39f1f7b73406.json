@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--01325d39-244f-4500-938e-17b209a3e467",
+    "id": "bundle--f2ddec40-5258-41dc-857a-5752cecf7d8c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T14:12:46.565Z",
+            "modified": "2026-04-29T14:23:05.943Z",
             "description": "[Industroyer](https://attack.mitre.org/software/S0604) contains an OPC DA module that enumerates all OPC servers using the `ICatInformation::EnumClassesOfCategories` method with `CATID_OPCDAServer20` category identifier and `IOPCServer::GetStatus` to identify the ones running.",
             "relationship_type": "uses",
             "source_ref": "malware--e401d4fe-f0c9-44f0-98e6-f93487678808",

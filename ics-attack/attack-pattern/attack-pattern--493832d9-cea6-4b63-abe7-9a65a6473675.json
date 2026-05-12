@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e6f7c299-6fb2-47fe-b781-73037c978396",
+    "id": "bundle--56e8677e-fdc2-4df5-9516-6b7c3f4b5be2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:26:14.108Z",
+            "modified": "2026-05-12T15:12:00.630Z",
             "name": "Data Destruction",
             "description": "Adversaries may perform data destruction over the course of an operation. The adversary may drop or create malware, tools, or other non-native files on a target system to accomplish this, potentially leaving behind traces of malicious activities. Such non-native files and other data may be removed over the course of an intrusion to maintain a small footprint or as a standard part of the post-intrusion cleanup process. (Citation: Enterprise ATT&CK January 2018)\n\nData destruction may also be used to render operator interfaces unable to respond and to disrupt response functions from occurring as expected. An adversary may also destroy data backups that are vital to recovery after an incident.\n\nStandard file deletion commands are available on most operating system and device interfaces to perform cleanup, but adversaries may use other tools as well. Two examples are Windows Sysinternals SDelete and Active@ Killdisk.",
             "kill_chain_phases": [
@@ -33,7 +33,7 @@
                     "phase_name": "inhibit-response-function"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_contributors": [
                 "Matan Dobrushin - Otorio"
             ],

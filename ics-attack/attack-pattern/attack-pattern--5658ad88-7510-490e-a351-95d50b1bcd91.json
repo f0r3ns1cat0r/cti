@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--16d068bb-eed3-490d-9370-547dd254c675",
+    "id": "bundle--0c136e47-7ceb-4fd7-86fb-72766f6c1ccc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T19:30:36.158Z",
+            "modified": "2026-05-12T15:12:00.634Z",
             "name": "Default Credentials",
             "description": "Adversaries may leverage manufacturer or supplier set default credentials on control system devices. These default credentials may have administrative permissions and may be necessary for initial configuration of the device. It is general best practice to change the passwords for these accounts as soon as possible, but some manufacturers may have devices that have passwords or usernames that cannot be changed.(Citation: Keith Stouffer May 2015)\n\nDefault credentials are normally documented in an instruction manual that is either packaged with the device, published online through official means, or published online through unofficial means. Adversaries may leverage default credentials that have not been properly modified or disabled.",
             "kill_chain_phases": [

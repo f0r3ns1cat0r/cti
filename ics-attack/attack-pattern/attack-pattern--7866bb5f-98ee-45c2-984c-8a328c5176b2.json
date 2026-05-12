@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--01fedaa5-4dda-4e59-9661-106e9248b227",
+    "id": "bundle--ede7b5dd-9e16-4e8f-8783-0dec0182b90e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-23T18:52:34.062Z",
+            "modified": "2026-05-12T15:12:00.643Z",
             "name": "Reporting Message",
             "description": "Adversaries may block or prevent a reporting message from reaching its intended target. In control systems, reporting messages contain telemetry data (e.g., I/O values) pertaining to the current state of equipment and the industrial process. By blocking these reporting messages, an adversary can potentially hide their actions from an operator.\n\nBlocking reporting messages in control systems that manage physical processes may contribute to system impact, causing inhibition of a response function. A control system may not be able to respond in a proper or timely manner to an event, such as a dangerous fault, if its corresponding reporting message is blocked.(Citation: Bonnie Zhu, Anthony Joseph, Shankar Sastry 2011)(Citation: Electricity Information Sharing and Analysis Center; SANS Industrial Control Systems March 2016)",
             "kill_chain_phases": [
